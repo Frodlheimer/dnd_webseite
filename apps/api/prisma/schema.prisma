@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  DM
+  PLAYER
+  SPECTATOR
+}
+
+model User {
+  id              String       @id @default(cuid())
+  email           String?      @unique
+  createdAt       DateTime     @default(now())
+  dmRooms         Room[]       @relation("RoomDM")
+  roomMemberships RoomMember[]
+  actedEvents     Event[]      @relation("EventActor")
+}
+
+model Room {
+  id         String       @id @default(cuid())
+  name       String
+  dmUserId   String?
+  joinSecret String?
+  isPublic   Boolean      @default(false)
+  createdAt  DateTime     @default(now())
+  dmUser     User?        @relation("RoomDM", fields: [dmUserId], references: [id], onDelete: SetNull)
+  members    RoomMember[]
+  snapshots  Snapshot[]
+  events     Event[]
+
+  @@index([dmUserId])
+}
+
+model RoomMember {
+  id          String   @id @default(cuid())
+  roomId      String
+  userId      String?
+  role        Role
+  displayName String
+  createdAt   DateTime @default(now())
+  room        Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([roomId])
+  @@index([userId])
+}
+
+model Snapshot {
+  id        String   @id @default(cuid())
+  roomId    String
+  createdAt DateTime @default(now())
+  stateJson Json
+  room      Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+
+  @@index([roomId, createdAt])
+}
+
+model Event {
+  id          String   @id @default(cuid())
+  roomId      String
+  seq         Int
+  type        String
+  payloadJson Json
+  createdAt   DateTime @default(now())
+  actorUserId String?
+  room        Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  actorUser   User?    @relation("EventActor", fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@unique([roomId, seq])
+  @@index([roomId, createdAt])
+  @@index([actorUserId])
+}
