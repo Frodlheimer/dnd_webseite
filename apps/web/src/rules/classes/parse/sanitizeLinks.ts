@@ -25,14 +25,14 @@ export const sanitizeLinks = (input: string): string => {
     const text = sanitizeLinkText(rawText);
     const url = rawUrl.trim();
     if (/wikidot/i.test(url)) {
-      return text;
+      return text.length > 0 ? ` ${text} ` : ' ';
     }
 
     if (text.length > 0) {
-      return text;
+      return ` ${text} `;
     }
 
-    return '';
+    return ' ';
   });
 
   return removeWikidotUrls(withoutMarkers);

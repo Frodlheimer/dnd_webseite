@@ -1,0 +1,1003 @@
+[
+  {
+    "type": "CLASS",
+    "name": "Artificer",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/artificer",
+    "file": "CLASS__Artificer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Alchemist",
+    "parent_class": "Artificer",
+    "url": "https://dnd5e.wikidot.com/artificer:alchemist",
+    "file": "SUBCLASS_Artificer_Alchemist.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Armorer",
+    "parent_class": "Artificer",
+    "url": "https://dnd5e.wikidot.com/artificer:armorer",
+    "file": "SUBCLASS_Artificer_Armorer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Artillerist",
+    "parent_class": "Artificer",
+    "url": "https://dnd5e.wikidot.com/artificer:artillerist",
+    "file": "SUBCLASS_Artificer_Artillerist.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Battle Smith",
+    "parent_class": "Artificer",
+    "url": "https://dnd5e.wikidot.com/artificer:battle-smith",
+    "file": "SUBCLASS_Artificer_Battle_Smith.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Barbarian",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/barbarian",
+    "file": "CLASS__Barbarian.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Ancestral Guardian",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:ancestral-guardian",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Ancestral_Guardian.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Battlerager",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:battlerager",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Battlerager.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Beast",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:beast",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Beast.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Berserker",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:berserker",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Berserker.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Giant",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:giant",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Giant.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Storm Herald",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:storm-herald",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Storm_Herald.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Totem Warrior",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:totem-warrior",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Totem_Warrior.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of Wild Magic",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:wild-magic",
+    "file": "SUBCLASS_Barbarian_Path_of_Wild_Magic.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Path of the Zealot",
+    "parent_class": "Barbarian",
+    "url": "https://dnd5e.wikidot.com/barbarian:zealot",
+    "file": "SUBCLASS_Barbarian_Path_of_the_Zealot.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Bard",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/bard",
+    "file": "CLASS__Bard.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Creation",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:creation",
+    "file": "SUBCLASS_Bard_College_of_Creation.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Eloquence",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:eloquence",
+    "file": "SUBCLASS_Bard_College_of_Eloquence.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Glamour",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:glamour",
+    "file": "SUBCLASS_Bard_College_of_Glamour.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Lore",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:lore",
+    "file": "SUBCLASS_Bard_College_of_Lore.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Spirits",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:spirits",
+    "file": "SUBCLASS_Bard_College_of_Spirits.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Swords",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:swords",
+    "file": "SUBCLASS_Bard_College_of_Swords.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Valor",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:valor",
+    "file": "SUBCLASS_Bard_College_of_Valor.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "College of Whispers",
+    "parent_class": "Bard",
+    "url": "https://dnd5e.wikidot.com/bard:whispers",
+    "file": "SUBCLASS_Bard_College_of_Whispers.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Blood Hunter",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/blood-hunter",
+    "file": "CLASS__Blood_Hunter.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order of the Ghostslayer",
+    "parent_class": "Blood Hunter",
+    "url": "https://dnd5e.wikidot.com/blood-hunter:ghostslayer",
+    "file": "SUBCLASS_Blood_Hunter_Order_of_the_Ghostslayer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order of the Lycan",
+    "parent_class": "Blood Hunter",
+    "url": "https://dnd5e.wikidot.com/blood-hunter:lycan",
+    "file": "SUBCLASS_Blood_Hunter_Order_of_the_Lycan.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order of the Mutant",
+    "parent_class": "Blood Hunter",
+    "url": "https://dnd5e.wikidot.com/blood-hunter:mutant",
+    "file": "SUBCLASS_Blood_Hunter_Order_of_the_Mutant.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order of the Profane Soul",
+    "parent_class": "Blood Hunter",
+    "url": "https://dnd5e.wikidot.com/blood-hunter:profane-soul",
+    "file": "SUBCLASS_Blood_Hunter_Order_of_the_Profane_Soul.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Cleric",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/cleric",
+    "file": "CLASS__Cleric.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Arcana Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:arcana",
+    "file": "SUBCLASS_Cleric_Arcana_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Death Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:death",
+    "file": "SUBCLASS_Cleric_Death_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Forge Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:forge",
+    "file": "SUBCLASS_Cleric_Forge_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Grave Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:grave",
+    "file": "SUBCLASS_Cleric_Grave_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Knowledge Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:knowledge",
+    "file": "SUBCLASS_Cleric_Knowledge_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Life Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:life",
+    "file": "SUBCLASS_Cleric_Life_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Light Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:light",
+    "file": "SUBCLASS_Cleric_Light_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Nature Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:nature",
+    "file": "SUBCLASS_Cleric_Nature_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:order",
+    "file": "SUBCLASS_Cleric_Order_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Peace Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:peace",
+    "file": "SUBCLASS_Cleric_Peace_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Tempest Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:tempest",
+    "file": "SUBCLASS_Cleric_Tempest_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Trickery Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:trickery",
+    "file": "SUBCLASS_Cleric_Trickery_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Twilight Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:twilight",
+    "file": "SUBCLASS_Cleric_Twilight_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "War Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:war",
+    "file": "SUBCLASS_Cleric_War_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(Amonkhet) Ambition Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:ambition",
+    "file": "SUBCLASS_Cleric_Amonkhet_Ambition_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(Amonkhet) Solidarity Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:solidarity",
+    "file": "SUBCLASS_Cleric_Amonkhet_Solidarity_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(Amonkhet) Strength Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:strength",
+    "file": "SUBCLASS_Cleric_Amonkhet_Strength_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(Amonkhet) Zeal Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:zeal",
+    "file": "SUBCLASS_Cleric_Amonkhet_Zeal_Domain.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(UA) Fate Domain",
+    "parent_class": "Cleric",
+    "url": "https://dnd5e.wikidot.com/cleric:fate-ua",
+    "file": "SUBCLASS_Cleric_UA_Fate_Domain.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Druid",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/druid",
+    "file": "CLASS__Druid.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of Dreams",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:dreams",
+    "file": "SUBCLASS_Druid_Circle_of_Dreams.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of the Land",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:land",
+    "file": "SUBCLASS_Druid_Circle_of_the_Land.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of the Moon",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:moon",
+    "file": "SUBCLASS_Druid_Circle_of_the_Moon.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of the Shepherd",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:shepherd",
+    "file": "SUBCLASS_Druid_Circle_of_the_Shepherd.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of Spores",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:spores",
+    "file": "SUBCLASS_Druid_Circle_of_Spores.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of Stars",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:stars",
+    "file": "SUBCLASS_Druid_Circle_of_Stars.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Circle of Wildfire",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:wildfire",
+    "file": "SUBCLASS_Druid_Circle_of_Wildfire.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(UA) Circle of the Primeval",
+    "parent_class": "Druid",
+    "url": "https://dnd5e.wikidot.com/druid:primeval-ua",
+    "file": "SUBCLASS_Druid_UA_Circle_of_the_Primeval.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Fighter",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/fighter",
+    "file": "CLASS__Fighter.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Arcane Archer",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:arcane-archer",
+    "file": "SUBCLASS_Fighter_Arcane_Archer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Banneret",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:banneret",
+    "file": "SUBCLASS_Fighter_Banneret.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Battle Master",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:battle-master",
+    "file": "SUBCLASS_Fighter_Battle_Master.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Cavalier",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:cavalier",
+    "file": "SUBCLASS_Fighter_Cavalier.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Champion",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:champion",
+    "file": "SUBCLASS_Fighter_Champion.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Echo Knight",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:echo-knight",
+    "file": "SUBCLASS_Fighter_Echo_Knight.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Eldritch Knight",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:eldritch-knight",
+    "file": "SUBCLASS_Fighter_Eldritch_Knight.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Psi Warrior",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:psi-warrior",
+    "file": "SUBCLASS_Fighter_Psi_Warrior.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Rune Knight",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:rune-knight",
+    "file": "SUBCLASS_Fighter_Rune_Knight.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Samurai",
+    "parent_class": "Fighter",
+    "url": "https://dnd5e.wikidot.com/fighter:samurai",
+    "file": "SUBCLASS_Fighter_Samurai.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Monk",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/monk",
+    "file": "CLASS__Monk.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of Mercy",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:mercy",
+    "file": "SUBCLASS_Monk_Way_of_Mercy.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Ascendant Dragon",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:ascendant-dragon",
+    "file": "SUBCLASS_Monk_Way_of_the_Ascendant_Dragon.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Astral Self",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:astral-self",
+    "file": "SUBCLASS_Monk_Way_of_the_Astral_Self.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Drunken Master",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:drunken-master",
+    "file": "SUBCLASS_Monk_Way_of_the_Drunken_Master.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Four Elements",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:four-elements",
+    "file": "SUBCLASS_Monk_Way_of_the_Four_Elements.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Kensei",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:kensei",
+    "file": "SUBCLASS_Monk_Way_of_the_Kensei.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Long Death",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:long-death",
+    "file": "SUBCLASS_Monk_Way_of_the_Long_Death.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Open Hand",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:open-hand",
+    "file": "SUBCLASS_Monk_Way_of_the_Open_Hand.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of Shadow",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:shadow",
+    "file": "SUBCLASS_Monk_Way_of_Shadow.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Way of the Sun Soul",
+    "parent_class": "Monk",
+    "url": "https://dnd5e.wikidot.com/monk:sun-soul",
+    "file": "SUBCLASS_Monk_Way_of_the_Sun_Soul.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Paladin",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/paladin",
+    "file": "CLASS__Paladin.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of the Ancients",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:ancients",
+    "file": "SUBCLASS_Paladin_Oath_of_the_Ancients.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of Conquest",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:conquest",
+    "file": "SUBCLASS_Paladin_Oath_of_Conquest.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of the Crown",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:crown",
+    "file": "SUBCLASS_Paladin_Oath_of_the_Crown.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of Devotion",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:devotion",
+    "file": "SUBCLASS_Paladin_Oath_of_Devotion.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of Glory",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:glory",
+    "file": "SUBCLASS_Paladin_Oath_of_Glory.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of Redemption",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:redemption",
+    "file": "SUBCLASS_Paladin_Oath_of_Redemption.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of Vengeance",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:vengeance",
+    "file": "SUBCLASS_Paladin_Oath_of_Vengeance.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oath of the Watchers",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:watchers",
+    "file": "SUBCLASS_Paladin_Oath_of_the_Watchers.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Oathbreaker",
+    "parent_class": "Paladin",
+    "url": "https://dnd5e.wikidot.com/paladin:oathbreaker",
+    "file": "SUBCLASS_Paladin_Oathbreaker.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Ranger",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/ranger",
+    "file": "CLASS__Ranger.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Beast Master Conclave",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:beast-master",
+    "file": "SUBCLASS_Ranger_Beast_Master_Conclave.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Drakewarden",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:drakewarden",
+    "file": "SUBCLASS_Ranger_Drakewarden.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Fey Wanderer",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:fey-wanderer",
+    "file": "SUBCLASS_Ranger_Fey_Wanderer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Gloom Stalker Conclave",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:gloom-stalker",
+    "file": "SUBCLASS_Ranger_Gloom_Stalker_Conclave.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Horizon Walker Conclave",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:horizon-walker",
+    "file": "SUBCLASS_Ranger_Horizon_Walker_Conclave.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Hunter Conclave",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:hunter",
+    "file": "SUBCLASS_Ranger_Hunter_Conclave.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Monster Slayer Conclave",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:monster-slayer",
+    "file": "SUBCLASS_Ranger_Monster_Slayer_Conclave.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Swarmkeeper",
+    "parent_class": "Ranger",
+    "url": "https://dnd5e.wikidot.com/ranger:swarmkeeper",
+    "file": "SUBCLASS_Ranger_Swarmkeeper.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Rogue",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/rogue",
+    "file": "CLASS__Rogue.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Arcane Trickster",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:arcane-trickster",
+    "file": "SUBCLASS_Rogue_Arcane_Trickster.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Assassin",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:assassin",
+    "file": "SUBCLASS_Rogue_Assassin.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Inquisitive",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:inquisitive",
+    "file": "SUBCLASS_Rogue_Inquisitive.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Mastermind",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:mastermind",
+    "file": "SUBCLASS_Rogue_Mastermind.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Phantom",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:phantom",
+    "file": "SUBCLASS_Rogue_Phantom.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Scout",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:scout",
+    "file": "SUBCLASS_Rogue_Scout.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Soulknife",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:soulknife",
+    "file": "SUBCLASS_Rogue_Soulknife.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Swashbuckler",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:swashbuckler",
+    "file": "SUBCLASS_Rogue_Swashbuckler.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Thief",
+    "parent_class": "Rogue",
+    "url": "https://dnd5e.wikidot.com/rogue:thief",
+    "file": "SUBCLASS_Rogue_Thief.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Sorcerer",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/sorcerer",
+    "file": "CLASS__Sorcerer.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Aberrant Mind",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:aberrant-mind",
+    "file": "SUBCLASS_Sorcerer_Aberrant_Mind.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Clockwork Soul",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:clockwork-soul",
+    "file": "SUBCLASS_Sorcerer_Clockwork_Soul.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Draconic Bloodline",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:draconic-bloodline",
+    "file": "SUBCLASS_Sorcerer_Draconic_Bloodline.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Divine Soul",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:divine-soul",
+    "file": "SUBCLASS_Sorcerer_Divine_Soul.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Lunar Sorcery",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:lunar-sorcery",
+    "file": "SUBCLASS_Sorcerer_Lunar_Sorcery.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Shadow Magic",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:shadow-magic",
+    "file": "SUBCLASS_Sorcerer_Shadow_Magic.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Storm Sorcery",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:storm-sorcery",
+    "file": "SUBCLASS_Sorcerer_Storm_Sorcery.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Wild Magic",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:wild-magic",
+    "file": "SUBCLASS_Sorcerer_Wild_Magic.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "(Kaladesh) Pyromancy",
+    "parent_class": "Sorcerer",
+    "url": "https://dnd5e.wikidot.com/sorcerer:pyromancy",
+    "file": "SUBCLASS_Sorcerer_Kaladesh_Pyromancy.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Warlock",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/warlock",
+    "file": "CLASS__Warlock.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Archfey",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:archfey",
+    "file": "SUBCLASS_Warlock_The_Archfey.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Celestial",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:celestial",
+    "file": "SUBCLASS_Warlock_The_Celestial.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Fathomless",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:fathomless",
+    "file": "SUBCLASS_Warlock_The_Fathomless.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Fiend",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:fiend",
+    "file": "SUBCLASS_Warlock_The_Fiend.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Genie",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:the-genie",
+    "file": "SUBCLASS_Warlock_The_Genie.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Great Old One",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:great-old-one",
+    "file": "SUBCLASS_Warlock_The_Great_Old_One.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Hexblade",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:hexblade",
+    "file": "SUBCLASS_Warlock_The_Hexblade.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Undead",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:undead",
+    "file": "SUBCLASS_Warlock_The_Undead.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "The Undying",
+    "parent_class": "Warlock",
+    "url": "https://dnd5e.wikidot.com/warlock:undying",
+    "file": "SUBCLASS_Warlock_The_Undying.json"
+  },
+  {
+    "type": "CLASS",
+    "name": "Wizard",
+    "parent_class": null,
+    "url": "https://dnd5e.wikidot.com/wizard",
+    "file": "CLASS__Wizard.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Abjuration",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:abjuration",
+    "file": "SUBCLASS_Wizard_School_of_Abjuration.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Bladesinging",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:bladesinging",
+    "file": "SUBCLASS_Wizard_School_of_Bladesinging.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Chronurgy",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:chronurgy",
+    "file": "SUBCLASS_Wizard_School_of_Chronurgy.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Conjuration",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:conjuration",
+    "file": "SUBCLASS_Wizard_School_of_Conjuration.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Divination",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:divination",
+    "file": "SUBCLASS_Wizard_School_of_Divination.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Enchantment",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:enchantment",
+    "file": "SUBCLASS_Wizard_School_of_Enchantment.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Evocation",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:evocation",
+    "file": "SUBCLASS_Wizard_School_of_Evocation.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Graviturgy",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:graviturgy",
+    "file": "SUBCLASS_Wizard_School_of_Graviturgy.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Illusion",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:illusion",
+    "file": "SUBCLASS_Wizard_School_of_Illusion.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Necromancy",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:necromancy",
+    "file": "SUBCLASS_Wizard_School_of_Necromancy.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "Order of Scribes",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:order-of-scribes",
+    "file": "SUBCLASS_Wizard_Order_of_Scribes.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of Transmutation",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:transmutation",
+    "file": "SUBCLASS_Wizard_School_of_Transmutation.json"
+  },
+  {
+    "type": "SUBCLASS",
+    "name": "School of War Magic",
+    "parent_class": "Wizard",
+    "url": "https://dnd5e.wikidot.com/wizard:war-magic",
+    "file": "SUBCLASS_Wizard_School_of_War_Magic.json"
+  }
+]

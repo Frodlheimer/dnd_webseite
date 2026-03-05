@@ -1,0 +1,666 @@
+{
+  "type": "SUBCLASS",
+  "name": "(UA) Fate Domain",
+  "parent_class": "Cleric",
+  "url": "https://dnd5e.wikidot.com/cleric:fate-ua",
+  "page_title": "(UA) Fate Domain",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "blockquote",
+      "br",
+      "code",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Gods of fate perceive the future and how the choices mortals make drive them toward their destinies. Some deities consider the future preordained, while others understand the multiverse as a place of infinite possibility. Clerics who draw power from the forces of fate sometimes receive visions directly from their deity and receive fleeting omens of the future. They share impossible knowledge with their allies and prophesize their enemies' doom."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fate Domain Deities"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Example Deity"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pantheon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Savras"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Forgotten Realms"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Istus"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Greyhawk"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gilean"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragonlance"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Labelas Enorath"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Elven"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Unearthed Arcana 85 - Wonders of the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fate Domain Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cleric Level"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dissonant Whispers"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Heroism"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3rd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "See Invisibility"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Warding Bond"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beacon of Hope"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Clairvoyance"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "7th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Death Ward"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Divination"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "9th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Commune"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Geas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Omens and Portents"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 1st level, you can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the "
+          },
+          {
+            "type": "text",
+            "text": "Augury"
+          },
+          {
+            "type": "text",
+            "text": " spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, until you finish a long rest, when you cast a "
+          },
+          {
+            "type": "text",
+            "text": "divination"
+          },
+          {
+            "type": "text",
+            "text": " spell that includes a chance the DM gives you no answer or a random reading—such as "
+          },
+          {
+            "type": "text",
+            "text": "Augury"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "Commune"
+          },
+          {
+            "type": "text",
+            "text": ", or "
+          },
+          {
+            "type": "text",
+            "text": "Divination"
+          },
+          {
+            "type": "text",
+            "text": "—reduce that chance by 25 percent."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ties That Bind"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 1st level, you can temporarily tie your fate to others. As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target’s location, and you know the direction of its movement if it is in motion."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can use this feature’s action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Channel Divinity: Strands of Fate"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 2nd level, you can use your Channel Divinity to see and manipulate the strands of fate that weave around other individuals. As a bonus action, you can enter this state for up to 1 minute or until you lose your concentration (as if you were concentrating on a spell). For the duration, whenever another creature you can see makes an attack roll or an ability check, you can use a reaction to give the roll advantage or disadvantage (your choice)."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Insightful Striking"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 6th level, as a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target’s defenses. Until the end of your next turn, you gain one of the following effects of your choice:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "The next time you make an attack roll against the target, roll a d6 and add the number rolled to the total."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "The next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Potent Spellcasting"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Visions of the Future"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 17th level, your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the "
+          },
+          {
+            "type": "text",
+            "text": "Foresight"
+          },
+          {
+            "type": "text",
+            "text": " spell once without expending a spell slot; when you cast the spell in this way, the spell’s duration is 1 minute for that casting. Once you cast the spell in this way, you can’t do so again until you finish a long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Gods of fate perceive the future and how the choices mortals make drive them toward their destinies. Some deities consider the future preordained, while others understand the multiverse as a place of infinite possibility. Clerics who draw power from the forces of fate sometimes receive visions directly from their deity and receive fleeting omens of the future. They share impossible knowledge with their allies and prophesize their enemies' doom.</p>\n<table>\n<tr>\n<th>Fate Domain Deities</th>\n</tr>\n<tr>\n<th>Example Deity</th>\n<th>Pantheon</th>\n</tr>\n<tr>\n<td>Savras</td>\n<td>Forgotten Realms</td>\n</tr>\n<tr>\n<td>Istus</td>\n<td>Greyhawk</td>\n</tr>\n<tr>\n<td>Gilean</td>\n<td>Dragonlance</td>\n</tr>\n<tr>\n<td>Labelas Enorath</td>\n<td>Elven</td>\n</tr>\n</table>\n\n\n\n<p>Source: Unearthed Arcana 85 - Wonders of the Multiverse</p>\n<table>\n<tr>\n<th>Fate Domain Spells</th>\n</tr>\n<tr>\n<th>Cleric Level</th>\n<th>Spells</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Dissonant Whispers, Heroism</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>See Invisibility, Warding Bond</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Beacon of Hope, Clairvoyance</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>Death Ward, Divination</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>Commune, Geas</td>\n</tr>\n</table>\n<h3>Omens and Portents</h3>\n<p>At 1st level, you can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the Augury spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.</p>\n<p>In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading—such as Augury, Commune, or Divination—reduce that chance by 25 percent.</p>\n<h3>Ties That Bind</h3>\n<p>At 1st level, you can temporarily tie your fate to others. As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target’s location, and you know the direction of its movement if it is in motion.</p>\n<p>In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled.</p>\n<p>You can use this feature’s action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>\n<h3>Channel Divinity: Strands of Fate</h3>\n<p>At 2nd level, you can use your Channel Divinity to see and manipulate the strands of fate that weave around other individuals. As a bonus action, you can enter this state for up to 1 minute or until you lose your concentration (as if you were concentrating on a spell). For the duration, whenever another creature you can see makes an attack roll or an ability check, you can use a reaction to give the roll advantage or disadvantage (your choice).</p>\n<h3>Insightful Striking</h3>\n<p>At 6th level, as a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target’s defenses. Until the end of your next turn, you gain one of the following effects of your choice:</p>\n<ul>\n<li>The next time you make an attack roll against the target, roll a d6 and add the number rolled to the total.</li>\n</ul>\n<ul>\n<li>The next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw.</li>\n</ul>\n<p>You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>\n<h3>Potent Spellcasting</h3>\n<p>At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>\n<h3>Visions of the Future</h3>\n<p>At 17th level, your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the Foresight spell once without expending a spell slot; when you cast the spell in this way, the spell’s duration is 1 minute for that casting. Once you cast the spell in this way, you can’t do so again until you finish a long rest.</p>\n\n\n\n</div>"
+  }
+}

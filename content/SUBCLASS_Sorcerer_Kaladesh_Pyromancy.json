@@ -1,0 +1,160 @@
+{
+  "type": "SUBCLASS",
+  "name": "(Kaladesh) Pyromancy",
+  "parent_class": "Sorcerer",
+  "url": "https://dnd5e.wikidot.com/sorcerer:pyromancy",
+  "page_title": "(Kaladesh) Pyromancy",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "blockquote",
+      "br",
+      "code",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your innate magic manifests in fire. You are your fire, and your fire is you."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Although this Sorcerous Origin was created for MTG, it is not tied to a specific setting or story, meaning its flavor is open to any setting and story. Regardless, ask your DM before using it."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "HB"
+          },
+          {
+            "type": "text",
+            "text": " You could easily create mages of other elements by swapping out the Pyromancer's fire damage and fire resistance for damage and resistance of other elements. For instance, you could create a cryomancer by replacing fire with cold, or an electromancer by replacing fire with lightning. As always, ask your DM before doing so."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Plane Shift - Kaladesh"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Heart of Fire"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 1st level, whenever you start casting a spell of 1st level or higher that deals fire damage, fiery magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take fire damage equal to half your sorcerer level (minimum of 1)."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Fire in the Veins"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 6th level, you gain resistance to fire damage. In addition, spells you cast ignore resistance to fire damage."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Pyromancer's Fury"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Fiery Soul"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "At 18th level, you gain immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Your innate magic manifests in fire. You are your fire, and your fire is you.</p>\n<p>Although this Sorcerous Origin was created for MTG, it is not tied to a specific setting or story, meaning its flavor is open to any setting and story. Regardless, ask your DM before using it.</p>\n<p>HB You could easily create mages of other elements by swapping out the Pyromancer's fire damage and fire resistance for damage and resistance of other elements. For instance, you could create a cryomancer by replacing fire with cold, or an electromancer by replacing fire with lightning. As always, ask your DM before doing so.</p>\n\n\n\n<p>Source: Plane Shift - Kaladesh</p>\n<h3>Heart of Fire</h3>\n<p>At 1st level, whenever you start casting a spell of 1st level or higher that deals fire damage, fiery magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take fire damage equal to half your sorcerer level (minimum of 1).</p>\n<h3>Fire in the Veins</h3>\n<p>At 6th level, you gain resistance to fire damage. In addition, spells you cast ignore resistance to fire damage.</p>\n<h3>Pyromancer's Fury</h3>\n<p>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage.</p>\n<h3>Fiery Soul</h3>\n<p>At 18th level, you gain immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage.</p>\n\n\n\n</div>"
+  }
+}

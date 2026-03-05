@@ -4,8 +4,8 @@
 import type { SpellsPack } from '../types';
 
 export const spellsPack: SpellsPack = {
-  "generatedAt": "2026-03-05T10:31:48.029Z",
-  "count": 574,
+  "generatedAt": "2026-03-05T12:53:48.840Z",
+  "count": 524,
   "metas": [
     {
       "slug": "abi-dalzims-horrid-wilting",
@@ -123,44 +123,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "acid splash"
-    },
-    {
-      "slug": "acid-stream",
-      "name": "Acid Stream",
-      "source": "Unearthed Arcana 70 - Spells and Magic Tattoos",
-      "level": 1,
-      "levelLabel": "1st-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (30-foot line)",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a bit of rotten food)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:evocation",
-        "source:unearthed-arcana-70---spells-and-magic-tattoos",
-        "target:area"
-      ],
-      "nameNormalized": "acid stream"
     },
     {
       "slug": "aganazzars-scorcher",
@@ -600,47 +562,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "antagonize"
     },
     {
-      "slug": "antagonize-ua",
-      "name": "Antagonize Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "30 feet",
-      "duration": "Instantaneous",
-      "components": "V, S, M (a playing card depicting a rogue)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:3",
-        "school:enchantment",
-        "source:unearthed-arcana-85---wonders-of-the-multiverse",
-        "target:single"
-      ],
-      "nameNormalized": "antagonize ua"
-    },
-    {
       "slug": "antilife-shell",
       "name": "Antilife Shell",
       "source": "Player's Handbook",
@@ -830,49 +751,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "arcane gate"
     },
     {
-      "slug": "arcane-hacking",
-      "name": "Arcane Hacking",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (hacking tools)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:2",
-        "school:transmutation",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:self",
-        "technomagic"
-      ],
-      "nameNormalized": "arcane hacking"
-    },
-    {
       "slug": "arcane-lock",
       "name": "Arcane Lock",
       "source": "Player's Handbook",
@@ -908,41 +786,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "arcane lock"
-    },
-    {
-      "slug": "arcane-weapon",
-      "name": "Arcane Weapon",
-      "source": "Unearthed Arcana 60 - The Artificer Returns",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S",
-      "classes": [
-        "Artificer"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:artificer",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:transmutation",
-        "source:unearthed-arcana-60---the-artificer-returns",
-        "target:self"
-      ],
-      "nameNormalized": "arcane weapon"
     },
     {
       "slug": "armor-of-agathys",
@@ -2955,49 +2798,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "commune"
     },
     {
-      "slug": "commune-with-city",
-      "name": "Commune With City",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 5,
-      "levelLabel": "5th-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R",
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:5",
-        "ritual",
-        "school:divination",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:self",
-        "technomagic"
-      ],
-      "nameNormalized": "commune with city"
-    },
-    {
       "slug": "commune-with-nature",
       "name": "Commune With Nature",
       "source": "Player's Handbook",
@@ -3268,42 +3068,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "conjure animals"
     },
     {
-      "slug": "conjure-barlgura",
-      "name": "Conjure Barlgura",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Up to 10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:4",
-        "school:conjuration",
-        "source:unearthed-arcana-11---that-old-black-magic",
-        "target:single"
-      ],
-      "nameNormalized": "conjure barlgura"
-    },
-    {
       "slug": "conjure-barrage",
       "name": "Conjure Barrage",
       "source": "Player's Handbook",
@@ -3449,123 +3213,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "conjure fey"
     },
     {
-      "slug": "conjure-hezrou",
-      "name": "Conjure Hezrou",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 7,
-      "levelLabel": "7th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (food worth at least 100 gp, which the spell consumes)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:7",
-        "school:conjuration",
-        "source:unearthed-arcana-11---that-old-black-magic",
-        "target:single"
-      ],
-      "nameNormalized": "conjure hezrou"
-    },
-    {
-      "slug": "conjure-knowbot",
-      "name": "Conjure Knowbot",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:4",
-        "school:conjuration",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "conjure knowbot"
-    },
-    {
-      "slug": "conjure-lesser-demon",
-      "name": "Conjure Lesser Demon",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:conjuration",
-        "source:unearthed-arcana-11---that-old-black-magic",
-        "target:single"
-      ],
-      "nameNormalized": "conjure lesser demon"
-    },
-    {
       "slug": "conjure-minor-elementals",
       "name": "Conjure Minor Elementals",
       "source": "Player's Handbook",
@@ -3603,44 +3250,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "conjure minor elementals"
     },
     {
-      "slug": "conjure-shadow-demon",
-      "name": "Conjure Shadow Demon",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:4",
-        "school:conjuration",
-        "source:unearthed-arcana-11---that-old-black-magic",
-        "target:single"
-      ],
-      "nameNormalized": "conjure shadow demon"
-    },
-    {
       "slug": "conjure-volley",
       "name": "Conjure Volley",
       "source": "Player's Handbook",
@@ -3674,44 +3283,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "conjure volley"
-    },
-    {
-      "slug": "conjure-vrock",
-      "name": "Conjure Vrock",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 5,
-      "levelLabel": "5th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a gem worth at least 100 gp, which the spell consumes)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:5",
-        "school:conjuration",
-        "source:unearthed-arcana-11---that-old-black-magic",
-        "target:single"
-      ],
-      "nameNormalized": "conjure vrock"
     },
     {
       "slug": "conjure-woodland-beings",
@@ -5193,49 +4764,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "detect thoughts"
     },
     {
-      "slug": "digital-phantom",
-      "name": "Digital Phantom",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a small piece of copper wire)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:2",
-        "school:abjuration",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:self",
-        "technomagic"
-      ],
-      "nameNormalized": "digital phantom"
-    },
-    {
       "slug": "dimension-door",
       "name": "Dimension Door",
       "source": "Player's Handbook",
@@ -5779,46 +5307,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "draconic transformation"
     },
     {
-      "slug": "draconic-transformation-ua",
-      "name": "Draconic Transformation Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 7,
-      "levelLabel": "7th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a statuette of a dragon,",
-      "classes": [
-        "Druid",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:druid",
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:7",
-        "school:transmutation",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:area"
-      ],
-      "nameNormalized": "draconic transformation ua"
-    },
-    {
       "slug": "dragons-breath",
       "name": "Dragons Breath",
       "source": "Xanathar's Guide to Everything",
@@ -6203,46 +5691,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "earthquake"
-    },
-    {
-      "slug": "ego-whip",
-      "name": "Ego Whip",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "30 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:4",
-        "school:enchantment",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:single"
-      ],
-      "nameNormalized": "ego whip"
     },
     {
       "slug": "eldritch-blast",
@@ -7411,49 +6859,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "find traps"
     },
     {
-      "slug": "find-vehicle",
-      "name": "Find Vehicle",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "10 minutes",
-      "range": "30 feet",
-      "duration": "8 hours",
-      "components": "V, S",
-      "classes": [
-        "Paladin",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:paladin",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:2",
-        "school:conjuration",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "find vehicle"
-    },
-    {
       "slug": "finger-of-death",
       "name": "Finger Of Death",
       "source": "Player's Handbook",
@@ -7645,44 +7050,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "fireball"
     },
     {
-      "slug": "fizban-s-platinum-shield-ua",
-      "name": "Fizban S Platinum Shield Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 6,
-      "levelLabel": "6th-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a platinum-plated dragon scale, worth at least 500 gp)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:6",
-        "school:abjuration",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:single"
-      ],
-      "nameNormalized": "fizban s platinum shield ua"
-    },
-    {
       "slug": "fizbans-platinum-shield",
       "name": "Fizbans Platinum Shield",
       "source": "Fizban's Treasury of Dragons",
@@ -7800,47 +7167,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "flame blade"
-    },
-    {
-      "slug": "flame-stride",
-      "name": "Flame Stride",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 3,
-      "levelLabel": "3rd-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Artificer",
-        "Ranger",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:artificer",
-        "class:ranger",
-        "class:sorcerer",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:transmutation",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:self"
-      ],
-      "nameNormalized": "flame stride"
     },
     {
       "slug": "flame-strike",
@@ -9395,50 +8721,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "guiding bolt"
     },
     {
-      "slug": "guiding-hand-ua",
-      "name": "Guiding Hand Ua",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "5 feet",
-      "duration": "Concentration, up to 8 hours",
-      "components": "V, S",
-      "classes": [
-        "Bard",
-        "Cleric",
-        "Druid",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R"
-      ],
-      "tags": [
-        "class:bard",
-        "class:cleric",
-        "class:druid",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "ritual",
-        "school:divination",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "guiding hand ua"
-    },
-    {
       "slug": "gust",
       "name": "Gust",
       "source": "Xanathar's Guide to Everything",
@@ -9630,41 +8912,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "hallucinatory terrain"
     },
     {
-      "slug": "hand-of-radiance",
-      "name": "Hand Of Radiance",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 0,
-      "levelLabel": "Evocation cantrip",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "5 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Cleric"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "cantrip",
-        "class:cleric",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:0",
-        "school:evocation",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "hand of radiance"
-    },
-    {
       "slug": "harm",
       "name": "Harm",
       "source": "Player's Handbook",
@@ -9739,48 +8986,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "haste"
     },
     {
-      "slug": "haywire",
-      "name": "Haywire",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "90 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:enchantment",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:area",
-        "technomagic"
-      ],
-      "nameNormalized": "haywire"
-    },
-    {
       "slug": "heal",
       "name": "Heal",
       "source": "Player's Handbook",
@@ -9815,43 +9020,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "heal"
-    },
-    {
-      "slug": "healing-elixir-ua",
-      "name": "Healing Elixir Ua",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "24 hours",
-      "components": "V, S, M (alchemist's supplies)",
-      "classes": [
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:1",
-        "school:conjuration",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:self"
-      ],
-      "nameNormalized": "healing elixir ua"
     },
     {
       "slug": "healing-spirit",
@@ -10275,47 +9443,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "holy weapon"
     },
     {
-      "slug": "house-of-cards-ua",
-      "name": "House Of Cards Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 minute",
-      "range": "Touch",
-      "duration": "24 hours",
-      "components": "V, S, M (a deck of cards)",
-      "classes": [
-        "Artificer",
-        "Bard",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:artificer",
-        "class:bard",
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:3",
-        "school:conjuration",
-        "source:unearthed-arcana-85---wonders-of-the-multiverse",
-        "target:single"
-      ],
-      "nameNormalized": "house of cards ua"
-    },
-    {
       "slug": "hunger-of-hadar",
       "name": "Hunger Of Hadar",
       "source": "Player's Handbook",
@@ -10502,81 +9629,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "ice storm"
-    },
-    {
-      "slug": "icingdeath-s-frost",
-      "name": "Icingdeath S Frost",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 2,
-      "levelLabel": "2nd-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (15-foot cone)",
-      "duration": "Instantaneous",
-      "components": "S, M (a vial of meltwater)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "concentration:no",
-        "level:2",
-        "school:evocation",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:area"
-      ],
-      "nameNormalized": "icingdeath s frost"
-    },
-    {
-      "slug": "id-insinuation",
-      "name": "ID Insinuation",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:enchantment",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:single"
-      ],
-      "nameNormalized": "id insinuation"
     },
     {
       "slug": "identify",
@@ -10888,49 +9940,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "incite greed"
-    },
-    {
-      "slug": "infallible-relay",
-      "name": "Infallible Relay",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V, S, M (a mobile phone)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:divination",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:self",
-        "technomagic"
-      ],
-      "nameNormalized": "infallible relay"
     },
     {
       "slug": "infernal-calling",
@@ -11335,49 +10344,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "invisibility"
-    },
-    {
-      "slug": "invisibility-to-cameras",
-      "name": "Invisibility To Cameras",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "10 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a scrap of black paper)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:illusion",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "invisibility to cameras"
     },
     {
       "slug": "invulnerability",
@@ -13063,43 +12029,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "mending"
     },
     {
-      "slug": "mental-barrier",
-      "name": "Mental Barrier",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 reaction, which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw",
-      "range": "Self",
-      "duration": "1 round",
-      "components": "V",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:v",
-        "concentration:no",
-        "level:2",
-        "school:abjuration",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:self"
-      ],
-      "nameNormalized": "mental barrier"
-    },
-    {
       "slug": "mental-prison",
       "name": "Mental Prison",
       "source": "Xanathar's Guide to Everything",
@@ -13361,44 +12290,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "mind spike"
-    },
-    {
-      "slug": "mind-thrust",
-      "name": "Mind Thrust",
-      "source": "Unearthed Arcana 71 - Psionic Options Revisited",
-      "level": 2,
-      "levelLabel": "2nd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 bonus action",
-      "range": "60 feet",
-      "duration": "1 round",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:2",
-        "school:enchantment",
-        "source:unearthed-arcana-71---psionic-options-revisited",
-        "target:single"
-      ],
-      "nameNormalized": "mind thrust"
     },
     {
       "slug": "minor-illusion",
@@ -13969,45 +12860,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "nathairs mischief"
     },
     {
-      "slug": "nathairs-mischief-ua",
-      "name": "Nathairs Mischief Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 2,
-      "levelLabel": "2nd-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "S, M (a piece of crust from an apple pie)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "concentration",
-        "concentration:yes",
-        "level:2",
-        "school:illusion",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:area"
-      ],
-      "nameNormalized": "nathairs mischief ua"
-    },
-    {
       "slug": "negative-energy-flood",
       "name": "Negative Energy Flood",
       "source": "Xanathar's Guide to Everything",
@@ -14116,90 +12968,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "nystuls magic aura"
-    },
-    {
-      "slug": "on-off",
-      "name": "On Off",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 0,
-      "levelLabel": "Transmutation cantrip",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "cantrip",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:0",
-        "school:transmutation",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "on off"
-    },
-    {
-      "slug": "otherworldly-form",
-      "name": "Otherworldly Form",
-      "source": "Unearthed Arcana 70 - Spells and Magic Tattoos",
-      "level": 6,
-      "levelLabel": "6th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (an object engraved with a symbol of the Outer Planes, worth at least 500 gp)",
-      "classes": [
-        "Cleric",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:cleric",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:6",
-        "school:transmutation",
-        "source:unearthed-arcana-70---spells-and-magic-tattoos",
-        "target:self"
-      ],
-      "nameNormalized": "otherworldly form"
     },
     {
       "slug": "otilukes-freezing-sphere",
@@ -15226,49 +13994,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "project image"
     },
     {
-      "slug": "protection-from-ballistics",
-      "name": "Protection From Ballistics",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V, S, M (a shell casing)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:abjuration",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "protection from ballistics"
-    },
-    {
       "slug": "protection-from-energy",
       "name": "Protection From Energy",
       "source": "Player's Handbook",
@@ -15400,81 +14125,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "protection from poison"
     },
     {
-      "slug": "psionic-blast",
-      "name": "Psionic Blast",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 3,
-      "levelLabel": "3rd-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (30-foot cone)",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:v",
-        "concentration:no",
-        "level:3",
-        "school:evocation",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:area"
-      ],
-      "nameNormalized": "psionic blast"
-    },
-    {
-      "slug": "psychic-crush",
-      "name": "Psychic Crush",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 6,
-      "levelLabel": "6th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:6",
-        "school:enchantment",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:single"
-      ],
-      "nameNormalized": "psychic crush"
-    },
-    {
       "slug": "psychic-scream",
       "name": "Psychic Scream",
       "source": "Xanathar's Guide to Everything",
@@ -15549,43 +14199,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "pulse wave"
-    },
-    {
-      "slug": "puppet",
-      "name": "Puppet",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:warlock",
-        "class:wizard",
-        "components:v",
-        "concentration:no",
-        "level:1",
-        "school:enchantment",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "puppet"
     },
     {
       "slug": "purify-food-and-drink",
@@ -15787,45 +14400,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "raulothims psychic lance"
-    },
-    {
-      "slug": "raulothims-psychic-lance-ua",
-      "name": "Raulothims Psychic Lance Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:v",
-        "concentration:no",
-        "level:4",
-        "school:enchantment",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:single"
-      ],
-      "nameNormalized": "raulothims psychic lance ua"
     },
     {
       "slug": "ravenous-void",
@@ -16094,47 +14668,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "reincarnate"
-    },
-    {
-      "slug": "remote-access",
-      "name": "Remote Access",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:1",
-        "school:transmutation",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "remote access"
     },
     {
       "slug": "remove-curse",
@@ -16792,45 +15325,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "sending"
     },
     {
-      "slug": "sense-emotion",
-      "name": "Sense Emotion",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Bard",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:divination",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:self"
-      ],
-      "nameNormalized": "sense emotion"
-    },
-    {
       "slug": "sequester",
       "name": "Sequester",
       "source": "Player's Handbook",
@@ -17205,48 +15699,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "shocking grasp"
-    },
-    {
-      "slug": "shutdown",
-      "name": "Shutdown",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 5,
-      "levelLabel": "5th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:5",
-        "school:transmutation",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "shutdown"
     },
     {
       "slug": "sickening-radiance",
@@ -18071,46 +16523,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "spirit of death"
     },
     {
-      "slug": "spirit-of-death-ua",
-      "name": "Spirit Of Death Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 4,
-      "levelLabel": "4th-level Necromancy",
-      "school": "Necromancy",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a gilded playing card depicting an avatar of death worth at least 400 gp)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:4",
-        "school:necromancy",
-        "source:unearthed-arcana-85---wonders-of-the-multiverse",
-        "target:single"
-      ],
-      "nameNormalized": "spirit of death ua"
-    },
-    {
       "slug": "spirit-shroud",
       "name": "Spirit Shroud",
       "source": "Tasha's Cauldron of Everything",
@@ -18225,47 +16637,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "spray of cards"
-    },
-    {
-      "slug": "spray-of-cards-ua",
-      "name": "Spray Of Cards Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 2,
-      "levelLabel": "2nd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "15-foot cone",
-      "duration": "Instantaneous",
-      "components": "V, S, M (a deck of cards)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:2",
-        "school:conjuration",
-        "source:unearthed-arcana-85---wonders-of-the-multiverse",
-        "target:area"
-      ],
-      "nameNormalized": "spray of cards ua"
     },
     {
       "slug": "staggering-smite",
@@ -18535,45 +16906,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "storm sphere"
     },
     {
-      "slug": "sudden-awakening",
-      "name": "Sudden Awakening",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 bonus action",
-      "range": "10 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Ranger",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "class:ranger",
-        "class:sorcerer",
-        "class:wizard",
-        "components:v",
-        "concentration:no",
-        "level:1",
-        "school:enchantment",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "sudden awakening"
-    },
-    {
       "slug": "suggestion",
       "name": "Suggestion",
       "source": "Player's Handbook",
@@ -18805,46 +17137,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "summon draconic spirit"
-    },
-    {
-      "slug": "summon-draconic-spirit-ua",
-      "name": "Summon Draconic Spirit Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 5,
-      "levelLabel": "5th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (an art object from a dragon's hoard, worth at least 500 gp)",
-      "classes": [
-        "Druid",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:druid",
-        "class:sorcerer",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:5",
-        "school:conjuration",
-        "source:unearthed-arcana-78---draconic-options",
-        "target:single"
-      ],
-      "nameNormalized": "summon draconic spirit ua"
     },
     {
       "slug": "summon-elemental",
@@ -19119,52 +17411,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "summon undead"
     },
     {
-      "slug": "summon-warrior-spirit",
-      "name": "Summon Warrior Spirit",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "90 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a gilded playing card depicting a knight worth at least 300 gp)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard",
-        "Fighter",
-        "Monk",
-        "Barbarian"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:barbarian",
-        "class:fighter",
-        "class:monk",
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:3",
-        "school:conjuration",
-        "source:unearthed-arcana-85---wonders-of-the-multiverse",
-        "target:single"
-      ],
-      "nameNormalized": "summon warrior spirit"
-    },
-    {
       "slug": "sunbeam",
       "name": "Sunbeam",
       "source": "Player's Handbook",
@@ -19403,91 +17649,6 @@ export const spellsPack: SpellsPack = {
         "target:area"
       ],
       "nameNormalized": "synaptic static"
-    },
-    {
-      "slug": "synchronicity",
-      "name": "Synchronicity",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:4",
-        "school:enchantment",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:single",
-        "technomagic"
-      ],
-      "nameNormalized": "synchronicity"
-    },
-    {
-      "slug": "system-backdoor",
-      "name": "System Backdoor",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (hacking tools)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:m",
-        "components:s",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:4",
-        "school:transmutation",
-        "source:unearthed-arcana-7---modern-magic",
-        "target:self",
-        "technomagic"
-      ],
-      "nameNormalized": "system backdoor"
     },
     {
       "slug": "tashas-caustic-brew",
@@ -20049,44 +18210,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "thorn whip"
-    },
-    {
-      "slug": "thought-shield",
-      "name": "Thought Shield",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "8 hours",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:sorcerer",
-        "class:warlock",
-        "class:wizard",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:2",
-        "school:abjuration",
-        "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-        "target:single"
-      ],
-      "nameNormalized": "thought shield"
     },
     {
       "slug": "thunder-step",
@@ -20781,40 +18904,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "tsunami"
     },
     {
-      "slug": "unearthly-chorus",
-      "name": "Unearthly Chorus",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "Self (30-foot radius)",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V",
-      "classes": [
-        "Bard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "class:bard",
-        "components:v",
-        "concentration",
-        "concentration:yes",
-        "level:1",
-        "school:illusion",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:area"
-      ],
-      "nameNormalized": "unearthly chorus"
-    },
-    {
       "slug": "unseen-servant",
       "name": "Unseen Servant",
       "source": "Player's Handbook",
@@ -20928,41 +19017,6 @@ export const spellsPack: SpellsPack = {
         "target:single"
       ],
       "nameNormalized": "vicious mockery"
-    },
-    {
-      "slug": "virtue",
-      "name": "Virtue",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 0,
-      "levelLabel": "Abjuration cantrip",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "1 round",
-      "components": "V, S",
-      "classes": [
-        "Cleric"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "tags": [
-        "cantrip",
-        "class:cleric",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:0",
-        "school:abjuration",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "virtue"
     },
     {
       "slug": "vitriolic-sphere",
@@ -21709,45 +19763,6 @@ export const spellsPack: SpellsPack = {
       "nameNormalized": "whirlwind"
     },
     {
-      "slug": "wild-cunning",
-      "name": "Wild Cunning",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Druid",
-        "Ranger"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R"
-      ],
-      "tags": [
-        "class:druid",
-        "class:ranger",
-        "components:s",
-        "components:v",
-        "concentration:no",
-        "level:1",
-        "ritual",
-        "school:transmutation",
-        "source:unearthed-arcana-36---starter-spells",
-        "target:single"
-      ],
-      "nameNormalized": "wild cunning"
-    },
-    {
       "slug": "wind-walk",
       "name": "Wind Walk",
       "source": "Player's Handbook",
@@ -22290,38 +20305,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
     },
-    "acid-stream": {
-      "slug": "acid-stream",
-      "name": "Acid Stream",
-      "source": "Unearthed Arcana 70 - Spells and Magic Tattoos",
-      "level": 1,
-      "levelLabel": "1st-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (30-foot line)",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a bit of rotten food)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 3d4 acid damage at the start of each of its turns.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 3d4 acid damage at the start of each of its turns."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st."
-    },
     "aganazzars-scorcher": {
       "slug": "aganazzars-scorcher",
       "name": "Aganazzars Scorcher",
@@ -22787,40 +20770,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d4 for each slot level above 3rd."
     },
-    "antagonize-ua": {
-      "slug": "antagonize-ua",
-      "name": "Antagonize Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "30 feet",
-      "duration": "Instantaneous",
-      "components": "V, S, M (a playing card depicting a rogue)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, it takes 4d4 psychic damage and must immediately use its reaction, if available, to make a melee attack against another creature of your choice that you can see. If no other creature is within range, the target has disadvantage on the next attack roll it makes before the start of your next turn.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, it takes 4d4 psychic damage and must immediately use its reaction, if available, to make a melee attack against another creature of your choice that you can see. If no other creature is within range, the target has disadvantage on the next attack roll it makes before the start of your next turn."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d4 for each slot level above 3rd."
-    },
     "antilife-shell": {
       "slug": "antilife-shell",
       "name": "Antilife Shell",
@@ -23028,45 +20977,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "arcane-hacking": {
-      "slug": "arcane-hacking",
-      "name": "Arcane Hacking",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (hacking tools)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "You gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system.\n\nThis spell also allows you to break 2nd level and lower protective spells such as Arcane Lock or Glyph of Warding by making an Intelligence check using hacking tools against the spell save DC of the spell's caster.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system."
-        },
-        {
-          "type": "paragraph",
-          "text": "This spell also allows you to break 2nd level and lower protective spells such as Arcane Lock or Glyph of Warding by making an Intelligence check using hacking tools against the spell save DC of the spell's caster."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot you used."
-    },
     "arcane-lock": {
       "slug": "arcane-lock",
       "name": "Arcane Lock",
@@ -23106,41 +21016,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": null
-    },
-    "arcane-weapon": {
-      "slug": "arcane-weapon",
-      "name": "Arcane Weapon",
-      "source": "Unearthed Arcana 60 - The Artificer Returns",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S",
-      "classes": [
-        "Artificer"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You channel arcane energy into one simple or martial weapon you're holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the spell ends, you deal an extra 1d6 damage of the chosen type to any target you hit with the weapon. If the weapon isn't magical, it becomes a magic weapon for the spell's duration.\n\nAs a bonus action, you can change the damage type, choosing from the options above.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You channel arcane energy into one simple or martial weapon you're holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the spell ends, you deal an extra 1d6 damage of the chosen type to any target you hit with the weapon. If the weapon isn't magical, it becomes a magic weapon for the spell's duration."
-        },
-        {
-          "type": "paragraph",
-          "text": "As a bonus action, you can change the damage type, choosing from the options above."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can maintain your concentration on the spell for up to 8 hours."
     },
     "armor-of-agathys": {
       "slug": "armor-of-agathys",
@@ -25133,61 +23008,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "commune-with-city": {
-      "slug": "commune-with-city",
-      "name": "Commune With City",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 5,
-      "levelLabel": "5th-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R",
-        "T"
-      ],
-      "description": "You briefly become one with the city and gain knowledge of the surrounding area. Aboveground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you.\n\nYou instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:\n\n- Terrain and bodies of water\n\n- Prevalent buildings, plants, animals, or intelligent creatures\n\n- Powerful (CR 1 or higher) celestials, fey, fiends, elementals, or undead\n\n- Influences from other planes of existence\n\n- Electrical currents, wireless signals, and active transit lines and tracks\n\nFor example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or interference, and the location of any nearby parks.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You briefly become one with the city and gain knowledge of the surrounding area. Aboveground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you."
-        },
-        {
-          "type": "paragraph",
-          "text": "You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "Terrain and bodies of water",
-            "Prevalent buildings, plants, animals, or intelligent creatures",
-            "Powerful (CR 1 or higher) celestials, fey, fiends, elementals, or undead",
-            "Influences from other planes of existence",
-            "Electrical currents, wireless signals, and active transit lines and tracks"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "For example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or interference, and the location of any nearby parks."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "commune-with-nature": {
       "slug": "commune-with-nature",
       "name": "Commune With Nature",
@@ -25506,46 +23326,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
     },
-    "conjure-barlgura": {
-      "slug": "conjure-barlgura",
-      "name": "Conjure Barlgura",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Up to 10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You summon a barlgura that appears in an unoccupied space you can see within range. The barlgura disappears when it drops to 0 hit points or when the spell ends.\n\nThe barlgura is hostile to all non-demons. Roll initiative for the barlgura, which has its own turns. At the start of its turn, it moves toward and attacks the nearest non-demon it can perceive. If two or more creatures are equally near, it picks one at random. If it cannot see any potential enemies, the barlgura moves in a random direction in search of foes.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned barlgura cannot cross the circle or target anyone in it while the spell lasts.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon a barlgura that appears in an unoccupied space you can see within range. The barlgura disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The barlgura is hostile to all non-demons. Roll initiative for the barlgura, which has its own turns. At the start of its turn, it moves toward and attacks the nearest non-demon it can perceive. If two or more creatures are equally near, it picks one at random. If it cannot see any potential enemies, the barlgura moves in a random direction in search of foes."
-        },
-        {
-          "type": "paragraph",
-          "text": "As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned barlgura cannot cross the circle or target anyone in it while the spell lasts."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "conjure-barrage": {
       "slug": "conjure-barrage",
       "name": "Conjure Barrage",
@@ -25692,133 +23472,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th."
     },
-    "conjure-hezrou": {
-      "slug": "conjure-hezrou",
-      "name": "Conjure Hezrou",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 7,
-      "levelLabel": "7th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (food worth at least 100 gp, which the spell consumes)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You summon a hezrou that appears in an unoccupied space you can see within range. The hezrou disappears when it drops to 0 hit points or when the spell ends.\n\nThe hezrou's attitude depends on the value of the food used as a material component for this spell. Roll initiative for the hezrou, which has its own turns. At the start of the hezrou's turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the food's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the hezrou and have it obey you as long as you succeed on the Charisma check.\n\nIf the check fails, the spell no longer requires concentration and the demon is no longer under your control. The hezrou then focuses on devouring any corpses it can see. If there are no such meals at hand, it attacks the nearest creatures and eats anything it kills. If its hit points are reduced to below half its hit point maximum, it returns to the Abyss.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned hezrou cannot cross the circle or target anyone in it while the spell lasts.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon a hezrou that appears in an unoccupied space you can see within range. The hezrou disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The hezrou's attitude depends on the value of the food used as a material component for this spell. Roll initiative for the hezrou, which has its own turns. At the start of the hezrou's turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the food's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the hezrou and have it obey you as long as you succeed on the Charisma check."
-        },
-        {
-          "type": "paragraph",
-          "text": "If the check fails, the spell no longer requires concentration and the demon is no longer under your control. The hezrou then focuses on devouring any corpses it can see. If there are no such meals at hand, it attacks the nearest creatures and eats anything it kills. If its hit points are reduced to below half its hit point maximum, it returns to the Abyss."
-        },
-        {
-          "type": "paragraph",
-          "text": "As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned hezrou cannot cross the circle or target anyone in it while the spell lasts."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "conjure-knowbot": {
-      "slug": "conjure-knowbot",
-      "name": "Conjure Knowbot",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "You touch a single computerized device or computer system to conjure a knowbot-a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses including your proficiency with hacking tools, if applicable.\n\nYou have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in 2d4 rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond.\n\nThe knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You touch a single computerized device or computer system to conjure a knowbot-a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses including your proficiency with hacking tools, if applicable."
-        },
-        {
-          "type": "paragraph",
-          "text": "You have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in 2d4 rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond."
-        },
-        {
-          "type": "paragraph",
-          "text": "The knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires."
-    },
-    "conjure-lesser-demon": {
-      "slug": "conjure-lesser-demon",
-      "name": "Conjure Lesser Demon",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You summon up to a total of eight manes or dretches that appear in unoccupied spaces you can see within range. A manes or dretch disappears when it drops to 0 hit points or when the spell ends.\n\nThe demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non-demons to the best of their ability.\n\nAs part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon up to a total of eight manes or dretches that appear in unoccupied spaces you can see within range. A manes or dretch disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non-demons to the best of their ability."
-        },
-        {
-          "type": "paragraph",
-          "text": "As part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-two demons."
-    },
     "conjure-minor-elementals": {
       "slug": "conjure-minor-elementals",
       "name": "Conjure Minor Elementals",
@@ -25869,46 +23522,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
     },
-    "conjure-shadow-demon": {
-      "slug": "conjure-shadow-demon",
-      "name": "Conjure Shadow Demon",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 4,
-      "levelLabel": "4th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You summon a shadow demon that appears in an unoccupied space you can see within range. The shadow demon disappears when it drops to 0 hit points or when the spell ends.\n\nRoll initiative for the shadow demon, which has its own turns. You can issue orders to the shadow demon, and it obeys you as long as it can attack a creature on each of its turns and does not start its turn in an area of bright light. If either of these conditions is not met, the shadow demon immediately makes a Charisma check contested by your Charisma check. If you fail the check, the spell no longer requires concentration and the demon is no longer under your control. The demon automatically succeeds on the check if it is more than 100 feet away from you.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned shadow demon cannot cross the circle or target anyone in it while the spell lasts.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon a shadow demon that appears in an unoccupied space you can see within range. The shadow demon disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "Roll initiative for the shadow demon, which has its own turns. You can issue orders to the shadow demon, and it obeys you as long as it can attack a creature on each of its turns and does not start its turn in an area of bright light. If either of these conditions is not met, the shadow demon immediately makes a Charisma check contested by your Charisma check. If you fail the check, the spell no longer requires concentration and the demon is no longer under your control. The demon automatically succeeds on the check if it is more than 100 feet away from you."
-        },
-        {
-          "type": "paragraph",
-          "text": "As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned shadow demon cannot cross the circle or target anyone in it while the spell lasts."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "conjure-volley": {
       "slug": "conjure-volley",
       "name": "Conjure Volley",
@@ -25936,50 +23549,6 @@ export const spellsPack: SpellsPack = {
         {
           "type": "paragraph",
           "text": "You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius, 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "conjure-vrock": {
-      "slug": "conjure-vrock",
-      "name": "Conjure Vrock",
-      "source": "Unearthed Arcana 11 - That Old Black Magic",
-      "level": 5,
-      "levelLabel": "5th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a gem worth at least 100 gp, which the spell consumes)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends.\n\nThe vrock's attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the vrock, which has its own turns. At the start of the vrock's turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the vrock and have it obey you as long as you succeed on the Charisma check.\n\nIf the check fails, the spell no longer requires concentration and the vrock is no longer under your control. The vrock takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the vrock the most expensive gem can command it for the next 1d6 rounds. At the end of that time, it offers the bargain again. If no one offers the vrock treasure before its next turn begins, it attacks the nearest creatures for 1d6 rounds before returning to the Abyss.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned vrock cannot cross the circle or target anyone in it while the spell lasts.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The vrock's attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the vrock, which has its own turns. At the start of the vrock's turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the vrock and have it obey you as long as you succeed on the Charisma check."
-        },
-        {
-          "type": "paragraph",
-          "text": "If the check fails, the spell no longer requires concentration and the vrock is no longer under your control. The vrock takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the vrock the most expensive gem can command it for the next 1d6 rounds. At the end of that time, it offers the bargain again. If no one offers the vrock treasure before its next turn begins, it attacks the nearest creatures for 1d6 rounds before returning to the Abyss."
-        },
-        {
-          "type": "paragraph",
-          "text": "As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned vrock cannot cross the circle or target anyone in it while the spell lasts."
         }
       ],
       "atHigherLevels": null
@@ -27574,41 +25143,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "digital-phantom": {
-      "slug": "digital-phantom",
-      "name": "Digital Phantom",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a small piece of copper wire)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "dimension-door": {
       "slug": "dimension-door",
       "name": "Dimension Door",
@@ -28176,48 +25710,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "draconic-transformation-ua": {
-      "slug": "draconic-transformation-ua",
-      "name": "Draconic Transformation Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 7,
-      "levelLabel": "7th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a statuette of a dragon,",
-      "classes": [
-        "Druid",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "With a roar, you draw on the magic of dragons to transform yourself, taking on various draconic features. You gain the following benefits until the spell ends:\n\n- You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you. - Incorporeal wings sprout from your back, giving you a flying speed of 40 feet. - When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale a breath of shimmering energy in a 30-foot cone. Each creature in the area must make a Dexterity saving throw, taking 3d8 force damage on a failed save or half as much damage on a successful one.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "With a roar, you draw on the magic of dragons to transform yourself, taking on various draconic features. You gain the following benefits until the spell ends:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.",
-            "Incorporeal wings sprout from your back, giving you a flying speed of 40 feet.",
-            "When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale a breath of shimmering energy in a 30-foot cone. Each creature in the area must make a Dexterity saving throw, taking 3d8 force damage on a failed save or half as much damage on a successful one."
-          ]
-        }
-      ],
-      "atHigherLevels": null
-    },
     "dragons-breath": {
       "slug": "dragons-breath",
       "name": "Dragons Breath",
@@ -28647,40 +26139,6 @@ export const spellsPack: SpellsPack = {
           "items": [
             "Structures. The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried."
           ]
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "ego-whip": {
-      "slug": "ego-whip",
-      "name": "Ego Whip",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "30 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws, and it can't cast spells. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws, and it can't cast spells. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target."
         }
       ],
       "atHigherLevels": null
@@ -29838,54 +27296,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "find-vehicle": {
-      "slug": "find-vehicle",
-      "name": "Find Vehicle",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 2,
-      "levelLabel": "2nd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "10 minutes",
-      "range": "30 feet",
-      "duration": "8 hours",
-      "components": "V, S",
-      "classes": [
-        "Paladin",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "You summon a spirit that assumes the form of a nonmilitary land vehicle of your choice, appearing in an unoccupied space within range. The vehicle has the statistics of a normal vehicle of its sort, though it is celestial, fey, or fiendish (your choice in origin). The physical characteristics of the vehicle reflect its origin to some degree. For example, a fiendish SUV might be jet black in color, with tinted windows and a sinister-looking front grille.\n\nYou have a supernatural bond with the conjured vehicle that allows you to drive beyond your normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle.\n\nIf the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear.\n\nYou can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You summon a spirit that assumes the form of a nonmilitary land vehicle of your choice, appearing in an unoccupied space within range. The vehicle has the statistics of a normal vehicle of its sort, though it is celestial, fey, or fiendish (your choice in origin). The physical characteristics of the vehicle reflect its origin to some degree. For example, a fiendish SUV might be jet black in color, with tinted windows and a sinister-looking front grille."
-        },
-        {
-          "type": "paragraph",
-          "text": "You have a supernatural bond with the conjured vehicle that allows you to drive beyond your normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle."
-        },
-        {
-          "type": "paragraph",
-          "text": "If the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear."
-        },
-        {
-          "type": "paragraph",
-          "text": "You can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th level or higher, you can conjure any type of vehicle, subject to the DM's approval."
-    },
     "finger-of-death": {
       "slug": "finger-of-death",
       "name": "Finger Of Death",
@@ -30066,55 +27476,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
     },
-    "fizban-s-platinum-shield-ua": {
-      "slug": "fizban-s-platinum-shield-ua",
-      "name": "Fizban S Platinum Shield Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 6,
-      "levelLabel": "6th-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a platinum-plated dragon scale, worth at least 500 gp)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet.\n\nAs a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.\n\nThe creature protected by the field gains the following benefits:\n\n- The creature has half cover. - The creature has resistance to acid, cold, fire, lightning, and poison damage. - If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet."
-        },
-        {
-          "type": "paragraph",
-          "text": "As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field."
-        },
-        {
-          "type": "paragraph",
-          "text": "The creature protected by the field gains the following benefits:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "The creature has half cover.",
-            "The creature has resistance to acid, cold, fire, lightning, and poison damage.",
-            "If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-          ]
-        }
-      ],
-      "atHigherLevels": null
-    },
     "fizbans-platinum-shield": {
       "slug": "fizbans-platinum-shield",
       "name": "Fizbans Platinum Shield",
@@ -30233,40 +27594,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd."
-    },
-    "flame-stride": {
-      "slug": "flame-stride",
-      "name": "Flame Stride",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 3,
-      "levelLabel": "3rd-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 bonus action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Artificer",
-        "Ranger",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks. When you move within 5 feet of a creature or object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks. When you move within 5 feet of a creature or object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. Additionally, the spell deals an additional 1d6 fire damage for each slot level above 3rd."
     },
     "flame-strike": {
       "slug": "flame-strike",
@@ -31842,50 +29169,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
     },
-    "guiding-hand-ua": {
-      "slug": "guiding-hand-ua",
-      "name": "Guiding Hand Ua",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "5 feet",
-      "duration": "Concentration, up to 8 hours",
-      "components": "V, S",
-      "classes": [
-        "Bard",
-        "Cleric",
-        "Druid",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R"
-      ],
-      "description": "You create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence.\n\nWhen the hand appears, you name one major landmark, such as a city, mountain, castle, or battlefield on the same plane of existence as you. Someone in history must have visited the site and mapped it. If the landmark appears on no map in existence, the spell fails. Otherwise, whenever you move toward the hand, it moves away from you at the same speed you moved, and it moves in the direction of the landmark, always remaining 5 feet away from you.\n\nIf you don't move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence."
-        },
-        {
-          "type": "paragraph",
-          "text": "When the hand appears, you name one major landmark, such as a city, mountain, castle, or battlefield on the same plane of existence as you. Someone in history must have visited the site and mapped it. If the landmark appears on no map in existence, the spell fails. Otherwise, whenever you move toward the hand, it moves away from you at the same speed you moved, and it moves in the direction of the landmark, always remaining 5 feet away from you."
-        },
-        {
-          "type": "paragraph",
-          "text": "If you don't move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "gust": {
       "slug": "gust",
       "name": "Gust",
@@ -32098,37 +29381,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "hand-of-radiance": {
-      "slug": "hand-of-radiance",
-      "name": "Hand Of Radiance",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 0,
-      "levelLabel": "Evocation cantrip",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "5 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Cleric"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You raise your hand, and burning radiance erupts from it. Each creature of your choice that you can see within 5 feet of you must succeed on a Constitution saving throw or take 1d6 radiant damage.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You raise your hand, and burning radiance erupts from it. Each creature of your choice that you can see within 5 feet of you must succeed on a Constitution saving throw or take 1d6 radiant damage."
-        }
-      ],
-      "atHigherLevels": "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
-    },
     "harm": {
       "slug": "harm",
       "name": "Harm",
@@ -32197,71 +29449,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "haywire": {
-      "slug": "haywire",
-      "name": "Haywire",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "90 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This spell plays havoc with electronic devices, making the use of such devices all but impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature is automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell.\n\nAt the start of each of your turns, roll a d6 for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect.\n\n| d6 | Effect | | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | 1 | The device shuts down and must be restarted. Do not roll again for this device until it is restarted. | | 2-4 | The device does not function. | | 5 | The device experiences a power surge, causing an electric shock to the wielder (if any and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one. | | 6 | The device is usable as normal. |",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This spell plays havoc with electronic devices, making the use of such devices all but impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature is automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell."
-        },
-        {
-          "type": "paragraph",
-          "text": "At the start of each of your turns, roll a d6 for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect."
-        },
-        {
-          "type": "table",
-          "title": "d6 Effect",
-          "columns": [
-            "d6",
-            "Effect"
-          ],
-          "rows": [
-            [
-              "1",
-              "The device shuts down and must be restarted. Do not roll again for this device until it is restarted."
-            ],
-            [
-              "2-4",
-              "The device does not function."
-            ],
-            [
-              "5",
-              "The device experiences a power surge, causing an electric shock to the wielder (if any and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one."
-            ],
-            [
-              "6",
-              "The device is usable as normal."
-            ]
-          ]
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd."
-    },
     "heal": {
       "slug": "heal",
       "name": "Heal",
@@ -32293,42 +29480,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th."
-    },
-    "healing-elixir-ua": {
-      "slug": "healing-elixir-ua",
-      "name": "Healing Elixir Ua",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "24 hours",
-      "components": "V, S, M (alchemist's supplies)",
-      "classes": [
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes.\n\nAs an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes."
-        },
-        {
-          "type": "paragraph",
-          "text": "As an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points."
-        }
-      ],
-      "atHigherLevels": null
     },
     "healing-spirit": {
       "slug": "healing-spirit",
@@ -32712,48 +29863,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "house-of-cards-ua": {
-      "slug": "house-of-cards-ua",
-      "name": "House Of Cards Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 minute",
-      "range": "Touch",
-      "duration": "24 hours",
-      "components": "V, S, M (a deck of cards)",
-      "classes": [
-        "Artificer",
-        "Bard",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10-foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each side-both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover.\n\nEach card that comprises the house is 5 feet wide and 10 feet tall and is very fragile. A card has AC 10 and 1 hit point. The cards are immune to poison and psychic damage. Reducing a card to 0 hit points destroys it. Every time a card is destroyed, roll 1d6. If you roll a 5 or a 6, the house collapses, ending the spell.\n\nThe house and all its cards vanish when the spell ends.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10-foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each side-both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover."
-        },
-        {
-          "type": "paragraph",
-          "text": "Each card that comprises the house is 5 feet wide and 10 feet tall and is very fragile. A card has AC 10 and 1 hit point. The cards are immune to poison and psychic damage. Reducing a card to 0 hit points destroys it. Every time a card is destroyed, roll 1d6. If you roll a 5 or a 6, the house collapses, ending the spell."
-        },
-        {
-          "type": "paragraph",
-          "text": "The house and all its cards vanish when the spell ends."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "hunger-of-hadar": {
       "slug": "hunger-of-hadar",
       "name": "Hunger Of Hadar",
@@ -32931,71 +30040,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th."
-    },
-    "icingdeath-s-frost": {
-      "slug": "icingdeath-s-frost",
-      "name": "Icingdeath S Frost",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 2,
-      "levelLabel": "2nd-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (15-foot cone)",
-      "duration": "Instantaneous",
-      "components": "S, M (a vial of meltwater)",
-      "classes": [
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "A burst of icy cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is covered in ice for 1 minute or until a creature uses its action to break the ice off itself or another creature. A creature covered in ice has its speed reduced to 0. On a successful save, a creature takes half as much damage with no additional effects.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "A burst of icy cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is covered in ice for 1 minute or until a creature uses its action to break the ice off itself or another creature. A creature covered in ice has its speed reduced to 0. On a successful save, a creature takes half as much damage with no additional effects."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd."
-    },
-    "id-insinuation": {
-      "slug": "id-insinuation",
-      "name": "ID Insinuation",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes 1d12 psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes 1d12 psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
-        }
-      ],
-      "atHigherLevels": null
     },
     "identify": {
       "slug": "identify",
@@ -33339,45 +30383,6 @@ export const spellsPack: SpellsPack = {
         {
           "type": "paragraph",
           "text": "At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "infallible-relay": {
-      "slug": "infallible-relay",
-      "name": "Infallible Relay",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V, S, M (a mobile phone)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "With this spell, you can target any creature with whom you have spoken previously, as long as the two of you are on the same plane of existence. When you cast the spell, the nearest functioning telephone or similar communications device within 100 feet of the target begins to ring. If there is no suitable device close enough to the target, the spell fails.\n\nThe target must make a successful Charisma saving throw or be compelled to answer your call. Once the connection is established, the call is crystal clear and cannot be dropped until the conversation has ended or the spell's duration ends. You can end the conversation at any time, but a target must succeed on a Charisma saving throw to end the conversation.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "With this spell, you can target any creature with whom you have spoken previously, as long as the two of you are on the same plane of existence. When you cast the spell, the nearest functioning telephone or similar communications device within 100 feet of the target begins to ring. If there is no suitable device close enough to the target, the spell fails."
-        },
-        {
-          "type": "paragraph",
-          "text": "The target must make a successful Charisma saving throw or be compelled to answer your call. Once the connection is established, the call is crystal clear and cannot be dropped until the conversation has ended or the spell's duration ends. You can end the conversation at any time, but a target must succeed on a Charisma saving throw to end the conversation."
         }
       ],
       "atHigherLevels": null
@@ -33778,41 +30783,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
-    },
-    "invisibility-to-cameras": {
-      "slug": "invisibility-to-cameras",
-      "name": "Invisibility To Cameras",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "10 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a scrap of black paper)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "Four creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "Four creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision."
-        }
-      ],
-      "atHigherLevels": null
     },
     "invulnerability": {
       "slug": "invulnerability",
@@ -35459,39 +32429,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "mental-barrier": {
-      "slug": "mental-barrier",
-      "name": "Mental Barrier",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 reaction, which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw",
-      "range": "Self",
-      "duration": "1 round",
-      "components": "V",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "mental-prison": {
       "slug": "mental-prison",
       "name": "Mental Prison",
@@ -35751,39 +32688,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
-    },
-    "mind-thrust": {
-      "slug": "mind-thrust",
-      "name": "Mind Thrust",
-      "source": "Unearthed Arcana 71 - Psionic Options Revisited",
-      "level": 2,
-      "levelLabel": "2nd-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 bonus action",
-      "range": "60 feet",
-      "duration": "1 round",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
     },
     "minor-illusion": {
       "slug": "minor-illusion",
@@ -36445,65 +33349,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "nathairs-mischief-ua": {
-      "slug": "nathairs-mischief-ua",
-      "name": "Nathairs Mischief Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 2,
-      "levelLabel": "2nd-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "S, M (a piece of crust from an apple pie)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You fill a 20-foot cube centered on a point you choose within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced. At the start of each of your turns, you can move the cube up to 10 feet and reroll on the table.\n\n| Mischievous Surge | | | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | | d4 | Effect | | 1 | The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn. | | 2 | Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces. | | 3 | Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction. | | 4 | Drops of molasses appear and hover in the cube, turning it into difficult terrain until the start of your next turn. |",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You fill a 20-foot cube centered on a point you choose within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced. At the start of each of your turns, you can move the cube up to 10 feet and reroll on the table."
-        },
-        {
-          "type": "table",
-          "title": "Mischievous Surge",
-          "columns": [
-            "d4",
-            "Effect"
-          ],
-          "rows": [
-            [
-              "1",
-              "The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn."
-            ],
-            [
-              "2",
-              "Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces."
-            ],
-            [
-              "3",
-              "Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction."
-            ],
-            [
-              "4",
-              "Drops of molasses appear and hover in the cube, turning it into difficult terrain until the start of your next turn."
-            ]
-          ]
-        }
-      ],
-      "atHigherLevels": null
-    },
     "negative-energy-flood": {
       "slug": "negative-energy-flood",
       "name": "Negative Energy Flood",
@@ -36608,87 +33453,6 @@ export const spellsPack: SpellsPack = {
         {
           "type": "paragraph",
           "text": "Mask. You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a symbol spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "on-off": {
-      "slug": "on-off",
-      "name": "On Off",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 0,
-      "levelLabel": "Transmutation cantrip",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by On/Off.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by On/Off."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "otherworldly-form": {
-      "slug": "otherworldly-form",
-      "name": "Otherworldly Form",
-      "source": "Unearthed Arcana 70 - Spells and Magic Tattoos",
-      "level": 6,
-      "levelLabel": "6th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (an object engraved with a symbol of the Outer Planes, worth at least 500 gp)",
-      "classes": [
-        "Cleric",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:\n\n- You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).\n\n- You are immune to the poisoned condition (Lower Planes) or the charmed condition (Upper Planes).\n\n- Spectral wings appear on your back, giving you a flying speed of 40 feet.\n\n- You have a +2 bonus to AC.\n\n- All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.\n\n- You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-            "You are immune to the poisoned condition (Lower Planes) or the charmed condition (Upper Planes).",
-            "Spectral wings appear on your back, giving you a flying speed of 40 feet.",
-            "You have a +2 bonus to AC.",
-            "All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-            "You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks"
-          ]
         }
       ],
       "atHigherLevels": null
@@ -37844,41 +34608,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "protection-from-ballistics": {
-      "slug": "protection-from-ballistics",
-      "name": "Protection From Ballistics",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 3,
-      "levelLabel": "3rd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V, S, M (a shell casing)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This spell enchants the flesh of the target against the impact of bullets. Until the spell ends, the target has resistance to nonmagical ballistic damage.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This spell enchants the flesh of the target against the impact of bullets. Until the spell ends, the target has resistance to nonmagical ballistic damage."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "protection-from-energy": {
       "slug": "protection-from-energy",
       "name": "Protection From Energy",
@@ -37993,76 +34722,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "psionic-blast": {
-      "slug": "psionic-blast",
-      "name": "Psionic Blast",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 3,
-      "levelLabel": "3rd-level Evocation",
-      "school": "Evocation",
-      "castingTime": "1 action",
-      "range": "Self (30-foot cone)",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes 5d8 force damage, is pushed 20 feet directly away from you, and is knocked prone. On a successful save, a target takes half as much damage and isn't pushed or knocked prone.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes 5d8 force damage, is pushed 20 feet directly away from you, and is knocked prone. On a successful save, a target takes half as much damage and isn't pushed or knocked prone."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd."
-    },
-    "psychic-crush": {
-      "slug": "psychic-crush",
-      "name": "Psychic Crush",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 6,
-      "levelLabel": "6th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes 12d6 psychic damage and is stunned for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.\n\nThe stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes 12d6 psychic damage and is stunned for 1 minute. On a successful save, the target takes half as much damage and isn't stunned."
-        },
-        {
-          "type": "paragraph",
-          "text": "The stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "psychic-scream": {
       "slug": "psychic-scream",
       "name": "Psychic Scream",
@@ -38137,39 +34796,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the distance pulled or pushed increases by 5 feet for each slot level above 3rd."
-    },
-    "puppet": {
-      "slug": "puppet",
-      "name": "Puppet",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to drop whatever it is holding. This spell has no effect on a humanoid that is immune to being charmed.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to drop whatever it is holding. This spell has no effect on a humanoid that is immune to being charmed."
-        }
-      ],
-      "atHigherLevels": null
     },
     "purify-food-and-drink": {
       "slug": "purify-food-and-drink",
@@ -38366,44 +34992,6 @@ export const spellsPack: SpellsPack = {
         {
           "type": "paragraph",
           "text": "The target must make an Intelligence saving throw. On a failed save, the target takes 7d6 psychic damage and is incapacitated until the start of your next turn. On a successful save, the creature takes half as much damage and isn't incapacitated."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th."
-    },
-    "raulothims-psychic-lance-ua": {
-      "slug": "raulothims-psychic-lance-ua",
-      "name": "Raulothims Psychic Lance Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter the creature's name. If the named target is within range, it gains no benefit from cover or invisibility as the lance homes in on it. If the named target isn't within range, the lance dissipates, and the spell slot is not expended.\n\nThe target must succeed on an Intelligence saving throw or take 10d6 psychic damage and be incapacitated until the start of your next turn.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter the creature's name. If the named target is within range, it gains no benefit from cover or invisibility as the lance homes in on it. If the named target isn't within range, the lance dissipates, and the spell slot is not expended."
-        },
-        {
-          "type": "paragraph",
-          "text": "The target must succeed on an Intelligence saving throw or take 10d6 psychic damage and be incapacitated until the start of your next turn."
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th."
@@ -38757,41 +35345,6 @@ export const spellsPack: SpellsPack = {
         {
           "type": "paragraph",
           "text": "The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "remote-access": {
-      "slug": "remote-access",
-      "name": "Remote Access",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "10 minutes",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "You can use any electronic device within range as if it were in your hands. This is not a telekinesis effect. Rather, this spell allows you to simulate a device's mechanical functions electronically. You are able to access only functions that a person using the device manually would be able to access. You can use remote access with only one device at a time.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You can use any electronic device within range as if it were in your hands. This is not a telekinesis effect. Rather, this spell allows you to simulate a device's mechanical functions electronically. You are able to access only functions that a person using the device manually would be able to access. You can use remote access with only one device at a time."
         }
       ],
       "atHigherLevels": null
@@ -39471,39 +36024,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "sense-emotion": {
-      "slug": "sense-emotion",
-      "name": "Sense Emotion",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Divination",
-      "school": "Divination",
-      "castingTime": "1 action",
-      "range": "Self",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Bard",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target's prevailing emotion, whether it's love, anger, pain, fear, calm, or something else. If the target isn't actually humanoid or it is immune to being charmed, you sense that it is calm.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target's prevailing emotion, whether it's love, anger, pain, fear, calm, or something else. If the target isn't actually humanoid or it is immune to being charmed, you sense that it is calm."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "sequester": {
       "slug": "sequester",
       "name": "Sequester",
@@ -39879,41 +36399,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
-    },
-    "shutdown": {
-      "slug": "shutdown",
-      "name": "Shutdown",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 5,
-      "levelLabel": "5th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted."
-        }
-      ],
-      "atHigherLevels": null
     },
     "sickening-radiance": {
       "slug": "sickening-radiance",
@@ -40734,43 +37219,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the reaper spirit stat block."
     },
-    "spirit-of-death-ua": {
-      "slug": "spirit-of-death-ua",
-      "name": "Spirit Of Death Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 4,
-      "levelLabel": "4th-level Necromancy",
-      "school": "Necromancy",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 minute",
-      "components": "V, S, M (a gilded playing card depicting an avatar of death worth at least 400 gp)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You call forth a spirit that embodies death itself. Choose a creature you can see within range. The spirit manifests in an unoccupied space that you can see within 10 feet of the target, and the target becomes haunted by the spirit. The spirit uses the Reaper Spirit stat block. The spirit disappears when it or the haunted creature is reduced to 0 hit points, or when the spell ends.\n\nThe reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you don't issue the spirit any commands, it takes the Dodge action and uses its move to avoid danger",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You call forth a spirit that embodies death itself. Choose a creature you can see within range. The spirit manifests in an unoccupied space that you can see within 10 feet of the target, and the target becomes haunted by the spirit. The spirit uses the Reaper Spirit stat block. The spirit disappears when it or the haunted creature is reduced to 0 hit points, or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you don't issue the spirit any commands, it takes the Dodge action and uses its move to avoid danger"
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
-    },
     "spirit-shroud": {
       "slug": "spirit-shroud",
       "name": "Spirit Shroud",
@@ -40889,48 +37337,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
-    },
-    "spray-of-cards-ua": {
-      "slug": "spray-of-cards-ua",
-      "name": "Spray Of Cards Ua",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 2,
-      "levelLabel": "2nd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "15-foot cone",
-      "duration": "Instantaneous",
-      "components": "V, S, M (a deck of cards)",
-      "classes": [
-        "Bard",
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You spray spectral cards from your hands or sleeve; the cards blind or slash at your enemies, and then vanish. Choose one of the following effects for the cards:\n\n- Blinding Cards. Each creature in a 15-foot cone must succeed on a Wisdom saving throw or be blinded until the end of their next turn.\n\n- Cutting Cards. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 2d10 force damage on a failed save or half as much damage on a successful one.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You spray spectral cards from your hands or sleeve; the cards blind or slash at your enemies, and then vanish. Choose one of the following effects for the cards:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "Blinding Cards. Each creature in a 15-foot cone must succeed on a Wisdom saving throw or be blinded until the end of their next turn.",
-            "Cutting Cards. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 2d10 force damage on a failed save or half as much damage on a successful one."
-          ]
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage of cutting cards increases by 1d10 for every two slot levels above 2nd"
     },
     "staggering-smite": {
       "slug": "staggering-smite",
@@ -41214,40 +37620,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th."
     },
-    "sudden-awakening": {
-      "slug": "sudden-awakening",
-      "name": "Sudden Awakening",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 bonus action",
-      "range": "10 feet",
-      "duration": "Instantaneous",
-      "components": "V",
-      "classes": [
-        "Bard",
-        "Ranger",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "suggestion": {
       "slug": "suggestion",
       "name": "Suggestion",
@@ -41474,43 +37846,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block.\n\n| Draconic Spirit | | | | | | | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- | ------- | ------- | ------- | | Large Dragon, Neutral | | | | | | | Armor Class14 + the level of the spell (natural armor) | | | | | | | Hit Points50 + 10 for each spell level above 5th (the dragon has a number of hit dice [d10s] equal to the level of the spell) | | | | | | | Speed30 ft., fly 60 ft., swim 30 ft. | | | | | | | STR | DEX | CON | INT | WIS | CHA | | 19 (+4) | 14 (+2) | 17 (+3) | 10 (+0) | 14 (+2) | 14 (+2) | | Damage Resistances(Chromatic and Metallic Only)acid, cold, fire, lightning, poison | | | | | | | Damage Resistances(Gem Only)force, necrotic, psychic, radiant, thunder | | | | | | | Condition Immunitiescharmed, frightened, poisoned | | | | | | | Sensesblindsight 30 ft., darkvision 60 ft., passive Perception 12 | | | | | | | Languages Draconic, understands the languages you speak | | | | | | | Challenge-Proficiency Bonus (PB)equals your bonus | | | | | | | Shared Resistances. When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends | | | | | | | Actions | | | | | | | Multiattack. The dragon makes a number of Rend attacks equal to half the spell's level (rounded down), and it uses Breath Weapon. | | | | | | | Rend. Melee Weapon Attack:your spell attack modifier to hit, reach 10 ft., one target. Hit:1d6 plus 4 + the spell's level piercing damage. | | | | | | | Breath Weapon. The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC. A creature takes 2d6 damage of a type this dragon has resistance to (your choice) on a failed save, or half as much damage on a successful one. | | | | | |"
-    },
-    "summon-draconic-spirit-ua": {
-      "slug": "summon-draconic-spirit-ua",
-      "name": "Summon Draconic Spirit Ua",
-      "source": "Unearthed Arcana 78 - Draconic Options",
-      "level": 5,
-      "levelLabel": "5th-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "60 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (an art object from a dragon's hoard, worth at least 500 gp)",
-      "classes": [
-        "Druid",
-        "Sorcerer",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: Chromatic, Gem, or Metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: Chromatic, Gem, or Metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block."
     },
     "summon-elemental": {
       "slug": "summon-elemental",
@@ -41805,46 +38140,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
     },
-    "summon-warrior-spirit": {
-      "slug": "summon-warrior-spirit",
-      "name": "Summon Warrior Spirit",
-      "source": "Unearthed Arcana 85 - Wonders of the Multiverse",
-      "level": 3,
-      "levelLabel": "3rd-level Conjuration",
-      "school": "Conjuration",
-      "castingTime": "1 action",
-      "range": "90 feet",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (a gilded playing card depicting a knight worth at least 300 gp)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard",
-        "Fighter",
-        "Monk",
-        "Barbarian"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You call forth a warrior spirit from the legendary Deck of Many Things. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Warrior Spirit stat block. When you cast the spell, choose a type of warrior: barbarian, fighter, or monk. The warrior resembles a humanoid armed appropriately to the chosen class, which determines certain traits in its stat block. The warrior disappears when it drops to 0 hit points or when the spell ends.\n\nThe warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You call forth a warrior spirit from the legendary Deck of Many Things. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Warrior Spirit stat block. When you cast the spell, choose a type of warrior: barbarian, fighter, or monk. The warrior resembles a humanoid armed appropriately to the chosen class, which determines certain traits in its stat block. The warrior disappears when it drops to 0 hit points or when the spell ends."
-        },
-        {
-          "type": "paragraph",
-          "text": "The warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
-    },
     "sunbeam": {
       "slug": "sunbeam",
       "name": "Sunbeam",
@@ -42099,88 +38394,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": null
-    },
-    "synchronicity": {
-      "slug": "synchronicity",
-      "name": "Synchronicity",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Enchantment",
-      "school": "Enchantment",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic lights are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at full speed through dense crowds, and attacks of opportunity provoked by the target's movement are made with disadvantage.\n\nSynchronicity grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks made to drive a vehicle.\n\nIn the event that two or more creatures under the effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic lights are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at full speed through dense crowds, and attacks of opportunity provoked by the target's movement are made with disadvantage."
-        },
-        {
-          "type": "paragraph",
-          "text": "Synchronicity grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks made to drive a vehicle."
-        },
-        {
-          "type": "paragraph",
-          "text": "In the event that two or more creatures under the effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other."
-        }
-      ],
-      "atHigherLevels": null
-    },
-    "system-backdoor": {
-      "slug": "system-backdoor",
-      "name": "System Backdoor",
-      "source": "Unearthed Arcana 7 - Modern Magic",
-      "level": 4,
-      "levelLabel": "4th-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 minute",
-      "range": "Self",
-      "duration": "Concentration, up to 1 hour",
-      "components": "V, S, M (hacking tools)",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": true,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "T"
-      ],
-      "description": "This spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower.\n\nOnce the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "This spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower."
-        },
-        {
-          "type": "paragraph",
-          "text": "Once the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced."
-        }
-      ],
-      "atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used."
     },
     "tashas-caustic-brew": {
       "slug": "tashas-caustic-brew",
@@ -42880,39 +39093,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": "This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
     },
-    "thought-shield": {
-      "slug": "thought-shield",
-      "name": "Thought Shield",
-      "source": "Unearthed Arcana 66 - Fighter, Rogue, and Wizard",
-      "level": 2,
-      "levelLabel": "2nd-level Abjuration",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "8 hours",
-      "components": "V, S",
-      "classes": [
-        "Sorcerer",
-        "Warlock",
-        "Wizard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "thunder-step": {
       "slug": "thunder-step",
       "name": "Thunder Step",
@@ -43591,41 +39771,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "unearthly-chorus": {
-      "slug": "unearthly-chorus",
-      "name": "Unearthly Chorus",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Illusion",
-      "school": "Illusion",
-      "castingTime": "1 action",
-      "range": "Self (30-foot radius)",
-      "duration": "Concentration, up to 10 minutes",
-      "components": "V",
-      "classes": [
-        "Bard"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "Music of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration.\n\nUntil the spell ends, you make Charisma (Performance) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music. The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma (Deception) checks and Charisma (Persuasion) checks against creatures made friendly by this spell with advantage.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "Music of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration."
-        },
-        {
-          "type": "paragraph",
-          "text": "Until the spell ends, you make Charisma (Performance) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music. The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma (Deception) checks and Charisma (Persuasion) checks against creatures made friendly by this spell with advantage."
-        }
-      ],
-      "atHigherLevels": null
-    },
     "unseen-servant": {
       "slug": "unseen-servant",
       "name": "Unseen Servant",
@@ -43732,37 +39877,6 @@ export const spellsPack: SpellsPack = {
         }
       ],
       "atHigherLevels": "This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)."
-    },
-    "virtue": {
-      "slug": "virtue",
-      "name": "Virtue",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 0,
-      "levelLabel": "Abjuration cantrip",
-      "school": "Abjuration",
-      "castingTime": "1 action",
-      "range": "Touch",
-      "duration": "1 round",
-      "components": "V, S",
-      "classes": [
-        "Cleric"
-      ],
-      "flags": {
-        "ritual": false,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [],
-      "description": "You touch one creature, imbuing it with vitality. If the target has at least 1 hit point, it gains a number of temporary hit points equal to 1d4 + your spellcasting ability modifier. The temporary hit points are lost when the spell ends.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You touch one creature, imbuing it with vitality. If the target has at least 1 hit point, it gains a number of temporary hit points equal to 1d4 + your spellcasting ability modifier. The temporary hit points are lost when the spell ends."
-        }
-      ],
-      "atHigherLevels": null
     },
     "vitriolic-sphere": {
       "slug": "vitriolic-sphere",
@@ -44528,52 +40642,6 @@ export const spellsPack: SpellsPack = {
       ],
       "atHigherLevels": null
     },
-    "wild-cunning": {
-      "slug": "wild-cunning",
-      "name": "Wild Cunning",
-      "source": "Unearthed Arcana 36 - Starter Spells",
-      "level": 1,
-      "levelLabel": "1st-level Transmutation",
-      "school": "Transmutation",
-      "castingTime": "1 action",
-      "range": "120 feet",
-      "duration": "Instantaneous",
-      "components": "V, S",
-      "classes": [
-        "Druid",
-        "Ranger"
-      ],
-      "flags": {
-        "ritual": true,
-        "technomagic": false,
-        "dunamancy": false,
-        "dunamancyGraviturgy": false,
-        "dunamancyChronurgy": false
-      },
-      "flagCodes": [
-        "R"
-      ],
-      "description": "You call out to the spirits of nature to aid you. When you cast this spell, choose one of the following effects:\n\n- If there are any tracks on the ground within range, you know where they are, and you make Wisdom (Survival) checks to follow these tracks with advantage for 1 hour or until you cast this spell again.\n\n- If there is edible forage within range, you know it and where to find it.\n\n- If there is clean drinking water within range, you know it and where to find it.\n\n- If there is suitable shelter for you and your companions within range, you know it and where to find it.\n\n- Send the spirits to bring back wood for a fire and to set up a campsite in the area using your supplies. The spirits build the fire in a circle of stones, put up tents, unroll bedrolls, and put out any rations and water for consumption.\n\n- Have the spirits instantly break down a campsite, which includes putting out a fire, taking down tents, packing up bags, and burying any rubbish.",
-      "descriptionBlocks": [
-        {
-          "type": "paragraph",
-          "text": "You call out to the spirits of nature to aid you. When you cast this spell, choose one of the following effects:"
-        },
-        {
-          "type": "list",
-          "title": "Options",
-          "items": [
-            "If there are any tracks on the ground within range, you know where they are, and you make Wisdom (Survival) checks to follow these tracks with advantage for 1 hour or until you cast this spell again.",
-            "If there is edible forage within range, you know it and where to find it.",
-            "If there is clean drinking water within range, you know it and where to find it.",
-            "If there is suitable shelter for you and your companions within range, you know it and where to find it.",
-            "Send the spirits to bring back wood for a fire and to set up a campsite in the area using your supplies. The spirits build the fire in a circle of stones, put up tents, unroll bedrolls, and put out any rations and water for consumption.",
-            "Have the spirits instantly break down a campsite, which includes putting out a fire, taking down tents, packing up bags, and burying any rubbish."
-          ]
-        }
-      ],
-      "atHigherLevels": null
-    },
     "wind-walk": {
       "slug": "wind-walk",
       "name": "Wind Walk",
@@ -45041,12 +41109,9 @@ export const spellsPack: SpellsPack = {
   "allTags": [
     "cantrip",
     "class:artificer",
-    "class:barbarian",
     "class:bard",
     "class:cleric",
     "class:druid",
-    "class:fighter",
-    "class:monk",
     "class:paladin",
     "class:ranger",
     "class:sorcerer",
@@ -45093,422 +41158,335 @@ export const spellsPack: SpellsPack = {
     "source:tashas-cauldron-of-everything",
     "source:tashas-cauldron-of-everything-sword-coast-adventurers-guide",
     "source:the-book-of-many-things",
-    "source:unearthed-arcana-11---that-old-black-magic",
-    "source:unearthed-arcana-36---starter-spells",
-    "source:unearthed-arcana-60---the-artificer-returns",
-    "source:unearthed-arcana-66---fighter-rogue-and-wizard",
-    "source:unearthed-arcana-7---modern-magic",
-    "source:unearthed-arcana-70---spells-and-magic-tattoos",
-    "source:unearthed-arcana-71---psionic-options-revisited",
-    "source:unearthed-arcana-78---draconic-options",
-    "source:unearthed-arcana-85---wonders-of-the-multiverse",
     "source:xanathars-guide-to-everything",
     "source:xanathars-guide-to-everything-elemental-evil-players-companion",
     "target:area",
     "target:self",
-    "target:single",
-    "technomagic"
+    "target:single"
   ],
   "tagBitsets": {
     "cantrip": [
       4,
-      1052672,
-      4,
-      16781376,
-      268435456,
-      36,
-      20971524,
-      34742272,
-      268435456,
-      539230208,
-      76087300,
-      134225921,
-      134217868,
-      406848772,
-      2048,
-      262144,
-      813728048,
-      8388608
+      1073807616,
+      134217728,
+      8194,
+      9469952,
+      524288,
+      268435616,
+      5,
+      150994952,
+      1363149064,
+      268435472,
+      545259800,
+      6357032,
+      16,
+      46137408,
+      4353,
+      32
     ],
     "class:artificer": [
-      80224742,
-      202768896,
-      0,
-      294268960,
-      4624,
-      18678552,
-      18908420,
-      134362144,
-      2147746818,
-      572892688,
-      589838,
-      134283284,
-      135800836,
-      268468900,
-      402688280,
-      8650768,
-      2147631392,
-      22560
-    ],
-    "class:barbarian": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      16384,
-      0,
+      4854006,
+      12673056,
+      67108864,
+      570569030,
+      207618049,
+      1091044468,
+      437256336,
+      67113217,
+      2305394752,
+      20972424,
+      268566848,
+      545466376,
+      809501717,
+      67895570,
+      2189427264,
+      739262468,
       0
     ],
     "class:bard": [
-      321056,
-      169939203,
-      724291,
-      26214400,
-      1176007504,
-      1204441922,
-      1080819712,
-      17373228,
-      2148803803,
-      600103952,
-      3158902626,
-      1966213992,
-      1106576229,
-      2164760584,
-      2227204283,
-      1628962817,
-      382797056,
-      536871424
+      805384976,
+      815927568,
+      22740,
+      973091328,
+      1291989383,
+      73513,
+      2350260278,
+      344381504,
+      4046915648,
+      3376535688,
+      3932444299,
+      1142834890,
+      1996758272,
+      4341985,
+      167871872,
+      16782754,
+      2048
     ],
     "class:cleric": [
-      4160884768,
-      572597546,
-      8394816,
-      3766821288,
-      170040,
-      3292545281,
-      3491891216,
-      646860832,
-      1644168073,
-      1099337728,
-      74176,
-      595607616,
-      1076377602,
-      2214732590,
-      137504768,
-      2148106248,
-      543260688,
-      562041088
+      2944436240,
+      35787346,
+      889323908,
+      2266763428,
+      67633193,
+      69406977,
+      672163857,
+      1854115,
+      1638137906,
+      4747280,
+      1191183360,
+      1946499076,
+      17830169,
+      33829968,
+      4325528,
+      142606531,
+      2144
     ],
     "class:druid": [
-      2416250434,
-      17318097,
-      589053955,
-      1350636522,
-      4167340080,
-      3322424089,
-      1093219096,
-      2704969921,
-      1359003787,
-      197165583,
-      134291524,
-      520355971,
-      3221764248,
-      146808884,
-      939610448,
-      623076,
-      19795232,
-      38746849
-    ],
-    "class:fighter": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      16384,
-      0,
-      0
-    ],
-    "class:monk": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      16384,
-      0,
-      0
+      419514146,
+      806388749,
+      2103239168,
+      101322786,
+      2893005385,
+      2603816992,
+      1214292116,
+      50617933,
+      4028663721,
+      2152206594,
+      1040713776,
+      2885761328,
+      2686648577,
+      958136994,
+      444596376,
+      2641396316,
+      147
     ],
     "class:paladin": [
-      3758096416,
-      541106188,
-      34848,
-      3233816576,
-      71740,
-      805306384,
-      3221225473,
-      0,
+      3456106512,
+      33819136,
+      1154,
+      2274891780,
+      4194321,
+      49152,
+      24576,
+      1081344,
+      1612709888,
       528,
-      1098940416,
-      8,
       0,
-      2633730,
-      67125282,
-      17825792,
-      8,
-      512,
-      603980032
+      268775428,
+      1049089,
+      33591296,
+      67108864,
+      8388608,
+      2304
     ],
     "class:ranger": [
-      67110626,
-      208,
-      2152742912,
-      1350566914,
-      262192,
-      2147486992,
-      2163968,
-      2153812160,
-      4096,
-      63472128,
-      8200,
-      67373056,
+      4195186,
+      13,
+      2153873920,
+      101322752,
+      876609600,
+      2164391936,
+      1214251024,
+      4195352,
+      4062216192,
+      524800,
+      134758400,
       10240,
-      2147500064,
-      2449559808,
-      131460,
-      524288,
-      302651392
+      16777729,
+      822674082,
+      32,
+      201326608,
+      1154
     ],
     "class:sorcerer": [
-      70312287,
-      3432471048,
-      1546463071,
-      1496848961,
-      3841742803,
-      28533699,
-      960608255,
-      405810192,
-      3609453760,
-      808783423,
-      1470074409,
-      3658539905,
-      428985381,
-      1934727249,
-      3570172651,
-      1861599329,
-      3368103360,
-      7372457
+      2151952559,
+      4241061280,
+      1207986293,
+      2053842691,
+      2400135109,
+      3690727117,
+      369630368,
+      595984652,
+      222531563,
+      1944291916,
+      3022067733,
+      2173847627,
+      3603778754,
+      141183237,
+      1526840152,
+      1062529410,
+      28
     ],
     "class:warlock": [
-      187744256,
-      271603720,
-      167846167,
-      171186180,
-      2248692098,
-      44257486,
-      994893827,
-      1358962696,
-      2660378852,
-      1679818815,
-      2005271588,
-      3405800448,
-      92656645,
-      1630808067,
-      14451712,
-      1148485379,
-      215056832,
-      2130952
+      2159288320,
+      1896023424,
+      8914961,
+      272713347,
+      1127493765,
+      1879313037,
+      268705190,
+      2426871872,
+      134221774,
+      1887504665,
+      2516590599,
+      273698827,
+      8700224,
+      3770702088,
+      50401607,
+      1107561891,
+      8
     ],
     "class:wizard": [
-      478081503,
-      1555520264,
-      2100111327,
-      1061084149,
-      3891845075,
-      267903946,
-      4292736495,
-      1496919862,
-      2684347584,
-      4155998207,
-      4294958651,
-      3682336701,
-      1071112037,
-      1944042707,
-      3739002879,
-      2147352563,
-      3436445135,
-      141684415
+      2177874159,
+      4123751856,
+      2123655293,
+      2053629915,
+      2401714061,
+      4191961055,
+      2543550446,
+      4286972236,
+      3990880207,
+      4294414077,
+      3069705183,
+      2482691787,
+      4275011046,
+      4243544399,
+      4215144415,
+      4150259111,
+      540
     ],
     "components:m": [
-      426694329,
-      1747984987,
-      3578598872,
-      1024443827,
-      803245281,
-      1334878977,
-      3195976424,
-      1235302260,
-      1591078378,
-      3755308016,
-      69848610,
-      320724926,
-      3797948160,
-      229286652,
-      516925413,
-      3586916351,
-      1148393518,
-      15564287
+      2979769177,
+      2256732709,
+      3060099421,
+      3425149432,
+      2349432328,
+      1590771266,
+      2612682559,
+      3618591080,
+      4116510766,
+      1165199543,
+      641465312,
+      3995866624,
+      3392582935,
+      4291776335,
+      817583807,
+      3204424934,
+      59
     ],
     "components:s": [
-      536870911,
-      4021977083,
-      4294932447,
-      4156555259,
-      2147327739,
-      4271373309,
-      3221225471,
-      4290723831,
-      2145382398,
-      4225497087,
-      3212704511,
-      1073609663,
-      4269522941,
-      4294948863,
-      2130706429,
-      2650537982,
-      3992903023,
-      711917055
+      2986344447,
+      4277905407,
+      4286577533,
+      4018075647,
+      4026269657,
+      4294965855,
+      2684084223,
+      3753900015,
+      4143841215,
+      4026449918,
+      2147212283,
+      4293918714,
+      4227857855,
+      4290740223,
+      3133044671,
+      2130702333,
+      2715
     ],
     "components:v": [
-      4294967229,
-      4092591999,
+      4294967261,
+      4282318839,
+      4160749567,
+      4290772990,
+      4286578687,
       4294967295,
-      4294965183,
-      4294967293,
-      4294967263,
-      4290772991,
-      4294959103,
-      4293304319,
-      4294966143,
-      3673948159,
-      4294966526,
-      4294901751,
-      4290772927,
-      4261412607,
-      4294967295,
-      4286578431,
-      939524095
+      4026531807,
+      3867148287,
+      4294893567,
+      2675965951,
+      4294963181,
+      4294950895,
+      4294901757,
+      4294901757,
+      4261412863,
+      4294967039,
+      3583
     ],
     "concentration": [
-      3837470984,
-      323268606,
-      2006614880,
-      793777027,
-      2700937465,
-      1089179611,
-      406976448,
-      2557118609,
-      3475651570,
-      227083391,
-      2701433384,
-      272057250,
-      637541904,
-      3837026324,
-      1964998873,
-      232980479,
-      194511372,
-      506062591
+      3997619328,
+      20204287,
+      1885262902,
+      2401626626,
+      1064110032,
+      4219536302,
+      1145605152,
+      687838489,
+      1648435175,
+      547785219,
+      544086570,
+      2724207648,
+      3012739840,
+      4294614785,
+      70268463,
+      4085222192,
+      1930
     ],
     "concentration:no": [
-      457496311,
-      3971698689,
-      2288352415,
-      3501190268,
-      1594029830,
-      3205787684,
-      3887990847,
-      1737848686,
-      819315725,
-      4067883904,
-      1593533911,
-      4022910045,
-      3657425391,
-      457940971,
-      2329968422,
-      4061986816,
-      4100455923,
-      567679232
+      297347967,
+      4274763008,
+      2409704393,
+      1893340669,
+      3230857263,
+      75430993,
+      3149362143,
+      3607128806,
+      2646532120,
+      3747182076,
+      3750880725,
+      1570759647,
+      1282227455,
+      352510,
+      4224698832,
+      209745103,
+      2165
     ],
     "concentration:yes": [
-      3837470984,
-      323268606,
-      2006614880,
-      793777027,
-      2700937465,
-      1089179611,
-      406976448,
-      2557118609,
-      3475651570,
-      227083391,
-      2701433384,
-      272057250,
-      637541904,
-      3837026324,
-      1964998873,
-      232980479,
-      194511372,
-      506062591
+      3997619328,
+      20204287,
+      1885262902,
+      2401626626,
+      1064110032,
+      4219536302,
+      1145605152,
+      687838489,
+      1648435175,
+      547785219,
+      544086570,
+      2724207648,
+      3012739840,
+      4294614785,
+      70268463,
+      4085222192,
+      1930
     ],
     "dunamancy": [
       0,
       0,
       0,
-      67108864,
+      32768,
       0,
       0,
-      1048576,
-      770,
-      4194304,
+      25231368,
+      1073741824,
       0,
-      16,
-      0,
-      570556416,
       1024,
       0,
+      35684352,
+      32,
       0,
-      4105,
-      134217728
+      539230208,
+      0,
+      512
     ],
     "dunamancy:chronurgy": [
       0,
@@ -45517,33 +41495,31 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      0,
-      2,
-      0,
+      65536,
       0,
       0,
       0,
-      536870912,
+      0,
+      33554432,
       0,
       0,
+      537133056,
       0,
-      4097,
       0
     ],
     "dunamancy:graviturgy": [
       0,
       0,
       0,
-      67108864,
+      32768,
       0,
       0,
+      25165824,
+      1073741824,
       0,
-      768,
-      4194304,
+      1024,
       0,
-      16,
-      0,
-      33554432,
+      2097152,
       0,
       0,
       0,
@@ -45552,397 +41528,377 @@ export const spellsPack: SpellsPack = {
     ],
     "level:0": [
       4,
-      1052672,
-      4,
-      16781376,
-      268435456,
-      36,
-      20971524,
-      34742272,
-      268435456,
-      539230208,
-      76087300,
-      134225921,
-      134217868,
-      406848772,
-      2048,
-      262144,
-      813728048,
-      8388608
+      1073807616,
+      134217728,
+      8194,
+      9469952,
+      524288,
+      268435616,
+      5,
+      150994952,
+      1363149064,
+      268435472,
+      545259800,
+      6357032,
+      16,
+      46137408,
+      4353,
+      32
     ],
     "level:1": [
-      58720906,
-      3028295746,
-      101386,
-      8454144,
-      1073832504,
-      152636416,
-      8454144,
-      1078723650,
-      605442101,
-      301990656,
-      17,
+      540016962,
+      2873623044,
+      3264,
+      654315552,
+      805437462,
+      2147492964,
+      35717184,
+      356624402,
+      2147532816,
+      1092,
       0,
-      269225984,
-      100942337,
-      2147488035,
-      25165824,
-      100664834,
-      337772544
+      16846848,
+      1175978512,
+      34,
+      201852416,
+      1024,
+      1288
     ],
     "level:2": [
-      274728304,
-      40173712,
-      256,
-      403702816,
-      2692743360,
-      2684359424,
-      2148553217,
-      2149580804,
-      4259970,
-      21073040,
-      1392658442,
-      1315586,
-      68165634,
-      2165346496,
-      14778896,
-      33554437,
-      2147483712,
-      675301120
+      17302200,
+      2510857,
+      2214592528,
+      134414848,
+      1275397120,
+      704806912,
+      147464,
+      1074009096,
+      1348675584,
+      538051200,
+      2658341,
+      4333572,
+      553927814,
+      20996868,
+      2048,
+      595607552,
+      2576
     ],
     "level:3": [
-      2214645760,
-      151159072,
-      273678400,
-      1077946368,
-      4096,
-      79700048,
-      201360672,
-      402653216,
-      2181049344,
-      1075462176,
-      41248,
-      71305280,
-      150528,
-      131106,
-      68313280,
-      30976,
-      134301824,
-      530576
+      138422272,
+      9447442,
+      98308,
+      526341,
+      2168455169,
+      1094718208,
+      1050112,
+      10486016,
+      110100546,
+      2639888,
+      142623744,
+      268470272,
+      2147487745,
+      537007297,
+      2432696327,
+      206047234,
+      2
     ],
     "level:4": [
-      1611137024,
-      16392,
-      1747582977,
-      2147483778,
-      295168,
-      268730378,
-      572522504,
-      16829057,
-      32768,
-      8396800,
+      2248278016,
+      268436480,
+      273698816,
+      269484032,
+      2097224,
+      1064978,
+      1698730256,
+      33554496,
+      537395200,
       0,
-      270598164,
-      25165824,
-      1075838976,
-      1493958656,
-      6292626,
-      1073741824,
-      8193
+      541196608,
+      1048576,
+      8421376,
+      2494334976,
+      0,
+      268476416,
+      0
     ],
     "level:5": [
-      73728,
-      517,
-      2164552224,
-      571081229,
-      34605060,
-      2097280,
-      1073743872,
-      8392704,
-      1210057280,
-      134221824,
-      2684354624,
-      17302528,
-      2153775104,
-      536944640,
-      33554440,
-      1209139304,
-      655361,
-      33554474
+      1342197760,
+      32,
+      1101275938,
+      2156151104,
+      33558784,
+      67108992,
+      134225920,
+      538050592,
+      262180,
+      4098,
+      34611210,
+      135004160,
+      268437760,
+      167837696,
+      336160,
+      1376276,
+      128
     ],
     "level:6": [
-      1048576,
-      1074267136,
-      33554448,
-      278544,
-      150995968,
-      1073872896,
-      139456,
-      604045584,
-      8,
-      2147483663,
-      263168,
-      8568960,
-      33040,
-      2048,
-      1024,
-      67142144,
-      4456452,
-      17039428
+      262144,
+      67141696,
+      34078721,
+      1073741960,
+      18432,
+      276889608,
+      2156396545,
+      17024,
+      1920,
+      8454176,
+      17106944,
+      544,
+      64,
+      1073741832,
+      1052680,
+      2228360,
+      65
     ],
     "level:7": [
       0,
       0,
-      75497472,
-      2129920,
-      73531393,
-      16384,
-      262162,
+      131072,
+      2098192,
+      8736,
+      2359297,
+      2,
       0,
       0,
+      2147483648,
+      67109504,
+      3288335425,
+      134225920,
       0,
-      134217728,
-      2181038120,
-      1073742368,
-      524312,
-      4,
-      2684878848,
-      8,
-      65536
+      2261120,
+      2147483648,
+      0
     ],
     "level:8": [
-      395265,
+      99329,
       0,
-      128,
-      67109120,
-      524290,
-      33554433,
+      536870920,
+      4227072,
+      524416,
+      2048,
+      262144,
+      134742016,
+      1,
+      201588737,
       0,
-      8,
-      17301760,
-      67108864,
-      6295552,
-      0,
-      536870913,
+      33554434,
       0,
       0,
-      268500992,
-      16777216,
+      16400,
+      512,
       0
     ],
     "level:9": [
-      134217728,
-      2048,
-      0,
-      0,
-      0,
-      0,
-      268959744,
-      0,
       8388608,
-      64,
-      1049216,
+      128,
+      0,
+      0,
+      0,
+      0,
+      2052,
+      2147483648,
+      4096,
+      33595392,
+      3221225472,
+      2113664,
+      131072,
+      1048576,
       1610612736,
-      33620032,
-      8388608,
-      536870912,
-      0,
-      3158016,
-      1081344
+      1073741920,
+      4
     ],
     "ritual": [
-      268436608,
-      536871040,
-      94208,
-      4,
-      16810032,
-      201326592,
-      2147614720,
+      16777792,
+      33554440,
+      8391424,
+      100663296,
+      2056,
+      12288,
+      16385,
+      335544320,
+      269484032,
+      524416,
+      8388608,
+      589824,
+      553648128,
+      32,
       524288,
-      1310720,
-      4210688,
-      8194,
-      4194304,
-      4718592,
-      2147483648,
-      4112,
-      0,
-      67108866,
-      134354944
+      201327616,
+      512
     ],
     "school:abjuration": [
-      1631781026,
-      536875052,
-      32,
-      2147485696,
-      134224000,
-      0,
-      539099328,
-      69680,
-      2155872512,
-      1342210112,
-      4325376,
-      17041424,
-      15440,
-      100663814,
-      268435712,
-      524288,
-      536870976,
-      256
+      3323510866,
+      33554690,
+      2,
+      2148532225,
+      16385,
+      8388608,
+      2283278353,
+      2148007936,
+      2101312,
+      134217748,
+      34095360,
+      805320864,
+      1572880,
+      524290,
+      128,
+      8388608,
+      0
     ],
     "school:conjuration": [
-      34603076,
-      16779264,
-      4293919488,
-      12291,
-      620757250,
-      941657088,
-      369184769,
-      3225437312,
-      1493191688,
-      536879104,
-      1075843072,
-      176160780,
-      536871040,
-      2048,
-      650248256,
-      3758383102,
-      2232158338,
-      152068160
+      2359332,
+      1048704,
+      8355888,
+      272629766,
+      805382144,
+      2818629762,
+      574622464,
+      18891792,
+      524333,
+      67371016,
+      352321732,
+      33554688,
+      2147483712,
+      4287841280,
+      285966403,
+      807421464,
+      580
     ],
     "school:divination": [
-      268959744,
-      2097344,
-      94272,
-      4,
-      32888,
-      3221225472,
-      1572864,
-      655362,
-      67375104,
-      29364224,
-      16777216,
+      16908288,
+      131084,
+      8391428,
+      251658240,
+      8,
+      196608,
+      65548,
+      71303169,
+      1879310336,
+      536870912,
       0,
-      4194304,
-      303104,
-      4096,
+      524288,
+      1280,
+      32,
       0,
-      12648448,
-      1024
+      33554818,
+      0
     ],
     "school:enchantment": [
-      312832,
-      167780354,
-      690179,
-      1048576,
-      1843200,
-      37752930,
-      1077936128,
-      268435460,
-      33685744,
-      128,
-      2189427712,
-      3221356608,
-      25526273,
-      0,
-      2147483682,
-      53477377,
-      268435456,
-      536870912
+      536945408,
+      815792640,
+      21632,
+      512,
+      1098908098,
+      2304,
+      139296,
+      491520,
+      8194,
+      268500992,
+      2147746824,
+      1064963,
+      1140850688,
+      4194304,
+      3328,
+      4096,
+      2048
     ],
     "school:evocation": [
-      2147483672,
-      3234891264,
-      262152,
-      1843396656,
-      1073938437,
-      524293,
-      25430588,
-      581182208,
-      2195973,
-      204751104,
-      1098177,
-      536969250,
-      167919650,
-      1359106368,
-      1092616704,
-      276922368,
-      1073743616,
-      111739583
+      134217736,
+      2349664352,
+      100671488,
+      11385856,
+      1703984,
+      108527648,
+      293601474,
+      571484714,
+      219168768,
+      36728899,
+      1073938976,
+      10518596,
+      12849802,
+      2138116,
+      234897944,
+      2170527744,
+      426
     ],
     "school:illusion": [
       0,
-      262144,
-      1024,
-      524288,
-      33571328,
-      8388608,
+      16384,
+      64,
+      536871168,
+      4100,
+      512,
+      67108864,
+      411041856,
+      2048,
+      3229616256,
+      14716931,
+      1536,
+      184567808,
       0,
-      16779264,
-      1581056,
-      48,
-      1006895138,
-      7344896,
-      768,
-      2148597760,
-      5,
       0,
-      33554432,
-      32768
+      1073741824,
+      0
     ],
     "school:necromancy": [
-      134221825,
-      268517632,
-      148,
-      33816584,
-      0,
-      68288640,
-      2147483650,
-      67108864,
-      536870912,
-      2147614720,
-      0,
-      1024,
-      337641472,
-      2098216,
-      1846272,
+      8390657,
+      1090524176,
+      16777225,
+      16512,
+      33554432,
+      266312,
+      16384,
+      128,
+      8388624,
+      32,
       8192,
-      136351752,
-      4194304
+      1094975488,
+      32801,
+      6232,
+      538968068,
+      2113,
+      16
     ],
     "school:transmutation": [
-      77605120,
-      67764241,
-      0,
-      268683200,
-      2430600192,
-      17130264,
-      134259968,
-      135299145,
-      4194306,
-      34147855,
-      600604,
-      336093313,
-      3222798348,
-      684195985,
-      134332568,
-      205651968,
-      1204277,
-      268834816
+      272635008,
+      4235265,
+      4160749568,
+      1073873016,
+      2355398144,
+      1358955541,
+      1076134912,
+      1073746180,
+      2185463680,
+      21661440,
+      672139280,
+      2349006872,
+      807608324,
+      263041,
+      3235131424,
+      201326628,
+      1025
     ],
     "source:acquisitions-inc": [
       0,
       0,
       0,
       0,
-      16384,
-      4194304,
-      0,
       4,
-      33554432,
-      384,
+      256,
+      131072,
       0,
-      64,
+      24578,
+      0,
+      1024,
       0,
       0,
       0,
@@ -45954,39 +41910,37 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      67108864,
+      32768,
       0,
       0,
-      1048576,
-      770,
-      4194304,
+      25231368,
+      1073741824,
       0,
-      16,
-      0,
-      570556416,
       1024,
       0,
+      35684352,
+      32,
       0,
-      4105,
-      134217728
+      539230208,
+      0,
+      512
     ],
     "source:fizbans-treasury-of-dragons": [
-      67108864,
+      4194304,
       0,
       0,
       0,
-      2097152,
-      0,
-      128,
-      0,
-      0,
-      0,
-      0,
-      256,
+      512,
       8388608,
-      64,
       0,
-      32,
+      0,
+      0,
+      0,
+      4096,
+      1048576,
+      2,
+      134217728,
+      0,
       0,
       0
     ],
@@ -45995,8 +41949,7 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      0,
-      32,
+      8388608,
       0,
       0,
       0,
@@ -46014,11 +41967,10 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      32768,
+      16,
       0,
       0,
-      8388608,
-      0,
+      64,
       0,
       0,
       0,
@@ -46036,9 +41988,8 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      0,
-      100679680,
-      0,
+      536870912,
+      768,
       0,
       0,
       0,
@@ -46057,7 +42008,7 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      536870912,
+      4096,
       0,
       0,
       0,
@@ -46066,36 +42017,33 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      0,
-      0,
-      1024
+      33554432,
+      0
     ],
     "source:players-handbook": [
-      4217323428,
-      1137178559,
-      2749358078,
-      3655151038,
-      320847743,
-      4020231957,
-      3631200830,
-      770137337,
-      1637136895,
-      4091410960,
-      4233721323,
-      2147457214,
-      3697818599,
-      2676749246,
-      1025767653,
-      2030796801,
-      503129650,
-      624744807
+      4290764756,
+      3829170043,
+      3087007743,
+      4294654885,
+      2086181371,
+      3732913791,
+      2927422519,
+      2532310011,
+      4152264753,
+      3411901180,
+      4294953967,
+      4258086862,
+      3414048669,
+      6203377,
+      1288299704,
+      1823711226,
+      2383
     ],
     "source:spelljammer:-adventures-in-space---astral-adventurers-guide": [
+      32,
+      0,
+      0,
       64,
-      0,
-      0,
-      131072,
-      0,
       0,
       0,
       0,
@@ -46112,41 +42060,39 @@ export const spellsPack: SpellsPack = {
     ],
     "source:strixhaven:-a-curriculum-of-chaos": [
       0,
-      2097152,
+      131072,
       0,
       0,
       0,
       0,
       0,
       0,
+      65536,
       0,
-      1024,
-      0,
-      0,
-      0,
-      0,
-      2,
-      0,
-      2147483648,
-      4194304
-    ],
-    "source:tashas-cauldron-of-everything": [
-      0,
-      1050624,
       0,
       0,
       67108864,
       0,
       0,
+      16384,
+      16
+    ],
+    "source:tashas-cauldron-of-everything": [
       0,
-      2147483648,
-      2097152,
-      8388608,
+      65664,
+      0,
+      0,
+      8192,
       0,
       0,
       0,
-      1048576,
-      109327262,
+      134217792,
+      268435456,
+      0,
+      0,
+      0,
+      2004881408,
+      6726,
       0,
       0
     ],
@@ -46157,8 +42103,7 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      0,
-      8192,
+      268435456,
       0,
       0,
       0,
@@ -46171,127 +42116,7 @@ export const spellsPack: SpellsPack = {
       0
     ],
     "source:the-book-of-many-things": [
-      16384,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      4456448,
-      0,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-11---that-old-black-magic": [
-      0,
-      0,
-      1411383296,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-36---starter-spells": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1107820544,
-      0,
-      0,
-      0,
-      0,
-      262144,
-      262144,
-      2147483648,
-      0,
-      570425344,
-      131072
-    ],
-    "source:unearthed-arcana-60---the-artificer-returns": [
-      8388608,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-66---fighter-rogue-and-wizard": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      131072,
-      0,
-      131072,
-      0,
-      49152,
-      0,
-      0,
-      0,
-      64,
-      0
-    ],
-    "source:unearthed-arcana-7---modern-magic": [
-      2097152,
-      0,
-      134225920,
-      0,
-      128,
-      0,
-      1,
-      268435456,
-      67108864,
-      32,
-      0,
       8192,
-      1024,
-      536870913,
-      0,
-      6291456,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-70---spells-and-magic-tattoos": [
-      8,
       0,
       0,
       0,
@@ -46302,106 +42127,43 @@ export const spellsPack: SpellsPack = {
       0,
       0,
       0,
-      16384,
       0,
       0,
+      18432,
       0,
-      0,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-71---psionic-options-revisited": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      33554432,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-78---draconic-options": [
-      0,
-      0,
-      0,
-      0,
-      4194304,
-      0,
-      1088,
-      0,
-      65536,
-      0,
-      0,
-      512,
-      16777216,
-      0,
-      0,
-      64,
-      0,
-      0
-    ],
-    "source:unearthed-arcana-85---wonders-of-the-multiverse": [
-      32768,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1024,
-      0,
-      0,
-      0,
-      0,
-      0,
-      8912896,
-      16384,
       0,
       0
     ],
     "source:xanathars-guide-to-everything": [
-      19,
-      3154640960,
-      1,
-      572543552,
-      2826960896,
-      270532808,
-      16777472,
-      2148564992,
-      405291520,
-      201457743,
-      19171840,
-      2147484673,
-      1114136,
-      1081083904,
-      1107298072,
-      2148535296,
-      1073924484,
-      310452888
+      11,
+      465600516,
+      1207959552,
+      279562,
+      52773888,
+      16793728,
+      1073741952,
+      688915460,
+      8394636,
+      614629379,
+      8208,
+      147505,
+      813809728,
+      2149646350,
+      2467430657,
+      2437685253,
+      1184
     ],
     "source:xanathars-guide-to-everything-elemental-evil-players-companion": [
       0,
       0,
       0,
       0,
-      1073741824,
-      8192,
+      2147614720,
       0,
       0,
       0,
       0,
-      4,
+      256,
       0,
       0,
       0,
@@ -46411,128 +42173,102 @@ export const spellsPack: SpellsPack = {
       0
     ],
     "target:area": [
-      3792109705,
-      64487424,
-      2169243184,
-      1768493632,
-      2027947013,
-      9183233,
-      545331752,
-      2434802480,
-      1093249792,
-      1278492687,
-      68157552,
-      68190979,
-      35275168,
-      3242197072,
-      1153647553,
-      1620934656,
-      1107428608,
-      574743104
+      237092929,
+      4030464,
+      1210409059,
+      1085091106,
+      2148255232,
+      2387608112,
+      295178304,
+      716702792,
+      219154337,
+      1107303443,
+      136384560,
+      2149811008,
+      2206531586,
+      2246279,
+      167871448,
+      4045414404,
+      2192
     ],
     "target:self": [
-      362807554,
-      2527236,
-      94208,
-      276,
-      101112,
-      1077101600,
-      4195328,
-      1077968908,
-      67108864,
-      2177373248,
-      1879212032,
-      278528,
-      24,
-      45408256,
-      17829888,
-      71303168,
-      134750724,
-      470811648
+      1095762050,
+      157952,
+      578816768,
+      2936012800,
+      276824088,
+      65741,
+      1074135072,
+      16,
+      1912934400,
+      2097184,
+      524295,
+      48,
+      706304,
+      36896,
+      1141903360,
+      33556496,
+      1796
     ],
     "target:single": [
-      140050036,
-      4227952635,
-      2125629903,
-      2526473387,
-      2266919170,
-      3208682462,
-      3745440215,
-      782195907,
-      3134608639,
-      839101360,
-      2347597711,
-      4226497788,
-      4259692103,
-      1007361967,
-      3123489854,
-      2602729471,
-      3052787963,
-      28187071
-    ],
-    "technomagic": [
-      2097152,
-      0,
-      134225920,
-      0,
-      128,
-      0,
-      1,
-      268435456,
-      67108864,
-      32,
-      0,
-      8192,
-      1024,
-      536870913,
-      0,
-      6291456,
-      0,
-      0
+      2962112316,
+      4290778879,
+      2505741468,
+      273863389,
+      1869887975,
+      1907293442,
+      2925653919,
+      3578264487,
+      2162878558,
+      3185566668,
+      4158058440,
+      2145156239,
+      2087729405,
+      4292684120,
+      2985192487,
+      215996395,
+      107
     ]
   },
   "tagCounts": {
-    "cantrip": 49,
-    "class:artificer": 103,
-    "class:barbarian": 1,
-    "class:bard": 169,
-    "class:cleric": 129,
-    "class:druid": 174,
-    "class:fighter": 1,
-    "class:monk": 1,
-    "class:paladin": 54,
-    "class:ranger": 74,
-    "class:sorcerer": 264,
-    "class:warlock": 171,
-    "class:wizard": 405,
-    "components:m": 305,
-    "components:s": 495,
-    "components:v": 539,
-    "concentration": 262,
-    "concentration:no": 312,
-    "concentration:yes": 262,
+    "cantrip": 46,
+    "class:artificer": 100,
+    "class:bard": 158,
+    "class:cleric": 125,
+    "class:druid": 170,
+    "class:paladin": 53,
+    "class:ranger": 71,
+    "class:sorcerer": 223,
+    "class:warlock": 141,
+    "class:wizard": 360,
+    "components:m": 282,
+    "components:s": 452,
+    "components:v": 491,
+    "concentration": 234,
+    "concentration:no": 290,
+    "concentration:yes": 234,
     "dunamancy": 15,
     "dunamancy:chronurgy": 4,
     "dunamancy:graviturgy": 6,
-    "level:0": 49,
-    "level:1": 91,
-    "level:2": 97,
-    "level:3": 83,
-    "level:4": 61,
-    "level:5": 66,
-    "level:6": 51,
-    "level:7": 30,
+    "level:0": 46,
+    "level:1": 79,
+    "level:2": 88,
+    "level:3": 74,
+    "level:4": 53,
+    "level:5": 62,
+    "level:6": 48,
+    "level:7": 28,
     "level:8": 24,
     "level:9": 22,
-    "ritual": 37,
-    "school:abjuration": 60,
-    "school:conjuration": 108,
-    "school:divination": 40,
-    "school:enchantment": 61,
-    "school:evocation": 113,
-    "school:illusion": 36,
-    "school:necromancy": 44,
-    "school:transmutation": 112,
+    "ritual": 34,
+    "school:abjuration": 54,
+    "school:conjuration": 96,
+    "school:divination": 36,
+    "school:enchantment": 51,
+    "school:evocation": 109,
+    "school:illusion": 33,
+    "school:necromancy": 43,
+    "school:transmutation": 102,
     "source:acquisitions-inc": 7,
     "source:explorers-guide-to-wildemount": 15,
     "source:fizbans-treasury-of-dragons": 7,
@@ -46546,21 +42282,11 @@ export const spellsPack: SpellsPack = {
     "source:tashas-cauldron-of-everything": 20,
     "source:tashas-cauldron-of-everything-sword-coast-adventurers-guide": 1,
     "source:the-book-of-many-things": 3,
-    "source:unearthed-arcana-11---that-old-black-magic": 5,
-    "source:unearthed-arcana-36---starter-spells": 9,
-    "source:unearthed-arcana-60---the-artificer-returns": 1,
-    "source:unearthed-arcana-66---fighter-rogue-and-wizard": 6,
-    "source:unearthed-arcana-7---modern-magic": 14,
-    "source:unearthed-arcana-70---spells-and-magic-tattoos": 2,
-    "source:unearthed-arcana-71---psionic-options-revisited": 1,
-    "source:unearthed-arcana-78---draconic-options": 7,
-    "source:unearthed-arcana-85---wonders-of-the-multiverse": 5,
     "source:xanathars-guide-to-everything": 92,
     "source:xanathars-guide-to-everything-elemental-evil-players-companion": 3,
-    "target:area": 149,
-    "target:self": 85,
-    "target:single": 340,
-    "technomagic": 14
+    "target:area": 141,
+    "target:self": 74,
+    "target:single": 309
   },
   "tableRestoration": {
     "restored": [
@@ -46571,7 +42297,6 @@ export const spellsPack: SpellsPack = {
       "bestow-curse",
       "bigbys-hand",
       "chaos-bolt",
-      "commune-with-city",
       "commune-with-nature",
       "confusion",
       "conjure-animals",
@@ -46584,20 +42309,17 @@ export const spellsPack: SpellsPack = {
       "creation",
       "dispel-evil-and-good",
       "divine-word",
-      "draconic-transformation-ua",
       "druid-grove",
       "druidcraft",
       "earthquake",
       "enhance-ability",
       "eyebite",
-      "fizban-s-platinum-shield-ua",
       "galders-tower",
       "greater-restoration",
       "guardian-of-nature",
       "guards-and-wards",
       "gust",
       "hallow",
-      "haywire",
       "imprisonment",
       "investiture-of-flame",
       "investiture-of-ice",
@@ -46608,8 +42330,6 @@ export const spellsPack: SpellsPack = {
       "mold-earth",
       "mordenkainens-private-sanctum",
       "nathairs-mischief",
-      "nathairs-mischief-ua",
-      "otherworldly-form",
       "prestidigitation",
       "prismatic-spray",
       "prismatic-wall",
@@ -46617,7 +42337,6 @@ export const spellsPack: SpellsPack = {
       "reincarnate",
       "scrying",
       "shape-water",
-      "spray-of-cards-ua",
       "storm-of-vengeance",
       "summon-lesser-demons",
       "symbol",
@@ -46629,7 +42348,6 @@ export const spellsPack: SpellsPack = {
       "transmute-rock",
       "true-polymorph",
       "warding-wind",
-      "wild-cunning",
       "wish"
     ],
     "unresolvedCandidates": []

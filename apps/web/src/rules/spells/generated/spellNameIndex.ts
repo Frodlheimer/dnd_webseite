@@ -20,11 +20,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "acid splash"
   },
   {
-    "slug": "acid-stream",
-    "name": "Acid Stream",
-    "nameNormalized": "acid stream"
-  },
-  {
     "slug": "aganazzars-scorcher",
     "name": "Aganazzars Scorcher",
     "nameNormalized": "aganazzars scorcher"
@@ -80,11 +75,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "antagonize"
   },
   {
-    "slug": "antagonize-ua",
-    "name": "Antagonize Ua",
-    "nameNormalized": "antagonize ua"
-  },
-  {
     "slug": "antilife-shell",
     "name": "Antilife Shell",
     "nameNormalized": "antilife shell"
@@ -110,19 +100,9 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "arcane gate"
   },
   {
-    "slug": "arcane-hacking",
-    "name": "Arcane Hacking",
-    "nameNormalized": "arcane hacking"
-  },
-  {
     "slug": "arcane-lock",
     "name": "Arcane Lock",
     "nameNormalized": "arcane lock"
-  },
-  {
-    "slug": "arcane-weapon",
-    "name": "Arcane Weapon",
-    "nameNormalized": "arcane weapon"
   },
   {
     "slug": "armor-of-agathys",
@@ -390,11 +370,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "commune"
   },
   {
-    "slug": "commune-with-city",
-    "name": "Commune With City",
-    "nameNormalized": "commune with city"
-  },
-  {
     "slug": "commune-with-nature",
     "name": "Commune With Nature",
     "nameNormalized": "commune with nature"
@@ -430,11 +405,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "conjure animals"
   },
   {
-    "slug": "conjure-barlgura",
-    "name": "Conjure Barlgura",
-    "nameNormalized": "conjure barlgura"
-  },
-  {
     "slug": "conjure-barrage",
     "name": "Conjure Barrage",
     "nameNormalized": "conjure barrage"
@@ -455,39 +425,14 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "conjure fey"
   },
   {
-    "slug": "conjure-hezrou",
-    "name": "Conjure Hezrou",
-    "nameNormalized": "conjure hezrou"
-  },
-  {
-    "slug": "conjure-knowbot",
-    "name": "Conjure Knowbot",
-    "nameNormalized": "conjure knowbot"
-  },
-  {
-    "slug": "conjure-lesser-demon",
-    "name": "Conjure Lesser Demon",
-    "nameNormalized": "conjure lesser demon"
-  },
-  {
     "slug": "conjure-minor-elementals",
     "name": "Conjure Minor Elementals",
     "nameNormalized": "conjure minor elementals"
   },
   {
-    "slug": "conjure-shadow-demon",
-    "name": "Conjure Shadow Demon",
-    "nameNormalized": "conjure shadow demon"
-  },
-  {
     "slug": "conjure-volley",
     "name": "Conjure Volley",
     "nameNormalized": "conjure volley"
-  },
-  {
-    "slug": "conjure-vrock",
-    "name": "Conjure Vrock",
-    "nameNormalized": "conjure vrock"
   },
   {
     "slug": "conjure-woodland-beings",
@@ -680,11 +625,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "detect thoughts"
   },
   {
-    "slug": "digital-phantom",
-    "name": "Digital Phantom",
-    "nameNormalized": "digital phantom"
-  },
-  {
     "slug": "dimension-door",
     "name": "Dimension Door",
     "nameNormalized": "dimension door"
@@ -755,11 +695,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "draconic transformation"
   },
   {
-    "slug": "draconic-transformation-ua",
-    "name": "Draconic Transformation Ua",
-    "nameNormalized": "draconic transformation ua"
-  },
-  {
     "slug": "dragons-breath",
     "name": "Dragons Breath",
     "nameNormalized": "dragons breath"
@@ -808,11 +743,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "earthquake",
     "name": "Earthquake",
     "nameNormalized": "earthquake"
-  },
-  {
-    "slug": "ego-whip",
-    "name": "Ego Whip",
-    "nameNormalized": "ego whip"
   },
   {
     "slug": "eldritch-blast",
@@ -965,11 +895,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "find traps"
   },
   {
-    "slug": "find-vehicle",
-    "name": "Find Vehicle",
-    "nameNormalized": "find vehicle"
-  },
-  {
     "slug": "finger-of-death",
     "name": "Finger Of Death",
     "nameNormalized": "finger of death"
@@ -995,11 +920,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "fireball"
   },
   {
-    "slug": "fizban-s-platinum-shield-ua",
-    "name": "Fizban S Platinum Shield Ua",
-    "nameNormalized": "fizban s platinum shield ua"
-  },
-  {
     "slug": "fizbans-platinum-shield",
     "name": "Fizbans Platinum Shield",
     "nameNormalized": "fizbans platinum shield"
@@ -1013,11 +933,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "flame-blade",
     "name": "Flame Blade",
     "nameNormalized": "flame blade"
-  },
-  {
-    "slug": "flame-stride",
-    "name": "Flame Stride",
-    "nameNormalized": "flame stride"
   },
   {
     "slug": "flame-strike",
@@ -1220,11 +1135,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "guiding bolt"
   },
   {
-    "slug": "guiding-hand-ua",
-    "name": "Guiding Hand Ua",
-    "nameNormalized": "guiding hand ua"
-  },
-  {
     "slug": "gust",
     "name": "Gust",
     "nameNormalized": "gust"
@@ -1250,11 +1160,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "hallucinatory terrain"
   },
   {
-    "slug": "hand-of-radiance",
-    "name": "Hand Of Radiance",
-    "nameNormalized": "hand of radiance"
-  },
-  {
     "slug": "harm",
     "name": "Harm",
     "nameNormalized": "harm"
@@ -1265,19 +1170,9 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "haste"
   },
   {
-    "slug": "haywire",
-    "name": "Haywire",
-    "nameNormalized": "haywire"
-  },
-  {
     "slug": "heal",
     "name": "Heal",
     "nameNormalized": "heal"
-  },
-  {
-    "slug": "healing-elixir-ua",
-    "name": "Healing Elixir Ua",
-    "nameNormalized": "healing elixir ua"
   },
   {
     "slug": "healing-spirit",
@@ -1335,11 +1230,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "holy weapon"
   },
   {
-    "slug": "house-of-cards-ua",
-    "name": "House Of Cards Ua",
-    "nameNormalized": "house of cards ua"
-  },
-  {
     "slug": "hunger-of-hadar",
     "name": "Hunger Of Hadar",
     "nameNormalized": "hunger of hadar"
@@ -1363,16 +1253,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "ice-storm",
     "name": "Ice Storm",
     "nameNormalized": "ice storm"
-  },
-  {
-    "slug": "icingdeath-s-frost",
-    "name": "Icingdeath S Frost",
-    "nameNormalized": "icingdeath s frost"
-  },
-  {
-    "slug": "id-insinuation",
-    "name": "ID Insinuation",
-    "nameNormalized": "id insinuation"
   },
   {
     "slug": "identify",
@@ -1413,11 +1293,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "incite-greed",
     "name": "Incite Greed",
     "nameNormalized": "incite greed"
-  },
-  {
-    "slug": "infallible-relay",
-    "name": "Infallible Relay",
-    "nameNormalized": "infallible relay"
   },
   {
     "slug": "infernal-calling",
@@ -1468,11 +1343,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "invisibility",
     "name": "Invisibility",
     "nameNormalized": "invisibility"
-  },
-  {
-    "slug": "invisibility-to-cameras",
-    "name": "Invisibility To Cameras",
-    "nameNormalized": "invisibility to cameras"
   },
   {
     "slug": "invulnerability",
@@ -1690,11 +1560,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "mending"
   },
   {
-    "slug": "mental-barrier",
-    "name": "Mental Barrier",
-    "nameNormalized": "mental barrier"
-  },
-  {
     "slug": "mental-prison",
     "name": "Mental Prison",
     "nameNormalized": "mental prison"
@@ -1728,11 +1593,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "mind-spike",
     "name": "Mind Spike",
     "nameNormalized": "mind spike"
-  },
-  {
-    "slug": "mind-thrust",
-    "name": "Mind Thrust",
-    "nameNormalized": "mind thrust"
   },
   {
     "slug": "minor-illusion",
@@ -1810,11 +1670,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "nathairs mischief"
   },
   {
-    "slug": "nathairs-mischief-ua",
-    "name": "Nathairs Mischief Ua",
-    "nameNormalized": "nathairs mischief ua"
-  },
-  {
     "slug": "negative-energy-flood",
     "name": "Negative Energy Flood",
     "nameNormalized": "negative energy flood"
@@ -1828,16 +1683,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "nystuls-magic-aura",
     "name": "Nystuls Magic Aura",
     "nameNormalized": "nystuls magic aura"
-  },
-  {
-    "slug": "on-off",
-    "name": "On Off",
-    "nameNormalized": "on off"
-  },
-  {
-    "slug": "otherworldly-form",
-    "name": "Otherworldly Form",
-    "nameNormalized": "otherworldly form"
   },
   {
     "slug": "otilukes-freezing-sphere",
@@ -1975,11 +1820,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "project image"
   },
   {
-    "slug": "protection-from-ballistics",
-    "name": "Protection From Ballistics",
-    "nameNormalized": "protection from ballistics"
-  },
-  {
     "slug": "protection-from-energy",
     "name": "Protection From Energy",
     "nameNormalized": "protection from energy"
@@ -1995,16 +1835,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "protection from poison"
   },
   {
-    "slug": "psionic-blast",
-    "name": "Psionic Blast",
-    "nameNormalized": "psionic blast"
-  },
-  {
-    "slug": "psychic-crush",
-    "name": "Psychic Crush",
-    "nameNormalized": "psychic crush"
-  },
-  {
     "slug": "psychic-scream",
     "name": "Psychic Scream",
     "nameNormalized": "psychic scream"
@@ -2013,11 +1843,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "pulse-wave",
     "name": "Pulse Wave",
     "nameNormalized": "pulse wave"
-  },
-  {
-    "slug": "puppet",
-    "name": "Puppet",
-    "nameNormalized": "puppet"
   },
   {
     "slug": "purify-food-and-drink",
@@ -2043,11 +1868,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "raulothims-psychic-lance",
     "name": "Raulothims Psychic Lance",
     "nameNormalized": "raulothims psychic lance"
-  },
-  {
-    "slug": "raulothims-psychic-lance-ua",
-    "name": "Raulothims Psychic Lance Ua",
-    "nameNormalized": "raulothims psychic lance ua"
   },
   {
     "slug": "ravenous-void",
@@ -2083,11 +1903,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "reincarnate",
     "name": "Reincarnate",
     "nameNormalized": "reincarnate"
-  },
-  {
-    "slug": "remote-access",
-    "name": "Remote Access",
-    "nameNormalized": "remote access"
   },
   {
     "slug": "remove-curse",
@@ -2175,11 +1990,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "sending"
   },
   {
-    "slug": "sense-emotion",
-    "name": "Sense Emotion",
-    "nameNormalized": "sense emotion"
-  },
-  {
     "slug": "sequester",
     "name": "Sequester",
     "nameNormalized": "sequester"
@@ -2228,11 +2038,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "shocking-grasp",
     "name": "Shocking Grasp",
     "nameNormalized": "shocking grasp"
-  },
-  {
-    "slug": "shutdown",
-    "name": "Shutdown",
-    "nameNormalized": "shutdown"
   },
   {
     "slug": "sickening-radiance",
@@ -2340,11 +2145,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "spirit of death"
   },
   {
-    "slug": "spirit-of-death-ua",
-    "name": "Spirit Of Death Ua",
-    "nameNormalized": "spirit of death ua"
-  },
-  {
     "slug": "spirit-shroud",
     "name": "Spirit Shroud",
     "nameNormalized": "spirit shroud"
@@ -2358,11 +2158,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "spray-of-cards",
     "name": "Spray Of Cards",
     "nameNormalized": "spray of cards"
-  },
-  {
-    "slug": "spray-of-cards-ua",
-    "name": "Spray Of Cards Ua",
-    "nameNormalized": "spray of cards ua"
   },
   {
     "slug": "staggering-smite",
@@ -2400,11 +2195,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "storm sphere"
   },
   {
-    "slug": "sudden-awakening",
-    "name": "Sudden Awakening",
-    "nameNormalized": "sudden awakening"
-  },
-  {
     "slug": "suggestion",
     "name": "Suggestion",
     "nameNormalized": "suggestion"
@@ -2433,11 +2223,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "summon-draconic-spirit",
     "name": "Summon Draconic Spirit",
     "nameNormalized": "summon draconic spirit"
-  },
-  {
-    "slug": "summon-draconic-spirit-ua",
-    "name": "Summon Draconic Spirit Ua",
-    "nameNormalized": "summon draconic spirit ua"
   },
   {
     "slug": "summon-elemental",
@@ -2475,11 +2260,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "summon undead"
   },
   {
-    "slug": "summon-warrior-spirit",
-    "name": "Summon Warrior Spirit",
-    "nameNormalized": "summon warrior spirit"
-  },
-  {
     "slug": "sunbeam",
     "name": "Sunbeam",
     "nameNormalized": "sunbeam"
@@ -2508,16 +2288,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "synaptic-static",
     "name": "Synaptic Static",
     "nameNormalized": "synaptic static"
-  },
-  {
-    "slug": "synchronicity",
-    "name": "Synchronicity",
-    "nameNormalized": "synchronicity"
-  },
-  {
-    "slug": "system-backdoor",
-    "name": "System Backdoor",
-    "nameNormalized": "system backdoor"
   },
   {
     "slug": "tashas-caustic-brew",
@@ -2593,11 +2363,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "thorn-whip",
     "name": "Thorn Whip",
     "nameNormalized": "thorn whip"
-  },
-  {
-    "slug": "thought-shield",
-    "name": "Thought Shield",
-    "nameNormalized": "thought shield"
   },
   {
     "slug": "thunder-step",
@@ -2690,11 +2455,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "nameNormalized": "tsunami"
   },
   {
-    "slug": "unearthly-chorus",
-    "name": "Unearthly Chorus",
-    "nameNormalized": "unearthly chorus"
-  },
-  {
     "slug": "unseen-servant",
     "name": "Unseen Servant",
     "nameNormalized": "unseen servant"
@@ -2708,11 +2468,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "vicious-mockery",
     "name": "Vicious Mockery",
     "nameNormalized": "vicious mockery"
-  },
-  {
-    "slug": "virtue",
-    "name": "Virtue",
-    "nameNormalized": "virtue"
   },
   {
     "slug": "vitriolic-sphere",
@@ -2808,11 +2563,6 @@ export const spellNameIndex: SpellNameIndexEntry[] = [
     "slug": "whirlwind",
     "name": "Whirlwind",
     "nameNormalized": "whirlwind"
-  },
-  {
-    "slug": "wild-cunning",
-    "name": "Wild Cunning",
-    "nameNormalized": "wild cunning"
   },
   {
     "slug": "wind-walk",

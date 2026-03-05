@@ -2,25 +2,32 @@
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-import { buildClassesPackFromText } from '../src/rules/classes/parse/parseClassesTxt';
+import {
+  buildClassesPackFromContentEntries,
+  type SourceEntryJson
+} from '../src/rules/classes/parse/parseClassesContentJson';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, '../../..');
 
-const envPathRaw = process.env.CLASSES_TXT_PATH?.trim();
-const envPath = envPathRaw ? path.resolve(envPathRaw) : null;
-const fallbackPath = path.resolve(repoRoot, 'dnd5e_classes_subclasses.txt');
+const envDirRaw = process.env.CLASSES_JSON_DIR?.trim();
+const envDir = envDirRaw ? path.resolve(envDirRaw) : null;
+const fallbackDir = path.resolve(repoRoot, 'content');
 
 const indexOutputPath = path.resolve(repoRoot, 'apps/web/src/rules/classes/generated/classesIndex.ts');
 const detailsOutputDir = path.resolve(repoRoot, 'apps/web/public/rules/classes/entries');
 
-const resolveInputPath = (): string => {
-  if (envPath) {
-    return envPath;
+type IndexEntry = {
+  file?: string;
+};
+
+const resolveInputDir = (): string => {
+  if (envDir) {
+    return envDir;
   }
 
-  return fallbackPath;
+  return fallbackDir;
 };
 
 const clearDirectoryJsonFiles = (directoryPath: string): void => {
@@ -46,6 +53,16 @@ const clearDirectoryJsonFiles = (directoryPath: string): void => {
   }
 };
 
+const normalizeSpellFoldedName = (value: string): string => {
+  return value
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[\u2019\u2018â€™'`]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+};
+
 const loadSpellSlugMap = async (): Promise<Map<string, string>> => {
   const output = new Map<string, string>();
   const spellIndexModulePath = path.resolve(
@@ -68,17 +85,7 @@ const loadSpellSlugMap = async (): Promise<Map<string, string>> => {
     };
     const entries = module.spellNameIndex ?? [];
     for (const entry of entries) {
-      const key = (
-        entry.nameFolded ??
-        entry.nameNormalized ??
-        entry.name
-      )
-        .toLowerCase()
-        .normalize('NFKD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/['â€™`]/g, '')
-        .replace(/[^a-z0-9]+/g, ' ')
-        .trim();
+      const key = normalizeSpellFoldedName(entry.nameFolded ?? entry.nameNormalized ?? entry.name);
       if (key.length > 0) {
         output.set(key, entry.slug);
       }
@@ -91,23 +98,69 @@ const loadSpellSlugMap = async (): Promise<Map<string, string>> => {
   return output;
 };
 
+const resolveOrderedInputFiles = (inputDir: string): string[] => {
+  const indexPath = path.resolve(inputDir, '_index.json');
+  if (existsSync(indexPath)) {
+    const parsed = JSON.parse(readFileSync(indexPath, 'utf8')) as IndexEntry[];
+    const fromIndex = parsed
+      .map((entry) => entry.file?.trim())
+      .filter((entry): entry is string => !!entry && entry.toLowerCase().endsWith('.json'))
+      .map((entry) => path.resolve(inputDir, entry))
+      .filter((entry) => existsSync(entry));
+
+    if (fromIndex.length > 0) {
+      return fromIndex;
+    }
+  }
+
+  return readdirSync(inputDir)
+    .filter((entry) => entry.toLowerCase().endsWith('.json') && entry.toLowerCase() !== '_index.json')
+    .sort((left, right) => left.localeCompare(right))
+    .map((entry) => path.resolve(inputDir, entry));
+};
+
+const loadEntries = (inputDir: string): Array<{ fileName: string; payload: SourceEntryJson }> => {
+  const files = resolveOrderedInputFiles(inputDir);
+
+  return files
+    .map((filePath) => {
+      const fileName = path.basename(filePath);
+      const payload = JSON.parse(readFileSync(filePath, 'utf8')) as SourceEntryJson;
+      if (!payload || (payload.type !== 'CLASS' && payload.type !== 'SUBCLASS')) {
+        return null;
+      }
+      if (!payload.name || !payload.content || !Array.isArray(payload.content.tree)) {
+        return null;
+      }
+      return {
+        fileName,
+        payload
+      };
+    })
+    .filter((entry): entry is { fileName: string; payload: SourceEntryJson } => !!entry);
+};
+
 const run = async (): Promise<void> => {
-  const inputPath = resolveInputPath();
-  if (!existsSync(inputPath)) {
+  const inputDir = resolveInputDir();
+  if (!existsSync(inputDir)) {
     const lines: string[] = [];
     lines.push('[classes:build] Failed to build classes/subclasses pack.');
-    lines.push(`CLASSES_TXT_PATH: ${envPathRaw ? envPathRaw : '(not set)'}`);
-    lines.push(`Tried input path: ${inputPath}`);
-    lines.push(`Fallback path: ${fallbackPath}`);
-    lines.push(
-      'Provide CLASSES_TXT_PATH or place dnd5e_classes_subclasses.txt at repository root.'
-    );
+    lines.push(`CLASSES_JSON_DIR: ${envDirRaw ? envDirRaw : '(not set)'}`);
+    lines.push(`Tried input dir: ${inputDir}`);
+    lines.push(`Fallback dir: ${fallbackDir}`);
+    lines.push('Provide CLASSES_JSON_DIR or place class/subclass JSON files in ./content.');
     throw new Error(lines.join('\n'));
   }
 
-  const rawText = readFileSync(inputPath, 'utf8');
+  const entries = loadEntries(inputDir);
+  if (entries.length === 0) {
+    throw new Error(
+      `[classes:build] No valid CLASS/SUBCLASS JSON files found in ${inputDir}.`
+    );
+  }
+
   const spellSlugByName = await loadSpellSlugMap();
-  const pack = buildClassesPackFromText(rawText, {
+  const pack = buildClassesPackFromContentEntries(entries, {
     spellSlugByName
   });
 
@@ -138,7 +191,7 @@ const run = async (): Promise<void> => {
 
   console.log(`[classes:build] Built classes pack with ${pack.index.count} entries.`);
   console.log(`[classes:build] Classes: ${classCount}, Subclasses: ${subclassCount}`);
-  console.log(`[classes:build] Input: ${inputPath}`);
+  console.log(`[classes:build] Input dir: ${inputDir}`);
   console.log(`[classes:build] Index output: ${indexOutputPath}`);
   console.log(`[classes:build] Detail output: ${detailsOutputDir}`);
 };

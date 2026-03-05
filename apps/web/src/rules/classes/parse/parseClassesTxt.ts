@@ -58,7 +58,103 @@ const normalizeRunOnSpacing = (value: string): string => {
   return value
     .replace(/([a-z])([A-Z])/g, '$1 $2')
     .replace(/([0-9])([A-Z][a-z])/g, '$1 $2')
+    .replace(/([)])([A-Z][a-z])/g, '$1 $2')
     .replace(/([.!?])([A-Z])/g, '$1 $2');
+};
+
+const normalizeInlineMarkerSpacing = (value: string): string => {
+  return value
+    .replace(/(\S)(\[(?:\/)?(?:B|I|CODE|SUP|SUB)\])/g, '$1 $2')
+    .replace(/(\[(?:\/)?(?:B|I|CODE|SUP|SUB)\])(\S)/g, '$1 $2');
+};
+
+const SECTION_SPLIT_LABELS = [
+  'Class Features',
+  'Hit Points',
+  'Proficiencies',
+  'Equipment',
+  'Source:',
+  'Actions',
+  'Reactions',
+  'Spellcasting',
+  'Infuse Item',
+  'Optional Rule:',
+  'Specialty Source'
+];
+
+const escapeRegex = (value: string): string => {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+};
+
+const splitCompressedContentLine = (value: string): string[] => {
+  if (value.length === 0) {
+    return [''];
+  }
+
+  let expanded = normalizeInlineMarkerSpacing(value);
+  expanded = expanded
+    .replace(/^((?:Class Features|Proficiencies|Equipment|Spellcasting|Infuse Item|Actions|Reactions))\s+(?=[A-Z])/i, '$1\n')
+    .replace(/\s+(\[B\]\s*[A-Za-z][^:\]]{1,80}:\s*\[\/B\])/g, '\n$1');
+
+  for (const label of SECTION_SPLIT_LABELS) {
+    const pattern = new RegExp(`([a-z0-9\\]\\)])(${escapeRegex(label)})`, 'g');
+    expanded = expanded.replace(pattern, '$1\n$2');
+    const labelPattern = new RegExp(`\\s+(${escapeRegex(label)})(?=\\s+[A-Z])`, 'gi');
+    expanded = expanded.replace(labelPattern, '\n$1');
+  }
+
+  expanded = expanded
+    .replace(
+      /([.!?])\s+([A-Z][A-Za-z'’â€™-]{2,}(?: [A-Z][A-Za-z'’â€™-]{2,}){0,6}\s+(?:At|When|Beginning|Starting)\s+\d)/g,
+      '$1\n$2'
+    )
+    .replace(
+      /([a-z0-9)\]])([A-Z][A-Za-z'’â€™-]{2,}(?: [A-Z][A-Za-z'’â€™-]{2,}){0,6})(?=(?:At|When|Beginning|Starting|By)\s+\d|When\s+you|At\s+\d)/g,
+      '$1\n$2'
+    )
+    .replace(/:\s*(?=(?:You|When|If|Choose|Each|The)\b)/g, ':\n- ');
+
+  return expanded
+    .split('\n')
+    .map((line) => collapseWhitespace(line))
+    .filter((line, index, array) => line.length > 0 || (array[index - 1] ?? '').length > 0);
+};
+
+const normalizeContentLines = (contentLinesRaw: string[]): string[] => {
+  const normalized: string[] = [];
+  let inTable = false;
+  let inPre = false;
+
+  for (const rawLine of contentLinesRaw) {
+    const line = cleanTextLine(rawLine);
+    if (line === '[TABLE_BEGIN]') {
+      inTable = true;
+      normalized.push(line);
+      continue;
+    }
+    if (line === '[TABLE_END]') {
+      inTable = false;
+      normalized.push(line);
+      continue;
+    }
+    if (line === '[PRE_BEGIN]') {
+      inPre = true;
+      normalized.push(line);
+      continue;
+    }
+    if (line === '[PRE_END]') {
+      inPre = false;
+      normalized.push(line);
+      continue;
+    }
+    if (inTable || inPre) {
+      normalized.push(line);
+      continue;
+    }
+    normalized.push(...splitCompressedContentLine(line));
+  }
+
+  return normalized;
 };
 
 const cleanTextLine = (value: string): string => {
@@ -70,6 +166,31 @@ const cleanTextLine = (value: string): string => {
   const sanitized = sanitizeLinks(normalized);
   const withSpacing = normalizeRunOnSpacing(sanitized);
   return collapseWhitespace(withSpacing);
+};
+
+const splitLongListItem = (value: string): string[] => {
+  const normalized = collapseWhitespace(value);
+  if (normalized.length <= 220) {
+    return [normalized];
+  }
+
+  let expanded = normalizeInlineMarkerSpacing(normalized);
+  for (const label of SECTION_SPLIT_LABELS) {
+    const labelPattern = new RegExp(`\\s+(${escapeRegex(label)})(?=\\s+[A-Z])`, 'gi');
+    expanded = expanded.replace(labelPattern, '\n$1');
+  }
+  expanded = expanded
+    .replace(
+      /([.!?])\s+([A-Z][A-Za-z'’â€™-]{2,}(?: [A-Z][A-Za-z'’â€™-]{2,}){0,6}\s+(?:At|When|Beginning|Starting)\s+\d)/g,
+      '$1\n$2'
+    )
+    .replace(/:\s*(?=(?:You|When|If|Choose|Each|The)\b)/g, ':\n');
+
+  const items = expanded
+    .split('\n')
+    .map((line) => collapseWhitespace(line))
+    .filter((line) => line.length > 0);
+  return items.length > 0 ? items : [normalized];
 };
 
 const toFolded = (value: string): string => {
@@ -165,6 +286,16 @@ const parseDocumentBlocks = (lines: string[]): RulesDocumentBlock[] => {
       continue;
     }
 
+    if (isLikelyHeadingLine(line)) {
+      flushParagraph();
+      blocks.push({
+        type: 'h3',
+        text: collapseWhitespace(stripInlineMarkers(line))
+      });
+      index += 1;
+      continue;
+    }
+
     if (line === '[TABLE_BEGIN]') {
       flushParagraph();
       const rows: string[][] = [];
@@ -222,7 +353,7 @@ const parseDocumentBlocks = (lines: string[]): RulesDocumentBlock[] => {
         }
         const item = collapseWhitespace(match[1] ?? '');
         if (item.length > 0) {
-          items.push(item);
+          items.push(...splitLongListItem(item));
         }
         index += 1;
       }
@@ -269,6 +400,16 @@ const parseDocumentBlocks = (lines: string[]): RulesDocumentBlock[] => {
       continue;
     }
 
+    if (/^\[B\]\s*[^:\]]{1,80}:\s*\[\/B\]\s*/i.test(line)) {
+      flushParagraph();
+      blocks.push({
+        type: 'p',
+        text: line
+      });
+      index += 1;
+      continue;
+    }
+
     paragraphBuffer.push(line);
     index += 1;
   }
@@ -283,6 +424,27 @@ const firstParagraph = (blocks: RulesDocumentBlock[]): string => {
     return '';
   }
   return collapseWhitespace(stripInlineMarkers(paragraph.text));
+};
+
+const isLikelyHeadingLine = (value: string): boolean => {
+  const plain = collapseWhitespace(stripInlineMarkers(value)).replace(/:$/, '');
+  if (plain.length < 3 || plain.length > 72) {
+    return false;
+  }
+  if (plain.includes(':') || /[.!?]/.test(plain) || /^\d/.test(plain) || /^source:/i.test(plain)) {
+    return false;
+  }
+  if (/\b(you|your|is|are|can|must|when|while|if|then)\b/i.test(plain)) {
+    return false;
+  }
+
+  const words = plain.split(/\s+/).filter(Boolean);
+  if (words.length === 0 || words.length > 8) {
+    return false;
+  }
+
+  const titleWordCount = words.filter((word) => /^[A-Z][A-Za-z'’â€™-]+$/.test(word)).length;
+  return titleWordCount >= Math.max(1, Math.ceil(words.length * 0.6));
 };
 
 const toTitleCase = (value: string): string => {
@@ -314,11 +476,16 @@ const normalizeTable = (rows: string[][]): ProgressionTable | null => {
   const second = nonEmptyRows[1] ?? [];
   const third = nonEmptyRows[2] ?? [];
   const firstNonEmptyCount = first.filter((cell) => cell.length > 0).length;
+  const secondStartsWithLevel = /^level$/i.test(second[0] ?? '');
 
   if (isTableSeparatorRow(second) && third.length > 0 && /^level$/i.test(third[0] ?? '')) {
     title = firstNonEmptyCount <= 2 ? first.filter(Boolean).join(' ').trim() : undefined;
     columns = [...third];
     dataRows = nonEmptyRows.slice(3);
+  } else if (secondStartsWithLevel && firstNonEmptyCount <= 2) {
+    title = first.filter(Boolean).join(' ').trim() || undefined;
+    columns = [...second];
+    dataRows = nonEmptyRows.slice(2);
   } else if (isTableSeparatorRow(second)) {
     columns = [...first];
     dataRows = nonEmptyRows.slice(2);
@@ -383,6 +550,68 @@ const parseLevelFromText = (value: string): number | null => {
     return null;
   }
   return parsed;
+};
+
+const ABILITY_NAMES = [
+  'Strength',
+  'Dexterity',
+  'Constitution',
+  'Intelligence',
+  'Wisdom',
+  'Charisma'
+] as const;
+
+const sanitizeFactValue = (value: string | undefined, maxLength = 120): string | undefined => {
+  if (!value) {
+    return undefined;
+  }
+  const normalized = collapseWhitespace(stripInlineMarkers(value));
+  if (normalized.length === 0 || normalized.length > maxLength) {
+    return undefined;
+  }
+  if (/(Class Features|Proficiencies|Equipment|Spellcasting|Source:)/i.test(normalized) && normalized.length > 45) {
+    return undefined;
+  }
+  return normalized;
+};
+
+const extractLabelValue = (
+  source: string,
+  label: string,
+  maxLength = 120
+): string | undefined => {
+  const pattern = new RegExp(
+    `${escapeRegex(label)}\\s*:\\s*([^:\\n]{1,220}?)(?=\\s+[A-Z][A-Za-z'’â€™\\- ]{2,24}:|\\.|$)`,
+    'i'
+  );
+  const value = pattern.exec(source)?.[1];
+  return sanitizeFactValue(value, maxLength);
+};
+
+const extractSavingThrows = (value: string | undefined): string[] => {
+  if (!value) {
+    return [];
+  }
+  return ABILITY_NAMES.filter((ability) => new RegExp(`\\b${ability}\\b`, 'i').test(value));
+};
+
+const extractBoldLabelValues = (value: string): Map<string, string> => {
+  const labels = new Map<string, string>();
+  const pattern = /\[B\]\s*([^:\]\n]{1,120}):\s*\[\/B\]\s*([\s\S]*?)(?=(?:\[B\]\s*[^:\]\n]{1,120}:\s*\[\/B\])|$)/gi;
+
+  let match = pattern.exec(value);
+  while (match) {
+    const rawLabel = collapseWhitespace(stripInlineMarkers(match[1] ?? ''));
+    const rawValue = collapseWhitespace(stripInlineMarkers(match[2] ?? ''));
+    const label = toFolded(rawLabel);
+    const cleanedValue = sanitizeFactValue(rawValue, 140);
+    if (label.length > 0 && cleanedValue) {
+      labels.set(label, cleanedValue);
+    }
+    match = pattern.exec(value);
+  }
+
+  return labels;
 };
 
 const detectCasterType = (args: {
@@ -591,19 +820,37 @@ const extractStructuredFromBlocks = (args: {
     });
   }
 
-  const hitDie = normalizedText.match(/Hit Dice?:\s*([^\n.]+)/i)?.[1];
-  const primaryAbility = normalizedText.match(/Primary Ability(?: Score)?s?:\s*([^\n.]+)/i)?.[1];
-  const savingThrowsRaw = normalizedText.match(/Saving Throws?:\s*([^\n.]+)/i)?.[1];
-  const armor = normalizedText.match(/Armor:\s*([^\n.]+)/i)?.[1];
-  const weapons = normalizedText.match(/Weapons:\s*([^\n.]+)/i)?.[1];
-  const tools = normalizedText.match(/Tools:\s*([^\n.]+)/i)?.[1];
-  const preparedFormula = normalizedText.match(/prepare(?:d|s)?[^.]{0,120}(?:equal to|=)\s*([^.]+)/i)?.[1];
+  const blocksWithInlineMarkers = args.blocks
+    .map((block) => {
+      if (block.type === 'p') {
+        return block.text;
+      }
+      if (block.type === 'ul' || block.type === 'ol') {
+        return block.items.join(' ');
+      }
+      if (block.type === 'table') {
+        return block.rows.flat().join(' ');
+      }
+      if (block.type === 'pre') {
+        return block.lines.join(' ');
+      }
+      return '';
+    })
+    .join(' ');
+  const boldLabelValues = extractBoldLabelValues(blocksWithInlineMarkers);
 
-  const savingThrows =
-    savingThrowsRaw
-      ?.split(/,| and /i)
-      .map((entry) => collapseWhitespace(entry))
-      .filter((entry) => entry.length > 0) ?? [];
+  const normalizedPlainText = collapseWhitespace(stripInlineMarkers(normalizedText));
+  const hitDie = boldLabelValues.get('hit dice') ?? extractLabelValue(normalizedPlainText, 'Hit Dice', 60);
+  const primaryAbility =
+    boldLabelValues.get('primary ability') ?? extractLabelValue(normalizedPlainText, 'Primary Ability', 80);
+  const savingThrowsRaw =
+    boldLabelValues.get('saving throws') ?? extractLabelValue(normalizedPlainText, 'Saving Throws', 80);
+  const armor = boldLabelValues.get('armor') ?? extractLabelValue(normalizedPlainText, 'Armor', 120);
+  const weapons = boldLabelValues.get('weapons') ?? extractLabelValue(normalizedPlainText, 'Weapons', 120);
+  const tools = boldLabelValues.get('tools') ?? extractLabelValue(normalizedPlainText, 'Tools', 120);
+  const preparedFormula = normalizedPlainText.match(/prepare(?:d|s)?[^.]{0,120}(?:equal to|=)\s*([^.]+)/i)?.[1];
+
+  const savingThrows = extractSavingThrows(savingThrowsRaw);
 
   const armorWeaponProficiencies = [armor, weapons, tools]
     .filter((entry): entry is string => !!entry && entry.trim().length > 0)
@@ -719,7 +966,7 @@ const extractNameTags = (name: string): string[] => {
   }
 
   const tokens = match[1]
-    .split(/[\/,]/g)
+    .split(/[/,]/g)
     .map((entry) => collapseWhitespace(entry))
     .filter((entry) => entry.length > 0);
   for (const token of tokens) {
@@ -842,9 +1089,7 @@ export const parseClassesTxt = (rawText: string, args: BuildClassesPackArgs = {}
         ? lines.slice(contentStartIndex + 1, contentEndIndex)
         : [];
 
-    const contentLines = contentLinesRaw
-      .map((line) => cleanTextLine(line))
-      .filter((line, index, array) => {
+    const contentLines = normalizeContentLines(contentLinesRaw).filter((line, index, array) => {
         if (DASH_SEPARATOR_PATTERN.test(line)) {
           return false;
         }

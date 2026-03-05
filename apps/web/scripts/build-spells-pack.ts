@@ -1,13 +1,17 @@
-﻿import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+﻿import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { buildSpellsPackFromText } from '../src/rules/spells/parse/parseSpellsTxt';
+import type { SpellMeta, SpellsPack } from '../src/rules/spells/types';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, '../../..');
-const fallbackTxtPath = path.resolve(repoRoot, 'dnd5e_spells.txt');
+const fallbackTxtPaths = [
+  path.resolve(repoRoot, 'dnd5e_spells.txt'),
+  path.resolve(repoRoot, 'content/dnd5e_spells.txt')
+];
 const envPathRaw = process.env.SPELLS_TXT_PATH?.trim();
 const envPath = envPathRaw ? path.resolve(envPathRaw) : null;
 
@@ -16,14 +20,94 @@ const resolveInputPath = (): string => {
     return envPath;
   }
 
-  return fallbackTxtPath;
+  const existingFallback = fallbackTxtPaths.find((candidate) => existsSync(candidate));
+  if (existingFallback) {
+    return existingFallback;
+  }
+
+  return fallbackTxtPaths[0];
 };
 
 const inputPath = resolveInputPath();
 
+const isUnearthedArcanaSpell = (meta: SpellMeta): boolean => {
+  const name = meta.name.toLowerCase();
+  const source = meta.source.toLowerCase();
+  return source.includes('unearthed arcana') || /\bua\b/.test(source) || name.includes('(ua)');
+};
+
+const rebuildSpellTagIndexes = (
+  metas: SpellMeta[]
+): Pick<SpellsPack, 'allTags' | 'tagBitsets' | 'tagCounts'> => {
+  const words = Math.ceil(metas.length / 32);
+  const bitsets = new Map<string, Uint32Array>();
+  const counts = new Map<string, number>();
+
+  metas.forEach((meta, index) => {
+    for (const tag of meta.tags) {
+      let bits = bitsets.get(tag);
+      if (!bits) {
+        bits = new Uint32Array(words);
+        bitsets.set(tag, bits);
+      }
+      const wordIndex = Math.floor(index / 32);
+      const bitOffset = index % 32;
+      const existingWord = bits[wordIndex] ?? 0;
+      bits[wordIndex] = existingWord | (1 << bitOffset);
+      counts.set(tag, (counts.get(tag) ?? 0) + 1);
+    }
+  });
+
+  const allTags = [...bitsets.keys()].sort();
+  const tagBitsets: Record<string, number[]> = {};
+  const tagCounts: Record<string, number> = {};
+
+  for (const tag of allTags) {
+    tagBitsets[tag] = [...(bitsets.get(tag) ?? new Uint32Array(words))];
+    tagCounts[tag] = counts.get(tag) ?? 0;
+  }
+
+  return {
+    allTags,
+    tagBitsets,
+    tagCounts
+  };
+};
+
+const stripUnearthedArcanaFromPack = (pack: SpellsPack): SpellsPack => {
+  const filteredMetas = pack.metas.filter((meta) => !isUnearthedArcanaSpell(meta));
+  const keptSlugs = new Set(filteredMetas.map((meta) => meta.slug));
+  const filteredDetailsBySlug: Record<string, (typeof pack.detailsBySlug)[string]> = {};
+
+  for (const [slug, detail] of Object.entries(pack.detailsBySlug)) {
+    if (!keptSlugs.has(slug)) {
+      continue;
+    }
+    filteredDetailsBySlug[slug] = detail;
+  }
+
+  const filteredRestored =
+    pack.tableRestoration?.restored.filter((slug) => keptSlugs.has(slug)) ?? [];
+  const filteredUnresolved =
+    pack.tableRestoration?.unresolvedCandidates.filter((slug) => keptSlugs.has(slug)) ?? [];
+
+  return {
+    ...pack,
+    count: filteredMetas.length,
+    metas: filteredMetas,
+    detailsBySlug: filteredDetailsBySlug,
+    tableRestoration: {
+      restored: filteredRestored,
+      unresolvedCandidates: filteredUnresolved
+    },
+    ...rebuildSpellTagIndexes(filteredMetas)
+  };
+};
+
 try {
   const txt = readFileSync(inputPath, 'utf8');
-  const pack = buildSpellsPackFromText(txt);
+  const rawPack = buildSpellsPackFromText(txt);
+  const pack = stripUnearthedArcanaFromPack(rawPack);
 
   const outputPath = path.resolve(repoRoot, 'apps/web/src/rules/spells/generated/spellsPack.ts');
   const nameIndexPath = path.resolve(
@@ -61,7 +145,11 @@ try {
   )};\n`;
   writeFileSync(nameIndexPath, nameIndexSource, 'utf8');
 
+  const removedCount = rawPack.count - pack.count;
   console.log(`[spells:build] Built spell pack with ${pack.count} spells.`);
+  if (removedCount > 0) {
+    console.log(`[spells:build] Removed ${removedCount} Unearthed Arcana spells.`);
+  }
   console.log(`[spells:build] Input: ${inputPath}`);
   console.log(`[spells:build] Output: ${outputPath}`);
   console.log(`[spells:build] Output: ${nameIndexPath}`);
@@ -73,9 +161,9 @@ try {
   parts.push('[spells:build] Failed to build spell pack.');
   parts.push(`SPELLS_TXT_PATH: ${envPathRaw ? envPathRaw : '(not set)'}`);
   parts.push(`Tried input path: ${inputPath}`);
-  parts.push(`Fallback path: ${fallbackTxtPath}`);
+  parts.push(`Fallback paths: ${fallbackTxtPaths.join(' | ')}`);
   parts.push(
-    'Provide SPELLS_TXT_PATH or place dnd5e_spells.txt at repository root (./dnd5e_spells.txt).'
+    'Provide SPELLS_TXT_PATH or place dnd5e_spells.txt at ./dnd5e_spells.txt or ./content/dnd5e_spells.txt.'
   );
 
   const message = error instanceof Error ? error.message : String(error);

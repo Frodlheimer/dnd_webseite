@@ -70,7 +70,7 @@ Empfohlene Commit-Checkliste:
     - `^T` Technomagic
 - Stats & Rules -> Classes & Subclasses (OOG, client-only):
   - Routes `\/rules\/classes`, `\/rules\/classes\/:id`, `\/rules\/subclasses\/:id`
-  - Datensatz wird zur Build-Zeit aus `dnd5e_classes_subclasses.txt` erzeugt (kein Runtime-TXT-Parsing)
+  - Datensatz wird zur Build-Zeit aus `content\/` JSON-Dateien erzeugt (kein Runtime-Parsing)
   - Build erzeugt kleinen Index + statische Detail-JSONs:
     - `apps\/web\/src\/rules\/classes\/generated\/classesIndex.ts`
     - `apps\/web\/public\/rules\/classes\/entries\/<id>.json`
@@ -78,9 +78,7 @@ Empfohlene Commit-Checkliste:
   - Detailansicht rendert strukturierte Dokument-Bloecke (Heading, Paragraph, List, Table, Pre)
   - Builder-friendly Extracted Data im Pack:
     - `spellSlotsByLevel`, `featuresByLevel`, `progressionByLevel`, `grantedSpellRefs`
-  - strikte Link-Sanitisierung:
-    - alle `wikidot`-Links/URLs werden beim Build entfernt
-    - Headerfeld `URL:` wird nicht gespeichert/angezeigt
+  - strikte Link-Sanitisierung: `wikidot`/HTTP-URLs werden beim Build entfernt
   - keine API-Endpunkte, nur statische Files
 - Character Builder -> Character Sheets (OOG, client-only):
   - Route `\/player\/characters\/sheets` listet eingebaute PDF-Templates (General + Klassen)
@@ -402,8 +400,7 @@ Board/UI:
 - `apps/web/scripts/build-spells-pack.ts` - Build-Script fuer eingebautes Spells Pack
 - `apps/web/src/rules/classes/types.ts` - gemeinsame Classes/Subclasses Pack-Typen
 - `apps/web/src/rules/classes/generated/classesIndex.ts` - generierter Klassen-Index (Build-Time)
-- `apps/web/src/rules/classes/parse/parseClassesTxt.ts` - TXT Parser + strukturierte Extraction
-- `apps/web/src/rules/classes/parse/sanitizeLinks.ts` - strikte Link-Sanitisierung (entfernt wikidot)
+- `apps/web/src/rules/classes/parse/parseClassesContentJson.ts` - JSON Parser + strukturierte Extraction fuer `content/*.json`
 - `apps/web/src/rules/classes/worker/classesWorker.ts` - Worker Entry fuer schnelle Klassenfilter
 - `apps/web/src/rules/classes/worker/classesWorkerClient.ts` - Worker Client API
 - `apps/web/src/rules/classes/worker/filterClasses.ts` - Bitset-Filterlogik
@@ -435,7 +432,7 @@ Local Persistence/Sync:
 - `apps/web/src/rules/spells/parse/parseSpellsTxt.test.ts` - Parser Unit Tests (Fixture)
 - `apps/web/src/rules/spells/parse/spellTableOverrides.test.ts` - Tests fuer Tabellen-Wiederherstellung
 - `apps/web/src/rules/spells/worker/filterSpells.test.ts` - Worker-Filterlogik Tests
-- `apps/web/src/rules/classes/parse/parseClassesTxt.test.ts` - Parser Unit Test inkl. Wikidot-Sanitisierung
+- `apps/web/src/rules/classes/parse/parseClassesContentJson.test.ts` - JSON Parser Unit Test inkl. Wikidot/URL-Sanitisierung
 - `apps/web/src/rules/classes/worker/filterClasses.test.ts` - Worker-Filterlogik Tests
 
 Test Setup:
@@ -708,8 +705,8 @@ Wenn die TXT fehlt, bricht `spells:build` mit klarer Fehlermeldung ab.
 
 - Classes/Subclasses nutzen **keine Import-UI** und **keine API**.
 - Datensatz wird zur Build-Zeit lokal eingebettet:
-  - Standard: `./dnd5e_classes_subclasses.txt` im Repo-Root
-  - Optional: `CLASSES_TXT_PATH=<pfad>` setzen
+  - Standard: `./content` (pro Class/Subclass eine JSON-Datei, optional `_index.json` fuer Reihenfolge)
+  - Optional: `CLASSES_JSON_DIR=<pfad>` setzen
 - Build:
 
 ```powershell
@@ -717,7 +714,7 @@ pnpm classes:build
 pnpm dev
 ```
 
-Wenn die TXT fehlt, bricht `classes:build` mit klarer Fehlermeldung ab.
+Wenn das Verzeichnis fehlt oder keine validen CLASS/SUBCLASS JSONs enthalten sind, bricht `classes:build` mit klarer Fehlermeldung ab.
 
 ### Character Sheets Build (Character Builder)
 
@@ -947,7 +944,7 @@ Web:
 - IndexedDB Session Repository
 - Spells TXT Parser + Pack Builder
 - Spells Worker Filterlogik (Tag-Bitsets + Query + Pagination)
-- Classes/Subclasses TXT Parser + Build-Time Sanitisierung (inkl. wikidot-Removal)
+- Classes/Subclasses JSON Parser + Build-Time Sanitisierung (inkl. wikidot-/URL-Removal)
 - Classes/Subclasses Worker Filterlogik (Tag-Bitsets + Query + Kind/Class Filter)
 
 Shared:
@@ -965,7 +962,7 @@ Shared:
 - API `auth` ist aktuell Guest/Placeholder.
 - MapEdit Zustand im API Prozessspeicher ist nur fuer CLOUD relevant (nicht persistent, kein Eventstore).
 - Spells Pack Build benoetigt `dnd5e_spells.txt` im Repo-Root oder `SPELLS_TXT_PATH`.
-- Classes/Subclasses Pack Build benoetigt `dnd5e_classes_subclasses.txt` im Repo-Root oder `CLASSES_TXT_PATH`.
+- Classes/Subclasses Pack Build benoetigt JSON Quelldateien in `./content` oder `CLASSES_JSON_DIR`.
 
 ## Troubleshooting
 

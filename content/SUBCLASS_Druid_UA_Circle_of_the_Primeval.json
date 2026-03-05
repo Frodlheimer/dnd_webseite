@@ -1,0 +1,745 @@
+{
+  "type": "SUBCLASS",
+  "name": "(UA) Circle of the Primeval",
+  "parent_class": "Druid",
+  "url": "https://dnd5e.wikidot.com/druid:primeval-ua",
+  "page_title": "(UA) Circle of the Primeval",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "blockquote",
+      "br",
+      "code",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Unearthed Arcana 83 - Giant Options"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "The Circle of the Primeval teaches that, though the land may change over time, it never truly forgets. By tapping into the timeworn memory of the earth, these druids summon and bond with the spirit of a primeval behemoth—a hulking creature that once ruled the ancient world alongside the giants. The most well-known primeval behemoths are the dinosaurs, but spirits bonded with members of the Circle of the Primeval have also taken the form of ancient predecessors to today’s common beasts and other fantastical titanic creatures."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Working alongside their companion spirit, most druids of the Circle of the Primeval spend their lives delving into long-forgotten places and preserving the remnants of bygone eras. As a druid’s power grows, so does their companion, the beast starting near equal in size to its druid partner before increasing in stature until it too towers over the land."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Keeper of Old"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "2nd-Level Circle of the Primeval Feature"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": "\nYour connection to the mighty primeval behemoths allows you new insight into the ancient world."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain proficiency in the History skill. When you make an Intelligence (History) check, you can roll a d4 and add the number rolled to the ability check."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Primeval Companion"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "2nd-Level Circle of the Primeval Feature"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Starting when you choose this circle, you can call upon the primeval creature whose spirit is bound to you. As an action, you can expend one use of your Wild Shape feature to summon your primeval companion, rather than assuming a beast form. The companion appears in an unoccupied space of your choice within 30 feet of you."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "The primeval companion is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Primeval Companion stat block, which uses your proficiency bonus (PB) in several places. You can determine the cosmetic appearance of the companion; for example, your companion may evoke ancient predators like raptors or saber-toothed tigers, or it might be more inclined for defense, appearing as an armored ankylosaurus or a wooly rhino. These choices have no effect on the companion’s game statistics."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "The companion remains until it is reduced to 0 hit points or until you die, at which point the companion vanishes. If you use this feature to summon the companion again and you already have a companion present, the first companion immediately vanishes. Anything the companion was wearing or carrying is left behind when the companion vanishes."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Primeval Companion"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Medium Beast, Neutral"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Armor Class:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 13 + PB (natural armor)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hit Points:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 5 + five times your druid level (the companion has a number of Hit Dice [d10s] equal to your druid level)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 30 ft."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "STR"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "DEX"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "CON"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "INT"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "WIS"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "CHA"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 (+2)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 (+2)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "17 (+3)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6 (−2)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "12 (+1)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "8 (−1)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Saving Throws:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " Dex +2 plus PB, Con +3 plus PB"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Senses:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " darkvision 60 ft., passive Perception 11"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " understands the languages you speak"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Challenge:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " —"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Proficiency Bonus:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " equals your bonus"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Actions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Strike."
+                  },
+                  {
+                    "type": "text",
+                    "text": "Melee Weapon Attack:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " +2 plus PB to hit, reach 5 ft., one target. "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Hit:"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 1d8 plus PB bludgeoning, piercing, or slashing damage (your choice)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Reactions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intercept Attack."
+                  },
+                  {
+                    "type": "text",
+                    "text": " When a creature the companion can see hits a target with an attack, and the target is within 5 feet of the companion, the target instead takes half the damage. The companion takes the remainder of the damage."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Prehistoric Conduit"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "6th-Level Circle of the Primeval Feature"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": "\nYou learn how to channel your magic through your primeval companion. When you cast a spell with a range other than self, the spell can originate from you or your primeval companion."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, if the primeval companion is affected by a spell you cast that allows creatures to make a saving throw against its effects, the primeval companion has advantage on its saving throw. If the primeval companion would normally take half damage on a successful save against this spell, the companion instead takes no damage on a successful save and half damage with no additional effects on a failed save."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Titanic Bond"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "10th-Level Circle of the Primeval Feature"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": "\nThe primeval companion grows to Large size, and when you summon it, you can grant it either a climbing speed or a swimming speed equal to its walking speed."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In turn, the primeval companion lends you some of its terrifying might. Once per turn while your primeval companion is summoned, when you hit a creature with an attack or deal damage to a creature you can see with a spell you cast, you can force that creature to make a Wisdom saving throw against your spell save DC; on a failure, the creature is frightened of you until the end of your next turn."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h3",
+        "children": [
+          {
+            "type": "text",
+            "text": "Scourge of the Ancients"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "14th-Level Circle of the Primeval Feature"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have learned to fully harness the titanic legacy of your companion. As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion’s might, granting it the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hulking Behemoth."
+              },
+              {
+                "type": "text",
+                "text": " The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn’t enough room for the companion to become Huge, it attains the maximum possible size in the space available."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mauler."
+              },
+              {
+                "type": "text",
+                "text": " On a hit, the companion’s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Titanic Stride."
+              },
+              {
+                "type": "text",
+                "text": " The companion’s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "These benefits last for 1 hour, until the companion vanishes, or until you expend a spell slot for this feature again."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Unearthed Arcana 83 - Giant Options</p>\n<p>The Circle of the Primeval teaches that, though the land may change over time, it never truly forgets. By tapping into the timeworn memory of the earth, these druids summon and bond with the spirit of a primeval behemoth—a hulking creature that once ruled the ancient world alongside the giants. The most well-known primeval behemoths are the dinosaurs, but spirits bonded with members of the Circle of the Primeval have also taken the form of ancient predecessors to today’s common beasts and other fantastical titanic creatures.</p>\n<p>Working alongside their companion spirit, most druids of the Circle of the Primeval spend their lives delving into long-forgotten places and preserving the remnants of bygone eras. As a druid’s power grows, so does their companion, the beast starting near equal in size to its druid partner before increasing in stature until it too towers over the land.</p>\n\n\n\n<h3>Keeper of Old</h3>\n<p>2nd-Level Circle of the Primeval Feature<br/>\nYour connection to the mighty primeval behemoths allows you new insight into the ancient world.</p>\n<p>You gain proficiency in the History skill. When you make an Intelligence (History) check, you can roll a d4 and add the number rolled to the ability check.</p>\n<h3>Primeval Companion</h3>\n<p>2nd-Level Circle of the Primeval Feature</p>\n<p>Starting when you choose this circle, you can call upon the primeval creature whose spirit is bound to you. As an action, you can expend one use of your Wild Shape feature to summon your primeval companion, rather than assuming a beast form. The companion appears in an unoccupied space of your choice within 30 feet of you.</p>\n<p>The primeval companion is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Primeval Companion stat block, which uses your proficiency bonus (PB) in several places. You can determine the cosmetic appearance of the companion; for example, your companion may evoke ancient predators like raptors or saber-toothed tigers, or it might be more inclined for defense, appearing as an armored ankylosaurus or a wooly rhino. These choices have no effect on the companion’s game statistics.</p>\n<p>In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.</p>\n<p>The companion remains until it is reduced to 0 hit points or until you die, at which point the companion vanishes. If you use this feature to summon the companion again and you already have a companion present, the first companion immediately vanishes. Anything the companion was wearing or carrying is left behind when the companion vanishes.</p>\n<table>\n<tr>\n<th>Primeval Companion</th>\n</tr>\n<tr>\n<td>Medium Beast, Neutral</td>\n</tr>\n<tr>\n<td>Armor Class: 13 + PB (natural armor)</td>\n</tr>\n<tr>\n<td>Hit Points: 5 + five times your druid level (the companion has a number of Hit Dice [d10s] equal to your druid level)</td>\n</tr>\n<tr>\n<td>Speed: 30 ft.</td>\n</tr>\n<tr>\n<th>STR</th>\n<th>DEX</th>\n<th>CON</th>\n<th>INT</th>\n<th>WIS</th>\n<th>CHA</th>\n</tr>\n<tr>\n<td>15 (+2)</td>\n<td>15 (+2)</td>\n<td>17 (+3)</td>\n<td>6 (−2)</td>\n<td>12 (+1)</td>\n<td>8 (−1)</td>\n</tr>\n<tr>\n<td>Saving Throws: Dex +2 plus PB, Con +3 plus PB</td>\n</tr>\n<tr>\n<td>Senses: darkvision 60 ft., passive Perception 11</td>\n</tr>\n<tr>\n<td>Languages: understands the languages you speak</td>\n</tr>\n<tr>\n<td>Challenge: —</td>\n</tr>\n<tr>\n<td>Proficiency Bonus: equals your bonus</td>\n</tr>\n<tr>\n<th>Actions</th>\n</tr>\n<tr>\n<td>Strike. Melee Weapon Attack: +2 plus PB to hit, reach 5 ft., one target. Hit: 1d8 plus PB bludgeoning, piercing, or slashing damage (your choice).</td>\n</tr>\n<tr>\n<th>Reactions</th>\n</tr>\n<tr>\n<td>Intercept Attack. When a creature the companion can see hits a target with an attack, and the target is within 5 feet of the companion, the target instead takes half the damage. The companion takes the remainder of the damage.</td>\n</tr>\n</table>\n<h3>Prehistoric Conduit</h3>\n<p>6th-Level Circle of the Primeval Feature<br/>\nYou learn how to channel your magic through your primeval companion. When you cast a spell with a range other than self, the spell can originate from you or your primeval companion.</p>\n<p>In addition, if the primeval companion is affected by a spell you cast that allows creatures to make a saving throw against its effects, the primeval companion has advantage on its saving throw. If the primeval companion would normally take half damage on a successful save against this spell, the companion instead takes no damage on a successful save and half damage with no additional effects on a failed save.</p>\n<h3>Titanic Bond</h3>\n<p>10th-Level Circle of the Primeval Feature<br/>\nThe primeval companion grows to Large size, and when you summon it, you can grant it either a climbing speed or a swimming speed equal to its walking speed.</p>\n<p>In turn, the primeval companion lends you some of its terrifying might. Once per turn while your primeval companion is summoned, when you hit a creature with an attack or deal damage to a creature you can see with a spell you cast, you can force that creature to make a Wisdom saving throw against your spell save DC; on a failure, the creature is frightened of you until the end of your next turn.</p>\n<h3>Scourge of the Ancients</h3>\n<p>14th-Level Circle of the Primeval Feature</p>\n<p>You have learned to fully harness the titanic legacy of your companion. As part of the bonus action you use to command your companion, you can expend a spell slot of any level to heighten your primeval companion’s might, granting it the following benefits:</p>\n<ul>\n<li>Hulking Behemoth. The companion becomes Huge and gains temporary hit points equal to 10 times the level of the spell slot expended. If there isn’t enough room for the companion to become Huge, it attains the maximum possible size in the space available.</li>\n<li>Mauler. On a hit, the companion’s Strike deals additional damage equal to 1d8 plus the level of the spell slot expended.</li>\n<li>Titanic Stride. The companion’s walking speed increases by a number of feet equal to 5 times the level of the spell slot expended.</li>\n</ul>\n<p>These benefits last for 1 hour, until the companion vanishes, or until you expend a spell slot for this feature again.</p>\n\n\n\n</div>"
+  }
+}
