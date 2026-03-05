@@ -12,10 +12,14 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "prisma": "prisma",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
+    "prisma:migrate": "prisma migrate dev",
+    "health:check": "tsx scripts/health-check.ts",
+    "ws:test": "tsx scripts/ws-smoke-test.ts"
   },
   "dependencies": {
     "@dnd-vtt/shared": "workspace:*",
+    "@fastify/cors": "^11.1.0",
+    "@fastify/multipart": "^9.2.1",
     "@fastify/websocket": "^11.1.0",
     "@prisma/client": "^6.5.0",
     "dotenv": "^16.4.7",

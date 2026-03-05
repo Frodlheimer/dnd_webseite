@@ -103,3 +103,9 @@ logs/
 *.sqlite
 *.sqlite3
 *.tmp
+
+# Generated local character sheet assets (copied from local PDFs)
+apps/web/public/character_sheets/
+
+# Generated rules class/subclass detail payloads
+apps/web/public/rules/classes/entries/

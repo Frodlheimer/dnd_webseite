@@ -1,0 +1,42 @@
+================================================================================ ⏎
+[ENTRY_BEGIN] ⏎
+TYPE: CLASS ⏎
+NAME: Wizard ⏎
+PAGE_TITLE: Wizard ⏎
+URL: https://dnd5e.wikidot.com/wizard ⏎
+PARENT_CLASS:  ⏎
+[CONTENT_BEGIN] ⏎
+-------------------------------------------------------------------------------- ⏎
+[H2] Wizard Overview ⏎
+[B]Hit Dice:[/B] 1d6 per wizard level ⏎
+[B]Saving Throws:[/B] Intelligence, Wisdom ⏎
+The wizard spell list can be found at [LINK:wizard spell list|https://dnd5e.wikidot.com/spells:wizard]. ⏎
+[TABLE_BEGIN] ⏎
+| Level | Features | 1st | 2nd | ⏎
+| ----- | -------- | --- | --- | ⏎
+| 1st | Spellcasting, Arcane Recovery | 2 | - | ⏎
+| 2nd | Arcane Tradition | 3 | - | ⏎
+| 3rd | - | 4 | 2 | ⏎
+[TABLE_END] ⏎
+-------------------------------------------------------------------------------- ⏎
+[CONTENT_END] ⏎
+[ENTRY_END] ⏎
+================================================================================ ⏎
+
+================================================================================ ⏎
+[ENTRY_BEGIN] ⏎
+TYPE: SUBCLASS ⏎
+NAME: School of Evocation ⏎
+PAGE_TITLE: School of Evocation ⏎
+URL: https://dnd5e.wikidot.com/wizard:evocation ⏎
+PARENT_CLASS: Wizard ⏎
+[CONTENT_BEGIN] ⏎
+-------------------------------------------------------------------------------- ⏎
+[H3] 2nd-level Evocation feature ⏎
+Evocation Savant ⏎
+Domain Spells: 3rd [LINK:Magic Missile|https://dnd5e.wikidot.com/spell:magic-missile], [LINK:Shield|https://example.com/shield] 5th Fireball ⏎
+Raw url test https://dnd5e.wikidot.com/spell:fireball should be removed. ⏎
+-------------------------------------------------------------------------------- ⏎
+[CONTENT_END] ⏎
+[ENTRY_END] ⏎
+================================================================================ ⏎

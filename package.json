@@ -8,25 +8,43 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo run dev --parallel --filter=@dnd-vtt/web --filter=@dnd-vtt/api",
+    "dev:web": "pnpm --filter @dnd-vtt/web dev",
+    "dev:api": "pnpm --filter @dnd-vtt/api dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prisma:generate": "pnpm --filter @dnd-vtt/api prisma:generate",
-    "prisma:migrate": "pnpm --filter @dnd-vtt/api prisma:migrate"
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "db:logs": "docker compose logs -f postgres",
+    "db:migrate": "pnpm --filter @dnd-vtt/api prisma:migrate",
+    "db:generate": "pnpm --filter @dnd-vtt/api prisma:generate",
+    "db:reset": "pnpm --filter @dnd-vtt/api prisma migrate reset --force",
+    "health": "pnpm --filter @dnd-vtt/api health:check",
+    "ws:test": "pnpm --filter @dnd-vtt/api ws:test",
+    "spells:build": "pnpm --filter @dnd-vtt/web spells:build",
+    "classes:build": "pnpm --filter @dnd-vtt/web classes:build",
+    "sheets:build": "pnpm --filter @dnd-vtt/web sheets:build",
+    "local:audit": "node scripts/local-audit.mjs",
+    "prisma:generate": "pnpm db:generate",
+    "prisma:migrate": "pnpm db:migrate"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
     "@eslint/js": "^9.23.0",
+    "@types/node": "^22.13.10",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
     "globals": "^16.0.0",
     "prettier": "^3.5.3",
+    "prisma": "^7.4.2",
     "turbo": "^2.5.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.27.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.4.2"
   }
 }

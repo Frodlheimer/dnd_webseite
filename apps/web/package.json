@@ -4,6 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "spells:build": "tsx scripts/build-spells-pack.ts",
+    "classes:build": "tsx scripts/build-classes-pack.ts",
+    "sheets:build": "tsx scripts/build-character-sheets.ts",
+    "content:build": "pnpm run spells:build && pnpm run classes:build && pnpm run sheets:build",
+    "predev": "pnpm run content:build",
+    "prebuild": "pnpm run content:build",
+    "pretest": "pnpm run content:build",
     "dev": "vite",
     "build": "tsc -p tsconfig.json --noEmit && vite build",
     "preview": "vite preview",
@@ -13,6 +20,9 @@
   },
   "dependencies": {
     "@dnd-vtt/shared": "workspace:*",
+    "idb": "^8.0.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.5.207",
     "pixi.js": "^8.9.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -21,13 +31,16 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
+    "fake-indexeddb": "^6.2.5",
     "jsdom": "^26.0.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.21.0",
     "vite": "^6.2.0",
     "vitest": "^3.0.9"
   }

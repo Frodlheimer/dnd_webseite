@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { createWelcomeMessage, parseClientMessage } from '../src/ws/protocol.js';
+import { createErrorMessage, parseClientMessage, serializeServerMessage } from '../src/ws/protocol.js';
 
 describe('ws protocol helpers', () => {
   it('accepts valid HELLO payloads', () => {
@@ -8,7 +8,8 @@ describe('ws protocol helpers', () => {
       type: 'HELLO',
       payload: {
         clientId: 'client-1',
-        desiredRoomId: 'room-42'
+        displayName: 'Rin',
+        roomId: 'room-42'
       }
     });
 
@@ -18,10 +19,47 @@ describe('ws protocol helpers', () => {
     expect(parsed?.type).toBe('HELLO');
   });
 
-  it('builds WELCOME payloads with ISO timestamps', () => {
-    const message = createWelcomeMessage(new Date('2026-01-01T00:00:00.000Z'));
+  it('rejects invalid payloads', () => {
+    const parsed = parseClientMessage(
+      JSON.stringify({
+        type: 'HELLO',
+        payload: {
+          clientId: 'client-1',
+          displayName: 'Rin'
+        }
+      })
+    );
 
-    expect(message.type).toBe('WELCOME');
-    expect(message.payload.serverTime).toBe('2026-01-01T00:00:00.000Z');
+    expect(parsed).toBeNull();
+  });
+
+  it('serializes server events through schema validation', () => {
+    const payload = serializeServerMessage({
+      type: 'ERROR',
+      payload: {
+        code: 'FORBIDDEN',
+        message: 'Not allowed'
+      }
+    });
+
+    expect(payload).toContain('FORBIDDEN');
+  });
+
+  it('builds error payload with LOCAL relay hint details', () => {
+    const message = createErrorMessage(
+      'LOCAL_REQUIRES_RELAY_TO_HOST',
+      'LOCAL mode rejects direct TOKEN_MOVE messages',
+      {
+        rejectedType: 'TOKEN_MOVE',
+        hint: 'Send RELAY_TO_HOST with a HostRequest'
+      }
+    );
+
+    expect(message.payload).toEqual(
+      expect.objectContaining({
+        code: 'LOCAL_REQUIRES_RELAY_TO_HOST',
+        rejectedType: 'TOKEN_MOVE'
+      })
+    );
   });
 });

@@ -1,0 +1,7036 @@
+{
+  "id": "charakterbogen-leer",
+  "title": "General Character Sheet",
+  "className": null,
+  "pdfUrl": "/character_sheets/charakterbogen-leer.pdf",
+  "pageCount": 4,
+  "updatedAt": "2026-03-04T19:48:14.567Z",
+  "pages": [
+    {
+      "pageIndex": 0,
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "pageIndex": 1,
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "pageIndex": 2,
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "pageIndex": 3,
+      "width": 595.276,
+      "height": 841.89
+    }
+  ],
+  "fields": [
+    {
+      "name": "Charaktername",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 50.882,
+        "y": 734.491,
+        "w": 165.026,
+        "h": 22
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "KlasseUndStufe",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 269.15,
+        "y": 754.583,
+        "w": 204.095,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Hintergrund",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 269.149,
+        "y": 729.071,
+        "w": 96.378,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spielername",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 476.079,
+        "y": 754.583,
+        "w": 90.709,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Volk",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 368.363,
+        "y": 729.071,
+        "w": 104.882,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Erfahrungspunkte",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 476.079,
+        "y": 729.071,
+        "w": 90.709,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inspiration",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 98.415,
+        "y": 671.386,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "name": "Übungsbonus",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 99.071,
+        "y": 633.074,
+        "w": 20.065,
+        "h": 19.461
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Str",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.87,
+        "y": 621.293,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "StrMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 641.197,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "StrProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 602.929,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "StrRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 601.512,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Ges",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.87,
+        "y": 549.534,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GesMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 567.496,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GesProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 588.756,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "GesRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 587.339,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Kon",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.964,
+        "y": 478.48,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "KonMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 496.629,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "KonProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 574.583,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "KonRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 573.165,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Int",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.87,
+        "y": 406.72,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "IntMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 425.763,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "IntProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 560.409,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "IntRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 558.992,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.964,
+        "y": 335.164,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WeiMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 354.897,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WeiProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 546.236,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "WeiRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 544.819,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Cha",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 48.776,
+        "y": 263.498,
+        "w": 16.334,
+        "h": 10.739
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ChaMod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 45.583,
+        "y": 281.196,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ChaProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.488,
+        "y": 532.063,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ChaRW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 530.645,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AkrobatikProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 496.185,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "AkrobatikExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 499.687,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "AkrobatikGes",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 493.795,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ArkaneKundeProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 482.011,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "ArkaneKundeExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 485.514,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "ArkaneKundeInt",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 479.622,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AthletikProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 467.838,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "AthletikExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 471.341,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "AthletikStr",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 465.448,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AuftretenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 453.665,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "AuftretenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 457.168,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "AuftretenCha",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 451.276,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "EinschüchternProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 439.492,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "EinschüchternExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 442.995,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "EinschüchternCha",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 437.102,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "FingerfertigkeitProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 425.318,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "FingerfertigkeitExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 428.821,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "FingerfertigkeitGes",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 422.929,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GeschichteProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 411.145,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "GeschichteExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 414.648,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "GeschichteInt",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 408.755,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HeilkundeProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 396.972,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "HeilkundeExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 400.475,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "HeilkundeWei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 394.582,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HeimlichkeitProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 382.799,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "HeimlichkeitExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 386.302,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "HeimlichkeitGes",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 380.409,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "MitTierenUmgehenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 368.626,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "MitTierenUmgehenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 372.128,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "MitTierenUmgehenWei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 366.236,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "MotivErkennenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 354.452,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "MotivErkennenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 357.955,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "MotivErkennenWei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 352.063,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "NachforschungenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 340.279,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "NachforschungenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 343.782,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "NachforschungenInt",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 337.889,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "NaturkundeProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 326.106,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "NaturkundeExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 329.609,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "NaturkundeInt",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 323.716,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ReligionProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 311.933,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "ReligionExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 315.436,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "ReligionInt",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 309.543,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "TäuschenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 297.76,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "TäuschenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 301.262,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "TäuschenCha",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 295.37,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜberlebenskunstProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 283.586,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "ÜberlebenskunstExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 287.089,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "ÜberlebenskunstWei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 281.197,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜberzeugenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 269.413,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "ÜberzeugenExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 272.916,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "ÜberzeugenCha",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 267.024,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WahrnehmungProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 100.523,
+        "y": 255.24,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "WahrnehmungExp",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 104.025,
+        "y": 258.743,
+        "w": 5.224,
+        "h": 5.224
+      }
+    },
+    {
+      "name": "WahrnehmungWei",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 110.409,
+        "y": 252.85,
+        "w": 17.008,
+        "h": 11.339
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Persönlichkeitsmerkmale",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 419.386,
+        "y": 629.858,
+        "w": 153.071,
+        "h": 51.024
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Ideale",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 419.417,
+        "y": 574.081,
+        "w": 153.134,
+        "h": 38.77
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Bindungen",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 419.386,
+        "y": 517.995,
+        "w": 153.071,
+        "h": 38.163
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Makel",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 419.386,
+        "y": 462.614,
+        "w": 153.071,
+        "h": 39.685
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Rüstungsklasse",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 235.873,
+        "y": 652.381,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Initiative",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 291.827,
+        "y": 652.381,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bewegungsrate",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 350.604,
+        "y": 652.381,
+        "w": 23.802,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "TrefferpunkteMaximum",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 291.827,
+        "y": 612.446,
+        "w": 79.37,
+        "h": 11.743
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AktTrefferpunkte",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 263.48,
+        "y": 576,
+        "w": 82.205,
+        "h": 31.181
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "TempTrefferpunkte",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 263.48,
+        "y": 524.976,
+        "w": 82.205,
+        "h": 28.346
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GesamtTW",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 249.307,
+        "y": 491.984,
+        "w": 45.354,
+        "h": 10.315
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Trefferwürfel",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 249.307,
+        "y": 466.129,
+        "w": 28.346,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "PassiveWeisheit",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 33.499,
+        "y": 212.806,
+        "w": 17.383,
+        "h": 15.742
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "LeichteRüstungProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.933,
+        "y": 175.87,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "MittlereRüstungProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 83.39,
+        "y": 175.87,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "SchwereRüstungProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.45,
+        "y": 175.87,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "SchildeProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 163.854,
+        "y": 175.87,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "EinfachWaffenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 47.321,
+        "y": 153.192,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "KriegswaffenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 88.278,
+        "y": 153.192,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "SonstigeWaffenProf",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 136.686,
+        "y": 153.192,
+        "w": 6.56,
+        "h": 6.56
+      }
+    },
+    {
+      "name": "SonstigeWaffen",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 42.378,
+        "y": 134.675,
+        "w": 153.07,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 103.494,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 103.494,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 86.486,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 86.486,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 69.479,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 69.479,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 52.471,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 52.471,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 35.463,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 35.463,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Sprache6",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 41.793,
+        "y": 18.455,
+        "w": 71.45,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WerkzeugUndAndere6",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 124.623,
+        "y": 18.455,
+        "w": 70.715,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Klassenmerkmale1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 220.961,
+        "y": 6.236,
+        "w": 357.165,
+        "h": 221.102
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Angriff1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 418.14,
+        "w": 133.228,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜB1",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 366.67,
+        "y": 418.14,
+        "w": 9.099,
+        "h": 13.269
+      }
+    },
+    {
+      "name": "Attr1",
+      "type": "dropdown",
+      "pageIndex": 0,
+      "rect": {
+        "x": 378.179,
+        "y": 418.14,
+        "w": 19.867,
+        "h": 13.293
+      },
+      "options": [
+        "Stä",
+        "Ges",
+        "Kon",
+        "Int",
+        "Wei",
+        "Cha"
+      ]
+    },
+    {
+      "name": "Reichweite1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 405.213,
+        "y": 418.14,
+        "w": 39.685,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonus1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 453.402,
+        "y": 418.14,
+        "w": 19.842,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schaden1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 481.749,
+        "y": 418.14,
+        "w": 39.684,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schadentyp1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 529.938,
+        "y": 418.14,
+        "w": 42.519,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Beschreibung1",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 401.132,
+        "w": 345.827,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Angriff2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 381.29,
+        "w": 133.228,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜB2",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 366.829,
+        "y": 381.314,
+        "w": 9.099,
+        "h": 13.269
+      }
+    },
+    {
+      "name": "Attr2",
+      "type": "dropdown",
+      "pageIndex": 0,
+      "rect": {
+        "x": 378.179,
+        "y": 381.29,
+        "w": 19.867,
+        "h": 13.293
+      },
+      "options": [
+        "Stä",
+        "Ges",
+        "Kon",
+        "Int",
+        "Wei",
+        "Cha"
+      ]
+    },
+    {
+      "name": "Reichweite2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 405.213,
+        "y": 381.29,
+        "w": 39.685,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonus2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 453.402,
+        "y": 381.29,
+        "w": 19.842,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schaden2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 481.749,
+        "y": 381.29,
+        "w": 39.684,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schadentyp2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 529.938,
+        "y": 381.29,
+        "w": 42.519,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Beschreibung2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 364.282,
+        "w": 345.827,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Angriff3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 344.439,
+        "w": 133.228,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜB3",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 366.829,
+        "y": 344.464,
+        "w": 9.099,
+        "h": 13.269
+      }
+    },
+    {
+      "name": "Attr3",
+      "type": "dropdown",
+      "pageIndex": 0,
+      "rect": {
+        "x": 378.271,
+        "y": 344.439,
+        "w": 19.867,
+        "h": 13.293
+      },
+      "options": [
+        "Stä",
+        "Ges",
+        "Kon",
+        "Int",
+        "Wei",
+        "Cha"
+      ]
+    },
+    {
+      "name": "Reichweite3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 405.213,
+        "y": 344.439,
+        "w": 39.685,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonus3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 453.402,
+        "y": 344.439,
+        "w": 19.842,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schaden3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 481.749,
+        "y": 344.439,
+        "w": 39.684,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schadentyp3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 529.938,
+        "y": 344.439,
+        "w": 42.519,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Beschreibung3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 327.431,
+        "w": 345.827,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Angriff4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 307.589,
+        "w": 133.228,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜB4",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 366.829,
+        "y": 307.613,
+        "w": 9.099,
+        "h": 13.269
+      }
+    },
+    {
+      "name": "Attr4",
+      "type": "dropdown",
+      "pageIndex": 0,
+      "rect": {
+        "x": 378.179,
+        "y": 307.589,
+        "w": 19.867,
+        "h": 13.293
+      },
+      "options": [
+        "Stä",
+        "Ges",
+        "Kon",
+        "Int",
+        "Wei",
+        "Cha"
+      ]
+    },
+    {
+      "name": "Reichweite4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 405.213,
+        "y": 307.589,
+        "w": 39.685,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonus4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 453.402,
+        "y": 307.589,
+        "w": 19.842,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schaden4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 481.749,
+        "y": 307.589,
+        "w": 39.684,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schadentyp4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 529.938,
+        "y": 307.589,
+        "w": 42.519,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Beschreibung4",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 290.581,
+        "w": 345.827,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Angriff5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 270.739,
+        "w": 133.228,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ÜB5",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 366.829,
+        "y": 270.763,
+        "w": 9.099,
+        "h": 13.269
+      }
+    },
+    {
+      "name": "Attr5",
+      "type": "dropdown",
+      "pageIndex": 0,
+      "rect": {
+        "x": 378.179,
+        "y": 270.738,
+        "w": 19.867,
+        "h": 13.293
+      },
+      "options": [
+        "Stä",
+        "Ges",
+        "Kon",
+        "Int",
+        "Wei",
+        "Cha"
+      ]
+    },
+    {
+      "name": "Reichweite5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 405.213,
+        "y": 270.739,
+        "w": 39.685,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonus5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 453.402,
+        "y": 270.739,
+        "w": 19.842,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schaden5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 481.749,
+        "y": 270.739,
+        "w": 39.684,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Schadentyp5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 529.938,
+        "y": 270.739,
+        "w": 42.519,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Beschreibung5",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 226.63,
+        "y": 253.731,
+        "w": 345.827,
+        "h": 13.293
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "RWErfolg1",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 344.913,
+        "y": 487.345,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "RWErfolg2",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 358.149,
+        "y": 487.345,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "RWErfolg3",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 371.447,
+        "y": 487.345,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "RWFehlschlag3",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 371.447,
+        "y": 472.421,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "RWFehlschlag2",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 358.18,
+        "y": 472.421,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "RWFehlschlag1",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 344.819,
+        "y": 472.421,
+        "w": 11.339,
+        "h": 11.339
+      }
+    },
+    {
+      "name": "Rassenmerkmale",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 33.874,
+        "y": 600.531,
+        "w": 218.268,
+        "h": 185.233
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Sinne",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 33.874,
+        "y": 485.291,
+        "w": 218.268,
+        "h": 93.543
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Klassenmerkmale2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 271.984,
+        "y": 250.016,
+        "w": 305.255,
+        "h": 535.747
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Lebensstil",
+      "type": "dropdown",
+      "pageIndex": 1,
+      "rect": {
+        "x": 33.874,
+        "y": 439.937,
+        "w": 56.693,
+        "h": 22.677
+      },
+      "options": [
+        "Jämmerlich",
+        "Ärmlich",
+        "Schlecht",
+        "Einfach",
+        "Komfortabel",
+        "Wohlhabend",
+        "Edel"
+      ]
+    },
+    {
+      "name": "TäglicheKosten",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 209.144,
+        "y": 439.937,
+        "w": 45.833,
+        "h": 22.677
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Feinde",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 33.874,
+        "y": 250.016,
+        "w": 218.268,
+        "h": 135.233
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Inventar1",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 198.992,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz1",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 198.992,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew1",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 198.992,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 184.819,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 184.819,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 184.819,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar3",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 170.646,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz3",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 170.646,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew3",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 170.646,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar4",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 156.473,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz4",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 156.473,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew4",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 156.473,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar5",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 142.299,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz5",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 142.299,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew5",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 142.299,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar6",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 128.126,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz6",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 128.126,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew6",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 128.126,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar7",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 113.953,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz7",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 113.953,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew7",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 113.953,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar8",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 99.78,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz8",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 99.78,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew8",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 99.78,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar9",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 85.606,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz9",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 85.606,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew9",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 85.606,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar10",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 71.433,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz10",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 71.433,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew10",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 71.433,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar11",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 57.26,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz11",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 57.26,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew11",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 57.26,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar12",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 43.087,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz12",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 43.087,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew12",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 43.087,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar13",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 28.913,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz13",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 28.913,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew13",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 28.913,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar14",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 39.543,
+        "y": 14.74,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz14",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 158.455,
+        "y": 14.74,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew14",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 14.74,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar15",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 198.992,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz15",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 198.992,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew15",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 198.992,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar16",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 184.819,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz16",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 184.819,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew16",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 184.819,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar17",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 170.646,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz17",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 170.646,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew17",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 170.646,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar18",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 156.473,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz18",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 156.473,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew18",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 156.473,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar19",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 142.299,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz19",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 142.299,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew19",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 142.299,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar20",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 128.126,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz20",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 128.126,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew20",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 128.126,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar21",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 113.953,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz21",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 113.953,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew21",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 113.953,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar22",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 99.78,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz22",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 99.78,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew22",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 99.78,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar23",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 85.606,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz23",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 85.606,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew23",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 85.606,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar24",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 71.433,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz24",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 71.433,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew24",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 71.433,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar25",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 57.26,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz25",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 57.26,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew25",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 57.26,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar26",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 43.087,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz26",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 43.087,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew26",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 43.087,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar27",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 28.913,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz27",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 28.913,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew27",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 28.913,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar28",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 201.118,
+        "y": 14.74,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz28",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 320.03,
+        "y": 14.74,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew28",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 14.74,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar29",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 198.992,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz29",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 198.992,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew29",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 198.992,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar30",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 184.819,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz30",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 184.819,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew30",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 184.819,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar31",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 170.646,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz31",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 170.646,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew31",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 170.646,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar32",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 156.473,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz32",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 156.473,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew32",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 156.473,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar33",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 142.299,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz33",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 142.299,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew33",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 142.299,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar34",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 128.126,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz34",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 128.126,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew34",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 128.126,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar35",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 113.953,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz35",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 113.953,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew35",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 113.953,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar36",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 99.78,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz36",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 99.78,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew36",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 99.78,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar37",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 85.606,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz37",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 85.606,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew37",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 85.606,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar38",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 71.433,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz38",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 71.433,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew38",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 71.433,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar39",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 43.087,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz39",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 43.087,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew39",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 43.087,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar40",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 28.913,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz40",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 28.913,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew40",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 28.913,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar41",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 362.693,
+        "y": 14.74,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz41",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 481.604,
+        "y": 14.74,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew41",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.755,
+        "y": 14.74,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Teilgewicht1",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 175.606,
+        "y": 6.236,
+        "w": 17.008,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Teilgewicht2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 337.181,
+        "y": 6.236,
+        "w": 17.048,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Teilgewicht3",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 498.756,
+        "y": 6.236,
+        "w": 17.009,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "PM",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 535.606,
+        "y": 193.323,
+        "w": 28.346,
+        "h": 16.852
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GM",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 535.606,
+        "y": 170.117,
+        "w": 28.346,
+        "h": 16.852
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "EM",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 535.606,
+        "y": 146.96,
+        "w": 28.346,
+        "h": 16.852
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SM",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 535.606,
+        "y": 123.791,
+        "w": 28.346,
+        "h": 16.852
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "KM",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 535.606,
+        "y": 100.692,
+        "w": 28.346,
+        "h": 16.852
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Gesamtlast",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 524.268,
+        "y": 73.317,
+        "w": 48.189,
+        "h": 15.124
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Belastet",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 524.268,
+        "y": 50.639,
+        "w": 48.189,
+        "h": 15.124
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "StarkBelastet",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 524.268,
+        "y": 27.962,
+        "w": 48.189,
+        "h": 15.124
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "MaxAnhebenSchiebenZiehen",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 524.268,
+        "y": 5.285,
+        "w": 48.189,
+        "h": 15.124
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HochsprungOhneAnlauf",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 96.236,
+        "y": 411.591,
+        "w": 28.346,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HochsprungMitAnlauf",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 169.937,
+        "y": 411.591,
+        "w": 28.346,
+        "h": 8.361
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WeitsprungOhneAnlauf",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 96.236,
+        "y": 403.087,
+        "w": 28.346,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WeitsprungMitAnlauf",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 169.937,
+        "y": 403.087,
+        "w": 28.346,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Charaktername",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 50.882,
+        "y": 734.491,
+        "w": 165.026,
+        "h": 22
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Alter",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 269.15,
+        "y": 754.583,
+        "w": 39.685,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Glaube",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 311.669,
+        "y": 754.583,
+        "w": 93.543,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Körpergrösse",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 461.906,
+        "y": 754.583,
+        "w": 51.033,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Gewicht",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 515.764,
+        "y": 754.583,
+        "w": 51.024,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Geschlecht",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 269.15,
+        "y": 729.071,
+        "w": 56.693,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Gesinnung",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 328.677,
+        "y": 729.071,
+        "w": 76.535,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Augenfarbe",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.047,
+        "y": 729.071,
+        "w": 51.023,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Haarfarbe",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 461.906,
+        "y": 729.071,
+        "w": 51.024,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Hautfarbe",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 515.764,
+        "y": 729.071,
+        "w": 51.024,
+        "h": 17.008
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "VerbOrgName",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 425.055,
+        "y": 652.035,
+        "w": 136.063,
+        "h": 15.839
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "VerbOrgBild",
+      "type": "unknown",
+      "pageIndex": 2,
+      "rect": {
+        "x": 425.055,
+        "y": 539.15,
+        "w": 136.063,
+        "h": 110.551
+      }
+    },
+    {
+      "name": "VerbOrg1",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.093,
+        "y": 469.297,
+        "w": 175.616,
+        "h": 222.924
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "VerbOrg2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 405.213,
+        "y": 469.297,
+        "w": 172.913,
+        "h": 38.132
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "AussehenBild",
+      "type": "unknown",
+      "pageIndex": 2,
+      "rect": {
+        "x": 31.916,
+        "y": 468.283,
+        "w": 169.202,
+        "h": 221.102
+      }
+    },
+    {
+      "name": "Aussehen",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.062,
+        "y": 235.843,
+        "w": 168.858,
+        "h": 201.26
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Hintergrundgeschichte1",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.093,
+        "y": 222.683,
+        "w": 175.616,
+        "h": 222.924
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Hintergrundgeschichte2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 405.345,
+        "y": 222.683,
+        "w": 172.781,
+        "h": 222.924
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Werdegang1",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.093,
+        "y": 3.147,
+        "w": 175.616,
+        "h": 198.68
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Werdegang2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 405.345,
+        "y": 3.147,
+        "w": 172.781,
+        "h": 198.68
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Teilgewicht4",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": -3.158,
+        "w": 17.008,
+        "h": 8.504
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar42",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 189.598,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz42",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 189.598,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew42",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 189.598,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar43",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 175.424,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz43",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 175.424,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew43",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 175.424,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar44",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 161.251,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz44",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 161.251,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew44",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 161.251,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar45",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 147.078,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz45",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 147.078,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew45",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 147.078,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar46",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 132.905,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz46",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 132.905,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew46",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 132.905,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar47",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 118.731,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz47",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 118.731,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew47",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 118.731,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar48",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 104.558,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz48",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 104.558,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew48",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 104.558,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar49",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 90.385,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz49",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 90.385,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew49",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 90.385,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar50",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 76.212,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz50",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 76.212,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew50",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 76.212,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar51",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 62.039,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz51",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 62.039,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew51",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 62.039,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar52",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 47.865,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz52",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 47.865,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew52",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 47.865,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar53",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 33.692,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz53",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 33.692,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew53",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 33.692,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar54",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 19.519,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz54",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 19.519,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew54",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 19.519,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inventar55",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 39.543,
+        "y": 5.346,
+        "w": 119.055,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarAnz55",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 158.455,
+        "y": 5.346,
+        "w": 17.151,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "InventarGew55",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 175.606,
+        "y": 5.346,
+        "w": 17.008,
+        "h": 14.173
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SizeCat",
+      "type": "dropdown",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.047,
+        "y": 754.583,
+        "w": 51.305,
+        "h": 17.008
+      },
+      "options": [
+        "1",
+        "Winzig",
+        "Klein",
+        "Mittelgroß",
+        "Mittelgr. / Kräftig",
+        "Groß",
+        "Riesig",
+        "Gigantisch"
+      ]
+    },
+    {
+      "name": "Zauberklasse",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 50.882,
+        "y": 734.491,
+        "w": 165.026,
+        "h": 22
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AttributZauberwirken",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 285.501,
+        "y": 740.409,
+        "w": 59.528,
+        "h": 25.512
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberRettungswurfSG",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 386.225,
+        "y": 740.409,
+        "w": 59.528,
+        "h": 25.512
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberAngriffsbonus",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 489.96,
+        "y": 740.409,
+        "w": 59.528,
+        "h": 25.512
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 610.016,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 595.843,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 581.67,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 567.496,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 553.323,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 539.15,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 524.977,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zaubertrick8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 36.709,
+        "y": 510.804,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 439.937,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 425.764,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 411.591,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 397.418,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 383.245,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 369.071,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 354.898,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 340.725,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 326.552,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_10",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 312.378,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_11",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 298.205,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_12",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 284.032,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber1_13",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 269.859,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 210.331,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 196.158,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 181.985,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 167.812,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 153.638,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 139.465,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 125.292,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 111.119,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 96.945,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_10",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 82.772,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_11",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 68.599,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_12",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 54.426,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber2_13",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 39.543,
+        "y": 40.252,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 610.016,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 595.843,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 581.67,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 567.497,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 553.323,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 539.15,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 524.977,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 510.804,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.663,
+        "y": 496.63,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_10",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 482.457,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_11",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 468.284,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_12",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 454.111,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber3_13",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 439.937,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 383.245,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 369.071,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 354.898,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 340.725,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 326.552,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 284.032,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 312.378,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 298.205,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 269.859,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_10",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 255.685,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_11",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 241.512,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_12",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 227.339,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber4_13",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 213.166,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 153.638,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 139.465,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 125.292,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 111.118,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 96.945,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 82.772,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 68.599,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 54.426,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber5_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 229.465,
+        "y": 40.252,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 610.016,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 595.843,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.75,
+        "y": 581.67,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 567.497,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 553.323,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 539.15,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 524.977,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 510.804,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber6_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 496.63,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 439.937,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 425.764,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 411.591,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 397.418,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 383.245,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 369.071,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 354.898,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 340.725,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber7_9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 326.552,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 269.859,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 255.685,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 241.512,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 227.339,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 213.166,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 198.993,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber8_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 184.819,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 125.292,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 111.119,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 96.945,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 82.772,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 68.599,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 54.426,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Zauber9_7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 416.551,
+        "y": 40.252,
+        "w": 158.343,
+        "h": 11.338
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberActive1_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 441.354,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 427.181,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 413.008,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 398.834,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 384.661,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 370.488,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 356.315,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 342.141,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 327.968,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_10",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 313.795,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_11",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 299.622,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_12",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 285.449,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive1_13",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 271.275,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 211.748,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 197.575,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 183.401,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 169.228,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 155.055,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 140.882,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 126.708,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 112.535,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 98.362,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_10",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 84.189,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_11",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 70.015,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_12",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 55.842,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive2_13",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 29.622,
+        "y": 41.669,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 611.433,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 597.259,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 583.086,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 568.913,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 554.74,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 540.567,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 526.393,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 512.22,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 498.047,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_10",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 483.874,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_11",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 469.7,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_12",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 455.527,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive3_13",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 441.354,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 384.661,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 370.488,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 356.315,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 342.141,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 327.968,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 313.795,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 299.622,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 285.449,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 271.275,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_10",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 257.102,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_11",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 242.929,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_12",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 228.756,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive4_13",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 214.582,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 155.055,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 140.882,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 126.708,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 112.535,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 98.362,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 84.189,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 70.015,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 55.842,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive5_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 219.543,
+        "y": 41.669,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 611.433,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 597.259,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 583.086,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 568.913,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 554.74,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 540.567,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 526.393,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 512.22,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive6_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 498.047,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 441.354,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 427.181,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 413.008,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 398.834,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 384.661,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 370.488,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 356.315,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_8",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 342.141,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive7_9",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 327.968,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 271.275,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 257.102,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 242.929,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 228.756,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 214.582,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 200.409,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive8_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 186.236,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_1",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 126.709,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_2",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 112.535,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_3",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 98.362,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_4",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 84.189,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_5",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 70.016,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_6",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 55.842,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberActive9_7",
+      "type": "checkbox",
+      "pageIndex": 3,
+      "rect": {
+        "x": 406.63,
+        "y": 41.669,
+        "w": 8.504,
+        "h": 8.504
+      }
+    },
+    {
+      "name": "ZauberplätzeGesamt1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 53.717,
+        "y": 461.864,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht1",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 130.252,
+        "y": 461.864,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 53.717,
+        "y": 233.593,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht2",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 130.252,
+        "y": 233.593,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 243.638,
+        "y": 629.733,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht3",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 320.173,
+        "y": 629.739,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 243.638,
+        "y": 404.142,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht4",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 320.173,
+        "y": 404.087,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 243.638,
+        "y": 177.575,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht5",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 320.173,
+        "y": 177.575,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 430.724,
+        "y": 629.739,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht6",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 507.26,
+        "y": 629.739,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 430.724,
+        "y": 459.78,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht7",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 507.26,
+        "y": 459.78,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 430.724,
+        "y": 290.077,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht8",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 507.26,
+        "y": 290.077,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeGesamt9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 430.724,
+        "y": 149.262,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ZauberplätzeVerbraucht9",
+      "type": "text",
+      "pageIndex": 3,
+      "rect": {
+        "x": 507.26,
+        "y": 149.262,
+        "w": 36.85,
+        "h": 19.843
+      },
+      "maxLen": 0
+    }
+  ]
+}

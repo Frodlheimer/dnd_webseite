@@ -13,42 +13,119 @@ enum Role {
   SPECTATOR
 }
 
+enum TokenMovePolicy {
+  ALL
+  OWNED_ONLY
+  DM_ONLY
+}
+
+enum MapEditPolicy {
+  DM_ONLY
+  PLAYERS
+}
+
+enum AssetType {
+  MAP
+  TOKEN_IMAGE
+  SOUND
+}
+
+enum StorageMode {
+  LOCAL
+  CLOUD
+}
+
 model User {
   id              String       @id @default(cuid())
+  externalId      String       @unique
   email           String?      @unique
   createdAt       DateTime     @default(now())
   dmRooms         Room[]       @relation("RoomDM")
   roomMemberships RoomMember[]
   actedEvents     Event[]      @relation("EventActor")
+  ownedAssets     Asset[]      @relation("AssetOwner")
 }
 
 model Room {
-  id         String       @id @default(cuid())
-  name       String
-  dmUserId   String?
-  joinSecret String?
-  isPublic   Boolean      @default(false)
-  createdAt  DateTime     @default(now())
-  dmUser     User?        @relation("RoomDM", fields: [dmUserId], references: [id], onDelete: SetNull)
-  members    RoomMember[]
-  snapshots  Snapshot[]
-  events     Event[]
+  id                String       @id @default(cuid())
+  name              String
+  dmUserId          String
+  storageMode       StorageMode  @default(LOCAL)
+  joinSecret        String       @unique
+  isPublic          Boolean      @default(false)
+  currentMapAssetId String?
+  createdAt         DateTime     @default(now())
+  dmUser            User         @relation("RoomDM", fields: [dmUserId], references: [id], onDelete: Restrict)
+  currentMapAsset   Asset?       @relation("RoomCurrentMap", fields: [currentMapAssetId], references: [id], onDelete: SetNull)
+  members           RoomMember[]
+  snapshots         Snapshot[]
+  events            Event[]
+  settings          RoomSettings?
+  tokens            Token[]
+  assets            Asset[]      @relation("RoomAssets")
 
   @@index([dmUserId])
+  @@index([currentMapAssetId])
 }
 
 model RoomMember {
   id          String   @id @default(cuid())
   roomId      String
-  userId      String?
+  userId      String
   role        Role
   displayName String
-  createdAt   DateTime @default(now())
+  joinedAt    DateTime @default(now())
+  lastSeenAt  DateTime @default(now())
   room        Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
-  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
+  @@unique([roomId, userId])
   @@index([roomId])
   @@index([userId])
+}
+
+model RoomSettings {
+  roomId                   String          @id
+  tokenMovePolicy          TokenMovePolicy @default(ALL)
+  mapEditPolicy            MapEditPolicy   @default(DM_ONLY)
+  mapEditUserOverridesJson Json            @default("[]")
+  room                     Room            @relation(fields: [roomId], references: [id], onDelete: Cascade)
+}
+
+model Token {
+  id              String   @id @default(cuid())
+  roomId          String
+  name            String
+  x               Float
+  y               Float
+  size            Float
+  assetId         String?
+  controlledByJson Json
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  room            Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  asset           Asset?   @relation(fields: [assetId], references: [id], onDelete: SetNull)
+
+  @@index([roomId])
+}
+
+model Asset {
+  id                String    @id @default(cuid())
+  roomId            String
+  ownerUserId       String?
+  type              AssetType
+  mime              String
+  size              Int
+  originalName      String
+  storageKey        String    @unique
+  createdAt         DateTime  @default(now())
+  room              Room      @relation("RoomAssets", fields: [roomId], references: [id], onDelete: Cascade)
+  ownerUser         User?     @relation("AssetOwner", fields: [ownerUserId], references: [id], onDelete: SetNull)
+  usedAsCurrentMapIn Room[]   @relation("RoomCurrentMap")
+  tokens            Token[]
+
+  @@index([roomId, type, createdAt])
+  @@index([ownerUserId])
 }
 
 model Snapshot {

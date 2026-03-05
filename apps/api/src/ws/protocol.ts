@@ -1,5 +1,5 @@
-import type { ClientToServerMessage, WelcomeMessage } from '@dnd-vtt/shared';
-import { ClientToServerMessageSchema, WelcomeMessageSchema } from '@dnd-vtt/shared';
+import type { ClientToServerMessage, ErrorMessage, ServerToClientMessage } from '@dnd-vtt/shared';
+import { ClientToServerMessageSchema, ServerToClientMessageSchema } from '@dnd-vtt/shared';
 
 export const parseClientMessage = (raw: string): ClientToServerMessage | null => {
   let parsed: unknown;
@@ -14,11 +14,28 @@ export const parseClientMessage = (raw: string): ClientToServerMessage | null =>
   return result.success ? result.data : null;
 };
 
-export const createWelcomeMessage = (now: Date = new Date()): WelcomeMessage => {
-  return WelcomeMessageSchema.parse({
-    type: 'WELCOME',
+export const serializeServerMessage = (message: ServerToClientMessage): string => {
+  return JSON.stringify(ServerToClientMessageSchema.parse(message));
+};
+
+export const createErrorMessage = (
+  code: string,
+  message: string,
+  details?: {
+    rejectedType?: string | undefined;
+    hint?: string | undefined;
+  }
+): ErrorMessage => {
+  return {
+    type: 'ERROR',
     payload: {
-      serverTime: now.toISOString()
+      code,
+      message,
+      ...(details
+        ? {
+            ...details
+          }
+        : {})
     }
-  });
+  };
 };
