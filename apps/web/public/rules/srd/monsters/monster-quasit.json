@@ -1,0 +1,137 @@
+{
+  "id": "monster-quasit",
+  "title": "Quasit",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:tiny",
+    "source:srd51",
+    "type:fiend-demon"
+  ],
+  "summary": "Tiny fiend (demon, shapechanger), chaotic evil",
+  "sourcePageRange": "p.273",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Quasit"
+    },
+    {
+      "type": "p",
+      "text": "Tiny fiend (demon, shapechanger), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 7 (3d4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "5 (-3) 17 (+3) 10 (+0) 7 (-2) 10 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +5"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The quasit has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws (Bite in Beast Form). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Scare (1/Day). One creature of the quasit’s choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its"
+    },
+    {
+      "type": "p",
+      "text": "turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Invisibility. The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 273,
+    "sourcePageEnd": 273,
+    "size": "tiny",
+    "monsterType": "fiend (demon",
+    "alignment": "shapechanger), chaotic evil",
+    "armorClass": "13",
+    "hitPoints": "7 (3d4)",
+    "speed": "40 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 5,
+      "strMod": -3,
+      "dex": 17,
+      "dexMod": 3,
+      "con": 10,
+      "conMod": 0,
+      "int": 7,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Shapechanger",
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Claws (Bite in Beast Form)",
+      "Scare (1/Day)",
+      "Invisibility"
+    ]
+  }
+}

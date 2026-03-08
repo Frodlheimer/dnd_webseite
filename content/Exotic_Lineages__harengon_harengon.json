@@ -1,0 +1,658 @@
+{
+  "kind": "LINEAGE",
+  "group": "Exotic Lineages",
+  "setting": null,
+  "slug": "harengon",
+  "url": "https://dnd5e.wikidot.com/lineage:harengon",
+  "page_title": "harengon",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm’s exuberance with them and learning new languages as they went."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Creature Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium or Small. You choose the size when you select this race."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hare-Trigger."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can add your proficiency bonus to your initiative rolls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leporine Senses."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency in the Perception skill."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lucky Footwork."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rabbit Hop."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Player’s Handbook"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " offers a list of languages to choose from. The DM is free to modify that list for a campaign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "The Wild Beyond the Witchlight"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Creature Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life Span."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Harengons have a life span of about a century."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium or Small. You choose the size when you select this race."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hare-Trigger."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can add your proficiency bonus to your initiative rolls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leporine Senses."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency in the Perception skill."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lucky Footwork."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rabbit Hop."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<h1>Mordenkainen Presents: Monsters of the Multiverse</h1>\n<p><strong><em>Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm’s exuberance with them and learning new languages as they went.</em></strong></p>\n<p><strong><em>Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.</li>\n</ul>\n<ul>\n<li><strong>Creature Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium or Small. You choose the size when you select this race.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Hare-Trigger.</strong> You can add your proficiency bonus to your initiative rolls.</li>\n</ul>\n<ul>\n<li><strong>Leporine Senses.</strong> You have proficiency in the Perception skill.</li>\n</ul>\n<ul>\n<li><strong>Lucky Footwork.</strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</li>\n</ul>\n<ul>\n<li><strong>Rabbit Hop.</strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The <em>Player’s Handbook</em> offers a list of languages to choose from. The DM is free to modify that list for a campaign.</li>\n</ul>\n<h1>The Wild Beyond the Witchlight</h1>\n<p><strong><em>Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went.</em></strong></p>\n<p><strong><em>Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<ul>\n<li><strong>Creature Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Life Span.</strong> Harengons have a life span of about a century.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium or Small. You choose the size when you select this race.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Hare-Trigger.</strong> You can add your proficiency bonus to your initiative rolls.</li>\n</ul>\n<ul>\n<li><strong>Leporine Senses.</strong> You have proficiency in the Perception skill.</li>\n</ul>\n<ul>\n<li><strong>Lucky Footwork.</strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</li>\n</ul>\n<ul>\n<li><strong>Rabbit Hop.</strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n</div>"
+  }
+}

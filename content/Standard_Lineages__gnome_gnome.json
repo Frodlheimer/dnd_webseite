@@ -1,0 +1,1017 @@
+{
+  "kind": "LINEAGE",
+  "group": "Standard Lineages",
+  "setting": null,
+  "slug": "gnome",
+  "url": "https://dnd5e.wikidot.com/lineage:gnome",
+  "page_title": "gnome",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Player's Handbook"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Intelligence score increases by 2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Age."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Gnomes are generally Good. Those who tend towards Law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend towards Chaos are often minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are light-hearted, and even the tricksters amongst them favor harmless pranks over vicious schemes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Gnomes are between 3 and 4 feet tall and weigh around 40 pounds. Your size is Small."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your base walking speed is 25 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Darkvision."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gnome Cunning."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have advantage on all Intelligence, Wisdom, and Charisma saves against magic."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can read, speak, and write Common and Gnomish."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forest"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "As a forest gnome, you have a natural knack for illusion and inherent quickness and stealth. In the worlds of D&D, forest gnomes are rare and secretive. They gather in hidden communities in sylvan forests, using illusions and trickery to conceal themselves from threats or to mask their escape should they be detected. Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies. These gnomes also befriend small forest animals and rely on them for information about threats that might prowl their lands."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Dexterity score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Natural Illusionist."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You know the "
+              },
+              {
+                "type": "text",
+                "text": "Minor Illusion"
+              },
+              {
+                "type": "text",
+                "text": " cantrip. Intelligence is your spellcasting modifier for it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speak with Small Beasts."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Through sound and gestures, you may communicate simple ideas with Small or smaller beasts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Rock"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. Most gnomes in the worlds of D&D are rock gnomes, including the tinker gnomes of the Dragonlance setting."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Constitution score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Artificer's Lore."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tinker."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options: "
+              },
+              {
+                "type": "element",
+                "tag": "ul",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "em",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "strong",
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "Clockwork Toy."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "em",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "strong",
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "Fire Starter."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "em",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "strong",
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "Music Box."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "At your DM's discretion, you may make other objects with effects similar in power to these. The "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Prestidigitation"
+                      },
+                      {
+                        "type": "text",
+                        "text": " cantrip is a good baseline for such effects."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Eberron: Rising from the Last War"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Mark of Scribing"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you're a gnome with the Mark of Scribing, you have this subrace, with the following traits."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Charisma score increases by 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gifted Scribe."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Whenever you make an Intelligence (History) or an Ability Check involving Calligrapher's Supplies, you can roll a d4 and add the number rolled to the total ability check."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Scribe's Insight."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You know the "
+              },
+              {
+                "type": "text",
+                "text": "Message"
+              },
+              {
+                "type": "text",
+                "text": " cantrip. You can also cast the "
+              },
+              {
+                "type": "text",
+                "text": "Comprehend Languages"
+              },
+              {
+                "type": "text",
+                "text": " spell with this trait. Starting at 3rd level, you can also cast the "
+              },
+              {
+                "type": "text",
+                "text": "Magic Mouth"
+              },
+              {
+                "type": "text",
+                "text": " spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spells of the Mark."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your Spellcasting class."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mark of Scribing Spells"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spell Level"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spell"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Comprehend Languages"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Illusory Script"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2nd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Animal Messenger"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Silence"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3rd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sending"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Tongues"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Arcane Eye"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Divination"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dream"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "hr",
+        "children": []
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "See also: "
+              },
+              {
+                "type": "text",
+                "text": "Deep Gnome (MPMM)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<h1>Player's Handbook</h1>\n<p><strong><em>A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Intelligence score increases by 2.</li>\n</ul>\n<ul>\n<li><strong>Age.</strong> Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age.</li>\n</ul>\n<ul>\n<li><strong>Alignment.</strong> Gnomes are generally Good. Those who tend towards Law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend towards Chaos are often minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are light-hearted, and even the tricksters amongst them favor harmless pranks over vicious schemes.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> Gnomes are between 3 and 4 feet tall and weigh around 40 pounds. Your size is Small.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your base walking speed is 25 feet.</li>\n</ul>\n<ul>\n<li><strong>Darkvision.</strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>\n</ul>\n<ul>\n<li><strong>Gnome Cunning.</strong> You have advantage on all Intelligence, Wisdom, and Charisma saves against magic.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can read, speak, and write Common and Gnomish.</li>\n</ul>\n<h2>Forest</h2>\n<p><strong><em>As a forest gnome, you have a natural knack for illusion and inherent quickness and stealth. In the worlds of D&amp;D, forest gnomes are rare and secretive. They gather in hidden communities in sylvan forests, using illusions and trickery to conceal themselves from threats or to mask their escape should they be detected. Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies. These gnomes also befriend small forest animals and rely on them for information about threats that might prowl their lands.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Dexterity score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Natural Illusionist.</strong> You know the Minor Illusion cantrip. Intelligence is your spellcasting modifier for it.</li>\n</ul>\n<ul>\n<li><strong>Speak with Small Beasts.</strong> Through sound and gestures, you may communicate simple ideas with Small or smaller beasts.</li>\n</ul>\n<h2>Rock</h2>\n<p><strong><em>As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. Most gnomes in the worlds of D&amp;D are rock gnomes, including the tinker gnomes of the Dragonlance setting.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Constitution score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Artificer's Lore.</strong> Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply.</li>\n</ul>\n<ul>\n<li><strong>Tinker.</strong> You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:\n<ul>\n<li><em><strong>Clockwork Toy.</strong></em> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</li>\n<li><em><strong>Fire Starter.</strong></em> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</li>\n<li><em><strong>Music Box.</strong></em> When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</li>\n<li>At your DM's discretion, you may make other objects with effects similar in power to these. The Prestidigitation cantrip is a good baseline for such effects.</li>\n</ul>\n</li>\n</ul>\n<h1>Eberron: Rising from the Last War</h1>\n<h2>Mark of Scribing</h2>\n<p><strong><em>If you're a gnome with the Mark of Scribing, you have this subrace, with the following traits.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Charisma score increases by 1</li>\n</ul>\n<ul>\n<li><strong>Gifted Scribe.</strong> Whenever you make an Intelligence (History) or an Ability Check involving Calligrapher's Supplies, you can roll a d4 and add the number rolled to the total ability check.</li>\n</ul>\n<ul>\n<li><strong>Scribe's Insight.</strong> You know the Message cantrip. You can also cast the Comprehend Languages spell with this trait. Starting at 3rd level, you can also cast the Magic Mouth spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells.</li>\n</ul>\n<ul>\n<li><strong>Spells of the Mark.</strong> If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your Spellcasting class.</li>\n</ul>\n<p><strong>Mark of Scribing Spells</strong></p>\n<table>\n<tr>\n<th>Spell Level</th>\n<th>Spell</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Comprehend Languages, Illusory Script</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>Animal Messenger, Silence</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Sending, Tongues</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>Arcane Eye, Divination</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Dream</td>\n</tr>\n</table>\n<hr/>\n<p><em>See also: Deep Gnome (MPMM)</em></p>\n</div>"
+  }
+}

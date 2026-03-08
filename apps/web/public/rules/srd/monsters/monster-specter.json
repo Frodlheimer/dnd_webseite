@@ -1,0 +1,123 @@
+{
+  "id": "monster-specter",
+  "title": "Specter",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, chaotic evil",
+  "sourcePageRange": "p.346-347",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Specter"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (5d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 0 ft., fly 50 ft. (hover)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "1 (-5) 14 (+2) 11 (+0) 10 (+0) 10 (+0) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances acid, cold, fire, lightning, thunder;"
+    },
+    {
+      "type": "p",
+      "text": "bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities necrotic, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands all languages it knew in life but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Incorporeal Movement. The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Life Drain. Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 346,
+    "sourcePageEnd": 347,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "chaotic evil",
+    "armorClass": "12",
+    "hitPoints": "22 (5d8)",
+    "speed": "0 ft., fly 50 ft. (hover)",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 1,
+      "strMod": -5,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 11,
+      "conMod": 0,
+      "int": 10,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Incorporeal Movement",
+      "Sunlight Sensitivity"
+    ],
+    "monsterActions": [
+      "Life Drain"
+    ]
+  }
+}

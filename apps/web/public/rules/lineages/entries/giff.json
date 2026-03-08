@@ -1,0 +1,118 @@
+{
+  "id": "giff",
+  "slug": "giff",
+  "name": "Giff",
+  "group": "Setting Specific Lineages",
+  "groupSlug": "setting-specific-lineages",
+  "tags": [
+    "group:setting-specific-lineages",
+    "has:asi",
+    "has:traits",
+    "kind:lineage",
+    "setting:spelljammer",
+    "size:medium",
+    "source:spelljammer-adventures-in-space-astral-adventurers-guide",
+    "speed:30",
+    "trait:ability-score-increase",
+    "trait:astral-spark",
+    "trait:creature-type",
+    "trait:firearms-mastery",
+    "trait:hippo-build",
+    "trait:languages",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appeara...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Spelljammer: Adventures in Space - Astral Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go."
+    },
+    {
+      "type": "p",
+      "text": "Most giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current form."
+    },
+    {
+      "type": "p",
+      "text": "Although they don't realize it, giff are drawn to the Astral Plane because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea."
+    },
+    {
+      "type": "p",
+      "text": "Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that."
+    },
+    {
+      "type": "h5",
+      "text": "Giff Traits"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.",
+        "Creature Type. You are a Humanoid.",
+        "Size. You are Medium.",
+        "Speed. Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.",
+        "Astral Spark. Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.",
+        "Firearms Mastery. You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.",
+        "Hippo Build. You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+        "Languages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1."
+    },
+    {
+      "label": "Creature Type",
+      "labelKey": "creature-type",
+      "value": "You are a Humanoid."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "You are Medium."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+    },
+    {
+      "label": "Astral Spark",
+      "labelKey": "astral-spark",
+      "value": "Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest."
+    },
+    {
+      "label": "Firearms Mastery",
+      "labelKey": "firearms-mastery",
+      "value": "You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll."
+    },
+    {
+      "label": "Hippo Build",
+      "labelKey": "hippo-build",
+      "value": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+    }
+  ],
+  "quickFacts": {
+    "source": "Spelljammer: Adventures in Space - Astral Adventurer's Guide",
+    "abilityScoreIncrease": "Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.",
+    "creatureType": "You are a Humanoid.",
+    "size": "You are Medium.",
+    "speed": "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.",
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+    "speedFeet": 30
+  },
+  "setting": "Spelljammer",
+  "settingSlug": "spelljammer"
+}

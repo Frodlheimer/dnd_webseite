@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-potion-of-invisibility",
+  "title": "Potion of Invisibility",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This potion’s container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cas...",
+  "sourcePageRange": "p.234",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potion of Invisibility Potion, very rare"
+    },
+    {
+      "type": "p",
+      "text": "This potion’s container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 234,
+    "sourcePageEnd": 234,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "magicItemRequiresAttunement": false
+  }
+}

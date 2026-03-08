@@ -1,0 +1,108 @@
+{
+  "id": "monster-ghoul",
+  "title": "Ghoul",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, chaotic evil",
+  "sourcePageRange": "p.312",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ghoul"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (5d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "13 (+1) 15 (+2) 10 (+0) 7 (-2) 10 (+0) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 312,
+    "sourcePageEnd": 312,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "chaotic evil",
+    "armorClass": "12",
+    "hitPoints": "22 (5d8)",
+    "speed": "30 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 13,
+      "strMod": 1,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 10,
+      "conMod": 0,
+      "int": 7,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterActions": [
+      "Bite",
+      "Claws"
+    ]
+  }
+}

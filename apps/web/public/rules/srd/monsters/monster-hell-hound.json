@@ -1,0 +1,120 @@
+{
+  "id": "monster-hell-hound",
+  "title": "Hell Hound",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fiend"
+  ],
+  "summary": "Medium fiend, lawful evil",
+  "sourcePageRange": "p.321-322",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hell Hound"
+    },
+    {
+      "type": "p",
+      "text": "Medium fiend, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 45 (7d8 + 14)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 12 (+1) 14 (+2) 6 (-2) 13 (+1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Infernal but can’t speak it"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Hearing and Smell. The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "type": "p",
+      "text": "Pack Tactics. The hound has advantage on an attack roll against a creature if at least one of the hound’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Fire Breath (Recharge 5-6). The hound exhales fire in a 15--foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 321,
+    "sourcePageEnd": 322,
+    "size": "medium",
+    "monsterType": "fiend",
+    "alignment": "lawful evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "45 (7d8 + 14)",
+    "speed": "50 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 14,
+      "conMod": 2,
+      "int": 6,
+      "intMod": -2,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Keen Hearing and Smell",
+      "Pack Tactics"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Fire Breath (Recharge 5-6)"
+    ]
+  }
+}

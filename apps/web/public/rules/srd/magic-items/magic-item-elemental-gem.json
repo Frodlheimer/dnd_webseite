@@ -1,0 +1,55 @@
+{
+  "id": "magic-item-elemental-gem",
+  "title": "Elemental Gem",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the conjure elemental spell, and the gem’s magic is lost. The type of gem determines t...",
+  "sourcePageRange": "p.220",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Elemental Gem Wondrous item, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the conjure elemental spell, and the gem’s magic is lost. The type of gem determines the elemental summoned by the spell."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Gem",
+          "Summoned Elemental"
+        ],
+        [
+          "Blue sapphire",
+          "Air elemental"
+        ],
+        [
+          "Yellow diamond",
+          "Earth elemental"
+        ],
+        [
+          "Red corundum",
+          "Fire elemental"
+        ],
+        [
+          "Emerald",
+          "Water elemental"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 220,
+    "sourcePageEnd": 220,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

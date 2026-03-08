@@ -1,0 +1,137 @@
+{
+  "id": "monster-cloud-giant",
+  "title": "Cloud Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, neutral good (50%) or neutral evil (50%)",
+  "sourcePageRange": "p.312",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cloud Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, neutral good (50%) or neutral evil (50%)"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 200 (16d12 + 96)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "27 (+8) 10 (+0) 22 (+6) 12 (+1) 16 (+3) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Con +10, Wis +7, Cha +7"
+    },
+    {
+      "type": "p",
+      "text": "Skills Insight +7, Perception +7"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 17"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Smell. The giant has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The giant’s innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect magic , fog cloud , light"
+    },
+    {
+      "type": "p",
+      "text": "3/day each: feather fall , fly , misty step , telekinesis"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: control weather , gaseous form"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two morningstar attacks."
+    },
+    {
+      "type": "p",
+      "text": "Morningstar. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 312,
+    "sourcePageEnd": 312,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "neutral good (50%) or neutral evil (50%)",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "200 (16d12 + 96)",
+    "speed": "40 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 27,
+      "strMod": 8,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 22,
+      "conMod": 6,
+      "int": 12,
+      "intMod": 1,
+      "wis": 16,
+      "wisMod": 3,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Keen Smell",
+      "Innate Spellcasting"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Morningstar",
+      "Rock"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "monster-magmin",
+  "title": "Magmin",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Small elemental, chaotic neutral",
+  "sourcePageRange": "p.329",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Magmin"
+    },
+    {
+      "type": "p",
+      "text": "Small elemental, chaotic neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 9 (2d6 + 2)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "7 (-2) 15 (+2) 12 (+1) 8 (-1) 11 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Ignan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Burst. When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren’t being worn or carried in that area are ignited."
+    },
+    {
+      "type": "p",
+      "text": "Ignited Illumination. As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10--foot radius and dim light for an additional 10 feet."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Touch. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 329,
+    "sourcePageEnd": 329,
+    "size": "small",
+    "monsterType": "elemental",
+    "alignment": "chaotic neutral",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "9 (2d6 + 2)",
+    "speed": "30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 7,
+      "strMod": -2,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 12,
+      "conMod": 1,
+      "int": 8,
+      "intMod": -1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Death Burst",
+      "Ignited Illumination"
+    ],
+    "monsterActions": [
+      "Touch"
+    ]
+  }
+}

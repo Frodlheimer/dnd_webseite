@@ -1,0 +1,56 @@
+{
+  "id": "heavy-armor-master",
+  "slug": "heavy-armor-master",
+  "name": "Heavy Armor Master",
+  "group": "Feats",
+  "summary": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Proficiency with heavy armor"
+    },
+    {
+      "type": "p",
+      "text": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength score by 1, to a maximum of 20.",
+        "While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 3."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "STR"
+      ],
+      "description": "Increase your Strength score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "Proficiency with heavy armor"
+  },
+  "highlights": [
+    "Increase your Strength score by 1, to a maximum of 20.",
+    "While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 3."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:str",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

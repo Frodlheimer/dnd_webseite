@@ -1,0 +1,131 @@
+{
+  "id": "monster-sahuagin",
+  "title": "Sahuagin",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-sahuagin"
+  ],
+  "summary": "Medium humanoid (sahuagin), lawful evil",
+  "sourcePageRange": "p.343",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Sahuagin"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (sahuagin), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (4d8 + 4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., swim 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "13 (+1) 11 (+0) 12 (+1) 12 (+1) 13 (+1) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages Sahuagin"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Blood Frenzy. The sahuagin has advantage on melee attack rolls against any creature that doesn’t have all its hit points."
+    },
+    {
+      "type": "p",
+      "text": "Limited Amphibiousness. The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+    },
+    {
+      "type": "p",
+      "text": "Shark Telepathy. The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The sahuagin makes two melee attacks: one with its bite and one with its claws or spear."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Spear. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 343,
+    "sourcePageEnd": 343,
+    "size": "medium",
+    "monsterType": "humanoid (sahuagin)",
+    "alignment": "lawful evil",
+    "armorClass": "12 (natural armor)",
+    "hitPoints": "22 (4d8 + 4)",
+    "speed": "30 ft., swim 40 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 13,
+      "strMod": 1,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 12,
+      "conMod": 1,
+      "int": 12,
+      "intMod": 1,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Blood Frenzy",
+      "Limited Amphibiousness",
+      "Shark Telepathy"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claws",
+      "Spear"
+    ]
+  }
+}

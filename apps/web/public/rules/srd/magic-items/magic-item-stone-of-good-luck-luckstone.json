@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-stone-of-good-luck-luckstone",
+  "title": "Stone of Good Luck (Luckstone)",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.",
+  "sourcePageRange": "p.246",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Stone of Good Luck (Luckstone) Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 246,
+    "sourcePageEnd": 246,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

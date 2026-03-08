@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-hat-of-disguise",
+  "title": "Hat of Disguise",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this hat, you can use an action to cast the disguise self spell from it at will. The spell ends if the hat is removed.",
+  "sourcePageRange": "p.225",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hat of Disguise Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this hat, you can use an action to cast the disguise self spell from it at will. The spell ends if the hat is removed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 225,
+    "sourcePageEnd": 225,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

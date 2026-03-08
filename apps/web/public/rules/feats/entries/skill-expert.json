@@ -1,0 +1,52 @@
+{
+  "id": "skill-expert",
+  "slug": "skill-expert",
+  "name": "Skill Expert",
+  "group": "Feats",
+  "summary": "You have honed your proficiency with particular skills, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tasha's Cauldron of Everything"
+    },
+    {
+      "type": "p",
+      "text": "You have honed your proficiency with particular skills, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase one ability score of your choice by 1, to a maximum of 20.",
+        "You gain proficiency in one skill of your choice.",
+        "Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "ALL"
+      ],
+      "description": "Increase one ability score of your choice by 1, to a maximum of 20."
+    },
+    "source": "Tasha's Cauldron of Everything"
+  },
+  "highlights": [
+    "Increase one ability score of your choice by 1, to a maximum of 20.",
+    "You gain proficiency in one skill of your choice.",
+    "Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:all",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:tashas-cauldron-of-everything"
+  ]
+}

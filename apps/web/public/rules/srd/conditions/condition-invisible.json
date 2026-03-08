@@ -1,0 +1,34 @@
+{
+  "id": "condition-invisible",
+  "title": "Invisible",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:invisible",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature’s location can be detected by any noise it makes or any...",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Invisible"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature’s location can be detected by any noise it makes or any tracks it leaves.",
+        "Attack rolls against the creature have disadvantage, and the creature’s attack rolls have advantage."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature’s location can be detected by any noise it makes or any tracks it leaves.",
+      "Attack rolls against the creature have disadvantage, and the creature’s attack rolls have advantage."
+    ]
+  }
+}

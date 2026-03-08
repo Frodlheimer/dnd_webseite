@@ -1,0 +1,94 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "durable",
+  "url": "https://dnd5e.wikidot.com/feat:durable",
+  "page_title": "durable",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Player's Handbook"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Hardy and resilient, you gain the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Increase your Constitution score by 1, to a maximum of 20."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Player's Handbook</p>\n<p>Hardy and resilient, you gain the following benefits:</p>\n<ul>\n<li>Increase your Constitution score by 1, to a maximum of 20.</li>\n</ul>\n<ul>\n<li>When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).</li>\n</ul>\n</div>"
+  }
+}

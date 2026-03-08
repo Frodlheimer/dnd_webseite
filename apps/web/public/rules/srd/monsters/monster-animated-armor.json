@@ -1,0 +1,133 @@
+{
+  "id": "monster-animated-armor",
+  "title": "Animated Armor",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:construct"
+  ],
+  "summary": "Medium construct, unaligned",
+  "sourcePageRange": "p.263-264",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Animated Armor"
+    },
+    {
+      "type": "p",
+      "text": "Medium construct, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 33 (6d8 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 25 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "14 (+2) 11 (+0) 13 (+1) 1 (-5) 3 (-4) 1 (-5)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison, psychic"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded, charmed, deafened,"
+    },
+    {
+      "type": "p",
+      "text": "exhaustion, frightened, paralyzed, petrified, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 60 ft. (blind beyond this radius),"
+    },
+    {
+      "type": "p",
+      "text": "passive Perception 6"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Antimagic Susceptibility. The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic , the armor must succeed on a"
+    },
+    {
+      "type": "p",
+      "text": "Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute."
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The armor makes two melee attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 263,
+    "sourcePageEnd": 264,
+    "size": "medium",
+    "monsterType": "construct",
+    "alignment": "unaligned",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "33 (6d8 + 6)",
+    "speed": "25 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 14,
+      "strMod": 2,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 13,
+      "conMod": 1,
+      "int": 1,
+      "intMod": -5,
+      "wis": 3,
+      "wisMod": -4,
+      "cha": 1,
+      "chaMod": -5
+    },
+    "monsterTraits": [
+      "Senses blindsight 60 ft",
+      "Antimagic Susceptibility",
+      "False Appearance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam"
+    ]
+  }
+}

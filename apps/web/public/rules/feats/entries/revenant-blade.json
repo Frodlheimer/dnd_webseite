@@ -1,0 +1,63 @@
+{
+  "id": "revenant-blade",
+  "slug": "revenant-blade",
+  "name": "Revenant Blade",
+  "group": "Racial Feats",
+  "summary": "You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Eberron - Rising from the Last War"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Elf"
+    },
+    {
+      "type": "p",
+      "text": "You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Dexterity or Strength score by 1, to a maximum of 20.",
+        "While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
+        "A double-bladed scimitar has the finesse property when you wield it."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Elf"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "DEX"
+      ],
+      "description": "Increase your Dexterity or Strength score by 1, to a maximum of 20."
+    },
+    "source": "Eberron - Rising from the Last War",
+    "prerequisite": "Elf"
+  },
+  "highlights": [
+    "Increase your Dexterity or Strength score by 1, to a maximum of 20.",
+    "While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
+    "A double-bladed scimitar has the finesse property when you wield it."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "ability:str",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:elf",
+    "source:eberron-rising-from-the-last-war"
+  ]
+}

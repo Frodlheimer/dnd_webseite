@@ -1,0 +1,109 @@
+{
+  "id": "monster-hill-giant",
+  "title": "Hill Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, chaotic evil",
+  "sourcePageRange": "p.313",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hill Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 105 (10d12 + 40)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "21 (+5) 8 (-1) 19 (+4) 5 (-3) 9 (-1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two greatclub attacks."
+    },
+    {
+      "type": "p",
+      "text": "Greatclub. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 313,
+    "sourcePageEnd": 313,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "chaotic evil",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "105 (10d12 + 40)",
+    "speed": "40 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 21,
+      "strMod": 5,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 19,
+      "conMod": 4,
+      "int": 5,
+      "intMod": -3,
+      "wis": 9,
+      "wisMod": -1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Greatclub",
+      "Rock"
+    ]
+  }
+}

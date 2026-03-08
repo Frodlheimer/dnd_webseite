@@ -52,3 +52,18 @@ body {
     margin-top: 0.75rem;
   }
 }
+
+.dicebox-host {
+  position: relative;
+  overflow: visible;
+}
+
+.dicebox-host > canvas.dice-box-canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 94% !important;
+  height: 94% !important;
+  transform: translate(-50%, -50%);
+}

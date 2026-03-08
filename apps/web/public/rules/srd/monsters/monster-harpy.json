@@ -1,0 +1,110 @@
+{
+  "id": "monster-harpy",
+  "title": "Harpy",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Medium monstrosity, chaotic evil",
+  "sourcePageRange": "p.321",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Harpy"
+    },
+    {
+      "type": "p",
+      "text": "Medium monstrosity, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 38 (7d8 + 7)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "12 (+1) 13 (+1) 12 (+1) 7 (-2) 10 (+0) 13 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The harpy makes two attacks: one with its claws and one with its club."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Club. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Luring Song. The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated. While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route, trying to get within 5 feet. It doesn’t avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. A target that successfully saves is immune to this harpy’s song for the next 24 hours."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 321,
+    "sourcePageEnd": 321,
+    "size": "medium",
+    "monsterType": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "11",
+    "hitPoints": "38 (7d8 + 7)",
+    "speed": "20 ft., fly 40 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 12,
+      "strMod": 1,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 12,
+      "conMod": 1,
+      "int": 7,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 13,
+      "chaMod": 1
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Claws",
+      "Club",
+      "Luring Song"
+    ]
+  }
+}

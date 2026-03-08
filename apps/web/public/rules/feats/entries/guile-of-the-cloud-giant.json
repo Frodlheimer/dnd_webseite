@@ -1,0 +1,60 @@
+{
+  "id": "guile-of-the-cloud-giant",
+  "slug": "guile-of-the-cloud-giant",
+  "name": "Guile Of The Cloud Giant",
+  "group": "Feats",
+  "summary": "You've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Bigby Presents - Glory of the Giants"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: 4th Level, Strike of the Giants (Cloud Strike) Feat"
+    },
+    {
+      "type": "p",
+      "text": "You've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.",
+        "Cloudy Escape. When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack's damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON",
+        "CHA"
+      ],
+      "description": "Ability Score Increase. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20."
+    },
+    "source": "Bigby Presents - Glory of the Giants",
+    "prerequisite": "4th Level, Strike of the Giants (Cloud Strike) Feat"
+  },
+  "highlights": [
+    "Ability Score Increase. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.",
+    "Cloudy Escape. When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack's damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:cha",
+    "ability:con",
+    "ability:str",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:bigby-presents-glory-of-the-giants"
+  ]
+}

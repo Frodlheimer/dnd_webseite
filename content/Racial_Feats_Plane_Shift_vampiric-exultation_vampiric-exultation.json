@@ -1,0 +1,78 @@
+{
+  "kind": "FEAT",
+  "group": "Racial Feats",
+  "collection": "Plane Shift",
+  "slug": "vampiric-exultation",
+  "url": "https://dnd5e.wikidot.com/feat:vampiric-exultation",
+  "page_title": "vampiric-exultation",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Plane Shift - Ixalan"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Vampire (Ixalan)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can't use it again until you finish a short or long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Plane Shift - Ixalan</p>\n<p><em>Prerequisite: Vampire (Ixalan)</em></p>\n<p>As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can't use it again until you finish a short or long rest.</p>\n</div>"
+  }
+}

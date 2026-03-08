@@ -1,0 +1,162 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Dragonlance",
+  "slug": "adept-of-the-black-robes",
+  "url": "https://dnd5e.wikidot.com/feat:adept-of-the-black-robes",
+  "page_title": "adept-of-the-black-robes",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Initiate of High Sorcery"
+              },
+              {
+                "type": "text",
+                "text": " (Nuitari) Feat"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ambitious Magic."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the "
+              },
+              {
+                "type": "text",
+                "text": "Enchantment"
+              },
+              {
+                "type": "text",
+                "text": " or "
+              },
+              {
+                "type": "text",
+                "text": "Necromancy"
+              },
+              {
+                "type": "text",
+                "text": " school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the "
+              },
+              {
+                "type": "text",
+                "text": "Initiate of High Sorcery"
+              },
+              {
+                "type": "text",
+                "text": " feat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life Channel."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Dragonlance: Shadow of the Dragon Queen</p>\n<p><em>Prerequisite: 4th Level, Initiate of High Sorcery (Nuitari) Feat</em></p>\n<p>You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:</p>\n<ul>\n<li><strong>Ambitious Magic.</strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the Enchantment or Necromancy school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>\n</ul>\n<ul>\n<li><strong>Life Channel.</strong> You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total.</li>\n</ul>\n</div>"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "squat-nimbleness",
+  "slug": "squat-nimbleness",
+  "name": "Squat Nimbleness",
+  "group": "Racial Feats",
+  "summary": "You are uncommonly nimble for your race. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Dwarf or a Small race"
+    },
+    {
+      "type": "p",
+      "text": "You are uncommonly nimble for your race. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+        "Increase your walking speed by 5 feet.",
+        "You gain proficiency in the Acrobatics or Athletics skill (your choice).",
+        "You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Dwarf",
+      "Small race"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "DEX"
+      ],
+      "description": "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Dwarf or a Small race"
+  },
+  "highlights": [
+    "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Increase your walking speed by 5 feet.",
+    "You gain proficiency in the Acrobatics or Athletics skill (your choice).",
+    "You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "ability:str",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:dwarf",
+    "race:small-race",
+    "source:xanathars-guide-to-everything"
+  ]
+}

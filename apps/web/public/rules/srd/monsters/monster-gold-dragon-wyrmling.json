@@ -1,0 +1,129 @@
+{
+  "id": "monster-gold-dragon-wyrmling",
+  "title": "Gold Dragon Wyrmling",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Medium dragon, lawful good",
+  "sourcePageRange": "p.300-301",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gold Dragon Wyrmling"
+    },
+    {
+      "type": "p",
+      "text": "Medium dragon, lawful good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 60 (8d8 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 60 ft., swim 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 14 (+2) 17 (+3) 14 (+2) 11 (+0) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +4, Con +5, Wis +2, Cha +5"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The dragon can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Fire Breath. The dragon exhales fire in a 15--foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Weakening Breath. The dragon exhales gas in a 15--foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength--based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 300,
+    "sourcePageEnd": 301,
+    "size": "medium",
+    "monsterType": "dragon",
+    "alignment": "lawful good",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "60 (8d8 + 24)",
+    "speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 17,
+      "conMod": 3,
+      "int": 14,
+      "intMod": 2,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Amphibious"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Breath Weapons (Recharge 5-6)",
+      "Fire Breath",
+      "Weakening Breath"
+    ]
+  }
+}

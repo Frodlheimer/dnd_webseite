@@ -1,0 +1,46 @@
+{
+  "id": "mystic-conflux",
+  "slug": "mystic-conflux",
+  "name": "Mystic Conflux",
+  "group": "Feats",
+  "summary": "You possess an intuitive understanding of the way magic ebbs and flows within enchanted items. Such items attune easily to you, and you are able to sound out their secrets. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tal'Dorei Campaign Setting Reborn"
+    },
+    {
+      "type": "p",
+      "text": "You possess an intuitive understanding of the way magic ebbs and flows within enchanted items. Such items attune easily to you, and you are able to sound out their secrets. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "You can attune to up to four magic items at once.",
+        "You can cast the Identify spell without expending a spell slot or material components. You must finish a long rest before you can do so again."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Tal'Dorei Campaign Setting Reborn"
+  },
+  "highlights": [
+    "You can attune to up to four magic items at once.",
+    "You can cast the Identify spell without expending a spell slot or material components. You must finish a long rest before you can do so again."
+  ],
+  "collection": "Homebrew",
+  "tags": [
+    "collection:homebrew",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:taldorei-campaign-setting-reborn"
+  ]
+}

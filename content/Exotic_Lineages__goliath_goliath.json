@@ -1,0 +1,604 @@
+{
+  "kind": "LINEAGE",
+  "group": "Exotic Lineages",
+  "setting": null,
+  "slug": "goliath",
+  "url": "https://dnd5e.wikidot.com/lineage:goliath",
+  "page_title": "goliath",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The first goliaths lived on the highest mountain peaks — far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors’ mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Creature Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Little Giant."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mountain Born."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you’ve never been to one. This includes elevations above 20,000 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stone's Endurance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. "
+              },
+              {
+                "type": "element",
+                "tag": "ul",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Player’s Handbook"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " offers a list of languages to choose from. The DM is free to modify that list for a campaign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Elemental Evil Player's Guide"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Strength score increases by 2, and your Constitution score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Age."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self-sufficiency and personal accountability, pushes them toward neutrality."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your base walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Natural Athlete."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency in the Athletics skill."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stone's Endurance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Powerful Build."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mountain Born."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to cold damage. You’re also acclimated to high altitude, including elevations above 20,000 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and Giant."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<h1>Mordenkainen Presents: Monsters of the Multiverse</h1>\n<p><strong><em>The first goliaths lived on the highest mountain peaks — far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors’ mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.</li>\n</ul>\n<ul>\n<li><strong>Creature Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Little Giant.</strong> You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>\n</ul>\n<ul>\n<li><strong>Mountain Born.</strong> You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you’ve never been to one. This includes elevations above 20,000 feet.</li>\n</ul>\n<ul>\n<li><strong>Stone's Endurance.</strong> You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n<ul>\n<li>You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The <em>Player’s Handbook</em> offers a list of languages to choose from. The DM is free to modify that list for a campaign.</li>\n</ul>\n<h1>Elemental Evil Player's Guide</h1>\n<p><em><strong>At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.</strong></em></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Strength score increases by 2, and your Constitution score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Age.</strong> Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.</li>\n</ul>\n<ul>\n<li><strong>Alignment.</strong> Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self-sufficiency and personal accountability, pushes them toward neutrality.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your base walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Natural Athlete.</strong> You have proficiency in the Athletics skill.</li>\n</ul>\n<ul>\n<li><strong>Stone's Endurance.</strong> You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.</li>\n</ul>\n<ul>\n<li><strong>Powerful Build.</strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>\n</ul>\n<ul>\n<li><strong>Mountain Born.</strong> You have resistance to cold damage. You’re also acclimated to high altitude, including elevations above 20,000 feet.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and Giant.</li>\n</ul>\n</div>"
+  }
+}

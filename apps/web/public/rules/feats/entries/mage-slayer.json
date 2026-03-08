@@ -1,0 +1,48 @@
+{
+  "id": "mage-slayer",
+  "slug": "mage-slayer",
+  "name": "Mage Slayer",
+  "group": "Feats",
+  "summary": "You have practiced techniques in melee combat against spellcasters, gaining the following benefits.",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You have practiced techniques in melee combat against spellcasters, gaining the following benefits."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+        "When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+        "You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+    "When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+    "You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

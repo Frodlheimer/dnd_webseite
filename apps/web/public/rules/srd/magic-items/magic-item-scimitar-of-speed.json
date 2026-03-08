@@ -1,0 +1,40 @@
+{
+  "id": "magic-item-scimitar-of-speed",
+  "title": "Scimitar of Speed",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.",
+  "sourcePageRange": "p.241-242",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Scimitar of Speed Weapon (scimitar), very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns."
+    },
+    {
+      "type": "p",
+      "text": "Shield, +1, +2, or +3 Armor (shield), uncommon (+1), rare (+2), or very rare (+3)"
+    },
+    {
+      "type": "p",
+      "text": "While holding this shield, you have a bonus to AC determined by the shield’s rarity. This bonus is in addition to the shield’s normal bonus to AC."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 241,
+    "sourcePageEnd": 242,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

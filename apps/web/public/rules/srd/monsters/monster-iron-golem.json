@@ -1,0 +1,140 @@
+{
+  "id": "monster-iron-golem",
+  "title": "Iron Golem",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:16",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:construct"
+  ],
+  "summary": "Large construct, unaligned",
+  "sourcePageRange": "p.317",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Iron Golem"
+    },
+    {
+      "type": "p",
+      "text": "Large construct, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 20 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 210 (20d10 + 100)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "24 (+7) 9 (-1) 20 (+5) 3 (-4) 11 (+0) 1 (-5)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands the languages of its creator but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 16 (15,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Fire Absorption . Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+    },
+    {
+      "type": "p",
+      "text": "Immutable Form. The golem is immune to any spell or effect that would alter its form."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The golem has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The golem’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The golem makes two melee attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Sword. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 23 (3d10 + 7) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Poison Breath (Recharge 6). The golem exhales poisonous gas in a 15--foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 317,
+    "sourcePageEnd": 317,
+    "size": "large",
+    "monsterType": "construct",
+    "alignment": "unaligned",
+    "armorClass": "20 (natural armor)",
+    "hitPoints": "210 (20d10 + 100)",
+    "speed": "30 ft.",
+    "challengeRating": "16",
+    "challengeXp": "15,000 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 24,
+      "strMod": 7,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 20,
+      "conMod": 5,
+      "int": 3,
+      "intMod": -4,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 1,
+      "chaMod": -5
+    },
+    "monsterTraits": [
+      "Fire Absorption",
+      "Immutable Form",
+      "Magic Resistance",
+      "Magic Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam",
+      "Sword",
+      "Poison Breath (Recharge 6)"
+    ]
+  }
+}

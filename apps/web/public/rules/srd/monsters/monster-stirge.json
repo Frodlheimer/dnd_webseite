@@ -1,0 +1,95 @@
+{
+  "id": "monster-stirge",
+  "title": "Stirge",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/8",
+    "section:monsters",
+    "size:tiny",
+    "source:srd51",
+    "type:beast"
+  ],
+  "summary": "Tiny beast, unaligned",
+  "sourcePageRange": "p.349",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Stirge"
+    },
+    {
+      "type": "p",
+      "text": "Tiny beast, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 2 (1d4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 10 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "4 (-3) 16 (+3) 11 (+0) 2 (-4) 8 (-1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/8 (25 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Blood Drain. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 349,
+    "sourcePageEnd": 349,
+    "size": "tiny",
+    "monsterType": "beast",
+    "alignment": "unaligned",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "2 (1d4)",
+    "speed": "10 ft., fly 40 ft.",
+    "challengeRating": "1/8",
+    "challengeXp": "25 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 4,
+      "strMod": -3,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 11,
+      "conMod": 0,
+      "int": 2,
+      "intMod": -4,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterActions": [
+      "Blood Drain"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "magic-item-belt-of-giant-strength",
+  "title": "Belt of Giant Strength",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rarity-varies",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this belt, your Strength score changes to a score granted by the belt. If your Strength is already equal to or greater than the belt’s score, the item has no effect on you. Six varieties of this belt exi...",
+  "sourcePageRange": "p.211",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Belt of Giant Strength Wondrous item, rarity varies (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this belt, your Strength score changes to a score granted by the belt. If your Strength is already equal to or greater than the belt’s score, the item has no effect on you. Six varieties of this belt exist, corresponding with and having rarity according to the six kinds of true giants. The belt of stone giant strength and the belt of frost giant strength look different, but they have the same effect."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Type",
+          "Strength",
+          "Rarity"
+        ],
+        [
+          "Hill giant",
+          "21",
+          "Rare"
+        ],
+        [
+          "Stone/frost giant",
+          "23",
+          "Very rare"
+        ],
+        [
+          "Fire giant",
+          "25",
+          "Very rare"
+        ],
+        [
+          "Cloud giant",
+          "27",
+          "Legendary"
+        ],
+        [
+          "Storm giant",
+          "29",
+          "Legendary"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 211,
+    "sourcePageEnd": 211,
+    "rarity": "rarity varies",
+    "magicItemRarity": "rarity varies",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

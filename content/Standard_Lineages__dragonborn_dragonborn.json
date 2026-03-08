@@ -1,0 +1,3884 @@
+{
+  "kind": "LINEAGE",
+  "group": "Standard Lineages",
+  "setting": null,
+  "slug": "dragonborn",
+  "url": "https://dnd5e.wikidot.com/lineage:dragonborn",
+  "page_title": "dragonborn",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Player's Handbook"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Strength score increases by 2, and your Charisma score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Age."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Dragonborn tend towards extremes, making a conscious choice for one side or the other between Good and Evil (represented by Bahamut and Tiamat, respectively). More side with Bahamut than Tiamat (whose non-dragon followers are mostly kobolds), but villainous dragonborn can be quite terrible indeed. Some rare few choose to devote themselves to lesser dragon deities, such as Chronepsis (Neutral), and fewer still choose to worship Io, the Ninefold Dragon, who is all alignments at once."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your base walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon Color"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Black"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5 by 30 ft. line (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Blue"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5 by 30 ft. line (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brass"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5 by 30 ft. line (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bronze"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5 by 30 ft. line (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Copper"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5 by 30 ft. line (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 ft. cone (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Green"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Poison"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 ft. cone (CON save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Red"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 ft. cone (DEX save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silver"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 ft. cone (CON save)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "White"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15 ft. cone (CON save)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can use your action to exhale destructive energy. It deals damage in an area according to your ancestry. When you use your breath weapon, all creatures in the area must make a saving throw, the type of which is determined by your ancestry. The DC of this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increase to 3d6 at 6th level, 4d6 at 11th, and 5d6 at 16th level. After using your breath weapon, you cannot use it again until you complete a short or long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can read, speak, and write Common and Draconic."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Explorer's Guide to Wildemount"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Draconblood"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A draconblood uses the dragonborn traits in the"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Player's Handbook, "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "with the following traits replacing the"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Ability Score Increase "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "and"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Damage Resistance "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "traits."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Intelligence score increases by 2, and your Charisma score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Darkvision."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Forceful Presence."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you make a Intimidation or Persuasion check, you can do so with advantage once per long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ravenite"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the draconblood, as well as the day when they overthrew their masters."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A ravenite uses the dragonborn traits in the"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Player's Handbook, "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "with the following traits replacing the"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Ability Score Increase "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "and"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Damage Resistance "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "traits."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Strength score increases by 2, and your Constitution score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Darkvision."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Vengeful Assault."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack against that creature. You can do this once per short or long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Fizban's Treasury of Dragons"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Chromatic"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Black"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Blue"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Green"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Poison"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Red"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "White"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Chromatic Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Warding."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Metallic"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons — brass, bronze, copper, gold, and silver — whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brass"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bronze"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Copper"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silver"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Metallic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Metallic Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one: "
+              },
+              {
+                "type": "element",
+                "tag": "ul",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "ul",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "li",
+                            "children": [
+                              {
+                                "type": "element",
+                                "tag": "strong",
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "text": "Enervating Breath."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "text": " Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "element",
+                            "tag": "li",
+                            "children": [
+                              {
+                                "type": "element",
+                                "tag": "strong",
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "text": "Repulsion Breath."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "text": " Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Gem"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons — amethyst, crystal, emerald, sapphire, and topaz — gleam in these dragonborn’s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery — but also the desiccation of despair."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a Gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Amethyst"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Force"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Crystal"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Radiant"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Emerald"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychic"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sapphire"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thunder"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Topaz"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Necrotic"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Gem Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psionic Mind."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Flight."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Unearthed Arcana"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Chromatic"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Unearthed Arcana 78 - Draconic Options"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Black"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Blue"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Green"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Poison"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Red"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "White"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 30-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Chromatic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Chromatic Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chromatic Warding."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Metallic"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Unearthed Arcana 78 - Draconic Options"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brass"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bronze"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lightning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Copper"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Acid"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fire"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silver"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Metallic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Metallic Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metallic Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " At 3rd level you gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one: "
+              },
+              {
+                "type": "element",
+                "tag": "ul",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "ul",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "li",
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "element",
+                            "tag": "li",
+                            "children": [
+                              {
+                                "type": "text",
+                                "text": "Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "li",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Gem"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Unearthed Arcana 78 - Draconic Options"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Type."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Humanoid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Ancestry."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You trace your ancestry to a Gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Ancestry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dragon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Damage Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Amethyst"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Force"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Crystal"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Radiant"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Emerald"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychic"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sapphire"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thunder"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Topaz"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Necrotic"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Breath Weapon."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Draconic Resistance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to the damage type associated with your Gem Ancestry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psionic Mind."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gem Flight."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Starting at 3rd level, you can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<h1>Player's Handbook</h1>\n<p><strong><em>Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Strength score increases by 2, and your Charisma score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Age.</strong> Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.</li>\n</ul>\n<ul>\n<li><strong>Alignment.</strong> Dragonborn tend towards extremes, making a conscious choice for one side or the other between Good and Evil (represented by Bahamut and Tiamat, respectively). More side with Bahamut than Tiamat (whose non-dragon followers are mostly kobolds), but villainous dragonborn can be quite terrible indeed. Some rare few choose to devote themselves to lesser dragon deities, such as Chronepsis (Neutral), and fewer still choose to worship Io, the Ninefold Dragon, who is all alignments at once.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your base walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Draconic Ancestry.</strong> You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain.</li>\n</ul>\n<table>\n<tr>\n<th>Dragon Color</th>\n<th>Damage Type</th>\n<th>Breath Weapon</th>\n</tr>\n<tr>\n<td>Black</td>\n<td>Acid</td>\n<td>5 by 30 ft. line (DEX save)</td>\n</tr>\n<tr>\n<td>Blue</td>\n<td>Lightning</td>\n<td>5 by 30 ft. line (DEX save)</td>\n</tr>\n<tr>\n<td>Brass</td>\n<td>Fire</td>\n<td>5 by 30 ft. line (DEX save)</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td>Lightning</td>\n<td>5 by 30 ft. line (DEX save)</td>\n</tr>\n<tr>\n<td>Copper</td>\n<td>Acid</td>\n<td>5 by 30 ft. line (DEX save)</td>\n</tr>\n<tr>\n<td>Gold</td>\n<td>Fire</td>\n<td>15 ft. cone (DEX save)</td>\n</tr>\n<tr>\n<td>Green</td>\n<td>Poison</td>\n<td>15 ft. cone (CON save)</td>\n</tr>\n<tr>\n<td>Red</td>\n<td>Fire</td>\n<td>15 ft. cone (DEX save)</td>\n</tr>\n<tr>\n<td>Silver</td>\n<td>Cold</td>\n<td>15 ft. cone (CON save)</td>\n</tr>\n<tr>\n<td>White</td>\n<td>Cold</td>\n<td>15 ft. cone (CON save)</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> You can use your action to exhale destructive energy. It deals damage in an area according to your ancestry. When you use your breath weapon, all creatures in the area must make a saving throw, the type of which is determined by your ancestry. The DC of this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increase to 3d6 at 6th level, 4d6 at 11th, and 5d6 at 16th level. After using your breath weapon, you cannot use it again until you complete a short or long rest.</li>\n</ul>\n<ul>\n<li><strong>Damage Resistance.</strong> You have resistance to the damage type associated with your ancestry.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can read, speak, and write Common and Draconic.</li>\n</ul>\n<h1>Explorer's Guide to Wildemount</h1>\n<h2>Draconblood</h2>\n<p><strong><em>Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.</em></strong></p>\n<p><strong><em>A draconblood uses the dragonborn traits in the</em> Player's Handbook, <em>with the following traits replacing the</em> Ability Score Increase <em>and</em> Damage Resistance <em>traits.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Intelligence score increases by 2, and your Charisma score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Darkvision.</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>\n</ul>\n<ul>\n<li><strong>Forceful Presence.</strong> When you make a Intimidation or Persuasion check, you can do so with advantage once per long rest.</li>\n</ul>\n<h2>Ravenite</h2>\n<p><strong><em>Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the draconblood, as well as the day when they overthrew their masters.</em></strong></p>\n<p><strong><em>A ravenite uses the dragonborn traits in the</em> Player's Handbook, <em>with the following traits replacing the</em> Ability Score Increase <em>and</em> Damage Resistance <em>traits.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Strength score increases by 2, and your Constitution score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Darkvision.</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>\n</ul>\n<ul>\n<li><strong>Vengeful Assault.</strong> When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack against that creature. You can do this once per short or long rest.</li>\n</ul>\n<h1>Fizban's Treasury of Dragons</h1>\n<h2>Chromatic</h2>\n<p><strong><em>Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Chromatic Ancestry.</strong> You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Chromatic Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Black</td>\n<td>Acid</td>\n</tr>\n<tr>\n<td>Blue</td>\n<td>Lightning</td>\n</tr>\n<tr>\n<td>Green</td>\n<td>Poison</td>\n</tr>\n<tr>\n<td>Red</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>White</td>\n<td>Cold</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Chromatic Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Chromatic Warding.</strong> Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<h2>Metallic</h2>\n<p><strong><em>Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons — brass, bronze, copper, gold, and silver — whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Metallic Ancestry.</strong> You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Metallic Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Brass</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td>Lightning</td>\n</tr>\n<tr>\n<td>Copper</td>\n<td>Acid</td>\n</tr>\n<tr>\n<td>Gold</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>Silver</td>\n<td>Cold</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Metallic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Metallic Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Metallic Breath Weapon.</strong> At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:\n<ul>\n<li>\n<ul>\n<li><strong>Enervating Breath.</strong> Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</li>\n<li><strong>Repulsion Breath.</strong> Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</li>\n</ul>\n</li>\n<li>Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<h2>Gem</h2>\n<p><strong><em>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons — amethyst, crystal, emerald, sapphire, and topaz — gleam in these dragonborn’s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery — but also the desiccation of despair.</em></strong></p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Gem Ancestry.</strong> You trace your ancestry to a Gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Gem Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Amethyst</td>\n<td>Force</td>\n</tr>\n<tr>\n<td>Crystal</td>\n<td>Radiant</td>\n</tr>\n<tr>\n<td>Emerald</td>\n<td>Psychic</td>\n</tr>\n<tr>\n<td>Sapphire</td>\n<td>Thunder</td>\n</tr>\n<tr>\n<td>Topaz</td>\n<td>Necrotic</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Gem Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Psionic Mind.</strong> You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language.</li>\n</ul>\n<ul>\n<li><strong>Gem Flight.</strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<h1>Unearthed Arcana</h1>\n<h2>Chromatic</h2>\n<p>Source: Unearthed Arcana 78 - Draconic Options</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Chromatic Ancestry.</strong> You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Chromatic Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Black</td>\n<td>Acid</td>\n</tr>\n<tr>\n<td>Blue</td>\n<td>Lightning</td>\n</tr>\n<tr>\n<td>Green</td>\n<td>Poison</td>\n</tr>\n<tr>\n<td>Red</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>White</td>\n<td>Cold</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 30-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Chromatic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Chromatic Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Chromatic Warding.</strong> Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<h2>Metallic</h2>\n<p>Source: Unearthed Arcana 78 - Draconic Options</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Metallic Ancestry.</strong> You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Metallic Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Brass</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td>Lightning</td>\n</tr>\n<tr>\n<td>Copper</td>\n<td>Acid</td>\n</tr>\n<tr>\n<td>Gold</td>\n<td>Fire</td>\n</tr>\n<tr>\n<td>Silver</td>\n<td>Cold</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Metallic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Metallic Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Metallic Breath Weapon.</strong> At 3rd level you gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:\n<ul>\n<li>\n<ul>\n<li>Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</li>\n<li>Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</li>\n</ul>\n</li>\n<li>Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n<h2>Gem</h2>\n<p>Source: Unearthed Arcana 78 - Draconic Options</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase one ability score by 2 and increase a different one by 1, or you increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><strong>Type.</strong> You are a Humanoid.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> You are Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><strong>Gem Ancestry.</strong> You trace your ancestry to a Gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</li>\n</ul>\n<table>\n<tr>\n<th>Gem Ancestry</th>\n</tr>\n<tr>\n<th>Dragon</th>\n<th>Damage Type</th>\n</tr>\n<tr>\n<td>Amethyst</td>\n<td>Force</td>\n</tr>\n<tr>\n<td>Crystal</td>\n<td>Radiant</td>\n</tr>\n<tr>\n<td>Emerald</td>\n<td>Psychic</td>\n</tr>\n<tr>\n<td>Sapphire</td>\n<td>Thunder</td>\n</tr>\n<tr>\n<td>Topaz</td>\n<td>Necrotic</td>\n</tr>\n</table>\n<ul>\n<li><strong>Breath Weapon.</strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Draconic Resistance.</strong> You have resistance to the damage type associated with your Gem Ancestry.</li>\n</ul>\n<ul>\n<li><strong>Psionic Mind.</strong> You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically.</li>\n</ul>\n<ul>\n<li><strong>Gem Flight.</strong> Starting at 3rd level, you can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</li>\n</ul>\n</div>"
+  }
+}

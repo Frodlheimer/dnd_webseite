@@ -1,0 +1,126 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "war-caster",
+  "url": "https://dnd5e.wikidot.com/feat:war-caster",
+  "page_title": "war-caster",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Player's Handbook"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: The ability to cast at least one spell"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can perform the somatic components of spells even when you have weapons or a shield in one or both hands."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Player's Handbook</p>\n<p><em>Prerequisite: The ability to cast at least one spell</em></p>\n<p>You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:</p>\n<ul>\n<li>You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.</li>\n</ul>\n<ul>\n<li>You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.</li>\n</ul>\n<ul>\n<li>When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.</li>\n</ul>\n</div>"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-necklace-of-adaptation",
+  "title": "Necklace of Adaptation",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, a...",
+  "sourcePageRange": "p.231",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Necklace of Adaptation Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons)."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 231,
+    "sourcePageEnd": 231,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "kind": "FEAT",
+  "group": "Racial Feats",
+  "collection": "Published",
+  "slug": "orcish-fury",
+  "url": "https://dnd5e.wikidot.com/feat:orcish-fury",
+  "page_title": "orcish-fury",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Xanathar's Guide to Everything"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Half-orc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your fury burns tirelessly. You gain the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Increase your Strength or Constitution score by 1, up to a maximum of 20."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Xanathar's Guide to Everything</p>\n<p><em>Prerequisite: Half-orc</em></p>\n<p>Your fury burns tirelessly. You gain the following benefits:</p>\n<ul>\n<li>Increase your Strength or Constitution score by 1, up to a maximum of 20.</li>\n</ul>\n<ul>\n<li>When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest.</li>\n</ul>\n<ul>\n<li>Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.</li>\n</ul>\n</div>"
+  }
+}

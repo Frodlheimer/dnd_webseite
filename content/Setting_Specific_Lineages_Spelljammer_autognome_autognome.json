@@ -1,0 +1,762 @@
+{
+  "kind": "LINEAGE",
+  "group": "Setting Specific Lineages",
+  "setting": "Spelljammer",
+  "slug": "autognome",
+  "url": "https://dnd5e.wikidot.com/lineage:autognome",
+  "page_title": "autognome",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Spelljammer: Adventures in Space - Astral Adventurer's Guide"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome’s manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Like gnomes, autognomes can live for centuries, typically up to 500 years."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h5",
+        "children": [
+          {
+            "type": "text",
+            "text": "Autognome History"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d8"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Story"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Your creator gave you autonomy and urged you to follow your dreams."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Your creator died, leaving you to fend for yourself."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A glitch caused you to forget your original programming. You don’t remember who made you or where you came from."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You didn’t like how you were being treated by your creator, so you ran away from home."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Your creator built you to complete a special mission."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h5",
+        "children": [
+          {
+            "type": "text",
+            "text": "Autognome Traits"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Ability Score Increase."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Creature Type."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are a Construct."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Size."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are Small."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Speed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your walking speed is 30 feet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Armored Casing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You are encased in a thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Built for Success."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Healing Machine."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " If the "
+              },
+              {
+                "type": "text",
+                "text": "Mending"
+              },
+              {
+                "type": "text",
+                "text": " spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: "
+              },
+              {
+                "type": "text",
+                "text": "Cure Wounds"
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "Healing Word"
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "Mass Cure Wounds"
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "Mass Healing Word"
+              },
+              {
+                "type": "text",
+                "text": ", and "
+              },
+              {
+                "type": "text",
+                "text": "Spare the Dying"
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Mechanical Nature."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sentry's Rest."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Specialized Design."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You gain two tool proficiencies of your choice, selected from the "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Player's Handbook"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Languages."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Spelljammer: Adventures in Space - Astral Adventurer's Guide</p>\n<p><em><strong>Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.</strong></em></p>\n<p><strong><em>An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome’s manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.</em></strong></p>\n<p><strong><em>Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.</em></strong></p>\n<p><strong><em>Like gnomes, autognomes can live for centuries, typically up to 500 years.</em></strong></p>\n<h5>Autognome History</h5>\n<table>\n<tr>\n<th>d8</th>\n<th>Story</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Your creator gave you autonomy and urged you to follow your dreams.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Your creator died, leaving you to fend for yourself.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>A glitch caused you to forget your original programming. You don’t remember who made you or where you came from.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>You didn’t like how you were being treated by your creator, so you ran away from home.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Your creator built you to complete a special mission.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose.</td>\n</tr>\n</table>\n<h5>Autognome Traits</h5>\n<ul>\n<li><em><strong>Ability Score Increase.</strong></em> Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.</li>\n</ul>\n<ul>\n<li><em><strong>Creature Type.</strong></em> You are a Construct.</li>\n</ul>\n<ul>\n<li><em><strong>Size.</strong></em> You are Small.</li>\n</ul>\n<ul>\n<li><em><strong>Speed.</strong></em> Your walking speed is 30 feet.</li>\n</ul>\n<ul>\n<li><em><strong>Armored Casing.</strong></em> You are encased in a thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier.</li>\n</ul>\n<ul>\n<li><em><strong>Built for Success.</strong></em> You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n<ul>\n<li><em><strong>Healing Machine.</strong></em> If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying.</li>\n</ul>\n<ul>\n<li><em><strong>Mechanical Nature.</strong></em> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe.</li>\n</ul>\n<ul>\n<li><em><strong>Sentry's Rest.</strong></em> When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious.</li>\n</ul>\n<ul>\n<li><em><strong>Specialized Design.</strong></em> You gain two tool proficiencies of your choice, selected from the <em>Player's Handbook</em>.</li>\n</ul>\n<ul>\n<li><em><strong>Languages.</strong></em> You can speak, read, and write Common and one other language that you and your DM agree is appropriate.</li>\n</ul>\n</div>"
+  }
+}

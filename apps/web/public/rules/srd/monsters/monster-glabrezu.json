@@ -1,0 +1,141 @@
+{
+  "id": "monster-glabrezu",
+  "title": "Glabrezu",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend-demon"
+  ],
+  "summary": "Large fiend (demon), chaotic evil",
+  "sourcePageRange": "p.271",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Glabrezu"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend (demon), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 157 (15d10 + 75)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "20 (+5) 15 (+2) 21 (+5) 19 (+4) 17 (+3) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Str +9, Con +9, Wis +7, Cha +7"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses truesight 120 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The glabrezu’s spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: darkness , detect magic , dispel magic"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: confusion , fly , power word stun"
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The glabrezu has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell."
+    },
+    {
+      "type": "p",
+      "text": "Pincer. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target."
+    },
+    {
+      "type": "p",
+      "text": "Fist. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 271,
+    "sourcePageEnd": 271,
+    "size": "large",
+    "monsterType": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "157 (15d10 + 75)",
+    "speed": "40 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 20,
+      "strMod": 5,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 21,
+      "conMod": 5,
+      "int": 19,
+      "intMod": 4,
+      "wis": 17,
+      "wisMod": 3,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Innate Spellcasting",
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Pincer",
+      "Fist"
+    ]
+  }
+}

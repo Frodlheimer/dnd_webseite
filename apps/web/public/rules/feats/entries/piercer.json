@@ -1,0 +1,48 @@
+{
+  "id": "piercer",
+  "slug": "piercer",
+  "name": "Piercer",
+  "group": "Feats",
+  "summary": "You have achieved a penetrating precision in combat, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tasha's Cauldron of Everything"
+    },
+    {
+      "type": "p",
+      "text": "You have achieved a penetrating precision in combat, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Dexterity by 1, to a maximum of 20.",
+        "Once per turn, when you hit a creature with an attack that deals piercing damage, you can re-roll one of the attack's damage dice, and you must use the new roll.",
+        "When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Tasha's Cauldron of Everything"
+  },
+  "highlights": [
+    "Increase your Strength or Dexterity by 1, to a maximum of 20.",
+    "Once per turn, when you hit a creature with an attack that deals piercing damage, you can re-roll one of the attack's damage dice, and you must use the new roll.",
+    "When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:tashas-cauldron-of-everything"
+  ]
+}

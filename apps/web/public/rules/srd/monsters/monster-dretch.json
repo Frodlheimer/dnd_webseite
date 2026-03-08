@@ -1,0 +1,125 @@
+{
+  "id": "monster-dretch",
+  "title": "Dretch",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:fiend-demon"
+  ],
+  "summary": "Small fiend (demon), chaotic evil",
+  "sourcePageRange": "p.270-271",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Dretch"
+    },
+    {
+      "type": "p",
+      "text": "Small fiend (demon), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 18 (4d6 + 4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "11 (+0) 11 (+0) 12 (+1) 5 (-3) 8 (-1) 3 (-4)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire, lightning"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The dretch makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Fetid Cloud (1/Day). A 10--foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can’t take reactions."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 270,
+    "sourcePageEnd": 271,
+    "size": "small",
+    "monsterType": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "armorClass": "11 (natural armor)",
+    "hitPoints": "18 (4d6 + 4)",
+    "speed": "20 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 11,
+      "strMod": 0,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 12,
+      "conMod": 1,
+      "int": 5,
+      "intMod": -3,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 3,
+      "chaMod": -4
+    },
+    "monsterTraits": [
+      "Languages Abyssal, telepathy 60 ft"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claws",
+      "Fetid Cloud (1/Day)"
+    ]
+  }
+}

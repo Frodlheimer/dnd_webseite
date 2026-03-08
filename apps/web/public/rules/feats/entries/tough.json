@@ -1,0 +1,35 @@
+{
+  "id": "tough",
+  "slug": "tough",
+  "name": "Tough",
+  "group": "Feats",
+  "summary": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points."
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

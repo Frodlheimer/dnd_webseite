@@ -1,0 +1,129 @@
+{
+  "id": "monster-gray-ooze",
+  "title": "Gray Ooze",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:ooze"
+  ],
+  "summary": "Medium ooze, unaligned",
+  "sourcePageRange": "p.338",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gray Ooze"
+    },
+    {
+      "type": "p",
+      "text": "Medium ooze, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 8"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (3d8 + 9)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 10 ft., climb 10 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "12 (+1) 6 (-2) 16 (+3) 1 (-5) 6 (-2) 2 (-4)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances acid, cold, fire"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded, charmed, deafened, exhaustion, frightened, prone"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 60 ft. (blind beyond this radius),"
+    },
+    {
+      "type": "p",
+      "text": "passive Perception 8"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amorphous. The ooze can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "type": "p",
+      "text": "Corrode Metal. Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage. The ooze can eat through 2--inch--thick, nonmagical metal in 1 round."
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Pseudopod. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 338,
+    "sourcePageEnd": 338,
+    "size": "medium",
+    "monsterType": "ooze",
+    "alignment": "unaligned",
+    "armorClass": "8",
+    "hitPoints": "22 (3d8 + 9)",
+    "speed": "10 ft., climb 10 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": -2,
+    "monsterAbilities": {
+      "str": 12,
+      "strMod": 1,
+      "dex": 6,
+      "dexMod": -2,
+      "con": 16,
+      "conMod": 3,
+      "int": 1,
+      "intMod": -5,
+      "wis": 6,
+      "wisMod": -2,
+      "cha": 2,
+      "chaMod": -4
+    },
+    "monsterTraits": [
+      "Senses blindsight 60 ft",
+      "Amorphous",
+      "Corrode Metal",
+      "False Appearance"
+    ],
+    "monsterActions": [
+      "Pseudopod"
+    ]
+  }
+}

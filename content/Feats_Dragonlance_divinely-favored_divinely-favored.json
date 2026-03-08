@@ -1,0 +1,292 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Dragonlance",
+  "slug": "divinely-favored",
+  "url": "https://dnd5e.wikidot.com/feat:divinely-favored",
+  "page_title": "divinely-favored",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, Dragonlance Campaign"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "A god chose you to carry a spark of their power."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You learn one cantrip of your choice from the "
+          },
+          {
+            "type": "text",
+            "text": "Cleric spell list"
+          },
+          {
+            "type": "text",
+            "text": " and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table below. You also learn the "
+          },
+          {
+            "type": "text",
+            "text": "Augury"
+          },
+          {
+            "type": "text",
+            "text": " spell."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st-level Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Evil"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Warlock"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Good"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cleric"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Neutral"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Druid"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can cast the chosen 1st-level spell and the "
+          },
+          {
+            "type": "text",
+            "text": "Augury"
+          },
+          {
+            "type": "text",
+            "text": " spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, you can use a holy symbol as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Dragonlance: Shadow of the Dragon Queen</p>\n<p><em>Prerequisite: 4th Level, Dragonlance Campaign</em></p>\n<p>A god chose you to carry a spark of their power.</p>\n<p>You learn one cantrip of your choice from the Cleric spell list and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table below. You also learn the Augury spell.</p>\n<table>\n<tr>\n<th>Alignment Spells</th>\n</tr>\n<tr>\n<th>Alignment</th>\n<th>1st-level Spells</th>\n</tr>\n<tr>\n<td>Evil</td>\n<td>Choose one 1st-level Warlock spell</td>\n</tr>\n<tr>\n<td>Good</td>\n<td>Choose one 1st-level Cleric spell.</td>\n</tr>\n<tr>\n<td>Neutral</td>\n<td>Choose one 1st-level Druid spell</td>\n</tr>\n</table>\n<p>You can cast the chosen 1st-level spell and the Augury spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.</p>\n<p>Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>\n<p>In addition, you can use a holy symbol as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat.</p>\n</div>"
+  }
+}

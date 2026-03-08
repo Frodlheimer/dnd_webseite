@@ -1,0 +1,116 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "elemental-adept",
+  "url": "https://dnd5e.wikidot.com/feat:elemental-adept",
+  "page_title": "elemental-adept",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Player's Handbook"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: The ability to cast at least one spell"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Player's Handbook</p>\n<p><em>Prerequisite: The ability to cast at least one spell</em></p>\n<ul>\n<li>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</li>\n</ul>\n<ul>\n<li>Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</li>\n</ul>\n<ul>\n<li>You can select this feat multiple times. Each time you do so, you must choose a different damage type.</li>\n</ul>\n</div>"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-eyes-of-the-eagle",
+  "title": "Eyes of the Eagle",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant cr...",
+  "sourcePageRange": "p.221",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Eyes of the Eagle Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 221,
+    "sourcePageEnd": 221,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

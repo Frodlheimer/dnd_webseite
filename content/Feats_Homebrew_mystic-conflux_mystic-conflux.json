@@ -1,0 +1,96 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Homebrew",
+  "slug": "mystic-conflux",
+  "url": "https://dnd5e.wikidot.com/feat:mystic-conflux",
+  "page_title": "mystic-conflux",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Tal'Dorei Campaign Setting Reborn"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You possess an intuitive understanding of the way magic ebbs and flows within enchanted items. Such items attune easily to you, and you are able to sound out their secrets. You gain the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can attune to up to four magic items at once."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can cast the "
+              },
+              {
+                "type": "text",
+                "text": "Identify"
+              },
+              {
+                "type": "text",
+                "text": " spell without expending a spell slot or material components. You must finish a long rest before you can do so again."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Tal'Dorei Campaign Setting Reborn</p>\n<p>You possess an intuitive understanding of the way magic ebbs and flows within enchanted items. Such items attune easily to you, and you are able to sound out their secrets. You gain the following benefits:</p>\n<ul>\n<li>You can attune to up to four magic items at once.</li>\n<li>You can cast the Identify spell without expending a spell slot or material components. You must finish a long rest before you can do so again.</li>\n</ul>\n</div>"
+  }
+}

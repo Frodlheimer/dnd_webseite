@@ -1,0 +1,117 @@
+{
+  "id": "monster-fire-giant",
+  "title": "Fire Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, lawful evil",
+  "sourcePageRange": "p.312-313",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Fire Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (plate)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 162 (13d12 + 78)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "25 (+7) 9 (-1) 23 (+6) 10 (+0) 14 (+2) 13 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +3, Con +10, Cha +5"
+    },
+    {
+      "type": "p",
+      "text": "Skills Athletics +11, Perception +6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two greatsword attacks."
+    },
+    {
+      "type": "p",
+      "text": "Greatsword. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 312,
+    "sourcePageEnd": 313,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "lawful evil",
+    "armorClass": "18 (plate)",
+    "hitPoints": "162 (13d12 + 78)",
+    "speed": "30 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 25,
+      "strMod": 7,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 23,
+      "conMod": 6,
+      "int": 10,
+      "intMod": 0,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 13,
+      "chaMod": 1
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Greatsword",
+      "Rock"
+    ]
+  }
+}

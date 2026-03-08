@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-boots-of-levitation",
+  "title": "Boots of Levitation",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While you wear these boots, you can use an action to cast the levitate spell on yourself at will.",
+  "sourcePageRange": "p.212",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Boots of Levitation Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While you wear these boots, you can use an action to cast the levitate spell on yourself at will."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 212,
+    "sourcePageEnd": 212,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

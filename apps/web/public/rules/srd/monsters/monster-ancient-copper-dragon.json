@@ -1,0 +1,193 @@
+{
+  "id": "monster-ancient-copper-dragon",
+  "title": "Ancient Copper Dragon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:21",
+    "section:monsters",
+    "size:gargantuan",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Gargantuan dragon, chaotic good",
+  "sourcePageRange": "p.295-296",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ancient Copper Dragon"
+    },
+    {
+      "type": "p",
+      "text": "Gargantuan dragon, chaotic good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 21 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 350 (20d20 + 140)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., climb 40 ft., fly 80 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "27 (+8) 12 (+1) 25 (+7) 20 (+5) 17 (+3) 19 (+4)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +8, Con +14, Wis +10, Cha +11"
+    },
+    {
+      "type": "p",
+      "text": "Skills Deception +11, Perception +17, Stealth +8"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities acid"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 60 ft., darkvision 120 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 27"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 21 (33,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Acid Breath. The dragon exhales acid in an 90--foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 63 (14d8) acid damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Slowing Breath. The dragon exhales gas in a 90--foot cone. Each creature in that area must succeed on a DC 22 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+    },
+    {
+      "type": "p",
+      "text": "Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice)."
+    },
+    {
+      "type": "p",
+      "text": "In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+    },
+    {
+      "type": "p",
+      "text": "Legendary Actions"
+    },
+    {
+      "type": "p",
+      "text": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn."
+    },
+    {
+      "type": "p",
+      "text": "Detect. The dragon makes a Wisdom (Perception)"
+    },
+    {
+      "type": "p",
+      "text": "check."
+    },
+    {
+      "type": "p",
+      "text": "Tail Attack. The dragon makes a tail attack."
+    },
+    {
+      "type": "p",
+      "text": "Wing Attack (Costs 2 Actions). The dragon beats its"
+    },
+    {
+      "type": "p",
+      "text": "wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 295,
+    "sourcePageEnd": 296,
+    "size": "gargantuan",
+    "monsterType": "dragon",
+    "alignment": "chaotic good",
+    "armorClass": "21 (natural armor)",
+    "hitPoints": "350 (20d20 + 140)",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "challengeRating": "21",
+    "challengeXp": "33,000 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 27,
+      "strMod": 8,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 25,
+      "conMod": 7,
+      "int": 20,
+      "intMod": 5,
+      "wis": 17,
+      "wisMod": 3,
+      "cha": 19,
+      "chaMod": 4
+    },
+    "monsterTraits": [
+      "Legendary Resistance (3/Day)"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Tail",
+      "Frightful Presence",
+      "Breath Weapons (Recharge 5-6)",
+      "Acid Breath",
+      "Slowing Breath",
+      "Change Shape",
+      "Detect",
+      "Tail Attack",
+      "Wing Attack (Costs 2 Actions)"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "locathah",
+  "slug": "locathah",
+  "name": "Locathah",
+  "group": "Exotic Lineages",
+  "groupSlug": "exotic-lineages",
+  "tags": [
+    "group:exotic-lineages",
+    "has:asi",
+    "has:traits",
+    "kind:lineage",
+    "setting:none",
+    "size:medium",
+    "source:locathah-rising-extra-life-2019",
+    "speed:30",
+    "trait:ability-score-increase",
+    "trait:age",
+    "trait:alignment",
+    "trait:languages",
+    "trait:leviathan-will",
+    "trait:limited-amphibiousness",
+    "trait:natural-armor",
+    "trait:observant-and-athletic",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "These resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the wa...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Locathah Rising, Extra Life 2019"
+    },
+    {
+      "type": "p",
+      "text": "These resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Your Strength score increases by 2 and your Dexterity score increases by 1.",
+        "Age. Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.",
+        "Alignment. Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality.",
+        "Size. Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium.",
+        "Speed. Your base walking speed is 30 feet, and you have a swim speed of 30 feet.",
+        "Natural Armor. You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+        "Observant and Athletic. You have proficiency in the Athletics and Perception skills.",
+        "Leviathan Will. You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+        "Limited Amphibiousness. You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.",
+        "Languages. You can speak, read, and write Aquan and Common."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Your Strength score increases by 2 and your Dexterity score increases by 1."
+    },
+    {
+      "label": "Age",
+      "labelKey": "age",
+      "value": "Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years."
+    },
+    {
+      "label": "Alignment",
+      "labelKey": "alignment",
+      "value": "Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your base walking speed is 30 feet, and you have a swim speed of 30 feet."
+    },
+    {
+      "label": "Natural Armor",
+      "labelKey": "natural-armor",
+      "value": "You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+    },
+    {
+      "label": "Observant and Athletic",
+      "labelKey": "observant-and-athletic",
+      "value": "You have proficiency in the Athletics and Perception skills."
+    },
+    {
+      "label": "Leviathan Will",
+      "labelKey": "leviathan-will",
+      "value": "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+    },
+    {
+      "label": "Limited Amphibiousness",
+      "labelKey": "limited-amphibiousness",
+      "value": "You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can speak, read, and write Aquan and Common."
+    }
+  ],
+  "quickFacts": {
+    "source": "Locathah Rising, Extra Life 2019",
+    "abilityScoreIncrease": "Your Strength score increases by 2 and your Dexterity score increases by 1.",
+    "size": "Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium.",
+    "speed": "Your base walking speed is 30 feet, and you have a swim speed of 30 feet.",
+    "languages": "You can speak, read, and write Aquan and Common.",
+    "speedFeet": 30
+  }
+}

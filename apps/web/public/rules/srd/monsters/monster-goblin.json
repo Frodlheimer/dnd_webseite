@@ -1,0 +1,111 @@
+{
+  "id": "monster-goblin",
+  "title": "Goblin",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:humanoid-goblinoid"
+  ],
+  "summary": "Small humanoid (goblinoid), neutral evil",
+  "sourcePageRange": "p.315",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Goblin"
+    },
+    {
+      "type": "p",
+      "text": "Small humanoid (goblinoid), neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (leather armor, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 7 (2d6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "8 (-1) 14 (+2) 10 (+0) 10 (+0) 8 (-1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +6"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Goblin"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Scimitar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 315,
+    "sourcePageEnd": 315,
+    "size": "small",
+    "monsterType": "humanoid (goblinoid)",
+    "alignment": "neutral evil",
+    "armorClass": "15 (leather armor, shield)",
+    "hitPoints": "7 (2d6)",
+    "speed": "30 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 8,
+      "strMod": -1,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 10,
+      "conMod": 0,
+      "int": 10,
+      "intMod": 0,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Nimble Escape"
+    ],
+    "monsterActions": [
+      "Scimitar",
+      "Shortbow"
+    ]
+  }
+}

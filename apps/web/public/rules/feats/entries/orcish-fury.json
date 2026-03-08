@@ -1,0 +1,65 @@
+{
+  "id": "orcish-fury",
+  "slug": "orcish-fury",
+  "name": "Orcish Fury",
+  "group": "Racial Feats",
+  "summary": "Your fury burns tirelessly. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Half-orc"
+    },
+    {
+      "type": "p",
+      "text": "Your fury burns tirelessly. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Constitution score by 1, up to a maximum of 20.",
+        "When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.",
+        "Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Half-Orc",
+      "Orc"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON"
+      ],
+      "description": "Increase your Strength or Constitution score by 1, up to a maximum of 20."
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Half-orc"
+  },
+  "highlights": [
+    "Increase your Strength or Constitution score by 1, up to a maximum of 20.",
+    "When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.",
+    "Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:con",
+    "ability:str",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:half-orc",
+    "race:orc",
+    "source:xanathars-guide-to-everything"
+  ]
+}

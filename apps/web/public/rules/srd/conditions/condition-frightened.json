@@ -1,0 +1,34 @@
+{
+  "id": "condition-frightened",
+  "title": "Frightened",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:frightened",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Frightened"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+        "The creature can’t willingly move closer to the source of its fear."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+      "The creature can’t willingly move closer to the source of its fear."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "linguist",
+  "slug": "linguist",
+  "name": "Linguist",
+  "group": "Feats",
+  "summary": "You have studied languages and codes, gaining the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You have studied languages and codes, gaining the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Intelligence score by 1, to a maximum of 20.",
+        "You learn three languages of your choice.",
+        "You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "INT"
+      ],
+      "description": "Increase your Intelligence score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Intelligence score by 1, to a maximum of 20.",
+    "You learn three languages of your choice.",
+    "You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:int",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

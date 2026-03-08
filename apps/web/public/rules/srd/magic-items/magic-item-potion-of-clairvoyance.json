@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-potion-of-clairvoyance",
+  "title": "Potion of Clairvoyance",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.",
+  "sourcePageRange": "p.233",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potion of Clairvoyance Potion, rare"
+    },
+    {
+      "type": "p",
+      "text": "When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 233,
+    "sourcePageEnd": 233,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "magicItemRequiresAttunement": false
+  }
+}

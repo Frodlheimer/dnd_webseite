@@ -1,0 +1,32 @@
+{
+  "id": "condition-poisoned",
+  "title": "Poisoned",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:poisoned",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A poisoned creature has disadvantage on attack rolls and ability checks.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Poisoned"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A poisoned creature has disadvantage on attack rolls and ability checks."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A poisoned creature has disadvantage on attack rolls and ability checks."
+    ]
+  }
+}

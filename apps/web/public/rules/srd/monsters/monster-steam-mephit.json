@@ -1,0 +1,120 @@
+{
+  "id": "monster-steam-mephit",
+  "title": "Steam Mephit",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Small elemental, neutral evil",
+  "sourcePageRange": "p.331-332",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Steam Mephit"
+    },
+    {
+      "type": "p",
+      "text": "Small elemental, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 10"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 21 (6d6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "5 (-3) 11 (+0) 10 (+0) 11 (+0) 10 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Aquan, Ignan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Burst. When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting (1/Day). The mephit can innately cast blur , requiring no material components. Its innate spellcasting ability is Charisma."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Steam Breath (Recharge 6). The mephit exhales a 15-- foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 331,
+    "sourcePageEnd": 332,
+    "size": "small",
+    "monsterType": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "10",
+    "hitPoints": "21 (6d6)",
+    "speed": "30 ft., fly 30 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 5,
+      "strMod": -3,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 10,
+      "conMod": 0,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Death Burst",
+      "Innate Spellcasting (1/Day)"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Steam Breath (Recharge 6)"
+    ]
+  }
+}

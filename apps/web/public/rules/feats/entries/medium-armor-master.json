@@ -1,0 +1,52 @@
+{
+  "id": "medium-armor-master",
+  "slug": "medium-armor-master",
+  "name": "Medium Armor Master",
+  "group": "Feats",
+  "summary": "You have practiced moving in medium armor to gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Proficiency with medium armor"
+    },
+    {
+      "type": "p",
+      "text": "You have practiced moving in medium armor to gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.",
+        "When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "Proficiency with medium armor"
+  },
+  "highlights": [
+    "Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.",
+    "When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

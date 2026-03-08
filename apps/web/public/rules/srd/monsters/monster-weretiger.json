@@ -1,0 +1,141 @@
+{
+  "id": "monster-weretiger",
+  "title": "Weretiger",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-human"
+  ],
+  "summary": "Medium humanoid (human, shapechanger), neutral",
+  "sourcePageRange": "p.328",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Weretiger"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (human, shapechanger), neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 120 (16d8 + 48)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft. (40 ft. in tiger form)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common (can’t speak in tiger form)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 4 (1,100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The weretiger can use its action to polymorph into a tiger--humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Keen Hearing and Smell. The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "type": "p",
+      "text": "Pounce (Tiger or Hybrid Form Only). If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone . If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack (Humanoid or Hybrid Form Only). In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+    },
+    {
+      "type": "p",
+      "text": "Bite (Tiger or Hybrid Form Only). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy."
+    },
+    {
+      "type": "p",
+      "text": "Claw (Tiger or Hybrid Form Only). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Scimitar (Humanoid or Hybrid Form Only). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Longbow (Humanoid or Hybrid Form Only). Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 328,
+    "sourcePageEnd": 328,
+    "size": "medium",
+    "monsterType": "humanoid (human",
+    "alignment": "shapechanger), neutral",
+    "armorClass": "12",
+    "hitPoints": "120 (16d8 + 48)",
+    "speed": "30 ft. (40 ft. in tiger form)",
+    "challengeRating": "4",
+    "challengeXp": "1,100 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 10,
+      "intMod": 0,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Speed 30 ft",
+      "Shapechanger",
+      "Keen Hearing and Smell",
+      "Pounce (Tiger or Hybrid Form Only)"
+    ],
+    "monsterActions": [
+      "Multiattack (Humanoid or Hybrid Form Only)",
+      "Bite (Tiger or Hybrid Form Only)",
+      "Claw (Tiger or Hybrid Form Only)",
+      "Scimitar (Humanoid or Hybrid Form Only)",
+      "Longbow (Humanoid or Hybrid Form Only)"
+    ]
+  }
+}

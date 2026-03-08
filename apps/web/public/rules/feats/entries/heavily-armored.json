@@ -1,0 +1,56 @@
+{
+  "id": "heavily-armored",
+  "slug": "heavily-armored",
+  "name": "Heavily Armored",
+  "group": "Feats",
+  "summary": "You have trained to master the use of heavy armor, gaining the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Proficiency with medium armor"
+    },
+    {
+      "type": "p",
+      "text": "You have trained to master the use of heavy armor, gaining the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength score by 1, to a maximum of 20.",
+        "You gain proficiency with heavy armor."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "STR"
+      ],
+      "description": "Increase your Strength score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "Proficiency with medium armor"
+  },
+  "highlights": [
+    "Increase your Strength score by 1, to a maximum of 20.",
+    "You gain proficiency with heavy armor."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:str",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

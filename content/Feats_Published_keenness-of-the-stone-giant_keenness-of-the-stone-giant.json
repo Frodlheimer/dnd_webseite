@@ -1,0 +1,152 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "keenness-of-the-stone-giant",
+  "url": "https://dnd5e.wikidot.com/feat:keenness-of-the-stone-giant",
+  "page_title": "keenness-of-the-stone-giant",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Bigby Presents - Glory of the Giants"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Strike of the Giants"
+              },
+              {
+                "type": "text",
+                "text": " (Stone Strike) Feat"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You’ve manifested the physical talents emblematic of stone giants, granting you the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cavernous Sight."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You gain darkvision with a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stone Throw."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged spell attack with a range of 60 feet that uses the ability score you increased with this feat as the spellcasting ability. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the spellcasting ability modifier) or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Bigby Presents - Glory of the Giants</p>\n<p><em>Prerequisite: 4th Level, Strike of the Giants (Stone Strike) Feat</em></p>\n<p>You’ve manifested the physical talents emblematic of stone giants, granting you the following benefits:</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>\n<li><strong>Cavernous Sight.</strong> You gain darkvision with a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet.</li>\n<li><strong>Stone Throw.</strong> As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged spell attack with a range of 60 feet that uses the ability score you increased with this feat as the spellcasting ability. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the spellcasting ability modifier) or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>\n</ul>\n</div>"
+  }
+}

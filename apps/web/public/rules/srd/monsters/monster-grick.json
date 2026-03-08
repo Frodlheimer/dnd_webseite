@@ -1,0 +1,120 @@
+{
+  "id": "monster-grick",
+  "title": "Grick",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Medium monstrosity, neutral",
+  "sourcePageRange": "p.318",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Grick"
+    },
+    {
+      "type": "p",
+      "text": "Medium monstrosity, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 27 (6d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., climb 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "14 (+2) 14 (+2) 11 (+0) 3 (-4) 14 (+2) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Stone Camouflage. The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target."
+    },
+    {
+      "type": "p",
+      "text": "Tentacles. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 318,
+    "sourcePageEnd": 318,
+    "size": "medium",
+    "monsterType": "monstrosity",
+    "alignment": "neutral",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "27 (6d8)",
+    "speed": "30 ft., climb 30 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 14,
+      "strMod": 2,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 11,
+      "conMod": 0,
+      "int": 3,
+      "intMod": -4,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Stone Camouflage"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Tentacles",
+      "Beak"
+    ]
+  }
+}

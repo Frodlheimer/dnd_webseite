@@ -1,0 +1,129 @@
+{
+  "id": "monster-grimlock",
+  "title": "Grimlock",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-grimlock"
+  ],
+  "summary": "Medium humanoid (grimlock), neutral evil",
+  "sourcePageRange": "p.318-319",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Grimlock"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (grimlock), neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 11 (2d8 + 2)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 12 (+1) 12 (+1) 9 (-1) 8 (-1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Athletics +5, Perception +3, Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft. or 10 ft. while deafened (blind"
+    },
+    {
+      "type": "p",
+      "text": "beyond this radius), passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Undercommon"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Blind Senses. The grimlock can’t use its blindsight while deafened and unable to smell."
+    },
+    {
+      "type": "p",
+      "text": "Keen Hearing and Smell. The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "type": "p",
+      "text": "Stone Camouflage. The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Spiked Bone Club. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (H)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 318,
+    "sourcePageEnd": 319,
+    "size": "medium",
+    "monsterType": "humanoid (grimlock)",
+    "alignment": "neutral evil",
+    "armorClass": "11",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "30 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 12,
+      "conMod": 1,
+      "int": 9,
+      "intMod": -1,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Senses blindsight 30 ft",
+      "Blind Senses",
+      "Keen Hearing and Smell",
+      "Stone Camouflage"
+    ],
+    "monsterActions": [
+      "Spiked Bone Club"
+    ]
+  }
+}

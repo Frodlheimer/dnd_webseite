@@ -1,0 +1,71 @@
+{
+  "id": "magic-item-potion-of-resistance",
+  "title": "Potion of Resistance",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "When you drink this potion, you gain resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly from the options below.",
+  "sourcePageRange": "p.235",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potion of Resistance Potion, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "When you drink this potion, you gain resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly from the options below."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d10",
+          "Damage Type",
+          "d10",
+          "Damage Type"
+        ],
+        [
+          "1",
+          "Acid",
+          "6",
+          "Necrotic"
+        ],
+        [
+          "2",
+          "Cold",
+          "7",
+          "Poison"
+        ],
+        [
+          "3",
+          "Fire",
+          "8",
+          "Psychic"
+        ],
+        [
+          "4",
+          "Force",
+          "9",
+          "Radiant"
+        ],
+        [
+          "5",
+          "Lightning",
+          "10",
+          "Thunder"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 235,
+    "sourcePageEnd": 235,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

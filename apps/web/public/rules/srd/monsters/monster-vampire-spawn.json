@@ -1,0 +1,138 @@
+{
+  "id": "monster-vampire-spawn",
+  "title": "Vampire Spawn",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, neutral evil",
+  "sourcePageRange": "p.354",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Vampire Spawn"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 82 (11d8 + 33)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 16 (+3) 16 (+3) 11 (+0) 10 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +6, Wis +3"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances necrotic; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages the languages it knew in life"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Regeneration. The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn’t function at the start of the vampire’s next turn."
+    },
+    {
+      "type": "p",
+      "text": "Spider Climb. The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "type": "p",
+      "text": "Vampire Weaknesses. The vampire has the following flaws: Forbiddance. The vampire can’t enter a residence without an invitation from one of the occupants. Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water. Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place. Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The vampire makes two attacks, only one of which can be a bite attack."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13)."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (W)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 354,
+    "sourcePageEnd": 354,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "82 (11d8 + 33)",
+    "speed": "30 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 16,
+      "conMod": 3,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Regeneration",
+      "Spider Climb",
+      "Vampire Weaknesses"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Claws",
+      "Bite"
+    ]
+  }
+}

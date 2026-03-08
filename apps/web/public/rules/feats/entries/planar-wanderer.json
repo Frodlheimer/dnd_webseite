@@ -1,0 +1,53 @@
+{
+  "id": "planar-wanderer",
+  "slug": "planar-wanderer",
+  "name": "Planar Wanderer",
+  "group": "Feats",
+  "summary": "You can draw upon the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Planescape - Adventures in the Multiverse"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: 4th Level, Scion of the Outer Planes Feat"
+    },
+    {
+      "type": "p",
+      "text": "You can draw upon the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:"
+    },
+    {
+      "type": "p",
+      "text": "Planar Adaption. When you finish a long rest, you gain resistance to either acid, cold or fire damage (your choice) until you finish your next long rest."
+    },
+    {
+      "type": "p",
+      "text": "Portal Cracker. Your experience with portals allows you to open them without a portal key. As an action, you can concentrate on a portal you're aware of within 5 feet of yourself and make a DC 20 Intelligence (Arcana) check. On a failed check, you take 3d8 psychic damage and can't use this benefit on that portal again until you finish a long rest. On a successful check, you can force the portal open or closed for 1 hour. For that duration, the portal doesn't respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action."
+    },
+    {
+      "type": "p",
+      "text": "Portal Sense. You know the direction to the last planar portal you used while you and the portal are on the same plane of existence. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind total cover. Once you detect a portal with this action, you can't use the action again until you finish a long rest."
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Planescape - Adventures in the Multiverse",
+    "prerequisite": "4th Level, Scion of the Outer Planes Feat"
+  },
+  "highlights": [],
+  "collection": "Planescape",
+  "tags": [
+    "collection:planescape",
+    "group:feats",
+    "has:prerequisite",
+    "kind:feat",
+    "source:planescape-adventures-in-the-multiverse"
+  ]
+}

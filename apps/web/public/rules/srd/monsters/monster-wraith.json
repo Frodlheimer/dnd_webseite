@@ -1,0 +1,132 @@
+{
+  "id": "monster-wraith",
+  "title": "Wraith",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, neutral evil",
+  "sourcePageRange": "p.355-356",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wraith"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 67 (9d8 + 27)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 0 ft., fly 60 ft. (hover)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "6 (-2) 16 (+3) 16 (+3) 12 (+1) 14 (+2) 15 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances acid, cold, fire, lightning, thunder;"
+    },
+    {
+      "type": "p",
+      "text": "bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities necrotic, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, grappled,"
+    },
+    {
+      "type": "p",
+      "text": "paralyzed, petrified, poisoned, prone, restrained"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages the languages it knew in life"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Incorporeal Movement. The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Life Drain. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+    },
+    {
+      "type": "p",
+      "text": "Create Specter. The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target’s spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith’s control. The wraith can have no more than seven specters under its control at one time."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 355,
+    "sourcePageEnd": 356,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "13",
+    "hitPoints": "67 (9d8 + 27)",
+    "speed": "0 ft., fly 60 ft. (hover)",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 6,
+      "strMod": -2,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 16,
+      "conMod": 3,
+      "int": 12,
+      "intMod": 1,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 15,
+      "chaMod": 2
+    },
+    "monsterTraits": [
+      "Incorporeal Movement",
+      "Sunlight Sensitivity"
+    ],
+    "monsterActions": [
+      "Life Drain",
+      "Create Specter"
+    ]
+  }
+}

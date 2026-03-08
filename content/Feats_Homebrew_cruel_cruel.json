@@ -1,0 +1,118 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Homebrew",
+  "slug": "cruel",
+  "url": "https://dnd5e.wikidot.com/feat:cruel",
+  "page_title": "cruel",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Tal'Dorei Campaign Setting Reborn"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "The challenges and struggles you've faced throughout your life have led you to delight in inflicting pain and anguish upon others. You gain a number of cruelty dice equal to your proficiency bonus. Your cruelty dice are d6s. You can roll only one cruelty die per turn, and a cruelty die is spent when you roll it."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can roll a cruelty die under any of the following circumstances, with the indicated result:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you deal damage to a creature, spend one cruelty die to deal extra damage to the creature equal to the roll."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you score a critical hit, spend one cruelty die to gain temporary hit points equal to the roll."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you make a Charisma (Intimidation) check, spend one cruelty die and add the roll to your check."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You regain all spent cruelty dice when you finish a long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Tal'Dorei Campaign Setting Reborn</p>\n<p>The challenges and struggles you've faced throughout your life have led you to delight in inflicting pain and anguish upon others. You gain a number of cruelty dice equal to your proficiency bonus. Your cruelty dice are d6s. You can roll only one cruelty die per turn, and a cruelty die is spent when you roll it.</p>\n<p>You can roll a cruelty die under any of the following circumstances, with the indicated result:</p>\n<ul>\n<li>When you deal damage to a creature, spend one cruelty die to deal extra damage to the creature equal to the roll.</li>\n<li>When you score a critical hit, spend one cruelty die to gain temporary hit points equal to the roll.</li>\n<li>When you make a Charisma (Intimidation) check, spend one cruelty die and add the roll to your check.</li>\n</ul>\n<p>You regain all spent cruelty dice when you finish a long rest.</p>\n</div>"
+  }
+}

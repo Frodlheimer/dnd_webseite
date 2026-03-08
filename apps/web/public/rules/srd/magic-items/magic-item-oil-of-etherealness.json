@@ -1,0 +1,34 @@
+{
+  "id": "magic-item-oil-of-etherealness",
+  "title": "Oil of Etherealness",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional",
+  "sourcePageRange": "p.231-232",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Oil of Etherealness Potion, rare"
+    },
+    {
+      "type": "p",
+      "text": "Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional"
+    },
+    {
+      "type": "p",
+      "text": "vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 231,
+    "sourcePageEnd": 232,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "magicItemRequiresAttunement": false
+  }
+}

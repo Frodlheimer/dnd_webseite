@@ -1,0 +1,82 @@
+{
+  "id": "adventuring-travel-pace",
+  "title": "Travel Pace",
+  "category": "adventuring",
+  "tags": [
+    "category:adventuring",
+    "chapter:travel-pace",
+    "rules:adventuring",
+    "section:adventuring",
+    "source:srd51"
+  ],
+  "summary": "Difficult Terrain The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble---fill...",
+  "sourcePageRange": "p.84-85",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Travel Pace"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Pace",
+          "Distance",
+          "Traveled",
+          "per . . ."
+        ],
+        [
+          "Minute",
+          "Hour",
+          "Day",
+          "Effect"
+        ],
+        [
+          "Fast",
+          "400",
+          "4",
+          "30",
+          "-5 penalty to passive"
+        ],
+        [
+          "feet",
+          "miles",
+          "miles",
+          "Wisdom (Perception)"
+        ],
+        [
+          "Normal",
+          "300",
+          "3",
+          "24",
+          "-"
+        ],
+        [
+          "feet",
+          "miles",
+          "miles"
+        ],
+        [
+          "Slow",
+          "200",
+          "2",
+          "18",
+          "Able to use stealth"
+        ],
+        [
+          "feet",
+          "miles",
+          "miles"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Difficult Terrain The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble---filled ruins, steep mountains, and ice---covered ground-all considered difficult terrain. You move at half speed in difficult terrain- moving 1 foot in difficult terrain costs 2 feet of speed-so you can cover only half the normal distance in a minute, an hour, or a day."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 84,
+    "sourcePageEnd": 85
+  }
+}

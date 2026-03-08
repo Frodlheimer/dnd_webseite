@@ -1,0 +1,62 @@
+{
+  "id": "vigor-of-the-hill-giant",
+  "slug": "vigor-of-the-hill-giant",
+  "name": "Vigor Of The Hill Giant",
+  "group": "Feats",
+  "summary": "You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Bigby Presents - Glory of the Giants"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: 4th Level, Strike of the Giants (Hill Strike) Feat"
+    },
+    {
+      "type": "p",
+      "text": "You've manifested the resilience emblematic of hill giants, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+        "Bulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren't moved and don't have the prone condition.",
+        "Iron Stomach. Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON",
+        "WIS"
+      ],
+      "description": "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20."
+    },
+    "source": "Bigby Presents - Glory of the Giants",
+    "prerequisite": "4th Level, Strike of the Giants (Hill Strike) Feat"
+  },
+  "highlights": [
+    "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+    "Bulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren't moved and don't have the prone condition.",
+    "Iron Stomach. Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:con",
+    "ability:str",
+    "ability:wis",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:bigby-presents-glory-of-the-giants"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "monster-manticore",
+  "title": "Manticore",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, lawful evil",
+  "sourcePageRange": "p.329-330",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Manticore"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 68 (8d10 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 16 (+3) 17 (+3) 7 (-2) 12 (+1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Tail Spike Regrowth. The manticore has twenty--four tail spikes. Used spikes regrow when the manticore finishes a long rest."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail Spike. Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 329,
+    "sourcePageEnd": 330,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "lawful evil",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "68 (8d10 + 24)",
+    "speed": "30 ft., fly 50 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 17,
+      "conMod": 3,
+      "int": 7,
+      "intMod": -2,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Tail Spike Regrowth"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Tail Spike"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-periapt-of-health",
+  "title": "Periapt of Health",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.",
+  "sourcePageRange": "p.232",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Periapt of Health Wondrous item, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 232,
+    "sourcePageEnd": 232,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

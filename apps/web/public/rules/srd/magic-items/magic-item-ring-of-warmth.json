@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-ring-of-warmth",
+  "title": "Ring of Warmth",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.",
+  "sourcePageRange": "p.238",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ring of Warmth Ring, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 238,
+    "sourcePageEnd": 238,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

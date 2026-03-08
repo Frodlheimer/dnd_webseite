@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-wand-of-magic-missiles",
+  "title": "Wand of Magic Missiles",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st---level version of the spell. You can increas...",
+  "sourcePageRange": "p.249",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wand of Magic Missiles Wand, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st---level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 249,
+    "sourcePageEnd": 249,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

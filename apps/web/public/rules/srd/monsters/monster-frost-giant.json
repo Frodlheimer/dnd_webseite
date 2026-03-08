@@ -1,0 +1,117 @@
+{
+  "id": "monster-frost-giant",
+  "title": "Frost Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:8",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, neutral evil",
+  "sourcePageRange": "p.313",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Frost Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (patchwork armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 138 (12d12 + 60)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "23 (+6) 9 (-1) 21 (+5) 9 (-1) 10 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Con +8, Wis +3, Cha +4"
+    },
+    {
+      "type": "p",
+      "text": "Skills Athletics +9, Perception +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 8 (3,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two greataxe attacks."
+    },
+    {
+      "type": "p",
+      "text": "Greataxe. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 313,
+    "sourcePageEnd": 313,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "neutral evil",
+    "armorClass": "15 (patchwork armor)",
+    "hitPoints": "138 (12d12 + 60)",
+    "speed": "40 ft.",
+    "challengeRating": "8",
+    "challengeXp": "3,900 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 23,
+      "strMod": 6,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 21,
+      "conMod": 5,
+      "int": 9,
+      "intMod": -1,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Greataxe",
+      "Rock"
+    ]
+  }
+}

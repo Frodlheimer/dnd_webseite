@@ -1,0 +1,40 @@
+{
+  "id": "condition-unconscious",
+  "title": "Unconscious",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:unconscious",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "An unconscious creature is incapacitated (see the condition), can’t move or speak, and is unaware of its surroundings",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Unconscious"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "An unconscious creature is incapacitated (see the condition), can’t move or speak, and is unaware of its surroundings",
+        "The creature drops whatever it’s holding and falls prone.",
+        "The creature automatically fails Strength and Dexterity saving throws.",
+        "Attack rolls against the creature have advantage.",
+        "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "An unconscious creature is incapacitated (see the condition), can’t move or speak, and is unaware of its surroundings",
+      "The creature drops whatever it’s holding and falls prone.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage.",
+      "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    ]
+  }
+}

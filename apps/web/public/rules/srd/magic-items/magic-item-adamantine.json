@@ -1,0 +1,38 @@
+{
+  "id": "magic-item-adamantine",
+  "title": "Adamantine",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any critical hit against you becomes a normal hit.",
+  "sourcePageRange": "p.207",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Adamantine Armor Armor (medium or heavy, but not hide), uncommon"
+    },
+    {
+      "type": "p",
+      "text": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any critical hit against you becomes a normal hit."
+    },
+    {
+      "type": "p",
+      "text": "Ammunition, +1, +2, or +3 Weapon (any ammunition), uncommon (+1), rare (+2), or very rare (+3)"
+    },
+    {
+      "type": "p",
+      "text": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 207,
+    "sourcePageEnd": 207,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

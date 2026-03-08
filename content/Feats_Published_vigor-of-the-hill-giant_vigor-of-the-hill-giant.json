@@ -1,0 +1,152 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "vigor-of-the-hill-giant",
+  "url": "https://dnd5e.wikidot.com/feat:vigor-of-the-hill-giant",
+  "page_title": "vigor-of-the-hill-giant",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Bigby Presents - Glory of the Giants"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Strike of the Giants"
+              },
+              {
+                "type": "text",
+                "text": " (Hill Strike) Feat"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You’ve manifested the resilience emblematic of hill giants, granting you the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bulwark."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren’t moved and don’t have the prone condition."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Iron Stomach."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Bigby Presents - Glory of the Giants</p>\n<p><em>Prerequisite: 4th Level, Strike of the Giants (Hill Strike) Feat</em></p>\n<p>You’ve manifested the resilience emblematic of hill giants, granting you the following benefits:</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>\n<li><strong>Bulwark.</strong> When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren’t moved and don’t have the prone condition.</li>\n<li><strong>Iron Stomach.</strong> Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus.</li>\n</ul>\n</div>"
+  }
+}

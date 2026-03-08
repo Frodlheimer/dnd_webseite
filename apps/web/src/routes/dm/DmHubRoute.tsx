@@ -44,6 +44,12 @@ export const DmHubRoute = () => {
           >
             Session Workspace
           </Link>
+          <Link
+            to="/dice"
+            className="rounded-lg border border-slate-600 bg-slate-900/70 px-4 py-2 text-sm font-semibold text-slate-100 transition hover:border-sky-400 hover:text-sky-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50"
+          >
+            Dice
+          </Link>
         </div>
       </header>
 
@@ -59,6 +65,11 @@ export const DmHubRoute = () => {
           to="/dm/maps"
         />
         <HubTile title="NPC Library" description="NPC templates and references." to="/dm/npcs" />
+        <HubTile
+          title="Monsters (SRD)"
+          description="Search SRD monsters and add them to your NPC library."
+          to="/dm/monsters"
+        />
         <HubTile title="Encounters" description="Build and track encounters." to="/dm/encounters" />
         <HubTile title="Notes" description="Private DM notes and reminders." to="/dm/notes" />
         <HubTile title="Audio" description="Ambience and soundtrack controls." to="/dm/audio" />

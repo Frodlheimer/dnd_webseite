@@ -1,0 +1,562 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Plane Shift",
+  "slug": "servo-crafting",
+  "url": "https://dnd5e.wikidot.com/feat:servo-crafting",
+  "page_title": "servo-crafting",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Plane Shift - Kaladesh"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Intelligence 13 or higher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You are skilled in the creation of servos—tiny constructs that function as personal assistants. You can cast the "
+          },
+          {
+            "type": "text",
+            "text": "Find Familiar"
+          },
+          {
+            "type": "text",
+            "text": " spell as a ritual, creating a servo to serve as your familiar instead of an animal. It uses the Servo stat block, but in every other way, a servo familiar functions as described in the find familiar spell."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can communicate telepathically with your servo familiar and perceive through its senses as long as you are on the same plane of existence. You can speak through your servo in your own voice."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Servo"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "em",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Tiny construct, unaligned"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Armor Class:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 11 (natural armor)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hit Points:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 10 (3d4 + 3)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Speed:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 20 ft."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "STR"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "DEX"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "CON"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "INT"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "WIS"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "CHA"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4 (-3)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "11 (+0)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "12 (+1)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3 (-4)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "10 (+0)"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "7 (-2)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Damage Immunities:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " poison"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Condition Immunities:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " charmed, poisoned"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Senses:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " passive Perception 10"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Languages:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " —"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Challenge:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 0 (10 XP)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Actions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "em",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Claw."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "element",
+                    "tag": "em",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Melee Weapon Attack:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " +0 to hit, reach 5 ft., one target. "
+                  },
+                  {
+                    "type": "element",
+                    "tag": "em",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hit:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 1 slashing damage."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Plane Shift - Kaladesh</p>\n<p><em>Prerequisite: Intelligence 13 or higher</em></p>\n<p>You are skilled in the creation of servos—tiny constructs that function as personal assistants. You can cast the Find Familiar spell as a ritual, creating a servo to serve as your familiar instead of an animal. It uses the Servo stat block, but in every other way, a servo familiar functions as described in the find familiar spell.</p>\n<p>You can communicate telepathically with your servo familiar and perceive through its senses as long as you are on the same plane of existence. You can speak through your servo in your own voice.</p>\n<p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own.</p>\n<table>\n<tr>\n<th>Servo</th>\n</tr>\n<tr>\n<td><em>Tiny construct, unaligned</em></td>\n</tr>\n<tr>\n<td><strong>Armor Class:</strong> 11 (natural armor)</td>\n</tr>\n<tr>\n<td><strong>Hit Points:</strong> 10 (3d4 + 3)</td>\n</tr>\n<tr>\n<td><strong>Speed:</strong> 20 ft.</td>\n</tr>\n<tr>\n<th>STR</th>\n<th>DEX</th>\n<th>CON</th>\n<th>INT</th>\n<th>WIS</th>\n<th>CHA</th>\n</tr>\n<tr>\n<td>4 (-3)</td>\n<td>11 (+0)</td>\n<td>12 (+1)</td>\n<td>3 (-4)</td>\n<td>10 (+0)</td>\n<td>7 (-2)</td>\n</tr>\n<tr>\n<td><strong>Damage Immunities:</strong> poison</td>\n</tr>\n<tr>\n<td><strong>Condition Immunities:</strong> charmed, poisoned</td>\n</tr>\n<tr>\n<td><strong>Senses:</strong> passive Perception 10</td>\n</tr>\n<tr>\n<td><strong>Languages:</strong> —</td>\n</tr>\n<tr>\n<td><strong>Challenge:</strong> 0 (10 XP)</td>\n</tr>\n<tr>\n<th>Actions</th>\n</tr>\n<tr>\n<td><strong><em>Claw.</em></strong> <em>Melee Weapon Attack:</em> +0 to hit, reach 5 ft., one target. <em>Hit:</em> 1 slashing damage.</td>\n</tr>\n</table>\n</div>"
+  }
+}

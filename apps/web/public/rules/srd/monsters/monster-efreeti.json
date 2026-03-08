@@ -1,0 +1,141 @@
+{
+  "id": "monster-efreeti",
+  "title": "Efreeti",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:11",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Large elemental, lawful evil",
+  "sourcePageRange": "p.310",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Efreeti"
+    },
+    {
+      "type": "p",
+      "text": "Large elemental, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 200 (16d10 + 112)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "22 (+6) 12 (+1) 24 (+7) 16 (+3) 15 (+2) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Int +7, Wis +6, Cha +7"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Ignan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 11 (7,200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Elemental Demise. If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The efreeti’s innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect magic"
+    },
+    {
+      "type": "p",
+      "text": "3/day: enlarge/reduce , tongues"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: conjure elemental (fire elemental only),"
+    },
+    {
+      "type": "p",
+      "text": "gaseous form, invisibility , major image , plane shift , wall of fire"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The efreeti makes two scimitar attacks or uses its Hurl Flame twice."
+    },
+    {
+      "type": "p",
+      "text": "Scimitar. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Hurl Flame. Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 310,
+    "sourcePageEnd": 310,
+    "size": "large",
+    "monsterType": "elemental",
+    "alignment": "lawful evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "200 (16d10 + 112)",
+    "speed": "40 ft., fly 60 ft.",
+    "challengeRating": "11",
+    "challengeXp": "7,200 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 22,
+      "strMod": 6,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 24,
+      "conMod": 7,
+      "int": 16,
+      "intMod": 3,
+      "wis": 15,
+      "wisMod": 2,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Elemental Demise",
+      "Innate Spellcasting"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Scimitar",
+      "Hurl Flame"
+    ]
+  }
+}

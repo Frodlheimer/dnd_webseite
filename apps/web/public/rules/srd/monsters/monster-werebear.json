@@ -1,0 +1,135 @@
+{
+  "id": "monster-werebear",
+  "title": "Werebear",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-human"
+  ],
+  "summary": "Medium humanoid (human, shapechanger), neutral good",
+  "sourcePageRange": "p.326-327",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Werebear"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (human, shapechanger), neutral good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 10 in humanoid form, 11 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "in bear and hybrid form"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 135 (18d8 + 54)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 10 (+0) 17 (+3) 11 (+0) 12 (+1) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +7"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 17"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common (can’t speak in bear form)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The werebear can use its action to polymorph into a Large bear--humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Keen Smell. The werebear has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid."
+    },
+    {
+      "type": "p",
+      "text": "Bite (Bear or Hybrid Form Only). Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy."
+    },
+    {
+      "type": "p",
+      "text": "Claw (Bear or Hybrid Form Only). Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Greataxe (Humanoid or Hybrid Form Only). Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 326,
+    "sourcePageEnd": 327,
+    "size": "medium",
+    "monsterType": "humanoid (human",
+    "alignment": "shapechanger), neutral good",
+    "armorClass": "10 in humanoid form, 11 (natural armor)",
+    "hitPoints": "135 (18d8 + 54)",
+    "speed": "30 ft. (40 ft., climb 30 ft. in bear or hybrid form)",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 17,
+      "conMod": 3,
+      "int": 11,
+      "intMod": 0,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Speed 30 ft",
+      "Shapechanger",
+      "Keen Smell"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite (Bear or Hybrid Form Only)",
+      "Claw (Bear or Hybrid Form Only)",
+      "Greataxe (Humanoid or Hybrid Form Only)"
+    ]
+  }
+}

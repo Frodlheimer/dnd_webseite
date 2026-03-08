@@ -1,0 +1,112 @@
+{
+  "id": "monster-kobold",
+  "title": "Kobold",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/8",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:humanoid-kobold"
+  ],
+  "summary": "Small humanoid (kobold), lawful evil",
+  "sourcePageRange": "p.324",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Kobold"
+    },
+    {
+      "type": "p",
+      "text": "Small humanoid (kobold), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 5 (2d6 - 2)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "7 (-2) 15 (+2) 9 (-1) 8 (-1) 7 (-2) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 8"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/8 (25 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Pack Tactics. The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Dagger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Sling. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 324,
+    "sourcePageEnd": 324,
+    "size": "small",
+    "monsterType": "humanoid (kobold)",
+    "alignment": "lawful evil",
+    "armorClass": "12",
+    "hitPoints": "5 (2d6 - 2)",
+    "speed": "30 ft.",
+    "challengeRating": "1/8",
+    "challengeXp": "25 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 7,
+      "strMod": -2,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 9,
+      "conMod": -1,
+      "int": 8,
+      "intMod": -1,
+      "wis": 7,
+      "wisMod": -2,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Sunlight Sensitivity",
+      "Pack Tactics"
+    ],
+    "monsterActions": [
+      "Dagger",
+      "Sling"
+    ]
+  }
+}

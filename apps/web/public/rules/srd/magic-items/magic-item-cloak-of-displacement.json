@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-cloak-of-displacement",
+  "title": "Cloak of Displacement",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, ...",
+  "sourcePageRange": "p.214",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cloak of Displacement Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 214,
+    "sourcePageEnd": 214,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

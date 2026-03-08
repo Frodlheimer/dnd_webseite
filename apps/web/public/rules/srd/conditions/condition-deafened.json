@@ -1,0 +1,32 @@
+{
+  "id": "condition-deafened",
+  "title": "Deafened",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:deafened",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A deafened creature can’t hear and automatically fails any ability check that requires hearing.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Deafened"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
+    ]
+  }
+}

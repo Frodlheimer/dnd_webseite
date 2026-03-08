@@ -1,0 +1,134 @@
+{
+  "id": "monster-mimic",
+  "title": "Mimic",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:monstrosity-shapechanger"
+  ],
+  "summary": "Medium monstrosity (shapechanger), neutral",
+  "sourcePageRange": "p.332-333",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Mimic"
+    },
+    {
+      "type": "p",
+      "text": "Medium monstrosity (shapechanger), neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 58 (9d8 + 18)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 15 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 12 (+1) 15 (+2) 5 (-3) 13 (+1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +5"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities acid"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities prone"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Adhesive (Object Form Only). The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage."
+    },
+    {
+      "type": "p",
+      "text": "False Appearance (Object Form Only). While the mimic remains motionless, it is indistinguishable from an ordinary object."
+    },
+    {
+      "type": "p",
+      "text": "Grappler. The mimic has advantage on attack rolls against any creature grappled by it."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Pseudopod. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 332,
+    "sourcePageEnd": 333,
+    "size": "medium",
+    "monsterType": "monstrosity (shapechanger)",
+    "alignment": "neutral",
+    "armorClass": "12 (natural armor)",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "15 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 15,
+      "conMod": 2,
+      "int": 5,
+      "intMod": -3,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Shapechanger",
+      "Adhesive (Object Form Only)",
+      "False Appearance (Object Form Only)",
+      "Grappler"
+    ],
+    "monsterActions": [
+      "Pseudopod",
+      "Bite"
+    ]
+  }
+}

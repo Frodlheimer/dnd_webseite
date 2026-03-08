@@ -1,0 +1,34 @@
+{
+  "id": "condition-charmed",
+  "title": "Charmed",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:charmed",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Charmed"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.",
+        "The charmer has advantage on any ability check to interact socially with the creature."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.",
+      "The charmer has advantage on any ability check to interact socially with the creature."
+    ]
+  }
+}

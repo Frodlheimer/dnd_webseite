@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-potion-of-poison",
+  "title": "Potion of Poison",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature. If you drink it, you t...",
+  "sourcePageRange": "p.234",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potion of Poison Potion, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature. If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 234,
+    "sourcePageEnd": 234,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

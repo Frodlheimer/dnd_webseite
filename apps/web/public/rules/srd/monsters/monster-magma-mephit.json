@@ -1,0 +1,133 @@
+{
+  "id": "monster-magma-mephit",
+  "title": "Magma Mephit",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Small elemental, neutral evil",
+  "sourcePageRange": "p.331",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Magma Mephit"
+    },
+    {
+      "type": "p",
+      "text": "Small elemental, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (5d6 + 5)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "8 (-1) 12 (+1) 12 (+1) 7 (-2) 10 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities cold"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Ignan, Terran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Burst. When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting (1/Day). The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Fire Breath (Recharge 6). The mephit exhales a 15--foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 331,
+    "sourcePageEnd": 331,
+    "size": "small",
+    "monsterType": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "11",
+    "hitPoints": "22 (5d6 + 5)",
+    "speed": "30 ft., fly 30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 8,
+      "strMod": -1,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 12,
+      "conMod": 1,
+      "int": 7,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Death Burst",
+      "False Appearance",
+      "Innate Spellcasting (1/Day)"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Fire Breath (Recharge 6)"
+    ]
+  }
+}

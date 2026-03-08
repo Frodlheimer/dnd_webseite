@@ -27,10 +27,14 @@
     "ws:test": "pnpm --filter @dnd-vtt/api ws:test",
     "spells:build": "pnpm --filter @dnd-vtt/web spells:build",
     "classes:build": "pnpm --filter @dnd-vtt/web classes:build",
+    "lineages:build": "pnpm --filter @dnd-vtt/web lineages:build",
+    "srd:build": "pnpm --filter @dnd-vtt/web srd:build",
     "sheets:build": "pnpm --filter @dnd-vtt/web sheets:build",
+    "dice3d:assets": "pnpm --filter @dnd-vtt/web dice3d:assets",
     "local:audit": "node scripts/local-audit.mjs",
     "prisma:generate": "pnpm db:generate",
-    "prisma:migrate": "pnpm db:migrate"
+    "prisma:migrate": "pnpm db:migrate",
+    "feats:build": "pnpm --filter @dnd-vtt/web feats:build"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",

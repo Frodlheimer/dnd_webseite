@@ -1,0 +1,109 @@
+{
+  "id": "monster-tyrannosaurus-rex",
+  "title": "Tyrannosaurus Rex",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:8",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:beast"
+  ],
+  "summary": "Huge beast, unaligned",
+  "sourcePageRange": "p.279",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Tyrannosaurus Rex"
+    },
+    {
+      "type": "p",
+      "text": "Huge beast, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 136 (13d12 + 52)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "25 (+7) 10 (+0) 19 (+4) 2 (-4) 12 (+1) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 8 (3,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can’t make both attacks against the same target."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can’t bite another target."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 279,
+    "sourcePageEnd": 279,
+    "size": "huge",
+    "monsterType": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "136 (13d12 + 52)",
+    "speed": "50 ft.",
+    "challengeRating": "8",
+    "challengeXp": "3,900 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 25,
+      "strMod": 7,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 19,
+      "conMod": 4,
+      "int": 2,
+      "intMod": -4,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Tail"
+    ]
+  }
+}

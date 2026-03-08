@@ -1,0 +1,40 @@
+{
+  "id": "magic-item-amulet-of-health",
+  "title": "Amulet of Health",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.",
+  "sourcePageRange": "p.207",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Amulet of Health Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher."
+    },
+    {
+      "type": "p",
+      "text": "Amulet of Proof against Detection and Location Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this amulet, you are hidden from divination magic. You can’t be targeted by such magic or perceived through magical scrying sensors."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 207,
+    "sourcePageEnd": 207,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

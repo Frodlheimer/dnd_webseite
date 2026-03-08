@@ -1,0 +1,326 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Dragonlance",
+  "slug": "initiate-of-high-sorcery",
+  "url": "https://dnd5e.wikidot.com/feat:initiate-of-high-sorcery",
+  "page_title": "initiate-of-high-sorcery",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Dragonlance Campaign, Sorcerer or Wizard Class or Mage of High Sorcery Background"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You've received training from magic-users affiliated with the Mages of High Sorcery."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon Solinari. You learn one cantrip of your choice from the "
+          },
+          {
+            "type": "text",
+            "text": "Wizard spell list"
+          },
+          {
+            "type": "text",
+            "text": " and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lunar Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Moon"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st-Level Spell"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Nuitari"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Dissonant Whispers"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "False Life"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Hex"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ray of Sickness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lunitari"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Color Spray"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Disguise Self"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Feather Fall"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Longstrider"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Solinari"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Comprehend Languages"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Detect Evil and Good"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Protection from Evil and Good"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Shield"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spells using any spell slots you have."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Dragonlance: Shadow of the Dragon Queen</p>\n<p><em>Prerequisite: Dragonlance Campaign, Sorcerer or Wizard Class or Mage of High Sorcery Background</em></p>\n<p>You've received training from magic-users affiliated with the Mages of High Sorcery.</p>\n<p>Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon Solinari. You learn one cantrip of your choice from the Wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.</p>\n<table>\n<tr>\n<th>Lunar Spells</th>\n</tr>\n<tr>\n<th>Moon</th>\n<th>1st-Level Spell</th>\n</tr>\n<tr>\n<td>Nuitari</td>\n<td>Choose two from Dissonant Whispers, False Life, Hex, and Ray of Sickness</td>\n</tr>\n<tr>\n<td>Lunitari</td>\n<td>Choose two from Color Spray, Disguise Self, Feather Fall, and Longstrider</td>\n</tr>\n<tr>\n<td>Solinari</td>\n<td>Choose two from Comprehend Languages, Detect Evil and Good, Protection from Evil and Good, and Shield</td>\n</tr>\n</table>\n<p>You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spells using any spell slots you have.</p>\n<p>Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>\n</div>"
+  }
+}

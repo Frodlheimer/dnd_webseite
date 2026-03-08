@@ -1,0 +1,107 @@
+{
+  "id": "monster-hobgoblin",
+  "title": "Hobgoblin",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-goblinoid"
+  ],
+  "summary": "Medium humanoid (goblinoid), lawful evil",
+  "sourcePageRange": "p.322",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hobgoblin"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (goblinoid), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (chain mail, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 11 (2d8 + 2)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "13 (+1) 12 (+1) 12 (+1) 10 (+0) 10 (+0) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Goblin"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Martial Advantage. Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn’t incapacitated."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 322,
+    "sourcePageEnd": 322,
+    "size": "medium",
+    "monsterType": "humanoid (goblinoid)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (chain mail, shield)",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 13,
+      "strMod": 1,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 12,
+      "conMod": 1,
+      "int": 10,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Martial Advantage"
+    ],
+    "monsterActions": [
+      "Longsword",
+      "Longbow"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "fade-away",
+  "slug": "fade-away",
+  "name": "Fade Away",
+  "group": "Racial Feats",
+  "summary": "Souce: Xanathar's Guide to Everything",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Souce: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Gnome"
+    },
+    {
+      "type": "p",
+      "text": "Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Dexterity or Intelligence score by 1, to a maximum of 20.",
+        "Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Gnome"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "DEX",
+        "INT"
+      ],
+      "description": "Increase your Dexterity or Intelligence score by 1, to a maximum of 20."
+    },
+    "prerequisite": "Gnome"
+  },
+  "highlights": [
+    "Increase your Dexterity or Intelligence score by 1, to a maximum of 20.",
+    "Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "ability:int",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:gnome"
+  ]
+}

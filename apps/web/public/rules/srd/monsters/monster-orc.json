@@ -1,0 +1,111 @@
+{
+  "id": "monster-orc",
+  "title": "Orc",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-orc"
+  ],
+  "summary": "Medium humanoid (orc), chaotic evil",
+  "sourcePageRange": "p.339",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Orc"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (orc), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (hide armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 15 (2d8 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 12 (+1) 16 (+3) 7 (-2) 11 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Intimidation +2"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Orc"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Aggressive. As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Greataxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Javelin. Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 339,
+    "sourcePageEnd": 339,
+    "size": "medium",
+    "monsterType": "humanoid (orc)",
+    "alignment": "chaotic evil",
+    "armorClass": "13 (hide armor)",
+    "hitPoints": "15 (2d8 + 6)",
+    "speed": "30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 16,
+      "conMod": 3,
+      "int": 7,
+      "intMod": -2,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Aggressive"
+    ],
+    "monsterActions": [
+      "Greataxe",
+      "Javelin"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-robe-of-scintillating-colors",
+  "title": "Robe of Scintillating Colors",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the en...",
+  "sourcePageRange": "p.238",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Robe of Scintillating Colors Wondrous item, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30---foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe’s power is activated must succeed on a DC 15 Wisdom saving throw or become stunned until the effect ends."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 238,
+    "sourcePageEnd": 238,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

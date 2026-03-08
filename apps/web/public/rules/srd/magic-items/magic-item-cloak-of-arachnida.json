@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-cloak-of-arachnida",
+  "title": "Cloak of Arachnida",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:",
+  "sourcePageRange": "p.214",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cloak of Arachnida Wondrous item, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:"
+    },
+    {
+      "type": "p",
+      "text": "• You have resistance to poison damage. • You have a climbing speed equal to your walking speed. • You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. • You can’t be caught in webs of any sort and can move through webs as if they were difficult terrain. • You can use an action to cast the web spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can’t be used again until the next dawn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 214,
+    "sourcePageEnd": 214,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-bracers-of-archery",
+  "title": "Bracers of Archery",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.",
+  "sourcePageRange": "p.212",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bracers of Archery Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 212,
+    "sourcePageEnd": 212,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

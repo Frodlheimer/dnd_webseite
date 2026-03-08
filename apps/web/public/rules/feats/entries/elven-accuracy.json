@@ -1,0 +1,65 @@
+{
+  "id": "elven-accuracy",
+  "slug": "elven-accuracy",
+  "name": "Elven Accuracy",
+  "group": "Racial Feats",
+  "summary": "Souce: Xanathar's Guide to Everything",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Souce: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Elf or Half-Elf"
+    },
+    {
+      "type": "p",
+      "text": "The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20",
+        "Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Half-Elf",
+      "Elf"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "DEX",
+        "INT",
+        "WIS",
+        "CHA"
+      ],
+      "description": "Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20"
+    },
+    "prerequisite": "Elf or Half-Elf"
+  },
+  "highlights": [
+    "Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20",
+    "Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:cha",
+    "ability:dex",
+    "ability:int",
+    "ability:wis",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:elf",
+    "race:half-elf"
+  ]
+}

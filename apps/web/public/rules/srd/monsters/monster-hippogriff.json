@@ -1,0 +1,116 @@
+{
+  "id": "monster-hippogriff",
+  "title": "Hippogriff",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.322",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hippogriff"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 19 (3d10 + 3)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 13 (+1) 13 (+1) 2 (-4) 12 (+1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Sight. The hippogriff has advantage on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The hippogriff makes two attacks: one with its beak and one with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Beak. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 322,
+    "sourcePageEnd": 322,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "11",
+    "hitPoints": "19 (3d10 + 3)",
+    "speed": "40 ft., fly 60 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 13,
+      "conMod": 1,
+      "int": 2,
+      "intMod": -4,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Keen Sight"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Beak",
+      "Claws"
+    ]
+  }
+}

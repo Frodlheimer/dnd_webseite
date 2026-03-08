@@ -1,0 +1,120 @@
+{
+  "id": "monster-gorgon",
+  "title": "Gorgon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.317-318",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gorgon"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 114 (12d10 + 48)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "20 (+5) 11 (+0) 18 (+4) 2 (-4) 12 (+1) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities petrified"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Trampling Charge. If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the gorgon can make one attack with its hooves against it as a bonus action."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Gore. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Hooves. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Petrifying Breath (Recharge 5-6). The gorgon exhales petrifying gas in a 30--foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 317,
+    "sourcePageEnd": 318,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "114 (12d10 + 48)",
+    "speed": "40 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 20,
+      "strMod": 5,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 18,
+      "conMod": 4,
+      "int": 2,
+      "intMod": -4,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Trampling Charge"
+    ],
+    "monsterActions": [
+      "Gore",
+      "Hooves",
+      "Petrifying Breath (Recharge 5-6)"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-gem-of-seeing",
+  "title": "Gem of Seeing",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This gem has 3 charges. As an action, you can speak the gem’s command word and expend 1 charge. For the next 10 minutes, you have truesight out to 120 feet when you peer through the gem. The gem regains 1d3 expended c...",
+  "sourcePageRange": "p.223",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gem of Seeing Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This gem has 3 charges. As an action, you can speak the gem’s command word and expend 1 charge. For the next 10 minutes, you have truesight out to 120 feet when you peer through the gem. The gem regains 1d3 expended charges daily at dawn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 223,
+    "sourcePageEnd": 223,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

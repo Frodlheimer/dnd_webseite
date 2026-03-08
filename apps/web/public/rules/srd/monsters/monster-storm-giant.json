@@ -1,0 +1,146 @@
+{
+  "id": "monster-storm-giant",
+  "title": "Storm Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:13",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, chaotic good",
+  "sourcePageRange": "p.313-314",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Storm Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, chaotic good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (scale mail)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 230 (20d12 + 100)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft., swim 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "29 (+9) 14 (+2) 20 (+5) 16 (+3) 18 (+4) 18 (+4)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Str +14, Con +10, Wis +9, Cha +9"
+    },
+    {
+      "type": "p",
+      "text": "Skills Arcana +8, Athletics +14, History +8, Perception +9"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities lightning, thunder"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 19"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 13 (10,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The giant can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The giant’s innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect magic , feather fall , levitate , light"
+    },
+    {
+      "type": "p",
+      "text": "3/day each: control weather , water breathing"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two greatsword attacks."
+    },
+    {
+      "type": "p",
+      "text": "Greatsword. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Lightning Strike (Recharge 5-6). The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 313,
+    "sourcePageEnd": 314,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "chaotic good",
+    "armorClass": "16 (scale mail)",
+    "hitPoints": "230 (20d12 + 100)",
+    "speed": "50 ft., swim 50 ft.",
+    "challengeRating": "13",
+    "challengeXp": "10,000 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 29,
+      "strMod": 9,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 20,
+      "conMod": 5,
+      "int": 16,
+      "intMod": 3,
+      "wis": 18,
+      "wisMod": 4,
+      "cha": 18,
+      "chaMod": 4
+    },
+    "monsterTraits": [
+      "Amphibious",
+      "Innate Spellcasting"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Greatsword",
+      "Rock",
+      "Lightning Strike (Recharge 5-6)"
+    ]
+  }
+}

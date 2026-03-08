@@ -1,0 +1,130 @@
+{
+  "id": "monster-treant",
+  "title": "Treant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:plant"
+  ],
+  "summary": "Huge plant, chaotic good",
+  "sourcePageRange": "p.351",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Treant"
+    },
+    {
+      "type": "p",
+      "text": "Huge plant, chaotic good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 138 (12d12 + 60)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "23 (+6) 8 (-1) 21 (+5) 12 (+1) 16 (+3) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Druidic, Elvish, Sylvan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the treant remains motionless, it is indistinguishable from a normal tree."
+    },
+    {
+      "type": "p",
+      "text": "Siege Monster. The treant deals double damage to objects and structures."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The treant makes two slam attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Animate Trees (1/Day). The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can’t speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 351,
+    "sourcePageEnd": 351,
+    "size": "huge",
+    "monsterType": "plant",
+    "alignment": "chaotic good",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "138 (12d12 + 60)",
+    "speed": "30 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 23,
+      "strMod": 6,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 21,
+      "conMod": 5,
+      "int": 12,
+      "intMod": 1,
+      "wis": 16,
+      "wisMod": 3,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "False Appearance",
+      "Siege Monster"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam",
+      "Rock",
+      "Animate Trees (1/Day)"
+    ]
+  }
+}

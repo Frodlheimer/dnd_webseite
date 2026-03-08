@@ -1,0 +1,142 @@
+{
+  "id": "monster-vrock",
+  "title": "Vrock",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:6",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend-demon"
+  ],
+  "summary": "Large fiend (demon), chaotic evil",
+  "sourcePageRange": "p.273-274",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Vrock"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend (demon), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 104 (11d10 + 44)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 15 (+2) 18 (+4) 8 (-1) 13 (+1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +5, Wis +4, Cha +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire, lightning; bludgeoning,"
+    },
+    {
+      "type": "p",
+      "text": "piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 6 (2,300 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The vrock has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The vrock makes two attacks: one with its beak and one with its talons."
+    },
+    {
+      "type": "p",
+      "text": "Beak. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Talons. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Spores (Recharge 6). A 15--foot--radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it."
+    },
+    {
+      "type": "p",
+      "text": "Stunning Screech (1/Day). The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn’t a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock’s next turn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 273,
+    "sourcePageEnd": 274,
+    "size": "large",
+    "monsterType": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "104 (11d10 + 44)",
+    "speed": "40 ft., fly 60 ft.",
+    "challengeRating": "6",
+    "challengeXp": "2,300 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 18,
+      "conMod": 4,
+      "int": 8,
+      "intMod": -1,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Beak",
+      "Talons",
+      "Spores (Recharge 6)",
+      "Stunning Screech (1/Day)"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "monster-ice-mephit",
+  "title": "Ice Mephit",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Small elemental, neutral evil",
+  "sourcePageRange": "p.331",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ice Mephit"
+    },
+    {
+      "type": "p",
+      "text": "Small elemental, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 21 (6d6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "7 (-2) 13 (+1) 10 (+0) 9 (-1) 11 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2, Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities bludgeoning, fire"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Aquan, Auran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Burst. When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting (1/Day). The mephit can innately cast fog cloud , requiring no material components. Its innate spellcasting ability is Charisma."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage."
+    },
+    {
+      "type": "p",
+      "text": "Frost Breath (Recharge 6). The mephit exhales a 15-- foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5"
+    },
+    {
+      "type": "p",
+      "text": "(2d4) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 331,
+    "sourcePageEnd": 331,
+    "size": "small",
+    "monsterType": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "11",
+    "hitPoints": "21 (6d6)",
+    "speed": "30 ft., fly 30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 7,
+      "strMod": -2,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 10,
+      "conMod": 0,
+      "int": 9,
+      "intMod": -1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Death Burst",
+      "False Appearance",
+      "Innate Spellcasting (1/Day)"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Frost Breath (Recharge 6)"
+    ]
+  }
+}

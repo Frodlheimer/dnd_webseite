@@ -1,0 +1,140 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Published",
+  "slug": "gunner",
+  "url": "https://dnd5e.wikidot.com/feat:gunner",
+  "page_title": "gunner",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Tasha's Cauldron of Everything"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have a quick hand and keen eye when employing firearms, granting you the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Increase your Dexterity score by 1, to a maximum of 20."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You gain proficiency with firearms (see “Firearms” in the "
+              },
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dungeon Master’s Guide"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ")."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "You ignore the loading property of firearms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Tasha's Cauldron of Everything</p>\n<p>You have a quick hand and keen eye when employing firearms, granting you the following benefits:</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n</ul>\n<ul>\n<li>You gain proficiency with firearms (see “Firearms” in the <em>Dungeon Master’s Guide</em>).</li>\n</ul>\n<ul>\n<li>You ignore the loading property of firearms.</li>\n</ul>\n<ul>\n<li>Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</li>\n</ul>\n</div>"
+  }
+}

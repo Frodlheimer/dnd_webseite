@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-trident-of-fish-command",
+  "title": "Trident of Fish Command",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast dominate beast (save DC 15) from it",
+  "sourcePageRange": "p.247-248",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Trident of Fish Command Weapon (trident), uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast dominate beast (save DC 15) from it"
+    },
+    {
+      "type": "p",
+      "text": "on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 247,
+    "sourcePageEnd": 248,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

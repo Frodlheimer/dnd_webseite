@@ -1,0 +1,98 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Homebrew",
+  "slug": "flash-recall",
+  "url": "https://dnd5e.wikidot.com/feat:flash-recall",
+  "page_title": "flash-recall",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Tal'Dorei Campaign Setting Reborn"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Spellcasting feature from a class that prepares spells"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You've developed the ability to instantly recall an unprepared spell in moments of sudden necessity."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "As a bonus action, you prepare a spell of 1st level or higher from your spellbook (if you're a wizard) or from your class spell list (if you're not a wizard). This spell must be of a level for which you have spell slots, and it replaces another spell of an equal or higher level that you had previously prepared."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Once you use this feat to recall a spell, you can't do so again until you complete a short or long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Tal'Dorei Campaign Setting Reborn</p>\n<p><em>Prerequisite: Spellcasting feature from a class that prepares spells</em></p>\n<p>You've developed the ability to instantly recall an unprepared spell in moments of sudden necessity.</p>\n<p>As a bonus action, you prepare a spell of 1st level or higher from your spellbook (if you're a wizard) or from your class spell list (if you're not a wizard). This spell must be of a level for which you have spell slots, and it replaces another spell of an equal or higher level that you had previously prepared.</p>\n<p>Once you use this feat to recall a spell, you can't do so again until you complete a short or long rest.</p>\n</div>"
+  }
+}

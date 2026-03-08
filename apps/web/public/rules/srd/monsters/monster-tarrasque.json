@@ -1,0 +1,186 @@
+{
+  "id": "monster-tarrasque",
+  "title": "Tarrasque",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:30",
+    "section:monsters",
+    "size:gargantuan",
+    "source:srd51",
+    "type:monstrosity-titan"
+  ],
+  "summary": "Gargantuan monstrosity (titan), unaligned",
+  "sourcePageRange": "p.350-351",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Tarrasque"
+    },
+    {
+      "type": "p",
+      "text": "Gargantuan monstrosity (titan), unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 25 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 676 (33d20 + 330)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "30 (+10) 11 (+0) 30 (+10) 3 (-4) 11 (+0) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Int +5, Wis +9, Cha +9"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, frightened, paralyzed, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 30 (155,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Legendary Resistance (3/Day). If the tarrasque fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The tarrasque has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Reflective Carapace. Any time the tarrasque is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target."
+    },
+    {
+      "type": "p",
+      "text": "Siege Monster. The tarrasque deals double damage to objects and structures."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The tarrasque can use its Frightful Presence. It then makes five attacks: one with its bite, two with its claws, one with its horns, and one with its tail. It can use its Swallow instead of its bite."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 36 (4d12 + 10) piercing damage. If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the tarrasque can’t bite another target."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 28 (4d8 + 10) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Horns. Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 32 (4d10 + 10) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 24 (4d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Frightful Presence. Each creature of the tarrasque’s choice within 120 feet of it and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the tarrasque is within line of sight, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the tarrasque’s Frightful Presence for the next 24 hours."
+    },
+    {
+      "type": "p",
+      "text": "Swallow. The tarrasque makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite’s damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) acid damage at the start of each of the tarrasque’s turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the tarrasque. If the tarrasque dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone."
+    },
+    {
+      "type": "p",
+      "text": "Legendary Actions"
+    },
+    {
+      "type": "p",
+      "text": "The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of"
+    },
+    {
+      "type": "p",
+      "text": "another creature’s turn. The tarrasque regains spent legendary actions at the start of its turn."
+    },
+    {
+      "type": "p",
+      "text": "Attack. The tarrasque makes one claw attack or tail attack."
+    },
+    {
+      "type": "p",
+      "text": "Move. The tarrasque moves up to half its speed."
+    },
+    {
+      "type": "p",
+      "text": "Chomp (Costs 2 Actions). The tarrasque makes one bite attack or uses its Swallow."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 350,
+    "sourcePageEnd": 351,
+    "size": "gargantuan",
+    "monsterType": "monstrosity (titan)",
+    "alignment": "unaligned",
+    "armorClass": "25 (natural armor)",
+    "hitPoints": "676 (33d20 + 330)",
+    "speed": "40 ft.",
+    "challengeRating": "30",
+    "challengeXp": "155,000 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 30,
+      "strMod": 10,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 30,
+      "conMod": 10,
+      "int": 3,
+      "intMod": -4,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Legendary Resistance (3/Day)",
+      "Magic Resistance",
+      "Reflective Carapace",
+      "Siege Monster"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Horns",
+      "Tail",
+      "Frightful Presence",
+      "Swallow",
+      "Attack",
+      "Move",
+      "Chomp (Costs 2 Actions)"
+    ]
+  }
+}

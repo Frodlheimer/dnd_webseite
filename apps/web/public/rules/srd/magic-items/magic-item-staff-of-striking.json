@@ -1,0 +1,85 @@
+{
+  "id": "magic-item-staff-of-striking",
+  "title": "Staff of Striking",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it. The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its char...",
+  "sourcePageRange": "p.244-245",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Staff of Striking Staff, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it. The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff."
+    },
+    {
+      "type": "p",
+      "text": "Staff of Swarming Insects Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses. Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: giant insect (4 charges) or insect plague (5 charges). Insect Cloud. While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30---foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect."
+    },
+    {
+      "type": "p",
+      "text": "Staff of the Magi Staff, legendary (requires attunement by a sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls. The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges. Spell Absorption. While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell’s level. However, if doing so brings the staff’s total number of charges above 50, the staff explodes as if you activated its retributive strike (see below). Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: conjure elemental (7 charges), dispel magic (3 charges), fireball (7th---level version, 7 charges), flaming sphere (2 charges), ice storm (4 charges), invisibility (2 charges), knock (2 charges), lightning bolt (7th---level version, 7 charges), passwall (5 charges), plane shift (7 charges),"
+    },
+    {
+      "type": "p",
+      "text": "telekinesis (5 charges), wall of fire (4 charges), or web (2 charges). You can also use an action to cast one of the following spells from the staff without using any charges: arcane lock , detect magic , enlarge/reduce , light , mage hand , or protection from evil and good. Retributive Strike. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30---foot---radius sphere centered on it. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Distance from",
+          "Origin",
+          "Damage"
+        ],
+        [
+          "10 ft. away or",
+          "closer",
+          "8 × the number of charges in the staff"
+        ],
+        [
+          "11 to 20 ft.",
+          "away",
+          "6 × the number of charges in the staff"
+        ],
+        [
+          "21 to 30 ft.",
+          "away",
+          "4 × the number of charges in the staff"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Staff of the Python Staff, uncommon (requires attunement by a cleric, druid, or warlock)"
+    },
+    {
+      "type": "p",
+      "text": "You can use an action to speak this staff’s command word and throw the staff on the ground within 10 feet of you. The staff becomes a giant constrictor snake under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake. On your turn, you can mentally command the snake if it is within 60 feet of you and you aren’t incapacitated. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location. If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 244,
+    "sourcePageEnd": 245,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

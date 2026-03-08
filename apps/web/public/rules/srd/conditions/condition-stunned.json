@@ -1,0 +1,36 @@
+{
+  "id": "condition-stunned",
+  "title": "Stunned",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:stunned",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Stunned"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.",
+        "The creature automatically fails Strength and Dexterity saving throws.",
+        "Attack rolls against the creature have advantage."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage."
+    ]
+  }
+}

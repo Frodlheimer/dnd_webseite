@@ -1,0 +1,48 @@
+{
+  "id": "slasher",
+  "slug": "slasher",
+  "name": "Slasher",
+  "group": "Feats",
+  "summary": "You've learned where to cut to have the greatest results, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tasha's Cauldron of Everything"
+    },
+    {
+      "type": "p",
+      "text": "You've learned where to cut to have the greatest results, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Dexterity by 1, to a maximum of 20.",
+        "Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.",
+        "When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Tasha's Cauldron of Everything"
+  },
+  "highlights": [
+    "Increase your Strength or Dexterity by 1, to a maximum of 20.",
+    "Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.",
+    "When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:tashas-cauldron-of-everything"
+  ]
+}

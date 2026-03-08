@@ -1,0 +1,125 @@
+{
+  "id": "monster-minotaur",
+  "title": "Minotaur",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, chaotic evil",
+  "sourcePageRange": "p.333",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Minotaur"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 76 (9d10 + 27)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 11 (+0) 16 (+3) 6 (-2) 16 (+3) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +7"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 17"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Charge. If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on"
+    },
+    {
+      "type": "p",
+      "text": "the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Labyrinthine Recall. The minotaur can perfectly recall any path it has traveled."
+    },
+    {
+      "type": "p",
+      "text": "Reckless. At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Greataxe. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Gore. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 333,
+    "sourcePageEnd": 333,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "76 (9d10 + 27)",
+    "speed": "40 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 16,
+      "conMod": 3,
+      "int": 6,
+      "intMod": -2,
+      "wis": 16,
+      "wisMod": 3,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Charge",
+      "Labyrinthine Recall",
+      "Reckless"
+    ],
+    "monsterActions": [
+      "Greataxe",
+      "Gore"
+    ]
+  }
+}

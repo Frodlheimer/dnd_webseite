@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-periapt-of-wound-closure",
+  "title": "Periapt of Wound Closure",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.",
+  "sourcePageRange": "p.232",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Periapt of Wound Closure Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 232,
+    "sourcePageEnd": 232,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

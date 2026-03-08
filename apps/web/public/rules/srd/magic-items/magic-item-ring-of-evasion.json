@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-ring-of-evasion",
+  "title": "Ring of Evasion",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your",
+  "sourcePageRange": "p.236",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ring of Evasion Ring, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your"
+    },
+    {
+      "type": "p",
+      "text": "reaction to expend 1 of its charges to succeed on that saving throw instead."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 236,
+    "sourcePageEnd": 236,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

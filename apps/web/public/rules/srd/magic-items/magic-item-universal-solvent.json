@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-universal-solvent",
+  "title": "Universal Solvent",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, ...",
+  "sourcePageRange": "p.248",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Universal Solvent Wondrous item, legendary"
+    },
+    {
+      "type": "p",
+      "text": "This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including sovereign glue."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 248,
+    "sourcePageEnd": 248,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "magicItemRequiresAttunement": false
+  }
+}

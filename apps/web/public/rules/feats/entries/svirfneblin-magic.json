@@ -1,0 +1,48 @@
+{
+  "id": "svirfneblin-magic",
+  "slug": "svirfneblin-magic",
+  "name": "Svirfneblin Magic",
+  "group": "Racial Feats",
+  "summary": "You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component.",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Mordenkainen's Tome of Foes"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Gnome (Deep Gnome)"
+    },
+    {
+      "type": "p",
+      "text": "You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component."
+    },
+    {
+      "type": "p",
+      "text": "You can also cast each of the following spells once with this ability: Blindness/Deafness, Blur, and Disguise Self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells"
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Gnome"
+    ],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Mordenkainen's Tome of Foes",
+    "prerequisite": "Gnome (Deep Gnome)"
+  },
+  "highlights": [],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:racial-feats",
+    "has:prerequisite",
+    "kind:feat",
+    "race:gnome",
+    "source:mordenkainens-tome-of-foes"
+  ]
+}

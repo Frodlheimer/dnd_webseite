@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-elven-chain",
+  "title": "Elven Chain",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.",
+  "sourcePageRange": "p.220",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Elven Chain Armor (chain shirt), rare"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 220,
+    "sourcePageEnd": 220,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "magicItemRequiresAttunement": false
+  }
+}

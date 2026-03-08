@@ -1,0 +1,116 @@
+{
+  "id": "monster-bugbear",
+  "title": "Bugbear",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-goblinoid"
+  ],
+  "summary": "Medium humanoid (goblinoid), chaotic evil",
+  "sourcePageRange": "p.266",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bugbear"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (goblinoid), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (hide armor, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 27 (5d8 + 5)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 14 (+2) 13 (+1) 8 (-1) 11 (+0) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +6, Survival +2"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Goblin"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Brute. A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+    },
+    {
+      "type": "p",
+      "text": "Surprise Attack. If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Morningstar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 266,
+    "sourcePageEnd": 266,
+    "size": "medium",
+    "monsterType": "humanoid (goblinoid)",
+    "alignment": "chaotic evil",
+    "armorClass": "16 (hide armor, shield)",
+    "hitPoints": "27 (5d8 + 5)",
+    "speed": "30 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 13,
+      "conMod": 1,
+      "int": 8,
+      "intMod": -1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Brute",
+      "Surprise Attack"
+    ],
+    "monsterActions": [
+      "Morningstar",
+      "Javelin"
+    ]
+  }
+}

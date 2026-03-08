@@ -1,0 +1,167 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Planescape",
+  "slug": "outlands-envoy",
+  "url": "https://dnd5e.wikidot.com/feat:outlands-envoy",
+  "page_title": "outlands-envoy",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Planescape - Adventures in the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Scion of the Outer Planes"
+              },
+              {
+                "type": "text",
+                "text": " (The Outlands) Feat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have spent significant time in Sigil or the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ability Score Increase."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Increase an ability score of your choice by 1, to a maximum of 20."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Crossroads Emissary."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " You learn the "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "misty step"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "tongues"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "tongues"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Planescape - Adventures in the Multiverse</p>\n<p><em>Prerequisite: 4th Level, Scion of the Outer Planes (The Outlands) Feat.</em></p>\n<p>You have spent significant time in Sigil or the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:</p>\n<p><strong>Ability Score Increase.</strong> Increase an ability score of your choice by 1, to a maximum of 20.<br/>\n<strong>Crossroads Emissary.</strong> You learn the <em>misty step</em> and <em>tongues</em> spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast <em>tongues</em> using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat.</p>\n</div>"
+  }
+}

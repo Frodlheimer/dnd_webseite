@@ -1,0 +1,136 @@
+{
+  "id": "monster-bone-devil",
+  "title": "Bone Devil",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Large fiend (devil), lawful evil",
+  "sourcePageRange": "p.275",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bone Devil"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 142 (15d10 + 60)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 16 (+3) 18 (+4) 13 (+1) 14 (+2) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Int +5, Wis +6, Cha +7"
+    },
+    {
+      "type": "p",
+      "text": "Skills Deception +7, Insight +6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Infernal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The devil has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The devil makes three attacks: two with its claws and one with its sting."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Sting. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 275,
+    "sourcePageEnd": 275,
+    "size": "large",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "142 (15d10 + 60)",
+    "speed": "40 ft., fly 40 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 18,
+      "conMod": 4,
+      "int": 13,
+      "intMod": 1,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Claw",
+      "Sting"
+    ]
+  }
+}

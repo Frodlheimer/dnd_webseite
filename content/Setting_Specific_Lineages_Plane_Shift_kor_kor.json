@@ -1,0 +1,362 @@
+{
+  "kind": "LINEAGE",
+  "group": "Setting Specific Lineages",
+  "setting": "Plane Shift",
+  "slug": "kor",
+  "url": "https://dnd5e.wikidot.com/lineage:kor",
+  "page_title": "kor",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Deeply reverent of the land and its sacred sites, the nomadic kor live a spare existence defined by their constant travels. Masters of ropes and hooks, they scale sheer cliffs and cross yawning chasms with such skill and agility that they sometimes seem almost to take flight."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Kor are tall, slender humanoids with light hair and gray, blue-gray, or ivory skin. All kor have slightly pointed ears, and males have short, fleshy barbels on their chins. They paint softly glowing geometric patterns on their faces and bodies, suggestive of the shapes and design of the hedrons that appear across Zendikar. Their clothing tends to leave their arms and shoulders free to facilitate climbing, and they keep most of their gear in pouches and slings at their waists."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The kor have a nonverbal language of hand signs and gestures that allows communication despite significant distance (particularly when augmented with whirling ropes) or howling winds. They also use this sign language among themselves when they wish to avoid being overheard, giving rise to misguided rumors that they are incapable of speech. When they do speak, they typically use as few words as possible to convey their meaning."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Kor Features"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Plane Shift - Zendikar"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ability Score Increase."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your Dexterity score increases by 2, and your Wisdom score increases by 1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Age."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Kor mature at the same rate as humans and live about as long."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Alignment."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Size."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Speed."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Your base walking speed is 30 feet. You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Kor Climbing."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have proficiency in the Athletics and Acrobatics skills."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lucky."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brave."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You have advantage on saving throws against being frightened."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Languages."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " You can speak, read, and write Common, and communicate in the silent speech of the kor."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p><em><strong>Deeply reverent of the land and its sacred sites, the nomadic kor live a spare existence defined by their constant travels. Masters of ropes and hooks, they scale sheer cliffs and cross yawning chasms with such skill and agility that they sometimes seem almost to take flight.</strong></em></p>\n<p><em><strong>Kor are tall, slender humanoids with light hair and gray, blue-gray, or ivory skin. All kor have slightly pointed ears, and males have short, fleshy barbels on their chins. They paint softly glowing geometric patterns on their faces and bodies, suggestive of the shapes and design of the hedrons that appear across Zendikar. Their clothing tends to leave their arms and shoulders free to facilitate climbing, and they keep most of their gear in pouches and slings at their waists.</strong></em></p>\n<p><em><strong>The kor have a nonverbal language of hand signs and gestures that allows communication despite significant distance (particularly when augmented with whirling ropes) or howling winds. They also use this sign language among themselves when they wish to avoid being overheard, giving rise to misguided rumors that they are incapable of speech. When they do speak, they typically use as few words as possible to convey their meaning.</strong></em></p>\n<h1>Kor Features</h1>\n<p>Source: Plane Shift - Zendikar</p>\n<ul>\n<li><strong>Ability Score Increase.</strong> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</li>\n</ul>\n<ul>\n<li><strong>Age.</strong> Kor mature at the same rate as humans and live about as long.</li>\n</ul>\n<ul>\n<li><strong>Alignment.</strong> Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors.</li>\n</ul>\n<ul>\n<li><strong>Size.</strong> Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium.</li>\n</ul>\n<ul>\n<li><strong>Speed.</strong> Your base walking speed is 30 feet. You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.</li>\n</ul>\n<ul>\n<li><strong>Kor Climbing.</strong> You have proficiency in the Athletics and Acrobatics skills.</li>\n</ul>\n<ul>\n<li><strong>Lucky.</strong> When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</li>\n</ul>\n<ul>\n<li><strong>Brave.</strong> You have advantage on saving throws against being frightened.</li>\n</ul>\n<ul>\n<li><strong>Languages.</strong> You can speak, read, and write Common, and communicate in the silent speech of the kor.</li>\n</ul>\n</div>"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "monster-xorn",
+  "title": "Xorn",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Medium elemental, neutral",
+  "sourcePageRange": "p.356",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Xorn"
+    },
+    {
+      "type": "p",
+      "text": "Medium elemental, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 73 (7d8 + 42)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., burrow 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 10 (+0) 22 (+6) 11 (+0) 10 (+0) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +6, Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances piercing and slashing from"
+    },
+    {
+      "type": "p",
+      "text": "nonmagical attacks that aren’t adamantine"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., tremorsense 60 ft.,"
+    },
+    {
+      "type": "p",
+      "text": "passive Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages Terran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Earth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through."
+    },
+    {
+      "type": "p",
+      "text": "Stone Camouflage. The xorn has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "type": "p",
+      "text": "Treasure Sense. The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The xorn makes three claw attacks and one bite attack."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) piercing damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (Z)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 356,
+    "sourcePageEnd": 356,
+    "size": "medium",
+    "monsterType": "elemental",
+    "alignment": "neutral",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "73 (7d8 + 42)",
+    "speed": "20 ft., burrow 20 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 22,
+      "conMod": 6,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Earth Glide",
+      "Stone Camouflage",
+      "Treasure Sense"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Claw",
+      "Bite"
+    ]
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Strixhaven",
+  "slug": "strixhaven-initiate",
+  "url": "https://dnd5e.wikidot.com/feat:strixhaven-initiate",
+  "page_title": "strixhaven-initiate",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Strixhaven: A Curriculum of Chaos"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have studied some magical theory and have learned a few spells associated with Strixhaven University."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Choose one of Strixhaven's colleges: Lorehold, Prismari. Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Strixhaven Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "College"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cantrips"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st-Level Spell"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lorehold"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Light"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sacred Flame"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thaumaturgy"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cleric"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Wizard"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Prismari"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Fire Bolt"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Prestidigitation"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Ray of Frost"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Bard"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sorcerer"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quandrix"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Druidcraft"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Guidance"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Mage Hand"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Druid"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Wizard"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silverquill"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Sacred Flame"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Thaumaturgy"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Vicious Mockery"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Bard"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Cleric"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Witherbloom"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose two from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Chill Touch"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Druidcraft"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Spare the Dying"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choose one 1st-level "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Druid"
+                  },
+                  {
+                    "type": "text",
+                    "text": " or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Wizard"
+                  },
+                  {
+                    "type": "text",
+                    "text": " spell."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Strixhaven: A Curriculum of Chaos</p>\n<p>You have studied some magical theory and have learned a few spells associated with Strixhaven University.</p>\n<p>Choose one of Strixhaven's colleges: Lorehold, Prismari. Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.</p>\n<p>You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.</p>\n<p>Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>\n<table>\n<tr>\n<th>Strixhaven Spells</th>\n</tr>\n<tr>\n<th>College</th>\n<th>Cantrips</th>\n<th>1st-Level Spell</th>\n</tr>\n<tr>\n<td>Lorehold</td>\n<td>Choose two from Light, Sacred Flame, and Thaumaturgy.</td>\n<td>Choose one 1st-level Cleric or Wizard spell.</td>\n</tr>\n<tr>\n<td>Prismari</td>\n<td>Choose two from Fire Bolt, Prestidigitation, and Ray of Frost.</td>\n<td>Choose one 1st-level Bard or Sorcerer spell.</td>\n</tr>\n<tr>\n<td>Quandrix</td>\n<td>Choose two from Druidcraft, Guidance, and Mage Hand.</td>\n<td>Choose one 1st-level Druid or Wizard spell.</td>\n</tr>\n<tr>\n<td>Silverquill</td>\n<td>Choose two from Sacred Flame, Thaumaturgy, and Vicious Mockery.</td>\n<td>Choose one 1st-level Bard or Cleric spell.</td>\n</tr>\n<tr>\n<td>Witherbloom</td>\n<td>Choose two from Chill Touch, Druidcraft, and Spare the Dying.</td>\n<td>Choose one 1st-level Druid or Wizard spell.</td>\n</tr>\n</table>\n</div>"
+  }
+}

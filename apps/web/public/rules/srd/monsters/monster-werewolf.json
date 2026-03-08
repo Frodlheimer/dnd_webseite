@@ -1,0 +1,139 @@
+{
+  "id": "monster-werewolf",
+  "title": "Werewolf",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-human"
+  ],
+  "summary": "Medium humanoid (human, shapechanger), chaotic evil",
+  "sourcePageRange": "p.328-329",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Werewolf"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (human, shapechanger), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11 in humanoid form, 12 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "in wolf or hybrid form"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 58 (9d8 + 18)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft. (40 ft. in wolf form)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4, Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common (can’t speak in wolf form)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The werewolf can use its action to polymorph into a wolf--humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Keen Hearing and Smell. The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack (Humanoid or Hybrid Form Only). The werewolf makes two attacks: one with its bite and one with its claws or spear."
+    },
+    {
+      "type": "p",
+      "text": "Bite (Wolf or Hybrid Form Only). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
+    },
+    {
+      "type": "p",
+      "text": "Claws (Hybrid Form Only). Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Spear (Humanoid Form Only). Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (M)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 328,
+    "sourcePageEnd": 329,
+    "size": "medium",
+    "monsterType": "humanoid (human",
+    "alignment": "shapechanger), chaotic evil",
+    "armorClass": "11 in humanoid form, 12 (natural armor)",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "30 ft. (40 ft. in wolf form)",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 14,
+      "conMod": 2,
+      "int": 10,
+      "intMod": 0,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Speed 30 ft",
+      "Shapechanger",
+      "Keen Hearing and Smell"
+    ],
+    "monsterActions": [
+      "Multiattack (Humanoid or Hybrid Form Only)",
+      "Bite (Wolf or Hybrid Form Only)",
+      "Claws (Hybrid Form Only)",
+      "Spear (Humanoid Form Only)"
+    ]
+  }
+}

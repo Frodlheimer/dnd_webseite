@@ -1,0 +1,32 @@
+{
+  "id": "condition-incapacitated",
+  "title": "Incapacitated",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:incapacitated",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "An incapacitated creature can’t take actions or reactions.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Incapacitated"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "An incapacitated creature can’t take actions or reactions."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "An incapacitated creature can’t take actions or reactions."
+    ]
+  }
+}

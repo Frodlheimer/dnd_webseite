@@ -1,0 +1,140 @@
+{
+  "id": "monster-young-copper-dragon",
+  "title": "Young Copper Dragon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:7",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Large dragon, chaotic good",
+  "sourcePageRange": "p.297-298",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Young Copper Dragon"
+    },
+    {
+      "type": "p",
+      "text": "Large dragon, chaotic good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 119 (14d10 + 42)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., climb 40 ft., fly 80 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 12 (+1) 17 (+3) 16 (+3) 13 (+1) 15 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +4, Con +6, Wis +4, Cha +5"
+    },
+    {
+      "type": "p",
+      "text": "Skills Deception +5, Perception +7, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities acid"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft., darkvision 120 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 17"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 7 (2,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The dragon makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Acid Breath. The dragon exhales acid in an 40--foot line"
+    },
+    {
+      "type": "p",
+      "text": "that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Slowing Breath. The dragon exhales gas in a 30--foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 297,
+    "sourcePageEnd": 298,
+    "size": "large",
+    "monsterType": "dragon",
+    "alignment": "chaotic good",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "119 (14d10 + 42)",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "challengeRating": "7",
+    "challengeXp": "2,900 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 17,
+      "conMod": 3,
+      "int": 16,
+      "intMod": 3,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 15,
+      "chaMod": 2
+    },
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Breath Weapons (Recharge 5-6)",
+      "Acid Breath",
+      "Slowing Breath"
+    ]
+  }
+}

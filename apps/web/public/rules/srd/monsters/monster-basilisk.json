@@ -1,0 +1,106 @@
+{
+  "id": "monster-basilisk",
+  "title": "Basilisk",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Medium monstrosity, unaligned",
+  "sourcePageRange": "p.265",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Basilisk"
+    },
+    {
+      "type": "p",
+      "text": "Medium monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 52 (8d8 + 16)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 8 (-1) 15 (+2) 2 (-4) 8 (-1) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Petrifying Gaze. If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn’t incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic. A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save."
+    },
+    {
+      "type": "p",
+      "text": "If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. H it: 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 265,
+    "sourcePageEnd": 265,
+    "size": "medium",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "52 (8d8 + 16)",
+    "speed": "20 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 15,
+      "conMod": 2,
+      "int": 2,
+      "intMod": -4,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Petrifying Gaze"
+    ],
+    "monsterActions": [
+      "Bite"
+    ]
+  }
+}

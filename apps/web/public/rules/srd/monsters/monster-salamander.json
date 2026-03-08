@@ -1,0 +1,129 @@
+{
+  "id": "monster-salamander",
+  "title": "Salamander",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Large elemental, neutral evil",
+  "sourcePageRange": "p.344",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Salamander"
+    },
+    {
+      "type": "p",
+      "text": "Large elemental, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 90 (12d10 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 14 (+2) 15 (+2) 11 (+0) 10 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities cold"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Sense s darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Ignan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Heated Body. A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Heated Weapons. Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack)."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The salamander makes two attacks: one with its spear and one with its tail."
+    },
+    {
+      "type": "p",
+      "text": "Spear. Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 344,
+    "sourcePageEnd": 344,
+    "size": "large",
+    "monsterType": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "90 (12d10 + 24)",
+    "speed": "30 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 15,
+      "conMod": 2,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Heated Body",
+      "Heated Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Spear",
+      "Tail"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "monster-young-white-dragon",
+  "title": "Young White Dragon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:6",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Large dragon, chaotic evil",
+  "sourcePageRange": "p.290",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Young White Dragon"
+    },
+    {
+      "type": "p",
+      "text": "Large dragon, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 133 (14d10 + 56)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 10 (+0) 18 (+4) 6 (-2) 11 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +3, Con +7, Wis +3, Cha +4"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +6, Stealth +3"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 6 (2,300 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The dragon makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Cold Breath (Recharge 5-6). The dragon exhales an icy blast in a 30--foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 290,
+    "sourcePageEnd": 290,
+    "size": "large",
+    "monsterType": "dragon",
+    "alignment": "chaotic evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "133 (14d10 + 56)",
+    "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+    "challengeRating": "6",
+    "challengeXp": "2,300 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 18,
+      "conMod": 4,
+      "int": 6,
+      "intMod": -2,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Ice Walk"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Cold Breath (Recharge 5-6)"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "condition-restrained",
+  "title": "Restrained",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:restrained",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Restrained"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.",
+        "Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage.",
+        "The creature has disadvantage on Dexterity saving throws."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.",
+      "Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage.",
+      "The creature has disadvantage on Dexterity saving throws."
+    ]
+  }
+}

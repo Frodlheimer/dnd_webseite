@@ -1,0 +1,131 @@
+{
+  "id": "plasmoid",
+  "slug": "plasmoid",
+  "name": "Plasmoid",
+  "group": "Setting Specific Lineages",
+  "groupSlug": "setting-specific-lineages",
+  "tags": [
+    "group:setting-specific-lineages",
+    "has:asi",
+    "has:darkvision",
+    "has:traits",
+    "kind:lineage",
+    "setting:spelljammer",
+    "size:medium",
+    "size:small",
+    "source:spelljammer-adventures-in-space-astral-adventurers-guide",
+    "speed:30",
+    "trait:ability-score-increase",
+    "trait:amorphous",
+    "trait:creature-type",
+    "trait:darkvision",
+    "trait:hold-breath",
+    "trait:languages",
+    "trait:natural-resilience",
+    "trait:shape-self",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis,...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Spelljammer: Adventures in Space - Astral Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores."
+    },
+    {
+      "type": "p",
+      "text": "Plasmoids don't have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound."
+    },
+    {
+      "type": "p",
+      "text": "When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment."
+    },
+    {
+      "type": "h5",
+      "text": "Plasmoid Traits"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.",
+        "Creature Type. You are an Ooze.",
+        "Size. You are Medium or Small. You choose the size when you gain this race.",
+        "Speed. Your walking speed is 30 feet.",
+        "Amorphous. You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.",
+        "Darkvision. You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+        "Hold Breath. You can hold your breath for 1 hour.",
+        "Natural Resilience. You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.",
+        "Shape Self. As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds.",
+        "Languages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1."
+    },
+    {
+      "label": "Creature Type",
+      "labelKey": "creature-type",
+      "value": "You are an Ooze."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "You are Medium or Small. You choose the size when you gain this race."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your walking speed is 30 feet."
+    },
+    {
+      "label": "Amorphous",
+      "labelKey": "amorphous",
+      "value": "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple."
+    },
+    {
+      "label": "Darkvision",
+      "labelKey": "darkvision",
+      "value": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    },
+    {
+      "label": "Hold Breath",
+      "labelKey": "hold-breath",
+      "value": "You can hold your breath for 1 hour."
+    },
+    {
+      "label": "Natural Resilience",
+      "labelKey": "natural-resilience",
+      "value": "You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned."
+    },
+    {
+      "label": "Shape Self",
+      "labelKey": "shape-self",
+      "value": "As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size. As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+    }
+  ],
+  "quickFacts": {
+    "source": "Spelljammer: Adventures in Space - Astral Adventurer's Guide",
+    "abilityScoreIncrease": "Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.",
+    "creatureType": "You are an Ooze.",
+    "size": "You are Medium or Small. You choose the size when you gain this race.",
+    "speed": "Your walking speed is 30 feet.",
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+    "darkvision": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+    "speedFeet": 30
+  },
+  "setting": "Spelljammer",
+  "settingSlug": "spelljammer"
+}

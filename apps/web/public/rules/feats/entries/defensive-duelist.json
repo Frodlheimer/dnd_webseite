@@ -1,0 +1,41 @@
+{
+  "id": "defensive-duelist",
+  "slug": "defensive-duelist",
+  "name": "Defensive Duelist",
+  "group": "Feats",
+  "summary": "When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially c...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Dexterity 13 or higher"
+    },
+    {
+      "type": "p",
+      "text": "When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you."
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "Dexterity 13 or higher"
+  },
+  "highlights": [],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

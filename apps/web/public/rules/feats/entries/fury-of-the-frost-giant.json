@@ -1,0 +1,62 @@
+{
+  "id": "fury-of-the-frost-giant",
+  "slug": "fury-of-the-frost-giant",
+  "name": "Fury Of The Frost Giant",
+  "group": "Feats",
+  "summary": "You've manifested the icy might emblematic of frost giants, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Bigby Presents - Glory of the Giants"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: 4th Level, Strike of the Giants (Frost Strike) Feat"
+    },
+    {
+      "type": "p",
+      "text": "You've manifested the icy might emblematic of frost giants, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+        "Born of Ice. You have resistance to cold damage.",
+        "Frigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON",
+        "WIS"
+      ],
+      "description": "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20."
+    },
+    "source": "Bigby Presents - Glory of the Giants",
+    "prerequisite": "4th Level, Strike of the Giants (Frost Strike) Feat"
+  },
+  "highlights": [
+    "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+    "Born of Ice. You have resistance to cold damage.",
+    "Frigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:con",
+    "ability:str",
+    "ability:wis",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:bigby-presents-glory-of-the-giants"
+  ]
+}

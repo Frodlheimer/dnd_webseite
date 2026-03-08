@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-luck-blade",
+  "title": "Luck Blade",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws. Luck. If the sword is on your person, you can call on its luck ...",
+  "sourcePageRange": "p.229",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Luck Blade Weapon (any sword), legendary (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws. Luck. If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can’t be used again until the next dawn. Wish. The sword has 1d4 - 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can’t be used again until the next dawn. The sword loses this property if it has no charges."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 229,
+    "sourcePageEnd": 229,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

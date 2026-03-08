@@ -1,0 +1,60 @@
+{
+  "id": "magic-item-gray-bag-of-tricks",
+  "title": "Gray Bag of Tricks",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "7 Dire wolf 8 Giant elk",
+  "sourcePageRange": "p.210-211",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gray Bag of Tricks"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d8",
+          "Creature"
+        ],
+        [
+          "1",
+          "Weasel"
+        ],
+        [
+          "2",
+          "Giant rat"
+        ],
+        [
+          "3",
+          "Badger"
+        ],
+        [
+          "4",
+          "Boar"
+        ],
+        [
+          "5",
+          "Panther"
+        ],
+        [
+          "6",
+          "Giant badger"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "7 Dire wolf 8 Giant elk"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 210,
+    "sourcePageEnd": 211,
+    "magicItemRequiresAttunement": false
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Planescape",
+  "slug": "cohort-of-chaos",
+  "url": "https://dnd5e.wikidot.com/feat:cohort-of-chaos",
+  "page_title": "cohort-of-chaos",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Planescape - Adventures in the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Scion of the Outer Planes"
+              },
+              {
+                "type": "text",
+                "text": " (Chaotic Outer Plane) Feat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can channel cosmic forces of chaos to gain these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ability Score Increase."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Increase an ability score of your choice by 1, to a maximum of 20."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chaotic Flare."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll a d4 and consult the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can't occur until after the first flare ends."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h4",
+        "children": [
+          {
+            "type": "text",
+            "text": "Chaotic Flares"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Flare"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Battle Fury."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " A creature of your choice that you can see is filled with reckless fury. It has advantage on attack rolls and disadvantage on ability checks."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Disruption Field."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " Waves of energy ripple around you. Every creature that starts its turn within 5 feet of you, or that moves into that area for the first time on a turn, takes 1d8 force damage."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Unbound."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " When you move, you can use some or all of your walking speed to teleport yourself once, along with any equipment you're wearing or carrying, up to the distance used to an unoccupied space that you can see."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Wailing Winds."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " Winds swirl in a 15-foot-radius sphere centered on you. You and any other creatures in that area have disadvantage on Wisdom saving throws."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Planescape - Adventures in the Multiverse</p>\n<p><em>Prerequisite: 4th Level, Scion of the Outer Planes (Chaotic Outer Plane) Feat.</em></p>\n<p>You can channel cosmic forces of chaos to gain these benefits:</p>\n<p><strong>Ability Score Increase.</strong> Increase an ability score of your choice by 1, to a maximum of 20.<br/>\n<strong>Chaotic Flare.</strong> When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll a d4 and consult the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can't occur until after the first flare ends.</p>\n<h4>Chaotic Flares</h4>\n<table>\n<tr>\n<th>d4</th>\n<th>Flare</th>\n</tr>\n<tr>\n<td>1</td>\n<td><strong>Battle Fury.</strong> A creature of your choice that you can see is filled with reckless fury. It has advantage on attack rolls and disadvantage on ability checks.</td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Disruption Field.</strong> Waves of energy ripple around you. Every creature that starts its turn within 5 feet of you, or that moves into that area for the first time on a turn, takes 1d8 force damage.</td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>Unbound.</strong> When you move, you can use some or all of your walking speed to teleport yourself once, along with any equipment you're wearing or carrying, up to the distance used to an unoccupied space that you can see.</td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Wailing Winds.</strong> Winds swirl in a 15-foot-radius sphere centered on you. You and any other creatures in that area have disadvantage on Wisdom saving throws.</td>\n</tr>\n</table>\n</div>"
+  }
+}

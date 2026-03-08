@@ -1,0 +1,103 @@
+{
+  "id": "magic-item-cube-of-force-faces",
+  "title": "Cube of Force Faces",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.",
+  "sourcePageRange": "p.215",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cube of Force Faces"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "1",
+          "Gases, wind, and fog can’t pass the barrier.",
+          "through"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "barrier. Walls, floors, and ceilings",
+          "can pass"
+        ],
+        [
+          "3",
+          "3",
+          "Living matter can’t pass through",
+          "the"
+        ],
+        [
+          "4",
+          "4",
+          "Spell effects can’t pass through",
+          "the barrier."
+        ],
+        [
+          "5",
+          "5",
+          "Nothing can pass through the",
+          "barrier."
+        ],
+        [
+          "Walls, floors, and ceilings can",
+          "pass through"
+        ],
+        [
+          "6",
+          "0",
+          "The barrier deactivates."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Spell or Item",
+          "Charges Lost"
+        ],
+        [
+          "Disintegrate",
+          "1d12"
+        ],
+        [
+          "Horn of blasting",
+          "1d10"
+        ],
+        [
+          "Passwall",
+          "1d6"
+        ],
+        [
+          "Prismatic spray",
+          "1d20"
+        ],
+        [
+          "Wall of fire",
+          "1d4"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 215,
+    "sourcePageEnd": 215,
+    "magicItemRequiresAttunement": false
+  }
+}

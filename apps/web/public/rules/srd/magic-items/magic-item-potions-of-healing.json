@@ -1,0 +1,53 @@
+{
+  "id": "magic-item-potions-of-healing",
+  "title": "Potions of Healing",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "",
+  "sourcePageRange": "p.234",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potions of Healing"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Potion of …",
+          "Rarity",
+          "HP Regained"
+        ],
+        [
+          "Healing",
+          "Common",
+          "2d4 + 2"
+        ],
+        [
+          "Greater healing",
+          "Uncommon",
+          "4d4 + 4"
+        ],
+        [
+          "Superior healing",
+          "Rare",
+          "8d4 + 8"
+        ],
+        [
+          "Supreme healing",
+          "Very rare",
+          "10d4 + 20"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 234,
+    "sourcePageEnd": 234,
+    "magicItemRequiresAttunement": false
+  }
+}

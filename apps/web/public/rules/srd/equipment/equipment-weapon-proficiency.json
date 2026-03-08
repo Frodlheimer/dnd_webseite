@@ -1,0 +1,232 @@
+{
+  "id": "equipment-weapon-proficiency",
+  "title": "Weapon Proficiency",
+  "category": "equipment",
+  "tags": [
+    "category:equipment",
+    "equipment:weapons",
+    "section:equipment",
+    "source:srd51"
+  ],
+  "summary": "Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people",
+  "sourcePageRange": "p.64",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Weapon Proficiency"
+    },
+    {
+      "type": "p",
+      "text": "Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Leather",
+          "10 gp",
+          "11 + Dex modifier",
+          "-",
+          "-",
+          "10 lb."
+        ],
+        [
+          "Studded",
+          "leather",
+          "45 gp",
+          "12 + Dex modifier",
+          "-",
+          "-",
+          "13 lb."
+        ],
+        [
+          "Hide",
+          "10 gp",
+          "12 + Dex modifier (max 2)",
+          "-",
+          "-",
+          "12 lb."
+        ],
+        [
+          "Chain shirt",
+          "50 gp",
+          "13 + Dex modifier (max 2)",
+          "-",
+          "-",
+          "20 lb."
+        ],
+        [
+          "Scale mail",
+          "50 gp",
+          "14 + Dex modifier (max 2)",
+          "-",
+          "Disadvantage",
+          "45 lb."
+        ],
+        [
+          "Breastplate",
+          "400 gp",
+          "14 + Dex modifier (max 2)",
+          "-",
+          "-",
+          "20 lb."
+        ],
+        [
+          "Half plate",
+          "750 gp",
+          "15 + Dex modifier (max 2)",
+          "-",
+          "Disadvantage",
+          "40 lb."
+        ],
+        [
+          "Ring mail",
+          "30 gp",
+          "14",
+          "-",
+          "Disadvantage",
+          "40 lb."
+        ],
+        [
+          "Chain mail",
+          "75 gp",
+          "16",
+          "Str 13",
+          "Disadvantage",
+          "55 lb."
+        ],
+        [
+          "Splint",
+          "200 gp",
+          "17",
+          "Str 15",
+          "Disadvantage",
+          "60 lb."
+        ],
+        [
+          "Plate",
+          "1,500 gp",
+          "18",
+          "Str 15",
+          "Disadvantage",
+          "65 lb."
+        ],
+        [
+          "Shield",
+          "10 gp",
+          "+2",
+          "-",
+          "-",
+          "6 lb."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 64,
+    "sourcePageEnd": 64,
+    "equipmentRows": [
+      [
+        "Leather",
+        "10 gp",
+        "11 + Dex modifier",
+        "-",
+        "-",
+        "10 lb."
+      ],
+      [
+        "Studded",
+        "leather",
+        "45 gp",
+        "12 + Dex modifier",
+        "-",
+        "-",
+        "13 lb."
+      ],
+      [
+        "Hide",
+        "10 gp",
+        "12 + Dex modifier (max 2)",
+        "-",
+        "-",
+        "12 lb."
+      ],
+      [
+        "Chain shirt",
+        "50 gp",
+        "13 + Dex modifier (max 2)",
+        "-",
+        "-",
+        "20 lb."
+      ],
+      [
+        "Scale mail",
+        "50 gp",
+        "14 + Dex modifier (max 2)",
+        "-",
+        "Disadvantage",
+        "45 lb."
+      ],
+      [
+        "Breastplate",
+        "400 gp",
+        "14 + Dex modifier (max 2)",
+        "-",
+        "-",
+        "20 lb."
+      ],
+      [
+        "Half plate",
+        "750 gp",
+        "15 + Dex modifier (max 2)",
+        "-",
+        "Disadvantage",
+        "40 lb."
+      ],
+      [
+        "Ring mail",
+        "30 gp",
+        "14",
+        "-",
+        "Disadvantage",
+        "40 lb."
+      ],
+      [
+        "Chain mail",
+        "75 gp",
+        "16",
+        "Str 13",
+        "Disadvantage",
+        "55 lb."
+      ],
+      [
+        "Splint",
+        "200 gp",
+        "17",
+        "Str 15",
+        "Disadvantage",
+        "60 lb."
+      ],
+      [
+        "Plate",
+        "1,500 gp",
+        "18",
+        "Str 15",
+        "Disadvantage",
+        "65 lb."
+      ],
+      [
+        "Shield",
+        "10 gp",
+        "+2",
+        "-",
+        "-",
+        "6 lb."
+      ]
+    ]
+  }
+}

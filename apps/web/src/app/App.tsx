@@ -73,6 +73,153 @@ const SubclassDetailRoute = lazy(async () => {
   };
 });
 
+const LineagesListRoute = lazy(async () => {
+  const module = await import('../routes/rules/LineagesListRoute');
+  return {
+    default: module.LineagesListRoute
+  };
+});
+
+const LineageDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/LineageDetailRoute');
+  return {
+    default: module.LineageDetailRoute
+  };
+});
+
+const FeatsListRoute = lazy(async () => {
+  const module = await import('../routes/rules/FeatsListRoute');
+  return {
+    default: module.FeatsListRoute
+  };
+});
+
+const FeatDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/FeatDetailRoute');
+  return {
+    default: module.FeatDetailRoute
+  };
+});
+
+const SrdRacesListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdRacesListRoute');
+  return {
+    default: module.SrdRacesListRoute
+  };
+});
+
+const SrdRaceDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdRaceDetailRoute');
+  return {
+    default: module.SrdRaceDetailRoute
+  };
+});
+
+const SrdEquipmentListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdEquipmentListRoute');
+  return {
+    default: module.SrdEquipmentListRoute
+  };
+});
+
+const SrdEquipmentDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdEquipmentDetailRoute');
+  return {
+    default: module.SrdEquipmentDetailRoute
+  };
+});
+
+const SrdConditionsListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdConditionsListRoute');
+  return {
+    default: module.SrdConditionsListRoute
+  };
+});
+
+const SrdConditionDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdConditionDetailRoute');
+  return {
+    default: module.SrdConditionDetailRoute
+  };
+});
+
+const SrdMagicItemsListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdMagicItemsListRoute');
+  return {
+    default: module.SrdMagicItemsListRoute
+  };
+});
+
+const SrdMagicItemDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdMagicItemDetailRoute');
+  return {
+    default: module.SrdMagicItemDetailRoute
+  };
+});
+
+const SrdAdventuringListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdAdventuringListRoute');
+  return {
+    default: module.SrdAdventuringListRoute
+  };
+});
+
+const SrdAdventuringDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdAdventuringDetailRoute');
+  return {
+    default: module.SrdAdventuringDetailRoute
+  };
+});
+
+const SrdCombatListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdCombatListRoute');
+  return {
+    default: module.SrdCombatListRoute
+  };
+});
+
+const SrdCombatDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdCombatDetailRoute');
+  return {
+    default: module.SrdCombatDetailRoute
+  };
+});
+
+const SrdSpellcastingRulesListRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdSpellcastingRulesListRoute');
+  return {
+    default: module.SrdSpellcastingRulesListRoute
+  };
+});
+
+const SrdSpellcastingRulesDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdSpellcastingRulesDetailRoute');
+  return {
+    default: module.SrdSpellcastingRulesDetailRoute
+  };
+});
+
+const SrdAttributionRoute = lazy(async () => {
+  const module = await import('../routes/rules/SrdAttributionRoute');
+  return {
+    default: module.SrdAttributionRoute
+  };
+});
+
+const SrdMonstersListRoute = lazy(async () => {
+  const module = await import('../routes/dm/SrdMonstersListRoute');
+  return {
+    default: module.SrdMonstersListRoute
+  };
+});
+
+const SrdMonsterDetailRoute = lazy(async () => {
+  const module = await import('../routes/dm/SrdMonsterDetailRoute');
+  return {
+    default: module.SrdMonsterDetailRoute
+  };
+});
+
 const CharacterBuilderRoute = lazy(async () => {
   const module = await import('../routes/player/CharacterBuilderRoute');
   return {
@@ -87,6 +234,13 @@ const CharacterBuilderHomeRoute = lazy(async () => {
   };
 });
 
+const PointBuyRoute = lazy(async () => {
+  const module = await import('../routes/player/PointBuyRoute');
+  return {
+    default: module.PointBuyRoute
+  };
+});
+
 const CharacterSheetsHubRoute = lazy(async () => {
   const module = await import('../routes/player/CharacterSheetsHubRoute');
   return {
@@ -98,6 +252,13 @@ const CharacterSheetEditorRoute = lazy(async () => {
   const module = await import('../routes/player/CharacterSheetEditorRoute');
   return {
     default: module.CharacterSheetEditorRoute
+  };
+});
+
+const DiceRoute = lazy(async () => {
+  const module = await import('../routes/DiceRoute');
+  return {
+    default: module.DiceRoute
   };
 });
 
@@ -133,6 +294,14 @@ const LoadingCharacterBuilderFallback = () => {
   );
 };
 
+const LoadingDiceFallback = () => {
+  return (
+    <section className="rounded-xl border border-slate-800 bg-slate-900/55 p-4 text-sm text-slate-300">
+      Loading dice tools...
+    </section>
+  );
+};
+
 const LegacySpellDetailRedirect = () => {
   const params = useParams<{ slug: string }>();
   const slug = params.slug ?? '';
@@ -149,6 +318,24 @@ const LegacySubclassDetailRedirect = () => {
   const params = useParams<{ id: string }>();
   const id = params.id ?? '';
   return <Navigate to={`/rules/subclasses/${id}`} replace />;
+};
+
+const LegacyLineageDetailRedirect = () => {
+  const params = useParams<{ id: string }>();
+  const id = params.id ?? '';
+  return <Navigate to={`/rules/lineages/${id}`} replace />;
+};
+
+const LegacyRaceDetailRedirect = () => {
+  const params = useParams<{ id: string }>();
+  const id = params.id ?? '';
+  return <Navigate to={`/rules/races/${id}`} replace />;
+};
+
+const LegacyFeatDetailRedirect = () => {
+  const params = useParams<{ id: string }>();
+  const id = params.id ?? '';
+  return <Navigate to={`/rules/feats/${id}`} replace />;
 };
 
 const AppRoutes = () => {
@@ -176,6 +363,14 @@ const AppRoutes = () => {
               element={
                 <Suspense fallback={<LoadingCharacterBuilderFallback />}>
                   <CharacterBuilderHomeRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="point-buy"
+              element={
+                <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                  <PointBuyRoute />
                 </Suspense>
               }
             />
@@ -210,10 +405,11 @@ const AppRoutes = () => {
             element={
               <PlaceholderRoute
                 title="Player Tools"
-                description="Dice and helper utilities are coming soon. You can still roll in /vtt."
+                description="Dice tools are now available at /dice. Additional utilities are coming soon."
               />
             }
           />
+          <Route path="player/tools/dice" element={<Navigate to="/dice" replace />} />
           <Route path="dm" element={<DmHubRoute />} />
           <Route
             path="dm/session"
@@ -240,6 +436,22 @@ const AppRoutes = () => {
                 title="NPC Library"
                 description="NPC templates and management are coming soon."
               />
+            }
+          />
+          <Route
+            path="dm/monsters"
+            element={
+              <Suspense fallback={<LoadingRulesFallback />}>
+                <SrdMonstersListRoute />
+              </Suspense>
+            }
+          />
+          <Route
+            path="dm/monsters/:id"
+            element={
+              <Suspense fallback={<LoadingRulesFallback />}>
+                <SrdMonsterDetailRoute />
+              </Suspense>
             }
           />
           <Route
@@ -276,6 +488,15 @@ const AppRoutes = () => {
                 title="Backups"
                 description="DM backup management is coming soon."
               />
+            }
+          />
+          <Route path="dm/tools/dice" element={<Navigate to="/dice" replace />} />
+          <Route
+            path="dice"
+            element={
+              <Suspense fallback={<LoadingDiceFallback />}>
+                <DiceRoute />
+              </Suspense>
             }
           />
           <Route
@@ -336,6 +557,158 @@ const AppRoutes = () => {
                 </Suspense>
               }
             />
+            <Route
+              path="lineages"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <LineagesListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="lineages/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <LineageDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="feats"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <FeatsListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="feats/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <FeatDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="races"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdRacesListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="races/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdRaceDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="equipment"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdEquipmentListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="equipment/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdEquipmentDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="conditions"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdConditionsListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="conditions/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdConditionDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="magic-items"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdMagicItemsListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="magic-items/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdMagicItemDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="adventuring"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdAdventuringListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="adventuring/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdAdventuringDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="combat"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdCombatListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="combat/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdCombatDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="spellcasting"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdSpellcastingRulesListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="spellcasting/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdSpellcastingRulesDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="srd-attribution"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <SrdAttributionRoute />
+                </Suspense>
+              }
+            />
           </Route>
           <Route
             path="feedback"
@@ -375,6 +748,18 @@ const AppRoutes = () => {
         <Route path="/classes" element={<Navigate to="/rules/classes" replace />} />
         <Route path="/class/:id" element={<LegacyClassDetailRedirect />} />
         <Route path="/subclass/:id" element={<LegacySubclassDetailRedirect />} />
+        <Route path="/lineages" element={<Navigate to="/rules/lineages" replace />} />
+        <Route path="/lineages/:id" element={<LegacyLineageDetailRedirect />} />
+        <Route path="/races" element={<Navigate to="/rules/races" replace />} />
+        <Route path="/races/:id" element={<LegacyRaceDetailRedirect />} />
+        <Route path="/equipment" element={<Navigate to="/rules/equipment" replace />} />
+        <Route path="/conditions" element={<Navigate to="/rules/conditions" replace />} />
+        <Route path="/magic-items" element={<Navigate to="/rules/magic-items" replace />} />
+        <Route path="/adventuring" element={<Navigate to="/rules/adventuring" replace />} />
+        <Route path="/combat" element={<Navigate to="/rules/combat" replace />} />
+        <Route path="/spellcasting" element={<Navigate to="/rules/spellcasting" replace />} />
+        <Route path="/feats" element={<Navigate to="/rules/feats" replace />} />
+        <Route path="/feats/:id" element={<LegacyFeatDetailRedirect />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       {backgroundLocation ? (

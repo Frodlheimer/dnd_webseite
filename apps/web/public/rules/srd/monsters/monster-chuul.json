@@ -1,0 +1,129 @@
+{
+  "id": "monster-chuul",
+  "title": "Chuul",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:4",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:aberration"
+  ],
+  "summary": "Large aberration, chaotic evil",
+  "sourcePageRange": "p.267-268",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Chuul"
+    },
+    {
+      "type": "p",
+      "text": "Large aberration, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 93 (11d10 + 33)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., swim 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 10 (+0) 16 (+3) 5 (-3) 11 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Deep Speech but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 4 (1,100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The chuul can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Sense Magic. The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn’t itself magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once."
+    },
+    {
+      "type": "p",
+      "text": "Pincer. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn’t have two other creatures grappled."
+    },
+    {
+      "type": "p",
+      "text": "Tentacles. One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 267,
+    "sourcePageEnd": 268,
+    "size": "large",
+    "monsterType": "aberration",
+    "alignment": "chaotic evil",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "93 (11d10 + 33)",
+    "speed": "30 ft., swim 30 ft.",
+    "challengeRating": "4",
+    "challengeXp": "1,100 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 16,
+      "conMod": 3,
+      "int": 5,
+      "intMod": -3,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Amphibious",
+      "Sense Magic"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Pincer",
+      "Tentacles"
+    ]
+  }
+}

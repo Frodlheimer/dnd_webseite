@@ -1,0 +1,116 @@
+{
+  "id": "monster-satyr",
+  "title": "Satyr",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fey"
+  ],
+  "summary": "Medium fey, chaotic neutral",
+  "sourcePageRange": "p.344",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Satyr"
+    },
+    {
+      "type": "p",
+      "text": "Medium fey, chaotic neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (leather armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 31 (7d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "12 (+1) 16 (+3) 11 (+0) 12 (+1) 10 (+0) 14 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2, Performance +6, Stealth +5"
+    },
+    {
+      "type": "p",
+      "text": "Sense s passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Elvish, Sylvan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The satyr has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Ram. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Shortsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Shortbow. Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 344,
+    "sourcePageEnd": 344,
+    "size": "medium",
+    "monsterType": "fey",
+    "alignment": "chaotic neutral",
+    "armorClass": "14 (leather armor)",
+    "hitPoints": "31 (7d8)",
+    "speed": "40 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 12,
+      "strMod": 1,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 11,
+      "conMod": 0,
+      "int": 12,
+      "intMod": 1,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 14,
+      "chaMod": 2
+    },
+    "monsterTraits": [
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Ram",
+      "Shortsword",
+      "Shortbow"
+    ]
+  }
+}

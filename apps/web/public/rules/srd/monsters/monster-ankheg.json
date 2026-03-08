@@ -1,0 +1,104 @@
+{
+  "id": "monster-ankheg",
+  "title": "Ankheg",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.264-265",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ankheg"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor), 11 while prone"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 39 (6d10 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., burrow 10 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 11 (+0) 13 (+1) 1 (-5) 13 (+1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., tremorsense 60 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so."
+    },
+    {
+      "type": "p",
+      "text": "Acid Spray (Recharge 6). The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 264,
+    "sourcePageEnd": 265,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "14 (natural armor), 11 while prone",
+    "hitPoints": "39 (6d10 + 6)",
+    "speed": "30 ft., burrow 10 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 13,
+      "conMod": 1,
+      "int": 1,
+      "intMod": -5,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterActions": [
+      "Bite",
+      "Acid Spray (Recharge 6)"
+    ]
+  }
+}

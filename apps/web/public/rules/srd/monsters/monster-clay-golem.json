@@ -1,0 +1,148 @@
+{
+  "id": "monster-clay-golem",
+  "title": "Clay Golem",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:9",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:construct"
+  ],
+  "summary": "Large construct, unaligned",
+  "sourcePageRange": "p.315-316",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Clay Golem"
+    },
+    {
+      "type": "p",
+      "text": "Large construct, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 133 (14d10 + 56)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "20 (+5) 9 (-1) 18 (+4) 3 (-4) 8 (-1) 1 (-5)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities acid, poison, psychic; bludgeoning,"
+    },
+    {
+      "type": "p",
+      "text": "piercing, and slashing from nonmagical attacks that aren’t adamantine"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, frightened,"
+    },
+    {
+      "type": "p",
+      "text": "paralyzed, petrified, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands the languages of its creator but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 9 (5,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Acid Absorption . Whenever the golem is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt."
+    },
+    {
+      "type": "p",
+      "text": "Berserk. Whenever the golem starts its turn with 60 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+    },
+    {
+      "type": "p",
+      "text": "Immutable Form. The golem is immune to any spell or effect that would alter its form."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The golem has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The golem’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The golem makes two slam attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic."
+    },
+    {
+      "type": "p",
+      "text": "Haste (Recharge 5-6). Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 315,
+    "sourcePageEnd": 316,
+    "size": "large",
+    "monsterType": "construct",
+    "alignment": "unaligned",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "133 (14d10 + 56)",
+    "speed": "20 ft.",
+    "challengeRating": "9",
+    "challengeXp": "5,000 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 20,
+      "strMod": 5,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 18,
+      "conMod": 4,
+      "int": 3,
+      "intMod": -4,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 1,
+      "chaMod": -5
+    },
+    "monsterTraits": [
+      "Acid Absorption",
+      "Berserk",
+      "Immutable Form",
+      "Magic Resistance",
+      "Magic Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam",
+      "Haste (Recharge 5-6)"
+    ]
+  }
+}

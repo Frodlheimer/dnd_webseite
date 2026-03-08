@@ -1,0 +1,125 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Planescape",
+  "slug": "righteous-heritor",
+  "url": "https://dnd5e.wikidot.com/feat:righteous-heritor",
+  "page_title": "righteous-heritor",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Planescape - Adventures in the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Scion of the Outer Planes"
+              },
+              {
+                "type": "text",
+                "text": " (Good Outer Plane) Feat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can channel cosmic forces of good to gain these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ability Score Increase."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Increase an ability score of your choice by 1, to a maximum of 20."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Soothe Pain."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " When you or a creature within 30 feet of you takes damage, you can use your reaction to reduce that damage by 1d10 + your proficiency bonus. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Planescape - Adventures in the Multiverse</p>\n<p><em>Prerequisite: 4th Level, Scion of the Outer Planes (Good Outer Plane) Feat.</em></p>\n<p>You can channel cosmic forces of good to gain these benefits:</p>\n<p><strong>Ability Score Increase.</strong> Increase an ability score of your choice by 1, to a maximum of 20.<br/>\n<strong>Soothe Pain.</strong> When you or a creature within 30 feet of you takes damage, you can use your reaction to reduce that damage by 1d10 + your proficiency bonus. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>\n</div>"
+  }
+}

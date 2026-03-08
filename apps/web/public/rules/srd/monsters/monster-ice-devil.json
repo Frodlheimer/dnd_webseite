@@ -1,0 +1,146 @@
+{
+  "id": "monster-ice-devil",
+  "title": "Ice Devil",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:14",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Large fiend (devil), lawful evil",
+  "sourcePageRange": "p.277",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ice Devil"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 180 (19d10 + 76)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "21 (+5) 14 (+2) 18 (+4) 18 (+4) 15 (+2) 18 (+4)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +7, Con +9, Wis +7, Cha +9"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold, fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 60 ft., darkvision 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Infernal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 14 (11,500 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The devil has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The devil makes three attacks: one with its bite, one with its claws, and one with its tail."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage plus 10 (3d6) cold damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage plus 10 (3d6) cold damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage."
+    },
+    {
+      "type": "p",
+      "text": "Wall of Ice (Recharge 6). The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it’s a hemispherical dome up to 20 feet in diameter. When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold damage on a failed save, or half as much damage on a"
+    },
+    {
+      "type": "p",
+      "text": "successful one. The wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10--foot section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 277,
+    "sourcePageEnd": 277,
+    "size": "large",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "180 (19d10 + 76)",
+    "speed": "40 ft.",
+    "challengeRating": "14",
+    "challengeXp": "11,500 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 21,
+      "strMod": 5,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 18,
+      "conMod": 4,
+      "int": 18,
+      "intMod": 4,
+      "wis": 15,
+      "wisMod": 2,
+      "cha": 18,
+      "chaMod": 4
+    },
+    "monsterTraits": [
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claws",
+      "Tail",
+      "Wall of Ice (Recharge 6)"
+    ]
+  }
+}

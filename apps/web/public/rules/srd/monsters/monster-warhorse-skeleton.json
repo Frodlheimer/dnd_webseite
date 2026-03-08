@@ -1,0 +1,107 @@
+{
+  "id": "monster-warhorse-skeleton",
+  "title": "Warhorse Skeleton",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Large undead, lawful evil",
+  "sourcePageRange": "p.346",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Warhorse Skeleton"
+    },
+    {
+      "type": "p",
+      "text": "Large undead, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (barding scraps)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (3d10 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 12 (+1) 15 (+2) 2 (-4) 8 (-1) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities bludgeoning"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 346,
+    "sourcePageEnd": 346,
+    "size": "large",
+    "monsterType": "undead",
+    "alignment": "lawful evil",
+    "armorClass": "13 (barding scraps)",
+    "hitPoints": "22 (3d10 + 6)",
+    "speed": "60 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 15,
+      "conMod": 2,
+      "int": 2,
+      "intMod": -4,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterActions": [
+      "Hooves"
+    ]
+  }
+}

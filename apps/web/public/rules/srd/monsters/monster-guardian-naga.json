@@ -1,0 +1,160 @@
+{
+  "id": "monster-guardian-naga",
+  "title": "Guardian Naga",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:10",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, lawful good",
+  "sourcePageRange": "p.335",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Guardian Naga"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, lawful good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 127 (15d10 + 45)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 18 (+4) 16 (+3) 16 (+3) 19 (+4) 18 (+4)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +8, Con +7, Int +7, Wis +8, Cha +8"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Celestial, Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 10 (5,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Rejuvenation. If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+    },
+    {
+      "type": "p",
+      "text": "Spellcasting. The naga is an 11th--level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal"
+    },
+    {
+      "type": "p",
+      "text": "components to cast its spells. It has the following cleric spells prepared:"
+    },
+    {
+      "type": "p",
+      "text": "Cantrips (at will): mending , sacred flame , thaumaturgy"
+    },
+    {
+      "type": "p",
+      "text": "1st level (4 slots): command , cure wounds , shield of"
+    },
+    {
+      "type": "p",
+      "text": "faith"
+    },
+    {
+      "type": "p",
+      "text": "2nd level (3 slots): calm emotions , hold person"
+    },
+    {
+      "type": "p",
+      "text": "3rd level (3 slots): bestow curse , clairvoyance"
+    },
+    {
+      "type": "p",
+      "text": "4th level (3 slots): banishment , freedom of movement"
+    },
+    {
+      "type": "p",
+      "text": "5th level (2 slots): flame strike , geas"
+    },
+    {
+      "type": "p",
+      "text": "6th level (1 slot): true seeing"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Spit Poison. Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 335,
+    "sourcePageEnd": 335,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "lawful good",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "127 (15d10 + 45)",
+    "speed": "40 ft.",
+    "challengeRating": "10",
+    "challengeXp": "5,900 XP",
+    "initiativeMod": 4,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 18,
+      "dexMod": 4,
+      "con": 16,
+      "conMod": 3,
+      "int": 16,
+      "intMod": 3,
+      "wis": 19,
+      "wisMod": 4,
+      "cha": 18,
+      "chaMod": 4
+    },
+    "monsterTraits": [
+      "Rejuvenation",
+      "Spellcasting"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Spit Poison"
+    ]
+  }
+}

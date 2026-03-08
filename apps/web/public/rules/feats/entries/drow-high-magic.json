@@ -1,0 +1,44 @@
+{
+  "id": "drow-high-magic",
+  "slug": "drow-high-magic",
+  "name": "Drow High Magic",
+  "group": "Racial Feats",
+  "summary": "You learn more of the magic typical of dark elves. You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once wi...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Elf (drow)"
+    },
+    {
+      "type": "p",
+      "text": "You learn more of the magic typical of dark elves. You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells."
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Elf"
+    ],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Elf (drow)"
+  },
+  "highlights": [],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:racial-feats",
+    "has:prerequisite",
+    "kind:feat",
+    "race:elf",
+    "source:xanathars-guide-to-everything"
+  ]
+}

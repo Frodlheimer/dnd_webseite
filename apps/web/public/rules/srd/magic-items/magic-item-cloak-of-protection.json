@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-cloak-of-protection",
+  "title": "Cloak of Protection",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +1 bonus to AC and saving throws while you wear this cloak.",
+  "sourcePageRange": "p.214",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cloak of Protection Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +1 bonus to AC and saving throws while you wear this cloak."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 214,
+    "sourcePageEnd": 214,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

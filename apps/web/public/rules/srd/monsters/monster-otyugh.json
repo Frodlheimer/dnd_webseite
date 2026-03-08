@@ -1,0 +1,121 @@
+{
+  "id": "monster-otyugh",
+  "title": "Otyugh",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:aberration"
+  ],
+  "summary": "Large aberration, neutral",
+  "sourcePageRange": "p.339",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Otyugh"
+    },
+    {
+      "type": "p",
+      "text": "Large aberration, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 114 (12d10 + 48)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 11 (+0) 19 (+4) 6 (-2) 13 (+1) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Con +7"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages Otyugh"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Limited Telepathy. The otyugh can magically transmit simple messages and images to any creature within 120 feet of it that can understand a language. This form of telepathy doesn’t allow the receiving creature to telepathically respond."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The otyugh makes three attacks: one with its bite and two with its tentacles."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target’s hit point maximum lasts until the disease is cured."
+    },
+    {
+      "type": "p",
+      "text": "Tentacle. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple one target."
+    },
+    {
+      "type": "p",
+      "text": "Tentacle Slam. The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh’s next turn. On a successful save, the target takes half the bludgeoning damage and isn’t stunned."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 339,
+    "sourcePageEnd": 339,
+    "size": "large",
+    "monsterType": "aberration",
+    "alignment": "neutral",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "114 (12d10 + 48)",
+    "speed": "30 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 19,
+      "conMod": 4,
+      "int": 6,
+      "intMod": -2,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Limited Telepathy"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Tentacle",
+      "Tentacle Slam"
+    ]
+  }
+}

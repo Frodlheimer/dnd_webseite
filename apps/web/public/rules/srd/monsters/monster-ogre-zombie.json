@@ -1,0 +1,114 @@
+{
+  "id": "monster-ogre-zombie",
+  "title": "Ogre Zombie",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Large undead, neutral evil",
+  "sourcePageRange": "p.357",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ogre Zombie"
+    },
+    {
+      "type": "p",
+      "text": "Large undead, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 8"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 85 (9d10 + 36)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 6 (-2) 18 (+4) 3 (-4) 6 (-2) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Wis +0"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 8"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Common and Giant but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Undead Fortitude. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Morningstar. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 357,
+    "sourcePageEnd": 357,
+    "size": "large",
+    "monsterType": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "8",
+    "hitPoints": "85 (9d10 + 36)",
+    "speed": "30 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": -2,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 6,
+      "dexMod": -2,
+      "con": 18,
+      "conMod": 4,
+      "int": 3,
+      "intMod": -4,
+      "wis": 6,
+      "wisMod": -2,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Undead Fortitude"
+    ],
+    "monsterActions": [
+      "Morningstar"
+    ]
+  }
+}

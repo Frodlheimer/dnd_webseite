@@ -80,6 +80,40 @@ Empfohlene Commit-Checkliste:
     - `spellSlotsByLevel`, `featuresByLevel`, `progressionByLevel`, `grantedSpellRefs`
   - strikte Link-Sanitisierung: `wikidot`/HTTP-URLs werden beim Build entfernt
   - keine API-Endpunkte, nur statische Files
+- Stats & Rules -> Races & Lineages (OOG, client-only):
+  - Routes `\/rules\/lineages`, `\/rules\/lineages\/:id`
+  - Datensatz wird zur Build-Zeit aus `content\/` JSON-Dateien erzeugt (nur `kind=LINEAGE`)
+  - Build erzeugt kleinen Index + statische Detail-JSONs:
+    - `apps\/web\/src\/rules\/lineages\/generated\/lineagesIndex.ts`
+    - `apps\/web\/public\/rules\/lineages\/entries\/<id>.json`
+  - Worker-basierte Sofortfilterung (Name, Group, Setting, Tags) mit voraggregierten Tag-Bitsets
+  - Detailansicht rendert strukturierte Dokument-Bloecke (Heading, Paragraph, List, Table, Pre)
+  - Quick Facts + Traits werden aus den JSON-Inhalten best-effort extrahiert (z. B. ASI, Size, Speed, Languages)
+  - strikte Link-Sanitisierung: `wikidot`/HTTP-URLs werden beim Build entfernt
+  - keine API-Endpunkte, nur statische Files
+- Stats & Rules -> Feats (OOG, client-only):
+  - Routes `\/rules\/feats`, `\/rules\/feats\/:id`
+  - Datensatz wird zur Build-Zeit aus `content\/` JSON-Dateien erzeugt (nur `kind=FEAT`)
+  - Build erzeugt kleinen Index + statische Detail-JSONs:
+    - `apps\/web\/src\/rules\/feats\/generated\/featsIndex.ts`
+    - `apps\/web\/public\/rules\/feats\/entries\/<id>.json`
+  - Worker-basierte Sofortfilterung (Name, Race-Prerequisite, Ability-Increase, Tags)
+  - strikte Link-Sanitisierung: `wikidot`/HTTP-URLs werden beim Build entfernt
+  - keine API-Endpunkte, nur statische Files
+- Stats & Rules -> SRD 5.1 CC (OOG, client-only):
+  - neue SRD-Sektionen unter `/rules`: `Races`, `Equipment`, `Adventuring`, `Combat`, `Spellcasting Rules`, `Conditions`, `Magic Items`, `SRD Attribution`
+  - Build-Time Verarbeitung aus `content/SRD_CC_v5.1.json` (oder `SRD_JSON_PATH`)
+  - Build erzeugt:
+    - `apps/web/src/rules/srd/generated/srdIndex.ts` (leichter Meta-Index)
+    - `apps/web/src/rules/srd/generated/srdBitsets.ts` (Tag-Bitsets fuer Worker-Filter)
+    - `apps/web/public/rules/srd/<category>/<id>.json` (Detaildateien on-demand)
+  - Suche/Filterung voll clientseitig per Web Worker + Bitsets
+  - keine API-Endpunkte, nur statische Files
+- DM -> Monsters (SRD) (OOG, client-only):
+  - Routes `/dm/monsters`, `/dm/monsters/:id`
+  - schnelle Filter (Name/Type/CR/Size) via SRD Worker
+  - Monster-Detailansicht inkl. `Add to NPC Library` (lokales IndexedDB Repo `dnd-vtt-dm-data-v1`)
+  - keine API-Endpunkte, nur statische Files
 - Character Builder -> Character Sheets (OOG, client-only):
   - Route `\/player\/characters\/sheets` listet eingebaute PDF-Templates (General + Klassen)
   - Build-Time Generator extrahiert AcroForm-Widget-Felder aus lokalen PDFs in JSON Templates
@@ -93,6 +127,36 @@ Empfohlene Commit-Checkliste:
   - Import:
     - `Import filled PDF` liest Feldwerte clientseitig, matched Template per Feldnamen-Overlap und oeffnet Editor mit Werten
   - keine Server-Endpunkte, keine Server-Last fuer Character Sheets
+- Character Builder -> Point Buy Calculator (OOG, client-only):
+  - Route `\/player\/characters\/point-buy`
+  - exakte SRD Point-Buy-Kostentabelle (27 Punkte, Scores 8..15)
+  - zwei Bonusmodi:
+    - `SRD 5.2 Background bonuses` (+2/+1 oder +1/+1/+1 innerhalb der 3 Background-Abilities)
+    - `Legacy Race bonuses` (inkl. Half-Elf- und Custom-Option)
+  - Level-/Class-abhaengige ASI/Feat-Slots mit Auswahl:
+    - `Ability Score Improvement` (+2 oder +1/+1)
+    - `Feat (no ASI)`
+    - `Feat (+1 ability)`
+  - Feat-Auswahl nutzt den eingebauten Feats-Datensatz (Prerequisite + Ability-Increase werden erkannt)
+  - Bei `Feat (+1 ability)` wird die erlaubte Ability aus dem gewaehlten Feat abgeleitet (fix oder Auswahlmenge)
+  - Finalscores werden auf 20 gecappt (inkl. Validierungs-Hinweisen)
+  - Persistenz lokal in `localStorage` (`characterBuilder.pointBuy.v1`)
+  - keine Server-Endpunkte, keine Server-Last
+- OOG Dice Page (client-only):
+  - Route `\/dice` (lazy loaded, getrennt von `/vtt`)
+  - Multi-Dice Roller mit Standardwuerfeln (`d4`..`d100`), Modifier, Verlauf (lokal) und Copy-Output
+  - Initiative Roller:
+    - Quick Groups (`name`, `count`, `initiativeMod`)
+    - optional aus lokaler NPC Library (`dnd-vtt-dm-data-v1`, Store `npcs`)
+    - globale Initiative-Modifikatoren, Sortierung (Total -> d20 -> Name), Copy als TSV + Markdown
+  - Animation modes: `Off`, `2D` (SVG), `3D` (`@3d-dice/dice-box`)
+    - Default: `Off` bei `prefers-reduced-motion`, sonst `2D`
+    - `3D` ist lazy-loaded und faellt bei Init-Fehler automatisch auf `2D`/`Off` zurueck
+    - gemischte Wuerfelgruppen rollen in `3D` gleichzeitig
+  - Ergebnis-Optionen:
+    - `Add all dice` oder `Add same dice only`
+    - optional `Separate d20 / d100` fuer DnD-orientierte Auswertung
+  - keine API-Endpunkte, keine Server-Persistenz, kein Server-Compute fuer Rolls
 - Neue Landing/Home als Hub:
   - OOG Layout mit Header (Logo, Global Search, Login Placeholder), Footer und Ad-Placeholder Slots
   - Primary CTA `Resume` (oeffnet `/vtt`) + `Join Session` (`/player/join`)
@@ -185,14 +249,18 @@ Empfohlene Commit-Checkliste:
 
 - OOG (Out-of-game):
   - `/` = Landing/Home Hub
+  - `/dice` = OOG Dice Tools (Multi Dice + Initiative, client-only)
   - `/player` = Player Hub
   - `/player/join` = Join Formular (Join-Code, Display Name, Role)
   - `/player/characters` = Character Builder Hub (Builder + Character Sheets)
+  - `/player/characters/point-buy` = Point Buy Calculator
   - `/player/characters/sheets` = Character Sheets Template Hub
   - `/player/characters/sheets/:templateId` = Character Sheet Editor
   - `/player/notes`, `/player/tools` = Placeholder
   - `/dm` = DM Hub
   - `/dm/session`, `/dm/maps`, `/dm/npcs`, `/dm/encounters`, `/dm/notes`, `/dm/audio`, `/dm/backups` = Placeholder
+  - `/dm/monsters` = SRD Monsterliste
+  - `/dm/monsters/:id` = SRD Monsterdetail
   - `/help`, `/feedback`, `/imprint`, `/login` = Placeholder/Info-Seiten
   - `/rules` = Stats & Rules Layout (linke Navigation)
   - `/rules/spells` = Spells Liste
@@ -200,16 +268,49 @@ Empfohlene Commit-Checkliste:
   - `/rules/classes` = Classes/Subclasses Liste
   - `/rules/classes/:id` = Class Detail
   - `/rules/subclasses/:id` = Subclass Detail
+  - `/rules/lineages` = Races/Lineages Liste
+  - `/rules/lineages/:id` = Lineage Detail
+  - `/rules/feats` = Feats Liste
+  - `/rules/feats/:id` = Feat Detail
+  - `/rules/races` = SRD Races Liste
+  - `/rules/races/:id` = SRD Race Detail
+  - `/rules/equipment` = SRD Equipment Liste
+  - `/rules/equipment/:id` = SRD Equipment Detail
+  - `/rules/adventuring` = SRD Adventuring Kapitel
+  - `/rules/adventuring/:id` = SRD Adventuring Kapitel Detail
+  - `/rules/combat` = SRD Combat Kapitel
+  - `/rules/combat/:id` = SRD Combat Kapitel Detail
+  - `/rules/spellcasting` = SRD Spellcasting Rules Kapitel
+  - `/rules/spellcasting/:id` = SRD Spellcasting Kapitel Detail
+  - `/rules/conditions` = SRD Conditions Liste
+  - `/rules/conditions/:id` = SRD Condition Detail
+  - `/rules/magic-items` = SRD Magic Items Liste
+  - `/rules/magic-items/:id` = SRD Magic Item Detail
+  - `/rules/srd-attribution` = CC-BY Attributionstext
 - IN-GAME:
   - `/vtt` = bestehende VTT UI (`AppShell`, Create/Join + Board), per Route Lazy-Load
 - TESTING:
   - `/battlemap-oog` = leere Out-of-Game Battlemap Sandbox (kein Room-Create/Join, nur lokales Testen)
 - Legacy Redirects:
+  - `/player/tools/dice` -> `/dice`
+  - `/dm/tools/dice` -> `/dice`
   - `/spells` -> `/rules/spells`
   - `/spells/:slug` -> `/rules/spells/:slug`
   - `/classes` -> `/rules/classes`
   - `/class/:id` -> `/rules/classes/:id`
   - `/subclass/:id` -> `/rules/subclasses/:id`
+  - `/lineages` -> `/rules/lineages`
+  - `/lineages/:id` -> `/rules/lineages/:id`
+  - `/races` -> `/rules/races`
+  - `/races/:id` -> `/rules/races/:id`
+  - `/equipment` -> `/rules/equipment`
+  - `/conditions` -> `/rules/conditions`
+  - `/magic-items` -> `/rules/magic-items`
+  - `/adventuring` -> `/rules/adventuring`
+  - `/combat` -> `/rules/combat`
+  - `/spellcasting` -> `/rules/spellcasting`
+  - `/feats` -> `/rules/feats`
+  - `/feats/:id` -> `/rules/feats/:id`
 - Join-Link-Verhalten:
   - `/?join=CODE` leitet auf `/player/join?join=CODE` weiter
   - `/player/join` navigiert mit Join-Daten nach `/vtt?join=CODE&name=...&role=...`
@@ -334,13 +435,16 @@ Source:
 - `apps/web/src/styles/index.css` - globale Styles
 - `apps/web/src/oog/OogLayout.tsx` - gemeinsames OOG Layout (Header/Search/Footer + Ads)
 - `apps/web/src/routes/LandingRoute.tsx` - Landing/Home Hub mit Card-Links
+- `apps/web/src/routes/DiceRoute.tsx` - OOG Dice Seite (Multi-Dice + Initiative)
+- `apps/web/src/dice3d/DiceBoxTray.tsx` - lazy 3D Dice Tray Adapter (`@3d-dice/dice-box`)
 - `apps/web/src/routes/VttRoute.tsx` - Route Wrapper fuer bestehendes `AppShell` (Lazy-Route)
 - `apps/web/src/routes/LoginRoute.tsx` - Login Placeholder Route
 - `apps/web/src/routes/PlaceholderRoute.tsx` - generische Placeholder Seite fuer OOG Unterrouten
 - `apps/web/src/routes/player/PlayerHubRoute.tsx` - Player Hub
 - `apps/web/src/routes/player/PlayerJoinRoute.tsx` - Player Join Flow (join/name/role -> `/vtt?...`)
 - `apps/web/src/routes/player/CharacterBuilderRoute.tsx` - Character Builder Layout mit Navigation
-- `apps/web/src/routes/player/CharacterBuilderHomeRoute.tsx` - Builder Home (coming soon Hinweis)
+- `apps/web/src/routes/player/CharacterBuilderHomeRoute.tsx` - Builder Home (Point Buy + Character Sheets)
+- `apps/web/src/routes/player/PointBuyRoute.tsx` - Point Buy Route Wrapper
 - `apps/web/src/routes/player/CharacterSheetsHubRoute.tsx` - Template Auswahl + Import Flow
 - `apps/web/src/routes/player/CharacterSheetEditorRoute.tsx` - Sheet Editor Route
 - `apps/web/src/routes/dm/DmHubRoute.tsx` - DM Hub
@@ -351,6 +455,22 @@ Source:
 - `apps/web/src/routes/rules/ClassDetailRoute.tsx` - Class Detail Route
 - `apps/web/src/routes/rules/SubclassDetailRoute.tsx` - Subclass Detail Route
 - `apps/web/src/routes/rules/ClassesDetailBaseRoute.tsx` - gemeinsame Detaillogik fuer Class/Subclass
+- `apps/web/src/routes/rules/LineagesListRoute.tsx` - Races/Lineages Liste + Filter
+- `apps/web/src/routes/rules/LineageDetailRoute.tsx` - Lineage Detail Route
+- `apps/web/src/routes/rules/FeatsListRoute.tsx` - Feats Liste + Filter
+- `apps/web/src/routes/rules/FeatDetailRoute.tsx` - Feat Detail Route
+- `apps/web/src/routes/rules/SrdCategoryListBaseRoute.tsx` - gemeinsame SRD Listenlogik (Filter + Pagination)
+- `apps/web/src/routes/rules/SrdCategoryDetailBaseRoute.tsx` - gemeinsame SRD Detaillogik
+- `apps/web/src/routes/rules/SrdRacesListRoute.tsx` / `SrdRaceDetailRoute.tsx` - SRD Races
+- `apps/web/src/routes/rules/SrdEquipmentListRoute.tsx` / `SrdEquipmentDetailRoute.tsx` - SRD Equipment
+- `apps/web/src/routes/rules/SrdAdventuringListRoute.tsx` / `SrdAdventuringDetailRoute.tsx` - SRD Adventuring
+- `apps/web/src/routes/rules/SrdCombatListRoute.tsx` / `SrdCombatDetailRoute.tsx` - SRD Combat
+- `apps/web/src/routes/rules/SrdSpellcastingRulesListRoute.tsx` / `SrdSpellcastingRulesDetailRoute.tsx` - SRD Spellcasting Rules
+- `apps/web/src/routes/rules/SrdConditionsListRoute.tsx` / `SrdConditionDetailRoute.tsx` - SRD Conditions
+- `apps/web/src/routes/rules/SrdMagicItemsListRoute.tsx` / `SrdMagicItemDetailRoute.tsx` - SRD Magic Items
+- `apps/web/src/routes/rules/SrdAttributionRoute.tsx` - SRD CC-BY Attribution
+- `apps/web/src/routes/dm/SrdMonstersListRoute.tsx` / `SrdMonsterDetailRoute.tsx` - SRD Monsters (DM)
+- `apps/web/src/routes/DiceRoute.test.tsx` - Dice Route Rendering Smoke Test
 - `apps/web/src/routes/LandingRoute.test.tsx` - Landing Routing/UI Test
 - `apps/web/src/components/search/GlobalSearch.test.tsx` - Global Search Shortcut Test
 
@@ -368,6 +488,14 @@ Board/UI:
 - `apps/web/src/components/boardTypes.ts` - Board/Tokens Typen + Sanitizer
 - `apps/web/src/components/BoardCanvas.tsx` - Pixi Board, Token Rendering, Map Edit Tools, Kontextmenu, Token Modal
 - `apps/web/src/components/ChatPanel.tsx` - Chat UI (Public, Whisper, DM-Note, Compose, Attachment-Status/Download)
+- `apps/web/src/dm/npcs/npcsRepository.ts` - lokale NPC Library in IndexedDB (`dnd-vtt-dm-data-v1`, Store `npcs`)
+- `apps/web/src/dice/rng.ts` - sichere RNG-Helfer (`crypto.getRandomValues`, rejection sampling)
+- `apps/web/src/dice/roll.ts` - Multi-Dice Roll Domainlogik + Resultmodell
+- `apps/web/src/dice/initiative.ts` - Initiative-Rolling, Sortierung und Copy-Formatter (TSV/Markdown)
+- `apps/web/src/dice/animation/useDiceAnimation.ts` - optionale clientseitige Dice-Animation
+- `apps/web/src/dice/ui/DiceTile.tsx` - SVG Dice Tile Renderer
+- `apps/web/src/dice/ui/DiceTray.tsx` - Dice Tray/Animation Renderer mit Visible-Cap
+- `apps/web/src/types/dice-box.d.ts` - minimale Type-Decls fuer `@3d-dice/dice-box`
 - `apps/web/src/characterSheets/types.ts` - Character Sheets Domaintypen
 - `apps/web/src/characterSheets/generated/templatesIndex.ts` - generierter Template-Index + Lazy-Loader
 - `apps/web/src/characterSheets/generated/template_*.json` - generierte Feld-/Page-Metadaten pro PDF-Template
@@ -377,7 +505,13 @@ Board/UI:
 - `apps/web/src/characterSheets/pdf/fillPdf.ts` - clientseitiges PDF-Fuellen + Download
 - `apps/web/src/characterSheets/pdf/readPdfFields.ts` - clientseitiges Feld-Auslesen aus hochgeladenem PDF
 - `apps/web/src/characterSheets/templateMatching.ts` - Template-Matching Heuristik (Feldnamen-Overlap)
+- `apps/web/src/characterBuilder/pointBuy/types.ts` - gemeinsame Point-Buy Typen/Abilities
+- `apps/web/src/characterBuilder/pointBuy/rules.ts` - Point-Buy Kernregeln und Finale-Score-Berechnung
+- `apps/web/src/characterBuilder/pointBuy/bonuses.ts` - SRD Background- und Legacy Race-Bonuslogik
+- `apps/web/src/characterBuilder/pointBuy/advancement.ts` - ASI/Feat-Slot-Berechnung aus Class-Daten + Fallback-Presets
+- `apps/web/src/characterBuilder/pointBuy/PointBuyCalculator.tsx` - Point-Buy UI inkl. lokaler Persistenz
 - `apps/web/scripts/build-character-sheets.ts` - Build-Script fuer Character Sheets aus lokalen PDFs
+- `apps/web/scripts/copy-dice-box-assets.ts` - kopiert Dice-Box Assets nach `public/assets/dice-box`
 - `apps/web/src/components/ads/AdSlot.tsx` - Ad Placeholder Komponente (`hero`, `rail`, `inline`, `footer`)
 - `apps/web/src/components/search/GlobalSearch.tsx` - Header Search Trigger + Shortcut Handling
 - `apps/web/src/components/search/SearchPalette.tsx` - Search Modal (Navigation, Recent Rooms, Quick Actions)
@@ -409,6 +543,38 @@ Board/UI:
 - `apps/web/src/rules/classes/ui/tagLabels.ts` - Tag-Label Formatter fuer Classes/Subclasses
 - `apps/web/src/rules/classes/api/classesData.ts` - future-proof Data Access API fuer Character Builder Lookups
 - `apps/web/scripts/build-classes-pack.ts` - Build-Script fuer eingebautes Classes/Subclasses Pack
+- `apps/web/src/rules/lineages/types.ts` - gemeinsame Lineages Pack-Typen
+- `apps/web/src/rules/lineages/generated/lineagesIndex.ts` - generierter Lineages-Index (Build-Time)
+- `apps/web/src/rules/lineages/parse/parseLineagesContentJson.ts` - JSON Parser + strukturierte Extraction fuer `content/*.json` (LINEAGE)
+- `apps/web/src/rules/lineages/worker/lineagesWorker.ts` - Worker Entry fuer schnelle Lineages-Filterung
+- `apps/web/src/rules/lineages/worker/lineagesWorkerClient.ts` - Worker Client API
+- `apps/web/src/rules/lineages/worker/filterLineages.ts` - Bitset-Filterlogik
+- `apps/web/src/rules/lineages/worker/messages.ts` - Worker Request/Response Typen
+- `apps/web/src/rules/lineages/ui/tagLabels.ts` - Tag-Label Formatter fuer Lineages
+- `apps/web/src/rules/lineages/api/lineagesData.ts` - Data Access API fuer Lineages Meta/Detail
+- `apps/web/scripts/build-lineages-pack.ts` - Build-Script fuer eingebautes Lineages Pack
+- `apps/web/src/rules/feats/types.ts` - gemeinsame Feats Pack-Typen
+- `apps/web/src/rules/feats/generated/featsIndex.ts` - generierter Feats-Index (Build-Time)
+- `apps/web/src/rules/feats/parse/parseFeatsContentJson.ts` - JSON Parser + strukturierte Extraction fuer `content/*.json` (FEAT)
+- `apps/web/src/rules/feats/worker/featsWorker.ts` - Worker Entry fuer schnelle Feats-Filterung
+- `apps/web/src/rules/feats/worker/featsWorkerClient.ts` - Worker Client API
+- `apps/web/src/rules/feats/worker/filterFeats.ts` - Bitset-Filterlogik
+- `apps/web/src/rules/feats/worker/messages.ts` - Worker Request/Response Typen
+- `apps/web/src/rules/feats/ui/tagLabels.ts` - Tag-Label Formatter fuer Feats
+- `apps/web/src/rules/feats/api/featsData.ts` - Data Access API fuer Feats Meta/Detail + Point-Buy Lookup
+- `apps/web/scripts/build-feats-pack.ts` - Build-Script fuer eingebautes Feats Pack
+- `apps/web/src/rules/srd/types.ts` - SRD Datentypen (Meta/Detail/Bitsets)
+- `apps/web/src/rules/srd/parse/srdJsonLoader.ts` - SRD JSON Loader + Block-Normalisierung
+- `apps/web/src/rules/srd/parse/segmentByHeadings.ts` - Segmentierungshilfen fuer SRD Kapitel/Eintraege
+- `apps/web/src/rules/srd/parse/extractors/index.ts` - SRD Kategorie-Extractor (Races/Equipment/Rules/Conditions/Magic Items/Monsters)
+- `apps/web/src/rules/srd/generated/srdIndex.ts` - generierter SRD Meta-Index
+- `apps/web/src/rules/srd/generated/srdBitsets.ts` - generierte SRD Tag-Bitsets fuer Worker
+- `apps/web/src/rules/srd/api/srdData.ts` - SRD Data Access API mit Detail-Cache
+- `apps/web/src/rules/srd/worker/srdWorker.ts` - SRD Worker Entry
+- `apps/web/src/rules/srd/worker/srdWorkerClient.ts` - SRD Worker Client API
+- `apps/web/src/rules/srd/worker/filterSrd.ts` - SRD Bitset-Filterlogik
+- `apps/web/src/rules/srd/ui/SrdDocumentBlocks.tsx` - Renderer fuer SRD Content-Bloecke
+- `apps/web/scripts/build-srd-pack.ts` - Build-Script fuer SRD 5.1 Pack
 - `apps/web/src/p2p/fileTransfer.ts` - WebRTC DataChannel Transfer Layer fuer Chat-Dateien (Offer/Answer/ICE + Chunking)
 - `apps/web/src/components/landing/MiniPixiStage.tsx` - lazy Mini-Pixi Stage pro Landing Card
 - `apps/web/src/components/landing/usePrefersReducedMotion.ts` - Motion-Praferenz Hook
@@ -434,6 +600,20 @@ Local Persistence/Sync:
 - `apps/web/src/rules/spells/worker/filterSpells.test.ts` - Worker-Filterlogik Tests
 - `apps/web/src/rules/classes/parse/parseClassesContentJson.test.ts` - JSON Parser Unit Test inkl. Wikidot/URL-Sanitisierung
 - `apps/web/src/rules/classes/worker/filterClasses.test.ts` - Worker-Filterlogik Tests
+- `apps/web/src/rules/lineages/parse/parseLineagesContentJson.test.ts` - Lineages Parser Unit Test inkl. Wikidot/URL-Sanitisierung
+- `apps/web/src/rules/lineages/worker/filterLineages.test.ts` - Worker-Filterlogik Tests
+- `apps/web/src/rules/feats/parse/parseFeatsContentJson.test.ts` - Feats Parser Unit Test inkl. Wikidot/URL-Sanitisierung
+- `apps/web/src/rules/feats/worker/filterFeats.test.ts` - Worker-Filterlogik Tests
+- `apps/web/src/rules/feats/api/featsData.test.ts` - Feats Data API Tests fuer Point-Buy Lookup
+- `apps/web/src/rules/srd/parse/extractors.test.ts` - SRD Parser/Extractor Unit Test mit Fixture
+- `apps/web/src/rules/srd/worker/filterSrd.test.ts` - SRD Worker-Filterlogik Tests
+- `apps/web/src/rules/srd/generated/srdBuildArtifacts.test.ts` - SRD Build-Artefakt-Test (Index/Details + kein `wikidot`)
+- `apps/web/src/dice/rng.test.ts` - RNG Range Tests
+- `apps/web/src/dice/roll.test.ts` - Multi-Dice Summen-/Anzahltests
+- `apps/web/src/dice/initiative.test.ts` - Initiative Modifier-/Sortier-/Formatter Tests
+- `apps/web/src/characterBuilder/pointBuy/rules.test.ts` - Point-Buy Kosten-/Cap-Tests
+- `apps/web/src/characterBuilder/pointBuy/bonuses.test.ts` - Half-Elf/Legacy-Bonus Tests
+- `apps/web/src/characterBuilder/pointBuy/advancement.test.ts` - ASI-Level-Erkennung + Fallback-Preset Tests
 
 Test Setup:
 
@@ -654,6 +834,14 @@ Stores:
 - `assets` (Blob + Meta)
 - `roomAssets` (Room-zu-Asset Referenzen)
 
+Weitere browserlokale DBs:
+
+- `dnd-vtt-character-sheets-v1`
+  - `instances` (ausgefuellte Character-Sheet Instanzen)
+  - `recent` (zuletzt geoeffnete Instanzen je Template)
+- `dnd-vtt-dm-data-v1`
+  - `npcs` (lokale NPC Library fuer OOG Initiative Roller, inkl. `initiativeMod`)
+
 Session Bundle:
 
 - Export/Import JSON mit `snapshot` + base64-Assets
@@ -716,6 +904,51 @@ pnpm dev
 
 Wenn das Verzeichnis fehlt oder keine validen CLASS/SUBCLASS JSONs enthalten sind, bricht `classes:build` mit klarer Fehlermeldung ab.
 
+### Lineages Pack Build (Stats & Rules)
+
+- Races/Lineages nutzen **keine Import-UI** und **keine API**.
+- Datensatz wird zur Build-Zeit lokal eingebettet:
+  - Standard: `./content` (JSON-Dateien mit `kind: "LINEAGE"`)
+  - Optional: `LINEAGES_JSON_DIR=<pfad>` setzen
+- Build:
+
+```powershell
+pnpm lineages:build
+pnpm dev
+```
+
+Wenn das Verzeichnis fehlt oder keine validen LINEAGE JSONs enthalten sind, bricht `lineages:build` mit klarer Fehlermeldung ab.
+
+### Feats Pack Build (Stats & Rules)
+
+- Feats nutzen **keine Import-UI** und **keine API**.
+- Datensatz wird zur Build-Zeit lokal eingebettet:
+  - Standard: `./content` (JSON-Dateien mit `kind: "FEAT"`)
+  - Optional: `FEATS_JSON_DIR=<pfad>` setzen
+- Build:
+
+```powershell
+pnpm feats:build
+pnpm dev
+```
+
+Wenn das Verzeichnis fehlt oder keine validen FEAT JSONs enthalten sind, bricht `feats:build` mit klarer Fehlermeldung ab.
+
+### SRD 5.1 Pack Build (Stats & Rules + DM Monsters)
+
+- SRD-Inhalte nutzen **keine Import-UI** und **keine API**.
+- Datensatz wird zur Build-Zeit lokal eingebettet:
+  - Standard: `./content/SRD_CC_v5.1.json`
+  - Optional: `SRD_JSON_PATH=<pfad>` setzen
+- Build:
+
+```powershell
+pnpm srd:build
+pnpm dev
+```
+
+Wenn die Datei fehlt, bricht `srd:build` mit klarer Fehlermeldung ab.
+
 ### Character Sheets Build (Character Builder)
 
 - Character Sheets nutzen **keinen Upload-Import fuer Templates** und **keine API**.
@@ -748,7 +981,12 @@ Wenn das Verzeichnis fehlt, bricht `sheets:build` mit klarer Fehlermeldung ab.
 - `pnpm health` - API Health + WS Smoke
 - `pnpm ws:test` - WS Smoke
 - `pnpm spells:build` - baut das integrierte Spells Pack aus `dnd5e_spells.txt`
+- `pnpm classes:build` - baut das integrierte Classes/Subclasses Pack aus `content/*.json`
+- `pnpm lineages:build` - baut das integrierte Races/Lineages Pack aus `content/*.json`
+- `pnpm feats:build` - baut das integrierte Feats Pack aus `content/*.json`
+- `pnpm srd:build` - baut das integrierte SRD 5.1 Pack aus `content/SRD_CC_v5.1.json`
 - `pnpm sheets:build` - baut Character Sheet Templates aus lokalen PDFs
+- `pnpm dice3d:assets` - kopiert `@3d-dice/dice-box` Assets nach `apps/web/public/assets/dice-box`
 - `pnpm local:audit` - `pnpm test` + `pnpm health` + `pnpm ws:test` + statische LOCAL-Hinweise
 
 ### API Workspace Scripts
@@ -764,8 +1002,12 @@ Wenn das Verzeichnis fehlt, bricht `sheets:build` mit klarer Fehlermeldung ab.
 - `pnpm --filter @dnd-vtt/web test`
 - `pnpm --filter @dnd-vtt/web spells:build`
 - `pnpm --filter @dnd-vtt/web classes:build`
+- `pnpm --filter @dnd-vtt/web lineages:build`
+- `pnpm --filter @dnd-vtt/web feats:build`
+- `pnpm --filter @dnd-vtt/web srd:build`
 - `pnpm --filter @dnd-vtt/web sheets:build`
-- `predev`/`prebuild`/`pretest` in `@dnd-vtt/web` fuehren `spells:build` + `classes:build` + `sheets:build` automatisch aus
+- `pnpm --filter @dnd-vtt/web dice3d:assets`
+- `predev`/`prebuild`/`pretest` in `@dnd-vtt/web` fuehren `content:build` (inkl. `srd:build`) + `dice3d:assets` automatisch aus
 
 ### Shared Workspace Scripts
 
@@ -868,7 +1110,48 @@ Hinweis:
    - `rg -n -i wikidot apps/web/src/rules/classes/generated apps/web/public/rules/classes/entries`
    - Erwartung: keine Treffer.
 
-### 5) Manueller Character Sheets Smoke
+### 5) Manueller Stats-&-Rules Races/Lineages Smoke
+
+1. Browser auf `/rules/lineages` oeffnen.
+2. Erwartung:
+   - Liste rendert schnell (ohne API-Calls), Group/Setting/Tag Filter sind sichtbar.
+3. In der Liste:
+   - Name-Filter tippen (z. B. `elf`) -> Ergebnisse aktualisieren sofort.
+   - Group und Setting wechseln -> Treffer werden sofort eingegrenzt.
+4. Einen Lineage-Eintrag klicken.
+5. Erwartung:
+   - Navigation auf `/rules/lineages/:id`.
+   - Detailansicht zeigt Quick Facts, Traits und sauber strukturierte Rules-Bloecke (Listen/Tabellen/Headings).
+6. Legacy-Redirects pruefen:
+   - `/lineages` -> `/rules/lineages`
+   - `/lineages/elf` -> `/rules/lineages/elf`
+   - `/races` -> `/rules/lineages`
+7. Optional Konsistenzcheck:
+   - `rg -n -i wikidot apps/web/src/rules/lineages/generated apps/web/public/rules/lineages/entries`
+   - Erwartung: keine Treffer.
+
+### 6) Manueller SRD 5.1 Rules + DM Monsters Smoke
+
+1. Browser auf `/rules/conditions` oeffnen.
+2. Erwartung:
+   - Liste rendert sofort (clientseitig), Name/Tag Filter reagieren ohne API-Requests.
+3. Einen Condition-Eintrag oeffnen.
+4. Erwartung:
+   - Detailansicht zeigt strukturierte Regeln (List/Tabelle/Paragraph) aus statischer JSON-Datei.
+5. Browser auf `/rules/magic-items` und `/rules/races` pruefen.
+6. Erwartung:
+   - beide Listen rendern schnell, Detailseiten laden on-demand per statischer Datei unter `/rules/srd/...`.
+7. Browser auf `/rules/srd-attribution` oeffnen.
+8. Erwartung:
+   - CC-BY Attributionstext wird angezeigt.
+9. Browser auf `/dm/monsters` oeffnen.
+10. Erwartung:
+   - Monsterliste mit Filtern `Type`, `CR`, `Size`.
+11. Einen Monster-Eintrag oeffnen und `Add to NPC Library` klicken.
+12. Erwartung:
+   - Erfolgsmeldung erscheint, NPC ist lokal fuer OOG Initiative nutzbar.
+
+### 7) Manueller Character Sheets Smoke
 
 1. Browser auf `/player/characters/sheets` oeffnen.
 2. Erwartung:
@@ -885,7 +1168,33 @@ Hinweis:
 9. Erwartung:
    - Feldwerte werden in den Editor uebernommen.
 
-### 6) Manueller LOCAL Session Smoke
+### 8) Manueller OOG Dice Smoke
+
+1. Browser auf `/dice` oeffnen.
+2. Multi-Dice pruefen:
+   - z. B. `2d20 + 3d6` setzen, Modifier eintragen, `Roll` klicken.
+   - Erwartung: Ergebnis, Dice Tray und History aktualisieren sich sofort.
+3. `Copy result` klicken.
+4. Erwartung:
+   - kompakter Roll-String landet in der Zwischenablage.
+5. Initiative Quick Groups pruefen:
+   - Gruppen mit Name/Count/Mod anlegen und `Roll Initiative` klicken.
+   - Erwartung: Tabelle sortiert absteigend nach Total, bei Gleichstand nach d20 und Name.
+6. Initiative `From NPC Library` pruefen:
+   - falls NPCs in `dnd-vtt-dm-data-v1` vorhanden sind: mehrere waehlen, Count/Mod optional anpassen, rollen.
+   - falls keine NPCs vorhanden: Hinweis `No NPCs found in your library yet.`.
+7. Animation mode pruefen:
+   - `Animation mode` auf `Off`, `2D`, `3D` umschalten.
+   - `3D`: Tray muss erscheinen, `Roll` aktualisiert dieselbe Result-/History-UI.
+   - gemischter Roll (`2d20 + 1d6`) in `3D`: Gruppen rollen gleichzeitig.
+   - `Total mode` + `Separate d20 / d100` pruefen.
+   - bei `prefers-reduced-motion`: Default ist `Off`.
+8. 3D Fallback pruefen:
+   - WebGL blockieren/Fehler simulieren -> UI faellt automatisch auf `2D` bzw. `Off` zurueck und zeigt Hinweis.
+9. Devtools/Netzwerk pruefen:
+   - keine API Requests fuer Dice oder Initiative (alles clientseitig/lokal).
+
+### 9) Manueller LOCAL Session Smoke
 
 1. Browser A: Room als DM erstellen (`Local (Free)`).
 2. Map hochladen und aktiv setzen.
@@ -907,14 +1216,14 @@ Hinweis:
    - Nachricht mit `https://...` senden; Link muss klickbar sein und neuen Tab oeffnen.
    - Optional in API/WS Logs pruefen: keine grossen Datei-Payloads, nur kleine Signaling Messages.
 
-### 7) Reconnect Smoke
+### 10) Reconnect Smoke
 
 1. Host refresh/reconnect.
 2. Erwartung:
    - Snapshot wird aus IndexedDB geladen.
    - Teilnehmer erhalten konsistenten State nach Resync.
 
-### 8) Export/Import Smoke (LOCAL)
+### 11) Export/Import Smoke (LOCAL)
 
 1. `Export Session` ausfuehren.
 2. Datei wieder importieren.
@@ -942,10 +1251,14 @@ Web:
 - Global Search Shortcut Smoke (`Ctrl/Cmd+K` oeffnet Palette)
 - Chat Dedupe + Host-Chat-Logik (Filter/Authz)
 - IndexedDB Session Repository
+- Dice RNG + Roll + Initiative Unit Tests
 - Spells TXT Parser + Pack Builder
 - Spells Worker Filterlogik (Tag-Bitsets + Query + Pagination)
 - Classes/Subclasses JSON Parser + Build-Time Sanitisierung (inkl. wikidot-/URL-Removal)
 - Classes/Subclasses Worker Filterlogik (Tag-Bitsets + Query + Kind/Class Filter)
+- SRD Parser/Extractor Unit Test (Fixture mit Headings/Tabellen/Conditions)
+- SRD Worker Filterlogik (Bitset + Query + Monsterfilter)
+- SRD Build-Artefakt-Test (Index/Bitsets/Detail-JSON vorhanden, kein `wikidot`)
 
 Shared:
 
@@ -963,6 +1276,7 @@ Shared:
 - MapEdit Zustand im API Prozessspeicher ist nur fuer CLOUD relevant (nicht persistent, kein Eventstore).
 - Spells Pack Build benoetigt `dnd5e_spells.txt` im Repo-Root oder `SPELLS_TXT_PATH`.
 - Classes/Subclasses Pack Build benoetigt JSON Quelldateien in `./content` oder `CLASSES_JSON_DIR`.
+- SRD Pack Build benoetigt `content/SRD_CC_v5.1.json` oder `SRD_JSON_PATH`.
 
 ## Troubleshooting
 

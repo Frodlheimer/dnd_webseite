@@ -1,0 +1,63 @@
+{
+  "id": "dragon-fear",
+  "slug": "dragon-fear",
+  "name": "Dragon Fear",
+  "group": "Racial Feats",
+  "summary": "When angered, you radiate menace. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Dragonborn"
+    },
+    {
+      "type": "p",
+      "text": "When angered, you radiate menace. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.",
+        "Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Dragonborn"
+    ],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON",
+        "CHA"
+      ],
+      "description": "Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20."
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Dragonborn"
+  },
+  "highlights": [
+    "Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.",
+    "Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:cha",
+    "ability:con",
+    "ability:str",
+    "collection:published",
+    "group:racial-feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:dragonborn",
+    "source:xanathars-guide-to-everything"
+  ]
+}

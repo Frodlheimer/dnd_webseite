@@ -1,0 +1,52 @@
+{
+  "id": "squire-of-solamnia",
+  "slug": "squire-of-solamnia",
+  "name": "Squire Of Solamnia",
+  "group": "Feats",
+  "summary": "Your training in the ways of the Knights of Solamnia grants you these benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Dragonlance Campaign, Fighter or Paladin Class or Knight of Solamnia Background"
+    },
+    {
+      "type": "p",
+      "text": "Your training in the ways of the Knights of Solamnia grants you these benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Mount Up. Mounting or dismounting costs you only 5 feet of movement.",
+        "Precise Strike. Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Dragonlance: Shadow of the Dragon Queen",
+    "prerequisite": "Dragonlance Campaign, Fighter or Paladin Class or Knight of Solamnia Background"
+  },
+  "highlights": [
+    "Mount Up. Mounting or dismounting costs you only 5 feet of movement.",
+    "Precise Strike. Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
+  ],
+  "collection": "Dragonlance",
+  "tags": [
+    "collection:dragonlance",
+    "group:feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:dragonlance-shadow-of-the-dragon-queen"
+  ]
+}

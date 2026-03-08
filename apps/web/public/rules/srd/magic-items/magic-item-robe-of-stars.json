@@ -1,0 +1,44 @@
+{
+  "id": "magic-item-robe-of-stars",
+  "title": "Robe of Stars",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it. Six stars, located on the robe’s upper front portion, are particularly large. While...",
+  "sourcePageRange": "p.239",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Robe of Stars Wondrous item, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it. Six stars, located on the robe’s upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast magic missile as a 5th---level spell. Daily at dusk, 1d6 removed stars reappear on the robe. While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space."
+    },
+    {
+      "type": "p",
+      "text": "Robe of the Archmagi Wondrous item, legendary (requires attunement by a sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robe’s color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You can’t attune to a robe of the archmagi that doesn’t correspond to your alignment. You gain these benefits while wearing the robe:"
+    },
+    {
+      "type": "p",
+      "text": "• If you aren’t wearing armor, your base Armor Class is 15 + your Dexterity modifier. • You have advantage on saving throws against spells and other magical effects. • Your spell save DC and spell attack bonus each increase by 2."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 239,
+    "sourcePageEnd": 239,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

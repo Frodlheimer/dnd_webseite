@@ -1,0 +1,120 @@
+{
+  "id": "monster-owlbear",
+  "title": "Owlbear",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.339-340",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Owlbear"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 59 (7d10 + 21)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "20 (+5) 12 (+1) 17 (+3) 3 (-4) 12 (+1) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Sight and Smell. The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The owlbear makes two attacks: one with its beak and one with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Beak. Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (P)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 339,
+    "sourcePageEnd": 340,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "59 (7d10 + 21)",
+    "speed": "40 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 20,
+      "strMod": 5,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 17,
+      "conMod": 3,
+      "int": 3,
+      "intMod": -4,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Keen Sight and Smell"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Beak",
+      "Claws"
+    ]
+  }
+}

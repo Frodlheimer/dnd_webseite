@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-mantle-of-spell-resistance",
+  "title": "Mantle of Spell Resistance",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You have advantage on saving throws against spells while you wear this cloak.",
+  "sourcePageRange": "p.229",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Mantle of Spell Resistance Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You have advantage on saving throws against spells while you wear this cloak."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 229,
+    "sourcePageEnd": 229,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

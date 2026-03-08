@@ -1,0 +1,153 @@
+{
+  "id": "monster-drider",
+  "title": "Drider",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:6",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, chaotic evil",
+  "sourcePageRange": "p.304",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Drider"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 123 (13d10 + 52)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., climb 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 16 (+3) 18 (+4) 13 (+1) 14 (+2) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5, Stealth +9"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages Elvish, Undercommon"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 6 (2,300 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Fey Ancestry. The drider has advantage on saving throws against being charmed, and magic can’t put the drider to sleep."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The drider’s innate spellcasting ability is Wisdom (spell save DC 13). The drider can"
+    },
+    {
+      "type": "p",
+      "text": "innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: dancing lights"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: darkness , faerie fire"
+    },
+    {
+      "type": "p",
+      "text": "Spider Climb. The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Web Walker. The drider ignores movement restrictions caused by webbing."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage plus 9 (2d8) poison damage."
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 304,
+    "sourcePageEnd": 304,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "123 (13d10 + 52)",
+    "speed": "30 ft., climb 30 ft.",
+    "challengeRating": "6",
+    "challengeXp": "2,300 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 18,
+      "conMod": 4,
+      "int": 13,
+      "intMod": 1,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Fey Ancestry",
+      "Innate Spellcasting",
+      "Spider Climb",
+      "Sunlight Sensitivity",
+      "Web Walker"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Longsword",
+      "Longbow"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "monster-violet-fungus",
+  "title": "Violet Fungus",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:plant"
+  ],
+  "summary": "Medium plant, unaligned",
+  "sourcePageRange": "p.309",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Violet Fungus"
+    },
+    {
+      "type": "p",
+      "text": "Medium plant, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 5"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 18 (4d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 5 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "3 (-4) 1 (-5) 10 (+0) 1 (-5) 3 (-4) 1 (-5)"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded, deafened, frightened"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The fungus makes 1d4 Rotting Touch attacks."
+    },
+    {
+      "type": "p",
+      "text": "Rotting Touch. Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (G)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 309,
+    "sourcePageEnd": 309,
+    "size": "medium",
+    "monsterType": "plant",
+    "alignment": "unaligned",
+    "armorClass": "5",
+    "hitPoints": "18 (4d8)",
+    "speed": "5 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": -5,
+    "monsterAbilities": {
+      "str": 3,
+      "strMod": -4,
+      "dex": 1,
+      "dexMod": -5,
+      "con": 10,
+      "conMod": 0,
+      "int": 1,
+      "intMod": -5,
+      "wis": 3,
+      "wisMod": -4,
+      "cha": 1,
+      "chaMod": -5
+    },
+    "monsterTraits": [
+      "Senses blindsight 30 ft",
+      "False Appearance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Rotting Touch"
+    ]
+  }
+}

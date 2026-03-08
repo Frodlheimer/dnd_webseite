@@ -1,0 +1,129 @@
+{
+  "id": "monster-pseudodragon",
+  "title": "Pseudodragon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:tiny",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Tiny dragon, neutral good",
+  "sourcePageRange": "p.340",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Pseudodragon"
+    },
+    {
+      "type": "p",
+      "text": "Tiny dragon, neutral good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 7 (2d4 + 2)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 15 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "6 (-2) 15 (+2) 13 (+1) 10 (+0) 12 (+1) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 10 ft., darkvision 60 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Common and Draconic but"
+    },
+    {
+      "type": "p",
+      "text": "can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Senses. The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The pseudodragon has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Limited Telepathy. The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 340,
+    "sourcePageEnd": 340,
+    "size": "tiny",
+    "monsterType": "dragon",
+    "alignment": "neutral good",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "7 (2d4 + 2)",
+    "speed": "15 ft., fly 60 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 6,
+      "strMod": -2,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 13,
+      "conMod": 1,
+      "int": 10,
+      "intMod": 0,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Keen Senses",
+      "Magic Resistance",
+      "Limited Telepathy"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Sting"
+    ]
+  }
+}

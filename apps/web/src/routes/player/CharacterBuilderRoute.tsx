@@ -13,6 +13,11 @@ const navItems: CharacterBuilderNavItem[] = [
     description: 'Automation tools (coming soon)'
   },
   {
+    to: '/player/characters/point-buy',
+    label: 'Point Buy Calculator',
+    description: '5e SRD point-buy with ASI and feat planning'
+  },
+  {
     to: '/player/characters/sheets',
     label: 'Character Sheets',
     description: 'Template-based PDF sheets'

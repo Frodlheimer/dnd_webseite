@@ -1,0 +1,48 @@
+{
+  "id": "alert",
+  "slug": "alert",
+  "name": "Alert",
+  "group": "Feats",
+  "summary": "Always on the lookout for danger, you gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Always on the lookout for danger, you gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "You can't be surprised while you are conscious.",
+        "You gain a +5 bonus to initiative.",
+        "Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "You can't be surprised while you are conscious.",
+    "You gain a +5 bonus to initiative.",
+    "Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

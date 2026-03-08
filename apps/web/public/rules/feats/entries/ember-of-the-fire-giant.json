@@ -1,0 +1,62 @@
+{
+  "id": "ember-of-the-fire-giant",
+  "slug": "ember-of-the-fire-giant",
+  "name": "Ember Of The Fire Giant",
+  "group": "Feats",
+  "summary": "You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Bigby Presents - Glory of the Giants"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: 4th Level, Strike of the Giants (Fire Strike) Feat"
+    },
+    {
+      "type": "p",
+      "text": "You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+        "Born of Flame. You have resistance to fire damage.",
+        "Searing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "CON",
+        "WIS"
+      ],
+      "description": "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20."
+    },
+    "source": "Bigby Presents - Glory of the Giants",
+    "prerequisite": "4th Level, Strike of the Giants (Fire Strike) Feat"
+  },
+  "highlights": [
+    "Ability Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.",
+    "Born of Flame. You have resistance to fire damage.",
+    "Searing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:con",
+    "ability:str",
+    "ability:wis",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:bigby-presents-glory-of-the-giants"
+  ]
+}

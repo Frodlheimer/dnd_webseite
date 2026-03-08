@@ -1,0 +1,46 @@
+{
+  "id": "healer",
+  "slug": "healer",
+  "name": "Healer",
+  "group": "Feats",
+  "summary": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.",
+        "As an action you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.",
+    "As an action you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

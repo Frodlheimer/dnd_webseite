@@ -1,0 +1,100 @@
+{
+  "id": "monster-ogre",
+  "title": "Ogre",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Large giant, chaotic evil",
+  "sourcePageRange": "p.336",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ogre"
+    },
+    {
+      "type": "p",
+      "text": "Large giant, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11 (hide armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 59 (7d10 + 21)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 8 (-1) 16 (+3) 5 (-3) 7 (-2) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 8"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Greatclub. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Javelin. Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 336,
+    "sourcePageEnd": 336,
+    "size": "large",
+    "monsterType": "giant",
+    "alignment": "chaotic evil",
+    "armorClass": "11 (hide armor)",
+    "hitPoints": "59 (7d10 + 21)",
+    "speed": "40 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 16,
+      "conMod": 3,
+      "int": 5,
+      "intMod": -3,
+      "wis": 7,
+      "wisMod": -2,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterActions": [
+      "Greatclub",
+      "Javelin"
+    ]
+  }
+}

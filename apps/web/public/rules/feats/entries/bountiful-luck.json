@@ -1,0 +1,55 @@
+{
+  "id": "bountiful-luck",
+  "slug": "bountiful-luck",
+  "name": "Bountiful Luck",
+  "group": "Racial Feats",
+  "summary": "Your people have extraordinary luck, which you have learned to mystically lend to your companions whenever you see them falter. You're not sure how you do it, you just wish it, and it happens. Surely a sign of fortune...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Halfling"
+    },
+    {
+      "type": "p",
+      "text": "Your people have extraordinary luck, which you have learned to mystically lend to your companions whenever you see them falter. You're not sure how you do it, you just wish it, and it happens. Surely a sign of fortune's favor!"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
+        "When you use this ability, you can't use your Lucky racial trait before the end of your next turn"
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Halfling"
+    ],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Halfling"
+  },
+  "highlights": [
+    "When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
+    "When you use this ability, you can't use your Lucky racial trait before the end of your next turn"
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:racial-feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:halfling",
+    "source:xanathars-guide-to-everything"
+  ]
+}

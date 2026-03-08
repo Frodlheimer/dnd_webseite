@@ -1,0 +1,119 @@
+{
+  "id": "monster-bulette",
+  "title": "Bulette",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.266-267",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bulette"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 94 (9d10 + 45)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., burrow 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 11 (+0) 21 (+5) 2 (-4) 10 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +6"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., tremorsense 60 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Standing Leap. The bulette’s long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Deadly Leap. If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target’s choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn’t knocked prone, and is pushed 5 feet out of the bulette’s space into an unoccupied space of the creature’s choice. If no unoccupied space is within range, the creature instead falls prone in the bulette’s space."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (C)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 266,
+    "sourcePageEnd": 267,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "94 (9d10 + 45)",
+    "speed": "40 ft., burrow 40 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 21,
+      "conMod": 5,
+      "int": 2,
+      "intMod": -4,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Standing Leap"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Deadly Leap"
+    ]
+  }
+}

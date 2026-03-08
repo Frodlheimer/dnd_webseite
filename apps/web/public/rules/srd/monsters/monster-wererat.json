@@ -1,0 +1,131 @@
+{
+  "id": "monster-wererat",
+  "title": "Wererat",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-human"
+  ],
+  "summary": "Medium humanoid (human, shapechanger), lawful evil",
+  "sourcePageRange": "p.327-328",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wererat"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (human, shapechanger), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 33 (6d8 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "10 (+0) 15 (+2) 12 (+1) 11 (+0) 10 (+0) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft. (rat form only), passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common (can’t speak in rat form)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The wererat can use its action to polymorph into a rat--humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Keen Smell. The wererat has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack (Humanoid or Hybrid Form Only). The wererat makes two attacks, only one of which can be a bite."
+    },
+    {
+      "type": "p",
+      "text": "Bite (Rat or Hybrid Form Only). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
+    },
+    {
+      "type": "p",
+      "text": "Shortsword (Humanoid or Hybrid Form Only). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Hand Crossbow (Humanoid or Hybrid Form Only). Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 327,
+    "sourcePageEnd": 328,
+    "size": "medium",
+    "monsterType": "humanoid (human",
+    "alignment": "shapechanger), lawful evil",
+    "armorClass": "12",
+    "hitPoints": "33 (6d8 + 6)",
+    "speed": "30 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 10,
+      "strMod": 0,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 12,
+      "conMod": 1,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Senses darkvision 60 ft",
+      "Shapechanger",
+      "Keen Smell"
+    ],
+    "monsterActions": [
+      "Multiattack (Humanoid or Hybrid Form Only)",
+      "Bite (Rat or Hybrid Form Only)",
+      "Shortsword (Humanoid or Hybrid Form Only)",
+      "Hand Crossbow (Humanoid or Hybrid Form Only)"
+    ]
+  }
+}

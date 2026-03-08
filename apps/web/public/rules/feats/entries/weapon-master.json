@@ -1,0 +1,52 @@
+{
+  "id": "weapon-master",
+  "slug": "weapon-master",
+  "name": "Weapon Master",
+  "group": "Feats",
+  "summary": "You have practiced extensively with a variety of weapons, gaining the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You have practiced extensively with a variety of weapons, gaining the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+        "You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "DEX"
+      ],
+      "description": "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "ability:str",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

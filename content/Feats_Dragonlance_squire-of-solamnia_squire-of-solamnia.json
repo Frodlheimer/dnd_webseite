@@ -1,0 +1,130 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Dragonlance",
+  "slug": "squire-of-solamnia",
+  "url": "https://dnd5e.wikidot.com/feat:squire-of-solamnia",
+  "page_title": "squire-of-solamnia",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Dragonlance Campaign, Fighter or Paladin Class or Knight of Solamnia Background"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your training in the ways of the Knights of Solamnia grants you these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mount Up."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Mounting or dismounting costs you only 5 feet of movement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "element",
+                "tag": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Precise Strike."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Dragonlance: Shadow of the Dragon Queen</p>\n<p><em>Prerequisite: Dragonlance Campaign, Fighter or Paladin Class or Knight of Solamnia Background</em></p>\n<p>Your training in the ways of the Knights of Solamnia grants you these benefits:</p>\n<ul>\n<li><strong>Mount Up.</strong> Mounting or dismounting costs you only 5 feet of movement.</li>\n</ul>\n<ul>\n<li><strong>Precise Strike.</strong> Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest.</li>\n</ul>\n</div>"
+  }
+}

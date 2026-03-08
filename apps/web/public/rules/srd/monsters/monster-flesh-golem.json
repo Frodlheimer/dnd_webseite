@@ -1,0 +1,152 @@
+{
+  "id": "monster-flesh-golem",
+  "title": "Flesh Golem",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:construct"
+  ],
+  "summary": "Medium construct, neutral",
+  "sourcePageRange": "p.316",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Flesh Golem"
+    },
+    {
+      "type": "p",
+      "text": "Medium construct, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 9"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 93 (11d8 + 44)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 9 (-1) 18 (+4) 6 (-2) 10 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities lightning, poison; bludgeoning,"
+    },
+    {
+      "type": "p",
+      "text": "piercing, and slashing from nonmagical attacks that aren’t adamantine"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, frightened,"
+    },
+    {
+      "type": "p",
+      "text": "paralyzed, petrified, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands the languages of its creator but"
+    },
+    {
+      "type": "p",
+      "text": "can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Berserk. Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points. The golem’s creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
+    },
+    {
+      "type": "p",
+      "text": "Aversion of Fire. If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+    },
+    {
+      "type": "p",
+      "text": "Immutable Form. The golem is immune to any spell or effect that would alter its form."
+    },
+    {
+      "type": "p",
+      "text": "Lightning Absorption . Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The golem has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The golem’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The golem makes two slam attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 316,
+    "sourcePageEnd": 316,
+    "size": "medium",
+    "monsterType": "construct",
+    "alignment": "neutral",
+    "armorClass": "9",
+    "hitPoints": "93 (11d8 + 44)",
+    "speed": "30 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 18,
+      "conMod": 4,
+      "int": 6,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Berserk",
+      "Aversion of Fire",
+      "Immutable Form",
+      "Lightning Absorption",
+      "Magic Resistance",
+      "Magic Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam"
+    ]
+  }
+}

@@ -9,7 +9,7 @@ import {
   writeFileSync
 } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs';
 
@@ -51,6 +51,10 @@ const fallbackDir = path.resolve(repoRoot, 'character_sheets');
 
 const outputPublicDir = path.resolve(repoRoot, 'apps/web/public/character_sheets');
 const outputGeneratedDir = path.resolve(repoRoot, 'apps/web/src/characterSheets/generated');
+const standardFontDirectoryCandidates = [
+  path.resolve(repoRoot, 'node_modules/pdfjs-dist/standard_fonts'),
+  path.resolve(repoRoot, 'apps/web/node_modules/pdfjs-dist/standard_fonts')
+];
 
 const KNOWN_CLASSES = [
   'Artificer',
@@ -112,6 +116,29 @@ const findPdfFiles = (directoryPath: string): string[] => {
 
   return files.sort((left, right) => left.localeCompare(right));
 };
+
+const resolveStandardFontDataUrl = (): string => {
+  for (const candidate of standardFontDirectoryCandidates) {
+    if (!existsSync(candidate)) {
+      continue;
+    }
+
+    if (!statSync(candidate).isDirectory()) {
+      continue;
+    }
+
+    const url = pathToFileURL(candidate).href;
+    return url.endsWith('/') ? url : `${url}/`;
+  }
+
+  const lines: string[] = [];
+  lines.push('[sheets:build] Unable to locate pdfjs-dist standard fonts directory.');
+  lines.push(`Checked: ${standardFontDirectoryCandidates.join(' | ')}`);
+  lines.push('Install dependencies and ensure pdfjs-dist is available in node_modules.');
+  throw new Error(lines.join('\n'));
+};
+
+const standardFontDataUrl = resolveStandardFontDataUrl();
 
 const resolveSheetsDirectory = (): string => {
   if (envDir && existsSync(envDir) && statSync(envDir).isDirectory()) {
@@ -234,7 +261,9 @@ const extractPagesAndFields = async (pdfPath: string): Promise<{
   const bytes = readFileSync(pdfPath);
   const loadingTask = getDocument({
     data: new Uint8Array(bytes),
-    disableWorker: true
+    disableWorker: true,
+    standardFontDataUrl,
+    useWorkerFetch: false
   });
   const pdfDocument = await loadingTask.promise;
 

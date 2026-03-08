@@ -1,0 +1,128 @@
+{
+  "id": "monster-dust-mephit",
+  "title": "Dust Mephit",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Small elemental, neutral evil",
+  "sourcePageRange": "p.330-331",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Dust Mephit"
+    },
+    {
+      "type": "p",
+      "text": "Small elemental, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 17 (5d6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "5 (-3) 14 (+2) 10 (+0) 9 (-1) 11 (+0) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities fire"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Auran, Terran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Burst. When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting (1/Day). The mephit can innately cast sleep , requiring no material components. Its innate spellcasting ability is Charisma."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Blinding Breath (Recharge 6). The mephit exhales a 15-- foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 330,
+    "sourcePageEnd": 331,
+    "size": "small",
+    "monsterType": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "12",
+    "hitPoints": "17 (5d6)",
+    "speed": "30 ft., fly 30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 5,
+      "strMod": -3,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 10,
+      "conMod": 0,
+      "int": 9,
+      "intMod": -1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Death Burst",
+      "Innate Spellcasting (1/Day)"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Blinding Breath (Recharge 6)"
+    ]
+  }
+}

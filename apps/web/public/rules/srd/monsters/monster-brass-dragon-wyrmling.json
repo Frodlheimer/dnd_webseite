@@ -1,0 +1,126 @@
+{
+  "id": "monster-brass-dragon-wyrmling",
+  "title": "Brass Dragon Wyrmling",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Medium dragon, chaotic good",
+  "sourcePageRange": "p.292-293",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Brass Dragon Wyrmling"
+    },
+    {
+      "type": "p",
+      "text": "Medium dragon, chaotic good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 16 (3d8 + 3)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., burrow 15 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 10 (+0) 13 (+1) 10 (+0) 11 (+0) 13 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +2, Con +3, Wis +2, Cha +3"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4, Stealth +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 10 ft., darkvision 60 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Fire Breath. The dragon exhales fire in an 20--foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Sleep Breath. The dragon exhales sleep gas in a 15--foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 292,
+    "sourcePageEnd": 293,
+    "size": "medium",
+    "monsterType": "dragon",
+    "alignment": "chaotic good",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "16 (3d8 + 3)",
+    "speed": "30 ft., burrow 15 ft., fly 60 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 13,
+      "conMod": 1,
+      "int": 10,
+      "intMod": 0,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 13,
+      "chaMod": 1
+    },
+    "monsterActions": [
+      "Bite",
+      "Breath Weapons (Recharge 5-6)",
+      "Fire Breath",
+      "Sleep Breath"
+    ]
+  }
+}

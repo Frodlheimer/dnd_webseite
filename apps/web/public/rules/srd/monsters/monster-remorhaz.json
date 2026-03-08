@@ -1,0 +1,111 @@
+{
+  "id": "monster-remorhaz",
+  "title": "Remorhaz",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:11",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Huge monstrosity, unaligned",
+  "sourcePageRange": "p.341-342",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Remorhaz"
+    },
+    {
+      "type": "p",
+      "text": "Huge monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 195 (17d12 + 85)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., burrow 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "24 (+7) 13 (+1) 21 (+5) 4 (-3) 10 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold, fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 11 (7,200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Heated Body. A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 40 (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the remorhaz can’t bite another target."
+    },
+    {
+      "type": "p",
+      "text": "Swallow. The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite’s damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 21 (6d6) acid damage at the start of each of the remorhaz’s turns. If the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 341,
+    "sourcePageEnd": 342,
+    "size": "huge",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "195 (17d12 + 85)",
+    "speed": "30 ft., burrow 20 ft.",
+    "challengeRating": "11",
+    "challengeXp": "7,200 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 24,
+      "strMod": 7,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 21,
+      "conMod": 5,
+      "int": 4,
+      "intMod": -3,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Heated Body"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Swallow"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "monster-azer",
+  "title": "Azer",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Medium elemental, lawful neutral",
+  "sourcePageRange": "p.265",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Azer"
+    },
+    {
+      "type": "p",
+      "text": "Medium elemental, lawful neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 39 (6d8 + 12)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 12 (+1) 15 (+2) 12 (+1) 13 (+1) 10 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Con +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages Ignan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Heated Body. A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Heated Weapons. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack)."
+    },
+    {
+      "type": "p",
+      "text": "Illumination. The azer sheds bright light in a 10--foot radius and dim light for an additional 10 feet."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Warhammer. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (B)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 265,
+    "sourcePageEnd": 265,
+    "size": "medium",
+    "monsterType": "elemental",
+    "alignment": "lawful neutral",
+    "armorClass": "17 (natural armor, shield)",
+    "hitPoints": "39 (6d8 + 12)",
+    "speed": "30 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 15,
+      "conMod": 2,
+      "int": 12,
+      "intMod": 1,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 10,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Heated Body",
+      "Heated Weapons",
+      "Illumination"
+    ],
+    "monsterActions": [
+      "Warhammer"
+    ]
+  }
+}

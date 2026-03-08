@@ -1,0 +1,141 @@
+{
+  "id": "monster-wight",
+  "title": "Wight",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, neutral evil",
+  "sourcePageRange": "p.354-355",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wight"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (studded leather)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 45 (6d8 + 18)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 14 (+2) 16 (+3) 10 (+0) 13 (+1) 15 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances necrotic; bludgeoning, piercing,"
+    },
+    {
+      "type": "p",
+      "text": "and slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages the languages it knew in life"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+    },
+    {
+      "type": "p",
+      "text": "Life Drain. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies"
+    },
+    {
+      "type": "p",
+      "text": "if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under the wight’s control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time."
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 354,
+    "sourcePageEnd": 355,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "14 (studded leather)",
+    "hitPoints": "45 (6d8 + 18)",
+    "speed": "30 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 10,
+      "intMod": 0,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 15,
+      "chaMod": 2
+    },
+    "monsterTraits": [
+      "Sunlight Sensitivity"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Life Drain",
+      "Longsword",
+      "Longbow"
+    ]
+  }
+}

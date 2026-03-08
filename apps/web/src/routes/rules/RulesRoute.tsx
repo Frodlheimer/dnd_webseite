@@ -19,16 +19,54 @@ const navItems: RulesNavItem[] = [
     description: 'Browse class and subclass references'
   },
   {
-    to: '/rules',
-    label: 'Abilities',
-    description: 'Coming soon',
-    disabled: true
+    to: '/rules/races',
+    label: 'Races (SRD)',
+    description: 'Browse SRD 5.1 race references'
   },
   {
-    to: '/rules',
+    to: '/rules/equipment',
+    label: 'Equipment',
+    description: 'Weapons, armor, gear, and packs'
+  },
+  {
+    to: '/rules/adventuring',
+    label: 'Adventuring',
+    description: 'Travel, exploration, and rest rules'
+  },
+  {
+    to: '/rules/combat',
+    label: 'Combat',
+    description: 'Turn structure, actions, and damage'
+  },
+  {
+    to: '/rules/spellcasting',
+    label: 'Spellcasting Rules',
+    description: 'General casting rules and components'
+  },
+  {
+    to: '/rules/conditions',
     label: 'Conditions',
-    description: 'Coming soon',
-    disabled: true
+    description: 'Appendix PH-A condition references'
+  },
+  {
+    to: '/rules/magic-items',
+    label: 'Magic Items',
+    description: 'SRD 5.1 magic items A-Z'
+  },
+  {
+    to: '/rules/lineages',
+    label: 'Races & Lineages',
+    description: 'Legacy race & lineage dataset'
+  },
+  {
+    to: '/rules/feats',
+    label: 'Feats',
+    description: 'Browse feat references and prerequisites'
+  },
+  {
+    to: '/rules/srd-attribution',
+    label: 'SRD Attribution',
+    description: 'CC-BY-4.0 attribution and legal note'
   }
 ];
 

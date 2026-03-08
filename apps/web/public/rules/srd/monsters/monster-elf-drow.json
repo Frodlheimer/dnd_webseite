@@ -1,0 +1,133 @@
+{
+  "id": "monster-elf-drow",
+  "title": "Elf, Drow",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-elf"
+  ],
+  "summary": "Medium humanoid (elf), neutral evil",
+  "sourcePageRange": "p.307-308",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Elf, Drow"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (elf), neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (chain shirt)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 13 (3d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "10 (+0) 14 (+2) 10 (+0) 11 (+0) 11 (+0) 12 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Elvish, Undercommon"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Fey Ancestry. The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The drow’s spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: dancing lights"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: darkness , faerie fire"
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Hand Crossbow. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing"
+    },
+    {
+      "type": "p",
+      "text": "damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 307,
+    "sourcePageEnd": 308,
+    "size": "medium",
+    "monsterType": "humanoid (elf)",
+    "alignment": "neutral evil",
+    "armorClass": "15 (chain shirt)",
+    "hitPoints": "13 (3d8)",
+    "speed": "30 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 10,
+      "strMod": 0,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 10,
+      "conMod": 0,
+      "int": 11,
+      "intMod": 0,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 12,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Fey Ancestry",
+      "Innate Spellcasting",
+      "Sunlight Sensitivity"
+    ],
+    "monsterActions": [
+      "Shortsword",
+      "Hand Crossbow"
+    ]
+  }
+}

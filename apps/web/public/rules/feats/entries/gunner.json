@@ -1,0 +1,54 @@
+{
+  "id": "gunner",
+  "slug": "gunner",
+  "name": "Gunner",
+  "group": "Feats",
+  "summary": "You have a quick hand and keen eye when employing firearms, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tasha's Cauldron of Everything"
+    },
+    {
+      "type": "p",
+      "text": "You have a quick hand and keen eye when employing firearms, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Dexterity score by 1, to a maximum of 20.",
+        "You gain proficiency with firearms (see \"Firearms\" in the Dungeon Master's Guide).",
+        "You ignore the loading property of firearms.",
+        "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "DEX"
+      ],
+      "description": "Increase your Dexterity score by 1, to a maximum of 20."
+    },
+    "source": "Tasha's Cauldron of Everything"
+  },
+  "highlights": [
+    "Increase your Dexterity score by 1, to a maximum of 20.",
+    "You gain proficiency with firearms (see \"Firearms\" in the Dungeon Master's Guide).",
+    "You ignore the loading property of firearms.",
+    "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:tashas-cauldron-of-everything"
+  ]
+}

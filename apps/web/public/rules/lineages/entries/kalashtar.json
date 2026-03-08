@@ -1,0 +1,145 @@
+{
+  "id": "kalashtar",
+  "slug": "kalashtar",
+  "name": "Kalashtar",
+  "group": "Setting Specific Lineages",
+  "groupSlug": "setting-specific-lineages",
+  "tags": [
+    "group:setting-specific-lineages",
+    "has:asi",
+    "has:traits",
+    "kind:lineage",
+    "setting:eberron",
+    "size:medium",
+    "source:unearthed-arcana-52-races-of-eberron",
+    "speed:30",
+    "trait:ability-score-increase",
+    "trait:age",
+    "trait:alignment",
+    "trait:dual-mind",
+    "trait:languages",
+    "trait:mental-discipline",
+    "trait:mind-link",
+    "trait:psychic-glamour",
+    "trait:severed-from-dreams",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "The kalashtar are a compound race created from the union of humanity and renegade spirits from the plane of dreams - spirits called quori. Kalashtar are often seen as wise, spiritual people with great compassion for o...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The kalashtar are a compound race created from the union of humanity and renegade spirits from the plane of dreams - spirits called quori. Kalashtar are often seen as wise, spiritual people with great compassion for others. But there is an unmistakable alien quality to the kalashtar, as they are haunted by the conflicts of their otherworldly spirits."
+    },
+    {
+      "type": "h1",
+      "text": "Eberron - Rising from the Last War"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Your Wisdom score increases by 2, and your Charisma score increases by 1.",
+        "Age. Kalashtar develop physically at the same rate as humans do and have similar lifespans.",
+        "Alignment. The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all sentient beings, but some kalashtar resist the virtuous influence of their spirit.",
+        "Size. Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium.",
+        "Speed. Your base walking speed is 30 feet.",
+        "Dual Mind. You have advantage on all Wisdom saving throws.",
+        "Mental Discipline. You have resistance to psychic damage.",
+        "Mind Link. You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.",
+        "Severed from Dreams. Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the Dream spell, but not to spells and effects that put you to sleep, like the Sleep spell.",
+        "Languages. You can read and write Common, Quori, and one other language of your choice."
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Unearthed Arcana"
+    },
+    {
+      "type": "p",
+      "text": "Source: Unearthed Arcana 52 - Races of Eberron"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Your Wisdom and Charisma scores both increase by 1. In addition, one ability score of your choice increases by 1.",
+        "Age. Kalashtar develop physically at the same rate as humans do and have similar lifespans.",
+        "Alignment. The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all sentient beings, but some kalashtar resist the virtuous influence of their spirit.",
+        "Size. Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium.",
+        "Speed. Your base walking speed is 30 feet.",
+        "Dual Mind. When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. You can use this trait immediately before or after you roll, but before any of the roll's effects occur.",
+        "Mental Discipline. You have resistance to psychic damage.",
+        "Mind Link. You can speak telepathically to any creature you can see within 60 feet of you. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself. As a bonus action when you're speaking telepathically to a creature, you can give that creature the ability to speak telepathically to you until the start of your next turn. To use this ability, the creature must be within 60 feet of you and be able to see you.",
+        "Psychic Glamour. Choose one of the following skills: Insight, Intimidation, Performance, or Persuasion. You have advantage on all ability checks you make with that skill.",
+        "Severed from Dreams. Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the Dream spell, but not to spells and effects that put you to sleep, like the Sleep spell.",
+        "Languages. You can read and write Common, Quori, and one other language of your choice."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Your Wisdom score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "label": "Age",
+      "labelKey": "age",
+      "value": "Kalashtar develop physically at the same rate as humans do and have similar lifespans."
+    },
+    {
+      "label": "Alignment",
+      "labelKey": "alignment",
+      "value": "The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all sentient beings, but some kalashtar resist the virtuous influence of their spirit."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your base walking speed is 30 feet."
+    },
+    {
+      "label": "Dual Mind",
+      "labelKey": "dual-mind",
+      "value": "You have advantage on all Wisdom saving throws."
+    },
+    {
+      "label": "Mental Discipline",
+      "labelKey": "mental-discipline",
+      "value": "You have resistance to psychic damage."
+    },
+    {
+      "label": "Mind Link",
+      "labelKey": "mind-link",
+      "value": "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it."
+    },
+    {
+      "label": "Severed from Dreams",
+      "labelKey": "severed-from-dreams",
+      "value": "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the Dream spell, but not to spells and effects that put you to sleep, like the Sleep spell."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can read and write Common, Quori, and one other language of your choice."
+    },
+    {
+      "label": "Psychic Glamour",
+      "labelKey": "psychic-glamour",
+      "value": "Choose one of the following skills: Insight, Intimidation, Performance, or Persuasion. You have advantage on all ability checks you make with that skill."
+    }
+  ],
+  "quickFacts": {
+    "source": "Unearthed Arcana 52 - Races of Eberron",
+    "abilityScoreIncrease": "Your Wisdom score increases by 2, and your Charisma score increases by 1.",
+    "size": "Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium.",
+    "speed": "Your base walking speed is 30 feet.",
+    "languages": "You can read and write Common, Quori, and one other language of your choice.",
+    "speedFeet": 30
+  },
+  "setting": "Eberron",
+  "settingSlug": "eberron"
+}

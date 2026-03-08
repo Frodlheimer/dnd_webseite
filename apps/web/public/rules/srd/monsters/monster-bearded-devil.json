@@ -1,0 +1,145 @@
+{
+  "id": "monster-bearded-devil",
+  "title": "Bearded Devil",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Medium fiend (devil), lawful evil",
+  "sourcePageRange": "p.274-275",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bearded Devil"
+    },
+    {
+      "type": "p",
+      "text": "Medium fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 52 (8d8 + 16)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 15 (+2) 15 (+2) 9 (-1) 11 (+0) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Str +5, Con +4, Wis +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold; bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Infernal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The devil has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Steadfast. The devil can’t be frightened while it can see an allied creature within 30 feet of it."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The devil makes two attacks: one with its beard and one with its glaive."
+    },
+    {
+      "type": "p",
+      "text": "Beard. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can’t regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Glaive. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a"
+    },
+    {
+      "type": "p",
+      "text": "successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 274,
+    "sourcePageEnd": 275,
+    "size": "medium",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "52 (8d8 + 16)",
+    "speed": "30 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 15,
+      "conMod": 2,
+      "int": 9,
+      "intMod": -1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Magic Resistance",
+      "Steadfast"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Beard",
+      "Glaive"
+    ]
+  }
+}

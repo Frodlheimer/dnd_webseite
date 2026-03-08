@@ -1,0 +1,95 @@
+{
+  "id": "monster-cockatrice",
+  "title": "Cockatrice",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Small monstrosity, unaligned",
+  "sourcePageRange": "p.268-269",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cockatrice"
+    },
+    {
+      "type": "p",
+      "text": "Small monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 11"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 27 (6d6 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "6 (-2) 12 (+1) 12 (+1) 2 (-4) 13 (+1) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 268,
+    "sourcePageEnd": 269,
+    "size": "small",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "11",
+    "hitPoints": "27 (6d6 + 6)",
+    "speed": "20 ft., fly 40 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 6,
+      "strMod": -2,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 12,
+      "conMod": 1,
+      "int": 2,
+      "intMod": -4,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterActions": [
+      "Bite"
+    ]
+  }
+}

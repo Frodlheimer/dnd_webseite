@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
+const PDF_STANDARD_FONT_DATA_URL = '/standard_fonts/';
+
 type PdfPageBackgroundProps = {
   enabled: boolean;
   pdfUrl: string;
@@ -51,7 +53,8 @@ export const PdfPageBackground = ({
 
         pdfjs.GlobalWorkerOptions.workerSrc = workerSrc.default;
         loadingTask = pdfjs.getDocument({
-          url: pdfUrl
+          url: pdfUrl,
+          standardFontDataUrl: PDF_STANDARD_FONT_DATA_URL
         });
         const pdfDocument = await loadingTask.promise;
         cleanupDocument = async () => {

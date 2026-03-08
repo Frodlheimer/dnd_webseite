@@ -1,0 +1,84 @@
+{
+  "id": "equipment-donning-and-doffing-armor",
+  "title": "Donning and Doffing Armor",
+  "category": "equipment",
+  "tags": [
+    "category:equipment",
+    "equipment:armor",
+    "section:equipment",
+    "source:srd51"
+  ],
+  "summary": "Weapons Your class grants proficiency in certain weapons, reflecting both the class’s focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield i...",
+  "sourcePageRange": "p.64",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Donning and Doffing Armor"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Category",
+          "Don",
+          "Doff"
+        ],
+        [
+          "Light Armor",
+          "1 minute",
+          "1 minute"
+        ],
+        [
+          "Medium Armor",
+          "5 minutes",
+          "1 minute"
+        ],
+        [
+          "Heavy Armor",
+          "10 minutes",
+          "5 minutes"
+        ],
+        [
+          "Shield",
+          "1 action",
+          "1 action"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Weapons Your class grants proficiency in certain weapons, reflecting both the class’s focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring. The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 64,
+    "sourcePageEnd": 64,
+    "equipmentRows": [
+      [
+        "Category",
+        "Don",
+        "Doff"
+      ],
+      [
+        "Light Armor",
+        "1 minute",
+        "1 minute"
+      ],
+      [
+        "Medium Armor",
+        "5 minutes",
+        "1 minute"
+      ],
+      [
+        "Heavy Armor",
+        "10 minutes",
+        "5 minutes"
+      ],
+      [
+        "Shield",
+        "1 action",
+        "1 action"
+      ]
+    ]
+  }
+}

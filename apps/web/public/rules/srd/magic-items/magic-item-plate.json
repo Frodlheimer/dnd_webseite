@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-plate",
+  "title": "Plate",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While you’re wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command ...",
+  "sourcePageRange": "p.233",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Plate Armor of Etherealness Armor (plate), legendary (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While you’re wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can’t be used again until the next dawn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 233,
+    "sourcePageEnd": 233,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-defender",
+  "title": "Defender",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instea...",
+  "sourcePageRange": "p.218",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Defender Weapon (any sword), legendary (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 218,
+    "sourcePageEnd": 218,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

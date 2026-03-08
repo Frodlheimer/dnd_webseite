@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-nine-lives-stealer",
+  "title": "Nine Lives Stealer",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 ...",
+  "sourcePageRange": "p.231",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Nine Lives Stealer Weapon (any sword), very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 231,
+    "sourcePageEnd": 231,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

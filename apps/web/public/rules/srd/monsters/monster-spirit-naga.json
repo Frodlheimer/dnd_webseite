@@ -1,0 +1,147 @@
+{
+  "id": "monster-spirit-naga",
+  "title": "Spirit Naga",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:8",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, chaotic evil",
+  "sourcePageRange": "p.335-336",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Spirit Naga"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 75 (10d10 + 20)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 17 (+3) 14 (+2) 16 (+3) 15 (+2) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +6, Con +5, Wis +5, Cha +6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 8 (3,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Rejuvenation. If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+    },
+    {
+      "type": "p",
+      "text": "Spellcasting. The naga is a 10th--level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal"
+    },
+    {
+      "type": "p",
+      "text": "components to cast its spells. It has the following wizard spells prepared:"
+    },
+    {
+      "type": "p",
+      "text": "Cantrips (at will): mage hand , minor illusion , ray of frost"
+    },
+    {
+      "type": "p",
+      "text": "1st level (4 slots): charm person , detect magic , sleep"
+    },
+    {
+      "type": "p",
+      "text": "2nd level (3 slots): detect thoughts , hold person"
+    },
+    {
+      "type": "p",
+      "text": "3rd level (3 slots): lightning bolt , water breathing"
+    },
+    {
+      "type": "p",
+      "text": "4th level (3 slots): blight , dimension door"
+    },
+    {
+      "type": "p",
+      "text": "5th level (2 slots): dominate person"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 335,
+    "sourcePageEnd": 336,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "75 (10d10 + 20)",
+    "speed": "40 ft.",
+    "challengeRating": "8",
+    "challengeXp": "3,900 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 17,
+      "dexMod": 3,
+      "con": 14,
+      "conMod": 2,
+      "int": 16,
+      "intMod": 3,
+      "wis": 15,
+      "wisMod": 2,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Rejuvenation",
+      "Spellcasting"
+    ],
+    "monsterActions": [
+      "Bite"
+    ]
+  }
+}

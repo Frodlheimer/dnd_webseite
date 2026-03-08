@@ -1,0 +1,140 @@
+{
+  "id": "monster-shadow",
+  "title": "Shadow",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, chaotic evil",
+  "sourcePageRange": "p.344-345",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Shadow"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 16 (3d8 + 3)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "6 (-2) 14 (+2) 13 (+1) 6 (-2) 10 (+0) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +4 (+6 in dim light or darkness)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities radiant"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances acid, cold, fire, lightning, thunder;"
+    },
+    {
+      "type": "p",
+      "text": "bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities necrotic, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, frightened, grappled,"
+    },
+    {
+      "type": "p",
+      "text": "paralyzed, petrified, poisoned, prone, restrained"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amorphous. The shadow can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "type": "p",
+      "text": "Shadow Stealth. While in dim light or darkness, the shadow can take the Hide action as a bonus action."
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Weakness. While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Strength Drain. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target’s Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. If a non--evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 344,
+    "sourcePageEnd": 345,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "chaotic evil",
+    "armorClass": "12",
+    "hitPoints": "16 (3d8 + 3)",
+    "speed": "40 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 6,
+      "strMod": -2,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 13,
+      "conMod": 1,
+      "int": 6,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Amorphous",
+      "Shadow Stealth",
+      "Sunlight Weakness"
+    ],
+    "monsterActions": [
+      "Strength Drain"
+    ]
+  }
+}

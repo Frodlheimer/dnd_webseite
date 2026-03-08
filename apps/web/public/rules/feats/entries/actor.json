@@ -1,0 +1,52 @@
+{
+  "id": "actor",
+  "slug": "actor",
+  "name": "Actor",
+  "group": "Feats",
+  "summary": "Skilled at mimicry and dramatics, you gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skilled at mimicry and dramatics, you gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Charisma score by 1, to a maximum of 20.",
+        "You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.",
+        "You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "CHA"
+      ],
+      "description": "Increase your Charisma score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Charisma score by 1, to a maximum of 20.",
+    "You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.",
+    "You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:cha",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

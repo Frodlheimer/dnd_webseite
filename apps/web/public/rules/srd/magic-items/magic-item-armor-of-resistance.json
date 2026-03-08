@@ -1,0 +1,73 @@
+{
+  "id": "magic-item-armor-of-resistance",
+  "title": "Armor of Resistance",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below.",
+  "sourcePageRange": "p.208-209",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Armor of Resistance Armor (light, medium, or heavy), rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d10",
+          "Damage Type",
+          "d10",
+          "Damage Type"
+        ],
+        [
+          "1",
+          "Acid",
+          "6",
+          "Necrotic"
+        ],
+        [
+          "2",
+          "Cold",
+          "7",
+          "Poison"
+        ],
+        [
+          "3",
+          "Fire",
+          "8",
+          "Psychic"
+        ],
+        [
+          "4",
+          "Force",
+          "9",
+          "Radiant"
+        ],
+        [
+          "5",
+          "Lightning",
+          "10",
+          "Thunder"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 208,
+    "sourcePageEnd": 209,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

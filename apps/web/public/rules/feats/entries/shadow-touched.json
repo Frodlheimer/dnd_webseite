@@ -1,0 +1,54 @@
+{
+  "id": "shadow-touched",
+  "slug": "shadow-touched",
+  "name": "Shadow Touched",
+  "group": "Feats",
+  "summary": "Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Tasha's Cauldron of Everything"
+    },
+    {
+      "type": "p",
+      "text": "Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+        "You learn the Invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the Illusion or Necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "INT",
+        "WIS",
+        "CHA"
+      ],
+      "description": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+    },
+    "source": "Tasha's Cauldron of Everything"
+  },
+  "highlights": [
+    "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "You learn the Invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the Illusion or Necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:cha",
+    "ability:int",
+    "ability:wis",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:tashas-cauldron-of-everything"
+  ]
+}

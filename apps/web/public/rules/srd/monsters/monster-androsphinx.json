@@ -1,0 +1,220 @@
+{
+  "id": "monster-androsphinx",
+  "title": "Androsphinx",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:17",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, lawful neutral",
+  "sourcePageRange": "p.347-348",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Androsphinx"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, lawful neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 199 (19d10 + 95)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "22 (+6) 10 (+0) 20 (+5) 16 (+3) 18 (+4) 23 (+6)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +6, Con +11, Int +9, Wis +10"
+    },
+    {
+      "type": "p",
+      "text": "Skills Arcana +9, Perception +10, Religion +15"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities psychic; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, frightened"
+    },
+    {
+      "type": "p",
+      "text": "Senses truesight 120 ft., passive Perception 20"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Sphinx"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 17 (18,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Inscrutable. The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx’s intentions or sincerity have disadvantage."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The sphinx’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Spellcasting. The sphinx is a 12th--level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:"
+    },
+    {
+      "type": "p",
+      "text": "Cantrips (at will): sacred flame , spare the dying ,"
+    },
+    {
+      "type": "p",
+      "text": "thaumaturgy"
+    },
+    {
+      "type": "p",
+      "text": "1st level (4 slots): command , detect evil and good ,"
+    },
+    {
+      "type": "p",
+      "text": "detect magic"
+    },
+    {
+      "type": "p",
+      "text": "2nd level (3 slots): lesser restoration , zone of truth"
+    },
+    {
+      "type": "p",
+      "text": "3rd level (3 slots): dispel magic , tongues"
+    },
+    {
+      "type": "p",
+      "text": "4th level (3 slots): banishment , freedom of movement"
+    },
+    {
+      "type": "p",
+      "text": "5th level (2 slots): flame strike , greater restoration"
+    },
+    {
+      "type": "p",
+      "text": "6th level (1 slot): heroes’ feast"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The sphinx makes two claw attacks."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Roar (3/Day). The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw."
+    },
+    {
+      "type": "p",
+      "text": "First Roar. Each creature that fails a DC 18 Wisdom"
+    },
+    {
+      "type": "p",
+      "text": "saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Second Roar. Each creature that fails a DC 18 Wisdom"
+    },
+    {
+      "type": "p",
+      "text": "saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Legendary Actions"
+    },
+    {
+      "type": "p",
+      "text": "The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn."
+    },
+    {
+      "type": "p",
+      "text": "Claw Attack. The sphinx makes one claw attack."
+    },
+    {
+      "type": "p",
+      "text": "Teleport (Costs 2 Actions). The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    },
+    {
+      "type": "p",
+      "text": "Cast a Spell (Costs 3 Actions). The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 347,
+    "sourcePageEnd": 348,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "lawful neutral",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "199 (19d10 + 95)",
+    "speed": "40 ft., fly 60 ft.",
+    "challengeRating": "17",
+    "challengeXp": "18,000 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 22,
+      "strMod": 6,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 20,
+      "conMod": 5,
+      "int": 16,
+      "intMod": 3,
+      "wis": 18,
+      "wisMod": 4,
+      "cha": 23,
+      "chaMod": 6
+    },
+    "monsterTraits": [
+      "Inscrutable",
+      "Magic Weapons",
+      "Spellcasting"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Claw",
+      "Roar (3/Day)",
+      "First Roar",
+      "Second Roar",
+      "Third Roar",
+      "Claw Attack",
+      "Teleport (Costs 2 Actions)",
+      "Cast a Spell (Costs 3 Actions)"
+    ]
+  }
+}

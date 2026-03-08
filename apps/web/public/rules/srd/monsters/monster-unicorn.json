@@ -1,0 +1,187 @@
+{
+  "id": "monster-unicorn",
+  "title": "Unicorn",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:celestial"
+  ],
+  "summary": "Large celestial , lawful good",
+  "sourcePageRange": "p.351-352",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Unicorn"
+    },
+    {
+      "type": "p",
+      "text": "Large celestial , lawful good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 67 (9d10 + 18)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 14 (+2) 15 (+2) 11 (+0) 17 (+3) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, paralyzed, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Celestial, Elvish, Sylvan, telepathy 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Charge. If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The unicorn’s innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect evil and good , druidcraft , pass without trace"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: calm emotions , dispel evil and good , entangle"
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The unicorn has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The unicorn’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The unicorn makes two attacks: one with its hooves and one with its horn."
+    },
+    {
+      "type": "p",
+      "text": "Hooves. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Horn. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Healing Touch (3/Day). The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
+    },
+    {
+      "type": "p",
+      "text": "Teleport (1/Day). The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away."
+    },
+    {
+      "type": "p",
+      "text": "Legendary Actions"
+    },
+    {
+      "type": "p",
+      "text": "The unicorn can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The unicorn regains spent legendary actions at the start of its turn."
+    },
+    {
+      "type": "p",
+      "text": "Hooves. The unicorn makes one attack with its hooves."
+    },
+    {
+      "type": "p",
+      "text": "Shimmering Shield (Costs 2 Actions). The unicorn"
+    },
+    {
+      "type": "p",
+      "text": "creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn’s next turn."
+    },
+    {
+      "type": "p",
+      "text": "Heal Self (Costs 3 Actions). The unicorn magically"
+    },
+    {
+      "type": "p",
+      "text": "regains 11 (2d8 + 2) hit points."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (V)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 351,
+    "sourcePageEnd": 352,
+    "size": "large",
+    "monsterType": "celestial",
+    "alignment": "lawful good",
+    "armorClass": "12",
+    "hitPoints": "67 (9d10 + 18)",
+    "speed": "50 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 15,
+      "conMod": 2,
+      "int": 11,
+      "intMod": 0,
+      "wis": 17,
+      "wisMod": 3,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Charge",
+      "Innate Spellcasting",
+      "Magic Resistance",
+      "Magic Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Hooves",
+      "Horn",
+      "Healing Touch (3/Day)",
+      "Teleport (1/Day)",
+      "Shimmering Shield (Costs 2 Actions)",
+      "Heal Self (Costs 3 Actions)"
+    ]
+  }
+}

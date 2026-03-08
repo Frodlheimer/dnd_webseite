@@ -1,0 +1,130 @@
+{
+  "id": "monster-duergar",
+  "title": "Duergar",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-dwarf"
+  ],
+  "summary": "Medium humanoid (dwarf), lawful evil",
+  "sourcePageRange": "p.305",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Duergar"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (dwarf), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 16 (scale mail, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 26 (4d8 + 8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 25 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "14 (+2) 11 (+0) 14 (+2) 11 (+0) 10 (+0) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances poison"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Dwarvish, Undercommon"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1 (200 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Duergar Resilience. The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+    },
+    {
+      "type": "p",
+      "text": "Sunlight Sensitivity. While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Enlarge (Recharges after a Short or Long Rest). For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength--based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+    },
+    {
+      "type": "p",
+      "text": "War Pick. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+    },
+    {
+      "type": "p",
+      "text": "Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
+    },
+    {
+      "type": "p",
+      "text": "Invisibility (Recharges after a Short or Long Rest). The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (E)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 305,
+    "sourcePageEnd": 305,
+    "size": "medium",
+    "monsterType": "humanoid (dwarf)",
+    "alignment": "lawful evil",
+    "armorClass": "16 (scale mail, shield)",
+    "hitPoints": "26 (4d8 + 8)",
+    "speed": "25 ft.",
+    "challengeRating": "1",
+    "challengeXp": "200 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 14,
+      "strMod": 2,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 14,
+      "conMod": 2,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Duergar Resilience",
+      "Sunlight Sensitivity"
+    ],
+    "monsterActions": [
+      "Enlarge (Recharges after a Short or Long Rest)",
+      "War Pick",
+      "Javelin",
+      "Invisibility (Recharges after a Short or Long Rest)"
+    ]
+  }
+}

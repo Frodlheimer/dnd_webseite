@@ -1,0 +1,34 @@
+{
+  "id": "magic-item-wind-fan",
+  "title": "Wind Fan",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While holding this fan, you can use an action to cast the gust of wind spell (save DC 13) from it. Once used, the fan shouldn’t be used again until the next dawn. Each time it is used again before then, it has a",
+  "sourcePageRange": "p.250-251",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wind Fan Wondrous item, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "While holding this fan, you can use an action to cast the gust of wind spell (save DC 13) from it. Once used, the fan shouldn’t be used again until the next dawn. Each time it is used again before then, it has a"
+    },
+    {
+      "type": "p",
+      "text": "cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 250,
+    "sourcePageEnd": 251,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

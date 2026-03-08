@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-ring-of-regeneration",
+  "title": "Ring of Regeneration",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality af...",
+  "sourcePageRange": "p.237",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ring of Regeneration Ring, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 237,
+    "sourcePageEnd": 237,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

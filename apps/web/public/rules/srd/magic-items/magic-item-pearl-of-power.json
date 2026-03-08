@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-pearl-of-power",
+  "title": "Pearl of Power",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pear...",
+  "sourcePageRange": "p.232",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Pearl of Power Wondrous item, uncommon (requires attunement by a spellcaster)"
+    },
+    {
+      "type": "p",
+      "text": "While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it can ’ t be used again until the next dawn."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 232,
+    "sourcePageEnd": 232,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

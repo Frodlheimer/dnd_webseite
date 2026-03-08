@@ -1,0 +1,112 @@
+{
+  "id": "monster-skeleton",
+  "title": "Skeleton",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, lawful evil",
+  "sourcePageRange": "p.346",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Skeleton"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (armor scraps)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 13 (2d8 + 4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "10 (+0) 14 (+2) 15 (+2) 6 (-2) 8 (-1) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Vulnerabilities bludgeoning"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 9"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands all languages it knew in life but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 346,
+    "sourcePageEnd": 346,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "lawful evil",
+    "armorClass": "13 (armor scraps)",
+    "hitPoints": "13 (2d8 + 4)",
+    "speed": "30 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 10,
+      "strMod": 0,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 15,
+      "conMod": 2,
+      "int": 6,
+      "intMod": -2,
+      "wis": 8,
+      "wisMod": -1,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterActions": [
+      "Shortsword",
+      "Shortbow"
+    ]
+  }
+}

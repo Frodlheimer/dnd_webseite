@@ -1,0 +1,36 @@
+{
+  "id": "condition-prone",
+  "title": "Prone",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:prone",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Prone"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.",
+        "The creature has disadvantage on attack rolls.",
+        "An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.",
+      "The creature has disadvantage on attack rolls.",
+      "An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+    ]
+  }
+}

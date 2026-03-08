@@ -1,0 +1,128 @@
+{
+  "id": "monster-air-elemental",
+  "title": "Air Elemental",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Large elemental, neutral",
+  "sourcePageRange": "p.305-306",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Air Elemental"
+    },
+    {
+      "type": "p",
+      "text": "Large elemental, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 90 (12d10 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 0 ft., fly 90 ft. (hover)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "14 (+2) 20 (+5) 14 (+2) 6 (-2) 10 (+0) 6 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances lightning, thunder; bludgeoning,"
+    },
+    {
+      "type": "p",
+      "text": "piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Auran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Air Form. The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The elemental makes two slam attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Whirlwind (Recharge 4-6). Each creature in the elemental’s space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn’t flung away or knocked prone."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 305,
+    "sourcePageEnd": 306,
+    "size": "large",
+    "monsterType": "elemental",
+    "alignment": "neutral",
+    "armorClass": "15",
+    "hitPoints": "90 (12d10 + 24)",
+    "speed": "0 ft., fly 90 ft. (hover)",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 5,
+    "monsterAbilities": {
+      "str": 14,
+      "strMod": 2,
+      "dex": 20,
+      "dexMod": 5,
+      "con": 14,
+      "conMod": 2,
+      "int": 6,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 6,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Air Form"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam",
+      "Whirlwind (Recharge 4-6)"
+    ]
+  }
+}

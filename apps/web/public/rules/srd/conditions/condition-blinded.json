@@ -1,0 +1,34 @@
+{
+  "id": "condition-blinded",
+  "title": "Blinded",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:blinded",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A blinded creature can’t see and automatically fails any ability check that requires sight.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Blinded"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A blinded creature can’t see and automatically fails any ability check that requires sight.",
+        "Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A blinded creature can’t see and automatically fails any ability check that requires sight.",
+      "Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage."
+    ]
+  }
+}

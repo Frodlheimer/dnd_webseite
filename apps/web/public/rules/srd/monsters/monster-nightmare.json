@@ -1,0 +1,120 @@
+{
+  "id": "monster-nightmare",
+  "title": "Nightmare",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend"
+  ],
+  "summary": "Large fiend, neutral evil",
+  "sourcePageRange": "p.336",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Nightmare"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 68 (8d10 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 60 ft., fly 90 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 15 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Abyssal, Common, and Infernal but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Confer Fire Resistance. The nightmare can grant resistance to fire damage to anyone riding it."
+    },
+    {
+      "type": "p",
+      "text": "Illumination. The nightmare sheds bright light in a 10-- foot radius and dim light for an additional 10 feet."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Ethereal Stride. The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (O)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 336,
+    "sourcePageEnd": 336,
+    "size": "large",
+    "monsterType": "fiend",
+    "alignment": "neutral evil",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "68 (8d10 + 24)",
+    "speed": "60 ft., fly 90 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 10,
+      "intMod": 0,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 15,
+      "chaMod": 2
+    },
+    "monsterTraits": [
+      "Confer Fire Resistance",
+      "Illumination"
+    ],
+    "monsterActions": [
+      "Hooves",
+      "Ethereal Stride"
+    ]
+  }
+}

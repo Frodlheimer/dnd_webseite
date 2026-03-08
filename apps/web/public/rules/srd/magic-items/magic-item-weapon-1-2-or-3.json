@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-weapon-1-2-or-3",
+  "title": "Weapon, +1, +2, or +3",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon’s rarity.",
+  "sourcePageRange": "p.250",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Weapon, +1, +2, or +3 Weapon (any), uncommon (+1), rare (+2), or very rare (+3)"
+    },
+    {
+      "type": "p",
+      "text": "You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon’s rarity."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 250,
+    "sourcePageEnd": 250,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

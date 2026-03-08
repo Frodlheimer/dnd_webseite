@@ -1,0 +1,144 @@
+{
+  "id": "monster-invisible-stalker",
+  "title": "Invisible Stalker",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:6",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Medium elemental, neutral",
+  "sourcePageRange": "p.323-324",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Invisible Stalker"
+    },
+    {
+      "type": "p",
+      "text": "Medium elemental, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 104 (16d8 + 32)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft., fly 50 ft. (hover)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 19 (+4) 14 (+2) 10 (+0) 15 (+2) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +8, Stealth +10"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, grappled, paralyzed,"
+    },
+    {
+      "type": "p",
+      "text": "petrified, poisoned, prone, restrained, unconscious"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 18"
+    },
+    {
+      "type": "p",
+      "text": "Languages Auran, understands Common but doesn’t"
+    },
+    {
+      "type": "p",
+      "text": "speak it"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 6 (2,300 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Invisibility. The stalker is invisible."
+    },
+    {
+      "type": "p",
+      "text": "Faultless Tracker. The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The stalker makes two slam attacks."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (K)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 323,
+    "sourcePageEnd": 324,
+    "size": "medium",
+    "monsterType": "elemental",
+    "alignment": "neutral",
+    "armorClass": "14",
+    "hitPoints": "104 (16d8 + 32)",
+    "speed": "50 ft., fly 50 ft. (hover)",
+    "challengeRating": "6",
+    "challengeXp": "2,300 XP",
+    "initiativeMod": 4,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 19,
+      "dexMod": 4,
+      "con": 14,
+      "conMod": 2,
+      "int": 10,
+      "intMod": 0,
+      "wis": 15,
+      "wisMod": 2,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Invisibility",
+      "Faultless Tracker"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam"
+    ]
+  }
+}

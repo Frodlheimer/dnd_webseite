@@ -1,0 +1,130 @@
+{
+  "id": "monster-hydra",
+  "title": "Hydra",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:8",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Huge monstrosity, unaligned",
+  "sourcePageRange": "p.323",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Hydra"
+    },
+    {
+      "type": "p",
+      "text": "Huge monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 172 (15d12 + 75)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., swim 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "20 (+5) 12 (+1) 20 (+5) 2 (-4) 10 (+0) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +6"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 8 (3,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Hold Breath. The hydra can hold its breath for 1 hour."
+    },
+    {
+      "type": "p",
+      "text": "Multiple Heads. The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+    },
+    {
+      "type": "p",
+      "text": "Reactive Heads. For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+    },
+    {
+      "type": "p",
+      "text": "Wakeful. While the hydra sleeps, at least one of its heads is awake."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The hydra makes as many bite attacks as it has heads."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (I)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 323,
+    "sourcePageEnd": 323,
+    "size": "huge",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "172 (15d12 + 75)",
+    "speed": "30 ft., swim 30 ft.",
+    "challengeRating": "8",
+    "challengeXp": "3,900 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 20,
+      "strMod": 5,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 20,
+      "conMod": 5,
+      "int": 2,
+      "intMod": -4,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Hold Breath",
+      "Multiple Heads",
+      "Reactive Heads",
+      "Wakeful"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite"
+    ]
+  }
+}

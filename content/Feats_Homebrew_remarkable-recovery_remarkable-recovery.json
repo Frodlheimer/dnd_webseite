@@ -1,0 +1,98 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Homebrew",
+  "slug": "remarkable-recovery",
+  "url": "https://dnd5e.wikidot.com/feat:remarkable-recovery",
+  "page_title": "remarkable-recovery",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Tal'Dorei Campaign Setting Reborn"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Your body has the ability to recover quickly from terrible injuries, and is unusually receptive to healing magic. You gain the following benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "ul",
+        "children": [
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Increase your Constitution score by 1, to a maximum of 20."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you are successfully stabilized while dying, you regain hit points equal to your Constitution modifier (minimum of 1)."
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "li",
+            "children": [
+              {
+                "type": "text",
+                "text": "Whenever you regain hit points as a result of a spell, potion, or class feature (but not this feat), you regain additional hit points equal to your Constitution modifier (minimum of 1)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Tal'Dorei Campaign Setting Reborn</p>\n<p>Your body has the ability to recover quickly from terrible injuries, and is unusually receptive to healing magic. You gain the following benefits:</p>\n<ul>\n<li>Increase your Constitution score by 1, to a maximum of 20.</li>\n<li>When you are successfully stabilized while dying, you regain hit points equal to your Constitution modifier (minimum of 1).</li>\n<li>Whenever you regain hit points as a result of a spell, potion, or class feature (but not this feat), you regain additional hit points equal to your Constitution modifier (minimum of 1).</li>\n</ul>\n</div>"
+  }
+}

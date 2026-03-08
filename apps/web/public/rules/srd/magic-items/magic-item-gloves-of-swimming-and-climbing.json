@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-gloves-of-swimming-and-climbing",
+  "title": "Gloves of Swimming and Climbing",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing these gloves, climbing and swimming don’t cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+  "sourcePageRange": "p.224",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gloves of Swimming and Climbing Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing these gloves, climbing and swimming don’t cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 224,
+    "sourcePageEnd": 224,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

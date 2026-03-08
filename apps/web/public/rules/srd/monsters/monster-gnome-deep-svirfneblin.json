@@ -1,0 +1,129 @@
+{
+  "id": "monster-gnome-deep-svirfneblin",
+  "title": "Gnome, Deep (Svirfneblin)",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:small",
+    "source:srd51",
+    "type:humanoid-gnome"
+  ],
+  "summary": "Small humanoid (gnome), neutral good",
+  "sourcePageRange": "p.315",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gnome, Deep (Svirfneblin)"
+    },
+    {
+      "type": "p",
+      "text": "Small humanoid (gnome), neutral good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (chain shirt)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 16 (3d6 + 6)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 14 (+2) 14 (+2) 12 (+1) 10 (+0) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Investigation +3, Perception +2, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Gnomish, Terran, Undercommon"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Stone Camouflage. The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "type": "p",
+      "text": "Gnome Cunning. The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The gnome’s innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: nondetection (self only)"
+    },
+    {
+      "type": "p",
+      "text": "1/day each: blindness/deafness , blur , disguise self"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "War Pick. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Poisoned Dart. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 315,
+    "sourcePageEnd": 315,
+    "size": "small",
+    "monsterType": "humanoid (gnome)",
+    "alignment": "neutral good",
+    "armorClass": "15 (chain shirt)",
+    "hitPoints": "16 (3d6 + 6)",
+    "speed": "20 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 14,
+      "conMod": 2,
+      "int": 12,
+      "intMod": 1,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Stone Camouflage",
+      "Gnome Cunning",
+      "Innate Spellcasting"
+    ],
+    "monsterActions": [
+      "War Pick",
+      "Poisoned Dart"
+    ]
+  }
+}

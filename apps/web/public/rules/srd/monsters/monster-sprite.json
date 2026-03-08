@@ -1,0 +1,114 @@
+{
+  "id": "monster-sprite",
+  "title": "Sprite",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:tiny",
+    "source:srd51",
+    "type:fey"
+  ],
+  "summary": "Tiny fey, neutral good",
+  "sourcePageRange": "p.348-349",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Sprite"
+    },
+    {
+      "type": "p",
+      "text": "Tiny fey, neutral good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (leather armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 2 (1d4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 10 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "3 (-4) 18 (+4) 10 (+0) 14 (+2) 13 (+1) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +8"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Elvish, Sylvan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Shortbow. Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake."
+    },
+    {
+      "type": "p",
+      "text": "Heart Sight. The sprite touches a creature and magically knows the creature’s current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature’s alignment. Celestials, fiends, and undead automatically fail the saving throw."
+    },
+    {
+      "type": "p",
+      "text": "Invisibility. The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 348,
+    "sourcePageEnd": 349,
+    "size": "tiny",
+    "monsterType": "fey",
+    "alignment": "neutral good",
+    "armorClass": "15 (leather armor)",
+    "hitPoints": "2 (1d4)",
+    "speed": "10 ft., fly 40 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": 4,
+    "monsterAbilities": {
+      "str": 3,
+      "strMod": -4,
+      "dex": 18,
+      "dexMod": 4,
+      "con": 10,
+      "conMod": 0,
+      "int": 14,
+      "intMod": 2,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterActions": [
+      "Longsword",
+      "Shortbow",
+      "Heart Sight",
+      "Invisibility"
+    ]
+  }
+}

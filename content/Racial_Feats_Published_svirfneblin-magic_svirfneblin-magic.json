@@ -1,0 +1,120 @@
+{
+  "kind": "FEAT",
+  "group": "Racial Feats",
+  "collection": "Published",
+  "slug": "svirfneblin-magic",
+  "url": "https://dnd5e.wikidot.com/feat:svirfneblin-magic",
+  "page_title": "svirfneblin-magic",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Mordenkainen's Tome of Foes"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Gnome (Deep Gnome)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast "
+          },
+          {
+            "type": "text",
+            "text": "Nondetection"
+          },
+          {
+            "type": "text",
+            "text": " on yourself at will, without needing a material component."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can also cast each of the following spells once with this ability: "
+          },
+          {
+            "type": "text",
+            "text": "Blindness/Deafness"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "Blur"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "text": "Disguise Self"
+          },
+          {
+            "type": "text",
+            "text": ". You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells"
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Mordenkainen's Tome of Foes</p>\n<p><em>Prerequisite: Gnome (Deep Gnome)</em></p>\n<p>You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component.</p>\n<p>You can also cast each of the following spells once with this ability: Blindness/Deafness, Blur, and Disguise Self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells</p>\n</div>"
+  }
+}

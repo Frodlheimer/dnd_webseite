@@ -1,0 +1,143 @@
+{
+  "id": "harengon",
+  "slug": "harengon",
+  "name": "Harengon",
+  "group": "Exotic Lineages",
+  "groupSlug": "exotic-lineages",
+  "tags": [
+    "group:exotic-lineages",
+    "has:asi",
+    "has:traits",
+    "kind:lineage",
+    "setting:none",
+    "size:medium",
+    "size:small",
+    "speed:30",
+    "trait:ability-score-increase",
+    "trait:creature-type",
+    "trait:hare-trigger",
+    "trait:languages",
+    "trait:leporine-senses",
+    "trait:life-span",
+    "trait:lucky-footwork",
+    "trait:rabbit-hop",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learnin...",
+  "documentBlocks": [
+    {
+      "type": "h1",
+      "text": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    {
+      "type": "p",
+      "text": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went."
+    },
+    {
+      "type": "p",
+      "text": "Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.",
+        "Creature Type. You are a Humanoid.",
+        "Size. You are Medium or Small. You choose the size when you select this race.",
+        "Speed. Your walking speed is 30 feet.",
+        "Hare-Trigger. You can add your proficiency bonus to your initiative rolls.",
+        "Leporine Senses. You have proficiency in the Perception skill.",
+        "Lucky Footwork. When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.",
+        "Rabbit Hop. As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "Languages. Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign."
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "The Wild Beyond the Witchlight"
+    },
+    {
+      "type": "p",
+      "text": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went."
+    },
+    {
+      "type": "p",
+      "text": "Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.",
+        "Languages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+        "Creature Type. You are a Humanoid.",
+        "Life Span. Harengons have a life span of about a century.",
+        "Size. You are Medium or Small. You choose the size when you select this race.",
+        "Speed. Your walking speed is 30 feet.",
+        "Hare-Trigger. You can add your proficiency bonus to your initiative rolls.",
+        "Leporine Senses. You have proficiency in the Perception skill.",
+        "Lucky Footwork. When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.",
+        "Rabbit Hop. As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20."
+    },
+    {
+      "label": "Creature Type",
+      "labelKey": "creature-type",
+      "value": "You are a Humanoid."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "You are Medium or Small. You choose the size when you select this race."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your walking speed is 30 feet."
+    },
+    {
+      "label": "Hare-Trigger",
+      "labelKey": "hare-trigger",
+      "value": "You can add your proficiency bonus to your initiative rolls."
+    },
+    {
+      "label": "Leporine Senses",
+      "labelKey": "leporine-senses",
+      "value": "You have proficiency in the Perception skill."
+    },
+    {
+      "label": "Lucky Footwork",
+      "labelKey": "lucky-footwork",
+      "value": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+    },
+    {
+      "label": "Rabbit Hop",
+      "labelKey": "rabbit-hop",
+      "value": "As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign."
+    },
+    {
+      "label": "Life Span",
+      "labelKey": "life-span",
+      "value": "Harengons have a life span of about a century."
+    }
+  ],
+  "quickFacts": {
+    "abilityScoreIncrease": "When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.",
+    "creatureType": "You are a Humanoid.",
+    "size": "You are Medium or Small. You choose the size when you select this race.",
+    "speed": "Your walking speed is 30 feet.",
+    "languages": "Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign.",
+    "speedFeet": 30
+  }
+}

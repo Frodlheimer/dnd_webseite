@@ -1,0 +1,150 @@
+{
+  "id": "monster-night-hag",
+  "title": "Night Hag",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fiend"
+  ],
+  "summary": "Medium fiend, neutral evil",
+  "sourcePageRange": "p.319-320",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Night Hag"
+    },
+    {
+      "type": "p",
+      "text": "Medium fiend, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 112 (15d8 + 45)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 15 (+2) 16 (+3) 16 (+3) 14 (+2) 16 (+3)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Deception +7, Insight +6, Perception +6, Stealth"
+    },
+    {
+      "type": "p",
+      "text": "+6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire; bludgeoning, piercing,"
+    },
+    {
+      "type": "p",
+      "text": "and slashing from nonmagical attacks not made with silvered weapons"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 16"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, Common, Infernal, Primordial"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect magic , magic missile"
+    },
+    {
+      "type": "p",
+      "text": "2/day each: plane shift (self only), ray of enfeeblement , sleep"
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The hag has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws (Hag Form Only). Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Change Shape. The hag magically polymorphs into a Small or Medium female humanoid, or back into her true form. Her statistics are the same in each form. Any equipment she is wearing or carrying isn’t transformed. She reverts to her true form if she dies."
+    },
+    {
+      "type": "p",
+      "text": "Etherealness. The hag magically enters the Ethereal Plane from the Material Plane, or vice versa. To do so, the hag must have a heartstone in her possession."
+    },
+    {
+      "type": "p",
+      "text": "Nightmare Haunting (1/Day). While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle . As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target’s hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag’s soul bag . The reduction to the target’s hit point maximum lasts until removed by the greater restoration spell or similar magic."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 319,
+    "sourcePageEnd": 320,
+    "size": "medium",
+    "monsterType": "fiend",
+    "alignment": "neutral evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "112 (15d8 + 45)",
+    "speed": "30 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 16,
+      "intMod": 3,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 16,
+      "chaMod": 3
+    },
+    "monsterTraits": [
+      "Innate Spellcasting",
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Claws (Hag Form Only)",
+      "Change Shape",
+      "Etherealness",
+      "Nightmare Haunting (1/Day)"
+    ]
+  }
+}

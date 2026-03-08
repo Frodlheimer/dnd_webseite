@@ -1,0 +1,82 @@
+{
+  "id": "magic-item-sphere-of-annihilation",
+  "title": "Sphere of Annihilation",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This 2---foot---diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it.",
+  "sourcePageRange": "p.242-243",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Sphere of Annihilation Wondrous item, legendary"
+    },
+    {
+      "type": "p",
+      "text": "This 2---foot---diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it."
+    },
+    {
+      "type": "p",
+      "text": "The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an artifact is susceptible to damage from a sphere of annihilation , it passes through the sphere unscathed. Anything else that touches the sphere but isn’t wholly engulfed and obliterated by it takes 4d10 force damage."
+    },
+    {
+      "type": "p",
+      "text": "The sphere is stationary until someone controls it. If you are within 60 feet of an uncontrolled sphere, you can use an action to make a DC 25 Intelligence (Arcana) check. On a success, the sphere levitates in one direction of your choice, up to a number of feet equal to 5 × your Intelligence modifier (minimum 5 feet). On a failure, the sphere moves 10 feet toward you. A creature whose space the sphere enters must succeed on a DC 13 Dexterity saving throw or be touched by it, taking 4d10 force damage. If you attempt to control a sphere that is under another creature’s control, you make an Intelligence (Arcana) check contested by the other creature’s Intelligence (Arcana) check. The winner of the contest gains control of the sphere and can levitate it as normal. If the sphere comes into contact with a planar portal, such as that created by the gate spell, or an extradimensional space, such as that within a portable hole , the GM determines randomly what happens, using the following table."
+    },
+    {
+      "type": "p",
+      "text": "d100 Result 01-50 The sphere is destroyed. 51-85 The sphere moves through the portal or into the extradimensional space. 86-00 A spatial rift sends each creature and object within 180 feet of the sphere, including the sphere, to a random plane of existence."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "86-00",
+          "A spatial rift sends eac within 180 feet of the sphere, to a random p",
+          "h creature and object"
+        ],
+        [
+          "sphere, including the"
+        ],
+        [
+          "lane of existence."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Staff of Charming Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "While holding this staff, you can use an action to expend 1 of its 10 charges to cast charm person , command , or comprehend languages from it using your spell save DC. The staff can also be used as a magic quarterstaff. If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can’t use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff’s intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell. The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff."
+    },
+    {
+      "type": "p",
+      "text": "Staff of Fire Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "You have resistance to fire damage while you hold this staff. The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: burning hands (1 charge), fireball (3 charges), or wall of fire (4 charges). The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed."
+    },
+    {
+      "type": "p",
+      "text": "Staff of Frost Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)"
+    },
+    {
+      "type": "p",
+      "text": "You have resistance to cold damage while you hold this staff. The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges). The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 242,
+    "sourcePageEnd": 243,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "magicItemRequiresAttunement": false
+  }
+}

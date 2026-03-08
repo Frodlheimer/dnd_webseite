@@ -1,0 +1,102 @@
+{
+  "id": "siren",
+  "slug": "siren",
+  "name": "Siren",
+  "group": "Setting Specific Lineages",
+  "groupSlug": "setting-specific-lineages",
+  "tags": [
+    "group:setting-specific-lineages",
+    "has:asi",
+    "has:traits",
+    "kind:lineage",
+    "setting:plane-shift",
+    "size:medium",
+    "source:plane-shift-ixalan",
+    "speed:25",
+    "trait:ability-score-increase",
+    "trait:alignment",
+    "trait:flight",
+    "trait:languages",
+    "trait:sirens-song",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "Sirens are at home along the waters of the Stormwreck Sea. They settle on rocky coasts and remote islands, and even on floating piles of kelp. Sirens are mercurial creatures who can turn in an instant from lonely to r...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Sirens are at home along the waters of the Stormwreck Sea. They settle on rocky coasts and remote islands, and even on floating piles of kelp. Sirens are mercurial creatures who can turn in an instant from lonely to repulsed, from desirous to hateful, from welcoming to irritated, from loving to murderous-and then back again. They are fascinated with ships, and enjoy toying with them. One siren might call out to a passing crew for company, only to capriciously draw the ship into an entangling mass of kelp. Another might lure a vessel onto jagged rocks so as to study the wreckage and learn more about the strange contraption. But as the number of Brazen Coalition ships passing through siren-controlled waters has increased over the years, a growing number of sirens have decided to satisfy their curiosity by taking positions on ship crews-including, in at least one case, the position of captain."
+    },
+    {
+      "type": "p",
+      "text": "Sirens are humanoid creatures with birdlike features. Their long, slender arms extend into powerful wings that easily carry their light frames into the air. Their fingers bear sharp claws but are nimble enough to wield weapons and perform fine manipulation. Crests of feathery plumage start between their eyes and cover the backs of their heads."
+    },
+    {
+      "type": "h1",
+      "text": "Siren Features"
+    },
+    {
+      "type": "p",
+      "text": "Source: Plane Shift - Ixalan"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Your Charisma score increases by 2.",
+        "Alignment. Most sirens lean toward chaotic alignment, cherishing the freedom and independence that comes from joining a pirate crew.",
+        "Size. Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium.",
+        "Speed. Your base walking speed is 25 feet.",
+        "Flight. You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)",
+        "Siren's Song. You know the Friends cantrip and can cast it without material components.",
+        "Languages. You can speak, read, and write Common (if it exists in your campaign) and Siren."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Your Charisma score increases by 2."
+    },
+    {
+      "label": "Alignment",
+      "labelKey": "alignment",
+      "value": "Most sirens lean toward chaotic alignment, cherishing the freedom and independence that comes from joining a pirate crew."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your base walking speed is 25 feet."
+    },
+    {
+      "label": "Flight",
+      "labelKey": "flight",
+      "value": "You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)"
+    },
+    {
+      "label": "Siren's Song",
+      "labelKey": "sirens-song",
+      "value": "You know the Friends cantrip and can cast it without material components."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can speak, read, and write Common (if it exists in your campaign) and Siren."
+    }
+  ],
+  "quickFacts": {
+    "source": "Plane Shift - Ixalan",
+    "abilityScoreIncrease": "Your Charisma score increases by 2.",
+    "size": "Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium.",
+    "speed": "Your base walking speed is 25 feet.",
+    "languages": "You can speak, read, and write Common (if it exists in your campaign) and Siren.",
+    "speedFeet": 25
+  },
+  "setting": "Plane Shift",
+  "settingSlug": "plane-shift"
+}

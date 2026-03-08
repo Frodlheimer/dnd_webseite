@@ -58,6 +58,14 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
     keywords: ['character', 'sheet', 'pdf', 'builder']
   },
   {
+    id: 'nav-player-point-buy',
+    label: 'Point Buy Calculator',
+    description: '5e point buy with SRD and legacy bonus modes',
+    path: '/player/characters/point-buy',
+    scope: 'player',
+    keywords: ['point buy', 'ability scores', 'asi', 'feat', 'calculator']
+  },
+  {
     id: 'nav-player-notes',
     label: 'Player Notes',
     description: 'Your campaign notes',
@@ -72,6 +80,14 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
     path: '/player/tools',
     scope: 'player',
     keywords: ['dice', 'tools', 'utility']
+  },
+  {
+    id: 'nav-dice',
+    label: 'Dice',
+    description: 'Client-only dice rolling and initiative tools',
+    path: '/dice',
+    scope: 'all',
+    keywords: ['dice', 'roll', 'initiative', 'd20']
   },
   {
     id: 'nav-dm-hub',
@@ -104,6 +120,14 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
     path: '/dm/npcs',
     scope: 'dm',
     keywords: ['npc', 'library']
+  },
+  {
+    id: 'nav-dm-monsters',
+    label: 'Monsters (SRD)',
+    description: 'Search SRD monsters and add to NPC library',
+    path: '/dm/monsters',
+    scope: 'dm',
+    keywords: ['monsters', 'srd', 'npc', 'initiative']
   },
   {
     id: 'nav-dm-encounters',
@@ -168,6 +192,86 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
     path: '/rules/classes',
     scope: 'all',
     keywords: ['classes', 'subclasses', 'rules', 'builder']
+  },
+  {
+    id: 'nav-rules-races',
+    label: 'Races (SRD)',
+    description: 'SRD race references',
+    path: '/rules/races',
+    scope: 'all',
+    keywords: ['races', 'srd', 'ancestry']
+  },
+  {
+    id: 'nav-rules-equipment',
+    label: 'Equipment (SRD)',
+    description: 'Weapons, armor, gear, and packs',
+    path: '/rules/equipment',
+    scope: 'all',
+    keywords: ['equipment', 'weapons', 'armor', 'gear']
+  },
+  {
+    id: 'nav-rules-adventuring',
+    label: 'Adventuring (SRD)',
+    description: 'Travel, exploration, and rest rules',
+    path: '/rules/adventuring',
+    scope: 'all',
+    keywords: ['adventuring', 'travel', 'rest', 'exploration']
+  },
+  {
+    id: 'nav-rules-combat',
+    label: 'Combat (SRD)',
+    description: 'Actions, attacks, and damage rules',
+    path: '/rules/combat',
+    scope: 'all',
+    keywords: ['combat', 'actions', 'attack', 'damage']
+  },
+  {
+    id: 'nav-rules-spellcasting-rules',
+    label: 'Spellcasting Rules (SRD)',
+    description: 'General spellcasting rules',
+    path: '/rules/spellcasting',
+    scope: 'all',
+    keywords: ['spellcasting', 'components', 'concentration', 'rules']
+  },
+  {
+    id: 'nav-rules-conditions',
+    label: 'Conditions (SRD)',
+    description: 'Appendix PH-A conditions',
+    path: '/rules/conditions',
+    scope: 'all',
+    keywords: ['conditions', 'blinded', 'prone', 'stunned']
+  },
+  {
+    id: 'nav-rules-magic-items',
+    label: 'Magic Items (SRD)',
+    description: 'Magic items A-Z',
+    path: '/rules/magic-items',
+    scope: 'all',
+    keywords: ['magic items', 'wondrous', 'attunement']
+  },
+  {
+    id: 'nav-rules-lineages',
+    label: 'Races & Lineages',
+    description: 'Built-in race and lineage browser',
+    path: '/rules/lineages',
+    scope: 'all',
+    keywords: ['races', 'lineages', 'ancestry', 'rules']
+  },
+  {
+    id: 'nav-rules-feats',
+    label: 'Feats',
+    description: 'Built-in feat browser with prerequisite and ability filters',
+    path: '/rules/feats',
+    scope: 'all',
+    keywords: ['feats', 'talents', 'prerequisite', 'ability score']
+  },
+  {
+    id: 'nav-rules-srd-attribution',
+    label: 'SRD Attribution',
+    description: 'CC-BY-4.0 attribution statement',
+    path: '/rules/srd-attribution',
+    scope: 'all',
+    keywords: ['srd', 'attribution', 'license', 'cc-by-4.0']
   },
   {
     id: 'nav-feedback',

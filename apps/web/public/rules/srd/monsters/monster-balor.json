@@ -1,0 +1,148 @@
+{
+  "id": "monster-balor",
+  "title": "Balor",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:19",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:fiend-demon"
+  ],
+  "summary": "Huge fiend (demon), chaotic evil",
+  "sourcePageRange": "p.270",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Balor"
+    },
+    {
+      "type": "p",
+      "text": "Huge fiend (demon), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 262 (21d12 + 126)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 80 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "26 (+8) 15 (+2) 22 (+6) 20 (+5) 16 (+3) 22 (+6)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Str +14, Con +12, Wis +9, Cha +12"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses truesight 120 ft., passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Abyssal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 19 (22,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Death Throes. When the balor dies, it explodes, and each creature within 30 feet of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons."
+    },
+    {
+      "type": "p",
+      "text": "Fire Aura. At the start of each of the balor’s turns, each creature within 5 feet of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren’t being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The balor has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The balor’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The balor makes two attacks: one with its longsword and one with its whip."
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice."
+    },
+    {
+      "type": "p",
+      "text": "Whip. Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor."
+    },
+    {
+      "type": "p",
+      "text": "Teleport. The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 270,
+    "sourcePageEnd": 270,
+    "size": "huge",
+    "monsterType": "fiend (demon)",
+    "alignment": "chaotic evil",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "262 (21d12 + 126)",
+    "speed": "40 ft., fly 80 ft.",
+    "challengeRating": "19",
+    "challengeXp": "22,000 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 26,
+      "strMod": 8,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 22,
+      "conMod": 6,
+      "int": 20,
+      "intMod": 5,
+      "wis": 16,
+      "wisMod": 3,
+      "cha": 22,
+      "chaMod": 6
+    },
+    "monsterTraits": [
+      "Death Throes",
+      "Fire Aura",
+      "Magic Resistance",
+      "Magic Weapons"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Longsword",
+      "Whip",
+      "Teleport"
+    ]
+  }
+}

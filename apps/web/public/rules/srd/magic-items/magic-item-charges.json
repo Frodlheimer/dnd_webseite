@@ -1,0 +1,39 @@
+{
+  "id": "magic-item-charges",
+  "title": "Charges",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Some magic items have charges that must be expended to activate their properties. The number of charges an item has remaining is revealed when an identify spell is cast on it, as well as when a creature attunes to it....",
+  "sourcePageRange": "p.207",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Charges"
+    },
+    {
+      "type": "p",
+      "text": "Some magic items have charges that must be expended to activate their properties. The number of charges an item has remaining is revealed when an identify spell is cast on it, as well as when a creature attunes to it. Additionally, when an item regains"
+    },
+    {
+      "type": "p",
+      "text": "charges, the creature attuned to it learns how many charges it regained."
+    },
+    {
+      "type": "h2",
+      "text": "Magic Items A-Z"
+    },
+    {
+      "type": "p",
+      "text": "Magic items are presented in alphabetical order. A magic item’s description gives the item’s name, its category, its rarity, and its magical properties."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 207,
+    "sourcePageEnd": 207,
+    "magicItemRequiresAttunement": false
+  }
+}

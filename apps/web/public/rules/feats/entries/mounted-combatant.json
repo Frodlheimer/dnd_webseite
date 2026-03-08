@@ -1,0 +1,48 @@
+{
+  "id": "mounted-combatant",
+  "slug": "mounted-combatant",
+  "name": "Mounted Combatant",
+  "group": "Feats",
+  "summary": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.",
+        "You can force an attack targeted at your mount to target you instead.",
+        "If your mount is subjected to an effect that allows it to make Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.",
+    "You can force an attack targeted at your mount to target you instead.",
+    "If your mount is subjected to an effect that allows it to make Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

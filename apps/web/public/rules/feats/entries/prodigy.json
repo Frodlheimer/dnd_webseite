@@ -1,0 +1,63 @@
+{
+  "id": "prodigy",
+  "slug": "prodigy",
+  "name": "Prodigy",
+  "group": "Racial Feats",
+  "summary": "You have a knack for learning new things. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Half-Elf, Half-Orc or Human"
+    },
+    {
+      "type": "p",
+      "text": "You have a knack for learning new things. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
+        "Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus"
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Half-Elf",
+      "Half-Orc",
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Half-Elf, Half-Orc or Human"
+  },
+  "highlights": [
+    "You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
+    "Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus"
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:racial-feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "race:elf",
+    "race:half-elf",
+    "race:half-orc",
+    "race:human",
+    "race:orc",
+    "source:xanathars-guide-to-everything"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-wand-of-enemy-detection",
+  "title": "Wand of Enemy Detection",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but no...",
+  "sourcePageRange": "p.248",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wand of Enemy Detection Wand, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 248,
+    "sourcePageEnd": 248,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-tome-of-understanding",
+  "title": "Tome of Understanding",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Wisdom ...",
+  "sourcePageRange": "p.247",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Tome of Understanding Wondrous item, very rare"
+    },
+    {
+      "type": "p",
+      "text": "This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Wisdom score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 247,
+    "sourcePageEnd": 247,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "magicItemRequiresAttunement": false
+  }
+}

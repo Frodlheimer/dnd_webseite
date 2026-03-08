@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-boots-of-the-winterlands",
+  "title": "Boots of the Winterlands",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:",
+  "sourcePageRange": "p.212",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Boots of the Winterlands Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:"
+    },
+    {
+      "type": "p",
+      "text": "• You have resistance to cold damage. • You ignore difficult terrain created by ice or snow. • You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 212,
+    "sourcePageEnd": 212,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

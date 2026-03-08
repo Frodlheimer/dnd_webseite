@@ -1,0 +1,121 @@
+{
+  "id": "monster-centaur",
+  "title": "Centaur",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, neutral good",
+  "sourcePageRange": "p.267",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Centaur"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, neutral good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 45 (6d10 + 12)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 14 (+2) 14 (+2) 9 (-1) 13 (+1) 11 (+0)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Athletics +6, Perception +3, Survival +3"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Elvish, Sylvan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Charge. If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow."
+    },
+    {
+      "type": "p",
+      "text": "Pike. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 267,
+    "sourcePageEnd": 267,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "neutral good",
+    "armorClass": "12",
+    "hitPoints": "45 (6d10 + 12)",
+    "speed": "50 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 14,
+      "conMod": 2,
+      "int": 9,
+      "intMod": -1,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 11,
+      "chaMod": 0
+    },
+    "monsterTraits": [
+      "Charge"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Pike",
+      "Hooves",
+      "Longbow"
+    ]
+  }
+}

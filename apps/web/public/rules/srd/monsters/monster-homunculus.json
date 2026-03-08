@@ -1,0 +1,110 @@
+{
+  "id": "monster-homunculus",
+  "title": "Homunculus",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:0",
+    "section:monsters",
+    "size:tiny",
+    "source:srd51",
+    "type:construct"
+  ],
+  "summary": "Tiny construct, neutral",
+  "sourcePageRange": "p.322-323",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Homunculus"
+    },
+    {
+      "type": "p",
+      "text": "Tiny construct, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 5 (2d4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., fly 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "4 (-3) 15 (+2) 11 (+0) 10 (+0) 10 (+0) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands the languages of its creator but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 0 (10 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Telepathic Bond. While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 322,
+    "sourcePageEnd": 323,
+    "size": "tiny",
+    "monsterType": "construct",
+    "alignment": "neutral",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "5 (2d4)",
+    "speed": "20 ft., fly 40 ft.",
+    "challengeRating": "0",
+    "challengeXp": "10 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 4,
+      "strMod": -3,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 11,
+      "conMod": 0,
+      "int": 10,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Telepathic Bond"
+    ],
+    "monsterActions": [
+      "Bite"
+    ]
+  }
+}

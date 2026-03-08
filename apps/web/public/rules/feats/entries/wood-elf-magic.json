@@ -1,0 +1,44 @@
+{
+  "id": "wood-elf-magic",
+  "slug": "wood-elf-magic",
+  "name": "Wood Elf Magic",
+  "group": "Racial Feats",
+  "summary": "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one Druid cantrip of your choice. You also learn the Longstrider and Pass Without Trace spells, each of which you ca...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Xanathar's Guide to Everything"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Elf (Wood)"
+    },
+    {
+      "type": "p",
+      "text": "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one Druid cantrip of your choice. You also learn the Longstrider and Pass Without Trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [
+      "Elf"
+    ],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Xanathar's Guide to Everything",
+    "prerequisite": "Elf (Wood)"
+  },
+  "highlights": [],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:racial-feats",
+    "has:prerequisite",
+    "kind:feat",
+    "race:elf",
+    "source:xanathars-guide-to-everything"
+  ]
+}

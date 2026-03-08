@@ -1,0 +1,121 @@
+{
+  "id": "leonin",
+  "slug": "leonin",
+  "name": "Leonin",
+  "group": "Setting Specific Lineages",
+  "groupSlug": "setting-specific-lineages",
+  "tags": [
+    "group:setting-specific-lineages",
+    "has:asi",
+    "has:darkvision",
+    "has:traits",
+    "kind:lineage",
+    "setting:theros",
+    "size:medium",
+    "source:mythic-odysseys-of-theros",
+    "speed:35",
+    "trait:ability-score-increase",
+    "trait:age",
+    "trait:alignment",
+    "trait:claws",
+    "trait:darkvision",
+    "trait:daunting-roar",
+    "trait:hunters-instincts",
+    "trait:languages",
+    "trait:size",
+    "trait:speed"
+  ],
+  "summary": "The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmer...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos's border mountains and seek to test themselves in a wider world."
+    },
+    {
+      "type": "h1",
+      "text": "Leonin Features"
+    },
+    {
+      "type": "p",
+      "text": "Source: Mythic Odysseys of Theros"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ability Score Increase. Your Constitution score increases by 2, and your Strength score increases by 1.",
+        "Age. Leonin mature and age at about the same rate as humans.",
+        "Alignment. Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.",
+        "Size. Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.",
+        "Speed. Your base walking speed is 35 feet.",
+        "Darkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "Claws. Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier.",
+        "Hunter's Instincts. You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.",
+        "Daunting Roar. As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest.",
+        "Languages. You can speak, read, and write Common and Leonin."
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "label": "Ability Score Increase",
+      "labelKey": "ability-score-increase",
+      "value": "Your Constitution score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "label": "Age",
+      "labelKey": "age",
+      "value": "Leonin mature and age at about the same rate as humans."
+    },
+    {
+      "label": "Alignment",
+      "labelKey": "alignment",
+      "value": "Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good."
+    },
+    {
+      "label": "Size",
+      "labelKey": "size",
+      "value": "Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+    },
+    {
+      "label": "Speed",
+      "labelKey": "speed",
+      "value": "Your base walking speed is 35 feet."
+    },
+    {
+      "label": "Darkvision",
+      "labelKey": "darkvision",
+      "value": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "label": "Claws",
+      "labelKey": "claws",
+      "value": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier."
+    },
+    {
+      "label": "Hunter's Instincts",
+      "labelKey": "hunters-instincts",
+      "value": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival."
+    },
+    {
+      "label": "Daunting Roar",
+      "labelKey": "daunting-roar",
+      "value": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "label": "Languages",
+      "labelKey": "languages",
+      "value": "You can speak, read, and write Common and Leonin."
+    }
+  ],
+  "quickFacts": {
+    "source": "Mythic Odysseys of Theros",
+    "abilityScoreIncrease": "Your Constitution score increases by 2, and your Strength score increases by 1.",
+    "size": "Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.",
+    "speed": "Your base walking speed is 35 feet.",
+    "languages": "You can speak, read, and write Common and Leonin.",
+    "darkvision": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+    "speedFeet": 35
+  },
+  "setting": "Theros",
+  "settingSlug": "theros"
+}

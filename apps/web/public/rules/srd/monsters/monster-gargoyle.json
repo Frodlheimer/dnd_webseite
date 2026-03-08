@@ -1,0 +1,128 @@
+{
+  "id": "monster-gargoyle",
+  "title": "Gargoyle",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:elemental"
+  ],
+  "summary": "Medium elemental, chaotic evil",
+  "sourcePageRange": "p.309",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gargoyle"
+    },
+    {
+      "type": "p",
+      "text": "Medium elemental, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 52 (7d8 + 21)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 11 (+0) 16 (+3) 6 (-2) 11 (+0) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks that aren’t adamantine"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities exhaustion, petrified, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Terran"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The gargoyle makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 309,
+    "sourcePageEnd": 309,
+    "size": "medium",
+    "monsterType": "elemental",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "52 (7d8 + 21)",
+    "speed": "30 ft., fly 60 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 11,
+      "dexMod": 0,
+      "con": 16,
+      "conMod": 3,
+      "int": 6,
+      "intMod": -2,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "False Appearance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claws"
+    ]
+  }
+}

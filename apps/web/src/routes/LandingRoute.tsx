@@ -234,7 +234,7 @@ export const LandingRoute = () => {
 
       <section className="landing-secondary-grid grid grid-cols-2 gap-2 lg:grid-cols-4">
         <SecondaryCard title="Notes" description="Quick campaign notes." to="/player/notes" />
-        <SecondaryCard title="Dice" description="Rolling and utility tools." to="/player/tools" />
+        <SecondaryCard title="Dice" description="Rolling and initiative tools." to="/dice" />
         <SecondaryCard title="Help" description="Guides and controls." to="/help" />
         <SecondaryCard title="Stats & Rules" description="Rule references." to="/rules" />
       </section>

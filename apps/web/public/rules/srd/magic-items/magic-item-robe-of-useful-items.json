@@ -1,0 +1,87 @@
+{
+  "id": "magic-item-robe-of-useful-items",
+  "title": "Robe of Useful Items",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the las...",
+  "sourcePageRange": "p.239",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Robe of Useful Items Wondrous item, uncommon"
+    },
+    {
+      "type": "p",
+      "text": "This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment. The robe has two of each of the following patches:"
+    },
+    {
+      "type": "p",
+      "text": "• Dagger • Bullseye lantern (filled and lit) • Steel mirror • 10---foot pole • Hempen rope (50 feet, coiled) • Sack"
+    },
+    {
+      "type": "p",
+      "text": "In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "09-15",
+          "Silver coffer (1 foot long, 6 inches wide and"
+        ],
+        [
+          "16-22",
+          "Iron door (up to 10 feet wide and 10 feet high,"
+        ],
+        [
+          "23-30",
+          "10 gems worth 100 gp each"
+        ],
+        [
+          "31-44",
+          "Wooden ladder (24 feet long)"
+        ],
+        [
+          "45-51",
+          "A riding horse with saddle bags"
+        ],
+        [
+          "52-59",
+          "Pit (a cube 10 feet on a side), which you can"
+        ],
+        [
+          "60-68",
+          "4 potions of healing"
+        ],
+        [
+          "69-75",
+          "Rowboat (12 feet long)"
+        ],
+        [
+          "76-83",
+          "Spell scroll containing one spell of 1st to 3rd"
+        ],
+        [
+          "84-90",
+          "2 mastiffs"
+        ],
+        [
+          "91-96",
+          "Window (2 feet by 4 feet, up to 2 feet deep),"
+        ]
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 239,
+    "sourcePageEnd": 239,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "magicItemRequiresAttunement": false
+  }
+}

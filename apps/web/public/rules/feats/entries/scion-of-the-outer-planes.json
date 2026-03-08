@@ -1,0 +1,80 @@
+{
+  "id": "scion-of-the-outer-planes",
+  "slug": "scion-of-the-outer-planes",
+  "name": "Scion Of The Outer Planes",
+  "group": "Feats",
+  "summary": "Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion Table. Your choice gives you a resistance to a damage type and the ability to cast a cantrip, a...",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Planescape - Adventures in the Multiverse"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Planescape Campaign."
+    },
+    {
+      "type": "p",
+      "text": "Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion Table. Your choice gives you a resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom or Charisma (choose when you select this feat)."
+    },
+    {
+      "type": "h4",
+      "text": "Planar Infusion"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Plane",
+          "Resistance",
+          "Cantrip"
+        ],
+        [
+          "Chaotic Outer Plane",
+          "Poison",
+          "Minor Illusion"
+        ],
+        [
+          "Evil Outer Plane",
+          "Necrotic",
+          "Chill Touch"
+        ],
+        [
+          "Good Outer Plane",
+          "Radiant",
+          "Sacred Flame"
+        ],
+        [
+          "Lawful Outer Plane",
+          "Force",
+          "Guidance"
+        ],
+        [
+          "The Outlands",
+          "Psychic",
+          "Mage Hand"
+        ]
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Planescape - Adventures in the Multiverse",
+    "prerequisite": "Planescape Campaign."
+  },
+  "highlights": [],
+  "collection": "Planescape",
+  "tags": [
+    "collection:planescape",
+    "group:feats",
+    "has:prerequisite",
+    "kind:feat",
+    "source:planescape-adventures-in-the-multiverse"
+  ]
+}

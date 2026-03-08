@@ -1,0 +1,27 @@
+{
+  "id": "magic-item-command-word",
+  "title": "Command Word",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "A command word is a word or phrase that must be spoken for an item to work. A magic item that requires a command word can’t be activated in an area where sound is prevented, as in the area of the silence spell.",
+  "sourcePageRange": "p.207",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Command Word"
+    },
+    {
+      "type": "p",
+      "text": "A command word is a word or phrase that must be spoken for an item to work. A magic item that requires a command word can’t be activated in an area where sound is prevented, as in the area of the silence spell."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 207,
+    "sourcePageEnd": 207,
+    "magicItemRequiresAttunement": false
+  }
+}

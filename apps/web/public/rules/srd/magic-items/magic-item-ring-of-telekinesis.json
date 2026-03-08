@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-ring-of-telekinesis",
+  "title": "Ring of Telekinesis",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren’t being worn or carried.",
+  "sourcePageRange": "p.238",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ring of Telekinesis Ring, very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren’t being worn or carried."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 238,
+    "sourcePageEnd": 238,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

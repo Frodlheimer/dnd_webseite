@@ -1,0 +1,54 @@
+{
+  "id": "keen-mind",
+  "slug": "keen-mind",
+  "name": "Keen Mind",
+  "group": "Feats",
+  "summary": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Intelligence score by 1, to a maximum of 20.",
+        "You always know which way is north.",
+        "You always know the number of hours left before the next sunrise or sunset.",
+        "You can accurately recall anything you have seen or heard within the past month."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "FIXED",
+      "abilities": [
+        "INT"
+      ],
+      "description": "Increase your Intelligence score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Intelligence score by 1, to a maximum of 20.",
+    "You always know which way is north.",
+    "You always know the number of hours left before the next sunrise or sunset.",
+    "You can accurately recall anything you have seen or heard within the past month."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:int",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

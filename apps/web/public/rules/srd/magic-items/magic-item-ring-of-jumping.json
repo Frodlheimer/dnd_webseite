@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-ring-of-jumping",
+  "title": "Ring of Jumping",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.",
+  "sourcePageRange": "p.236",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ring of Jumping Ring, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 236,
+    "sourcePageEnd": 236,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

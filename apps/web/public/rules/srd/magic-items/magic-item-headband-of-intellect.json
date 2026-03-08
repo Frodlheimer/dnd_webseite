@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-headband-of-intellect",
+  "title": "Headband of Intellect",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher.",
+  "sourcePageRange": "p.225",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Headband of Intellect Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 225,
+    "sourcePageEnd": 225,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

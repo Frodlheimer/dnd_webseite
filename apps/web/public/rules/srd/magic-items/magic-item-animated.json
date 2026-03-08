@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-animated",
+  "title": "Animated",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands ...",
+  "sourcePageRange": "p.208",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Animated Shield Armor (shield), very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 208,
+    "sourcePageEnd": 208,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

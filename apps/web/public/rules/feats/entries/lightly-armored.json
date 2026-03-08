@@ -1,0 +1,52 @@
+{
+  "id": "lightly-armored",
+  "slug": "lightly-armored",
+  "name": "Lightly Armored",
+  "group": "Feats",
+  "summary": "You have trained to master the use of light armor, gaining the following benefits.",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "You have trained to master the use of light armor, gaining the following benefits."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+        "You gain proficiency with light armor."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "STR",
+        "DEX"
+      ],
+      "description": "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "You gain proficiency with light armor."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:dex",
+    "ability:str",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

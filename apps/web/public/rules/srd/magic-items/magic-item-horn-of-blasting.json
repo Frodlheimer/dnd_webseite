@@ -1,0 +1,58 @@
+{
+  "id": "magic-item-horn-of-blasting",
+  "title": "Horn of Blasting",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Horn of Valhalla Wondrous item, rare (silver or brass), very rare (bronze), or legendary (iron)",
+  "sourcePageRange": "p.226",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Horn of Blasting Wondrous item, rare"
+    },
+    {
+      "type": "p",
+      "text": "Horn of Valhalla Wondrous item, rare (silver or brass), very rare (bronze), or legendary (iron)"
+    },
+    {
+      "type": "p",
+      "text": "Berserkers Summoned"
+    },
+    {
+      "type": "p",
+      "text": "01-40 Silver 2d4 + 2 None 41-75 Brass 3d4 + 3 Proficiency with all simple weapons 76-90 Bronze 4d4 + 4 Proficiency with all medium armor 91-00 Iron 5d4 + 5 Proficiency with all martial weapons"
+    },
+    {
+      "type": "p",
+      "text": "on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet."
+    },
+    {
+      "type": "p",
+      "text": "You can use an action to speak the horn’s command word and then blow the horn, which emits a thunderous blast in a 30---foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is deafened for 1 minute. On a successful save, a creature takes half as much damage and isn’t deafened. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6. Each use of the horn’s magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn."
+    },
+    {
+      "type": "p",
+      "text": "You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker . They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can’t be used again until 7 days have passed. Four types of horn of Valhalla are known to exist, each made of a different metal. The horn’s type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn’s type or determines it randomly."
+    },
+    {
+      "type": "p",
+      "text": "Requirement"
+    },
+    {
+      "type": "p",
+      "text": "If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 226,
+    "sourcePageEnd": 226,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "magicItemRequiresAttunement": false
+  }
+}

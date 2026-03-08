@@ -1,0 +1,111 @@
+{
+  "id": "monster-triceratops",
+  "title": "Triceratops",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:beast"
+  ],
+  "summary": "Huge beast, unaligned",
+  "sourcePageRange": "p.279",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Triceratops"
+    },
+    {
+      "type": "p",
+      "text": "Huge beast, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 95 (10d12 + 30)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 50 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "22 (+6) 9 (-1) 17 (+3) 2 (-4) 11 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Trampling Charge. If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Gore. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Stomp. Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 279,
+    "sourcePageEnd": 279,
+    "size": "huge",
+    "monsterType": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "95 (10d12 + 30)",
+    "speed": "50 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 22,
+      "strMod": 6,
+      "dex": 9,
+      "dexMod": -1,
+      "con": 17,
+      "conMod": 3,
+      "int": 2,
+      "intMod": -4,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Trampling Charge"
+    ],
+    "monsterActions": [
+      "Gore",
+      "Stomp"
+    ]
+  }
+}

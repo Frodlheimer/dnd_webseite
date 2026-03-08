@@ -1,0 +1,106 @@
+{
+  "id": "monster-plesiosaurus",
+  "title": "Plesiosaurus",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:beast"
+  ],
+  "summary": "Large beast, unaligned",
+  "sourcePageRange": "p.279",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Plesiosaurus"
+    },
+    {
+      "type": "p",
+      "text": "Large beast, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 68 (8d10 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., swim 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 15 (+2) 16 (+3) 2 (-4) 12 (+1) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Hold Breath. The plesiosaurus can hold its breath for 1 hour."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 279,
+    "sourcePageEnd": 279,
+    "size": "large",
+    "monsterType": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "68 (8d10 + 24)",
+    "speed": "20 ft., swim 40 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 2,
+      "intMod": -4,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Hold Breath"
+    ],
+    "monsterActions": [
+      "Bite"
+    ]
+  }
+}

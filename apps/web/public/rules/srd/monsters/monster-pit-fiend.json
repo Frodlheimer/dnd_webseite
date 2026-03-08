@@ -1,0 +1,165 @@
+{
+  "id": "monster-pit-fiend",
+  "title": "Pit Fiend",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:20",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Large fiend (devil), lawful evil",
+  "sourcePageRange": "p.278-279",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Pit Fiend"
+    },
+    {
+      "type": "p",
+      "text": "Large fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 19 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 300 (24d10 + 168)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "26 (+8) 14 (+2) 24 (+7) 22 (+6) 18 (+4) 24 (+7)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +8, Con +13, Wis +10"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold; bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses truesight 120 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Infernal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 20 (25,000 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Fear Aura. Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature’s saving throw is successful, the creature is immune to the pit fiend’s Fear Aura for the next 24 hours."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The pit fiend has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Magic Weapons. The pit fiend’s weapon attacks are magical."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The pit fiend’s spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: detect magic , fireball"
+    },
+    {
+      "type": "p",
+      "text": "3/day each: hold monster , wall of fire"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can’t regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Mace. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage."
+    },
+    {
+      "type": "p",
+      "text": "Tail. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 278,
+    "sourcePageEnd": 279,
+    "size": "large",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "300 (24d10 + 168)",
+    "speed": "30 ft., fly 60 ft.",
+    "challengeRating": "20",
+    "challengeXp": "25,000 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 26,
+      "strMod": 8,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 24,
+      "conMod": 7,
+      "int": 22,
+      "intMod": 6,
+      "wis": 18,
+      "wisMod": 4,
+      "cha": 24,
+      "chaMod": 7
+    },
+    "monsterTraits": [
+      "Fear Aura",
+      "Magic Resistance",
+      "Magic Weapons",
+      "Innate Spellcasting"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Mace",
+      "Tail"
+    ]
+  }
+}

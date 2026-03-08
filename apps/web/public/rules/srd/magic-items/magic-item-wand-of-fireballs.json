@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-wand-of-fireballs",
+  "title": "Wand of Fireballs",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd---level version of the spell. You can...",
+  "sourcePageRange": "p.248-249",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wand of Fireballs Wand, rare (requires attunement by a spellcaster)"
+    },
+    {
+      "type": "p",
+      "text": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd---level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a"
+    },
+    {
+      "type": "p",
+      "text": "d20. On a 1, the wand crumbles into ashes and is destroyed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 248,
+    "sourcePageEnd": 249,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

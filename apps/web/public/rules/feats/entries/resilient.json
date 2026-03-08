@@ -1,0 +1,46 @@
+{
+  "id": "resilient",
+  "slug": "resilient",
+  "name": "Resilient",
+  "group": "Feats",
+  "summary": "Choose one ability score. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Choose one ability score. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase the chosen ability score by 1, to a maximum of 20.",
+        "You gain proficiency in saving throws using the chosen ability."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase the chosen ability score by 1, to a maximum of 20.",
+    "You gain proficiency in saving throws using the chosen ability."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

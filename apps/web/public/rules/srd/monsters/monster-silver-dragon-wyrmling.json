@@ -1,0 +1,134 @@
+{
+  "id": "monster-silver-dragon-wyrmling",
+  "title": "Silver Dragon Wyrmling",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Medium dragon, lawful good",
+  "sourcePageRange": "p.303",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Silver Dragon Wyrmling"
+    },
+    {
+      "type": "p",
+      "text": "Medium dragon, lawful good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 45 (6d8 + 18)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "19 (+4) 10 (+0) 17 (+3) 12 (+1) 11 (+0) 15 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +2, Con +5, Wis +2, Cha +4"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4, Stealth +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities cold"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 10 ft., darkvision 60 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Cold Breath. The dragon exhales an icy blast in a 15--"
+    },
+    {
+      "type": "p",
+      "text": "foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Paralyzing Breath. The dragon exhales paralyzing gas in"
+    },
+    {
+      "type": "p",
+      "text": "a 15--foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 303,
+    "sourcePageEnd": 303,
+    "size": "medium",
+    "monsterType": "dragon",
+    "alignment": "lawful good",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "45 (6d8 + 18)",
+    "speed": "30 ft., fly 60 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 19,
+      "strMod": 4,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 17,
+      "conMod": 3,
+      "int": 12,
+      "intMod": 1,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 15,
+      "chaMod": 2
+    },
+    "monsterActions": [
+      "Bite",
+      "Breath Weapons (Recharge 5-6)",
+      "Cold Breath",
+      "Paralyzing Breath"
+    ]
+  }
+}

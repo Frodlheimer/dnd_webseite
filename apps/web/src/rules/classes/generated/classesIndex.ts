@@ -5,7 +5,7 @@ import type { ClassesPackIndex } from '../types';
 
 export const classesPackIndex: ClassesPackIndex = {
   "version": 1,
-  "generatedAt": "2026-03-05T12:53:50.087Z",
+  "generatedAt": "2026-03-08T12:58:25.221Z",
   "count": 141,
   "entriesMeta": [
     {

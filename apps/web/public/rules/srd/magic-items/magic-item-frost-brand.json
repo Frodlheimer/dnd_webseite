@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-frost-brand",
+  "title": "Frost Brand",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:very-rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.",
+  "sourcePageRange": "p.223",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Frost Brand Weapon (any sword), very rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage."
+    },
+    {
+      "type": "p",
+      "text": "In freezing temperatures, the blade sheds bright light in a 10---foot radius and dim light for an additional 10 feet. When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 223,
+    "sourcePageEnd": 223,
+    "rarity": "very rare",
+    "magicItemRarity": "very rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

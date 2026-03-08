@@ -1,0 +1,124 @@
+{
+  "id": "monster-ghast",
+  "title": "Ghast",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, chaotic evil",
+  "sourcePageRange": "p.311-312",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ghast"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 13"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 36 (8d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 17 (+3) 10 (+0) 11 (+0) 10 (+0) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances necrotic"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, exhaustion, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Stench. Any creature that starts its turn within 5 feet of the ghast must succeed on a DC 10 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the ghast’s Stench for 24 hours."
+    },
+    {
+      "type": "p",
+      "text": "Turning Defiance. The ghast and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12 (2d8 + 3) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 311,
+    "sourcePageEnd": 312,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "chaotic evil",
+    "armorClass": "13",
+    "hitPoints": "36 (8d8)",
+    "speed": "30 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 17,
+      "dexMod": 3,
+      "con": 10,
+      "conMod": 0,
+      "int": 11,
+      "intMod": 0,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Stench",
+      "Turning Defiance"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Claws"
+    ]
+  }
+}

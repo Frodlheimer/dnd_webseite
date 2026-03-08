@@ -1,0 +1,125 @@
+{
+  "id": "monster-ettin",
+  "title": "Ettin",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:4",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Large giant, chaotic evil",
+  "sourcePageRange": "p.308-309",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Ettin"
+    },
+    {
+      "type": "p",
+      "text": "Large giant, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 85 (10d10 + 30)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "21 (+5) 8 (-1) 17 (+3) 6 (-2) 10 (+0) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Giant, Orc"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 4 (1,100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Two Heads. The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+    },
+    {
+      "type": "p",
+      "text": "Wakeful. When one of the ettin’s heads is asleep, its other head is awake."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The ettin makes two attacks: one with its battleaxe and one with its morningstar."
+    },
+    {
+      "type": "p",
+      "text": "Battleaxe. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Morningstar. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage."
+    },
+    {
+      "type": "h2",
+      "text": "Monsters (F)"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 308,
+    "sourcePageEnd": 309,
+    "size": "large",
+    "monsterType": "giant",
+    "alignment": "chaotic evil",
+    "armorClass": "12 (natural armor)",
+    "hitPoints": "85 (10d10 + 30)",
+    "speed": "40 ft.",
+    "challengeRating": "4",
+    "challengeXp": "1,100 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 21,
+      "strMod": 5,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 17,
+      "conMod": 3,
+      "int": 6,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Two Heads",
+      "Wakeful"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Battleaxe",
+      "Morningstar"
+    ]
+  }
+}

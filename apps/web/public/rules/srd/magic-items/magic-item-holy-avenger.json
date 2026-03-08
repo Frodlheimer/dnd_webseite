@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-holy-avenger",
+  "title": "Holy Avenger",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:legendary",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage. While you hold the drawn sword, it creates an au...",
+  "sourcePageRange": "p.225-226",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Holy Avenger Weapon (any sword), legendary (requires attunement by a paladin)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage. While you hold the drawn sword, it creates an aura in a 10---foot radius around you. You and all creatures friendly to you in the aura have advantage"
+    },
+    {
+      "type": "p",
+      "text": "d100 Horn Type"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 225,
+    "sourcePageEnd": 226,
+    "rarity": "legendary",
+    "magicItemRarity": "legendary",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

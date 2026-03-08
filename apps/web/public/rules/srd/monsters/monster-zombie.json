@@ -1,0 +1,114 @@
+{
+  "id": "monster-zombie",
+  "title": "Zombie",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:undead"
+  ],
+  "summary": "Medium undead, neutral evil",
+  "sourcePageRange": "p.356-357",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Zombie"
+    },
+    {
+      "type": "p",
+      "text": "Medium undead, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 8"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (3d8 + 9)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "13 (+1) 6 (-2) 16 (+3) 3 (-4) 6 (-2) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Wis +0"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 8"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands the languages it knew in life but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/4 (50 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Undead Fortitude. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 356,
+    "sourcePageEnd": 357,
+    "size": "medium",
+    "monsterType": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "8",
+    "hitPoints": "22 (3d8 + 9)",
+    "speed": "20 ft.",
+    "challengeRating": "1/4",
+    "challengeXp": "50 XP",
+    "initiativeMod": -2,
+    "monsterAbilities": {
+      "str": 13,
+      "strMod": 1,
+      "dex": 6,
+      "dexMod": -2,
+      "con": 16,
+      "conMod": 3,
+      "int": 3,
+      "intMod": -4,
+      "wis": 6,
+      "wisMod": -2,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Undead Fortitude"
+    ],
+    "monsterActions": [
+      "Slam"
+    ]
+  }
+}

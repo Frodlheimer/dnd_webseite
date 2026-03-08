@@ -1,0 +1,155 @@
+{
+  "id": "monster-young-gold-dragon",
+  "title": "Young Gold Dragon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:10",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:dragon"
+  ],
+  "summary": "Large dragon, lawful good",
+  "sourcePageRange": "p.300",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Young Gold Dragon"
+    },
+    {
+      "type": "p",
+      "text": "Large dragon, lawful good"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 178 (17d10 + 85)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft., fly 80 ft., swim 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "23 (+6) 14 (+2) 21 (+5) 16 (+3) 13 (+1) 20 (+5)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +6, Con +9, Wis +5, Cha +9"
+    },
+    {
+      "type": "p",
+      "text": "Skills Insight +5, Perception +9, Persuasion +9, Stealth"
+    },
+    {
+      "type": "p",
+      "text": "+6"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft., darkvision 120 ft., passive"
+    },
+    {
+      "type": "p",
+      "text": "Perception 19"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 10 (5,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The dragon can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The dragon makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Breath Weapons (Recharge 5-6). The dragon uses one of the following breath weapons."
+    },
+    {
+      "type": "p",
+      "text": "Fire Breath. The dragon exhales fire in a 30--foot cone."
+    },
+    {
+      "type": "p",
+      "text": "Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "type": "p",
+      "text": "Weakening Breath. The dragon exhales gas in a 30--foot"
+    },
+    {
+      "type": "p",
+      "text": "cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength--based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 300,
+    "sourcePageEnd": 300,
+    "size": "large",
+    "monsterType": "dragon",
+    "alignment": "lawful good",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "178 (17d10 + 85)",
+    "speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "challengeRating": "10",
+    "challengeXp": "5,900 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 23,
+      "strMod": 6,
+      "dex": 14,
+      "dexMod": 2,
+      "con": 21,
+      "conMod": 5,
+      "int": 16,
+      "intMod": 3,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 20,
+      "chaMod": 5
+    },
+    "monsterTraits": [
+      "Amphibious"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Claw",
+      "Breath Weapons (Recharge 5-6)",
+      "Fire Breath",
+      "Weakening Breath"
+    ]
+  }
+}

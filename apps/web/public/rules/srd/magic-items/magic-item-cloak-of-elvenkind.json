@@ -1,0 +1,36 @@
+{
+  "id": "magic-item-cloak-of-elvenkind",
+  "title": "Cloak of Elvenkind",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak’s color",
+  "sourcePageRange": "p.214",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Cloak of Elvenkind Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak’s color"
+    },
+    {
+      "type": "p",
+      "text": "shifts to camouflage you. Pulling the hood up or down requires an action."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 214,
+    "sourcePageEnd": 214,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

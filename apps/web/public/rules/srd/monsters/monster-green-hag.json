@@ -1,0 +1,134 @@
+{
+  "id": "monster-green-hag",
+  "title": "Green Hag",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:3",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fey"
+  ],
+  "summary": "Medium fey, neutral evil",
+  "sourcePageRange": "p.319",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Green Hag"
+    },
+    {
+      "type": "p",
+      "text": "Medium fey, neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 82 (11d8 + 33)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 12 (+1) 16 (+3) 13 (+1) 14 (+2) 14 (+2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Arcana +3, Deception +4, Perception +4, Stealth"
+    },
+    {
+      "type": "p",
+      "text": "+3"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common, Draconic, Sylvan"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 3 (700 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The hag can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Innate Spellcasting. The hag’s innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:"
+    },
+    {
+      "type": "p",
+      "text": "At will: dancing lights , minor illusion , vicious mockery"
+    },
+    {
+      "type": "p",
+      "text": "Mimicry. The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Illusory Appearance. The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised."
+    },
+    {
+      "type": "p",
+      "text": "Invisible Passage. The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 319,
+    "sourcePageEnd": 319,
+    "size": "medium",
+    "monsterType": "fey",
+    "alignment": "neutral evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "82 (11d8 + 33)",
+    "speed": "30 ft.",
+    "challengeRating": "3",
+    "challengeXp": "700 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 16,
+      "conMod": 3,
+      "int": 13,
+      "intMod": 1,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 14,
+      "chaMod": 2
+    },
+    "monsterTraits": [
+      "Amphibious",
+      "Innate Spellcasting",
+      "Mimicry"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Illusory Appearance",
+      "Invisible Passage"
+    ]
+  }
+}

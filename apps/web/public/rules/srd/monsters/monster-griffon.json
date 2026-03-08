@@ -1,0 +1,116 @@
+{
+  "id": "monster-griffon",
+  "title": "Griffon",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:monstrosity"
+  ],
+  "summary": "Large monstrosity, unaligned",
+  "sourcePageRange": "p.318",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Griffon"
+    },
+    {
+      "type": "p",
+      "text": "Large monstrosity, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 12"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 59 (7d10 + 21)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 80 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 15 (+2) 16 (+3) 2 (-4) 13 (+1) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +5"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 15"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Keen Sight. The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The griffon makes two attacks: one with its beak and one with its claws."
+    },
+    {
+      "type": "p",
+      "text": "Beak. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 318,
+    "sourcePageEnd": 318,
+    "size": "large",
+    "monsterType": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "12",
+    "hitPoints": "59 (7d10 + 21)",
+    "speed": "30 ft., fly 80 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 16,
+      "conMod": 3,
+      "int": 2,
+      "intMod": -4,
+      "wis": 13,
+      "wisMod": 1,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Keen Sight"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Beak",
+      "Claws"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "condition-paralyzed",
+  "title": "Paralyzed",
+  "category": "conditions",
+  "tags": [
+    "category:conditions",
+    "condition:paralyzed",
+    "section:conditions",
+    "source:srd51"
+  ],
+  "summary": "A paralyzed creature is incapacitated (see the condition) and can’t move or speak.",
+  "sourcePageRange": "p.358-359",
+  "contentBlocks": [
+    {
+      "type": "h2",
+      "text": "Paralyzed"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "A paralyzed creature is incapacitated (see the condition) and can’t move or speak.",
+        "The creature automatically fails Strength and Dexterity saving throws.",
+        "Attack rolls against the creature have advantage.",
+        "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+      ]
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 358,
+    "sourcePageEnd": 359,
+    "conditionRules": [
+      "A paralyzed creature is incapacitated (see the condition) and can’t move or speak.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage.",
+      "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    ]
+  }
+}

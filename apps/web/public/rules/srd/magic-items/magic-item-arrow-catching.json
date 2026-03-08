@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-arrow-catching",
+  "title": "Arrow-Catching",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield’s normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target with...",
+  "sourcePageRange": "p.209",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Arrow-Catching Shield Armor (shield), rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield’s normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 209,
+    "sourcePageEnd": 209,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

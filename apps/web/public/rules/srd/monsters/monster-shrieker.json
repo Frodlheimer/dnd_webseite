@@ -1,0 +1,107 @@
+{
+  "id": "monster-shrieker",
+  "title": "Shrieker",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:0",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:plant"
+  ],
+  "summary": "Medium plant, unaligned",
+  "sourcePageRange": "p.309",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Shrieker"
+    },
+    {
+      "type": "p",
+      "text": "Medium plant, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 5"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 13 (3d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 0 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "1 (-5) 1 (-5) 10 (+0) 1 (-5) 3 (-4) 1 (-5)"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded, deafened, frightened"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 0 (10 XP)"
+    },
+    {
+      "type": "p",
+      "text": "False Appearance. While the shrieker remains motionless, it is indistinguishable from an ordinary fungus."
+    },
+    {
+      "type": "p",
+      "text": "Reactions"
+    },
+    {
+      "type": "p",
+      "text": "Shriek. When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker’s turns afterward."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 309,
+    "sourcePageEnd": 309,
+    "size": "medium",
+    "monsterType": "plant",
+    "alignment": "unaligned",
+    "armorClass": "5",
+    "hitPoints": "13 (3d8)",
+    "speed": "0 ft.",
+    "challengeRating": "0",
+    "challengeXp": "10 XP",
+    "initiativeMod": -5,
+    "monsterAbilities": {
+      "str": 1,
+      "strMod": -5,
+      "dex": 1,
+      "dexMod": -5,
+      "con": 10,
+      "conMod": 0,
+      "int": 1,
+      "intMod": -5,
+      "wis": 3,
+      "wisMod": -4,
+      "cha": 1,
+      "chaMod": -5
+    },
+    "monsterTraits": [
+      "Senses blindsight 30 ft",
+      "False Appearance"
+    ],
+    "monsterActions": [
+      "Shriek"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-gauntlets-of-ogre-power",
+  "title": "Gauntlets of Ogre Power",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:uncommon",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.",
+  "sourcePageRange": "p.223",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gauntlets of Ogre Power Wondrous item, uncommon (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 223,
+    "sourcePageEnd": 223,
+    "rarity": "uncommon",
+    "magicItemRarity": "uncommon",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

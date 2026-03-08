@@ -1,0 +1,142 @@
+{
+  "id": "monster-erinyes",
+  "title": "Erinyes",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:12",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Medium fiend (devil), lawful evil",
+  "sourcePageRange": "p.276",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Erinyes"
+    },
+    {
+      "type": "p",
+      "text": "Medium fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 18 (plate)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 153 (18d8 + 72)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., fly 60 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 16 (+3) 18 (+4) 14 (+2) 14 (+2) 18 (+4)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +7, Con +8, Wis +6, Cha +8"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses truesight 120 ft., passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Infernal, telepathy 120 ft."
+    },
+    {
+      "type": "p",
+      "text": "Challenge 12 (8,400 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Hellish Weapons. The erinyes’s weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks)."
+    },
+    {
+      "type": "p",
+      "text": "Magic Resistance. The erinyes has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The erinyes makes three attacks."
+    },
+    {
+      "type": "p",
+      "text": "Longsword. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) poison damage."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic."
+    },
+    {
+      "type": "p",
+      "text": "Reactions"
+    },
+    {
+      "type": "p",
+      "text": "Parry. The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 276,
+    "sourcePageEnd": 276,
+    "size": "medium",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (plate)",
+    "hitPoints": "153 (18d8 + 72)",
+    "speed": "30 ft., fly 60 ft.",
+    "challengeRating": "12",
+    "challengeXp": "8,400 XP",
+    "initiativeMod": 3,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 16,
+      "dexMod": 3,
+      "con": 18,
+      "conMod": 4,
+      "int": 14,
+      "intMod": 2,
+      "wis": 14,
+      "wisMod": 2,
+      "cha": 18,
+      "chaMod": 4
+    },
+    "monsterTraits": [
+      "Hellish Weapons",
+      "Magic Resistance"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Longsword",
+      "Longbow",
+      "Parry"
+    ]
+  }
+}

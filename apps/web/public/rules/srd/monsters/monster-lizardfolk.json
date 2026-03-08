@@ -1,0 +1,126 @@
+{
+  "id": "monster-lizardfolk",
+  "title": "Lizardfolk",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-lizardfolk"
+  ],
+  "summary": "Medium humanoid (lizardfolk), neutral",
+  "sourcePageRange": "p.326",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Lizardfolk"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (lizardfolk), neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (4d8 + 4)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., swim 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "15 (+2) 10 (+0) 13 (+1) 7 (-2) 12 (+1) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +3, Stealth +4, Survival +5"
+    },
+    {
+      "type": "p",
+      "text": "Senses passive Perception 13"
+    },
+    {
+      "type": "p",
+      "text": "Languages Draconic"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Hold Breath. The lizardfolk can hold its breath for 15 minutes."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The lizardfolk makes two melee attacks, each one with a different weapon."
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Heavy Club. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Spiked Shield. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 326,
+    "sourcePageEnd": 326,
+    "size": "medium",
+    "monsterType": "humanoid (lizardfolk)",
+    "alignment": "neutral",
+    "armorClass": "15 (natural armor, shield)",
+    "hitPoints": "22 (4d8 + 4)",
+    "speed": "30 ft., swim 30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 15,
+      "strMod": 2,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 13,
+      "conMod": 1,
+      "int": 7,
+      "intMod": -2,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Hold Breath"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Bite",
+      "Heavy Club",
+      "Javelin",
+      "Spiked Shield"
+    ]
+  }
+}

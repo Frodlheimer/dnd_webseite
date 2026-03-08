@@ -1,0 +1,54 @@
+{
+  "id": "spell-sniper",
+  "slug": "spell-sniper",
+  "name": "Spell Sniper",
+  "group": "Feats",
+  "summary": "You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: The ability to cast at least one spell"
+    },
+    {
+      "type": "p",
+      "text": "You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+        "Your ranged spell attacks ignore half cover and three-quarters cover.",
+        "You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, and warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "The ability to cast at least one spell"
+  },
+  "highlights": [
+    "When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+    "Your ranged spell attacks ignore half cover and three-quarters cover.",
+    "You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, and warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "monster-wereboar",
+  "title": "Wereboar",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:4",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-human"
+  ],
+  "summary": "Medium humanoid (human, shapechanger), neutral evil",
+  "sourcePageRange": "p.327",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Wereboar"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (human, shapechanger), neutral evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 10 in humanoid form, 11 (natural armor) in boar or hybrid form"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 78 (12d8 + 24)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft. (40 ft. in boar form)"
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "17 (+3) 10 (+0) 15 (+2) 10 (+0) 11 (+0) 8 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Perception +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities bludgeoning, piercing, and"
+    },
+    {
+      "type": "p",
+      "text": "slashing from nonmagical attacks not made with silvered weapons Senses passive Perception 12"
+    },
+    {
+      "type": "p",
+      "text": "Languages Common (can’t speak in boar form)"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 4 (1,100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Shapechanger. The wereboar can use its action to polymorph into a boar--humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies."
+    },
+    {
+      "type": "p",
+      "text": "Charge (Boar or Hybrid Form Only). If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Relentless (Recharges after a Short or Long Rest). If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack (Humanoid or Hybrid Form Only). The wereboar makes two attacks, only one of which can be with its tusks."
+    },
+    {
+      "type": "p",
+      "text": "Maul (Humanoid or Hybrid Form Only). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Tusks (Boar or Hybrid Form Only). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 327,
+    "sourcePageEnd": 327,
+    "size": "medium",
+    "monsterType": "humanoid (human",
+    "alignment": "shapechanger), neutral evil",
+    "armorClass": "10 in humanoid form, 11 (natural armor) in boar or hybrid form",
+    "hitPoints": "78 (12d8 + 24)",
+    "speed": "30 ft. (40 ft. in boar form)",
+    "challengeRating": "4",
+    "challengeXp": "1,100 XP",
+    "initiativeMod": 0,
+    "monsterAbilities": {
+      "str": 17,
+      "strMod": 3,
+      "dex": 10,
+      "dexMod": 0,
+      "con": 15,
+      "conMod": 2,
+      "int": 10,
+      "intMod": 0,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 8,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Speed 30 ft",
+      "Shapechanger",
+      "Charge (Boar or Hybrid Form Only)",
+      "Relentless (Recharges after a Short or Long Rest)"
+    ],
+    "monsterActions": [
+      "Multiattack (Humanoid or Hybrid Form Only)",
+      "Maul (Humanoid or Hybrid Form Only)",
+      "Tusks (Boar or Hybrid Form Only)"
+    ]
+  }
+}

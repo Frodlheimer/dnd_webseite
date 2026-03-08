@@ -1,0 +1,54 @@
+{
+  "id": "observant",
+  "slug": "observant",
+  "name": "Observant",
+  "group": "Feats",
+  "summary": "Quick to notice details of your environment, you gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Quick to notice details of your environment, you gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+        "If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.",
+        "You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 1,
+      "mode": "CHOICE",
+      "abilities": [
+        "INT",
+        "WIS"
+      ],
+      "description": "Increase your Intelligence or Wisdom score by 1, to a maximum of 20."
+    },
+    "source": "Player's Handbook"
+  },
+  "highlights": [
+    "Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+    "If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.",
+    "You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores."
+  ],
+  "collection": "Published",
+  "tags": [
+    "ability:int",
+    "ability:wis",
+    "collection:published",
+    "group:feats",
+    "has:ability-increase",
+    "has:highlights",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

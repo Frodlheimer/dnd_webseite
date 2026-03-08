@@ -1,0 +1,146 @@
+{
+  "kind": "FEAT",
+  "group": "Feats",
+  "collection": "Planescape",
+  "slug": "planar-wanderer",
+  "url": "https://dnd5e.wikidot.com/feat:planar-wanderer",
+  "page_title": "planar-wanderer",
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Planescape - Adventures in the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: 4th Level, "
+              },
+              {
+                "type": "text",
+                "text": "Scion of the Outer Planes"
+              },
+              {
+                "type": "text",
+                "text": " Feat"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can draw upon the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Planar Adaption."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " When you finish a long rest, you gain resistance to either acid, cold or fire damage (your choice) until you finish your next long rest."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Portal Cracker."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Your experience with portals allows you to open them without a portal key. As an action, you can concentrate on a portal you're aware of within 5 feet of yourself and make a DC 20 Intelligence (Arcana) check. On a failed check, you take 3d8 psychic damage and can't use this benefit on that portal again until you finish a long rest. On a successful check, you can force the portal open or closed for 1 hour. For that duration, the portal doesn't respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Portal Sense."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " You know the direction to the last planar portal you used while you and the portal are on the same plane of existence. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind total cover. Once you detect a portal with this action, you can't use the action again until you finish a long rest."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n<p>Source: Planescape - Adventures in the Multiverse</p>\n<p><em>Prerequisite: 4th Level, Scion of the Outer Planes Feat</em></p>\n<p>You can draw upon the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:</p>\n<p><strong>Planar Adaption.</strong> When you finish a long rest, you gain resistance to either acid, cold or fire damage (your choice) until you finish your next long rest.</p>\n<p><strong>Portal Cracker.</strong> Your experience with portals allows you to open them without a portal key. As an action, you can concentrate on a portal you're aware of within 5 feet of yourself and make a DC 20 Intelligence (Arcana) check. On a failed check, you take 3d8 psychic damage and can't use this benefit on that portal again until you finish a long rest. On a successful check, you can force the portal open or closed for 1 hour. For that duration, the portal doesn't respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence (Arcana) check as an action.</p>\n<p><strong>Portal Sense.</strong> You know the direction to the last planar portal you used while you and the portal are on the same plane of existence. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind total cover. Once you detect a portal with this action, you can't use the action again until you finish a long rest.</p>\n</div>"
+  }
+}

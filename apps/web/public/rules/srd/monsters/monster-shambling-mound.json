@@ -1,0 +1,133 @@
+{
+  "id": "monster-shambling-mound",
+  "title": "Shambling Mound",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:5",
+    "section:monsters",
+    "size:large",
+    "source:srd51",
+    "type:plant"
+  ],
+  "summary": "Large plant, unaligned",
+  "sourcePageRange": "p.345",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Shambling Mound"
+    },
+    {
+      "type": "p",
+      "text": "Large plant, unaligned"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 136 (16d10 + 48)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 20 ft., swim 20 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "18 (+4) 8 (-1) 16 (+3) 5 (-3) 10 (+0) 5 (-3)"
+    },
+    {
+      "type": "p",
+      "text": "Skills Stealth +2"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold, fire"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities lightning"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities blinded, deafened, exhaustion"
+    },
+    {
+      "type": "p",
+      "text": "Senses blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages -"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 5 (1,800 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Lightning Absorption . Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it."
+    },
+    {
+      "type": "p",
+      "text": "Slam. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Engulf. The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must"
+    },
+    {
+      "type": "p",
+      "text": "succeed on a DC 14 Constitution saving throw at the start of each of the mound’s turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 345,
+    "sourcePageEnd": 345,
+    "size": "large",
+    "monsterType": "plant",
+    "alignment": "unaligned",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "136 (16d10 + 48)",
+    "speed": "20 ft., swim 20 ft.",
+    "challengeRating": "5",
+    "challengeXp": "1,800 XP",
+    "initiativeMod": -1,
+    "monsterAbilities": {
+      "str": 18,
+      "strMod": 4,
+      "dex": 8,
+      "dexMod": -1,
+      "con": 16,
+      "conMod": 3,
+      "int": 5,
+      "intMod": -3,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 5,
+      "chaMod": -3
+    },
+    "monsterTraits": [
+      "Senses blindsight 60 ft",
+      "Lightning Absorption"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Slam",
+      "Engulf"
+    ]
+  }
+}

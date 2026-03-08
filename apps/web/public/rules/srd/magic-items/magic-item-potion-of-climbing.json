@@ -1,0 +1,30 @@
+{
+  "id": "magic-item-potion-of-climbing",
+  "title": "Potion of Climbing",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "item:rarity:common",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, ...",
+  "sourcePageRange": "p.233",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Potion of Climbing Potion, common"
+    },
+    {
+      "type": "p",
+      "text": "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 233,
+    "sourcePageEnd": 233,
+    "rarity": "common",
+    "magicItemRarity": "common",
+    "magicItemRequiresAttunement": false
+  }
+}

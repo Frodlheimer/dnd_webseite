@@ -1,0 +1,118 @@
+{
+  "id": "monster-lemure",
+  "title": "Lemure",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:0",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fiend-devil"
+  ],
+  "summary": "Medium fiend (devil), lawful evil",
+  "sourcePageRange": "p.278",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Lemure"
+    },
+    {
+      "type": "p",
+      "text": "Medium fiend (devil), lawful evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 7"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 13 (3d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 15 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "10 (+0) 5 (-3) 11 (+0) 1 (-5) 11 (+0) 3 (-4)"
+    },
+    {
+      "type": "p",
+      "text": "Damage Resistances cold"
+    },
+    {
+      "type": "p",
+      "text": "Damage Immunities fire, poison"
+    },
+    {
+      "type": "p",
+      "text": "Condition Immunities charmed, frightened, poisoned"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 120 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages understands Infernal but can’t speak"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 0 (10 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Devil’s Sight. Magical darkness doesn’t impede the lemure’s darkvision."
+    },
+    {
+      "type": "p",
+      "text": "Hellish Rejuvenation. A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good--aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Fist. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 278,
+    "sourcePageEnd": 278,
+    "size": "medium",
+    "monsterType": "fiend (devil)",
+    "alignment": "lawful evil",
+    "armorClass": "7",
+    "hitPoints": "13 (3d8)",
+    "speed": "15 ft.",
+    "challengeRating": "0",
+    "challengeXp": "10 XP",
+    "initiativeMod": -3,
+    "monsterAbilities": {
+      "str": 10,
+      "strMod": 0,
+      "dex": 5,
+      "dexMod": -3,
+      "con": 11,
+      "conMod": 0,
+      "int": 1,
+      "intMod": -5,
+      "wis": 11,
+      "wisMod": 0,
+      "cha": 3,
+      "chaMod": -4
+    },
+    "monsterTraits": [
+      "Hellish Rejuvenation"
+    ],
+    "monsterActions": [
+      "Fist"
+    ]
+  }
+}

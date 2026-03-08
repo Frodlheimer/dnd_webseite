@@ -1,0 +1,32 @@
+{
+  "id": "magic-item-bracers-of-defense",
+  "title": "Bracers of Defense",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
+  "sourcePageRange": "p.212",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Bracers of Defense Wondrous item, rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 212,
+    "sourcePageEnd": 212,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

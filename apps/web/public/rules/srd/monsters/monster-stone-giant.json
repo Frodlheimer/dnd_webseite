@@ -1,0 +1,129 @@
+{
+  "id": "monster-stone-giant",
+  "title": "Stone Giant",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:7",
+    "section:monsters",
+    "size:huge",
+    "source:srd51",
+    "type:giant"
+  ],
+  "summary": "Huge giant, neutral",
+  "sourcePageRange": "p.313",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Stone Giant"
+    },
+    {
+      "type": "p",
+      "text": "Huge giant, neutral"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 17 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 126 (11d12 + 55)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "23 (+6) 15 (+2) 20 (+5) 10 (+0) 12 (+1) 9 (-1)"
+    },
+    {
+      "type": "p",
+      "text": "Saving Throws Dex +5, Con +8, Wis +4"
+    },
+    {
+      "type": "p",
+      "text": "Skills Athletics +12, Perception +4"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 14"
+    },
+    {
+      "type": "p",
+      "text": "Languages Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 7 (2,900 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Stone Camouflage. The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Multiattack. The giant makes two greatclub attacks."
+    },
+    {
+      "type": "p",
+      "text": "Greatclub. Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage."
+    },
+    {
+      "type": "p",
+      "text": "Rock. Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+    },
+    {
+      "type": "p",
+      "text": "Reactions"
+    },
+    {
+      "type": "p",
+      "text": "Rock Catching. If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 313,
+    "sourcePageEnd": 313,
+    "size": "huge",
+    "monsterType": "giant",
+    "alignment": "neutral",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "126 (11d12 + 55)",
+    "speed": "40 ft.",
+    "challengeRating": "7",
+    "challengeXp": "2,900 XP",
+    "initiativeMod": 2,
+    "monsterAbilities": {
+      "str": 23,
+      "strMod": 6,
+      "dex": 15,
+      "dexMod": 2,
+      "con": 20,
+      "conMod": 5,
+      "int": 10,
+      "intMod": 0,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 9,
+      "chaMod": -1
+    },
+    "monsterTraits": [
+      "Stone Camouflage"
+    ],
+    "monsterActions": [
+      "Multiattack",
+      "Greatclub",
+      "Rock",
+      "Rock Catching"
+    ]
+  }
+}

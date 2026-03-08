@@ -1,0 +1,52 @@
+{
+  "id": "grappler",
+  "slug": "grappler",
+  "name": "Grappler",
+  "group": "Feats",
+  "summary": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Strength 13 or higher"
+    },
+    {
+      "type": "p",
+      "text": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "You have advantage on attack rolls against a creature you are grappling.",
+        "You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
+      ]
+    }
+  ],
+  "quickFacts": {
+    "racePrerequisites": [],
+    "abilityIncrease": {
+      "amount": 0,
+      "mode": "NONE",
+      "abilities": [],
+      "description": ""
+    },
+    "source": "Player's Handbook",
+    "prerequisite": "Strength 13 or higher"
+  },
+  "highlights": [
+    "You have advantage on attack rolls against a creature you are grappling.",
+    "You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
+  ],
+  "collection": "Published",
+  "tags": [
+    "collection:published",
+    "group:feats",
+    "has:highlights",
+    "has:prerequisite",
+    "kind:feat",
+    "source:players-handbook"
+  ]
+}

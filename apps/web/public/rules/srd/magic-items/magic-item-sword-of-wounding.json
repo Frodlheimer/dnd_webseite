@@ -1,0 +1,44 @@
+{
+  "id": "magic-item-sword-of-wounding",
+  "title": "Sword of Wounding",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "has:attunement",
+    "item:rarity:rare",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "Hit points lost to this weapon’s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means. Once per turn, when you hit a creature with an attack using this magic...",
+  "sourcePageRange": "p.246-247",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Sword of Wounding Weapon (any sword), rare (requires attunement)"
+    },
+    {
+      "type": "p",
+      "text": "Hit points lost to this weapon’s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means. Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature’s turns, it takes 1d4 necrotic damage for each time you’ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it,"
+    },
+    {
+      "type": "p",
+      "text": "can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success."
+    },
+    {
+      "type": "p",
+      "text": "Talisman of Pure Good Wondrous item, legendary (requires attunement by a creature of good alignment)"
+    },
+    {
+      "type": "p",
+      "text": "This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman. If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it. The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 246,
+    "sourcePageEnd": 247,
+    "rarity": "rare",
+    "magicItemRarity": "rare",
+    "attunement": "Requires attunement",
+    "magicItemRequiresAttunement": true
+  }
+}

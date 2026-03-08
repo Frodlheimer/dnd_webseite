@@ -1,0 +1,132 @@
+{
+  "id": "magic-item-creating-sentient-magic-items",
+  "title": "Creating Sentient Magic Items",
+  "category": "magic-items",
+  "tags": [
+    "category:magic-items",
+    "section:magic-items",
+    "source:srd51"
+  ],
+  "summary": "When you decide to make a magic item sentient, you create the item’s persona in the same way you would create an NPC, with a few exceptions described here.",
+  "sourcePageRange": "p.251",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Creating Sentient Magic Items"
+    },
+    {
+      "type": "p",
+      "text": "When you decide to make a magic item sentient, you create the item’s persona in the same way you would create an NPC, with a few exceptions described here."
+    },
+    {
+      "type": "p",
+      "text": "Abilities A sentient magic item has Intelligence, Wisdom, and Charisma scores. You can choose the item’s abilities or determine them randomly. To determine them randomly, roll 4d6 for each one, dropping the lowest roll and totaling the rest."
+    },
+    {
+      "type": "p",
+      "text": "Communication A sentient item has some ability to communicate, either by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the following table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d100",
+          "Communication"
+        ],
+        [
+          "01-60",
+          "The item communicates by transmitting emotion"
+        ],
+        [
+          "61-90",
+          "The item can speak, read, and understand one"
+        ],
+        [
+          "91-00",
+          "The item can speak, read, and understand one"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Senses With sentience comes awareness. A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the following table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d4",
+          "Senses"
+        ],
+        [
+          "1",
+          "Hearing and normal vision out to 30 feet."
+        ],
+        [
+          "2",
+          "Hearing and normal vision out to 60 feet"
+        ],
+        [
+          "3",
+          "Hearing and normal vision out to 120 feet."
+        ],
+        [
+          "4",
+          "Hearing and darkvision out to 120 feet."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Alignment A sentient magic item has an alignment. Its creator or nature might suggest an alignment. If not, you can pick an alignment or roll on the following table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "d100",
+          "Alignment",
+          "d100",
+          "Alignment"
+        ],
+        [
+          "01-15",
+          "Lawful good",
+          "74-85",
+          "Chaotic neutral"
+        ],
+        [
+          "16-35",
+          "Neutral good",
+          "86-89",
+          "Lawful evil"
+        ],
+        [
+          "36-50",
+          "Chaotic good",
+          "90-96",
+          "Neutral evil"
+        ],
+        [
+          "51-63",
+          "Lawful neutral",
+          "97-00",
+          "Chaotic evil"
+        ],
+        [
+          "64-73",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Special Purpose You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder’s use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item, and could even cause the item to prevent the use of its activated properties. You"
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 251,
+    "sourcePageEnd": 251,
+    "magicItemRequiresAttunement": false
+  }
+}

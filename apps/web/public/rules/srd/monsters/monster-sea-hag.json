@@ -1,0 +1,121 @@
+{
+  "id": "monster-sea-hag",
+  "title": "Sea Hag",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:fey"
+  ],
+  "summary": "Medium fey, chaotic evil",
+  "sourcePageRange": "p.320",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Sea Hag"
+    },
+    {
+      "type": "p",
+      "text": "Medium fey, chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 14 (natural armor)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 52 (7d8 + 21)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft., swim 40 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "16 (+3) 13 (+1) 16 (+3) 12 (+1) 12 (+1) 13 (+1)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 11"
+    },
+    {
+      "type": "p",
+      "text": "Languages Aquan, Common, Giant"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 2 (450 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Amphibious. The hag can breathe air and water."
+    },
+    {
+      "type": "p",
+      "text": "Horrific Appearance. Any humanoid that starts its turn within 30 feet of the hag and can see the hag’s true"
+    },
+    {
+      "type": "p",
+      "text": "form must make a DC 11 Wisdom saving throw. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Horrific Appearance for the next 24 hours. Unless the target is surprised or the revelation of the hag’s true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    },
+    {
+      "type": "p",
+      "text": "Death Glare. The hag targets one frightened creature she can see within 30 feet of her. If the target can see the hag, it must succeed on a DC 11 Wisdom saving throw against this magic or drop to 0 hit points."
+    },
+    {
+      "type": "p",
+      "text": "Illusory Appearance. The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 320,
+    "sourcePageEnd": 320,
+    "size": "medium",
+    "monsterType": "fey",
+    "alignment": "chaotic evil",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "52 (7d8 + 21)",
+    "speed": "30 ft., swim 40 ft.",
+    "challengeRating": "2",
+    "challengeXp": "450 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 16,
+      "strMod": 3,
+      "dex": 13,
+      "dexMod": 1,
+      "con": 16,
+      "conMod": 3,
+      "int": 12,
+      "intMod": 1,
+      "wis": 12,
+      "wisMod": 1,
+      "cha": 13,
+      "chaMod": 1
+    },
+    "monsterTraits": [
+      "Amphibious",
+      "Horrific Appearance"
+    ],
+    "monsterActions": [
+      "Claws",
+      "Death Glare",
+      "Illusory Appearance"
+    ]
+  }
+}

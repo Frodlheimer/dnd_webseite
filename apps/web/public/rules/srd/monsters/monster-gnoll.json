@@ -1,0 +1,112 @@
+{
+  "id": "monster-gnoll",
+  "title": "Gnoll",
+  "category": "monsters",
+  "tags": [
+    "category:monsters",
+    "cr:1/2",
+    "section:monsters",
+    "size:medium",
+    "source:srd51",
+    "type:humanoid-gnoll"
+  ],
+  "summary": "Medium humanoid (gnoll), chaotic evil",
+  "sourcePageRange": "p.314-315",
+  "contentBlocks": [
+    {
+      "type": "h3",
+      "text": "Gnoll"
+    },
+    {
+      "type": "p",
+      "text": "Medium humanoid (gnoll), chaotic evil"
+    },
+    {
+      "type": "p",
+      "text": "Armor Class 15 (hide armor, shield)"
+    },
+    {
+      "type": "p",
+      "text": "Hit Points 22 (5d8)"
+    },
+    {
+      "type": "p",
+      "text": "Speed 30 ft."
+    },
+    {
+      "type": "p",
+      "text": "STR DEX CON INT WIS CHA"
+    },
+    {
+      "type": "p",
+      "text": "14 (+2) 12 (+1) 11 (+0) 6 (-2) 10 (+0) 7 (-2)"
+    },
+    {
+      "type": "p",
+      "text": "Senses darkvision 60 ft., passive Perception 10"
+    },
+    {
+      "type": "p",
+      "text": "Languages Gnoll"
+    },
+    {
+      "type": "p",
+      "text": "Challenge 1/2 (100 XP)"
+    },
+    {
+      "type": "p",
+      "text": "Rampage. When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+    },
+    {
+      "type": "p",
+      "text": "Actions"
+    },
+    {
+      "type": "p",
+      "text": "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    {
+      "type": "p",
+      "text": "Spear. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+    },
+    {
+      "type": "p",
+      "text": "Longbow. Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    }
+  ],
+  "extra": {
+    "sourcePageStart": 314,
+    "sourcePageEnd": 315,
+    "size": "medium",
+    "monsterType": "humanoid (gnoll)",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (hide armor, shield)",
+    "hitPoints": "22 (5d8)",
+    "speed": "30 ft.",
+    "challengeRating": "1/2",
+    "challengeXp": "100 XP",
+    "initiativeMod": 1,
+    "monsterAbilities": {
+      "str": 14,
+      "strMod": 2,
+      "dex": 12,
+      "dexMod": 1,
+      "con": 11,
+      "conMod": 0,
+      "int": 6,
+      "intMod": -2,
+      "wis": 10,
+      "wisMod": 0,
+      "cha": 7,
+      "chaMod": -2
+    },
+    "monsterTraits": [
+      "Rampage"
+    ],
+    "monsterActions": [
+      "Bite",
+      "Spear",
+      "Longbow"
+    ]
+  }
+}
