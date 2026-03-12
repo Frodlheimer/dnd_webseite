@@ -5,7 +5,7 @@ import type { LineagesPackIndex } from '../types';
 
 export const lineagesPackIndex: LineagesPackIndex = {
   "version": 1,
-  "generatedAt": "2026-03-08T12:58:29.858Z",
+  "generatedAt": "2026-03-12T20:53:03.750Z",
   "count": 71,
   "entriesMeta": [
     {

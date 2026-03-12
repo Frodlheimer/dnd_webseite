@@ -1,9 +1,16 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
 
-import type { CharacterSheetInstance, CharacterSheetValues } from '../types';
+import type {
+  CharacterSheetInstance,
+  CharacterSheetValues,
+  ImportedCharacterData,
+  ImportedSheetFieldRow,
+  ImportedSheetImportStatus,
+  ImportedSheetRecord
+} from '../types';
 
 const DB_NAME = 'dnd-vtt-character-sheets-v1';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 type CharacterSheetDb = DBSchema & {
   instances: {
@@ -22,6 +29,13 @@ type CharacterSheetDb = DBSchema & {
       updatedAt: string;
     };
   };
+  imports: {
+    key: string;
+    value: ImportedSheetRecord;
+    indexes: {
+      byUpdatedAt: number;
+    };
+  };
 };
 
 const createInstanceId = (): string => {
@@ -30,6 +44,14 @@ const createInstanceId = (): string => {
   }
 
   return `sheet-${Date.now()}-${Math.random().toString(16).slice(2, 10)}`;
+};
+
+const createImportedSheetRecordId = (): string => {
+  if (globalThis.crypto && typeof globalThis.crypto.randomUUID === 'function') {
+    return globalThis.crypto.randomUUID();
+  }
+
+  return `import-${Date.now()}-${Math.random().toString(16).slice(2, 10)}`;
 };
 
 export class CharacterSheetsRepository {
@@ -50,6 +72,13 @@ export class CharacterSheetsRepository {
           db.createObjectStore('recent', {
             keyPath: 'templateId'
           });
+        }
+
+        if (!db.objectStoreNames.contains('imports')) {
+          const imports = db.createObjectStore('imports', {
+            keyPath: 'id'
+          });
+          imports.createIndex('byUpdatedAt', 'updatedAt');
         }
       }
     });
@@ -148,6 +177,63 @@ export class CharacterSheetsRepository {
     const db = await this.dbPromise;
     const record = await db.get('recent', templateId);
     return record?.instanceId ?? null;
+  }
+
+  async saveImportedSheet(args: {
+    id?: string;
+    sourceFileName: string;
+    templateId: string | null;
+    templateTitle: string | null;
+    importStatus: ImportedSheetImportStatus;
+    validationSummary: {
+      errors: number;
+      warnings: number;
+    };
+    parsedData: ImportedCharacterData;
+    extractedFields: ImportedSheetFieldRow[];
+  }): Promise<ImportedSheetRecord> {
+    const db = await this.dbPromise;
+    const now = Date.now();
+    const id = args.id?.trim() || createImportedSheetRecordId();
+    const existing = await db.get('imports', id);
+
+    const record: ImportedSheetRecord = {
+      id,
+      createdAt: existing?.createdAt ?? now,
+      updatedAt: now,
+      sourceFileName: args.sourceFileName,
+      templateId: args.templateId,
+      templateTitle: args.templateTitle,
+      importStatus: args.importStatus,
+      validationSummary: {
+        errors: args.validationSummary.errors,
+        warnings: args.validationSummary.warnings
+      },
+      parsedData: args.parsedData,
+      extractedFields: args.extractedFields
+    };
+
+    await db.put('imports', record);
+    return record;
+  }
+
+  async getImportedSheetRecord(id: string): Promise<ImportedSheetRecord | null> {
+    const db = await this.dbPromise;
+    const record = await db.get('imports', id);
+    return record ?? null;
+  }
+
+  async listImportedSheetRecords(limit = 20): Promise<ImportedSheetRecord[]> {
+    const db = await this.dbPromise;
+    const records = await db.getAll('imports');
+    return records
+      .sort((left, right) => right.updatedAt - left.updatedAt)
+      .slice(0, Math.max(1, limit));
+  }
+
+  async deleteImportedSheetRecord(id: string): Promise<void> {
+    const db = await this.dbPromise;
+    await db.delete('imports', id);
   }
 }
 

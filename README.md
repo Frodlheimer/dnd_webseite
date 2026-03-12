@@ -114,18 +114,40 @@ Empfohlene Commit-Checkliste:
   - schnelle Filter (Name/Type/CR/Size) via SRD Worker
   - Monster-Detailansicht inkl. `Add to NPC Library` (lokales IndexedDB Repo `dnd-vtt-dm-data-v1`)
   - keine API-Endpunkte, nur statische Files
+- Character Builder -> Guided Builder (OOG, client-only):
+  - Hauptflow fuer Charaktererstellung:
+    - `/player/characters` (Your Characters Uebersicht)
+    - `/player/characters/new` (neuen Build starten)
+    - `/player/characters/:characterId` (Builder fortsetzen/bearbeiten)
+    - `/player/characters/:characterId/review` (Final Review + Export)
+  - nur ein gefuehrter Modus (kein separater Expert-Mode)
+  - Canonical Character JSON als Source of Truth (`CharacterRecord`)
+  - lokale Rules-/Derivation-Engine erzeugt:
+    - abgeleitete Stats (Abilities, Mods, PB, HP, AC best effort, Initiative, Spellwerte)
+    - dynamische Pending Decisions (Class/Subclass/Skills/Features/Spells/Equipment/ASI-Feat)
+    - Validation Errors/Warnings + Completion Status (`draft`, `in_progress`, `ready`, `invalid`)
+  - bestehender Point-Buy ist direkt im Builder integriert (keine doppelte Regelimplementation)
+  - keine Live-PDF-Vorschau waehrend des Builds; Sheet wird erst im Review gefuellt/exportiert
+  - rein local-first:
+    - keine neuen Server-APIs
+    - keine Server-Persistenz
+    - keine zusaetzliche Server-Last
+  - lokale Persistenz in IndexedDB (`dnd-vtt-characters-v1`) inkl. Autosave-Snapshots
+  - fertige/teilfertige Charaktere erscheinen als First-Class-Eintraege in `Your Characters`
 - Character Builder -> Character Sheets (OOG, client-only):
-  - Route `\/player\/characters\/sheets` listet eingebaute PDF-Templates (General + Klassen)
+  - Route `\/player\/characters\/sheets` ist der zentrale Character-Sheets Hub (ohne PDF-Preview im Hauptflow)
+  - sichtbarer Direkt-Download nur fuer `General Character Sheet` (`Download blank PDF`)
+  - Hinweis/Empfehlung zu class-spezifischen Sheets auf DMs Guild (externer Link, neuer Tab)
+  - class-spezifische Templates bleiben intern voll unterstuetzt fuer Import/Template-Matching
   - Build-Time Generator extrahiert AcroForm-Widget-Felder aus lokalen PDFs in JSON Templates
-  - Editor `\/player\/characters\/sheets\/:templateId`:
-    - exakte Overlay-Eingaben anhand PDF-Koordinaten (Blank-Page Basis)
-    - optionales `Show PDF background` (pdfjs im Browser, lazy geladen)
-    - Zoom + Seitennavigation
-    - Autosave lokal in IndexedDB (`dnd-vtt-character-sheets-v1`)
-  - Export:
-    - `Download PDF` fuellt das Original-Template clientseitig mit `pdf-lib`
   - Import:
-    - `Import filled PDF` liest Feldwerte clientseitig, matched Template per Feldnamen-Overlap und oeffnet Editor mit Werten
+    - `Upload filled character sheet PDF` liest Feldwerte clientseitig
+    - Template-Matching per Feldnamen-Overlap ueber alle implementierten Templates
+    - validiert importierte Werte (Errors/Warnings) und zeigt strukturierte Parsed-Tabellen nach Sektionen
+    - Import speichert strukturierte Daten lokal in IndexedDB (`dnd-vtt-character-sheets-v1`, Store `imports`)
+    - gespeicherte Imports koennen lokal erneut geoeffnet oder geloescht werden
+  - Legacy/Interne Route `\/player\/characters\/sheets\/:templateId` (Editor mit Overlay/Preview) bleibt fuer interne Nutzung verfuegbar
+  - Final-Review im Guided Builder nutzt dieselbe PDF-Fill-Pipeline im Hintergrund (`Download filled General Sheet`)
   - keine Server-Endpunkte, keine Server-Last fuer Character Sheets
 - Character Builder -> Point Buy Calculator (OOG, client-only):
   - Route `\/player\/characters\/point-buy`
@@ -252,10 +274,13 @@ Empfohlene Commit-Checkliste:
   - `/dice` = OOG Dice Tools (Multi Dice + Initiative, client-only)
   - `/player` = Player Hub
   - `/player/join` = Join Formular (Join-Code, Display Name, Role)
-  - `/player/characters` = Character Builder Hub (Builder + Character Sheets)
+  - `/player/characters` = Your Characters Uebersicht (Builder-Records + Imports)
+  - `/player/characters/new` = Guided Character Builder Start
+  - `/player/characters/:characterId` = Guided Character Builder Editor
+  - `/player/characters/:characterId/review` = Final Review & Export (filled sheet download)
   - `/player/characters/point-buy` = Point Buy Calculator
-  - `/player/characters/sheets` = Character Sheets Template Hub
-  - `/player/characters/sheets/:templateId` = Character Sheet Editor
+  - `/player/characters/sheets` = Character Sheets Hub (General download + Import + lokale Importliste + Parsed-Values Tabelle)
+  - `/player/characters/sheets/:templateId` = Character Sheet Editor (interne/Legacy Detailroute)
   - `/player/notes`, `/player/tools` = Placeholder
   - `/dm` = DM Hub
   - `/dm/session`, `/dm/maps`, `/dm/npcs`, `/dm/encounters`, `/dm/notes`, `/dm/audio`, `/dm/backups` = Placeholder
@@ -443,7 +468,11 @@ Source:
 - `apps/web/src/routes/player/PlayerHubRoute.tsx` - Player Hub
 - `apps/web/src/routes/player/PlayerJoinRoute.tsx` - Player Join Flow (join/name/role -> `/vtt?...`)
 - `apps/web/src/routes/player/CharacterBuilderRoute.tsx` - Character Builder Layout mit Navigation
-- `apps/web/src/routes/player/CharacterBuilderHomeRoute.tsx` - Builder Home (Point Buy + Character Sheets)
+- `apps/web/src/routes/player/CharacterBuilderListRoute.tsx` - Your Characters Uebersicht (lokale Builder-Charaktere + importierte Sheets)
+- `apps/web/src/routes/player/CharacterBuilderNewRoute.tsx` - erstellt lokalen Character-Draft und startet Guided Builder
+- `apps/web/src/routes/player/CharacterBuilderEditorRoute.tsx` - Guided Builder Editor fuer `:characterId`
+- `apps/web/src/routes/player/CharacterBuilderReviewRoute.tsx` - Final Review, Validation Summary, Sheet Export
+- `apps/web/src/routes/player/CharacterBuilderHomeRoute.tsx` - Legacy Builder Home (Weiterleitung/Bestandsroute)
 - `apps/web/src/routes/player/PointBuyRoute.tsx` - Point Buy Route Wrapper
 - `apps/web/src/routes/player/CharacterSheetsHubRoute.tsx` - Template Auswahl + Import Flow
 - `apps/web/src/routes/player/CharacterSheetEditorRoute.tsx` - Sheet Editor Route
@@ -501,10 +530,34 @@ Board/UI:
 - `apps/web/src/characterSheets/generated/template_*.json` - generierte Feld-/Page-Metadaten pro PDF-Template
 - `apps/web/src/characterSheets/ui/CharacterSheetEditor.tsx` - Overlay Editor fuer AcroForm-Felder
 - `apps/web/src/characterSheets/ui/PdfPageBackground.tsx` - optionales PDF-Seitenrendering im Editor (lazy)
-- `apps/web/src/characterSheets/storage/characterSheetsRepository.ts` - IndexedDB Repository fuer Sheet-Instanzen
+- `apps/web/src/characterSheets/ui/CharacterSheetsHub.tsx` - vereinfachter Character Sheets Hub ohne Preview
+- `apps/web/src/characterSheets/ui/GeneralSheetDownloadCard.tsx` - General Sheet Download (einziger sichtbarer Direkt-Download)
+- `apps/web/src/characterSheets/ui/RecommendedSheetsNotice.tsx` - DMs Guild Empfehlung fuer class-spezifische Sheets
+- `apps/web/src/characterSheets/ui/SheetUploadCard.tsx` - Upload/Import Einstieg
+- `apps/web/src/characterSheets/ui/ImportedSheetsList.tsx` - lokale Liste gespeicherter Imports
+- `apps/web/src/characterSheets/ui/ImportedSheetSummary.tsx` - Import-Status/Meta Zusammenfassung
+- `apps/web/src/characterSheets/ui/ImportedFieldsTable.tsx` - strukturierte Parsed-Values Tabelle mit Validation-Status
+- `apps/web/src/characterSheets/storage/characterSheetsRepository.ts` - IndexedDB Repository fuer Sheet-Instanzen + lokale Import-Records
 - `apps/web/src/characterSheets/pdf/fillPdf.ts` - clientseitiges PDF-Fuellen + Download
 - `apps/web/src/characterSheets/pdf/readPdfFields.ts` - clientseitiges Feld-Auslesen aus hochgeladenem PDF
 - `apps/web/src/characterSheets/templateMatching.ts` - Template-Matching Heuristik (Feldnamen-Overlap)
+- `apps/web/src/characterSheets/validation/validateImportedSheet.ts` - Import-Validierung + Normalisierung + Extracted-Fields-Aufbereitung
+- `apps/web/src/characterBuilder/model/character.ts` - canonical CharacterRecord Modell + Default-Factory
+- `apps/web/src/characterBuilder/model/decisions.ts` - generisches Decision-Modell + Builder Sections
+- `apps/web/src/characterBuilder/storage/characterRepository.ts` - IndexedDB Repository (`dnd-vtt-characters-v1`) inkl. Debounced Autosave/Snapshots
+- `apps/web/src/characterBuilder/rules/rulesFacade.ts` - normalisierte Rules-Zugriffsschicht (Classes/Subclasses/Races/Backgrounds/Feats/Spells/Equipment)
+- `apps/web/src/characterBuilder/engine/deriveCharacter.ts` - zentrale Derivation (Stats, Limits, Decisions, Validation Input)
+- `apps/web/src/characterBuilder/engine/pendingDecisions.ts` - dynamische Pending-Decision-Erzeugung
+- `apps/web/src/characterBuilder/engine/validation.ts` - Blocking Errors / Warnings
+- `apps/web/src/characterBuilder/engine/completion.ts` - Completion-Status (`draft`, `in_progress`, `ready`, `invalid`)
+- `apps/web/src/characterBuilder/engine/choiceResolution.ts` - Invalidations bei Upstream-Edits (class/race/background/level)
+- `apps/web/src/characterBuilder/export/mapCharacterToGeneralSheet.ts` - Mapping CharacterRecord -> General Sheet Felder
+- `apps/web/src/characterBuilder/ui/CharacterBuilderShell.tsx` - Guided Builder Shell (Sidebar, Steps, Decision Panel, Autosave)
+- `apps/web/src/characterBuilder/ui/BuilderSidebar.tsx` - Sections + Completion/Warning/Pending Status
+- `apps/web/src/characterBuilder/ui/ReviewPanel.tsx` - Final Review & Export UI
+- `apps/web/src/characterBuilder/ui/spells/SpellChoicePanel.tsx` - Spell-Auswahl Panel (granted/known/prepared)
+- `apps/web/src/characterBuilder/ui/spells/SpellPickerTable.tsx` - schnelle Spell-Tabelle mit Suche/Filtern
+- `apps/web/src/characterBuilder/ui/spells/SelectedSpellsPanel.tsx` - aktuelle Spell-Selections + Zaehler
 - `apps/web/src/characterBuilder/pointBuy/types.ts` - gemeinsame Point-Buy Typen/Abilities
 - `apps/web/src/characterBuilder/pointBuy/rules.ts` - Point-Buy Kernregeln und Finale-Score-Berechnung
 - `apps/web/src/characterBuilder/pointBuy/bonuses.ts` - SRD Background- und Legacy Race-Bonuslogik
@@ -594,7 +647,8 @@ Local Persistence/Sync:
 - `apps/web/src/local/sessionRepository.test.ts` - IndexedDB Repository Test
 - `apps/web/src/characterSheets/storage/characterSheetsRepository.test.ts` - Character Sheets IndexedDB Test
 - `apps/web/src/characterSheets/templateMatching.test.ts` - Template-Matching Test
-- `apps/web/src/routes/player/CharacterSheetsHubRoute.test.tsx` - Hub Rendering Test
+- `apps/web/src/characterSheets/validation/validateImportedSheet.test.ts` - Import-Validierungsregeln Test
+- `apps/web/src/routes/player/CharacterSheetsHubRoute.test.tsx` - Hub/Import Flow Rendering Test
 - `apps/web/src/rules/spells/parse/parseSpellsTxt.test.ts` - Parser Unit Tests (Fixture)
 - `apps/web/src/rules/spells/parse/spellTableOverrides.test.ts` - Tests fuer Tabellen-Wiederherstellung
 - `apps/web/src/rules/spells/worker/filterSpells.test.ts` - Worker-Filterlogik Tests
@@ -679,6 +733,27 @@ Tests:
 - Spells Browser:
   - absichtlich **keine** Server-Endpunkte (`/spells`, `/rules/spells` sind reine Web-Routes)
   - Datenquelle ist ausschließlich der im Frontend gebundelte Build-Time Pack
+
+### Character Builder (client-only, local-first)
+
+- Keine Builder-API im Backend. Alle Regeln, Ableitungen, Validierungen und Entscheidungen laufen im Browser.
+- Datenfluss pro Charakter:
+  1. `CharacterRecord` (canonical JSON) laden/editen.
+  2. `deriveCharacter()` berechnet:
+     - legal option scopes (ueber `rulesFacade`)
+     - abgeleitete Werte (Abilities/Mods/Combat/Spells)
+     - `pendingDecisions`
+     - `validation.errors` / `validation.warnings`
+     - Completion Status (`draft`, `in_progress`, `ready`, `invalid`)
+  3. UI zeigt nur relevante Entscheidungen pro Section (guided flow).
+  4. Bei Upstream-Aenderungen invalidiert `choiceResolution` nur abhaengige Downstream-Entscheidungen.
+  5. Autosave persistiert lokal in `dnd-vtt-characters-v1`.
+- Character Sheet:
+  - waehrend des Builds keine Live-PDF-Preview.
+  - erst auf `/player/characters/:characterId/review` wird das General Sheet im Hintergrund befuellt und heruntergeladen.
+- Your Characters:
+  - Builder-Records werden automatisch als lokale Karten gelistet (inkl. status/summary stats).
+  - importierte Sheet-Records bleiben parallel sichtbar.
 
 ### WebSocket
 
@@ -836,9 +911,14 @@ Stores:
 
 Weitere browserlokale DBs:
 
+- `dnd-vtt-characters-v1`
+  - `characters` (canonical CharacterRecord inkl. derived/validation/completion)
+  - `characterSnapshots` (leichte Autosave-Checkpoints)
+  - `characterIndex` (optionaler Summary-Store fuer schnelle Kartenlisten)
 - `dnd-vtt-character-sheets-v1`
   - `instances` (ausgefuellte Character-Sheet Instanzen)
   - `recent` (zuletzt geoeffnete Instanzen je Template)
+  - `imports` (lokale Import-Ergebnisse inkl. Parsed Data, Validation Summary, Extracted Fields, Template-Meta)
 - `dnd-vtt-dm-data-v1`
   - `npcs` (lokale NPC Library fuer OOG Initiative Roller, inkl. `initiativeMod`)
 
@@ -1151,22 +1231,50 @@ Hinweis:
 12. Erwartung:
    - Erfolgsmeldung erscheint, NPC ist lokal fuer OOG Initiative nutzbar.
 
+### 6a) Manueller Guided Character Builder Smoke
+
+1. Browser auf `/player/characters` oeffnen.
+2. Erwartung:
+   - `Your Characters` zeigt lokale Builder-Charaktere und (falls vorhanden) importierte Sheet-Records.
+3. `New Character` klicken.
+4. Erwartung:
+   - Navigation nach `/player/characters/:characterId`.
+   - gefuehrte Sections + Sidebar Status sind sichtbar.
+   - keine Live-PDF-Preview.
+5. Basics/Origin/Ability Scores ausfuellen:
+   - Class + ggf. Subclass
+   - Race/Species + Background
+   - Point Buy direkt im Ability-Score Schritt
+6. Erwartung:
+   - Pending Decisions aktualisieren sich dynamisch.
+   - bei Upstream-Aenderung (z. B. Class-Wechsel) werden nur abhaengige Downstream-Choices auf `Needs review` gesetzt.
+7. `/player/characters/:characterId/review` oeffnen.
+8. Erwartung:
+   - Final Review zeigt Validation Summary, Stats, Proficiencies, Spells, Equipment.
+   - `Download filled General Sheet` funktioniert ohne vorherige Live-Preview.
+9. Zurueck auf `/player/characters`.
+10. Erwartung:
+   - der Charakter erscheint/aktualisiert sich automatisch als lokale Karte.
+
 ### 7) Manueller Character Sheets Smoke
 
 1. Browser auf `/player/characters/sheets` oeffnen.
 2. Erwartung:
-   - General Template + Klassen-Templates werden als Karten gelistet.
-3. `Create from template` auf einem Template klicken.
+   - genau ein sichtbarer Direkt-Download: `General Character Sheet` mit Button `Download blank PDF`.
+   - DMs Guild Empfehlungstext fuer class-spezifische Sheets ist sichtbar.
+   - kein sichtbarer PDF-Preview-Bereich im Hub.
+3. `Download blank PDF` klicken.
 4. Erwartung:
-   - Route auf `/player/characters/sheets/:templateId?instance=...`.
-   - Editor zeigt weisse Seiten im korrekten Seitenverhaeltnis mit ueberlagerten Feldern.
-5. Einige Felder ausfuellen, Seite wechseln, Zoom testen.
-6. `Download PDF` klicken.
-7. Erwartung:
-   - heruntergeladene PDF enthaelt die eingegebenen Werte.
-8. `Upload filled PDF` mit einer ausgefuellten PDF testen.
-9. Erwartung:
-   - Feldwerte werden in den Editor uebernommen.
+   - blankes General Sheet wird heruntergeladen.
+5. `Upload filled character sheet PDF` mit einer ausgefuellten kompatiblen PDF testen.
+6. Erwartung:
+   - Import bleibt lokal/client-only.
+   - ein Template wird erkannt.
+   - Validation Summary (`Imported successfully`, `X warnings`, `Y errors`) erscheint.
+   - strukturierte Parsed-Values Tabelle (Identity/Core stats/Combat/Skills/Spellcasting/Features / Notes) erscheint.
+7. Seite neu laden.
+8. Erwartung:
+   - Import bleibt in `Saved local character imports` erhalten und kann ohne Re-Upload wieder geoeffnet werden.
 
 ### 8) Manueller OOG Dice Smoke
 
@@ -1251,6 +1359,14 @@ Web:
 - Global Search Shortcut Smoke (`Ctrl/Cmd+K` oeffnet Palette)
 - Chat Dedupe + Host-Chat-Logik (Filter/Authz)
 - IndexedDB Session Repository
+- Character Sheets Hub Rendering + Import Flow Tests (General-only download, recommendation link, parsed table)
+- Character Sheets Import Validation Unit Tests
+- Character Sheets IndexedDB Import Repository Tests
+- Character Builder Derivation Engine Tests (abilities/proficiency/spell limits)
+- Character Builder Pending Decision Tests (subclass/class skills/granted spells/ASI)
+- Character Builder Invalidation Tests (`choiceResolution`)
+- Character Builder IndexedDB Repository Tests
+- Character Builder Route Smoke Tests (guided flow + review route)
 - Dice RNG + Roll + Initiative Unit Tests
 - Spells TXT Parser + Pack Builder
 - Spells Worker Filterlogik (Tag-Bitsets + Query + Pagination)

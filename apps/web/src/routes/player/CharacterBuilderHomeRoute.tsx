@@ -6,7 +6,7 @@ export const CharacterBuilderHomeRoute = () => {
       <h2 className="text-2xl font-semibold tracking-tight">Builder</h2>
       <p className="mt-2 text-sm text-slate-300">
         Character automation tools are available as local-only modules. Use Point Buy Calculator
-        for score planning or open Character Sheets for PDF-based editing.
+        for score planning or open Character Sheets for general-sheet download and local PDF imports.
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
         <Link

@@ -73,7 +73,7 @@ export const PlayerHubRoute = () => {
         <HubTile title="Join / Resume Session" description="Enter with code or continue in-game." to="/player/join" />
         <HubTile
           title="Your Characters"
-          description="Open character builder and sheet templates."
+          description="Guided character builder, local saves, review, and export."
           to="/player/characters"
         />
         <HubTile title="Notes" description="Session notes and reminders." to="/player/notes" />

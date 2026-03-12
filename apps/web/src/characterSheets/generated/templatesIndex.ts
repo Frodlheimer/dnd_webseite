@@ -5,12 +5,12 @@ import type { CharacterSheetTemplate, CharacterSheetTemplateSummary } from '../t
 
 export const characterSheetTemplatesIndex: CharacterSheetTemplateSummary[] = [
   {
-    "id": "charakterbogen-leer",
+    "id": "dnd-5e-charactersheet-formfillable",
     "title": "General Character Sheet",
     "className": null,
-    "pdfUrl": "/character_sheets/charakterbogen-leer.pdf",
-    "pageCount": 4,
-    "updatedAt": "2026-03-04T19:48:14.567Z"
+    "pdfUrl": "/character_sheets/dnd_5e_charactersheet_formfillable.pdf",
+    "pageCount": 3,
+    "updatedAt": "2026-03-11T18:14:35.739Z"
   },
   {
     "id": "artificer-eu-a4",
@@ -115,11 +115,19 @@ export const characterSheetTemplatesIndex: CharacterSheetTemplateSummary[] = [
     "pdfUrl": "/character_sheets/wizard-eu-a4.pdf",
     "pageCount": 9,
     "updatedAt": "2026-03-04T19:48:16.917Z"
+  },
+  {
+    "id": "dnd-5e-charactersheet-formfillable-de",
+    "title": "Dnd 5e Charactersheet Formfillable De",
+    "className": null,
+    "pdfUrl": "/character_sheets/dnd_5e_charactersheet_formfillable_de.pdf",
+    "pageCount": 4,
+    "updatedAt": "2026-03-04T19:48:14.567Z"
   }
 ];
 
 const templateLoaders: Record<string, () => Promise<unknown>> = {
-  'charakterbogen-leer': () => import('./template_charakterbogen-leer.json'),
+  'dnd-5e-charactersheet-formfillable': () => import('./template_dnd-5e-charactersheet-formfillable.json'),
   'artificer-eu-a4': () => import('./template_artificer-eu-a4.json'),
   'barbarian-eu-a4': () => import('./template_barbarian-eu-a4.json'),
   'bard-eu-a4': () => import('./template_bard-eu-a4.json'),
@@ -132,7 +140,8 @@ const templateLoaders: Record<string, () => Promise<unknown>> = {
   'rogue-eu-a4': () => import('./template_rogue-eu-a4.json'),
   'sorcerer-eu-a4': () => import('./template_sorcerer-eu-a4.json'),
   'warlock-eu-a4': () => import('./template_warlock-eu-a4.json'),
-  'wizard-eu-a4': () => import('./template_wizard-eu-a4.json')
+  'wizard-eu-a4': () => import('./template_wizard-eu-a4.json'),
+  'dnd-5e-charactersheet-formfillable-de': () => import('./template_dnd-5e-charactersheet-formfillable-de.json')
 };
 
 export const loadCharacterSheetTemplate = async (

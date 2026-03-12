@@ -7,6 +7,7 @@ export type SpellsWorkerRequestWithoutId =
       payload: {
         query: string;
         tags: string[];
+        tagGroups?: string[][];
         offset: number;
         limit: number;
       };
@@ -28,6 +29,7 @@ export type SpellsWorkerRequest =
       payload: {
         query: string;
         tags: string[];
+        tagGroups?: string[][];
         offset: number;
         limit: number;
       };

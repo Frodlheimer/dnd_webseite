@@ -15,6 +15,7 @@ const handleRequest = (request: SpellsWorkerRequest): void => {
         pack: spellsPack,
         query: request.payload.query,
         tags: request.payload.tags,
+        ...(request.payload.tagGroups ? { tagGroups: request.payload.tagGroups } : {}),
         offset: request.payload.offset,
         limit: request.payload.limit
       });

@@ -1,0 +1,3945 @@
+{
+  "id": "dnd-5e-charactersheet-formfillable",
+  "title": "General Character Sheet",
+  "className": null,
+  "pdfUrl": "/character_sheets/dnd_5e_charactersheet_formfillable.pdf",
+  "pageCount": 3,
+  "updatedAt": "2026-03-11T18:14:35.739Z",
+  "pages": [
+    {
+      "pageIndex": 0,
+      "width": 612,
+      "height": 792
+    },
+    {
+      "pageIndex": 1,
+      "width": 612,
+      "height": 792
+    },
+    {
+      "pageIndex": 2,
+      "width": 612,
+      "height": 792
+    }
+  ],
+  "fields": [
+    {
+      "name": "ClassLevel",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 270.043,
+        "y": 728.184,
+        "w": 105.84,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Background",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 384.131,
+        "y": 728.184,
+        "w": 86.072,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "PlayerName",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 480.283,
+        "y": 728.184,
+        "w": 90,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "CharacterName",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 47.563,
+        "y": 709.801,
+        "w": 173.181,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Race",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 269.043,
+        "y": 702.104,
+        "w": 106.84,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Alignment",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 383.519,
+        "y": 702.104,
+        "w": 90,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "XP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 480.283,
+        "y": 702.104,
+        "w": 90,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Inspiration",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 96.872,
+        "y": 643.953,
+        "w": 21.24,
+        "h": 16.56
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "STR",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 612.269,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ProfBonus",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 96.835,
+        "y": 606.338,
+        "w": 21.24,
+        "h": 16.56
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AC",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 234.043,
+        "y": 625.561,
+        "w": 27.36,
+        "h": 25.92
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Initiative",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 285.883,
+        "y": 618.361,
+        "w": 36,
+        "h": 33.12
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Speed",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 344.203,
+        "y": 618.361,
+        "w": 36,
+        "h": 33.12
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "PersonalityTraits",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 418.723,
+        "y": 602.881,
+        "w": 152.82,
+        "h": 48.6
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "STRmod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 592.473,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Strength",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 576.817,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "DEX",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 540.269,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Ideals",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 418.723,
+        "y": 547.801,
+        "w": 152.82,
+        "h": 34.56
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "DEXmod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 520.473,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Bonds",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 418.723,
+        "y": 492.361,
+        "w": 152.82,
+        "h": 34.56
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "CON",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 468.989,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HDTotal",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 247.003,
+        "y": 464.461,
+        "w": 48.24,
+        "h": 9.18
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 12",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 345.931,
+        "y": 458.985,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "Check Box 13",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 358.747,
+        "y": 458.985,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "Check Box 14",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 371.707,
+        "y": 458.985,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "CONmod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 449.193,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 15",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 345.865,
+        "y": 443.89,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "Check Box 16",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 358.764,
+        "y": 443.89,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "Check Box 17",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 371.663,
+        "y": 443.89,
+        "w": 9.282,
+        "h": 12.227
+      }
+    },
+    {
+      "name": "HD",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 231.883,
+        "y": 439.801,
+        "w": 63.36,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Flaws",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 418.723,
+        "y": 437.641,
+        "w": 152.82,
+        "h": 34.56
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "INT",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 396.989,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Dexterity",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 563.312,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Constitution",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 549.825,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Intelligence",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 536.289,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Wisdom",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 522.753,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ST Charisma",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.723,
+        "y": 509.361,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Acrobatics",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 461.664,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Animal",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 448.128,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Athletics",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 421.128,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Deception",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 407.592,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "History",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 394.056,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn Name",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 223.963,
+        "y": 384.721,
+        "w": 61.56,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn1 AtkBonus",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 292.003,
+        "y": 384.721,
+        "w": 29.88,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn1 Damage",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 328.003,
+        "y": 384.721,
+        "w": 60.84,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Insight",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 380.592,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Intimidation",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 367.128,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn Name 2",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 223.963,
+        "y": 364.561,
+        "w": 61.56,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn2 AtkBonus",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 292.003,
+        "y": 364.561,
+        "w": 29.88,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn Name 3",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 223.963,
+        "y": 343.681,
+        "w": 61.56,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn3 AtkBonus",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 292.003,
+        "y": 343.681,
+        "w": 29.88,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 11",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 576.22,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 18",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 562.929,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 19",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 549.179,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 20",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 535.725,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 21",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 522.27,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 22",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 508.756,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "INTmod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 377.193,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn2 Damage",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 328.003,
+        "y": 364.561,
+        "w": 60.84,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Investigation",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 353.52,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WIS",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 325.709,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Arcana",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 434.592,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Perception",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 313.056,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "WISmod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 305.913,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "CHA",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 36.821,
+        "y": 254.429,
+        "w": 40.982,
+        "h": 25.532
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Nature",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 326.52,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Performance",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 299.592,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Medicine",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 340.128,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Religion",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 272.592,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Stealth",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 245.52,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 23",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 461.14,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 24",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 447.523,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 25",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 433.987,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 26",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 420.635,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 27",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 407.304,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 28",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 393.768,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 29",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 380.008,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 30",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 366.84,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 31",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 353.304,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 32",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 339.768,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 33",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 326.068,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 34",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 312.554,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 35",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 298.977,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 36",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 285.523,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 37",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 271.987,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 38",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 258.513,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 39",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 244.977,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Check Box 40",
+      "type": "checkbox",
+      "pageIndex": 0,
+      "rect": {
+        "x": 101.275,
+        "y": 231.482,
+        "w": 6.12,
+        "h": 8.69
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 286.056,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HPMax",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 290.923,
+        "y": 584.521,
+        "w": 89.28,
+        "h": 10.8
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HPCurrent",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 231.163,
+        "y": 549.241,
+        "w": 149.04,
+        "h": 30.24
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "HPTemp",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 231.163,
+        "y": 497.401,
+        "w": 149.04,
+        "h": 30.24
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Wpn3 Damage",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 328.003,
+        "y": 343.681,
+        "w": 60.84,
+        "h": 14.04
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SleightofHand",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 259.128,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "CHamod",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 46.483,
+        "y": 234.633,
+        "w": 21.24,
+        "h": 12.807
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Survival",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 112.003,
+        "y": 232.056,
+        "w": 14.4,
+        "h": 8.632
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "AttacksSpellcasting",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 223.243,
+        "y": 224.521,
+        "w": 165.6,
+        "h": 113.76
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Passive",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 32.289,
+        "y": 184.282,
+        "w": 21.24,
+        "h": 16.56
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "CP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 229.723,
+        "y": 175.374,
+        "w": 29.16,
+        "h": 17.605
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "ProficienciesLang",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 34.243,
+        "y": 35.881,
+        "w": 165.6,
+        "h": 128.929
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "SP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 229.723,
+        "y": 149.419,
+        "w": 29.16,
+        "h": 17.605
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "EP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 229.723,
+        "y": 123.463,
+        "w": 29.16,
+        "h": 17.605
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "GP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 229.723,
+        "y": 97.508,
+        "w": 29.16,
+        "h": 17.605
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "PP",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 229.723,
+        "y": 71.552,
+        "w": 29.16,
+        "h": 17.605
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Equipment",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 268.963,
+        "y": 35.881,
+        "w": 119.88,
+        "h": 162.72
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Features and Traits",
+      "type": "text",
+      "pageIndex": 0,
+      "rect": {
+        "x": 412.439,
+        "y": 35.881,
+        "w": 165.077,
+        "h": 369.584
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "CharacterName 2",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 47.52,
+        "y": 705.92,
+        "w": 208.44,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Age",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 266,
+        "y": 725.303,
+        "w": 105.84,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Height",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 379.152,
+        "y": 725.303,
+        "w": 86.072,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Weight",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 475.24,
+        "y": 725.303,
+        "w": 97.56,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Eyes",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 265,
+        "y": 699.223,
+        "w": 106.84,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Skin",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 378.54,
+        "y": 699.223,
+        "w": 90,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Hair",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 475.24,
+        "y": 699.223,
+        "w": 97.56,
+        "h": 15.657
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "CHARACTER IMAGE",
+      "type": "unknown",
+      "pageIndex": 1,
+      "rect": {
+        "x": 36.479,
+        "y": 443.398,
+        "w": 162.693,
+        "h": 218.099
+      }
+    },
+    {
+      "name": "Faction Symbol Image",
+      "type": "unknown",
+      "pageIndex": 1,
+      "rect": {
+        "x": 423.965,
+        "y": 508.532,
+        "w": 137.165,
+        "h": 109.443
+      }
+    },
+    {
+      "name": "Allies",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 225,
+        "y": 442.08,
+        "w": 175.648,
+        "h": 218.746
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "FactionName",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 423.209,
+        "y": 622.696,
+        "w": 138.031,
+        "h": 15.84
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Backstory",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 34.78,
+        "y": 36.72,
+        "w": 164.44,
+        "h": 370.08
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Feat+Traits",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 223.78,
+        "y": 212.4,
+        "w": 353.66,
+        "h": 204.48
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "Treasure",
+      "type": "text",
+      "pageIndex": 1,
+      "rect": {
+        "x": 223.78,
+        "y": 36.72,
+        "w": 353.66,
+        "h": 152.28
+      },
+      "maxLen": 0,
+      "multiline": true
+    },
+    {
+      "name": "CHARACTER IMAGE",
+      "type": "unknown",
+      "pageIndex": 1,
+      "rect": {
+        "x": 36.479,
+        "y": 443.398,
+        "w": 162.693,
+        "h": 218.099
+      }
+    },
+    {
+      "name": "CHARACTER IMAGE",
+      "type": "unknown",
+      "pageIndex": 1,
+      "rect": {
+        "x": 36.479,
+        "y": 443.398,
+        "w": 162.693,
+        "h": 218.099
+      }
+    },
+    {
+      "name": "Spellcasting Class 2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 47.52,
+        "y": 705.92,
+        "w": 208.44,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SpellcastingAbility 2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 283.779,
+        "y": 711.36,
+        "w": 64.854,
+        "h": 24.39
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SpellSaveDC  2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 384.49,
+        "y": 711.36,
+        "w": 64.854,
+        "h": 24.39
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SpellAtkBonus 2",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 488.288,
+        "y": 711.36,
+        "w": 64.855,
+        "h": 24.39
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 19",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 51.855,
+        "y": 457.452,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 19",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 103.005,
+        "y": 457.452,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1014",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 607.464,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1015",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 422.352,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1016",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 593.522,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1017",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 579.58,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1018",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 565.638,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1019",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 551.696,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1020",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 537.602,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1021",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 523.508,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1022",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.32,
+        "y": 509.531,
+        "w": 158.4,
+        "h": 12.096
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 314",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 591.054,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3031",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 577.056,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3032",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 563.058,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3033",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 549.061,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3034",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 535.063,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3035",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 521.065,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3036",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 507.067,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3037",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 493.069,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3038",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 479.071,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3039",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 465.072,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3040",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 451.075,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 321",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 605.162,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 320",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 591.153,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3060",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 577.144,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3061",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 563.136,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3062",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 549.128,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3063",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 535.069,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3064",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 521.078,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3065",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 507.087,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3066",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 493.097,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 315",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 605.053,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3041",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 437.077,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 1023",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 408.384,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 251",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 421.291,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 309",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 407.306,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3010",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 393.322,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3011",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 379.338,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3012",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 365.354,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3013",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 351.369,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3014",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 337.385,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3015",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 323.401,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3016",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 309.417,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3017",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 295.432,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3018",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 281.448,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3019",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 267.464,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 1024",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 394.416,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1025",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 380.376,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1026",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 366.376,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1027",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 352.368,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1028",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 338.4,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1029",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 324.36,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1030",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 310.392,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1031",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 296.424,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1032",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 282.384,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1033",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 268.416,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 20",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 51.855,
+        "y": 228.87,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 20",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 103.005,
+        "y": 228.87,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1034",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 195.732,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1035",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 181.764,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1036",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 167.796,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1037",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 153.792,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1038",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 139.824,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1039",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 125.856,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1040",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 111.816,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1041",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 97.848,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1042",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 83.813,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1043",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 69.805,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1044",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 55.818,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1045",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 41.832,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1046",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 40.77,
+        "y": 209.808,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 21",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 240.837,
+        "y": 625.176,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 21",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 291.987,
+        "y": 625.176,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1047",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 592.038,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1048",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 606.114,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1049",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 578.07,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1050",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 564.102,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1051",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 550.098,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1052",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 536.13,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1053",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 522.162,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1054",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 508.122,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1055",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 494.154,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1056",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 480.118,
+        "w": 157.95,
+        "h": 9.937
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1057",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 466.11,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1058",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 452.124,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1059",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 438.138,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 22",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 240.837,
+        "y": 399.6,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 22",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 291.987,
+        "y": 399.6,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1060",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 366.462,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1061",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 380.538,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1062",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 352.494,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1063",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 338.526,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1064",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 324.522,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 323",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 435.386,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 322",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 421.391,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3067",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 407.396,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3068",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 393.402,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3069",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 379.408,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3070",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 365.413,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3071",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 351.419,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3072",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 337.424,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3073",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 323.43,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 1065",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 310.554,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1066",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 296.586,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1067",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 282.546,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1068",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 268.578,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1069",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 254.542,
+        "w": 157.95,
+        "h": 9.937
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1070",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 240.534,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1071",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 226.548,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 317",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 379.477,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 1072",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 212.562,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 23",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 240.837,
+        "y": 173.016,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 23",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 291.987,
+        "y": 173.016,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1073",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 139.878,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1074",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 153.954,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1075",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 125.91,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1076",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 111.942,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1077",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 97.938,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1078",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 83.97,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1079",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 70.002,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1080",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 55.962,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1081",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 229.752,
+        "y": 41.832,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 24",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 427.965,
+        "y": 625.176,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 24",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 479.115,
+        "y": 625.176,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1082",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 592.128,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1083",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 606.114,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1084",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 578.07,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1085",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 564.102,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1086",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 550.098,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1087",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 536.13,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1088",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 522.144,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1089",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 508.122,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1090",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 494.136,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 25",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 427.965,
+        "y": 455.4,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 25",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 479.115,
+        "y": 455.4,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1091",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 422.352,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1092",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 436.338,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1093",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 408.294,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1094",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 394.326,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1095",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 380.322,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1096",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 366.354,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1097",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 352.368,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1098",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 338.346,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 1099",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 324.36,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsTotal 26",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 427.965,
+        "y": 285.624,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 26",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 479.115,
+        "y": 285.624,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10100",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 252.576,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10101",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 266.562,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10102",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 238.518,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10103",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 224.55,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 316",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 365.478,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3042",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 351.48,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3043",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 337.482,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3044",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 323.485,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3045",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 309.487,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3046",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 295.489,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3047",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 281.491,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3048",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 267.493,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3049",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 253.495,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3050",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 239.496,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3051",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 225.499,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3052",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 211.501,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 10104",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 210.546,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 325",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 265.61,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 324",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 251.597,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3074",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 237.583,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3075",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 223.57,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3076",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 209.557,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3077",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 195.544,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 10105",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 196.578,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10106",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 182.592,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 3078",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 181.531,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "SlotsTotal 27",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 427.965,
+        "y": 144.864,
+        "w": 39.24,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "SlotsRemaining 27",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 479.115,
+        "y": 144.864,
+        "w": 92.835,
+        "h": 20.88
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 313",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 208.747,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 310",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 194.748,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3020",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 180.75,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3021",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 166.752,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3022",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 152.755,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3023",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 138.757,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3024",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 124.759,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3025",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 110.761,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3026",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 96.763,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3027",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 82.765,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3028",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 68.767,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3029",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 54.769,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3030",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 32.418,
+        "y": 40.771,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 10107",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 111.816,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10108",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 125.802,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 10109",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 97.759,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 101010",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 83.791,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 101011",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 69.786,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Spells 101012",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 55.818,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 319",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 152.893,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 318",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 138.898,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3053",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 124.903,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3054",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 110.909,
+        "w": 5.904,
+        "h": 8.475
+      }
+    },
+    {
+      "name": "Check Box 3055",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 96.915,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3056",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 82.92,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3057",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 68.926,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3058",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 54.931,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3059",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 221.4,
+        "y": 40.937,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 327",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 124.904,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 326",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 110.882,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3079",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 96.86,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3080",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 82.838,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3081",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 68.815,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Check Box 3082",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 54.793,
+        "w": 5.904,
+        "h": 8.474
+      }
+    },
+    {
+      "name": "Spells 101013",
+      "type": "text",
+      "pageIndex": 2,
+      "rect": {
+        "x": 416.88,
+        "y": 41.832,
+        "w": 157.95,
+        "h": 9.936
+      },
+      "maxLen": 0
+    },
+    {
+      "name": "Check Box 3083",
+      "type": "checkbox",
+      "pageIndex": 2,
+      "rect": {
+        "x": 408.528,
+        "y": 40.771,
+        "w": 5.904,
+        "h": 8.474
+      }
+    }
+  ]
+}

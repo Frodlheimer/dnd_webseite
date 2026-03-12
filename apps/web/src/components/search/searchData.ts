@@ -44,7 +44,7 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
   {
     id: 'nav-player-characters',
     label: 'Characters',
-    description: 'Manage your character sheets',
+    description: 'Guided character builder, local saves, and export',
     path: '/player/characters',
     scope: 'player',
     keywords: ['character', 'sheet']

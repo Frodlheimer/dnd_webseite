@@ -36,6 +36,24 @@ const andBitsetInto = (target: Uint32Array, source: number[] | undefined): void 
   }
 };
 
+const andBitsetIntoTyped = (target: Uint32Array, source: Uint32Array): void => {
+  for (let index = 0; index < target.length; index += 1) {
+    const currentWord = target[index] ?? 0;
+    target[index] = currentWord & (source[index] ?? 0);
+  }
+};
+
+const orBitsetInto = (target: Uint32Array, source: number[] | undefined): void => {
+  if (!source) {
+    return;
+  }
+
+  for (let index = 0; index < target.length; index += 1) {
+    const currentWord = target[index] ?? 0;
+    target[index] = currentWord | (source[index] ?? 0);
+  }
+};
+
 const collectIndices = (bitset: Uint32Array, total: number): number[] => {
   const indices: number[] = [];
   for (let index = 0; index < total; index += 1) {
@@ -159,15 +177,27 @@ export const filterSpellsWithPack = (args: {
   pack: SpellsPack;
   query: string;
   tags: string[];
+  tagGroups?: string[][];
   offset: number;
   limit: number;
 }): SpellsListResult => {
   const normalizedQuery = normalizeSpellQuery(args.query);
   const normalizedTags = [...new Set(args.tags.map((tag) => tag.trim()).filter(Boolean))];
+  const normalizedTagGroups = (args.tagGroups ?? [])
+    .map((group) => [...new Set(group.map((tag) => tag.trim()).filter(Boolean))])
+    .filter((group) => group.length > 0);
   const candidateBits = buildAllBitset(args.pack.metas.length);
 
   for (const tag of normalizedTags) {
     andBitsetInto(candidateBits, args.pack.tagBitsets[tag]);
+  }
+
+  for (const group of normalizedTagGroups) {
+    const groupBits = new Uint32Array(candidateBits.length);
+    for (const tag of group) {
+      orBitsetInto(groupBits, args.pack.tagBitsets[tag]);
+    }
+    andBitsetIntoTyped(candidateBits, groupBits);
   }
 
   const indices = collectIndices(candidateBits, args.pack.metas.length);

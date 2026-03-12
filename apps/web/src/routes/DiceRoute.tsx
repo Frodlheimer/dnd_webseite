@@ -31,12 +31,14 @@ const STANDARD_DICE: DiceKind[] = [4, 6, 8, 10, 12, 20, 100];
 const MAX_QTY_PER_DIE = 50;
 const MAX_HISTORY_ENTRIES = 50;
 const MAX_HISTORY_FACES = 100;
+const EDGE_CALIBRATION_TOP_BOTTOM = -2.6;
+const EDGE_CALIBRATION_LEFT_RIGHT = -1.6;
+const EDGE_CALIBRATION_PIXEL_FACTOR = 16;
+const TRAY_BASE_MAX_WIDTH_PX = 790;
 
 const STORAGE_KEYS = {
   animationMode: 'dice.animationMode',
   animate: 'dnd-vtt:dice:animate',
-  cinematic3d: 'dnd-vtt:dice:cinematic3d',
-  traySizeAdjust: 'dnd-vtt:dice:traySizeAdjust',
   totalMode: 'dnd-vtt:dice:totalMode',
   separateD20D100: 'dnd-vtt:dice:separateD20D100',
   specs: 'dnd-vtt:dice:specs',
@@ -418,14 +420,6 @@ const clamp = (value: number, min: number, max: number): number => {
   return Math.max(min, Math.min(max, value));
 };
 
-const normalizeTraySizeAdjust = (value: number): number => {
-  if (!Number.isFinite(value)) {
-    return 0;
-  }
-  const stepped = Math.round(value * 5) / 5;
-  return clamp(stepped, -2.4, 2.4);
-};
-
 type DiceTypeTotals = {
   sides: number;
   total: number;
@@ -529,8 +523,7 @@ const resolve3dPhysicsConfig = (
   diceCount: number,
   viewportWidth: number,
   viewportHeight: number,
-  cinematicActive: boolean,
-  traySizeAdjust: number
+  cinematicActive: boolean
 ): DiceBoxPhysicsConfig => {
   const safeDiceCount = Math.max(1, Math.trunc(diceCount));
   const compactViewport = viewportWidth < 960;
@@ -560,7 +553,6 @@ const resolve3dPhysicsConfig = (
   if (ultraWideViewport) {
     size += 0.35;
   }
-  size += traySizeAdjust;
 
   let startingHeight = 10.2;
   if (safeDiceCount > 10) {
@@ -684,12 +676,6 @@ export const DiceRoute = () => {
   const [animationMode, setAnimationMode] = useState<AnimationMode>(() =>
     resolveInitialAnimationMode(prefersReducedMotion, storedAnimationMode, storedAnimatePreference)
   );
-  const [cinematic3d, setCinematic3d] = useState<boolean>(() =>
-    Boolean(loadStoredJson(STORAGE_KEYS.cinematic3d, false))
-  );
-  const [traySizeAdjust, setTraySizeAdjust] = useState<number>(() =>
-    normalizeTraySizeAdjust(loadStoredJson(STORAGE_KEYS.traySizeAdjust, 0))
-  );
   const [dice3dSupported, setDice3dSupported] = useState<boolean | null>(null);
   const [dice3dReady, setDice3dReady] = useState(false);
   const [dice3dNotice, setDice3dNotice] = useState<string | null>(null);
@@ -700,6 +686,7 @@ export const DiceRoute = () => {
     height: typeof window === 'undefined' ? 800 : window.innerHeight
   }));
   const is3dMode = animationMode === '3d';
+  const cinematic3d = is3dMode;
   const is2dMode = animationMode === '2d';
   const [diceSelection, setDiceSelection] = useState<DiceSelection>(() =>
     ensureDiceSelection(loadStoredJson(STORAGE_KEYS.specs, createDefaultDiceSelection()))
@@ -713,9 +700,7 @@ export const DiceRoute = () => {
   const [modifier, setModifier] = useState<number>(() =>
     normalizeModifier(loadStoredJson(STORAGE_KEYS.modifier, 0))
   );
-  const [history, setHistory] = useState<DiceHistoryEntry[]>(() =>
-    loadStoredJson(STORAGE_KEYS.history, [])
-  );
+  const [history, setHistory] = useState<DiceHistoryEntry[]>([]);
   const [latestRollResult, setLatestRollResult] = useState<RollResult | null>(null);
   const [diceError, setDiceError] = useState<string | null>(null);
   const [rollCopyState, setRollCopyState] = useState<CopyState>('idle');
@@ -758,14 +743,6 @@ export const DiceRoute = () => {
       setIsRolling3d(false);
     }
   }, [is3dMode]);
-
-  useEffect(() => {
-    saveStoredJson(STORAGE_KEYS.cinematic3d, cinematic3d);
-  }, [cinematic3d]);
-
-  useEffect(() => {
-    saveStoredJson(STORAGE_KEYS.traySizeAdjust, traySizeAdjust);
-  }, [traySizeAdjust]);
 
   useEffect(() => {
     saveStoredJson(STORAGE_KEYS.specs, diceSelection);
@@ -856,9 +833,6 @@ export const DiceRoute = () => {
     }
     return Math.max(0, latestRollResult.rolls.length - 24);
   }, [is3dMode, latestRollResult]);
-  const traySizeAdjustLabel = useMemo(() => {
-    return traySizeAdjust >= 0 ? `+${traySizeAdjust.toFixed(1)}` : traySizeAdjust.toFixed(1);
-  }, [traySizeAdjust]);
   const latestRollDisplay = useMemo(() => {
     if (!latestRollResult) {
       return null;
@@ -890,15 +864,21 @@ export const DiceRoute = () => {
   );
   const trayPhysicsConfig = useMemo(
     () =>
-      resolve3dPhysicsConfig(
-        trayDiceCount,
-        viewportSize.width,
-        viewportSize.height,
-        cinematic3d,
-        traySizeAdjust
-      ),
-    [cinematic3d, trayDiceCount, traySizeAdjust, viewportSize.height, viewportSize.width]
+      resolve3dPhysicsConfig(trayDiceCount, viewportSize.width, viewportSize.height, cinematic3d),
+    [cinematic3d, trayDiceCount, viewportSize.height, viewportSize.width]
   );
+  const calibratedTrayHeightPx = useMemo(() => {
+    const verticalAdjustmentPx = Math.round(
+      EDGE_CALIBRATION_TOP_BOTTOM * EDGE_CALIBRATION_PIXEL_FACTOR
+    );
+    return clamp(trayHeightPx + verticalAdjustmentPx, 180, 480);
+  }, [trayHeightPx]);
+  const calibratedTrayMaxWidthPx = useMemo(() => {
+    const horizontalAdjustmentPx = Math.round(
+      EDGE_CALIBRATION_LEFT_RIGHT * EDGE_CALIBRATION_PIXEL_FACTOR
+    );
+    return clamp(TRAY_BASE_MAX_WIDTH_PX + horizontalAdjustmentPx, 360, 920);
+  }, []);
   const trayRenderConfig = useMemo(() => resolve3dRenderConfig(), []);
 
   useEffect(() => {
@@ -960,14 +940,6 @@ export const DiceRoute = () => {
       return;
     }
     applyAnimationMode(normalized);
-  };
-
-  const handleUse3dToggle = (enabled: boolean) => {
-    if (enabled) {
-      applyAnimationMode('3d');
-      return;
-    }
-    applyAnimationMode(fallbackAnimationMode);
   };
 
   const handleDismiss3dNotice = () => {
@@ -1226,31 +1198,6 @@ export const DiceRoute = () => {
               </select>
             </label>
 
-            <label className="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-sm text-slate-200">
-              <input
-                type="checkbox"
-                checked={is3dMode}
-                onChange={(event) => handleUse3dToggle(event.target.checked)}
-                disabled={is3dUnavailable}
-                className="h-4 w-4 rounded border-slate-500 bg-slate-950 text-sky-400 disabled:opacity-40"
-              />
-              Use 3D dice
-            </label>
-
-            <label
-              className="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-sm text-slate-200"
-              title="Cinematic slows 3D throw timing and force for a calmer roll. Tray size stays fixed."
-            >
-              <input
-                type="checkbox"
-                checked={cinematic3d}
-                onChange={(event) => setCinematic3d(event.target.checked)}
-                disabled={!is3dMode}
-                className="h-4 w-4 rounded border-slate-500 bg-slate-950 text-sky-400 disabled:opacity-40"
-              />
-              Cinematic roll
-            </label>
-
             <button
               type="button"
               onClick={handleClearHistory}
@@ -1392,38 +1339,12 @@ export const DiceRoute = () => {
                   : 'Initializing...'}
               </p>
             </div>
-            <div className="mb-3 rounded-lg border border-slate-800 bg-slate-950/55 px-3 py-2">
-              <div className="flex flex-wrap items-center gap-3">
-                <label className="text-xs uppercase tracking-[0.14em] text-slate-400">
-                  Edge calibration
-                </label>
-                <input
-                  type="range"
-                  min={-2.4}
-                  max={2.4}
-                  step={0.2}
-                  value={traySizeAdjust}
-                  onChange={(event) =>
-                    setTraySizeAdjust(normalizeTraySizeAdjust(Number(event.target.value)))
-                  }
-                  className="h-2 w-full max-w-[240px] accent-sky-400"
-                />
-                <span className="min-w-[3.5rem] text-xs font-semibold text-sky-200">
-                  {traySizeAdjustLabel}
-                </span>
-                <button
-                  type="button"
-                  onClick={() => setTraySizeAdjust(0)}
-                  className="rounded border border-slate-600 bg-slate-900 px-2 py-1 text-[11px] text-slate-200 transition hover:border-slate-400"
-                >
-                  Reset
-                </button>
-              </div>
-              <p className="mt-1 text-[11px] text-slate-500">
-                Lower values tighten the edge. Higher values expand the rollable area.
-              </p>
-            </div>
-            <div className="relative mx-auto w-full max-w-[790px] rounded-[1.1rem] bg-[conic-gradient(from_140deg_at_50%_50%,rgba(56,189,248,0.55),rgba(14,116,144,0.35),rgba(2,6,23,0.9),rgba(56,189,248,0.55))] p-[1px] shadow-[0_12px_36px_rgba(2,132,199,0.16)]">
+            <div
+              className="relative mx-auto w-full rounded-[1.1rem] bg-[conic-gradient(from_140deg_at_50%_50%,rgba(56,189,248,0.55),rgba(14,116,144,0.35),rgba(2,6,23,0.9),rgba(56,189,248,0.55))] p-[1px] shadow-[0_12px_36px_rgba(2,132,199,0.16)]"
+              style={{
+                maxWidth: `${calibratedTrayMaxWidthPx}px`
+              }}
+            >
               <div className="relative overflow-hidden rounded-[1rem] border border-sky-900/60 bg-slate-950/70">
                 <div className="pointer-events-none absolute inset-0 rounded-[0.98rem] ring-1 ring-sky-400/15" />
                 <DiceBoxTray
@@ -1437,7 +1358,7 @@ export const DiceRoute = () => {
                   onRollingChange={setIsRolling3d}
                   className="relative z-[1] w-full"
                   style={{
-                    height: `${trayHeightPx}px`
+                    height: `${calibratedTrayHeightPx}px`
                   }}
                 />
                 {trayFacePreview.length > 0 && !isRolling3d ? (

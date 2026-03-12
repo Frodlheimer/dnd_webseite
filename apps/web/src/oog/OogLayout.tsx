@@ -21,6 +21,10 @@ export const OogLayout = () => {
   const searchScope = resolveSearchScope(location.pathname);
   const showRailAd = location.pathname.startsWith('/player') || location.pathname.startsWith('/dm');
   const isLanding = location.pathname === '/';
+  const contentSpacing = isLanding ? 'pb-4 pt-4 lg:pb-3 lg:pt-3' : 'pb-8 pt-6';
+  const containerClassName = showRailAd
+    ? `w-full pl-4 pr-0 sm:pl-6 lg:pl-8 ${contentSpacing}`
+    : `mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 ${contentSpacing}`;
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_20%_0%,#1e293b_0%,#0f172a_35%,#020617_100%)] text-slate-100">
@@ -49,11 +53,7 @@ export const OogLayout = () => {
         </div>
       </header>
 
-      <div
-        className={`mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 ${
-          isLanding ? 'pb-4 pt-4 lg:pb-3 lg:pt-3' : 'pb-8 pt-6'
-        }`}
-      >
+      <div className={containerClassName}>
         {showRailAd ? (
           <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_300px]">
             <Outlet />

@@ -9,8 +9,8 @@ type CharacterBuilderNavItem = {
 const navItems: CharacterBuilderNavItem[] = [
   {
     to: '/player/characters',
-    label: 'Builder',
-    description: 'Automation tools (coming soon)'
+    label: 'Your Characters',
+    description: 'Create, continue, review, and export local characters'
   },
   {
     to: '/player/characters/point-buy',
@@ -20,7 +20,7 @@ const navItems: CharacterBuilderNavItem[] = [
   {
     to: '/player/characters/sheets',
     label: 'Character Sheets',
-    description: 'Template-based PDF sheets'
+    description: 'General sheet download + local PDF import'
   }
 ];
 
@@ -31,7 +31,7 @@ export const CharacterBuilderRoute = () => {
         <p className="text-xs uppercase tracking-[0.22em] text-sky-300">Player</p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight">Character Builder</h1>
         <p className="mt-2 text-sm text-slate-300">
-          Build and manage character sheets fully client-side. No server processing.
+          Guided, local-first builder flow with review/export at the end. No server processing.
         </p>
 
         <nav className="mt-4 space-y-2">

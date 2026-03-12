@@ -161,14 +161,14 @@ export const LandingRoute = () => {
           style={leftColumnHeight && isDesktopLayout ? { height: `${leftColumnHeight}px` } : undefined}
         >
           <Link
-            to="/player/characters/sheets"
+            to="/player/characters"
             className="group flex h-full flex-col rounded-2xl border border-slate-700 bg-slate-900/80 p-4 transition hover:-translate-y-0.5 hover:border-sky-500/60 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50"
           >
             <h2 className="mt-2 text-lg font-semibold tracking-tight text-slate-100">
               Character Builder 5e
             </h2>
             <p className="mt-2 flex-1 text-sm text-slate-300">
-              Open built-in character sheet templates, fill them locally, and export PDFs.
+              Build complete local-first characters, then review and export a filled general sheet PDF.
             </p>
           </Link>
 

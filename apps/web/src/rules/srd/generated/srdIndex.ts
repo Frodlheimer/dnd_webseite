@@ -5,7 +5,7 @@ import type { SrdPackIndex } from '../types';
 
 export const srdPackIndex: SrdPackIndex = {
   "version": 1,
-  "generatedAt": "2026-03-08T12:58:42.836Z",
+  "generatedAt": "2026-03-12T20:53:10.025Z",
   "racesMeta": [
     {
       "id": "race-dwarf",

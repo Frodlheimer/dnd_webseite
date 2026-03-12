@@ -100,6 +100,7 @@ export const spellsWorkerClient = {
   async filter(args: {
     query: string;
     tags: string[];
+    tagGroups?: string[][];
     offset: number;
     limit: number;
   }): Promise<FilterResult> {

@@ -64,3 +64,52 @@ export type CharacterSheetTemplateMatchResult = {
   uploadedFieldCount: number;
   templateFieldCount: number;
 };
+
+export type ImportedSheetSection =
+  | 'Identity'
+  | 'Core stats'
+  | 'Combat'
+  | 'Skills'
+  | 'Spellcasting'
+  | 'Features / Notes';
+
+export type ImportedSheetFieldStatus = 'ok' | 'warning' | 'error';
+
+export type ImportedSheetImportStatus = 'ok' | 'warning' | 'error';
+
+export type ImportedSheetValidationSummary = {
+  errors: number;
+  warnings: number;
+};
+
+export type ImportedSheetFieldRow = {
+  fieldName: string;
+  label: string;
+  rawValue: unknown;
+  parsedValue: unknown;
+  section: ImportedSheetSection;
+  status: ImportedSheetFieldStatus;
+  issues?: string[];
+};
+
+export type ImportedCharacterData = {
+  identity: Record<string, unknown>;
+  coreStats: Record<string, unknown>;
+  combat: Record<string, unknown>;
+  skills: Record<string, unknown>;
+  spellcasting: Record<string, unknown>;
+  featuresNotes: Record<string, unknown>;
+};
+
+export type ImportedSheetRecord = {
+  id: string;
+  createdAt: number;
+  updatedAt: number;
+  sourceFileName: string;
+  templateId: string | null;
+  templateTitle: string | null;
+  importStatus: ImportedSheetImportStatus;
+  validationSummary: ImportedSheetValidationSummary;
+  parsedData: ImportedCharacterData;
+  extractedFields: ImportedSheetFieldRow[];
+};

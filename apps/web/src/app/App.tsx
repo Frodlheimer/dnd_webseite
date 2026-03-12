@@ -227,10 +227,31 @@ const CharacterBuilderRoute = lazy(async () => {
   };
 });
 
-const CharacterBuilderHomeRoute = lazy(async () => {
-  const module = await import('../routes/player/CharacterBuilderHomeRoute');
+const CharacterBuilderListRoute = lazy(async () => {
+  const module = await import('../routes/player/CharacterBuilderListRoute');
   return {
-    default: module.CharacterBuilderHomeRoute
+    default: module.CharacterBuilderListRoute
+  };
+});
+
+const CharacterBuilderNewRoute = lazy(async () => {
+  const module = await import('../routes/player/CharacterBuilderNewRoute');
+  return {
+    default: module.CharacterBuilderNewRoute
+  };
+});
+
+const CharacterBuilderEditorRoute = lazy(async () => {
+  const module = await import('../routes/player/CharacterBuilderEditorRoute');
+  return {
+    default: module.CharacterBuilderEditorRoute
+  };
+});
+
+const CharacterBuilderReviewRoute = lazy(async () => {
+  const module = await import('../routes/player/CharacterBuilderReviewRoute');
+  return {
+    default: module.CharacterBuilderReviewRoute
   };
 });
 
@@ -362,7 +383,31 @@ const AppRoutes = () => {
               index
               element={
                 <Suspense fallback={<LoadingCharacterBuilderFallback />}>
-                  <CharacterBuilderHomeRoute />
+                  <CharacterBuilderListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="new"
+              element={
+                <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                  <CharacterBuilderNewRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path=":characterId"
+              element={
+                <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                  <CharacterBuilderEditorRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path=":characterId/review"
+              element={
+                <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                  <CharacterBuilderReviewRoute />
                 </Suspense>
               }
             />

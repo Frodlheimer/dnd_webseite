@@ -265,6 +265,38 @@ describe('filterSpellsWithPack', () => {
     expect(areaOnly.items[0]?.slug).toBe('thunderwave');
   });
 
+  it('supports OR matching inside a category via tagGroups', () => {
+    const result = filterSpellsWithPack({
+      pack: mockPack,
+      query: '',
+      tags: [],
+      tagGroups: [['class:wizard', 'class:cleric']],
+      offset: 0,
+      limit: 10
+    });
+
+    expect(result.total).toBe(5);
+  });
+
+  it('combines tagGroups with AND across categories', () => {
+    const result = filterSpellsWithPack({
+      pack: mockPack,
+      query: '',
+      tags: [],
+      tagGroups: [['class:wizard', 'class:cleric'], ['concentration:no']],
+      offset: 0,
+      limit: 10
+    });
+
+    expect(result.total).toBe(4);
+    expect(result.items.map((item) => item.slug)).toEqual([
+      'acid-splash',
+      'alarm',
+      'gift-of-alacrity',
+      'thunderwave'
+    ]);
+  });
+
   it('groups tags for UI sections', () => {
     const groups = buildTagGroups(mockPack.allTags);
 

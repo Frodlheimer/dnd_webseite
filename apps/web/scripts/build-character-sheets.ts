@@ -72,7 +72,13 @@ const KNOWN_CLASSES = [
   'Wizard'
 ] as const;
 
-const GENERAL_FILE_PATTERN = /(general|all|blank|leer|charakterbogen)/i;
+const GENERAL_FILE_PATTERN =
+  /(general|all|blank|leer|charakterbogen|charactersheet|character-sheet|formfillable)/i;
+const NON_PRIMARY_GENERAL_LANGUAGE_PATTERN = /(^|[_\-\s])de($|[_\-\s])|deutsch|german/i;
+const SPECIAL_PUBLIC_FILENAME_MAP: Record<string, string> = {
+  'dnd_5e_charactersheet_formfillable.pdf': 'dnd_5e_charactersheet_formfillable.pdf',
+  'dnd_5e_charactersheet_formfillable_de.pdf': 'dnd_5e_charactersheet_formfillable_de.pdf'
+};
 
 const roundValue = (value: number): number => {
   return Math.round(value * 1000) / 1000;
@@ -181,7 +187,11 @@ const inferClassName = (baseFilename: string): string | null => {
 };
 
 const inferIsGeneralTemplate = (baseFilename: string): boolean => {
-  return GENERAL_FILE_PATTERN.test(baseFilename);
+  const normalizedBase = baseFilename.toLowerCase();
+  if (NON_PRIMARY_GENERAL_LANGUAGE_PATTERN.test(normalizedBase)) {
+    return false;
+  }
+  return GENERAL_FILE_PATTERN.test(normalizedBase);
 };
 
 const normalizeOptions = (optionsRaw: unknown): string[] => {
@@ -495,7 +505,8 @@ const run = async (): Promise<void> => {
     const templateId = createTemplateId(originalFilename, usedTemplateIds);
     const title = buildTemplateTitle(originalFilename, className, isGeneral);
 
-    const basePublicFilename = sanitizeFilename(originalFilename);
+    const mappedPublicFilename = SPECIAL_PUBLIC_FILENAME_MAP[originalFilename.toLowerCase()];
+    const basePublicFilename = mappedPublicFilename ?? sanitizeFilename(originalFilename);
     let publicFilename = basePublicFilename;
     let suffix = 2;
     while (usedPublicNames.has(publicFilename)) {
