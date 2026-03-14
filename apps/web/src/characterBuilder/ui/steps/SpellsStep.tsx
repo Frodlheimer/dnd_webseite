@@ -15,6 +15,7 @@ export const SpellsStep = (props: {
   onCantripsChange: (next: string[]) => void;
   onKnownSpellsChange: (next: string[]) => void;
   onPreparedSpellsChange: (next: string[]) => void;
+  onOpenSpellReference: (slug: string) => void;
 }) => {
   if (props.runtime.spellLimits.casterType === 'NONE') {
     return (
@@ -33,20 +34,21 @@ export const SpellsStep = (props: {
           <p>Prepared formula: {props.runtime.spellLimits.preparedFormula}</p>
         ) : null}
       </div>
-      <SpellChoicePanel
-        spellRows={props.runtime.availableSpells}
-        grantedSpellSlugs={props.character.spells.grantedSpells}
-        selectedCantrips={props.character.spells.selectedCantrips}
-        selectedKnownSpells={props.character.spells.selectedKnownSpells}
+        <SpellChoicePanel
+          spellRows={props.runtime.availableSpells}
+          grantedSpellSlugs={props.character.spells.grantedSpells}
+          selectedCantrips={props.character.spells.selectedCantrips}
+          selectedKnownSpells={props.character.spells.selectedKnownSpells}
         preparedSpells={props.character.spells.preparedSpells}
         cantripsKnown={props.runtime.spellLimits.cantripsKnown}
         knownSpells={props.runtime.spellLimits.spellsKnown}
         preparedMax={props.runtime.spellLimits.preparedMax}
-        isPreparedCaster={props.runtime.spellLimits.isPreparedCaster}
-        isKnownCaster={props.runtime.spellLimits.isKnownSpellsCaster}
-        onToggleCantrip={(slug) => props.onCantripsChange(toggleSpell(props.character.spells.selectedCantrips, slug))}
-        onToggleKnownSpell={(slug) =>
-          props.onKnownSpellsChange(toggleSpell(props.character.spells.selectedKnownSpells, slug))
+          isPreparedCaster={props.runtime.spellLimits.isPreparedCaster}
+          isKnownCaster={props.runtime.spellLimits.isKnownSpellsCaster}
+          onOpenSpellReference={props.onOpenSpellReference}
+          onToggleCantrip={(slug) => props.onCantripsChange(toggleSpell(props.character.spells.selectedCantrips, slug))}
+          onToggleKnownSpell={(slug) =>
+            props.onKnownSpellsChange(toggleSpell(props.character.spells.selectedKnownSpells, slug))
         }
         onTogglePreparedSpell={(slug) =>
           props.onPreparedSpellsChange(toggleSpell(props.character.spells.preparedSpells, slug))
@@ -55,4 +57,3 @@ export const SpellsStep = (props: {
     </div>
   );
 };
-

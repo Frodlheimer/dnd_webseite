@@ -4,13 +4,21 @@ type CharacterBuilderNavItem = {
   to: string;
   label: string;
   description: string;
+  end?: boolean;
 };
 
 const navItems: CharacterBuilderNavItem[] = [
   {
     to: '/player/characters',
+    label: 'Create a new character',
+    description: 'Overview, introduction, and quick start into the guided builder',
+    end: true
+  },
+  {
+    to: '/player/characters/list',
     label: 'Your Characters',
-    description: 'Create, continue, review, and export local characters'
+    description: 'Continue, review, duplicate, and manage your saved local characters',
+    end: true
   },
   {
     to: '/player/characters/point-buy',
@@ -39,7 +47,7 @@ export const CharacterBuilderRoute = () => {
             <NavLink
               key={item.to}
               to={item.to}
-              end={item.to === '/player/characters'}
+              {...(item.end ? { end: true } : {})}
               className={({ isActive }) =>
                 `block rounded-lg border px-3 py-2 transition ${
                   isActive

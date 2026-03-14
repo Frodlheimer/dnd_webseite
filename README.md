@@ -91,6 +91,18 @@ Empfohlene Commit-Checkliste:
   - Quick Facts + Traits werden aus den JSON-Inhalten best-effort extrahiert (z. B. ASI, Size, Speed, Languages)
   - strikte Link-Sanitisierung: `wikidot`/HTTP-URLs werden beim Build entfernt
   - keine API-Endpunkte, nur statische Files
+- Stats & Rules -> Backgrounds (OOG, client-only):
+  - Routes `\/rules\/backgrounds`, `\/rules\/backgrounds\/:id`
+  - Redirects `\/backgrounds` -> `\/rules\/backgrounds` und `\/background\/:id` -> `\/rules\/backgrounds\/:id`
+  - Datensatz wird zur Build-Zeit aus lokalen JSON-Dateien unter `content\/background` erzeugt (oder `BACKGROUNDS_DIR`)
+  - Build erzeugt:
+    - `apps\/web\/src\/rules\/backgrounds\/generated\/backgroundsIndex.ts`
+    - `apps\/web\/src\/characterBuilder\/generated\/backgroundsLookup.ts`
+    - `apps\/web\/public\/rules\/backgrounds\/<id>.json`
+  - Liste bietet schnelle clientseitige Suche/Filter (Kategorie, Skills, Tools, Languages, Choices, Feature, Equipment) ueber Worker + Bitsets
+  - Detailansicht zeigt Quick Facts, strukturierte Proficiencies, Equipment, Feature, Personality/Variants und darunter den kompletten Original-Regeltext
+  - Background-Details enthalten neben Text auch machine-readable Grants fuer Skills, Tools, Languages, Equipment, Features, Varianten und Personality-Listen
+  - keine API-Endpunkte, nur statische Files
 - Stats & Rules -> Feats (OOG, client-only):
   - Routes `\/rules\/feats`, `\/rules\/feats\/:id`
   - Datensatz wird zur Build-Zeit aus `content\/` JSON-Dateien erzeugt (nur `kind=FEAT`)
@@ -103,11 +115,17 @@ Empfohlene Commit-Checkliste:
 - Stats & Rules -> SRD 5.1 CC (OOG, client-only):
   - neue SRD-Sektionen unter `/rules`: `Races`, `Equipment`, `Adventuring`, `Combat`, `Spellcasting Rules`, `Conditions`, `Magic Items`, `SRD Attribution`
   - Build-Time Verarbeitung aus `content/SRD_CC_v5.1.json` (oder `SRD_JSON_PATH`)
+  - Races werden zusaetzlich als eigener strukturierter Pack fuer Rules & Stats und Character Builder aus derselben SRD-Datei extrahiert
   - Build erzeugt:
     - `apps/web/src/rules/srd/generated/srdIndex.ts` (leichter Meta-Index)
     - `apps/web/src/rules/srd/generated/srdBitsets.ts` (Tag-Bitsets fuer Worker-Filter)
     - `apps/web/public/rules/srd/<category>/<id>.json` (Detaildateien on-demand)
+    - `apps/web/src/rules/races/generated/racesIndex.ts` (leichter Race-Meta-Index mit Filterdaten)
+    - `apps/web/src/rules/races/generated/raceLookup.ts` (ID- und Parent/Subrace-Lookups)
+    - `apps/web/public/rules/races/<id>.json` (vollstaendige strukturierte Race/Subrace-Details on-demand)
   - Suche/Filterung voll clientseitig per Web Worker + Bitsets
+  - Race-Detailseiten zeigen Quick Facts, Proficiencies, Defenses, Traits und den vollstaendigen Original-Regeltext
+  - Race-Details enthalten neben Text auch machine-readable Facts fuer Ability Bonuses, Speed, Size, Senses, Languages, Proficiencies, Defenses und Traits
   - keine API-Endpunkte, nur statische Files
 - DM -> Monsters (SRD) (OOG, client-only):
   - Routes `/dm/monsters`, `/dm/monsters/:id`
@@ -124,8 +142,10 @@ Empfohlene Commit-Checkliste:
   - Canonical Character JSON als Source of Truth (`CharacterRecord`)
   - lokale Rules-/Derivation-Engine erzeugt:
     - abgeleitete Stats (Abilities, Mods, PB, HP, AC best effort, Initiative, Spellwerte)
-    - dynamische Pending Decisions (Class/Subclass/Skills/Features/Spells/Equipment/ASI-Feat)
+    - dynamische Pending Decisions (Class/Subclass/Origin/Subrace/Race Choices/Skills/Features/Spells/Equipment/ASI-Feat)
     - Validation Errors/Warnings + Completion Status (`draft`, `in_progress`, `ready`, `invalid`)
+  - Legacy-SRD-Races konsumieren den strukturierten Race/Subrace-Pack direkt fuer Ability Bonuses, Speed, Senses, Languages, Proficiencies, Defenses und Traits
+  - Backgrounds konsumieren den strukturierten Background-Pack direkt fuer Skills, Tools, Languages, Equipment Choices, Feature-Text, Varianten und Personality-Metadaten
   - bestehender Point-Buy ist direkt im Builder integriert (keine doppelte Regelimplementation)
   - keine Live-PDF-Vorschau waehrend des Builds; Sheet wird erst im Review gefuellt/exportiert
   - rein local-first:
@@ -299,6 +319,8 @@ Empfohlene Commit-Checkliste:
   - `/rules/feats/:id` = Feat Detail
   - `/rules/races` = SRD Races Liste
   - `/rules/races/:id` = SRD Race Detail
+  - `/rules/backgrounds` = Backgrounds Liste
+  - `/rules/backgrounds/:id` = Background Detail
   - `/rules/equipment` = SRD Equipment Liste
   - `/rules/equipment/:id` = SRD Equipment Detail
   - `/rules/adventuring` = SRD Adventuring Kapitel
@@ -328,6 +350,8 @@ Empfohlene Commit-Checkliste:
   - `/lineages/:id` -> `/rules/lineages/:id`
   - `/races` -> `/rules/races`
   - `/races/:id` -> `/rules/races/:id`
+  - `/backgrounds` -> `/rules/backgrounds`
+  - `/background/:id` -> `/rules/backgrounds/:id`
   - `/equipment` -> `/rules/equipment`
   - `/conditions` -> `/rules/conditions`
   - `/magic-items` -> `/rules/magic-items`
@@ -488,6 +512,8 @@ Source:
 - `apps/web/src/routes/rules/LineageDetailRoute.tsx` - Lineage Detail Route
 - `apps/web/src/routes/rules/FeatsListRoute.tsx` - Feats Liste + Filter
 - `apps/web/src/routes/rules/FeatDetailRoute.tsx` - Feat Detail Route
+- `apps/web/src/routes/rules/BackgroundsListRoute.tsx` - Backgrounds Liste + Filter
+- `apps/web/src/routes/rules/BackgroundDetailRoute.tsx` - Background Detail Route
 - `apps/web/src/routes/rules/SrdCategoryListBaseRoute.tsx` - gemeinsame SRD Listenlogik (Filter + Pagination)
 - `apps/web/src/routes/rules/SrdCategoryDetailBaseRoute.tsx` - gemeinsame SRD Detaillogik
 - `apps/web/src/routes/rules/SrdRacesListRoute.tsx` / `SrdRaceDetailRoute.tsx` - SRD Races
@@ -546,6 +572,8 @@ Board/UI:
 - `apps/web/src/characterBuilder/model/decisions.ts` - generisches Decision-Modell + Builder Sections
 - `apps/web/src/characterBuilder/storage/characterRepository.ts` - IndexedDB Repository (`dnd-vtt-characters-v1`) inkl. Debounced Autosave/Snapshots
 - `apps/web/src/characterBuilder/rules/rulesFacade.ts` - normalisierte Rules-Zugriffsschicht (Classes/Subclasses/Races/Backgrounds/Feats/Spells/Equipment)
+- `apps/web/src/characterBuilder/rules/backgroundRulesFacade.ts` - Builder-Zugriff auf strukturierte Background-Details + Alias-Resolution
+- `apps/web/src/characterBuilder/generated/backgroundsLookup.ts` - generierter Builder-Lookup fuer Backgrounds
 - `apps/web/src/characterBuilder/engine/deriveCharacter.ts` - zentrale Derivation (Stats, Limits, Decisions, Validation Input)
 - `apps/web/src/characterBuilder/engine/pendingDecisions.ts` - dynamische Pending-Decision-Erzeugung
 - `apps/web/src/characterBuilder/engine/validation.ts` - Blocking Errors / Warnings
@@ -596,6 +624,20 @@ Board/UI:
 - `apps/web/src/rules/classes/ui/tagLabels.ts` - Tag-Label Formatter fuer Classes/Subclasses
 - `apps/web/src/rules/classes/api/classesData.ts` - future-proof Data Access API fuer Character Builder Lookups
 - `apps/web/scripts/build-classes-pack.ts` - Build-Script fuer eingebautes Classes/Subclasses Pack
+- `apps/web/src/rules/backgrounds/model.ts` - gemeinsame Background Pack/Detail Typen
+- `apps/web/src/rules/backgrounds/generated/backgroundsIndex.ts` - generierter Backgrounds-Index (Build-Time)
+- `apps/web/src/rules/backgrounds/api/backgroundsData.ts` - Lazy-Loading API fuer Background-Details
+- `apps/web/src/rules/backgrounds/parse/extractBackgrounds.ts` - Loader fuer lokale Background JSONs
+- `apps/web/src/rules/backgrounds/parse/extractStructuredBackgroundData.ts` - strukturierte Extraction fuer Skills/Tools/Languages/Equipment/Feature
+- `apps/web/src/rules/backgrounds/parse/treeToBlocks.ts` - HTML-Tree -> RuleBlocks
+- `apps/web/src/rules/backgrounds/parse/normalizeNames.ts` - Normalisierung/Choice-Parsing Helfer
+- `apps/web/src/rules/backgrounds/ui/BackgroundFactsPanel.tsx` - Quick Facts Panel fuer Backgrounds
+- `apps/web/src/rules/backgrounds/ui/BackgroundSections.tsx` - strukturierte Background-Sektionen
+- `apps/web/src/rules/backgrounds/worker/backgroundsWorker.ts` - Worker Entry fuer schnelle Background-Filterung
+- `apps/web/src/rules/backgrounds/worker/backgroundsWorkerClient.ts` - Worker Client API
+- `apps/web/src/rules/backgrounds/worker/filterBackgrounds.ts` - Bitset-Filterlogik
+- `apps/web/src/rules/backgrounds/worker/messages.ts` - Worker Request/Response Typen
+- `apps/web/scripts/build-backgrounds-pack.ts` - Build-Script fuer strukturiertes Backgrounds Pack
 - `apps/web/src/rules/lineages/types.ts` - gemeinsame Lineages Pack-Typen
 - `apps/web/src/rules/lineages/generated/lineagesIndex.ts` - generierter Lineages-Index (Build-Time)
 - `apps/web/src/rules/lineages/parse/parseLineagesContentJson.ts` - JSON Parser + strukturierte Extraction fuer `content/*.json` (LINEAGE)
@@ -1014,6 +1056,48 @@ pnpm dev
 
 Wenn das Verzeichnis fehlt oder keine validen FEAT JSONs enthalten sind, bricht `feats:build` mit klarer Fehlermeldung ab.
 
+### Races Pack Build (Stats & Rules + Character Builder)
+
+- Strukturierte SRD-Races nutzen **keine Import-UI** und **keine API**.
+- Datensatz wird zur Build-Zeit lokal aus derselben SRD-Datei erzeugt:
+  - Standard: `./content/SRD_CC_v5.1.json`
+  - Optional: `SRD_JSON_PATH=<pfad>` setzen
+- Build:
+
+```powershell
+pnpm races:build
+pnpm dev
+```
+
+- Build erzeugt:
+  - `apps/web/src/rules/races/generated/racesIndex.ts`
+  - `apps/web/src/rules/races/generated/raceLookup.ts`
+  - `apps/web/public/rules/races/<id>.json`
+- `@dnd-vtt/web` fuehrt den Schritt automatisch ueber `content:build` in `predev`/`prebuild`/`pretest` aus.
+
+Wenn die Datei fehlt, bricht `races:build` mit klarer Fehlermeldung ab.
+
+### Backgrounds Pack Build (Stats & Rules + Character Builder)
+
+- Strukturierte Backgrounds nutzen **keine Import-UI** und **keine API**.
+- Datensatz wird zur Build-Zeit lokal aus den bereits exportierten JSON-Dateien erzeugt:
+  - Standard: `./content/background`
+  - Optional: `BACKGROUNDS_DIR=<pfad>` setzen
+- Build:
+
+```powershell
+pnpm backgrounds:build
+pnpm dev
+```
+
+- Build erzeugt:
+  - `apps/web/src/rules/backgrounds/generated/backgroundsIndex.ts`
+  - `apps/web/src/characterBuilder/generated/backgroundsLookup.ts`
+  - `apps/web/public/rules/backgrounds/<id>.json`
+- `@dnd-vtt/web` fuehrt den Schritt automatisch ueber `content:build` in `predev`/`prebuild`/`pretest` aus.
+
+Wenn das Verzeichnis fehlt oder keine validen BACKGROUND JSONs enthalten sind, bricht `backgrounds:build` mit klarer Fehlermeldung ab.
+
 ### SRD 5.1 Pack Build (Stats & Rules + DM Monsters)
 
 - SRD-Inhalte nutzen **keine Import-UI** und **keine API**.
@@ -1063,6 +1147,8 @@ Wenn das Verzeichnis fehlt, bricht `sheets:build` mit klarer Fehlermeldung ab.
 - `pnpm spells:build` - baut das integrierte Spells Pack aus `dnd5e_spells.txt`
 - `pnpm classes:build` - baut das integrierte Classes/Subclasses Pack aus `content/*.json`
 - `pnpm lineages:build` - baut das integrierte Races/Lineages Pack aus `content/*.json`
+- `pnpm races:build` - baut den strukturierten SRD-Race/Subrace Pack aus `content/SRD_CC_v5.1.json`
+- `pnpm backgrounds:build` - baut das strukturierte Backgrounds Pack aus `content/background/*.json`
 - `pnpm feats:build` - baut das integrierte Feats Pack aus `content/*.json`
 - `pnpm srd:build` - baut das integrierte SRD 5.1 Pack aus `content/SRD_CC_v5.1.json`
 - `pnpm sheets:build` - baut Character Sheet Templates aus lokalen PDFs
@@ -1083,11 +1169,13 @@ Wenn das Verzeichnis fehlt, bricht `sheets:build` mit klarer Fehlermeldung ab.
 - `pnpm --filter @dnd-vtt/web spells:build`
 - `pnpm --filter @dnd-vtt/web classes:build`
 - `pnpm --filter @dnd-vtt/web lineages:build`
+- `pnpm --filter @dnd-vtt/web races:build`
+- `pnpm --filter @dnd-vtt/web backgrounds:build`
 - `pnpm --filter @dnd-vtt/web feats:build`
 - `pnpm --filter @dnd-vtt/web srd:build`
 - `pnpm --filter @dnd-vtt/web sheets:build`
 - `pnpm --filter @dnd-vtt/web dice3d:assets`
-- `predev`/`prebuild`/`pretest` in `@dnd-vtt/web` fuehren `content:build` (inkl. `srd:build`) + `dice3d:assets` automatisch aus
+- `predev`/`prebuild`/`pretest` in `@dnd-vtt/web` fuehren `content:build` (inkl. `races:build`, `backgrounds:build` und `srd:build`) + `dice3d:assets` automatisch aus
 
 ### Shared Workspace Scripts
 
@@ -1210,6 +1298,22 @@ Hinweis:
    - `rg -n -i wikidot apps/web/src/rules/lineages/generated apps/web/public/rules/lineages/entries`
    - Erwartung: keine Treffer.
 
+### 5a) Manueller Stats-&-Rules Backgrounds Smoke
+
+1. Browser auf `/rules/backgrounds` oeffnen.
+2. Erwartung:
+   - Liste rendert schnell (ohne API-Calls), Suche sowie Filter fuer Kategorie/Skills/Tools/Languages/Choices/Feature/Equipment sind sichtbar.
+3. In der Liste:
+   - Name- oder Alias-Filter tippen (z. B. `spy`) -> Ergebnisse aktualisieren sofort.
+   - Kategorie und Checkbox-Filter wechseln -> Treffer werden sofort eingegrenzt.
+4. Einen Background-Eintrag klicken.
+5. Erwartung:
+   - Navigation auf `/rules/backgrounds/:id`.
+   - Detailansicht zeigt Quick Facts, strukturierte Proficiencies, Equipment, Feature, Personality/Variants und darunter den vollstaendigen Regeltext.
+6. Legacy-Redirects pruefen:
+   - `/backgrounds` -> `/rules/backgrounds`
+   - `/background/acolyte` -> `/rules/backgrounds/acolyte`
+
 ### 6) Manueller SRD 5.1 Rules + DM Monsters Smoke
 
 1. Browser auf `/rules/conditions` oeffnen.
@@ -1220,7 +1324,9 @@ Hinweis:
    - Detailansicht zeigt strukturierte Regeln (List/Tabelle/Paragraph) aus statischer JSON-Datei.
 5. Browser auf `/rules/magic-items` und `/rules/races` pruefen.
 6. Erwartung:
-   - beide Listen rendern schnell, Detailseiten laden on-demand per statischer Datei unter `/rules/srd/...`.
+   - beide Listen rendern schnell, Detailseiten laden on-demand per statischer Datei unter `/rules/srd/...` bzw. `/rules/races/...`.
+   - `/rules/races` bietet strukturierte Filter fuer Size, Speed, Darkvision, Languages, Tool Choices, Weapon Proficiencies und Resistances.
+   - Race-Detailseiten zeigen Quick Facts, Proficiencies, Defenses, Traits und darunter weiterhin den kompletten Original-Regeltext.
 7. Browser auf `/rules/srd-attribution` oeffnen.
 8. Erwartung:
    - CC-BY Attributionstext wird angezeigt.
@@ -1363,7 +1469,7 @@ Web:
 - Character Sheets Import Validation Unit Tests
 - Character Sheets IndexedDB Import Repository Tests
 - Character Builder Derivation Engine Tests (abilities/proficiency/spell limits)
-- Character Builder Pending Decision Tests (subclass/class skills/granted spells/ASI)
+- Character Builder Pending Decision Tests (subclass/class skills/subrace/race ability choices/granted spells/ASI)
 - Character Builder Invalidation Tests (`choiceResolution`)
 - Character Builder IndexedDB Repository Tests
 - Character Builder Route Smoke Tests (guided flow + review route)
@@ -1372,6 +1478,9 @@ Web:
 - Spells Worker Filterlogik (Tag-Bitsets + Query + Pagination)
 - Classes/Subclasses JSON Parser + Build-Time Sanitisierung (inkl. wikidot-/URL-Removal)
 - Classes/Subclasses Worker Filterlogik (Tag-Bitsets + Query + Kind/Class Filter)
+- Structured SRD Race Extractor + Builder Merge Tests (z. B. Dwarf/Hill Dwarf/Elf/High Elf/Human)
+- Background Parser/Extractor Tests (z. B. Acolyte/Criminal/Charlatan)
+- Background Builder Facade Tests (Alias-Resolution + Grants/Choices/Features)
 - SRD Parser/Extractor Unit Test (Fixture mit Headings/Tabellen/Conditions)
 - SRD Worker Filterlogik (Bitset + Query + Monsterfilter)
 - SRD Build-Artefakt-Test (Index/Bitsets/Detail-JSON vorhanden, kein `wikidot`)
@@ -1392,6 +1501,8 @@ Shared:
 - MapEdit Zustand im API Prozessspeicher ist nur fuer CLOUD relevant (nicht persistent, kein Eventstore).
 - Spells Pack Build benoetigt `dnd5e_spells.txt` im Repo-Root oder `SPELLS_TXT_PATH`.
 - Classes/Subclasses Pack Build benoetigt JSON Quelldateien in `./content` oder `CLASSES_JSON_DIR`.
+- Structured Races Pack Build benoetigt `content/SRD_CC_v5.1.json` oder `SRD_JSON_PATH`.
+- Structured Backgrounds Pack Build benoetigt `content/background` oder `BACKGROUNDS_DIR`.
 - SRD Pack Build benoetigt `content/SRD_CC_v5.1.json` oder `SRD_JSON_PATH`.
 
 ## Troubleshooting

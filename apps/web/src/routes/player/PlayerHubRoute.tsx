@@ -72,16 +72,23 @@ export const PlayerHubRoute = () => {
       <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
         <HubTile title="Join / Resume Session" description="Enter with code or continue in-game." to="/player/join" />
         <HubTile
-          title="Your Characters"
-          description="Guided character builder, local saves, review, and export."
+          title="Character Builder"
+          description="Start a new character, continue saved builds, review, and export locally."
           to="/player/characters"
+          quickLinks={[
+            { label: 'Create', to: '/player/characters' },
+            { label: 'Your Characters', to: '/player/characters/list' }
+          ]}
         />
         <HubTile title="Notes" description="Session notes and reminders." to="/player/notes" />
         <HubTile
           title="Tools"
-          description="Dice and utility helpers."
+          description="Dice, point buy, and quick conversion helpers."
           to="/player/tools"
-          quickLinks={[{ label: 'Dice', to: '/dice' }]}
+          quickLinks={[
+            { label: 'Dice', to: '/dice' },
+            { label: 'Point Buy', to: '/player/tools/point-buy' }
+          ]}
         />
         <HubTile title="Files / Handouts" description="Coming soon." to="/player/tools" />
       </div>

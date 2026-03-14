@@ -1,0 +1,727 @@
+{
+  "kind": "BACKGROUND",
+  "slug": "rune-carver",
+  "url": "https://dnd5e.wikidot.com/background:rune-carver",
+  "page_title": "rune-carver",
+  "aliases": [
+    "Rune Carver"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You’ve dedicated your life to studying runecraft. Whether you were taught by a master rune carver or learned by poring over ancient engravings, you can tap into the supernatural power held within runes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The art of runecraft was initially created by giants, but over time, the practice has been adopted by many peoples. As such, though Giant runes are the most commonly used, many rune carvers incorporate symbols from their native languages into the craft."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Bigby Presents - Glory of the Giants"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Skill Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " History, Perception"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tool Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " One set of artisan's tools"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Languages:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Giant"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Equipment:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " A set of "
+          },
+          {
+            "type": "text",
+            "text": "artisan’s tools"
+          },
+          {
+            "type": "text",
+            "text": " (one of your choice), a small knife, a "
+          },
+          {
+            "type": "text",
+            "text": "whetstone"
+          },
+          {
+            "type": "text",
+            "text": "Value: 1cp Weight: 1lb"
+          },
+          {
+            "type": "text",
+            "text": ", a set of "
+          },
+          {
+            "type": "text",
+            "text": "common clothes"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 3lbs"
+          },
+          {
+            "type": "text",
+            "text": ", and a "
+          },
+          {
+            "type": "text",
+            "text": "pouch"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 1lb"
+          },
+          {
+            "type": "text",
+            "text": " containing 10 gp."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Rune Styles"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Each rune carver has a unique style and preferred medium. To determine how you make your runes, you can roll on the Rune Style table.."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rune Style"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Style"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You inscribe runes in wax or clay with a fine metal needle."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You whittle pieces of wood into small figurines you mark with runes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You engrave runes onto glass beads and thread them onto necklaces and bracelets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You stitch your runes into the hems of clothing."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You carve runes on a set of animal bones you can throw in different formations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You draw your runes into candles, melting the wax to smooth over the engravings."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Feature"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Rune Shaper"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain the "
+          },
+          {
+            "type": "text",
+            "text": "Rune Shaper"
+          },
+          {
+            "type": "text",
+            "text": " feat."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Building a Rune Carver Character"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Scholarly pursuits, ancient mysteries, or a fateful encounter might inspire a character to pursue the secrets of a rune carver."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Suggested Characteristics."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " The Rune Carver Personality Traits table suggests a variety of traits you might adopt for your character."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Rune Carver Personality Traits"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality Trait"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The old, traditional markings of runecraft look so boring. Why not give my runes some flair?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In my studies of runes, I strive to understand how great civilizations of the past fell, so that I may prevent it from happening to societies of the present."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life may be a whirlwind of chaos around me, but whenever I create my runes, I feel at peace."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "My brain struggles to process ink words written on paper, but the tactile feeling of carved runes makes my mind sing."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<p><strong><em>You’ve dedicated your life to studying runecraft. Whether you were taught by a master rune carver or learned by poring over ancient engravings, you can tap into the supernatural power held within runes.</em></strong></p>\n<p><strong><em>The art of runecraft was initially created by giants, but over time, the practice has been adopted by many peoples. As such, though Giant runes are the most commonly used, many rune carvers incorporate symbols from their native languages into the craft.</em></strong></p>\n<p>Source: Bigby Presents - Glory of the Giants</p>\n<p><strong>Skill Proficiencies:</strong> History, Perception<br/>\n<strong>Tool Proficiencies:</strong> One set of artisan's tools<br/>\n<strong>Languages:</strong> Giant<br/>\n<strong>Equipment:</strong> A set of artisan’s tools (one of your choice), a small knife, a whetstoneValue: 1cp Weight: 1lb, a set of common clothesValue: 5sp Weight: 3lbs, and a pouchValue: 5sp Weight: 1lb containing 10 gp.</p>\n<h1>Rune Styles</h1>\n<p>Each rune carver has a unique style and preferred medium. To determine how you make your runes, you can roll on the Rune Style table..</p>\n<table>\n<tr>\n<th>Rune Style</th>\n</tr>\n<tr>\n<th>d6</th>\n<th>Style</th>\n</tr>\n<tr>\n<td>1</td>\n<td>You inscribe runes in wax or clay with a fine metal needle.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>You whittle pieces of wood into small figurines you mark with runes.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>You engrave runes onto glass beads and thread them onto necklaces and bracelets.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>You stitch your runes into the hems of clothing.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>You carve runes on a set of animal bones you can throw in different formations.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>You draw your runes into candles, melting the wax to smooth over the engravings.</td>\n</tr>\n</table>\n<h1>Feature</h1>\n<h2>Rune Shaper</h2>\n<p>You gain the Rune Shaper feat.</p>\n<h1>Building a Rune Carver Character</h1>\n<p>Scholarly pursuits, ancient mysteries, or a fateful encounter might inspire a character to pursue the secrets of a rune carver.</p>\n<p><strong><em>Suggested Characteristics.</em></strong> The Rune Carver Personality Traits table suggests a variety of traits you might adopt for your character.</p>\n<h2>Rune Carver Personality Traits</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Personality Trait</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>The old, traditional markings of runecraft look so boring. Why not give my runes some flair?</td>\n</tr>\n<tr>\n<td>4</td>\n<td>In my studies of runes, I strive to understand how great civilizations of the past fell, so that I may prevent it from happening to societies of the present.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Life may be a whirlwind of chaos around me, but whenever I create my runes, I feel at peace.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>My brain struggles to process ink words written on paper, but the tactile feeling of carved runes makes my mind sing.</td>\n</tr>\n</table>\n</div>"
+  }
+}

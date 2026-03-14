@@ -5,7 +5,7 @@ import type { FeatsPackIndex } from '../types';
 
 export const featsPackIndex: FeatsPackIndex = {
   "version": 1,
-  "generatedAt": "2026-03-12T20:53:06.569Z",
+  "generatedAt": "2026-03-13T21:46:22.289Z",
   "count": 114,
   "entriesMeta": [
     {

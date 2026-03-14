@@ -1,0 +1,1332 @@
+{
+  "kind": "BACKGROUND",
+  "slug": "planar-philosopher",
+  "url": "https://dnd5e.wikidot.com/background:planar-philosopher",
+  "page_title": "planar-philosopher",
+  "aliases": [
+    "Planar Philosopher"
+  ],
+  "categories": [
+    "Planescape"
+  ],
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded thinkers, such as the factions of Sigil (summarized below). In your travels, you explore the depths of your understanding and spread your philosophy wherever you go."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Planescape - Adventures in the Multiverse"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prerequisite: Planescape Campaign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Skill Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Arcana, the skill associated with your faction (see the Sigil Faction Affinities table) or one skill of your choice."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Languages:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Two of your choice"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Equipment:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of "
+          },
+          {
+            "type": "text",
+            "text": "common clothes"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 3lbs"
+          },
+          {
+            "type": "text",
+            "text": " in your faction's style, and a "
+          },
+          {
+            "type": "text",
+            "text": "pouch"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 1lb"
+          },
+          {
+            "type": "text",
+            "text": " containing 10 gp worth of coins from different worlds and planes."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sigil Faction Affinities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faction"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Skill"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Athar"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Religion"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bleak Cabal"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Insight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Doomguard"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Nature"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fated"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intimidation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fraternity of Order"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "History"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hands of Havoc"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stealth"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harmonium"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Perception"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Heralds of Dust"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Medicine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mercykillers"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Survival"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mind's Eye"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Persuasion"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Society of Sensation"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Performance"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transcendent Order"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Athletics"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Factions of Sigil"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Twelve Factions have risen to prominence in the City of Doors, though many more exist. Your character might belong to one of these groups or another ideological faction, perhaps one of your own creation."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": " The primary factions of Sigil adhere to the following philosophies:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Athar."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Deities are frauds and merely channel the might of a true, higher power."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bleak Cabal."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " There is no greater truth to the multiverse. Each being must discover their own meaning."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Doomguard."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Nothing lasts forever. The purpose of everything is to crumble and decay."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fated."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Everyone makes their own fate and is entitled to whatever they can take and hold."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fraternity of Order."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " All of existence is governed by laws, and power comes from understanding and exploiting them."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hands of Havoc."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Those who try to impose a single order on the multiverse are doomed to fail."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Harmonium."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " The multiverse will be perfect only when everything is in harmony, whether it wants to or not."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Heralds of Dust."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Everyone is already dead; the entirety of the multiverse is an afterlife. Undeath holds the key to the next stage of existence."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mercykillers."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Cold, relentless justice is absolute, and no one is above it."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mind's Eye."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " The multiverse exists to be explored. It shapes us, and we shape it in turn."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Society of Sensation."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Sensation is the proof of existence. By experiencing everything, we can understand the multiverse in all its complexity."
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Transcendent Order."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Thought clouds action. To fall in step with the multiverse, one must act on instinct alone."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Feature:"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Conviction"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain the "
+          },
+          {
+            "type": "text",
+            "text": "Scion of the Outer Planes"
+          },
+          {
+            "type": "text",
+            "text": " feat. In addition, members of your organization provide you free, modest lodging and food at any of their holdings or the homes of other faction members."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Building a Planar Philosopher Character"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Some groups of planar philosophers might prefer certain types of characters, but by and large any character who upholds and furthers the beliefs of such a group is welcome within its ranks."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Suggested Characteristics."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": " Adventurers who dedicate themselves to a particular philosophy regarding the multiverse are welcomed among factions that embrace those beliefs. The Planar Philosopher Personality Traits table suggests various traits you might adopt for your character."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Planar Philosopher Personality Traits"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality Trait"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I don't venerate any gods. With time, we can be as powerful as them or greater."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Experience is everything, live in the moment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When things crumble, I find meaning in the dust."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life thrives through order; and I seek to maintain that order."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When others make plans, the multiverse laughs and so do I."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I know what’s right, and no one will stand in my way."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Planar Philosopher Trinkets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "text",
+            "text": " When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the "
+          },
+          {
+            "type": "text",
+            "text": "Trinkets"
+          },
+          {
+            "type": "text",
+            "text": " table in the "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Player's Handbook"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", for your starting trinket."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Planar Philosopher Trinkets"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Trinket"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A locket with a picture of my mentor and an inscription I can’t read"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A bleached cranium rat skull with colored glass beads in its eye sockets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A torn parchment with half a rebus puzzle painted on it"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A bracelet of twisted razorvine stems"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fragments of a bronze blade covered in verdigris"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A broken holy symbol of a forgotten god"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<p><strong><em>You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded thinkers, such as the factions of Sigil (summarized below). In your travels, you explore the depths of your understanding and spread your philosophy wherever you go.</em></strong></p>\n<p>Source: Planescape - Adventures in the Multiverse</p>\n<p><em>Prerequisite: Planescape Campaign.</em></p>\n<p><strong>Skill Proficiencies:</strong> Arcana, the skill associated with your faction (see the Sigil Faction Affinities table) or one skill of your choice.<br/>\n<strong>Languages:</strong> Two of your choice<br/>\n<strong>Equipment:</strong> A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of common clothesValue: 5sp Weight: 3lbs in your faction's style, and a pouchValue: 5sp Weight: 1lb containing 10 gp worth of coins from different worlds and planes.</p>\n<p><strong>Sigil Faction Affinities</strong></p>\n<table>\n<tr>\n<th>Faction</th>\n<th>Skill</th>\n</tr>\n<tr>\n<td>Athar</td>\n<td>Religion</td>\n</tr>\n<tr>\n<td>Bleak Cabal</td>\n<td>Insight</td>\n</tr>\n<tr>\n<td>Doomguard</td>\n<td>Nature</td>\n</tr>\n<tr>\n<td>Fated</td>\n<td>Intimidation</td>\n</tr>\n<tr>\n<td>Fraternity of Order</td>\n<td>History</td>\n</tr>\n<tr>\n<td>Hands of Havoc</td>\n<td>Stealth</td>\n</tr>\n<tr>\n<td>Harmonium</td>\n<td>Perception</td>\n</tr>\n<tr>\n<td>Heralds of Dust</td>\n<td>Medicine</td>\n</tr>\n<tr>\n<td>Mercykillers</td>\n<td>Survival</td>\n</tr>\n<tr>\n<td>Mind's Eye</td>\n<td>Persuasion</td>\n</tr>\n<tr>\n<td>Society of Sensation</td>\n<td>Performance</td>\n</tr>\n<tr>\n<td>Transcendent Order</td>\n<td>Athletics</td>\n</tr>\n</table>\n<h1>Factions of Sigil</h1>\n<p>Twelve Factions have risen to prominence in the City of Doors, though many more exist. Your character might belong to one of these groups or another ideological faction, perhaps one of your own creation.<br/>\nThe primary factions of Sigil adhere to the following philosophies:</p>\n<p><strong>Athar.</strong> Deities are frauds and merely channel the might of a true, higher power.<br/>\n<strong>Bleak Cabal.</strong> There is no greater truth to the multiverse. Each being must discover their own meaning.<br/>\n<strong>Doomguard.</strong> Nothing lasts forever. The purpose of everything is to crumble and decay.<br/>\n<strong>Fated.</strong> Everyone makes their own fate and is entitled to whatever they can take and hold.<br/>\n<strong>Fraternity of Order.</strong> All of existence is governed by laws, and power comes from understanding and exploiting them.<br/>\n<strong>Hands of Havoc.</strong> Those who try to impose a single order on the multiverse are doomed to fail.<br/>\n<strong>Harmonium.</strong> The multiverse will be perfect only when everything is in harmony, whether it wants to or not.<br/>\n<strong>Heralds of Dust.</strong> Everyone is already dead; the entirety of the multiverse is an afterlife. Undeath holds the key to the next stage of existence.<br/>\n<strong>Mercykillers.</strong> Cold, relentless justice is absolute, and no one is above it.<br/>\n<strong>Mind's Eye.</strong> The multiverse exists to be explored. It shapes us, and we shape it in turn.<br/>\n<strong>Society of Sensation.</strong> Sensation is the proof of existence. By experiencing everything, we can understand the multiverse in all its complexity.<br/>\n<strong>Transcendent Order.</strong> Thought clouds action. To fall in step with the multiverse, one must act on instinct alone.</p>\n<h1>Feature:</h1>\n<h2>Conviction</h2>\n<p>You gain the Scion of the Outer Planes feat. In addition, members of your organization provide you free, modest lodging and food at any of their holdings or the homes of other faction members.</p>\n<h1>Building a Planar Philosopher Character</h1>\n<p>Some groups of planar philosophers might prefer certain types of characters, but by and large any character who upholds and furthers the beliefs of such a group is welcome within its ranks.</p>\n<p><strong><em>Suggested Characteristics.</em></strong><br/>\nAdventurers who dedicate themselves to a particular philosophy regarding the multiverse are welcomed among factions that embrace those beliefs. The Planar Philosopher Personality Traits table suggests various traits you might adopt for your character.</p>\n<h2>Planar Philosopher Personality Traits</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Personality Trait</th>\n</tr>\n<tr>\n<td>1</td>\n<td>I don't venerate any gods. With time, we can be as powerful as them or greater.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Experience is everything, live in the moment.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>When things crumble, I find meaning in the dust.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Life thrives through order; and I seek to maintain that order.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>When others make plans, the multiverse laughs and so do I.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>I know what’s right, and no one will stand in my way.</td>\n</tr>\n</table>\n<p><strong><em>Planar Philosopher Trinkets.</em></strong><br/>\nWhen you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the <em>Player's Handbook</em>, for your starting trinket.</p>\n<h2>Planar Philosopher Trinkets</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Trinket</th>\n</tr>\n<tr>\n<td>1</td>\n<td>A locket with a picture of my mentor and an inscription I can’t read</td>\n</tr>\n<tr>\n<td>2</td>\n<td>A bleached cranium rat skull with colored glass beads in its eye sockets.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>A torn parchment with half a rebus puzzle painted on it</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A bracelet of twisted razorvine stems</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Fragments of a bronze blade covered in verdigris</td>\n</tr>\n<tr>\n<td>6</td>\n<td>A broken holy symbol of a forgotten god</td>\n</tr>\n</table>\n</div>"
+  }
+}

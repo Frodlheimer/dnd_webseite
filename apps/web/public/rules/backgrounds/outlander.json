@@ -1,0 +1,462 @@
+{
+  "id": "outlander",
+  "slug": "outlander",
+  "name": "Outlander",
+  "aliases": [
+    "Outlander"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Survival"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol"
+      ]
+    },
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "staff",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "hunting trap",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "trophy from an animal you killed",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Wanderer",
+    "summary": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you.",
+    "rulesText": "Wanderer\nYou have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of musical instrument"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "origin-4",
+      "title": "Origin",
+      "kind": "feature",
+      "text": "You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.\nForester\nTrapper\nHomesteader\nGuide\nExile or outcast\nBounty hunter\nPilgrim\nTribal nomad\nHunter-gatherer\nTribal marauder"
+    },
+    {
+      "id": "wanderer-7",
+      "title": "Wanderer",
+      "kind": "feature",
+      "text": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+    },
+    {
+      "id": "suggested-characteristics-9",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders."
+    },
+    {
+      "id": "personality-traits-11",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I'm driven by a wanderlust that led me away from home.\nI watch over my friends as if they were a litter of newborn pups.\nI once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to.\nI have a lesson for every situation, drawn from observing nature.\nI place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.\nI'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.\nI feel far more comfortable around animals than people.\nI was, in fact, raised by wolves."
+    },
+    {
+      "id": "ideals-13",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)\nGreater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)\nHonor. If I dishonor myself, I dishonor my whole clan. (Lawful)\nMight. The strongest are meant to rule. (Evil)\nNature. The natural world is more important than all the constructs of civilization. (Neutral)\nGlory. I must earn glory in battle, for myself and my clan. (Any)"
+    },
+    {
+      "id": "bonds-15",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "My family, clan, or tribe is the most important thing in my life, even when they are far from me.\nAn injury to the unspoiled wilderness of my home is an injury to me.\nI will bring terrible wrath down on the evildoers who destroyed my homeland.\nI am the last of my tribe, and it is up to me to ensure their names enter legend.\nI suffer awful visions of a coming disaster and will do anything to prevent it.\nIt is my duty to provide children to sustain my tribe."
+    },
+    {
+      "id": "flaws-17",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I am too enamored of ale, wine, and other intoxicants.\nThere's no room for caution in a life lived to the fullest.\nI remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.\nI am slow to trust members of other races, tribes, and societies.\nViolence is my answer to almost any challenge.\nDon't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Survival\nTool Proficiencies: One type of musical instrument\nLanguages: One of your choice\nEquipment: A staffValue:2sp Weight:4lbs, a hunting trapValue:5gp Weight:25lbs, a trophy from an animal you killed, a set of traveler's clothesValue:2gp Weight:4lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Origin"
+    },
+    {
+      "type": "p",
+      "text": "You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Forester"
+        ],
+        [
+          "2",
+          "Trapper"
+        ],
+        [
+          "3",
+          "Homesteader"
+        ],
+        [
+          "4",
+          "Guide"
+        ],
+        [
+          "5",
+          "Exile or outcast"
+        ],
+        [
+          "6",
+          "Bounty hunter"
+        ],
+        [
+          "7",
+          "Pilgrim"
+        ],
+        [
+          "8",
+          "Tribal nomad"
+        ],
+        [
+          "9",
+          "Hunter-gatherer"
+        ],
+        [
+          "10",
+          "Tribal marauder"
+        ]
+      ],
+      "headers": [
+        "d10",
+        "Origin"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Wanderer"
+    },
+    {
+      "type": "p",
+      "text": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm driven by a wanderlust that led me away from home."
+        ],
+        [
+          "2",
+          "I watch over my friends as if they were a litter of newborn pups."
+        ],
+        [
+          "3",
+          "I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to."
+        ],
+        [
+          "4",
+          "I have a lesson for every situation, drawn from observing nature."
+        ],
+        [
+          "5",
+          "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear."
+        ],
+        [
+          "6",
+          "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+        ],
+        [
+          "7",
+          "I feel far more comfortable around animals than people."
+        ],
+        [
+          "8",
+          "I was, in fact, raised by wolves."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+        ],
+        [
+          "2",
+          "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)"
+        ],
+        [
+          "3",
+          "Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)"
+        ],
+        [
+          "4",
+          "Might. The strongest are meant to rule. (Evil)"
+        ],
+        [
+          "5",
+          "Nature. The natural world is more important than all the constructs of civilization. (Neutral)"
+        ],
+        [
+          "6",
+          "Glory. I must earn glory in battle, for myself and my clan. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+        ],
+        [
+          "2",
+          "An injury to the unspoiled wilderness of my home is an injury to me."
+        ],
+        [
+          "3",
+          "I will bring terrible wrath down on the evildoers who destroyed my homeland."
+        ],
+        [
+          "4",
+          "I am the last of my tribe, and it is up to me to ensure their names enter legend."
+        ],
+        [
+          "5",
+          "I suffer awful visions of a coming disaster and will do anything to prevent it."
+        ],
+        [
+          "6",
+          "It is my duty to provide children to sustain my tribe."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am too enamored of ale, wine, and other intoxicants."
+        ],
+        [
+          "2",
+          "There's no room for caution in a life lived to the fullest."
+        ],
+        [
+          "3",
+          "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me."
+        ],
+        [
+          "4",
+          "I am slow to trust members of other races, tribes, and societies."
+        ],
+        [
+          "5",
+          "Violence is my answer to almost any challenge."
+        ],
+        [
+          "6",
+          "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You grew up in the wilds, far from civilization and the comforts of town and technology.",
+  "personality": {
+    "traits": [
+      "I'm driven by a wanderlust that led me away from home.",
+      "I watch over my friends as if they were a litter of newborn pups.",
+      "I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to.",
+      "I have a lesson for every situation, drawn from observing nature.",
+      "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.",
+      "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",
+      "I feel far more comfortable around animals than people.",
+      "I was, in fact, raised by wolves."
+    ],
+    "ideals": [
+      "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
+      "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)",
+      "Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)",
+      "Might. The strongest are meant to rule. (Evil)",
+      "Nature. The natural world is more important than all the constructs of civilization. (Neutral)",
+      "Glory. I must earn glory in battle, for myself and my clan. (Any)"
+    ],
+    "bonds": [
+      "My family, clan, or tribe is the most important thing in my life, even when they are far from me.",
+      "An injury to the unspoiled wilderness of my home is an injury to me.",
+      "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+      "I am the last of my tribe, and it is up to me to ensure their names enter legend.",
+      "I suffer awful visions of a coming disaster and will do anything to prevent it.",
+      "It is my duty to provide children to sustain my tribe."
+    ],
+    "flaws": [
+      "I am too enamored of ale, wine, and other intoxicants.",
+      "There's no room for caution in a life lived to the fullest.",
+      "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.",
+      "I am slow to trust members of other races, tribes, and societies.",
+      "Violence is my answer to almost any challenge.",
+      "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

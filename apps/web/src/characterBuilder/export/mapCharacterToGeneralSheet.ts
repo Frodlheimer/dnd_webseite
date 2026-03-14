@@ -26,7 +26,13 @@ const formatInventory = (character: CharacterRecord): string => {
 const formatFeatures = (character: CharacterRecord): string => {
   const selectedFeatureKeys = Object.keys(character.features.selectedChoices);
   const auto = character.features.autoGranted.map((entry) => entry.id);
-  const parts = [...auto, ...selectedFeatureKeys];
+  const parts = [
+    ...auto,
+    ...selectedFeatureKeys,
+    character.derived.backgroundFeatureName
+      ? `${character.derived.backgroundFeatureName}: ${character.derived.backgroundFeatureText ?? ''}`.trim()
+      : ''
+  ].filter(Boolean);
   return parts.join('\n').slice(0, 1200);
 };
 
@@ -53,7 +59,7 @@ export const mapCharacterToGeneralSheetValues = async (
   const subclassName = character.progression.subclassId
     ? rulesFacade.findSubclassName(character.progression.subclassId)
     : null;
-  const raceName = await rulesFacade.findRaceName(character.origin.raceId);
+  const raceName = await rulesFacade.findRaceName(character.origin.raceId, character.origin.subraceId);
   const background = character.origin.backgroundId
     ? rulesFacade.getBackgroundById(character.origin.backgroundId)?.name ?? character.origin.backgroundId
     : '';
@@ -113,4 +119,3 @@ export const mapCharacterToGeneralSheetValues = async (
 
   return values;
 };
-

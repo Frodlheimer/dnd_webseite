@@ -1,0 +1,298 @@
+{
+  "id": "silverquill-student",
+  "slug": "silverquill-student",
+  "name": "Silverquill Student",
+  "aliases": [
+    "Silverquill Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Intimidation",
+      "Persuasion"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of black ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "book of poetry",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "school uniform",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A bottle of black ink, an ink pen, a book of poetry, a school uniform, and a pouch containing 15 gp."
+  },
+  "feature": {
+    "name": "Silverquill Initiate",
+    "summary": "You gain the Strixhaven Initiate feat and must choose Silverquill within it.",
+    "rulesText": "Silverquill Initiate\nYou gain the Strixhaven Initiate feat and must choose Silverquill within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nDissonant Whispers, Silvery Barbs\nCalm Emotions, Darkness\nBeacon of Hope, Daylight\nCompulsion, Confusion\nDominate Person, Rary's Telepathic Bond\nConsider customizing how your spells look when you can cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Intimidation, Persuasion"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of black ink, an ink pen, a book of poetry, a school uniform, and a pouch containing 15 gp."
+    },
+    {
+      "id": "feature-3",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "silverquill-initiate-4",
+      "title": "Silverquill Initiate",
+      "kind": "feature",
+      "text": "You gain the Strixhaven Initiate feat and must choose Silverquill within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nDissonant Whispers, Silvery Barbs\nCalm Emotions, Darkness\nBeacon of Hope, Daylight\nCompulsion, Confusion\nDominate Person, Rary's Telepathic Bond\nConsider customizing how your spells look when you can cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption."
+    },
+    {
+      "id": "building-a-silverquill-character-9",
+      "title": "Building a Silverquill Character",
+      "kind": "other",
+      "text": "Many Bards find a home in Silverquill, putting the power of their voices to use with Silverquill magic. Wizards (especially those who study the Schools of Illusion and Enchantment) are common in Silverquill, as are Warlocks. Clerics with the Divine Domains of Light and Trickery also fit in well among the mages of Silverquill.\nA number of both Paladins and Rogues attend Silverquill College as well, highlighting the diversity of the student body.\nSuggested Characteristics. With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "id": "silverquill-personality-traits-13",
+      "title": "Silverquill Personality Traits",
+      "kind": "personality",
+      "text": "I'll say whatever I need to in order to maintain my high social status.\nI prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt.\nI believe that uplifting my peers is the best way to succeed.\nI've mastered the art of using humor as a defense, and I always have a charming joke ready.\nI always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals.\nNo one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way.\nSilverquill Trinkets. When you make your character, you may roll once on the Silverquill Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "silverquill-trinkets-16",
+      "title": "Silverquill Trinkets",
+      "kind": "other",
+      "text": "A black leather notebook filled with half-finished poems\nA set of flashcards detailing different colloquialisms and their meanings\nA canteen that makes any liquid drunk from it taste sweet\nA forged permission slip granting access to the special archives of Strixhaven's libraries\nA stylish silver pin that references a famous series of novels about warlocks\nA stack of small pieces of parchment, each enchanted to stick to whatever surface it's pressed against and peel off easily"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits."
+    },
+    {
+      "type": "p",
+      "text": "Source: Strixhaven: A Curriculum of Chaos"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Intimidation, Persuasion\nLanguages: Two of your choice\nEquipment: A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, a book of poetry, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Silverquill Initiate"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Strixhaven Initiate feat and must choose Silverquill within it."
+    },
+    {
+      "type": "p",
+      "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1st",
+          "Dissonant Whispers, Silvery Barbs"
+        ],
+        [
+          "2nd",
+          "Calm Emotions, Darkness"
+        ],
+        [
+          "3rd",
+          "Beacon of Hope, Daylight"
+        ],
+        [
+          "4th",
+          "Compulsion, Confusion"
+        ],
+        [
+          "5th",
+          "Dominate Person, Rary's Telepathic Bond"
+        ]
+      ],
+      "caption": "Silverquill Spells",
+      "headers": [
+        "Spell Level",
+        "Spells"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consider customizing how your spells look when you can cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Silverquill Character"
+    },
+    {
+      "type": "p",
+      "text": "Many Bards find a home in Silverquill, putting the power of their voices to use with Silverquill magic. Wizards (especially those who study the Schools of Illusion and Enchantment) are common in Silverquill, as are Warlocks. Clerics with the Divine Domains of Light and Trickery also fit in well among the mages of Silverquill."
+    },
+    {
+      "type": "p",
+      "text": "A number of both Paladins and Rogues attend Silverquill College as well, highlighting the diversity of the student body."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics. With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Silverquill Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'll say whatever I need to in order to maintain my high social status."
+        ],
+        [
+          "2",
+          "I prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt."
+        ],
+        [
+          "3",
+          "I believe that uplifting my peers is the best way to succeed."
+        ],
+        [
+          "4",
+          "I've mastered the art of using humor as a defense, and I always have a charming joke ready."
+        ],
+        [
+          "5",
+          "I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals."
+        ],
+        [
+          "6",
+          "No one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Silverquill Trinkets. When you make your character, you may roll once on the Silverquill Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Silverquill Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A black leather notebook filled with half-finished poems"
+        ],
+        [
+          "2",
+          "A set of flashcards detailing different colloquialisms and their meanings"
+        ],
+        [
+          "3",
+          "A canteen that makes any liquid drunk from it taste sweet"
+        ],
+        [
+          "4",
+          "A forged permission slip granting access to the special archives of Strixhaven's libraries"
+        ],
+        [
+          "5",
+          "A stylish silver pin that references a famous series of novels about warlocks"
+        ],
+        [
+          "6",
+          "A stack of small pieces of parchment, each enchanted to stick to whatever surface it's pressed against and peel off easily"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College.",
+  "tags": [
+    "category:strixhaven",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

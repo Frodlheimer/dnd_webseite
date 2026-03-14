@@ -1,0 +1,584 @@
+{
+  "kind": "BACKGROUND",
+  "slug": "wildspacer",
+  "url": "https://dnd5e.wikidot.com/background:wildspacer",
+  "page_title": "wildspacer",
+  "aliases": [
+    "Wildspacer"
+  ],
+  "categories": [
+    "Spelljammer"
+  ],
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral, or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Spelljamer: Adventures in Space - Astral Adventurer's Guide"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Skill Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Athletics, Survival"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tool Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Navigator's tools, vehicles (space)"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Equipment:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " A "
+          },
+          {
+            "type": "text",
+            "text": "belaying pin (club)"
+          },
+          {
+            "type": "text",
+            "text": "Value: 1sp Weight: 2lbs"
+          },
+          {
+            "type": "text",
+            "text": ", a "
+          },
+          {
+            "type": "text",
+            "text": "set of traveler's clothes"
+          },
+          {
+            "type": "text",
+            "text": "Value: 2gp Weight: 4lbs"
+          },
+          {
+            "type": "text",
+            "text": ", a "
+          },
+          {
+            "type": "text",
+            "text": "grappling hook"
+          },
+          {
+            "type": "text",
+            "text": "Value: 2gp Weight: 4lbs"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "50 feet of hempen rope"
+          },
+          {
+            "type": "text",
+            "text": "Value: 1gp Weight: 10lbs"
+          },
+          {
+            "type": "text",
+            "text": ", and a "
+          },
+          {
+            "type": "text",
+            "text": "pouch"
+          },
+          {
+            "type": "text",
+            "text": "Value:5sp Weight:1lb"
+          },
+          {
+            "type": "text",
+            "text": " containing 10gp"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Features"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Close Encounter"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Close Encounter"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d10"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Creature"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beholder"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Horror"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feyr"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lunar Dragon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mind Flayer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Neh-thalggu"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "7"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Neogi"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "8"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Space Clown"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "9"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Vampirate"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "10"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Void Scavver"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Wildspace Adaptation"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain the "
+          },
+          {
+            "type": "text",
+            "text": "Tough"
+          },
+          {
+            "type": "text",
+            "text": " feat. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls."
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<p><strong><em>You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral, or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</em></strong></p>\n<p><strong><em>Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.</em></strong></p>\n<p>Source: Spelljamer: Adventures in Space - Astral Adventurer's Guide</p>\n<p><strong>Skill Proficiencies:</strong> Athletics, Survival<br/>\n<strong>Tool Proficiencies:</strong> Navigator's tools, vehicles (space)<br/>\n<strong>Equipment:</strong> A belaying pin (club)Value: 1sp Weight: 2lbs, a set of traveler's clothesValue: 2gp Weight: 4lbs, a grappling hookValue: 2gp Weight: 4lbs, 50 feet of hempen ropeValue: 1gp Weight: 10lbs, and a pouchValue:5sp Weight:1lb containing 10gp</p>\n<h1>Features</h1>\n<h2>Close Encounter</h2>\n<p>You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you.</p>\n<table>\n<tr>\n<th>Close Encounter</th>\n</tr>\n<tr>\n<th>d10</th>\n<th>Creature</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Beholder</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Cosmic Horror</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Feyr</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Lunar Dragon</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Mind Flayer</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Neh-thalggu</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Neogi</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Space Clown</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Vampirate</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Void Scavver</td>\n</tr>\n</table>\n<h2>Wildspace Adaptation</h2>\n<p>You gain the Tough feat. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls.</p>\n</div>"
+  }
+}

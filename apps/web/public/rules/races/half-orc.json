@@ -1,0 +1,196 @@
+{
+  "id": "half-orc",
+  "name": "Half-Orc",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "darkvision:60",
+    "has:ability-bonus",
+    "kind:race",
+    "language:common",
+    "language:orc",
+    "size:medium",
+    "source:srd51",
+    "speed:30"
+  ],
+  "summary": "Your half-orc character has certain traits deriving from your orc ancestry.",
+  "basics": {
+    "size": "Medium",
+    "speedWalk": 30,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+    "alignmentText": "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil."
+  },
+  "abilities": {
+    "bonuses": {
+      "str": 2,
+      "con": 1
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [
+      "Common",
+      "Orc"
+    ],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": 60,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [
+      "Intimidation"
+    ],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "half-orc-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "STR +2, CON +1",
+      "rulesText": "Your Strength score increases by 2, and your Constitution score increases by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "str": 2,
+            "con": 1
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "half-orc-age",
+      "name": "Age",
+      "summary": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely...",
+      "rulesText": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "half-orc-alignment",
+      "name": "Alignment",
+      "summary": "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs...",
+      "rulesText": "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "half-orc-size",
+      "name": "Size",
+      "summary": "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall.",
+      "rulesText": "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.",
+      "grants": {
+        "speed": {
+          "size": "Medium"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "half-orc-speed",
+      "name": "Speed",
+      "summary": "Walking speed 30 ft",
+      "rulesText": "Your base walking speed is 30 feet.",
+      "grants": {
+        "speed": {
+          "speedWalk": 30
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "half-orc-darkvision",
+      "name": "Darkvision",
+      "summary": "Darkvision 60 ft",
+      "rulesText": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "grants": {
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "category": "sense"
+    },
+    {
+      "id": "half-orc-menacing",
+      "name": "Menacing",
+      "summary": "Intimidation",
+      "rulesText": "You gain proficiency in the Intimidation skill.",
+      "grants": {
+        "proficiencies": {
+          "armor": [],
+          "weapons": [],
+          "tools": [],
+          "skills": [
+            "Intimidation"
+          ]
+        }
+      },
+      "category": "proficiency"
+    },
+    {
+      "id": "half-orc-relentless-endurance",
+      "name": "Relentless Endurance",
+      "summary": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.",
+      "rulesText": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "half-orc-savage-attacks",
+      "name": "Savage Attacks",
+      "summary": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to...",
+      "rulesText": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "half-orc-languages",
+      "name": "Languages",
+      "summary": "Common, Orc",
+      "rulesText": "You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common",
+            "Orc"
+          ]
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Half-Orc"
+    },
+    {
+      "type": "p",
+      "text": "Your half-orc character has certain traits deriving from your orc ancestry. Ability Score Increase. Your Strength score increases by 2, and your Constitution score increases by 1. Age. Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years. Alignment. Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil. Size. Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium. Speed. Your base walking speed is 30 feet. Darkvision. Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Menacing. You gain proficiency in the Intimidation skill. Relentless Endurance. When you are reduced to 0 hit points but not killed outright, you can drop to 1"
+    },
+    {
+      "type": "p",
+      "text": "hit point instead. You can't use this feature again until you finish a long rest. Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit. Languages. You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+    }
+  ]
+}

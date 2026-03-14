@@ -1,0 +1,527 @@
+{
+  "id": "feylost",
+  "slug": "feylost",
+  "name": "Feylost",
+  "aliases": [
+    "Feylost"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Deception",
+      "Survival"
+    ],
+    "tools": [],
+    "languages": [
+      "One of your choice of Elvish",
+      "Gnomish"
+    ],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol"
+      ]
+    },
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Goblin",
+        "Sylvan"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "musical instrument (one of your choice)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "three trinkets (each determind by rolling on the Feywild Trinkets table)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 8gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 8
+    },
+    "rawText": "A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determind by rolling on the Feywild Trinkets table), and a pouch containing 8gp"
+  },
+  "feature": {
+    "name": "Feywild Connection",
+    "summary": "Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own.",
+    "rulesText": "Feywild Connection\nYour mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Deception, Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of musical instrument"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice of Elvish, Gnomish, Goblin, or Sylvan."
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determind by rolling on the Feywild Trinkets table), and a pouch containing 8gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "fey-mark-5",
+      "title": "Fey Mark",
+      "kind": "feature",
+      "text": "You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table.\nYour eyes swirl with iridescent colors.\nYou have a sweet scent, like that of nectar or honey\nYou have long whiskers like those of a cat.\nYour ears are covered with soft tufts of fur.\nYour skin sparkles in moonlight.\nFlowers either bloom or wilt (your choice) in your presence.\nYour hair is made of vines or brambles and grows back to normal length within 1 hour of being cut\nYou have a tail like that of a dog or another animal."
+    },
+    {
+      "id": "feywild-visitor-8",
+      "title": "Feywild Visitor",
+      "kind": "feature",
+      "text": "Whenever you're sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit's form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM's discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can't speak that language normally.\nAwakened creature (a Beast or an ordinary plant that has had the Awaken spell cast on it)\nCentaur\nDryad\nFaerie Dragon\nPixie\nSatyr\nSprite\nUnicorn"
+    },
+    {
+      "id": "feywild-connection-11",
+      "title": "Feywild Connection",
+      "kind": "feature",
+      "text": "Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild."
+    },
+    {
+      "id": "suggested-characteristics-13",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "These tables, while optional, are well suited to Feywild-themed adventurers and are ideal for any character who has the Feylost background."
+    },
+    {
+      "id": "personality-traits-15",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me.\nLike a nomad, I can't settle down in one place for very long.\nGood music makes me weep like a baby.\nWherever I go, I try to bring a little of the warmth and tranquility of home with me.\nI have never lost my childlike sense of wonder.\nWhen I have a new idea, I get wildly excited about it until I come up with another, better idea.\nI live by my own set of weird and wonderful rules.\nI can't bring myself to trust most adults."
+    },
+    {
+      "id": "ideals-17",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Friendship. I never leave a friend behind. (Good)\nEmpathy. No creature should be made to suffer. (Good)\nWanderlust. I prefer to take the less traveled path. (Chaotic)\nChangeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)\nHonor. A deal is a deal, and I would never break one. (Lawful)\nRule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)\nObsession. I won't let go of a grudge. (Evil)\nGreed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+    },
+    {
+      "id": "bonds-19",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I would never break my word.\nI find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.\nI do what I can to protect the natural world.\nA trusted friend is the most important thing in the multiverse to me.\nI can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.\nThe Witchlight Carnival feels like home to me.\nI'm drawn to the Feywild and long to return there, if only for a short while.\nI feel indebted to Mister Witch and Mister Light for giving me a home and a purpose."
+    },
+    {
+      "id": "flaws-21",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I easily lose track of time. My poor sense of time means I'm always late.\nI think the whole multiverse is out to get me.\nI'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule.\nI'm a kleptomaniac who covets shiny, sparkling treasure.\nI'm forgetful. Sometimes I can't remember even the simplest things.\nI never give away anything for free and always expect something in return.\nI have many vices and tend to indulge them.\nI'm always changing my mind-well, almost always."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You grew up in the Feywild after disappearing from your home plane as a child. Perhaps you were spirited away by kindly Fey who thought you were destined for great things. Perhaps you stumbled through a Fey crossing by chance during a twilight stroll in the woods. Perhaps you were kidnapped by evil Fey but escaped from their clutches. Whatever the manner of your disappearance, you gradually fell under the Feywild's spell and learned a little about the nature of the mercurial tricksters that dwell there."
+    },
+    {
+      "type": "p",
+      "text": "When you finally returned to your home plane, you did not come back unchanged. You are haunted by the fact the Feywild-a mirror world hidden behind a mere twist of perception-is only a hair's breadth away. Although your memories of the Feywild grow fainter with each passing day, your heart swells with a mixture of fear and joy at the prospect of one day venturing back to the Plane of Faerie-your home away from home."
+    },
+    {
+      "type": "p",
+      "text": "Source: The Wild Beyond the Witchlight"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Deception, Survival\nTool Proficiencies: One type of musical instrument\nLanguages: One of your choice of Elvish, Gnomish, Goblin, or Sylvan.\nEquipment: A musical instrument (one of your choice), a set of traveler's clothesValue:2gp Weight:4lbs, three trinkets (each determind by rolling on the Feywild Trinkets table), and a pouchValue:5sp Weight:1lb containing 8gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Fey Mark"
+    },
+    {
+      "type": "p",
+      "text": "You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Your eyes swirl with iridescent colors."
+        ],
+        [
+          "2",
+          "You have a sweet scent, like that of nectar or honey"
+        ],
+        [
+          "3",
+          "You have long whiskers like those of a cat."
+        ],
+        [
+          "4",
+          "Your ears are covered with soft tufts of fur."
+        ],
+        [
+          "5",
+          "Your skin sparkles in moonlight."
+        ],
+        [
+          "6",
+          "Flowers either bloom or wilt (your choice) in your presence."
+        ],
+        [
+          "7",
+          "Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut"
+        ],
+        [
+          "8",
+          "You have a tail like that of a dog or another animal."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Fey Mark"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Feywild Visitor"
+    },
+    {
+      "type": "p",
+      "text": "Whenever you're sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit's form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM's discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can't speak that language normally."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Awakened creature (a Beast or an ordinary plant that has had the Awaken spell cast on it)"
+        ],
+        [
+          "2",
+          "Centaur"
+        ],
+        [
+          "3",
+          "Dryad"
+        ],
+        [
+          "4",
+          "Faerie Dragon"
+        ],
+        [
+          "5",
+          "Pixie"
+        ],
+        [
+          "6",
+          "Satyr"
+        ],
+        [
+          "7",
+          "Sprite"
+        ],
+        [
+          "8",
+          "Unicorn"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Visitor"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Feywild Connection"
+    },
+    {
+      "type": "p",
+      "text": "Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "These tables, while optional, are well suited to Feywild-themed adventurers and are ideal for any character who has the Feylost background."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me."
+        ],
+        [
+          "2",
+          "Like a nomad, I can't settle down in one place for very long."
+        ],
+        [
+          "3",
+          "Good music makes me weep like a baby."
+        ],
+        [
+          "4",
+          "Wherever I go, I try to bring a little of the warmth and tranquility of home with me."
+        ],
+        [
+          "5",
+          "I have never lost my childlike sense of wonder."
+        ],
+        [
+          "6",
+          "When I have a new idea, I get wildly excited about it until I come up with another, better idea."
+        ],
+        [
+          "7",
+          "I live by my own set of weird and wonderful rules."
+        ],
+        [
+          "8",
+          "I can't bring myself to trust most adults."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Friendship. I never leave a friend behind. (Good)"
+        ],
+        [
+          "2",
+          "Empathy. No creature should be made to suffer. (Good)"
+        ],
+        [
+          "3",
+          "Wanderlust. I prefer to take the less traveled path. (Chaotic)"
+        ],
+        [
+          "4",
+          "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)"
+        ],
+        [
+          "5",
+          "Honor. A deal is a deal, and I would never break one. (Lawful)"
+        ],
+        [
+          "6",
+          "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)"
+        ],
+        [
+          "7",
+          "Obsession. I won't let go of a grudge. (Evil)"
+        ],
+        [
+          "8",
+          "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I would never break my word."
+        ],
+        [
+          "2",
+          "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it."
+        ],
+        [
+          "3",
+          "I do what I can to protect the natural world."
+        ],
+        [
+          "4",
+          "A trusted friend is the most important thing in the multiverse to me."
+        ],
+        [
+          "5",
+          "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions."
+        ],
+        [
+          "6",
+          "The Witchlight Carnival feels like home to me."
+        ],
+        [
+          "7",
+          "I'm drawn to the Feywild and long to return there, if only for a short while."
+        ],
+        [
+          "8",
+          "I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I easily lose track of time. My poor sense of time means I'm always late."
+        ],
+        [
+          "2",
+          "I think the whole multiverse is out to get me."
+        ],
+        [
+          "3",
+          "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule."
+        ],
+        [
+          "4",
+          "I'm a kleptomaniac who covets shiny, sparkling treasure."
+        ],
+        [
+          "5",
+          "I'm forgetful. Sometimes I can't remember even the simplest things."
+        ],
+        [
+          "6",
+          "I never give away anything for free and always expect something in return."
+        ],
+        [
+          "7",
+          "I have many vices and tend to indulge them."
+        ],
+        [
+          "8",
+          "I'm always changing my mind-well, almost always."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You grew up in the Feywild after disappearing from your home plane as a child.",
+  "personality": {
+    "traits": [
+      "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me.",
+      "Like a nomad, I can't settle down in one place for very long.",
+      "Good music makes me weep like a baby.",
+      "Wherever I go, I try to bring a little of the warmth and tranquility of home with me.",
+      "I have never lost my childlike sense of wonder.",
+      "When I have a new idea, I get wildly excited about it until I come up with another, better idea.",
+      "I live by my own set of weird and wonderful rules.",
+      "I can't bring myself to trust most adults."
+    ],
+    "ideals": [
+      "Friendship. I never leave a friend behind. (Good)",
+      "Empathy. No creature should be made to suffer. (Good)",
+      "Wanderlust. I prefer to take the less traveled path. (Chaotic)",
+      "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)",
+      "Honor. A deal is a deal, and I would never break one. (Lawful)",
+      "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)",
+      "Obsession. I won't let go of a grudge. (Evil)",
+      "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+    ],
+    "bonds": [
+      "I would never break my word.",
+      "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.",
+      "I do what I can to protect the natural world.",
+      "A trusted friend is the most important thing in the multiverse to me.",
+      "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.",
+      "The Witchlight Carnival feels like home to me.",
+      "I'm drawn to the Feywild and long to return there, if only for a short while.",
+      "I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose."
+    ],
+    "flaws": [
+      "I easily lose track of time. My poor sense of time means I'm always late.",
+      "I think the whole multiverse is out to get me.",
+      "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule.",
+      "I'm a kleptomaniac who covets shiny, sparkling treasure.",
+      "I'm forgetful. Sometimes I can't remember even the simplest things.",
+      "I never give away anything for free and always expect something in return.",
+      "I have many vices and tend to indulge them.",
+      "I'm always changing my mind-well, almost always."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

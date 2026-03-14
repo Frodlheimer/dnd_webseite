@@ -1,0 +1,434 @@
+{
+  "id": "sailor",
+  "slug": "sailor",
+  "name": "Pirate (variant)",
+  "aliases": [
+    "Pirate (variant)",
+    "Sailor",
+    "Pirate"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Perception"
+    ],
+    "tools": [
+      "Navigator's tools",
+      "vehicles (water)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "belaying pin (club)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "feet of silk rope",
+        "quantity": 50,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "lucky charm such as a rabbit foot",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5)",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5)"
+      }
+    ],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Alternative: Bad Reputation",
+    "summary": "If your character has a pirate background, you may select this background feature instead of Ship's Passage.",
+    "rulesText": "Alternative: Bad Reputation\nIf your character has a pirate background, you may select this background feature instead of Ship's Passage.\nNo matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Perception"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Navigator's tools, vehicles (water)"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a pouch containing 10gp"
+    },
+    {
+      "id": "variants-5",
+      "title": "Variants",
+      "kind": "variant"
+    },
+    {
+      "id": "pirate-6",
+      "title": "Pirate",
+      "kind": "variant",
+      "text": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.\nIf you decide that your sailing career involved piracy, you can choose the Bad Reputation feature below instead of the Ship's Passage feature."
+    },
+    {
+      "id": "features-9",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "ships-passage-10",
+      "title": "Ship's Passage",
+      "kind": "feature",
+      "text": "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+    },
+    {
+      "id": "alternative-bad-reputation-12",
+      "title": "Alternative: Bad Reputation",
+      "kind": "feature",
+      "text": "If your character has a pirate background, you may select this background feature instead of Ship's Passage.\nNo matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+    },
+    {
+      "id": "suggested-characteristics-15",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments."
+    },
+    {
+      "id": "personality-traits-17",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "My friends know they can rely on me, no matter what.\nI work hard so that I can play hard when the work is done.\nI enjoy sailing into new ports and making new friends over a flagon of ale.\nI stretch the truth for the sake of a good story.\nTo me, a tavern brawl is a nice way to get to know a new city.\nI never pass up a friendly wager.\nMy language is as foul as an otyugh nest.\nI like a job well done, especially if I can convince someone else to do it."
+    },
+    {
+      "id": "ideals-19",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)\nFairness. We all do the work, so we all share in the rewards. (Lawful)\nFreedom. The sea is freedom-the freedom to go anywhere and do anything. (Chaotic)\nMastery. I'm a predator, and the other ships on the sea are my prey. (Evil)\nPeople. I'm committed to my crewmates, not to ideals. (Neutral)\nAspiration. Someday I'll own my own ship and chart my own destiny. (Any)"
+    },
+    {
+      "id": "bonds-21",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I'm loyal to my captain first, everything else second.\nThe ship is most important – crewmates and captains come and go.\nI'll always remember my first ship.\nIn a harbor town, I have a paramour whose eyes nearly stole me from the sea.\nI was cheated out of my fair share of the profits, and I want to get my due.\nRuthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+    },
+    {
+      "id": "flaws-23",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I follow orders, even if I think they're wrong.\nI'll say anything to avoid having to do extra work.\nOnce someone questions my courage, I never back down no matter how dangerous the situation.\nOnce I start drinking, it's hard for me to stop.\nI can't help but pocket loose coins and other trinkets I come across.\nMy pride will probably lead to my destruction."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new."
+    },
+    {
+      "type": "p",
+      "text": "Discuss the nature of the ship you previously sailed with your DM. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?"
+    },
+    {
+      "type": "p",
+      "text": "What were your duties on board – boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?"
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Perception\nTool Proficiencies: Navigator's tools, vehicles (water)\nLanguages: None\nEquipment: A belaying pin (clubValue:1sp Weight:2lbs), 50 feet of silk ropeValue:10gp Weight:5lbs, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Variants"
+    },
+    {
+      "type": "h2",
+      "text": "Pirate"
+    },
+    {
+      "type": "p",
+      "text": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town."
+    },
+    {
+      "type": "p",
+      "text": "If you decide that your sailing career involved piracy, you can choose the Bad Reputation feature below instead of the Ship's Passage feature."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Ship's Passage"
+    },
+    {
+      "type": "p",
+      "text": "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+    },
+    {
+      "type": "h2",
+      "text": "Alternative: Bad Reputation"
+    },
+    {
+      "type": "p",
+      "text": "If your character has a pirate background, you may select this background feature instead of Ship's Passage."
+    },
+    {
+      "type": "p",
+      "text": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My friends know they can rely on me, no matter what."
+        ],
+        [
+          "2",
+          "I work hard so that I can play hard when the work is done."
+        ],
+        [
+          "3",
+          "I enjoy sailing into new ports and making new friends over a flagon of ale."
+        ],
+        [
+          "4",
+          "I stretch the truth for the sake of a good story."
+        ],
+        [
+          "5",
+          "To me, a tavern brawl is a nice way to get to know a new city."
+        ],
+        [
+          "6",
+          "I never pass up a friendly wager."
+        ],
+        [
+          "7",
+          "My language is as foul as an otyugh nest."
+        ],
+        [
+          "8",
+          "I like a job well done, especially if I can convince someone else to do it."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
+        ],
+        [
+          "2",
+          "Fairness. We all do the work, so we all share in the rewards. (Lawful)"
+        ],
+        [
+          "3",
+          "Freedom. The sea is freedom-the freedom to go anywhere and do anything. (Chaotic)"
+        ],
+        [
+          "4",
+          "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
+        ],
+        [
+          "5",
+          "People. I'm committed to my crewmates, not to ideals. (Neutral)"
+        ],
+        [
+          "6",
+          "Aspiration. Someday I'll own my own ship and chart my own destiny. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm loyal to my captain first, everything else second."
+        ],
+        [
+          "2",
+          "The ship is most important – crewmates and captains come and go."
+        ],
+        [
+          "3",
+          "I'll always remember my first ship."
+        ],
+        [
+          "4",
+          "In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
+        ],
+        [
+          "5",
+          "I was cheated out of my fair share of the profits, and I want to get my due."
+        ],
+        [
+          "6",
+          "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I follow orders, even if I think they're wrong."
+        ],
+        [
+          "2",
+          "I'll say anything to avoid having to do extra work."
+        ],
+        [
+          "3",
+          "Once someone questions my courage, I never back down no matter how dangerous the situation."
+        ],
+        [
+          "4",
+          "Once I start drinking, it's hard for me to stop."
+        ],
+        [
+          "5",
+          "I can't help but pocket loose coins and other trinkets I come across."
+        ],
+        [
+          "6",
+          "My pride will probably lead to my destruction."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You sailed on a seagoing vessel for years.",
+  "personality": {
+    "traits": [
+      "My friends know they can rely on me, no matter what.",
+      "I work hard so that I can play hard when the work is done.",
+      "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+      "I stretch the truth for the sake of a good story.",
+      "To me, a tavern brawl is a nice way to get to know a new city.",
+      "I never pass up a friendly wager.",
+      "My language is as foul as an otyugh nest.",
+      "I like a job well done, especially if I can convince someone else to do it."
+    ],
+    "ideals": [
+      "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)",
+      "Fairness. We all do the work, so we all share in the rewards. (Lawful)",
+      "Freedom. The sea is freedom-the freedom to go anywhere and do anything. (Chaotic)",
+      "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)",
+      "People. I'm committed to my crewmates, not to ideals. (Neutral)",
+      "Aspiration. Someday I'll own my own ship and chart my own destiny. (Any)"
+    ],
+    "bonds": [
+      "I'm loyal to my captain first, everything else second.",
+      "The ship is most important – crewmates and captains come and go.",
+      "I'll always remember my first ship.",
+      "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+      "I was cheated out of my fair share of the profits, and I want to get my due.",
+      "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+    ],
+    "flaws": [
+      "I follow orders, even if I think they're wrong.",
+      "I'll say anything to avoid having to do extra work.",
+      "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+      "Once I start drinking, it's hard for me to stop.",
+      "I can't help but pocket loose coins and other trinkets I come across.",
+      "My pride will probably lead to my destruction."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency",
+    "has:variant"
+  ]
+}

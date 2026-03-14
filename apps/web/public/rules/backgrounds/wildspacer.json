@@ -1,0 +1,198 @@
+{
+  "id": "wildspacer",
+  "slug": "wildspacer",
+  "name": "Wildspacer",
+  "aliases": [
+    "Wildspacer"
+  ],
+  "categories": [
+    "Spelljammer"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Survival"
+    ],
+    "tools": [
+      "Navigator's tools",
+      "vehicles (space)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "belaying pin (club)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "grappling hook",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "feet of hempen rope",
+        "quantity": 50,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A belaying pin (club), a set of traveler's clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Wildspace Adaptation",
+    "summary": "You gain the Tough feat.",
+    "rulesText": "Wildspace Adaptation\nYou gain the Tough feat. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Navigator's tools, vehicles (space)"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A belaying pin (club), a set of traveler's clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "close-encounter-5",
+      "title": "Close Encounter",
+      "kind": "feature",
+      "text": "You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you.\nBeholder\nCosmic Horror\nFeyr\nLunar Dragon\nMind Flayer\nNeh-thalggu\nNeogi\nSpace Clown\nVampirate\nVoid Scavver"
+    },
+    {
+      "id": "wildspace-adaptation-8",
+      "title": "Wildspace Adaptation",
+      "kind": "feature",
+      "text": "You gain the Tough feat. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral, or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull."
+    },
+    {
+      "type": "p",
+      "text": "Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night."
+    },
+    {
+      "type": "p",
+      "text": "Source: Spelljamer: Adventures in Space - Astral Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Survival\nTool Proficiencies: Navigator's tools, vehicles (space)\nEquipment: A belaying pin (club)Value: 1sp Weight: 2lbs, a set of traveler's clothesValue: 2gp Weight: 4lbs, a grappling hookValue: 2gp Weight: 4lbs, 50 feet of hempen ropeValue: 1gp Weight: 10lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Close Encounter"
+    },
+    {
+      "type": "p",
+      "text": "You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Beholder"
+        ],
+        [
+          "2",
+          "Cosmic Horror"
+        ],
+        [
+          "3",
+          "Feyr"
+        ],
+        [
+          "4",
+          "Lunar Dragon"
+        ],
+        [
+          "5",
+          "Mind Flayer"
+        ],
+        [
+          "6",
+          "Neh-thalggu"
+        ],
+        [
+          "7",
+          "Neogi"
+        ],
+        [
+          "8",
+          "Space Clown"
+        ],
+        [
+          "9",
+          "Vampirate"
+        ],
+        [
+          "10",
+          "Void Scavver"
+        ]
+      ],
+      "caption": "Close Encounter",
+      "headers": [
+        "d10",
+        "Creature"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Wildspace Adaptation"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Tough feat. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls."
+    }
+  ],
+  "summary": "You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk.",
+  "tags": [
+    "category:spelljammer",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

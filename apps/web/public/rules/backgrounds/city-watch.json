@@ -1,0 +1,204 @@
+{
+  "id": "city-watch",
+  "slug": "city-watch",
+  "name": "City Watch",
+  "aliases": [
+    "City Watch",
+    "Investigator"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Insight"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "uniform in the style of your unit and indicative of your rank",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "horn with which to summon help",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of manacles",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Watcher's Eye",
+    "summary": "Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals.",
+    "rulesText": "Watcher's Eye\nYour experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Insight"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "None"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10gp"
+    },
+    {
+      "id": "variants-6",
+      "title": "Variants",
+      "kind": "variant"
+    },
+    {
+      "id": "investigator-7",
+      "title": "Investigator",
+      "kind": "variant",
+      "text": "Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics."
+    },
+    {
+      "id": "features-9",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "watchers-eye-10",
+      "title": "Watcher's Eye",
+      "kind": "feature",
+      "text": "Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Use the tables for the soldier background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity.\nYour bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have served the community where you grew up, standing as its first line of defense against crime. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe."
+    },
+    {
+      "type": "p",
+      "text": "You might have been part of the City Watch of Waterdeep, the baton-wielding police force of the City of Splendors, protecting the common folk from thieves and rowdy nobility alike. Or you might have been one of the valiant defenders of Silverymoon, a member of the Silverwatch or even one of the magic-wielding Spellguard."
+    },
+    {
+      "type": "p",
+      "text": "Perhaps you hail from Neverwinter and have served as one of its Wintershield watchmen, the newly founded branch of guards who vow to keep safe the City of Skilled Hands."
+    },
+    {
+      "type": "p",
+      "text": "Even if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sheriffs and bailiffs who stand ready to protect their community."
+    },
+    {
+      "type": "p",
+      "text": "Source: Sword Coast Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Insight\nTool Proficiencies: None\nLanguages: Two of your choice\nEquipment: A uniform in the style of your unit and indicative of your rank, a hornValue:3gp Weight:2lbs with which to summon help, a set of manaclesValue:2gp Weight:6lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Variants"
+    },
+    {
+      "type": "h2",
+      "text": "Investigator"
+    },
+    {
+      "type": "p",
+      "text": "Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Watcher's Eye"
+    },
+    {
+      "type": "p",
+      "text": "Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Use the tables for the soldier background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity."
+    },
+    {
+      "type": "p",
+      "text": "Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
+    }
+  ],
+  "summary": "You have served the community where you grew up, standing as its first line of defense against crime.",
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:variant"
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "id": "azorius-functionary",
+  "slug": "azorius-functionary",
+  "name": "Azorius Functionary",
+  "aliases": [
+    "Azorius Functionary"
+  ],
+  "categories": [
+    "Ravnica"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Insight",
+      "Intimidation"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "Azorius insignia",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "scroll containing the text of a law important to you",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "bottle of blue ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp (Azorius-minted 1-zino coins)",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "An Azorius insignia, a scroll containing the text of a law important to you, a bottle of blue ink, an ink pen, a set of fine clothes, and a pouch containing 10gp (Azorius-minted 1-zino coins)"
+  },
+  "feature": {
+    "name": "Azorius Guild Spells",
+    "summary": "Prerequisite: Spellcasting or Pact Magic class feature For you, the spells on the Azorius Guild Spells table are added to the spell list of your spellcasting class.",
+    "rulesText": "Azorius Guild Spells\nPrerequisite: Spellcasting or Pact Magic class feature\nFor you, the spells on the Azorius Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nAzorius Guild Spells\nFriends, Message\nCommand, Ensnaring Strike\nArcane Lock, Calm Emotions, Hold Person\nClairvoyance, Counterspell\nCompulsion, Divination\nDominate Person\nYour magic often takes the form of blue or golden runes floating and glowing in the air in circular patterns or of shimmering azure barriers of magical energy. If you cast Ensnaring Strike, for example, the vines created by the spell might appear as rune-inscribed glowing bands that wrap around the target and hold it in place."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Insight, Intimidation"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "An Azorius insignia, a scroll containing the text of a law important to you, a bottle of blue ink, an ink pen, a set of fine clothes, and a pouch containing 10gp (Azorius-minted 1-zino coins)"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "legal-authority-4",
+      "title": "Legal Authority",
+      "kind": "feature",
+      "text": "You have the authority to enforce the laws of Ravnica, and that status inspires a certain amount of respect and even fear in the populace. People mind their manners in your presence and avoid drawing your attention: they assume you have the right to be wherever you are. Showing your Azorius insignia gets you an audience with anyone you want to talk to (though it might cause more problems than it solves when you're dealing with incorrigible lawbreakers). If you abuse this privilege, though, you can get in serious trouble with your superiors and even be stripped of your position."
+    },
+    {
+      "id": "azorius-guild-spells-6",
+      "title": "Azorius Guild Spells",
+      "kind": "feature",
+      "text": "Prerequisite: Spellcasting or Pact Magic class feature\nFor you, the spells on the Azorius Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nAzorius Guild Spells\nFriends, Message\nCommand, Ensnaring Strike\nArcane Lock, Calm Emotions, Hold Person\nClairvoyance, Counterspell\nCompulsion, Divination\nDominate Person\nYour magic often takes the form of blue or golden runes floating and glowing in the air in circular patterns or of shimmering azure barriers of magical energy. If you cast Ensnaring Strike, for example, the vines created by the spell might appear as rune-inscribed glowing bands that wrap around the target and hold it in place."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragmatic, orderly nature. Steeped in the law as they are, their ideals and priorities revolve around legal issues."
+    },
+    {
+      "id": "personality-traits-14",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I try never to let my judgement become clouded by emotion.\nI have infinite patience with the dolts and boors I'm forced to deal with every day.\nWhen I give an order, I expect it to be obeyed.\nI just want things the way I like them: neat, orderly, and clean.\nNo wrongdoing can escape my watchful gaze.\nI always say exactly what I mean, no matter how many words it takes to communicate the particular nuance I am attempting to convey.\nI'm very literal and don't appreciate metaphor or sarcasm.\nI never change my mind once it's made up."
+    },
+    {
+      "id": "ideals-16",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Guild. My guild is all that really matters. (Any)\nOrder. The law is meant to ensure that the gears of society turn smoothly and quietly. (Lawful)\nPeace. The ultimate object of the law is to remove violence from society. (Good)\nCompliance. Coercion is a fine way of ensuring that the laws are obeyed. (Lawful)\nLegislation. The law embodies excellence in its precision and detail. (Lawful)\nPunishment. A public display of consequences is an excellent deterrent for other criminals. (Evil)"
+    },
+    {
+      "id": "bonds-18",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I am beholden to an Azorius arrester who captured the criminal who killed my parents, saving me from the same fate.\nI hope one day to write the laws, not just enforce them.\nI tried and failed to prevent murder, and I have sworn to find and arrest the perpetrator.\nI successfully prevented a murder, and the would-be perpetrator wants me dead.\nOne of my parents was prominent in the guild, and I resent constantly being compared to that standard.\nI've modeled my career after a highly respected law-mage or arrester, but I fear that my role model might be involved in something illegal."
+    },
+    {
+      "id": "flaws-20",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I'm unable to distinguish between the letter and the spirit of the law.\nI seem like a harsh judge to others, but I judge myself most harshly of all.\nI have a secret, illegal vice.\nI was traumatized by witnessing a crime as a child.\nI'm incapable of deception.\nI wish I had joined the Boros, but I fear they'd never accept me."
+    },
+    {
+      "id": "contacts-22",
+      "title": "Contacts",
+      "kind": "other",
+      "text": "The Azorius Senate is a sprawling bureaucracy, and people in a variety of positions throughout the guild can pull strings to make things happen. Because of the guild's role in making and enforcing laws for the entire city, your place in the Azorius can easily bring you into contact with members of other guilds, for good or ill.\nRoll twice on the Azorius Contacts table (for an ally and a rival) and once on the Non-Azorius Contacts table."
+    },
+    {
+      "id": "azorius-contacts-25",
+      "title": "Azorius Contacts",
+      "kind": "other",
+      "text": "As a teenager, I was a page for a prominent judge.\nOne of my childhood friends is now a precognitive mage in service of the guild.\nI joined the Azorius hoping to impress an arrester whom I admire.\nMy former mentor is now a warden at Udzec, the new Azorius prison.\nI was second best at everything in my legal training, and now I work with the person who was always just a little bit better.\nA good friend was promoted into work they can't tell me about.\nI know a homunculus in the halls of New Prahv who can get things done behind the scenes.\nI was once summoned to the presence of Supreme Judge Isperia, the guildmaster of the Azorius, who complimented me on my work."
+    },
+    {
+      "id": "non-azorius-contacts-27",
+      "title": "Non-Azorius Contacts",
+      "kind": "other",
+      "text": "Roll an additional Azorius contact; you can decide if the contact is an ally or a rival.\nThe person who recruited me into the Azorius left and joined the Boros.\nI have a friendship with a Dimir agent who sometimes funnels me secrets about Azorius activities.\nA Golgari spore druid would love to see me slip up and break the law.\nA lesser Gruul chieftain seems to think I could be useful.\nThe black sheep of my family is putting their maniacal genius to use in the Izzet.\nI'm friends with an Orzhov advokist; we compare notes on different forms of law magic.\nI was ridiculed once in a Rakdos performance; the performer was impressed with my good humor about it and now does me occasional favors.\nI have a fanatical Selesnya cousin who keeps trying to recruit me and everyone else in the family.\nWhile growing up, I was bullied by a brat who's now a hybrid in the Simic Combine."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The brutes are at the gate, chaos is looming, and the only thing standing in the way of disaster is the foundation of law and order - as embodied in the Azorius Senate. You're a proud member of the Azorius guild, which both enacts and enforces the laws that make Ravnican society function smoothly and safely."
+    },
+    {
+      "type": "p",
+      "text": "Source: Guildmaster's Guide to Ravnica"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Insight, Intimidation\nLanguages: Two of your choice\nEquipment: An Azorius insignia, a scroll containing the text of a law important to you, a bottle of blue inkValue:10gp Weight:0.0625lb, an ink penValue:2cp Weight:0, a set of fine clothesValue:15gp Weight:6lbs, and a pouchValue:5sp Weight:1lb containing 10gp (Azorius-minted 1-zino coins)"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Legal Authority"
+    },
+    {
+      "type": "p",
+      "text": "You have the authority to enforce the laws of Ravnica, and that status inspires a certain amount of respect and even fear in the populace. People mind their manners in your presence and avoid drawing your attention: they assume you have the right to be wherever you are. Showing your Azorius insignia gets you an audience with anyone you want to talk to (though it might cause more problems than it solves when you're dealing with incorrigible lawbreakers). If you abuse this privilege, though, you can get in serious trouble with your superiors and even be stripped of your position."
+    },
+    {
+      "type": "h2",
+      "text": "Azorius Guild Spells"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Spellcasting or Pact Magic class feature"
+    },
+    {
+      "type": "p",
+      "text": "For you, the spells on the Azorius Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "p",
+      "text": "Azorius Guild Spells"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Cantrip",
+          "Friends, Message"
+        ],
+        [
+          "1st",
+          "Command, Ensnaring Strike"
+        ],
+        [
+          "2nd",
+          "Arcane Lock, Calm Emotions, Hold Person"
+        ],
+        [
+          "3rd",
+          "Clairvoyance, Counterspell"
+        ],
+        [
+          "4th",
+          "Compulsion, Divination"
+        ],
+        [
+          "5th",
+          "Dominate Person"
+        ]
+      ],
+      "headers": [
+        "Spell Level",
+        "Spell"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Your magic often takes the form of blue or golden runes floating and glowing in the air in circular patterns or of shimmering azure barriers of magical energy. If you cast Ensnaring Strike, for example, the vines created by the spell might appear as rune-inscribed glowing bands that wrap around the target and hold it in place."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragmatic, orderly nature. Steeped in the law as they are, their ideals and priorities revolve around legal issues."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I try never to let my judgement become clouded by emotion."
+        ],
+        [
+          "2",
+          "I have infinite patience with the dolts and boors I'm forced to deal with every day."
+        ],
+        [
+          "3",
+          "When I give an order, I expect it to be obeyed."
+        ],
+        [
+          "4",
+          "I just want things the way I like them: neat, orderly, and clean."
+        ],
+        [
+          "5",
+          "No wrongdoing can escape my watchful gaze."
+        ],
+        [
+          "6",
+          "I always say exactly what I mean, no matter how many words it takes to communicate the particular nuance I am attempting to convey."
+        ],
+        [
+          "7",
+          "I'm very literal and don't appreciate metaphor or sarcasm."
+        ],
+        [
+          "8",
+          "I never change my mind once it's made up."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Guild. My guild is all that really matters. (Any)"
+        ],
+        [
+          "2",
+          "Order. The law is meant to ensure that the gears of society turn smoothly and quietly. (Lawful)"
+        ],
+        [
+          "3",
+          "Peace. The ultimate object of the law is to remove violence from society. (Good)"
+        ],
+        [
+          "4",
+          "Compliance. Coercion is a fine way of ensuring that the laws are obeyed. (Lawful)"
+        ],
+        [
+          "5",
+          "Legislation. The law embodies excellence in its precision and detail. (Lawful)"
+        ],
+        [
+          "6",
+          "Punishment. A public display of consequences is an excellent deterrent for other criminals. (Evil)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am beholden to an Azorius arrester who captured the criminal who killed my parents, saving me from the same fate."
+        ],
+        [
+          "2",
+          "I hope one day to write the laws, not just enforce them."
+        ],
+        [
+          "3",
+          "I tried and failed to prevent murder, and I have sworn to find and arrest the perpetrator."
+        ],
+        [
+          "4",
+          "I successfully prevented a murder, and the would-be perpetrator wants me dead."
+        ],
+        [
+          "5",
+          "One of my parents was prominent in the guild, and I resent constantly being compared to that standard."
+        ],
+        [
+          "6",
+          "I've modeled my career after a highly respected law-mage or arrester, but I fear that my role model might be involved in something illegal."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm unable to distinguish between the letter and the spirit of the law."
+        ],
+        [
+          "2",
+          "I seem like a harsh judge to others, but I judge myself most harshly of all."
+        ],
+        [
+          "3",
+          "I have a secret, illegal vice."
+        ],
+        [
+          "4",
+          "I was traumatized by witnessing a crime as a child."
+        ],
+        [
+          "5",
+          "I'm incapable of deception."
+        ],
+        [
+          "6",
+          "I wish I had joined the Boros, but I fear they'd never accept me."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Contacts"
+    },
+    {
+      "type": "p",
+      "text": "The Azorius Senate is a sprawling bureaucracy, and people in a variety of positions throughout the guild can pull strings to make things happen. Because of the guild's role in making and enforcing laws for the entire city, your place in the Azorius can easily bring you into contact with members of other guilds, for good or ill."
+    },
+    {
+      "type": "p",
+      "text": "Roll twice on the Azorius Contacts table (for an ally and a rival) and once on the Non-Azorius Contacts table."
+    },
+    {
+      "type": "h2",
+      "text": "Azorius Contacts"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "As a teenager, I was a page for a prominent judge."
+        ],
+        [
+          "2",
+          "One of my childhood friends is now a precognitive mage in service of the guild."
+        ],
+        [
+          "3",
+          "I joined the Azorius hoping to impress an arrester whom I admire."
+        ],
+        [
+          "4",
+          "My former mentor is now a warden at Udzec, the new Azorius prison."
+        ],
+        [
+          "5",
+          "I was second best at everything in my legal training, and now I work with the person who was always just a little bit better."
+        ],
+        [
+          "6",
+          "A good friend was promoted into work they can't tell me about."
+        ],
+        [
+          "7",
+          "I know a homunculus in the halls of New Prahv who can get things done behind the scenes."
+        ],
+        [
+          "8",
+          "I was once summoned to the presence of Supreme Judge Isperia, the guildmaster of the Azorius, who complimented me on my work."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Contact"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Non-Azorius Contacts"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Roll an additional Azorius contact; you can decide if the contact is an ally or a rival."
+        ],
+        [
+          "2",
+          "The person who recruited me into the Azorius left and joined the Boros."
+        ],
+        [
+          "3",
+          "I have a friendship with a Dimir agent who sometimes funnels me secrets about Azorius activities."
+        ],
+        [
+          "4",
+          "A Golgari spore druid would love to see me slip up and break the law."
+        ],
+        [
+          "5",
+          "A lesser Gruul chieftain seems to think I could be useful."
+        ],
+        [
+          "6",
+          "The black sheep of my family is putting their maniacal genius to use in the Izzet."
+        ],
+        [
+          "7",
+          "I'm friends with an Orzhov advokist; we compare notes on different forms of law magic."
+        ],
+        [
+          "8",
+          "I was ridiculed once in a Rakdos performance; the performer was impressed with my good humor about it and now does me occasional favors."
+        ],
+        [
+          "9",
+          "I have a fanatical Selesnya cousin who keeps trying to recruit me and everyone else in the family."
+        ],
+        [
+          "10",
+          "While growing up, I was bullied by a brat who's now a hybrid in the Simic Combine."
+        ]
+      ],
+      "headers": [
+        "d10",
+        "Contact"
+      ]
+    }
+  ],
+  "summary": "The brutes are at the gate, chaos is looming, and the only thing standing in the way of disaster is the foundation of law and order - as embodied in the Azorius Senate.",
+  "personality": {
+    "traits": [
+      "I try never to let my judgement become clouded by emotion.",
+      "I have infinite patience with the dolts and boors I'm forced to deal with every day.",
+      "When I give an order, I expect it to be obeyed.",
+      "I just want things the way I like them: neat, orderly, and clean.",
+      "No wrongdoing can escape my watchful gaze.",
+      "I always say exactly what I mean, no matter how many words it takes to communicate the particular nuance I am attempting to convey.",
+      "I'm very literal and don't appreciate metaphor or sarcasm.",
+      "I never change my mind once it's made up."
+    ],
+    "ideals": [
+      "Guild. My guild is all that really matters. (Any)",
+      "Order. The law is meant to ensure that the gears of society turn smoothly and quietly. (Lawful)",
+      "Peace. The ultimate object of the law is to remove violence from society. (Good)",
+      "Compliance. Coercion is a fine way of ensuring that the laws are obeyed. (Lawful)",
+      "Legislation. The law embodies excellence in its precision and detail. (Lawful)",
+      "Punishment. A public display of consequences is an excellent deterrent for other criminals. (Evil)"
+    ],
+    "bonds": [
+      "I am beholden to an Azorius arrester who captured the criminal who killed my parents, saving me from the same fate.",
+      "I hope one day to write the laws, not just enforce them.",
+      "I tried and failed to prevent murder, and I have sworn to find and arrest the perpetrator.",
+      "I successfully prevented a murder, and the would-be perpetrator wants me dead.",
+      "One of my parents was prominent in the guild, and I resent constantly being compared to that standard.",
+      "I've modeled my career after a highly respected law-mage or arrester, but I fear that my role model might be involved in something illegal."
+    ],
+    "flaws": [
+      "I'm unable to distinguish between the letter and the spirit of the law.",
+      "I seem like a harsh judge to others, but I judge myself most harshly of all.",
+      "I have a secret, illegal vice.",
+      "I was traumatized by witnessing a crime as a child.",
+      "I'm incapable of deception.",
+      "I wish I had joined the Boros, but I fear they'd never accept me."
+    ]
+  },
+  "tags": [
+    "category:ravnica",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

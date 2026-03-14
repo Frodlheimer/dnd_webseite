@@ -1,0 +1,434 @@
+{
+  "id": "dragon-casualty",
+  "slug": "dragon-casualty",
+  "name": "Dragon Casualty",
+  "aliases": [
+    "Dragon Casualty"
+  ],
+  "categories": [
+    "AL: Curse of Strahd"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Intimidation",
+      "Survival"
+    ],
+    "tools": [
+      "Special (see origin below)"
+    ],
+    "languages": [
+      "Draconic"
+    ],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "dagger",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "tattered rags",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "loaf of moldy bread",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "small cast-off scale belonging to Vorgansharax – the Maimed Virulence",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch with 5gp of various coins (salvaged during your escape from Phlan)",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 5
+    },
+    "rawText": "A dagger, tattered rags, a loaf of moldy bread, a small cast-off scale belonging to Vorgansharax – the Maimed Virulence, and a pouch with 5gp of various coins (salvaged during your escape from Phlan)."
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Intimidation, Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Special (see origin below)"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Draconic"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A dagger, tattered rags, a loaf of moldy bread, a small cast-off scale belonging to Vorgansharax – the Maimed Virulence, and a pouch with 5gp of various coins (salvaged during your escape from Phlan)."
+    },
+    {
+      "id": "origin-5",
+      "title": "Origin",
+      "kind": "other",
+      "text": "Prior to the coordinated attack by the Maimed Virulence and his rebel Black Fist supporters, you were once a citizen or visitor to Phlan. While the trauma of your recent ordeal has greatly altered your motivations and perception of the world, your former life still clings to you and colors your mannerisms, behaviors, and outlook on life. Choose one entry on the following table (or roll randomly) to determine your former occupation prior to your incarceration and torture. Your choice determines your tool proficiency from this background.\nVehicles (water)\nArtisan's Tools\nGaming Set or Vehicles (land)\nVehicles (land)\nMusical Instrument\nAlchemist's Supplies or Herbalism Kit\nThieves' Tools, Forgery Kit, or Disguise Kit\nGaming Set"
+    },
+    {
+      "id": "feature-dragonscarred-8",
+      "title": "Feature: Dragonscarred",
+      "kind": "feature",
+      "text": "Over a period of several months you were subject to magical and mundane torture at the claws of Vorgansharax and his minions. These experiments have left you horribly disfigured but mark you as a survivor of the Maimed Virulence.\nThis affords you a measure of fame and notoriety, for those who know of your harrowing ordeal are keen to hear the tale personally, but makes it difficult to disguise your appearance and hide from prying eyes. You can parley this attention into access to people and places you might not otherwise have for you and your companions. Nobles, scholars, mages, and those who seek to ferret out the secrets of the Maimed Virulence would all be keen to hear your tale of survival, and learn what secrets (if any) you might possess, and/or study your affliction with great interest.\nHowever, you fear that your afflictions are not completely mundane and that the Maimed Virulence may as yet have some nefarious reason for allowing your escape, as your scars burn with acidic fury and seem to writhe beneath your skin at times."
+    },
+    {
+      "id": "disfigurement-12",
+      "title": "Disfigurement",
+      "kind": "feature",
+      "text": "In addition to extensive scarring, you may choose one of the following options to represent your disfigurement. This disfigurement is purely cosmetic, misshapen, and horrific to look upon.\nSmall non-functional wing(s) or alternately-misshapen, wing-like membranes along one or both arms\nElongated, claw-like hand(s) and/or feet\nPainful green scales randomly embedded in skin\nBulbous, reptilian eye(s)\nEnlarged dorsal spines\nHair replaced with small irregular spines"
+    },
+    {
+      "id": "dragon-casualty-personality-traits-15",
+      "title": "Dragon Casualty Personality Traits",
+      "kind": "personality",
+      "text": "I am driven to escape my past, and rarely stay in one place long.\nI know secrets of the Maimed Virulence, but fear the harm that may befall me should others learn them.\nSpeaking of my ordeal helps soothe the still open wounds in my soul.\nMy former life is meaningless, and was ripped to shreds by the claws of Vorgansharax. All that matters now is what I do with the future.\nI have faced the worst a dragon can deliver and survived. I am fearless, and my resolve unshakable.\nI am haunted by my tortured past, and wake at night screaming at half-remembered horrors.\nI sleep with my back to a wall or tree, and a weapon within arm’s reach.\nI am slow to trust, but incredibly loyal to those who have earned it."
+    },
+    {
+      "id": "dragon-casualty-ideals-17",
+      "title": "Dragon Casualty Ideals",
+      "kind": "personality",
+      "text": "Survivor. No matter the cost, I will take any action necessary to survive. (Any)\nIndependence. When in trouble, the only person I can rely on is myself. (Chaotic)\nCompassionate. I have suffered long at the hands of a Dragon, and take pity and compassion on the suffering of others. (Good)\nSecretive. I am withdrawn, and hide my monstrous appearance for fear of drawing unwanted attention. (Chaotic)\nJustice. I have been wronged, and will not allow the same fate to befall others. (Lawful)\nSycophant. During my ordeal, I became a willing servant of the Maimed Virulence, and spy on his behalf. (Evil)"
+    },
+    {
+      "id": "dragon-casualty-bonds-19",
+      "title": "Dragon Casualty Bonds",
+      "kind": "personality",
+      "text": "I have sworn vengeance on the Maimed Virulence and those that follow him.\nI long to reunite with friends and family who may dwell among the Phlan Refugees, and protect them.\nWhile a prisoner of the Maimed Virulence, I overheard rumors of an item or treasure the Dragon seeks. I will have that treasure for myself!\nI seek to reclaim and rebuild my former life to the best of my ability.\nI have been reborn as a child of Vorgansharax. I will claim my birthright as his chosen heir and successor.\nI attribute my survival to the work of the divine, and seek to prove myself worthy of the honor."
+    },
+    {
+      "id": "dragon-casualty-flaws-21",
+      "title": "Dragon Casualty Flaws",
+      "kind": "personality",
+      "text": "I have been touched with dragon-greed, and have a lust for wealth which can never be satisfied.\nI secretly believe others are plotting to harm me.\nI no longer enjoy the simple pleasures in life. Food is but ashes and bile in my throat.\nAnyone who refuses to celebrate my celebrity does not deserve my company.\nI am paranoid and overly suspicious of others. Anyone may be an agent of the Maimed Virulence.\nOnce I make up my mind, I follow my chosen course of action regardless of the consequences."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Curse of Strahd: Optional Backgrounds"
+    },
+    {
+      "type": "p",
+      "text": "When the Maimed Virulence descended upon Phlan, you were one of the unfortunate casualties of war. Captured during the initial assault, you have spent the last year of your life as a plaything of a capricious and malevolent overlord."
+    },
+    {
+      "type": "p",
+      "text": "While many of your fellow prisoners fell to the dragon's insatiable fury over the coming months, you and your fellow \"survivors\" were spared only for a worse fate as one of the dragon's magical experiments, leaving you and those who survived the torture scarred and disfigured."
+    },
+    {
+      "type": "p",
+      "text": "What reasons the dragon had for releasing you few survivors, nobody knows. You only fear that those who died under his terrible claw were the lucky ones, and you and your fellow Dragon scarred are doomed for a fate worse than death."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Intimidation, Survival\nTool Proficiencies: Special (see origin below)\nLanguages: Draconic\nEquipment: A daggerValue:2gp Weight:1lb, tattered rags, a loaf of moldy bread, a small cast-off scale belonging to Vorgansharax – the Maimed Virulence, and a pouchValue:5sp Weight:1lb with 5gp of various coins (salvaged during your escape from Phlan)."
+    },
+    {
+      "type": "h2",
+      "text": "Origin"
+    },
+    {
+      "type": "p",
+      "text": "Prior to the coordinated attack by the Maimed Virulence and his rebel Black Fist supporters, you were once a citizen or visitor to Phlan. While the trauma of your recent ordeal has greatly altered your motivations and perception of the world, your former life still clings to you and colors your mannerisms, behaviors, and outlook on life. Choose one entry on the following table (or roll randomly) to determine your former occupation prior to your incarceration and torture. Your choice determines your tool proficiency from this background."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Dockworker/Fisherman",
+          "Vehicles (water)"
+        ],
+        [
+          "2",
+          "Tradesperson/Merchant",
+          "Artisan's Tools"
+        ],
+        [
+          "3",
+          "Black Fist Soldier",
+          "Gaming Set or Vehicles (land)"
+        ],
+        [
+          "4",
+          "Adventurer/Visitor",
+          "Vehicles (land)"
+        ],
+        [
+          "5",
+          "Entertainer",
+          "Musical Instrument"
+        ],
+        [
+          "6",
+          "Scholar/Healer",
+          "Alchemist's Supplies or Herbalism Kit"
+        ],
+        [
+          "7",
+          "Criminal",
+          "Thieves' Tools, Forgery Kit, or Disguise Kit"
+        ],
+        [
+          "8",
+          "Unskilled Laborer",
+          "Gaming Set"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Origin (Occupation)",
+        "Tool Proficiency"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Feature: Dragonscarred"
+    },
+    {
+      "type": "p",
+      "text": "Over a period of several months you were subject to magical and mundane torture at the claws of Vorgansharax and his minions. These experiments have left you horribly disfigured but mark you as a survivor of the Maimed Virulence."
+    },
+    {
+      "type": "p",
+      "text": "This affords you a measure of fame and notoriety, for those who know of your harrowing ordeal are keen to hear the tale personally, but makes it difficult to disguise your appearance and hide from prying eyes. You can parley this attention into access to people and places you might not otherwise have for you and your companions. Nobles, scholars, mages, and those who seek to ferret out the secrets of the Maimed Virulence would all be keen to hear your tale of survival, and learn what secrets (if any) you might possess, and/or study your affliction with great interest."
+    },
+    {
+      "type": "p",
+      "text": "However, you fear that your afflictions are not completely mundane and that the Maimed Virulence may as yet have some nefarious reason for allowing your escape, as your scars burn with acidic fury and seem to writhe beneath your skin at times."
+    },
+    {
+      "type": "h3",
+      "text": "Disfigurement"
+    },
+    {
+      "type": "p",
+      "text": "In addition to extensive scarring, you may choose one of the following options to represent your disfigurement. This disfigurement is purely cosmetic, misshapen, and horrific to look upon."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Small non-functional wing(s) or alternately-misshapen, wing-like membranes along one or both arms"
+        ],
+        [
+          "2",
+          "Elongated, claw-like hand(s) and/or feet"
+        ],
+        [
+          "3",
+          "Painful green scales randomly embedded in skin"
+        ],
+        [
+          "4",
+          "Bulbous, reptilian eye(s)"
+        ],
+        [
+          "5",
+          "Enlarged dorsal spines"
+        ],
+        [
+          "6",
+          "Hair replaced with small irregular spines"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Disfigurement"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Dragon Casualty Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am driven to escape my past, and rarely stay in one place long."
+        ],
+        [
+          "2",
+          "I know secrets of the Maimed Virulence, but fear the harm that may befall me should others learn them."
+        ],
+        [
+          "3",
+          "Speaking of my ordeal helps soothe the still open wounds in my soul."
+        ],
+        [
+          "4",
+          "My former life is meaningless, and was ripped to shreds by the claws of Vorgansharax. All that matters now is what I do with the future."
+        ],
+        [
+          "5",
+          "I have faced the worst a dragon can deliver and survived. I am fearless, and my resolve unshakable."
+        ],
+        [
+          "6",
+          "I am haunted by my tortured past, and wake at night screaming at half-remembered horrors."
+        ],
+        [
+          "7",
+          "I sleep with my back to a wall or tree, and a weapon within arm’s reach."
+        ],
+        [
+          "8",
+          "I am slow to trust, but incredibly loyal to those who have earned it."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Dragon Casualty Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Survivor. No matter the cost, I will take any action necessary to survive. (Any)"
+        ],
+        [
+          "2",
+          "Independence. When in trouble, the only person I can rely on is myself. (Chaotic)"
+        ],
+        [
+          "3",
+          "Compassionate. I have suffered long at the hands of a Dragon, and take pity and compassion on the suffering of others. (Good)"
+        ],
+        [
+          "4",
+          "Secretive. I am withdrawn, and hide my monstrous appearance for fear of drawing unwanted attention. (Chaotic)"
+        ],
+        [
+          "5",
+          "Justice. I have been wronged, and will not allow the same fate to befall others. (Lawful)"
+        ],
+        [
+          "6",
+          "Sycophant. During my ordeal, I became a willing servant of the Maimed Virulence, and spy on his behalf. (Evil)"
+        ]
+      ],
+      "headers": [
+        "d6"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Dragon Casualty Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I have sworn vengeance on the Maimed Virulence and those that follow him."
+        ],
+        [
+          "2",
+          "I long to reunite with friends and family who may dwell among the Phlan Refugees, and protect them."
+        ],
+        [
+          "3",
+          "While a prisoner of the Maimed Virulence, I overheard rumors of an item or treasure the Dragon seeks. I will have that treasure for myself!"
+        ],
+        [
+          "4",
+          "I seek to reclaim and rebuild my former life to the best of my ability."
+        ],
+        [
+          "5",
+          "I have been reborn as a child of Vorgansharax. I will claim my birthright as his chosen heir and successor."
+        ],
+        [
+          "6",
+          "I attribute my survival to the work of the divine, and seek to prove myself worthy of the honor."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Dragon Casualty Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I have been touched with dragon-greed, and have a lust for wealth which can never be satisfied."
+        ],
+        [
+          "2",
+          "I secretly believe others are plotting to harm me."
+        ],
+        [
+          "3",
+          "I no longer enjoy the simple pleasures in life. Food is but ashes and bile in my throat."
+        ],
+        [
+          "4",
+          "Anyone who refuses to celebrate my celebrity does not deserve my company."
+        ],
+        [
+          "5",
+          "I am paranoid and overly suspicious of others. Anyone may be an agent of the Maimed Virulence."
+        ],
+        [
+          "6",
+          "Once I make up my mind, I follow my chosen course of action regardless of the consequences."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "When the Maimed Virulence descended upon Phlan, you were one of the unfortunate casualties of war.",
+  "tags": [
+    "category:al-curse-of-strahd",
+    "has:equipment",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

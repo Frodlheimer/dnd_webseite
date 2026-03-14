@@ -1,0 +1,573 @@
+{
+  "id": "gruul-anarch",
+  "slug": "gruul-anarch",
+  "name": "Gruul Anarch",
+  "aliases": [
+    "Gruul Anarch"
+  ],
+  "categories": [
+    "Ravnica"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Animal Handling",
+      "Athletics"
+    ],
+    "tools": [
+      "Herbalism kit"
+    ],
+    "languages": [
+      "Choose one of Draconic",
+      "Giant"
+    ],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Goblin",
+        "Sylvan"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "Gruul insignia",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "hunting trap",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "herbalism kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "skull of a boar",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "beast-hide cloak",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp (Azorius 1-zino coins)",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A Gruul insignia, a hunting trap, an herbalism kit, the skull of a boar, a beast-hide cloak, a set of traveler's clothes, and a pouch containing 10gp (Azorius 1-zino coins)"
+  },
+  "feature": {
+    "name": "Gruul Guild Spells",
+    "summary": "Prerequisite: Spellcasting or Pact Magic class feature For you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class.",
+    "rulesText": "Gruul Guild Spells\nPrerequisite: Spellcasting or Pact Magic class feature\nFor you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nGruul Guild Spells\nFire Bolt, Produce Flame\nCompelled Duel, Speak With Animals, Thunderwave\nBeast Sense, Shatter\nConjure Animals, Conjure Barrage\nDominate Beast, Stoneskin\nDestructive Wave\nFueled by the fire of rage burning in your heart, your magic is almost always accompanied by fiery effects, such as flames smoldering behind your eyes or dancing over your hands."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Animal Handling, Athletics"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Herbalism Kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Choose one of Draconic, Giant, Goblin, or Sylvan"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A Gruul insignia, a hunting trap, an herbalism kit, the skull of a boar, a beast-hide cloak, a set of traveler's clothes, and a pouch containing 10gp (Azorius 1-zino coins)"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "rubblebelt-refuge-4",
+      "title": "Rubblebelt Refuge",
+      "kind": "feature",
+      "text": "You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day."
+    },
+    {
+      "id": "gruul-guild-spells-6",
+      "title": "Gruul Guild Spells",
+      "kind": "feature",
+      "text": "Prerequisite: Spellcasting or Pact Magic class feature\nFor you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nGruul Guild Spells\nFire Bolt, Produce Flame\nCompelled Duel, Speak With Animals, Thunderwave\nBeast Sense, Shatter\nConjure Animals, Conjure Barrage\nDominate Beast, Stoneskin\nDestructive Wave\nFueled by the fire of rage burning in your heart, your magic is almost always accompanied by fiery effects, such as flames smoldering behind your eyes or dancing over your hands."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Gruul ways aren't the ways of civilized folk, and the Gruul have little patience for social niceties. But they do have cherished traditions and values, just as important to them as the different values held by the urban, cosmopolitan culture of Ravnica."
+    },
+    {
+      "id": "personality-traits-14",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "Unlike people, the beasts of the wild are friends who won't stab me in the back.\nGo ahead and insult me - I dare you.\nI scorn those who can't survive away from the comforts of the city.\nDon't tell me I'm not allowed to do something.\nLaws are for people who are afraid to face their inner beasts.\nI smear the blood of my enemies over my skin.\nI was, in fact, raised by maaka.\nHarrRRAAGGHH! [I rarely form a coherent sentence and prefer to express myself by breaking things.]"
+    },
+    {
+      "id": "ideals-16",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Clan. My clan is all that really matters. (Any)\nAnarchy. No person or law or custom can tell another what to do. (Chaotic)\nNature. We weren't born tame or domesticated, so we shouldn't have to live that way. (Neutral)\nMight. The strongest are meant to dominate the weak. (Evil)\nRage. AAAAAARRRRggggh! [To live is to feel and express the rage burning in your belly.] (Chaotic)\nTradition. The Old Ways must be preserved and upheld. (Any)"
+    },
+    {
+      "id": "bonds-18",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I am determined that one day I will lead my clan - or a new one.\nI would give my life for my clan chieftain.\nThe chieftain of another clan has a grudge against me.\nI am devoted to a sacred site in the midst of the rubblebelt.\nMy weapon is made from the first raktusk I ever hunted.\nGrrrRRAAAAGGHH! [I will do anything to prove myself greater than my siblings or ancestors.]"
+    },
+    {
+      "id": "flaws-20",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "If you question my courage, I will never back down.\nHrrrGGGAAAARRuuuh! [My anger in battle led to the death of a loved one.]\nI'm as stubborn as a batterboar.\nI'm so convinced of my superiority over soft, civilized people that I'll take great risks to prove it.\nI'm easily manipulated by people I find attractive.\nI'm not actually all that angry."
+    },
+    {
+      "id": "contacts-22",
+      "title": "Contacts",
+      "kind": "other",
+      "text": "The members of the Gruul Clans rely on each other even as they vie for territory and glory. Their encounters with members of other guilds are more often violent than friendly, but occasional bonds do form.\nRoll twice on the Gruul Contacts table (for an ally and a rival) and once on the Non-Gruul Contacts table."
+    },
+    {
+      "id": "gruul-contacts-25",
+      "title": "Gruul Contacts",
+      "kind": "other",
+      "text": "One of my parents is a renowned warrior in my clan.\nMy sibling has the ear of the clan chief.\nI have cousins in a different clan.\nWhen we were younger, I was romantically involved with a prominent warrior in my clan.\nA druid in my clan believes I have a destiny to fulfill.\nThe warrior who trained me remembers me for my exceptional potential.\nMy clan chief killed one of my parents, who had challenged the chief for leadership of the clan. Some combination of resentment and remorse stirs the clan chief to help me sometimes.\nI made a strong impression on Borborygmos."
+    },
+    {
+      "id": "non-gruul-contacts-27",
+      "title": "Non-Gruul Contacts",
+      "kind": "other",
+      "text": "An Azorius arrester thinks I can be reformed.\nA Boros soldier gives me gifts in exchange for information about other clans' movements.\nI once caught and released a Dimir spy.\nI consult with a Golgari shaman for spiritual guidance at times.\nRoll an additional Gruul contact; you can decide if the contact is an ally or a rival.\nAn Izzet scientist blames the Gruul for the destruction of his life's work in a raid, but seems to think that I'm not like other Gruul.\nI foolishly borrowed money from an Orzhov syndic to indulge a shameful vice.\nA close friend left our clan and joined the Cult of Rakdos.\nA distant relative is trying to recruit me into the Selesnya Conclave.\nI stopped a Simic biomancer from trapping wild beasts to perform vile experiments on them."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The entire world of Ravnica is a sprawling metropolis, but you are a native of the wild areas that still exist - the abandoned districts, the rubblebelts, the overgrown parks, and the crumbling ruins. You are part of a savage society that clings desperately to the Old Ways - attuned to nature, full of primal rage, and given short shrift by a world consumed with continuing civilization's march of progress."
+    },
+    {
+      "type": "p",
+      "text": "Source: Guildmaster's Guide to Ravnica"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Animal Handling, Athletics\nTool Proficiencies: Herbalism Kit\nLanguages: Choose one of Draconic, Giant, Goblin, or Sylvan\nEquipment: A Gruul insignia, a hunting trapValue:5gp Weight:25lbs, an herbalism kitValue:5gp Weight:3lbs, the skull of a boar, a beast-hide cloak, a set of traveler's clothesValue:2gp Weight:4lbs, and a pouchValue:5sp Weight:1lb containing 10gp (Azorius 1-zino coins)"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Rubblebelt Refuge"
+    },
+    {
+      "type": "p",
+      "text": "You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day."
+    },
+    {
+      "type": "h2",
+      "text": "Gruul Guild Spells"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Spellcasting or Pact Magic class feature"
+    },
+    {
+      "type": "p",
+      "text": "For you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "p",
+      "text": "Gruul Guild Spells"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Cantrip",
+          "Fire Bolt, Produce Flame"
+        ],
+        [
+          "1st",
+          "Compelled Duel, Speak With Animals, Thunderwave"
+        ],
+        [
+          "2nd",
+          "Beast Sense, Shatter"
+        ],
+        [
+          "3rd",
+          "Conjure Animals, Conjure Barrage"
+        ],
+        [
+          "4th",
+          "Dominate Beast, Stoneskin"
+        ],
+        [
+          "5th",
+          "Destructive Wave"
+        ]
+      ],
+      "headers": [
+        "Spell Level",
+        "Spell"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fueled by the fire of rage burning in your heart, your magic is almost always accompanied by fiery effects, such as flames smoldering behind your eyes or dancing over your hands."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Gruul ways aren't the ways of civilized folk, and the Gruul have little patience for social niceties. But they do have cherished traditions and values, just as important to them as the different values held by the urban, cosmopolitan culture of Ravnica."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Unlike people, the beasts of the wild are friends who won't stab me in the back."
+        ],
+        [
+          "2",
+          "Go ahead and insult me - I dare you."
+        ],
+        [
+          "3",
+          "I scorn those who can't survive away from the comforts of the city."
+        ],
+        [
+          "4",
+          "Don't tell me I'm not allowed to do something."
+        ],
+        [
+          "5",
+          "Laws are for people who are afraid to face their inner beasts."
+        ],
+        [
+          "6",
+          "I smear the blood of my enemies over my skin."
+        ],
+        [
+          "7",
+          "I was, in fact, raised by maaka."
+        ],
+        [
+          "8",
+          "HarrRRAAGGHH! [I rarely form a coherent sentence and prefer to express myself by breaking things.]"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Clan. My clan is all that really matters. (Any)"
+        ],
+        [
+          "2",
+          "Anarchy. No person or law or custom can tell another what to do. (Chaotic)"
+        ],
+        [
+          "3",
+          "Nature. We weren't born tame or domesticated, so we shouldn't have to live that way. (Neutral)"
+        ],
+        [
+          "4",
+          "Might. The strongest are meant to dominate the weak. (Evil)"
+        ],
+        [
+          "5",
+          "Rage. AAAAAARRRRggggh! [To live is to feel and express the rage burning in your belly.] (Chaotic)"
+        ],
+        [
+          "6",
+          "Tradition. The Old Ways must be preserved and upheld. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am determined that one day I will lead my clan - or a new one."
+        ],
+        [
+          "2",
+          "I would give my life for my clan chieftain."
+        ],
+        [
+          "3",
+          "The chieftain of another clan has a grudge against me."
+        ],
+        [
+          "4",
+          "I am devoted to a sacred site in the midst of the rubblebelt."
+        ],
+        [
+          "5",
+          "My weapon is made from the first raktusk I ever hunted."
+        ],
+        [
+          "6",
+          "GrrrRRAAAAGGHH! [I will do anything to prove myself greater than my siblings or ancestors.]"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "If you question my courage, I will never back down."
+        ],
+        [
+          "2",
+          "HrrrGGGAAAARRuuuh! [My anger in battle led to the death of a loved one.]"
+        ],
+        [
+          "3",
+          "I'm as stubborn as a batterboar."
+        ],
+        [
+          "4",
+          "I'm so convinced of my superiority over soft, civilized people that I'll take great risks to prove it."
+        ],
+        [
+          "5",
+          "I'm easily manipulated by people I find attractive."
+        ],
+        [
+          "6",
+          "I'm not actually all that angry."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Contacts"
+    },
+    {
+      "type": "p",
+      "text": "The members of the Gruul Clans rely on each other even as they vie for territory and glory. Their encounters with members of other guilds are more often violent than friendly, but occasional bonds do form."
+    },
+    {
+      "type": "p",
+      "text": "Roll twice on the Gruul Contacts table (for an ally and a rival) and once on the Non-Gruul Contacts table."
+    },
+    {
+      "type": "h2",
+      "text": "Gruul Contacts"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "One of my parents is a renowned warrior in my clan."
+        ],
+        [
+          "2",
+          "My sibling has the ear of the clan chief."
+        ],
+        [
+          "3",
+          "I have cousins in a different clan."
+        ],
+        [
+          "4",
+          "When we were younger, I was romantically involved with a prominent warrior in my clan."
+        ],
+        [
+          "5",
+          "A druid in my clan believes I have a destiny to fulfill."
+        ],
+        [
+          "6",
+          "The warrior who trained me remembers me for my exceptional potential."
+        ],
+        [
+          "7",
+          "My clan chief killed one of my parents, who had challenged the chief for leadership of the clan. Some combination of resentment and remorse stirs the clan chief to help me sometimes."
+        ],
+        [
+          "8",
+          "I made a strong impression on Borborygmos."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Contact"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Non-Gruul Contacts"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "An Azorius arrester thinks I can be reformed."
+        ],
+        [
+          "2",
+          "A Boros soldier gives me gifts in exchange for information about other clans' movements."
+        ],
+        [
+          "3",
+          "I once caught and released a Dimir spy."
+        ],
+        [
+          "4",
+          "I consult with a Golgari shaman for spiritual guidance at times."
+        ],
+        [
+          "5",
+          "Roll an additional Gruul contact; you can decide if the contact is an ally or a rival."
+        ],
+        [
+          "6",
+          "An Izzet scientist blames the Gruul for the destruction of his life's work in a raid, but seems to think that I'm not like other Gruul."
+        ],
+        [
+          "7",
+          "I foolishly borrowed money from an Orzhov syndic to indulge a shameful vice."
+        ],
+        [
+          "8",
+          "A close friend left our clan and joined the Cult of Rakdos."
+        ],
+        [
+          "9",
+          "A distant relative is trying to recruit me into the Selesnya Conclave."
+        ],
+        [
+          "10",
+          "I stopped a Simic biomancer from trapping wild beasts to perform vile experiments on them."
+        ]
+      ],
+      "headers": [
+        "d10",
+        "Contact"
+      ]
+    }
+  ],
+  "summary": "The entire world of Ravnica is a sprawling metropolis, but you are a native of the wild areas that still exist - the abandoned districts, the rubblebelts, the overgrown parks, and the crumbling ruins.",
+  "personality": {
+    "traits": [
+      "Unlike people, the beasts of the wild are friends who won't stab me in the back.",
+      "Go ahead and insult me - I dare you.",
+      "I scorn those who can't survive away from the comforts of the city.",
+      "Don't tell me I'm not allowed to do something.",
+      "Laws are for people who are afraid to face their inner beasts.",
+      "I smear the blood of my enemies over my skin.",
+      "I was, in fact, raised by maaka.",
+      "HarrRRAAGGHH! [I rarely form a coherent sentence and prefer to express myself by breaking things.]"
+    ],
+    "ideals": [
+      "Clan. My clan is all that really matters. (Any)",
+      "Anarchy. No person or law or custom can tell another what to do. (Chaotic)",
+      "Nature. We weren't born tame or domesticated, so we shouldn't have to live that way. (Neutral)",
+      "Might. The strongest are meant to dominate the weak. (Evil)",
+      "Rage. AAAAAARRRRggggh! [To live is to feel and express the rage burning in your belly.] (Chaotic)",
+      "Tradition. The Old Ways must be preserved and upheld. (Any)"
+    ],
+    "bonds": [
+      "I am determined that one day I will lead my clan - or a new one.",
+      "I would give my life for my clan chieftain.",
+      "The chieftain of another clan has a grudge against me.",
+      "I am devoted to a sacred site in the midst of the rubblebelt.",
+      "My weapon is made from the first raktusk I ever hunted.",
+      "GrrrRRAAAAGGHH! [I will do anything to prove myself greater than my siblings or ancestors.]"
+    ],
+    "flaws": [
+      "If you question my courage, I will never back down.",
+      "HrrrGGGAAAARRuuuh! [My anger in battle led to the death of a loved one.]",
+      "I'm as stubborn as a batterboar.",
+      "I'm so convinced of my superiority over soft, civilized people that I'll take great risks to prove it.",
+      "I'm easily manipulated by people I find attractive.",
+      "I'm not actually all that angry."
+    ]
+  },
+  "tags": [
+    "category:ravnica",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

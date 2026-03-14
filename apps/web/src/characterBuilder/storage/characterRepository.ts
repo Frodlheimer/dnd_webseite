@@ -1,7 +1,12 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
 
-import type { CharacterId, CharacterRecord, CharacterSummary } from '../model/character';
-import { createEmptyCharacter } from '../model/character';
+import type { CharacterId, CharacterRecord, CharacterRuleset, CharacterSummary } from '../model/character';
+import {
+  createEmptyCharacter,
+  getOriginModeForRuleset,
+  getSourceScopeForRuleset,
+  normalizeCharacterRuleset
+} from '../model/character';
 
 const DB_NAME = 'dnd-vtt-characters-v1';
 const DB_VERSION = 1;
@@ -46,6 +51,82 @@ type CharactersDb = DBSchema & {
 
 const cloneCharacter = (character: CharacterRecord): CharacterRecord => {
   return structuredClone(character);
+};
+
+const normalizeStringArray = (value: unknown): string[] => {
+  return Array.isArray(value)
+    ? value.filter((entry): entry is string => typeof entry === 'string' && entry.trim().length > 0)
+    : [];
+};
+
+const normalizeCharacter = (character: CharacterRecord): CharacterRecord => {
+  const next = cloneCharacter(character) as CharacterRecord & {
+    ruleset?: unknown;
+    origin: CharacterRecord['origin'] & {
+      selectedLanguages?: unknown;
+      selectedToolProficiencies?: unknown;
+      subraceId?: unknown;
+      selectedRaceLanguages?: unknown;
+      selectedBackgroundLanguages?: unknown;
+      selectedRaceToolProficiencies?: unknown;
+      selectedBackgroundToolProficiencies?: unknown;
+      selectedRaceSkills?: unknown;
+      selectedBackgroundSkills?: unknown;
+    };
+    derived: CharacterRecord['derived'] & {
+      senses?: Partial<CharacterRecord['derived']['senses']>;
+      defenses?: Partial<CharacterRecord['derived']['defenses']>;
+      raceTraitNames?: unknown;
+      backgroundFeatureName?: unknown;
+      backgroundFeatureText?: unknown;
+    };
+  };
+
+  const ruleset = normalizeCharacterRuleset(next.ruleset, next.origin.mode);
+  next.ruleset = ruleset;
+  next.meta = {
+    ...next.meta,
+    sourceScope: getSourceScopeForRuleset(ruleset)
+  };
+
+  next.origin = {
+    ...next.origin,
+    mode: getOriginModeForRuleset(ruleset),
+    subraceId: typeof next.origin.subraceId === 'string' ? next.origin.subraceId : null,
+    selectedRaceLanguages: normalizeStringArray(next.origin.selectedRaceLanguages),
+    selectedBackgroundLanguages: normalizeStringArray(
+      next.origin.selectedBackgroundLanguages ?? next.origin.selectedLanguages
+    ),
+    selectedRaceToolProficiencies: normalizeStringArray(next.origin.selectedRaceToolProficiencies),
+    selectedBackgroundToolProficiencies: normalizeStringArray(
+      next.origin.selectedBackgroundToolProficiencies ?? next.origin.selectedToolProficiencies
+    ),
+    selectedRaceSkills: normalizeStringArray(next.origin.selectedRaceSkills),
+    selectedBackgroundSkills: normalizeStringArray(next.origin.selectedBackgroundSkills)
+  };
+
+  next.derived = {
+    ...next.derived,
+    senses: {
+      darkvision: next.derived.senses?.darkvision ?? null,
+      blindsight: next.derived.senses?.blindsight ?? null,
+      tremorsense: next.derived.senses?.tremorsense ?? null,
+      truesight: next.derived.senses?.truesight ?? null
+    },
+    defenses: {
+      resistances: normalizeStringArray(next.derived.defenses?.resistances),
+      immunities: normalizeStringArray(next.derived.defenses?.immunities),
+      conditionImmunities: normalizeStringArray(next.derived.defenses?.conditionImmunities),
+      savingThrowAdvantages: normalizeStringArray(next.derived.defenses?.savingThrowAdvantages)
+    },
+    raceTraitNames: normalizeStringArray(next.derived.raceTraitNames),
+    backgroundFeatureName:
+      typeof next.derived.backgroundFeatureName === 'string' ? next.derived.backgroundFeatureName : null,
+    backgroundFeatureText:
+      typeof next.derived.backgroundFeatureText === 'string' ? next.derived.backgroundFeatureText : null
+  };
+
+  return next;
 };
 
 const createSnapshotId = (): string => {
@@ -129,18 +210,18 @@ export class CharacterRepository {
   async listCharacters(): Promise<CharacterRecord[]> {
     const db = await this.dbPromise;
     const rows = await db.getAll('characters');
-    return rows.sort((a, b) => b.updatedAt - a.updatedAt).map((row) => cloneCharacter(row));
+    return rows.sort((a, b) => b.updatedAt - a.updatedAt).map((row) => normalizeCharacter(row));
   }
 
   async getCharacter(id: CharacterId): Promise<CharacterRecord | null> {
     const db = await this.dbPromise;
     const row = await db.get('characters', id);
-    return row ? cloneCharacter(row) : null;
+    return row ? normalizeCharacter(row) : null;
   }
 
-  async createCharacter(): Promise<CharacterRecord> {
+  async createCharacter(ruleset?: CharacterRuleset): Promise<CharacterRecord> {
     const db = await this.dbPromise;
-    const character = createEmptyCharacter();
+    const character = normalizeCharacter(createEmptyCharacter(ruleset));
     await db.put('characters', cloneCharacter(character));
     await db.put('characterIndex', {
       characterId: character.id,
@@ -154,7 +235,7 @@ export class CharacterRepository {
     const db = await this.dbPromise;
     const now = Date.now();
     const next: CharacterRecord = {
-      ...cloneCharacter(character),
+      ...normalizeCharacter(character),
       updatedAt: now
     };
     await db.put('characters', next);
@@ -222,7 +303,7 @@ export class CharacterRepository {
     }
 
     const now = Date.now();
-    const duplicate = createEmptyCharacter();
+    const duplicate = createEmptyCharacter(source.ruleset);
     duplicate.createdAt = now;
     duplicate.updatedAt = now;
     duplicate.meta = {
@@ -318,7 +399,7 @@ export class CharacterRepository {
       return null;
     }
     const latest = rows.sort((a, b) => b.createdAt - a.createdAt)[0];
-    return latest ? cloneCharacter(latest.state) : null;
+    return latest ? normalizeCharacter(latest.state) : null;
   }
 }
 

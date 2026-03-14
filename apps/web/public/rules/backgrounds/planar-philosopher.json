@@ -1,0 +1,346 @@
+{
+  "id": "planar-philosopher",
+  "slug": "planar-philosopher",
+  "name": "Planar Philosopher",
+  "aliases": [
+    "Planar Philosopher"
+  ],
+  "categories": [
+    "Planescape"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Arcana",
+      "skill associated with your faction (see the Sigil Faction Affinities table)",
+      "one skill of your choice."
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "manifesto of your guiding philosophy",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes in your faction's style",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10 gp worth of coins from different worlds and planes",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "portal key (such as a bag of golden tea leaves",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "tooth of a planar beast)",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "A portal key (such as a bag of golden tea leaves or the tooth of a planar beast)"
+      }
+    ],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of common clothes in your faction's style, and a pouch containing 10 gp worth of coins from different worlds and planes."
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Arcana, the skill associated with your faction (see the Sigil Faction Affinities table) or one skill of your choice."
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of common clothes in your faction's style, and a pouch containing 10 gp worth of coins from different worlds and planes."
+    },
+    {
+      "id": "factions-of-sigil-6",
+      "title": "Factions of Sigil",
+      "kind": "other",
+      "text": "Twelve Factions have risen to prominence in the City of Doors, though many more exist. Your character might belong to one of these groups or another ideological faction, perhaps one of your own creation. The primary factions of Sigil adhere to the following philosophies:\nAthar. Deities are frauds and merely channel the might of a true, higher power. Bleak Cabal. There is no greater truth to the multiverse. Each being must discover their own meaning. Doomguard. Nothing lasts forever. The purpose of everything is to crumble and decay. Fated. Everyone makes their own fate and is entitled to whatever they can take and hold. Fraternity of Order. All of existence is governed by laws, and power comes from understanding and exploiting them. Hands of Havoc. Those who try to impose a single order on the multiverse are doomed to fail. Harmonium. The multiverse will be perfect only when everything is in harmony, whether it wants to or not. Heralds of Dust. Everyone is already dead; the entirety of the multiverse is an afterlife. Undeath holds the key to the next stage of existence. Mercykillers. Cold, relentless justice is absolute, and no one is above it. Mind's Eye. The multiverse exists to be explored. It shapes us, and we shape it in turn. Society of Sensation. Sensation is the proof of existence. By experiencing everything, we can understand the multiverse in all its complexity. Transcendent Order. Thought clouds action. To fall in step with the multiverse, one must act on instinct alone."
+    },
+    {
+      "id": "feature-9",
+      "title": "Feature:",
+      "kind": "feature"
+    },
+    {
+      "id": "conviction-10",
+      "title": "Conviction",
+      "kind": "feature",
+      "text": "You gain the Scion of the Outer Planes feat. In addition, members of your organization provide you free, modest lodging and food at any of their holdings or the homes of other faction members."
+    },
+    {
+      "id": "building-a-planar-philosopher-character-12",
+      "title": "Building a Planar Philosopher Character",
+      "kind": "other",
+      "text": "Some groups of planar philosophers might prefer certain types of characters, but by and large any character who upholds and furthers the beliefs of such a group is welcome within its ranks.\nSuggested Characteristics. Adventurers who dedicate themselves to a particular philosophy regarding the multiverse are welcomed among factions that embrace those beliefs. The Planar Philosopher Personality Traits table suggests various traits you might adopt for your character."
+    },
+    {
+      "id": "planar-philosopher-personality-traits-15",
+      "title": "Planar Philosopher Personality Traits",
+      "kind": "personality",
+      "text": "I don't venerate any gods. With time, we can be as powerful as them or greater.\nExperience is everything, live in the moment.\nWhen things crumble, I find meaning in the dust.\nLife thrives through order; and I seek to maintain that order.\nWhen others make plans, the multiverse laughs and so do I.\nI know what’s right, and no one will stand in my way.\nPlanar Philosopher Trinkets. When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "planar-philosopher-trinkets-18",
+      "title": "Planar Philosopher Trinkets",
+      "kind": "other",
+      "text": "A locket with a picture of my mentor and an inscription I can’t read\nA bleached cranium rat skull with colored glass beads in its eye sockets.\nA torn parchment with half a rebus puzzle painted on it\nA bracelet of twisted razorvine stems\nFragments of a bronze blade covered in verdigris\nA broken holy symbol of a forgotten god"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded thinkers, such as the factions of Sigil (summarized below). In your travels, you explore the depths of your understanding and spread your philosophy wherever you go."
+    },
+    {
+      "type": "p",
+      "text": "Source: Planescape - Adventures in the Multiverse"
+    },
+    {
+      "type": "p",
+      "text": "Prerequisite: Planescape Campaign."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Arcana, the skill associated with your faction (see the Sigil Faction Affinities table) or one skill of your choice.\nLanguages: Two of your choice\nEquipment: A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of common clothesValue: 5sp Weight: 3lbs in your faction's style, and a pouchValue: 5sp Weight: 1lb containing 10 gp worth of coins from different worlds and planes."
+    },
+    {
+      "type": "p",
+      "text": "Sigil Faction Affinities"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Athar",
+          "Religion"
+        ],
+        [
+          "Bleak Cabal",
+          "Insight"
+        ],
+        [
+          "Doomguard",
+          "Nature"
+        ],
+        [
+          "Fated",
+          "Intimidation"
+        ],
+        [
+          "Fraternity of Order",
+          "History"
+        ],
+        [
+          "Hands of Havoc",
+          "Stealth"
+        ],
+        [
+          "Harmonium",
+          "Perception"
+        ],
+        [
+          "Heralds of Dust",
+          "Medicine"
+        ],
+        [
+          "Mercykillers",
+          "Survival"
+        ],
+        [
+          "Mind's Eye",
+          "Persuasion"
+        ],
+        [
+          "Society of Sensation",
+          "Performance"
+        ],
+        [
+          "Transcendent Order",
+          "Athletics"
+        ]
+      ],
+      "headers": [
+        "Faction",
+        "Skill"
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Factions of Sigil"
+    },
+    {
+      "type": "p",
+      "text": "Twelve Factions have risen to prominence in the City of Doors, though many more exist. Your character might belong to one of these groups or another ideological faction, perhaps one of your own creation.\nThe primary factions of Sigil adhere to the following philosophies:"
+    },
+    {
+      "type": "p",
+      "text": "Athar. Deities are frauds and merely channel the might of a true, higher power.\nBleak Cabal. There is no greater truth to the multiverse. Each being must discover their own meaning.\nDoomguard. Nothing lasts forever. The purpose of everything is to crumble and decay.\nFated. Everyone makes their own fate and is entitled to whatever they can take and hold.\nFraternity of Order. All of existence is governed by laws, and power comes from understanding and exploiting them.\nHands of Havoc. Those who try to impose a single order on the multiverse are doomed to fail.\nHarmonium. The multiverse will be perfect only when everything is in harmony, whether it wants to or not.\nHeralds of Dust. Everyone is already dead; the entirety of the multiverse is an afterlife. Undeath holds the key to the next stage of existence.\nMercykillers. Cold, relentless justice is absolute, and no one is above it.\nMind's Eye. The multiverse exists to be explored. It shapes us, and we shape it in turn.\nSociety of Sensation. Sensation is the proof of existence. By experiencing everything, we can understand the multiverse in all its complexity.\nTranscendent Order. Thought clouds action. To fall in step with the multiverse, one must act on instinct alone."
+    },
+    {
+      "type": "h1",
+      "text": "Feature:"
+    },
+    {
+      "type": "h2",
+      "text": "Conviction"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Scion of the Outer Planes feat. In addition, members of your organization provide you free, modest lodging and food at any of their holdings or the homes of other faction members."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Planar Philosopher Character"
+    },
+    {
+      "type": "p",
+      "text": "Some groups of planar philosophers might prefer certain types of characters, but by and large any character who upholds and furthers the beliefs of such a group is welcome within its ranks."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics.\nAdventurers who dedicate themselves to a particular philosophy regarding the multiverse are welcomed among factions that embrace those beliefs. The Planar Philosopher Personality Traits table suggests various traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Planar Philosopher Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I don't venerate any gods. With time, we can be as powerful as them or greater."
+        ],
+        [
+          "2",
+          "Experience is everything, live in the moment."
+        ],
+        [
+          "3",
+          "When things crumble, I find meaning in the dust."
+        ],
+        [
+          "4",
+          "Life thrives through order; and I seek to maintain that order."
+        ],
+        [
+          "5",
+          "When others make plans, the multiverse laughs and so do I."
+        ],
+        [
+          "6",
+          "I know what’s right, and no one will stand in my way."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Planar Philosopher Trinkets.\nWhen you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Planar Philosopher Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A locket with a picture of my mentor and an inscription I can’t read"
+        ],
+        [
+          "2",
+          "A bleached cranium rat skull with colored glass beads in its eye sockets."
+        ],
+        [
+          "3",
+          "A torn parchment with half a rebus puzzle painted on it"
+        ],
+        [
+          "4",
+          "A bracelet of twisted razorvine stems"
+        ],
+        [
+          "5",
+          "Fragments of a bronze blade covered in verdigris"
+        ],
+        [
+          "6",
+          "A broken holy symbol of a forgotten god"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse.",
+  "tags": [
+    "category:planescape",
+    "has:choice",
+    "has:equipment",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

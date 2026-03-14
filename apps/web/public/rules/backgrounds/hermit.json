@@ -1,0 +1,472 @@
+{
+  "id": "hermit",
+  "slug": "hermit",
+  "name": "Hermit",
+  "aliases": [
+    "Hermit"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Medicine",
+      "Religion"
+    ],
+    "tools": [
+      "Herbalism kit"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "winter blanket",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "herbalism kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "5gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "scroll case stuffed full of notes from your studies",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "prayers",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "A scroll case stuffed full of notes from your studies or prayers"
+      }
+    ],
+    "coins": {
+      "gp": 5
+    },
+    "rawText": "A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5gp"
+  },
+  "feature": {
+    "name": "Discovery",
+    "summary": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery.",
+    "rulesText": "Discovery\nThe quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.\nWork with your DM to determine the details of your discovery and its impact on the campaign."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Medicine, Religion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Herbalism kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5gp"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "life-of-seclusion-4",
+      "title": "Life of Seclusion",
+      "kind": "feature",
+      "text": "What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose to roll on the table below to determine the reason behind your seclusion.\nI was searching for spiritual enlightenment.\nI was partaking of communal living in accordance with the dictates of a religious order.\nI was exiled for a crime I didn't commit.\nI retreated from society after a life-altering event.\nI needed a quiet place to work on my art, literature, music, or manifesto.\nI needed to commune with nature, far from civilization.\nI was the caretaker of an ancient ruin or relic.\nI was a pilgrim in search of a person, place, or relic of spiritual significance."
+    },
+    {
+      "id": "discovery-7",
+      "title": "Discovery",
+      "kind": "feature",
+      "text": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.\nWork with your DM to determine the details of your discovery and its impact on the campaign."
+    },
+    {
+      "id": "suggested-characteristics-10",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society."
+    },
+    {
+      "id": "personality-traits-12",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.\nI am utterly serene, even in the face of disaster.\nThe leader of my community had something wise to say on every topic, and I am eager to share that wisdom.\nI feel tremendous empathy for all who suffer.\nI'm oblivious to etiquette and social expectations.\nI connect everything that happens to me to a grand, cosmic plan.\nI often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.\nI am working on a grand philosophical theory and love sharing my ideas."
+    },
+    {
+      "id": "ideals-14",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)\nLogic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)\nFree Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)\nPower. Solitude and contemplation are paths toward mystical or magical power. (Evil)\nLive and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)\nSelf-Knowledge. If you know yourself, there's nothing left to know. (Any)"
+    },
+    {
+      "id": "bonds-16",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "Nothing is more important than the other members of my hermitage, order, or association.\nI entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.\nI'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me.\nI entered seclusion because I loved someone I could not have.\nShould my discovery come to light, it could bring ruin to the world.\nMy isolation gave me great insight into a great evil that only I can destroy."
+    },
+    {
+      "id": "flaws-18",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "Now that I've returned to the world, I enjoy its delights a little too much.\nI harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.\nI am dogmatic in my thoughts and philosophy.\nI let my need to win arguments overshadow friendships and harmony.\nI'd risk too much to uncover a lost bit of knowledge.\nI like keeping secrets and won't share them with anyone."
+    },
+    {
+      "id": "other-hermits-20",
+      "title": "Other Hermits",
+      "kind": "other",
+      "text": "This hermit background assumes a contemplative sort of seclusion that allows room for study and prayer. If you want to play a rugged wilderness recluse who lives off the land while shunning the company of other people, look at the Outlander background. On the other hand, if you want to go in a more religious direction, the Acolyte might be what you're looking for. Or you could even be a Charlatan, posing as a wise and holy person and letting pious fools support you."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You lived in seclusion – either in a sheltered community such as a monastery, or entirely alone – for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Medicine, Religion\nTool Proficiencies: Herbalism kit\nLanguages: One of your choice\nEquipment: A scroll caseValue:1gp Weight:1lb stuffed full of notes from your studies or prayers, a winter blanketValue:5sp Weight:3lbs, a set of common clothesValue:5sp Weight:3lbs, an herbalism kitValue:5gp Weight:3lbs, and 5gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Life of Seclusion"
+    },
+    {
+      "type": "p",
+      "text": "What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose to roll on the table below to determine the reason behind your seclusion."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I was searching for spiritual enlightenment."
+        ],
+        [
+          "2",
+          "I was partaking of communal living in accordance with the dictates of a religious order."
+        ],
+        [
+          "3",
+          "I was exiled for a crime I didn't commit."
+        ],
+        [
+          "4",
+          "I retreated from society after a life-altering event."
+        ],
+        [
+          "5",
+          "I needed a quiet place to work on my art, literature, music, or manifesto."
+        ],
+        [
+          "6",
+          "I needed to commune with nature, far from civilization."
+        ],
+        [
+          "7",
+          "I was the caretaker of an ancient ruin or relic."
+        ],
+        [
+          "8",
+          "I was a pilgrim in search of a person, place, or relic of spiritual significance."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Life of Seclusion"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Discovery"
+    },
+    {
+      "type": "p",
+      "text": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society."
+    },
+    {
+      "type": "p",
+      "text": "Work with your DM to determine the details of your discovery and its impact on the campaign."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt."
+        ],
+        [
+          "2",
+          "I am utterly serene, even in the face of disaster."
+        ],
+        [
+          "3",
+          "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom."
+        ],
+        [
+          "4",
+          "I feel tremendous empathy for all who suffer."
+        ],
+        [
+          "5",
+          "I'm oblivious to etiquette and social expectations."
+        ],
+        [
+          "6",
+          "I connect everything that happens to me to a grand, cosmic plan."
+        ],
+        [
+          "7",
+          "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings."
+        ],
+        [
+          "8",
+          "I am working on a grand philosophical theory and love sharing my ideas."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)"
+        ],
+        [
+          "2",
+          "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)"
+        ],
+        [
+          "3",
+          "Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)"
+        ],
+        [
+          "4",
+          "Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)"
+        ],
+        [
+          "5",
+          "Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)"
+        ],
+        [
+          "6",
+          "Self-Knowledge. If you know yourself, there's nothing left to know. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Nothing is more important than the other members of my hermitage, order, or association."
+        ],
+        [
+          "2",
+          "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them."
+        ],
+        [
+          "3",
+          "I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me."
+        ],
+        [
+          "4",
+          "I entered seclusion because I loved someone I could not have."
+        ],
+        [
+          "5",
+          "Should my discovery come to light, it could bring ruin to the world."
+        ],
+        [
+          "6",
+          "My isolation gave me great insight into a great evil that only I can destroy."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Now that I've returned to the world, I enjoy its delights a little too much."
+        ],
+        [
+          "2",
+          "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell."
+        ],
+        [
+          "3",
+          "I am dogmatic in my thoughts and philosophy."
+        ],
+        [
+          "4",
+          "I let my need to win arguments overshadow friendships and harmony."
+        ],
+        [
+          "5",
+          "I'd risk too much to uncover a lost bit of knowledge."
+        ],
+        [
+          "6",
+          "I like keeping secrets and won't share them with anyone."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Other Hermits"
+    },
+    {
+      "type": "p",
+      "text": "This hermit background assumes a contemplative sort of seclusion that allows room for study and prayer. If you want to play a rugged wilderness recluse who lives off the land while shunning the company of other people, look at the Outlander background. On the other hand, if you want to go in a more religious direction, the Acolyte might be what you're looking for. Or you could even be a Charlatan, posing as a wise and holy person and letting pious fools support you."
+    }
+  ],
+  "summary": "You lived in seclusion – either in a sheltered community such as a monastery, or entirely alone – for a formative part of your life.",
+  "personality": {
+    "traits": [
+      "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.",
+      "I am utterly serene, even in the face of disaster.",
+      "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.",
+      "I feel tremendous empathy for all who suffer.",
+      "I'm oblivious to etiquette and social expectations.",
+      "I connect everything that happens to me to a grand, cosmic plan.",
+      "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.",
+      "I am working on a grand philosophical theory and love sharing my ideas."
+    ],
+    "ideals": [
+      "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
+      "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)",
+      "Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)",
+      "Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)",
+      "Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)",
+      "Self-Knowledge. If you know yourself, there's nothing left to know. (Any)"
+    ],
+    "bonds": [
+      "Nothing is more important than the other members of my hermitage, order, or association.",
+      "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.",
+      "I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",
+      "I entered seclusion because I loved someone I could not have.",
+      "Should my discovery come to light, it could bring ruin to the world.",
+      "My isolation gave me great insight into a great evil that only I can destroy."
+    ],
+    "flaws": [
+      "Now that I've returned to the world, I enjoy its delights a little too much.",
+      "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.",
+      "I am dogmatic in my thoughts and philosophy.",
+      "I let my need to win arguments overshadow friendships and harmony.",
+      "I'd risk too much to uncover a lost bit of knowledge.",
+      "I like keeping secrets and won't share them with anyone."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "id": "house-agent",
+  "slug": "house-agent",
+  "name": "House Agent",
+  "aliases": [
+    "House Agent"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Investigation",
+      "Persuasion"
+    ],
+    "tools": [
+      "Two proficiencies from the House Tool Proficiencies table"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "signet ring of your house",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "identification papers",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "purse containing 20gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 20
+    },
+    "rawText": "A set of fine clothes, the signet ring of your house, identification papers, and a purse containing 20gp"
+  },
+  "feature": {
+    "name": "House Connection",
+    "summary": "As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave.",
+    "rulesText": "House Connection\nAs an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Investigation, Persuasion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Two proficiencies from the House Tool Proficiencies table"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of fine clothes, the signet ring of your house, identification papers, and a purse containing 20gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "role-5",
+      "title": "Role",
+      "kind": "feature",
+      "text": "You always gather information for your house, but when a baron gives you a specific mission, what sort of work do you do? The House Agent Role table gives possibilities.\nAcquisition\nInvestigation\nResearch & Development\nSecurity\nIntimidation\nExploration\nNegotiation\nCovert Operations"
+    },
+    {
+      "id": "house-connection-8",
+      "title": "House Connection",
+      "kind": "feature",
+      "text": "As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house."
+    },
+    {
+      "id": "suggested-characteristics-10",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "House agents are diverse. Consider the house you serve and the work you do when choosing characteristics."
+    },
+    {
+      "id": "personality-traits-12",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I'm always looking to improve efficiency.\nI love to share trivia about my house's business.\nI never forget an insult against me or my house.\nI'm enthusiastic about everything my house does.\nI represent my house and take pride in my looks.\nI'm critical of monarchies and limits on the houses."
+    },
+    {
+      "id": "ideals-14",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)\nTradition. I uphold traditions of my house and bring honor to my family. (Lawful)\nInnovation. Abandon old traditions and find better ways to do things. (Chaotic)\nPower. I want to ensure the prosperity of my house and wield its power myself. (Evil)\nDiscovery. I want to learn all I can, both for my house and for my own curiosity. (Any)\nComfort. I want to ensure that me and mine enjoy the best things in life. (Any)"
+    },
+    {
+      "id": "bonds-16",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "My house is my family. I would do anything for it.\nI love someone from another house, but the relationship is forbidden.\nSomeone I love was killed by a rival faction within my house, and I will have revenge.\nI don't care about the house as a whole, but I would do anything for my old mentor.\nMy house must evolve, and I'll lead the evolution.\nI'm determined to impress the leaders of my house, and to become a leader myself."
+    },
+    {
+      "id": "flaws-18",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I'm fixated on following official protocols.\nI'm obsessed with conspiracy theories and worried about secret societies and hidden demons.\nMy house and blood line make me the best!\nMy secret could get me expelled from my house.\nMy religious beliefs aren't widespread in my house.\nI'm working for a hidden faction in my house that gives me secret assignments."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have sworn fealty to a dragonmarked house. If you have a dragonmark, you're likely a member of one of the house's influential families; otherwise you're an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative."
+    },
+    {
+      "type": "p",
+      "text": "Source: Eberron - Rising from the Last War"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Investigation, Persuasion\nTool Proficiencies: Two proficiencies from the House Tool Proficiencies table\nLanguages: None\nEquipment: A set of fine clothesValue:15gp Weight:6lbs, the signet ringValue:5gp Weight:0 of your house, identification papers, and a purse containing 20gp"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Cannith",
+          "Alchemist's supplies and tinker's tools"
+        ],
+        [
+          "Deneith",
+          "One gaming set and vehicles (land)"
+        ],
+        [
+          "Ghallanda",
+          "Brewer's supplies and cook's utensils"
+        ],
+        [
+          "Jorasco",
+          "Alchemist's supplies and herbalism kit"
+        ],
+        [
+          "Kundarak",
+          "Thieves' tools and tinker's tools"
+        ],
+        [
+          "Lyrandar",
+          "Navigator's tools and vehicles (air and sea)"
+        ],
+        [
+          "Medani",
+          "Disguise kit and thieves' tools"
+        ],
+        [
+          "Orien",
+          "One gaming set and vehicles (land)"
+        ],
+        [
+          "Phiarlan",
+          "Disguise kit and one musical instrument"
+        ],
+        [
+          "Sivis",
+          "Calligrapher's tools and forgery kit"
+        ],
+        [
+          "Tharashk",
+          "One gaming set and thieves' tools"
+        ],
+        [
+          "Thuranni",
+          "One musical instrument and poisoner's kit"
+        ],
+        [
+          "Vadalis",
+          "Herbalism kit and vehicles (land)"
+        ]
+      ],
+      "headers": [
+        "Your House",
+        "House Tool Proficiencies"
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Role"
+    },
+    {
+      "type": "p",
+      "text": "You always gather information for your house, but when a baron gives you a specific mission, what sort of work do you do? The House Agent Role table gives possibilities."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Acquisition"
+        ],
+        [
+          "2",
+          "Investigation"
+        ],
+        [
+          "3",
+          "Research & Development"
+        ],
+        [
+          "4",
+          "Security"
+        ],
+        [
+          "5",
+          "Intimidation"
+        ],
+        [
+          "6",
+          "Exploration"
+        ],
+        [
+          "7",
+          "Negotiation"
+        ],
+        [
+          "8",
+          "Covert Operations"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "House Agent Role"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "House Connection"
+    },
+    {
+      "type": "p",
+      "text": "As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "House agents are diverse. Consider the house you serve and the work you do when choosing characteristics."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm always looking to improve efficiency."
+        ],
+        [
+          "2",
+          "I love to share trivia about my house's business."
+        ],
+        [
+          "3",
+          "I never forget an insult against me or my house."
+        ],
+        [
+          "4",
+          "I'm enthusiastic about everything my house does."
+        ],
+        [
+          "5",
+          "I represent my house and take pride in my looks."
+        ],
+        [
+          "6",
+          "I'm critical of monarchies and limits on the houses."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)"
+        ],
+        [
+          "2",
+          "Tradition. I uphold traditions of my house and bring honor to my family. (Lawful)"
+        ],
+        [
+          "3",
+          "Innovation. Abandon old traditions and find better ways to do things. (Chaotic)"
+        ],
+        [
+          "4",
+          "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+        ],
+        [
+          "5",
+          "Discovery. I want to learn all I can, both for my house and for my own curiosity. (Any)"
+        ],
+        [
+          "6",
+          "Comfort. I want to ensure that me and mine enjoy the best things in life. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My house is my family. I would do anything for it."
+        ],
+        [
+          "2",
+          "I love someone from another house, but the relationship is forbidden."
+        ],
+        [
+          "3",
+          "Someone I love was killed by a rival faction within my house, and I will have revenge."
+        ],
+        [
+          "4",
+          "I don't care about the house as a whole, but I would do anything for my old mentor."
+        ],
+        [
+          "5",
+          "My house must evolve, and I'll lead the evolution."
+        ],
+        [
+          "6",
+          "I'm determined to impress the leaders of my house, and to become a leader myself."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm fixated on following official protocols."
+        ],
+        [
+          "2",
+          "I'm obsessed with conspiracy theories and worried about secret societies and hidden demons."
+        ],
+        [
+          "3",
+          "My house and blood line make me the best!"
+        ],
+        [
+          "4",
+          "My secret could get me expelled from my house."
+        ],
+        [
+          "5",
+          "My religious beliefs aren't widespread in my house."
+        ],
+        [
+          "6",
+          "I'm working for a hidden faction in my house that gives me secret assignments."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You have sworn fealty to a dragonmarked house.",
+  "personality": {
+    "traits": [
+      "I'm always looking to improve efficiency.",
+      "I love to share trivia about my house's business.",
+      "I never forget an insult against me or my house.",
+      "I'm enthusiastic about everything my house does.",
+      "I represent my house and take pride in my looks.",
+      "I'm critical of monarchies and limits on the houses."
+    ],
+    "ideals": [
+      "Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)",
+      "Tradition. I uphold traditions of my house and bring honor to my family. (Lawful)",
+      "Innovation. Abandon old traditions and find better ways to do things. (Chaotic)",
+      "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)",
+      "Discovery. I want to learn all I can, both for my house and for my own curiosity. (Any)",
+      "Comfort. I want to ensure that me and mine enjoy the best things in life. (Any)"
+    ],
+    "bonds": [
+      "My house is my family. I would do anything for it.",
+      "I love someone from another house, but the relationship is forbidden.",
+      "Someone I love was killed by a rival faction within my house, and I will have revenge.",
+      "I don't care about the house as a whole, but I would do anything for my old mentor.",
+      "My house must evolve, and I'll lead the evolution.",
+      "I'm determined to impress the leaders of my house, and to become a leader myself."
+    ],
+    "flaws": [
+      "I'm fixated on following official protocols.",
+      "I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+      "My house and blood line make me the best!",
+      "My secret could get me expelled from my house.",
+      "My religious beliefs aren't widespread in my house.",
+      "I'm working for a hidden faction in my house that gives me secret assignments."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

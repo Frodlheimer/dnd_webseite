@@ -1,0 +1,417 @@
+{
+  "id": "volstrucker-agent",
+  "slug": "volstrucker-agent",
+  "name": "Volstrucker Agent",
+  "aliases": [
+    "Volstrucker Agent"
+  ],
+  "categories": [
+    "Wildemount"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Deception",
+      "Stealth"
+    ],
+    "tools": [
+      "Poisoner's Kit"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "black cloak with a hood",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "poisoner's kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A set of common clothes, a black cloak with a hood, a poisoner's kit, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Shadow Network",
+    "summary": "You have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances.",
+    "rulesText": "Shadow Network\nYou have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances. If you write a letter in special arcane ink, address it to a member of the Volstrucker, and cast it into a fire, the letter will burn to cinders and materialize whole again on the person of the agent you addressed it to.\nThe ink used to send a letter across the shadow network is the same as that used by a wizard to scribe spells in a spellbook. Writing a letter in this ink costs 10gp per page."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Deception, Stealth"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Poisoner's Kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of common clothes, a black cloak with a hood, a poisoner's kit, and a pouch containing 10gp"
+    },
+    {
+      "id": "proficiencies-3",
+      "title": "Proficiencies",
+      "kind": "other",
+      "text": "Skill Proficiencies: Deception, Stealth Tool Proficiencies: Poisoner's Kit Languages: One of your choice Equipment: A set of common clothesValue:5sp Weight:3lbs, a black cloak with a hood, a poisoner's kitValue:50gp Weight:2lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "id": "features-5",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "tragedy-6",
+      "title": "Tragedy",
+      "kind": "feature",
+      "text": "Happy people aren't selected to join the Volstrucker. The Cerberus Assembly preys upon talented individuals who have been broken by tragedy - in some cases, tragedy that the Volstrucker has arranged for. A slightly broken mind is more easily reshaped and reeducated. Choose the tragedy that set you on this path, or roll on the Tragedies table.\nFamilicide. Through deceit or manipulation, the Volstrucker convinced you to slaughter your own family.\nAmnesia. You were forced to study magic so potent that it strained your mind beyond mortal limits, stealing away the memories of your past.\nCapture. You were captured and tortured by agents of the Kryn Dynasty and barely escaped.\nStarvation. A terrible blight afflicted your rural village, and many of your friends and family members starved to death. You survived, but only barely.\nDisfigurement. One of your arcane experiments went wrong and scarred or dismembered you so gravely that others now shun you. Only the Volstrucker showed you kindness after that day.\nVicissitude. You were once the scion of a wealthy family who lost their entire fortune in the blink of an eye."
+    },
+    {
+      "id": "shadow-network-9",
+      "title": "Shadow Network",
+      "kind": "feature",
+      "text": "You have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances. If you write a letter in special arcane ink, address it to a member of the Volstrucker, and cast it into a fire, the letter will burn to cinders and materialize whole again on the person of the agent you addressed it to.\nThe ink used to send a letter across the shadow network is the same as that used by a wizard to scribe spells in a spellbook. Writing a letter in this ink costs 10gp per page."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Agents of the Volstrucker are groomed to follow orders without question and to kill without mercy. The trauma that brings one into the order can fester even more strongly against the darkness of a Volstrucker agent's assignments. Officially, no one ever leaves the order - but those desperate enough to do whatever it takes to gain some measure of freedom."
+    },
+    {
+      "id": "personality-traits-14",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I prefer to keep my thoughts to myself.\nI indulge vice in excess to quiet my conscience.\nI've left emotion behind me, I'm now perfectly placid.\nSome event from the past keeps worming its way into my mind, making me restless.\nI always keep my word - except when I'm commanded to break it.\nI laugh off insults and never take them personally."
+    },
+    {
+      "id": "ideals-16",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Order. The will of the crown is absolute. (Law)\nTrue Loyalty. The Cerberus Assembly is greater than any power, even the crown. (Any)\nDeath. The penalty for disloyalty is death. (Evil)\nDetermination. I cannot fail. Not ever. (Neutral)\nFear. People should not respect power. They should fear it. (Evil)\nEscape. The Volstrucker are pure evil! I can't atone for what I've done for them, but I can escape with my life. (Any)"
+    },
+    {
+      "id": "bonds-18",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "The job is all that matters. I will see it through.\nMy orders are important, but my comrades are worth more than anything. I would die for them.\nEverything I've done, I've done to protect someone close to me.\nIf the empire falls, all of civilization falls with it. I will hold back the chaos and barbarism at any cost."
+    },
+    {
+      "id": "flaws-20",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I drink to dull the pain in the back of my head.\nI go a bit mad when I see blood.\nI can hear the voices of everyone I've killed. I see their faces. I can't be free of these ghosts.\nFear is a powerful motivator. I will do whatever it takes to prevent those who know what I am from seeing me fail, and those I care about from knowing what I am."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly. Their operatives bear no official title, but are referred to in hushed tones as \"scourgers\" by residents of large Dwendalian cities such as Zadash and Rexxentrum."
+    },
+    {
+      "type": "p",
+      "text": "You are a Volstrucker agent. Your duty is to silence dissidents who would undermine the will of King Dwendal - and more importantly, the will of the Assembly."
+    },
+    {
+      "type": "p",
+      "text": "Source: Explorer's Guide to Wildemount"
+    },
+    {
+      "type": "h1",
+      "text": "Proficiencies"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Deception, Stealth\nTool Proficiencies: Poisoner's Kit\nLanguages: One of your choice\nEquipment: A set of common clothesValue:5sp Weight:3lbs, a black cloak with a hood, a poisoner's kitValue:50gp Weight:2lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Tragedy"
+    },
+    {
+      "type": "p",
+      "text": "Happy people aren't selected to join the Volstrucker. The Cerberus Assembly preys upon talented individuals who have been broken by tragedy - in some cases, tragedy that the Volstrucker has arranged for. A slightly broken mind is more easily reshaped and reeducated. Choose the tragedy that set you on this path, or roll on the Tragedies table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Familicide. Through deceit or manipulation, the Volstrucker convinced you to slaughter your own family."
+        ],
+        [
+          "2",
+          "Amnesia. You were forced to study magic so potent that it strained your mind beyond mortal limits, stealing away the memories of your past."
+        ],
+        [
+          "3",
+          "Capture. You were captured and tortured by agents of the Kryn Dynasty and barely escaped."
+        ],
+        [
+          "4",
+          "Starvation. A terrible blight afflicted your rural village, and many of your friends and family members starved to death. You survived, but only barely."
+        ],
+        [
+          "5",
+          "Disfigurement. One of your arcane experiments went wrong and scarred or dismembered you so gravely that others now shun you. Only the Volstrucker showed you kindness after that day."
+        ],
+        [
+          "6",
+          "Vicissitude. You were once the scion of a wealthy family who lost their entire fortune in the blink of an eye."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Tragedies"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Shadow Network"
+    },
+    {
+      "type": "p",
+      "text": "You have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances. If you write a letter in special arcane ink, address it to a member of the Volstrucker, and cast it into a fire, the letter will burn to cinders and materialize whole again on the person of the agent you addressed it to."
+    },
+    {
+      "type": "p",
+      "text": "The ink used to send a letter across the shadow network is the same as that used by a wizard to scribe spells in a spellbook. Writing a letter in this ink costs 10gp per page."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Agents of the Volstrucker are groomed to follow orders without question and to kill without mercy. The trauma that brings one into the order can fester even more strongly against the darkness of a Volstrucker agent's assignments. Officially, no one ever leaves the order - but those desperate enough to do whatever it takes to gain some measure of freedom."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I prefer to keep my thoughts to myself."
+        ],
+        [
+          "2",
+          "I indulge vice in excess to quiet my conscience."
+        ],
+        [
+          "3",
+          "I've left emotion behind me, I'm now perfectly placid."
+        ],
+        [
+          "4",
+          "Some event from the past keeps worming its way into my mind, making me restless."
+        ],
+        [
+          "5",
+          "I always keep my word - except when I'm commanded to break it."
+        ],
+        [
+          "6",
+          "I laugh off insults and never take them personally."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Order. The will of the crown is absolute. (Law)"
+        ],
+        [
+          "2",
+          "True Loyalty. The Cerberus Assembly is greater than any power, even the crown. (Any)"
+        ],
+        [
+          "3",
+          "Death. The penalty for disloyalty is death. (Evil)"
+        ],
+        [
+          "4",
+          "Determination. I cannot fail. Not ever. (Neutral)"
+        ],
+        [
+          "5",
+          "Fear. People should not respect power. They should fear it. (Evil)"
+        ],
+        [
+          "6",
+          "Escape. The Volstrucker are pure evil! I can't atone for what I've done for them, but I can escape with my life. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "The job is all that matters. I will see it through."
+        ],
+        [
+          "2",
+          "My orders are important, but my comrades are worth more than anything. I would die for them."
+        ],
+        [
+          "3",
+          "Everything I've done, I've done to protect someone close to me."
+        ],
+        [
+          "4",
+          "If the empire falls, all of civilization falls with it. I will hold back the chaos and barbarism at any cost."
+        ]
+      ],
+      "headers": [
+        "d4",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I drink to dull the pain in the back of my head."
+        ],
+        [
+          "2",
+          "I go a bit mad when I see blood."
+        ],
+        [
+          "3",
+          "I can hear the voices of everyone I've killed. I see their faces. I can't be free of these ghosts."
+        ],
+        [
+          "4",
+          "Fear is a powerful motivator. I will do whatever it takes to prevent those who know what I am from seeing me fail, and those I care about from knowing what I am."
+        ]
+      ],
+      "headers": [
+        "d4",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly.",
+  "personality": {
+    "traits": [
+      "I prefer to keep my thoughts to myself.",
+      "I indulge vice in excess to quiet my conscience.",
+      "I've left emotion behind me, I'm now perfectly placid.",
+      "Some event from the past keeps worming its way into my mind, making me restless.",
+      "I always keep my word - except when I'm commanded to break it.",
+      "I laugh off insults and never take them personally."
+    ],
+    "ideals": [
+      "Order. The will of the crown is absolute. (Law)",
+      "True Loyalty. The Cerberus Assembly is greater than any power, even the crown. (Any)",
+      "Death. The penalty for disloyalty is death. (Evil)",
+      "Determination. I cannot fail. Not ever. (Neutral)",
+      "Fear. People should not respect power. They should fear it. (Evil)",
+      "Escape. The Volstrucker are pure evil! I can't atone for what I've done for them, but I can escape with my life. (Any)"
+    ],
+    "bonds": [
+      "The job is all that matters. I will see it through.",
+      "My orders are important, but my comrades are worth more than anything. I would die for them.",
+      "Everything I've done, I've done to protect someone close to me.",
+      "If the empire falls, all of civilization falls with it. I will hold back the chaos and barbarism at any cost."
+    ],
+    "flaws": [
+      "I drink to dull the pain in the back of my head.",
+      "I go a bit mad when I see blood.",
+      "I can hear the voices of everyone I've killed. I see their faces. I can't be free of these ghosts.",
+      "Fear is a powerful motivator. I will do whatever it takes to prevent those who know what I am from seeing me fail, and those I care about from knowing what I am."
+    ]
+  },
+  "tags": [
+    "category:wildemount",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

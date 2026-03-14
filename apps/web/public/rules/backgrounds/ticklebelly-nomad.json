@@ -1,0 +1,362 @@
+{
+  "id": "ticklebelly-nomad",
+  "slug": "ticklebelly-nomad",
+  "name": "Ticklebelly Nomad",
+  "aliases": [
+    "Ticklebelly Nomad"
+  ],
+  "categories": [
+    "AL: Curse of Strahd"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Nature",
+      "Animal Handling"
+    ],
+    "tools": [
+      "Herbalism kit"
+    ],
+    "languages": [
+      "Giant"
+    ],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "Herbalism kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "small article of jewelry that is distinct to your tribe",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "hunting trap",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 5gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 5
+    },
+    "rawText": "Herbalism kit, a small article of jewelry that is distinct to your tribe, a hunting trap, a set of common clothes, and a pouch containing 5gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Nature, Animal Handling"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Herbalism kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Giant"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "Herbalism kit, a small article of jewelry that is distinct to your tribe, a hunting trap, a set of common clothes, and a pouch containing 5gp"
+    },
+    {
+      "id": "feature-at-home-in-the-wild-4",
+      "title": "Feature: At Home in the Wild",
+      "kind": "feature",
+      "text": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn’t shield or conceal you from scrying, mental probing, nor from threats that don’t necessarily require the five senses to find you."
+    },
+    {
+      "id": "suggested-characteristics-6",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Ticklebelly nomads only venture into civilization when necessary. You are social within your tribe, with tribes of other nomads, and even with the stone giant tribes that populate the Giant’s Cairn. However, other communities tend to either put you on your guard or put you in a state of wonder. Was it this wonder that enticed you into a life of adventuring? On the other hand, you are fiercely protective of and dedicated to your tribe. Perhaps it was this dedication that led you to venture out; either of your own will or at the behest of your tribe’s leaders."
+    },
+    {
+      "id": "ticklebelly-nomad-personality-traits-8",
+      "title": "Ticklebelly Nomad Personality Traits",
+      "kind": "personality",
+      "text": "I eagerly inject myself into the unknown.\nVillages, towns, and cities do not suit me. I’d rather be out in the wilderness any day.\nI accomplish my tasks efficiently, using as few resources as possible.\nIt’s difficult for me to remain in one place for long.\nI loudly brag about my tribe every chance I get.\nHaving walked among giants, I am fearless in the face of bigger creatures.\nI am quiet and reserved, but observant. Nothing escapes my attention.\nMy word is my bond. I see a promise to completion, even if it conflicts with my beliefs."
+    },
+    {
+      "id": "ticklebelly-nomad-ideals-10",
+      "title": "Ticklebelly Nomad Ideals",
+      "kind": "personality",
+      "text": "Kinship. Family is most important in life. Though I may be far from my own, the bonds of family must be protected in others’ lives as well. (Good)\nPreservation. Nature must not be despoiled by encroaching civilization. (Any)\nWanderlust. One must expand their horizons by seeing the world and exploring. (Chaos)\nIsolation. My tribe and its ways must be protected and shielded from outside influence.(Neutral)\nProtection. Threats to the land and to the people must be dealt with at any and all costs. (Law)\nBelonging. All creatures have a place in the world, so I strive to help others find theirs. (Good)"
+    },
+    {
+      "id": "ticklebelly-nomad-bonds-12",
+      "title": "Ticklebelly Nomad Bonds",
+      "kind": "personality",
+      "text": "I ache to return to my tribe and the family I left, but cannot until my obligations are fulfilled.\nThe dragon cultists that invaded my homeland stole away one of my tribe’s people. I will not know rest until I’ve found them.\nThe dragon’s presence in the hills destroyed valuable territory and resulted in deaths within my tribe. The creature must pay for what it has done.\nI carry a trinket that spiritually and emotionally ties me to my people and my home.\nI discovered a strange relic in the hills during my tribe’s wanderings. I must discover what it is.\nOne of the stone giant clans from the Giant’s Cairn has graced me with a mark of kinship."
+    },
+    {
+      "id": "ticklebelly-nomad-flaws-14",
+      "title": "Ticklebelly Nomad Flaws",
+      "kind": "personality",
+      "text": "I throw myself and my friends into situations, rarely ever thinking about consequences.\nUnfamiliar people and surroundings put me on edge.\nI have absolutely no patience for slowpokes and those who prove indecisive.\nMy desire to experience new things causes me to make unsafe choices.\nI am overly protective of nature, sometimes to the detriment of my companions and myself.\nMy lack of worldliness often proves my undoing in social, commercial, and hostile situations."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Curse of Strahd: Optional Backgrounds"
+    },
+    {
+      "type": "p",
+      "text": "You were born into a nomadic tribe that called the Ticklebelly Hills home. You migrated from location to location, living off the land with your tribe. The tribe would seasonally travel south into the Grass Sea and the Giant’s Cairn, north into the Dragonspine Mountains, and even occasionally east across the Stojanow River to the borders of the Quivering Forest. In your migrations, your people have come to know the stone giant tribes that populate the Giant’s Cairn."
+    },
+    {
+      "type": "p",
+      "text": "The dragon cultists came to the hills one day — magic-users wearing purple and riding horrid beasts, black-clad warriors wearing wicked masks, and even soldiers from the nearby town of Phlan. Then the dragon called Vorgansharax arrived and laired in the hills, causing horrid thickets to grow and animals to act unusually. The cultists began raiding nomad camps for victims to offer to the wyrm. Eventually, the dragon moved on to attack Phlan, but life was never again the same for the nomads of the Ticklebelly Hills."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Nature, Animal Handling\nTool Proficiencies: Herbalism kit\nLanguages: Giant\nEquipment:Herbalism kitValue:5gp Weight:3lbs, a small article of jewelry that is distinct to your tribe, a hunting trapValue:5gp Weight:25lbs, a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 5gp"
+    },
+    {
+      "type": "h2",
+      "text": "Feature: At Home in the Wild"
+    },
+    {
+      "type": "p",
+      "text": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn’t shield or conceal you from scrying, mental probing, nor from threats that don’t necessarily require the five senses to find you."
+    },
+    {
+      "type": "h2",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Ticklebelly nomads only venture into civilization when necessary. You are social within your tribe, with tribes of other nomads, and even with the stone giant tribes that populate the Giant’s Cairn. However, other communities tend to either put you on your guard or put you in a state of wonder. Was it this wonder that enticed you into a life of adventuring? On the other hand, you are fiercely protective of and dedicated to your tribe. Perhaps it was this dedication that led you to venture out; either of your own will or at the behest of your tribe’s leaders."
+    },
+    {
+      "type": "h3",
+      "text": "Ticklebelly Nomad Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I eagerly inject myself into the unknown."
+        ],
+        [
+          "2",
+          "Villages, towns, and cities do not suit me. I’d rather be out in the wilderness any day."
+        ],
+        [
+          "3",
+          "I accomplish my tasks efficiently, using as few resources as possible."
+        ],
+        [
+          "4",
+          "It’s difficult for me to remain in one place for long."
+        ],
+        [
+          "5",
+          "I loudly brag about my tribe every chance I get."
+        ],
+        [
+          "6",
+          "Having walked among giants, I am fearless in the face of bigger creatures."
+        ],
+        [
+          "7",
+          "I am quiet and reserved, but observant. Nothing escapes my attention."
+        ],
+        [
+          "8",
+          "My word is my bond. I see a promise to completion, even if it conflicts with my beliefs."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Ticklebelly Nomad Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Kinship. Family is most important in life. Though I may be far from my own, the bonds of family must be protected in others’ lives as well. (Good)"
+        ],
+        [
+          "2",
+          "Preservation. Nature must not be despoiled by encroaching civilization. (Any)"
+        ],
+        [
+          "3",
+          "Wanderlust. One must expand their horizons by seeing the world and exploring. (Chaos)"
+        ],
+        [
+          "4",
+          "Isolation. My tribe and its ways must be protected and shielded from outside influence.(Neutral)"
+        ],
+        [
+          "5",
+          "Protection. Threats to the land and to the people must be dealt with at any and all costs. (Law)"
+        ],
+        [
+          "6",
+          "Belonging. All creatures have a place in the world, so I strive to help others find theirs. (Good)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Ticklebelly Nomad Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I ache to return to my tribe and the family I left, but cannot until my obligations are fulfilled."
+        ],
+        [
+          "2",
+          "The dragon cultists that invaded my homeland stole away one of my tribe’s people. I will not know rest until I’ve found them."
+        ],
+        [
+          "3",
+          "The dragon’s presence in the hills destroyed valuable territory and resulted in deaths within my tribe. The creature must pay for what it has done."
+        ],
+        [
+          "4",
+          "I carry a trinket that spiritually and emotionally ties me to my people and my home."
+        ],
+        [
+          "5",
+          "I discovered a strange relic in the hills during my tribe’s wanderings. I must discover what it is."
+        ],
+        [
+          "6",
+          "One of the stone giant clans from the Giant’s Cairn has graced me with a mark of kinship."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Ticklebelly Nomad Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I throw myself and my friends into situations, rarely ever thinking about consequences."
+        ],
+        [
+          "2",
+          "Unfamiliar people and surroundings put me on edge."
+        ],
+        [
+          "3",
+          "I have absolutely no patience for slowpokes and those who prove indecisive."
+        ],
+        [
+          "4",
+          "My desire to experience new things causes me to make unsafe choices."
+        ],
+        [
+          "5",
+          "I am overly protective of nature, sometimes to the detriment of my companions and myself."
+        ],
+        [
+          "6",
+          "My lack of worldliness often proves my undoing in social, commercial, and hostile situations."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You were born into a nomadic tribe that called the Ticklebelly Hills home.",
+  "personality": {
+    "traits": [
+      "I eagerly inject myself into the unknown.",
+      "Villages, towns, and cities do not suit me. I’d rather be out in the wilderness any day.",
+      "I accomplish my tasks efficiently, using as few resources as possible.",
+      "It’s difficult for me to remain in one place for long.",
+      "I loudly brag about my tribe every chance I get.",
+      "Having walked among giants, I am fearless in the face of bigger creatures.",
+      "I am quiet and reserved, but observant. Nothing escapes my attention.",
+      "My word is my bond. I see a promise to completion, even if it conflicts with my beliefs."
+    ],
+    "ideals": [
+      "Kinship. Family is most important in life. Though I may be far from my own, the bonds of family must be protected in others’ lives as well. (Good)",
+      "Preservation. Nature must not be despoiled by encroaching civilization. (Any)",
+      "Wanderlust. One must expand their horizons by seeing the world and exploring. (Chaos)",
+      "Isolation. My tribe and its ways must be protected and shielded from outside influence.(Neutral)",
+      "Protection. Threats to the land and to the people must be dealt with at any and all costs. (Law)",
+      "Belonging. All creatures have a place in the world, so I strive to help others find theirs. (Good)"
+    ],
+    "bonds": [
+      "I ache to return to my tribe and the family I left, but cannot until my obligations are fulfilled.",
+      "The dragon cultists that invaded my homeland stole away one of my tribe’s people. I will not know rest until I’ve found them.",
+      "The dragon’s presence in the hills destroyed valuable territory and resulted in deaths within my tribe. The creature must pay for what it has done.",
+      "I carry a trinket that spiritually and emotionally ties me to my people and my home.",
+      "I discovered a strange relic in the hills during my tribe’s wanderings. I must discover what it is.",
+      "One of the stone giant clans from the Giant’s Cairn has graced me with a mark of kinship."
+    ],
+    "flaws": [
+      "I throw myself and my friends into situations, rarely ever thinking about consequences.",
+      "Unfamiliar people and surroundings put me on edge.",
+      "I have absolutely no patience for slowpokes and those who prove indecisive.",
+      "My desire to experience new things causes me to make unsafe choices.",
+      "I am overly protective of nature, sometimes to the detriment of my companions and myself.",
+      "My lack of worldliness often proves my undoing in social, commercial, and hostile situations."
+    ]
+  },
+  "tags": [
+    "category:al-curse-of-strahd",
+    "has:equipment",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

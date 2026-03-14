@@ -1,0 +1,193 @@
+{
+  "id": "tiefling",
+  "name": "Tiefling",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "darkvision:60",
+    "has:ability-bonus",
+    "has:resistance",
+    "kind:race",
+    "language:common",
+    "language:infernal",
+    "size:medium",
+    "source:srd51",
+    "speed:30"
+  ],
+  "summary": "Tieflings share certain racial traits as a result of their infernal descent.",
+  "basics": {
+    "size": "Medium",
+    "speedWalk": 30,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "Tieflings mature at the same rate as humans but live a few years longer.",
+    "alignmentText": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment."
+  },
+  "abilities": {
+    "bonuses": {
+      "int": 1,
+      "cha": 2
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [
+      "Common",
+      "Infernal"
+    ],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": 60,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [
+      "fire"
+    ],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "tiefling-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "INT +1, CHA +2",
+      "rulesText": "Your Intelligence score increases by 1, and your Charisma score increases by 2.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "int": 1,
+            "cha": 2
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "tiefling-age",
+      "name": "Age",
+      "summary": "Tieflings mature at the same rate as humans but live a few years longer.",
+      "rulesText": "Tieflings mature at the same rate as humans but live a few years longer.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "tiefling-alignment",
+      "name": "Alignment",
+      "summary": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent n...",
+      "rulesText": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "tiefling-size",
+      "name": "Size",
+      "summary": "Tieflings are about the same size and build as humans.",
+      "rulesText": "Tieflings are about the same size and build as humans. Your size is Medium.",
+      "grants": {
+        "speed": {
+          "size": "Medium"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "tiefling-speed",
+      "name": "Speed",
+      "summary": "Walking speed 30 ft",
+      "rulesText": "Your base walking speed is 30 feet.",
+      "grants": {
+        "speed": {
+          "speedWalk": 30
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "tiefling-darkvision",
+      "name": "Darkvision",
+      "summary": "Darkvision 60 ft",
+      "rulesText": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "grants": {
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "category": "sense"
+    },
+    {
+      "id": "tiefling-hellish-resistance",
+      "name": "Hellish Resistance",
+      "summary": "Resistance: fire",
+      "rulesText": "You have resistance to fire damage.",
+      "grants": {
+        "defenses": {
+          "resistances": [
+            "fire"
+          ],
+          "immunities": [],
+          "conditionImmunities": [],
+          "savingThrowAdvantages": []
+        }
+      },
+      "category": "defense"
+    },
+    {
+      "id": "tiefling-infernal-legacy",
+      "name": "Infernal Legacy",
+      "summary": "You know the thaumaturgy cantrip.",
+      "rulesText": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "tiefling-languages",
+      "name": "Languages",
+      "summary": "Common, Infernal",
+      "rulesText": "You can speak, read, and write Common and Infernal.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common",
+            "Infernal"
+          ]
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Tiefling"
+    },
+    {
+      "type": "p",
+      "text": "Tieflings share certain racial traits as a result of their infernal descent. Ability Score Increase. Your Intelligence score increases by 1, and your Charisma score increases by 2. Age. Tieflings mature at the same rate as humans but live a few years longer. Alignment. Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment. Size. Tieflings are about the same size and build as humans. Your size is Medium."
+    },
+    {
+      "type": "p",
+      "text": "Speed. Your base walking speed is 30 feet. Darkvision. Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "type": "p",
+      "text": "Hellish Resistance. You have resistance to fire damage. Infernal Legacy. You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells. Languages. You can speak, read, and write Common and Infernal."
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "id": "entertainer",
+  "slug": "entertainer",
+  "name": "Entertainer",
+  "aliases": [
+    "Entertainer",
+    "Gladiator (variant)",
+    "Gladiator"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Acrobatics",
+      "Performance"
+    ],
+    "tools": [
+      "Disguise kit"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "musical instrument (one of your choice)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "favor of an admirer (love letter",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "lock of hair",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "or trinket)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "costume",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a pouch containing 15gp"
+  },
+  "feature": {
+    "name": "By Popular Demand",
+    "summary": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court.",
+    "rulesText": "By Popular Demand\nYou can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Acrobatics, Performance"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Disguise kit, one type of musical instrument"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a pouch containing 15gp"
+    },
+    {
+      "id": "variants-3",
+      "title": "Variants",
+      "kind": "variant"
+    },
+    {
+      "id": "gladiator-4",
+      "title": "Gladiator",
+      "kind": "variant",
+      "text": "A gladiator is as much an entertainer as any minstrel or circus performer trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment-perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net."
+    },
+    {
+      "id": "features-6",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "entertainer-routines-7",
+      "title": "Entertainer Routines",
+      "kind": "feature",
+      "text": "A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.\nActor\nDancer\nFire-eater\nJester\nJuggler\nInstrumentalist\nPoet\nSinger\nStoryteller\nTumbler"
+    },
+    {
+      "id": "by-popular-demand-10",
+      "title": "By Popular Demand",
+      "kind": "feature",
+      "text": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty."
+    },
+    {
+      "id": "personality-traits-14",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I know a story relevant to almost every situation.\nWhenever I come to a new place, I collect local rumors and spread gossip.\nI'm a hopeless romantic, always searching for that \"special someone.\"\nNobody stays angry at me or around me for long, since I can defuse any amount of tension.\nI love a good insult, even one directed at me.\nI get bitter if I'm not the center of attention.\nI'll settle for nothing less than perfection.\nI change my mood or my mind as quickly as I change key in a song."
+    },
+    {
+      "id": "ideals-16",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Beauty. When I perform, I make the world better than it was. (Good)\nTradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)\nCreativity. The world is in need of new ideas and bold action. (Chaotic)\nGreed. I'm only in it for the money and fame. (Evil)\nPeople. I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)\nHonesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any)"
+    },
+    {
+      "id": "bonds-18",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "My instrument is my most treasured possession, and it reminds me of someone I love.\nSomeone stole my precious instrument, and someday I'll get it back.\nI want to be famous, whatever it takes.\nI idolize a hero of the old tales and measure my deeds against that person's.\nI will do anything to prove myself superior to my hated rival.\nI would do anything for the other members of my old troupe."
+    },
+    {
+      "id": "flaws-20",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I'll do anything to win fame and renown.\nI'm a sucker for a pretty face.\nA scandal prevents me from ever going home again. That kind of trouble seems to follow me around.\nI once satirized a noble who still wants my head. It was a mistake that I will likely repeat.\nI have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.\nDespite my best efforts, I am unreliable to my friends."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Acrobatics, Performance\nTool Proficiencies: Disguise kit, one type of musical instrument\nLanguages: None\nEquipment: A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costumeValue:5gp Weight:4lbs, and a pouchValue:5sp Weight:1lb containing 15gp"
+    },
+    {
+      "type": "h1",
+      "text": "Variants"
+    },
+    {
+      "type": "h2",
+      "text": "Gladiator"
+    },
+    {
+      "type": "p",
+      "text": "A gladiator is as much an entertainer as any minstrel or circus performer trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment-perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Entertainer Routines"
+    },
+    {
+      "type": "p",
+      "text": "A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Actor"
+        ],
+        [
+          "2",
+          "Dancer"
+        ],
+        [
+          "3",
+          "Fire-eater"
+        ],
+        [
+          "4",
+          "Jester"
+        ],
+        [
+          "5",
+          "Juggler"
+        ],
+        [
+          "6",
+          "Instrumentalist"
+        ],
+        [
+          "7",
+          "Poet"
+        ],
+        [
+          "8",
+          "Singer"
+        ],
+        [
+          "9",
+          "Storyteller"
+        ],
+        [
+          "10",
+          "Tumbler"
+        ]
+      ],
+      "headers": [
+        "d10",
+        "Entertainer Routine"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "By Popular Demand"
+    },
+    {
+      "type": "p",
+      "text": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I know a story relevant to almost every situation."
+        ],
+        [
+          "2",
+          "Whenever I come to a new place, I collect local rumors and spread gossip."
+        ],
+        [
+          "3",
+          "I'm a hopeless romantic, always searching for that \"special someone.\""
+        ],
+        [
+          "4",
+          "Nobody stays angry at me or around me for long, since I can defuse any amount of tension."
+        ],
+        [
+          "5",
+          "I love a good insult, even one directed at me."
+        ],
+        [
+          "6",
+          "I get bitter if I'm not the center of attention."
+        ],
+        [
+          "7",
+          "I'll settle for nothing less than perfection."
+        ],
+        [
+          "8",
+          "I change my mood or my mind as quickly as I change key in a song."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Beauty. When I perform, I make the world better than it was. (Good)"
+        ],
+        [
+          "2",
+          "Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)"
+        ],
+        [
+          "3",
+          "Creativity. The world is in need of new ideas and bold action. (Chaotic)"
+        ],
+        [
+          "4",
+          "Greed. I'm only in it for the money and fame. (Evil)"
+        ],
+        [
+          "5",
+          "People. I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)"
+        ],
+        [
+          "6",
+          "Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My instrument is my most treasured possession, and it reminds me of someone I love."
+        ],
+        [
+          "2",
+          "Someone stole my precious instrument, and someday I'll get it back."
+        ],
+        [
+          "3",
+          "I want to be famous, whatever it takes."
+        ],
+        [
+          "4",
+          "I idolize a hero of the old tales and measure my deeds against that person's."
+        ],
+        [
+          "5",
+          "I will do anything to prove myself superior to my hated rival."
+        ],
+        [
+          "6",
+          "I would do anything for the other members of my old troupe."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'll do anything to win fame and renown."
+        ],
+        [
+          "2",
+          "I'm a sucker for a pretty face."
+        ],
+        [
+          "3",
+          "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around."
+        ],
+        [
+          "4",
+          "I once satirized a noble who still wants my head. It was a mistake that I will likely repeat."
+        ],
+        [
+          "5",
+          "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble."
+        ],
+        [
+          "6",
+          "Despite my best efforts, I am unreliable to my friends."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You thrive in front of an audience.",
+  "personality": {
+    "traits": [
+      "I know a story relevant to almost every situation.",
+      "Whenever I come to a new place, I collect local rumors and spread gossip.",
+      "I'm a hopeless romantic, always searching for that \"special someone.\"",
+      "Nobody stays angry at me or around me for long, since I can defuse any amount of tension.",
+      "I love a good insult, even one directed at me.",
+      "I get bitter if I'm not the center of attention.",
+      "I'll settle for nothing less than perfection.",
+      "I change my mood or my mind as quickly as I change key in a song."
+    ],
+    "ideals": [
+      "Beauty. When I perform, I make the world better than it was. (Good)",
+      "Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)",
+      "Creativity. The world is in need of new ideas and bold action. (Chaotic)",
+      "Greed. I'm only in it for the money and fame. (Evil)",
+      "People. I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)",
+      "Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any)"
+    ],
+    "bonds": [
+      "My instrument is my most treasured possession, and it reminds me of someone I love.",
+      "Someone stole my precious instrument, and someday I'll get it back.",
+      "I want to be famous, whatever it takes.",
+      "I idolize a hero of the old tales and measure my deeds against that person's.",
+      "I will do anything to prove myself superior to my hated rival.",
+      "I would do anything for the other members of my old troupe."
+    ],
+    "flaws": [
+      "I'll do anything to win fame and renown.",
+      "I'm a sucker for a pretty face.",
+      "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.",
+      "I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.",
+      "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.",
+      "Despite my best efforts, I am unreliable to my friends."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency",
+    "has:variant"
+  ]
+}

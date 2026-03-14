@@ -1,0 +1,89 @@
+{
+  "id": "hill-dwarf",
+  "name": "Hill Dwarf",
+  "parentRaceId": "dwarf",
+  "kind": "subrace",
+  "source": "srd51",
+  "tags": [
+    "has:ability-bonus",
+    "kind:subrace",
+    "parent:dwarf",
+    "source:srd51"
+  ],
+  "summary": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+  "basics": {
+    "size": null,
+    "speedWalk": null,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": null,
+    "alignmentText": null
+  },
+  "abilities": {
+    "bonuses": {
+      "wis": 1
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "hill-dwarf-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "WIS +1",
+      "rulesText": "Your Wisdom score increases by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "wis": 1
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "hill-dwarf-dwarven-toughness",
+      "name": "Dwarven Toughness",
+      "summary": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+      "rulesText": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+      "grants": {},
+      "category": "utility"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Hill Dwarf"
+    },
+    {
+      "type": "p",
+      "text": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. Ability Score Increase. Your Wisdom score increases by 1. Dwarven Toughness. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    }
+  ]
+}

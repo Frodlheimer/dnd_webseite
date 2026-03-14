@@ -1,0 +1,216 @@
+{
+  "id": "knight-of-solamnia",
+  "slug": "knight-of-solamnia",
+  "name": "Knight of Solamnia",
+  "aliases": [
+    "Knight of Solamnia"
+  ],
+  "categories": [
+    "Dragonlance"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Survival"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "insignia of rank",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "deck of cards",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "An insignia of rank, a deck of cards, a set of common clothes, and a pouch containing 10 gp."
+  },
+  "feature": {
+    "name": "Squire of Solamnia",
+    "summary": "You gain the Squire of Solamnia feat.",
+    "rulesText": "Squire of Solamnia\nYou gain the Squire of Solamnia feat.\nIn addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Survival"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "An insignia of rank, a deck of cards, a set of common clothes, and a pouch containing 10 gp."
+    },
+    {
+      "id": "feature-4",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "squire-of-solamnia-5",
+      "title": "Squire of Solamnia",
+      "kind": "feature",
+      "text": "You gain the Squire of Solamnia feat.\nIn addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+    },
+    {
+      "id": "building-a-knight-of-solamnia-character-8",
+      "title": "Building a Knight of Solamnia Character",
+      "kind": "other",
+      "text": "Any class that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and Paladins make up the bulk of the knighthood’s forces. Clerics (often with the War Domain) can also be found among the knights' ranks.\nFor a more unusual take on a Knight of Solamnia character, consider playing a Bard of the College of Valor (or the College of Swords) or a Barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot).\nKnight of Solamnia Trinkets. When you make your character, you may roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "knight-of-solamnia-trinkets-12",
+      "title": "Knight of Solamnia Trinkets",
+      "kind": "other",
+      "text": "A flat silver disk you record your heroics upon\nA piece of a fallen knight's armor\nA pendant featuring a crown, a rose, or a sword\nThe pommel of your mentor's sword\nA meaningful favor from someone you defended—perhaps a handkerchief or glove\nA locket with a sketch of a silver dragon inside"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Prerequisite: Dragonlance Campaign"
+    },
+    {
+      "type": "p",
+      "text": "You have trained to be a valorous warrior known as a Knight of Solamnia. Strict rules guide your every action, and you work to uphold them as you strive to defend the weak and oppose evil. Your honor is as important to you as your life."
+    },
+    {
+      "type": "p",
+      "text": "Source: Dragonlance: Shadow of the Dragon Queen"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Survival\nLanguages: Two of your choice\nEquipment: An insignia of rank, a deck of cardsValue: 5sp Weight: 0, a set of common clothesValue: 5sp Weight: 3lbs, and a pouchValue: 5sp Weight: 1lb containing 10 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Squire of Solamnia"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Squire of Solamnia feat."
+    },
+    {
+      "type": "p",
+      "text": "In addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Knight of Solamnia Character"
+    },
+    {
+      "type": "p",
+      "text": "Any class that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and Paladins make up the bulk of the knighthood’s forces. Clerics (often with the War Domain) can also be found among the knights' ranks."
+    },
+    {
+      "type": "p",
+      "text": "For a more unusual take on a Knight of Solamnia character, consider playing a Bard of the College of Valor (or the College of Swords) or a Barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot)."
+    },
+    {
+      "type": "p",
+      "text": "Knight of Solamnia Trinkets. When you make your character, you may roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Knight of Solamnia Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A flat silver disk you record your heroics upon"
+        ],
+        [
+          "2",
+          "A piece of a fallen knight's armor"
+        ],
+        [
+          "3",
+          "A pendant featuring a crown, a rose, or a sword"
+        ],
+        [
+          "4",
+          "The pommel of your mentor's sword"
+        ],
+        [
+          "5",
+          "A meaningful favor from someone you defended—perhaps a handkerchief or glove"
+        ],
+        [
+          "6",
+          "A locket with a sketch of a silver dragon inside"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "Prerequisite: Dragonlance Campaign",
+  "tags": [
+    "category:dragonlance",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

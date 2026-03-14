@@ -1,0 +1,89 @@
+{
+  "id": "lightfoot",
+  "name": "Lightfoot",
+  "parentRaceId": "halfling",
+  "kind": "subrace",
+  "source": "srd51",
+  "tags": [
+    "has:ability-bonus",
+    "kind:subrace",
+    "parent:halfling",
+    "source:srd51"
+  ],
+  "summary": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. Lightfoots are more prone to wanderlust than other halflings, a...",
+  "basics": {
+    "size": null,
+    "speedWalk": null,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": null,
+    "alignmentText": null
+  },
+  "abilities": {
+    "bonuses": {
+      "cha": 1
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "lightfoot-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "CHA +1",
+      "rulesText": "Your Charisma score increases by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "cha": 1
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "lightfoot-naturally-stealthy",
+      "name": "Naturally Stealthy",
+      "summary": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+      "rulesText": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+      "grants": {},
+      "category": "utility"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Lightfoot"
+    },
+    {
+      "type": "p",
+      "text": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. Ability Score Increase. Your Charisma score increases by 1. Naturally Stealthy. You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+    }
+  ]
+}

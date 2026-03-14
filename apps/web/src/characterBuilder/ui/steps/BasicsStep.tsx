@@ -1,5 +1,6 @@
 import type { CharacterRecord } from '../../model/character';
 import type { BuilderClassSummary, BuilderSubclassSummary } from '../../rules/rulesFacade';
+import { RuleReferenceButton } from '../RuleReferenceButton';
 
 export const BasicsStep = (props: {
   character: CharacterRecord;
@@ -11,6 +12,8 @@ export const BasicsStep = (props: {
   onLevelChange: (value: number) => void;
   onClassChange: (classId: string) => void;
   onSubclassChange: (subclassId: string) => void;
+  onOpenClassReference: (classId: string) => void;
+  onOpenSubclassReference: (subclassId: string) => void;
 }) => {
   return (
     <div className="space-y-4">
@@ -49,19 +52,25 @@ export const BasicsStep = (props: {
         <p className="mb-2 text-sm font-medium text-slate-100">Choose class</p>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {props.classes.map((entry) => (
-            <button
+            <article
               key={entry.id}
-              type="button"
-              onClick={() => props.onClassChange(entry.id)}
               className={`rounded-lg border p-3 text-left transition ${
                 props.character.progression.classId === entry.id
                   ? 'border-sky-500/80 bg-sky-950/35'
                   : 'border-slate-700 bg-slate-950/40 hover:border-slate-500'
               }`}
             >
-              <p className="text-sm font-semibold text-slate-100">{entry.name}</p>
-              <p className="mt-1 line-clamp-2 text-xs text-slate-300">{entry.summary}</p>
-            </button>
+              <div className="flex items-start gap-3">
+                <button type="button" onClick={() => props.onClassChange(entry.id)} className="min-w-0 flex-1 text-left">
+                  <p className="text-sm font-semibold text-slate-100">{entry.name}</p>
+                  <p className="mt-1 line-clamp-2 text-xs text-slate-300">{entry.summary}</p>
+                </button>
+                <RuleReferenceButton
+                  label={`Open class reference for ${entry.name}`}
+                  onClick={() => props.onOpenClassReference(entry.id)}
+                />
+              </div>
+            </article>
           ))}
         </div>
       </div>
@@ -74,19 +83,29 @@ export const BasicsStep = (props: {
           ) : (
             <div className="grid gap-2 sm:grid-cols-2">
               {props.subclasses.map((entry) => (
-                <button
+                <article
                   key={entry.id}
-                  type="button"
-                  onClick={() => props.onSubclassChange(entry.id)}
                   className={`rounded-lg border p-3 text-left transition ${
                     props.character.progression.subclassId === entry.id
                       ? 'border-sky-500/80 bg-sky-950/35'
                       : 'border-slate-700 bg-slate-950/40 hover:border-slate-500'
                   }`}
                 >
-                  <p className="text-sm font-semibold text-slate-100">{entry.name}</p>
-                  <p className="mt-1 line-clamp-2 text-xs text-slate-300">{entry.summary}</p>
-                </button>
+                  <div className="flex items-start gap-3">
+                    <button
+                      type="button"
+                      onClick={() => props.onSubclassChange(entry.id)}
+                      className="min-w-0 flex-1 text-left"
+                    >
+                      <p className="text-sm font-semibold text-slate-100">{entry.name}</p>
+                      <p className="mt-1 line-clamp-2 text-xs text-slate-300">{entry.summary}</p>
+                    </button>
+                    <RuleReferenceButton
+                      label={`Open subclass reference for ${entry.name}`}
+                      onClick={() => props.onOpenSubclassReference(entry.id)}
+                    />
+                  </div>
+                </article>
               ))}
             </div>
           )}
@@ -95,4 +114,3 @@ export const BasicsStep = (props: {
     </div>
   );
 };
-

@@ -1,0 +1,526 @@
+{
+  "id": "guild-artisan",
+  "slug": "guild-artisan",
+  "name": "Guild Artisan",
+  "aliases": [
+    "Guild Artisan",
+    "Guild Merchant (variant)",
+    "Guild Merchant"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Insight",
+      "Persuasion"
+    ],
+    "tools": [
+      "One type of artisan's tools"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of artisan's tools (one of your choice)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "letter of introduction from your guild",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a pouch containing 15gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Insight, Persuasion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of artisan's tools"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothes, and a pouch containing 15gp"
+    },
+    {
+      "id": "variants-3",
+      "title": "Variants",
+      "kind": "variant"
+    },
+    {
+      "id": "guild-merchant-4",
+      "title": "Guild Merchant",
+      "kind": "variant",
+      "text": "Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.\nRather than proficiency with artisan's tools, you might be proficient with navigator's tools or an additional language. And instead of artisan's tools, you can start with a mule and a cart."
+    },
+    {
+      "id": "guild-business-7",
+      "title": "Guild Business",
+      "kind": "other"
+    },
+    {
+      "id": "guild-business-8",
+      "title": "Guild Business",
+      "kind": "other",
+      "text": "Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly.\nAlchemists and apothecaries\nArmorers, locksmiths, and finesmiths\nBrewers, distillers, and vintners\nCalligraphers, scribes, and scriveners\nCarpenters, roofers, and plasterers\nCartographers, surveyors, and chart-makers\nCobblers and shoemakers\nCooks and bakers\nGlassblowers and glaziers\nJewelers and gemcutters\nLeatherworkers, skinners, and tanners\nMasons and stonecutters\nPainters, limners, and sign-makers\nPotters and tile-makers\nShipwrights and sailmakers\nSmiths and metal-forgers\nTinkers, pewterers, and casters\nWagon-makers and wheelwrights\nWeavers and dyers\nWoodcarvers, coopers, and bowyers\nAs a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan's tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together."
+    },
+    {
+      "id": "guild-membership-12",
+      "title": "Guild Membership",
+      "kind": "other",
+      "text": "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.\nGuilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.\nYou must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
+    },
+    {
+      "id": "suggested-characteristics-16",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Guild artisans are among the most ordinary people in the world until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness."
+    },
+    {
+      "id": "personality-traits-18",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist.\nI'm a snob who looks down on those who can't appreciate fine art.\nI always want to know how things work and what makes people tick.\nI'm full of witty aphorisms and have a proverb for every occasion.\nI'm rude to people who lack my commitment to hard work and fair play.\nI like to talk at length about my profession.\nI don't part with my money easily and will haggle tirelessly to get the best deal possible.\nI'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+    },
+    {
+      "id": "ideals-20",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)\nGenerosity. My talents were given to me so that I could use them to benefit the world. (Good)\nFreedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)\nGreed. I'm only in it for the money. (Evil)\nPeople. I'm committed to the people I care about, not to ideals. (Neutral)\nAspiration. I work hard to be the best there is at my craft. (Any)"
+    },
+    {
+      "id": "bonds-22",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "The workshop where I learned my trade is the most important place in the world to me.\nI created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.\nI owe my guild a great debt for forging me into the person I am today.\nI pursue wealth to secure someone's love.\nOne day I will return to my guild and prove that I am the greatest artisan of them all.\nI will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+    },
+    {
+      "id": "flaws-24",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I'll do anything to get my hands on something rare or priceless.\nI'm quick to assume that someone is trying to cheat me.\nNo one must ever learn that I once stole money from guild coffers.\nI'm never satisfied with what I have – I always want more.\nI would kill to acquire a noble title.\nI'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Insight, Persuasion\nTool Proficiencies: One type of artisan's tools\nLanguages: One of your choice\nEquipment: A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of traveler's clothesValue:2gp Weight:4lbs, and a pouchValue:5sp Weight:1lb containing 15gp"
+    },
+    {
+      "type": "h1",
+      "text": "Variants"
+    },
+    {
+      "type": "h2",
+      "text": "Guild Merchant"
+    },
+    {
+      "type": "p",
+      "text": "Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan."
+    },
+    {
+      "type": "p",
+      "text": "Rather than proficiency with artisan's tools, you might be proficient with navigator's tools or an additional language. And instead of artisan's tools, you can start with a mule and a cart."
+    },
+    {
+      "type": "h1",
+      "text": "Guild Business"
+    },
+    {
+      "type": "h2",
+      "text": "Guild Business"
+    },
+    {
+      "type": "p",
+      "text": "Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Alchemists and apothecaries"
+        ],
+        [
+          "2",
+          "Armorers, locksmiths, and finesmiths"
+        ],
+        [
+          "3",
+          "Brewers, distillers, and vintners"
+        ],
+        [
+          "4",
+          "Calligraphers, scribes, and scriveners"
+        ],
+        [
+          "5",
+          "Carpenters, roofers, and plasterers"
+        ],
+        [
+          "6",
+          "Cartographers, surveyors, and chart-makers"
+        ],
+        [
+          "7",
+          "Cobblers and shoemakers"
+        ],
+        [
+          "8",
+          "Cooks and bakers"
+        ],
+        [
+          "9",
+          "Glassblowers and glaziers"
+        ],
+        [
+          "10",
+          "Jewelers and gemcutters"
+        ],
+        [
+          "11",
+          "Leatherworkers, skinners, and tanners"
+        ],
+        [
+          "12",
+          "Masons and stonecutters"
+        ],
+        [
+          "13",
+          "Painters, limners, and sign-makers"
+        ],
+        [
+          "14",
+          "Potters and tile-makers"
+        ],
+        [
+          "15",
+          "Shipwrights and sailmakers"
+        ],
+        [
+          "16",
+          "Smiths and metal-forgers"
+        ],
+        [
+          "17",
+          "Tinkers, pewterers, and casters"
+        ],
+        [
+          "18",
+          "Wagon-makers and wheelwrights"
+        ],
+        [
+          "19",
+          "Weavers and dyers"
+        ],
+        [
+          "20",
+          "Woodcarvers, coopers, and bowyers"
+        ]
+      ],
+      "headers": [
+        "d20",
+        "Guild Business"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan's tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together."
+    },
+    {
+      "type": "h2",
+      "text": "Guild Membership"
+    },
+    {
+      "type": "p",
+      "text": "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings."
+    },
+    {
+      "type": "p",
+      "text": "Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers."
+    },
+    {
+      "type": "p",
+      "text": "You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Guild artisans are among the most ordinary people in the world until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist."
+        ],
+        [
+          "2",
+          "I'm a snob who looks down on those who can't appreciate fine art."
+        ],
+        [
+          "3",
+          "I always want to know how things work and what makes people tick."
+        ],
+        [
+          "4",
+          "I'm full of witty aphorisms and have a proverb for every occasion."
+        ],
+        [
+          "5",
+          "I'm rude to people who lack my commitment to hard work and fair play."
+        ],
+        [
+          "6",
+          "I like to talk at length about my profession."
+        ],
+        [
+          "7",
+          "I don't part with my money easily and will haggle tirelessly to get the best deal possible."
+        ],
+        [
+          "8",
+          "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)"
+        ],
+        [
+          "2",
+          "Generosity. My talents were given to me so that I could use them to benefit the world. (Good)"
+        ],
+        [
+          "3",
+          "Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)"
+        ],
+        [
+          "4",
+          "Greed. I'm only in it for the money. (Evil)"
+        ],
+        [
+          "5",
+          "People. I'm committed to the people I care about, not to ideals. (Neutral)"
+        ],
+        [
+          "6",
+          "Aspiration. I work hard to be the best there is at my craft. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "The workshop where I learned my trade is the most important place in the world to me."
+        ],
+        [
+          "2",
+          "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy."
+        ],
+        [
+          "3",
+          "I owe my guild a great debt for forging me into the person I am today."
+        ],
+        [
+          "4",
+          "I pursue wealth to secure someone's love."
+        ],
+        [
+          "5",
+          "One day I will return to my guild and prove that I am the greatest artisan of them all."
+        ],
+        [
+          "6",
+          "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'll do anything to get my hands on something rare or priceless."
+        ],
+        [
+          "2",
+          "I'm quick to assume that someone is trying to cheat me."
+        ],
+        [
+          "3",
+          "No one must ever learn that I once stole money from guild coffers."
+        ],
+        [
+          "4",
+          "I'm never satisfied with what I have – I always want more."
+        ],
+        [
+          "5",
+          "I would kill to acquire a noble title."
+        ],
+        [
+          "6",
+          "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans.",
+  "personality": {
+    "traits": [
+      "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist.",
+      "I'm a snob who looks down on those who can't appreciate fine art.",
+      "I always want to know how things work and what makes people tick.",
+      "I'm full of witty aphorisms and have a proverb for every occasion.",
+      "I'm rude to people who lack my commitment to hard work and fair play.",
+      "I like to talk at length about my profession.",
+      "I don't part with my money easily and will haggle tirelessly to get the best deal possible.",
+      "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+    ],
+    "ideals": [
+      "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)",
+      "Generosity. My talents were given to me so that I could use them to benefit the world. (Good)",
+      "Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)",
+      "Greed. I'm only in it for the money. (Evil)",
+      "People. I'm committed to the people I care about, not to ideals. (Neutral)",
+      "Aspiration. I work hard to be the best there is at my craft. (Any)"
+    ],
+    "bonds": [
+      "The workshop where I learned my trade is the most important place in the world to me.",
+      "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+      "I owe my guild a great debt for forging me into the person I am today.",
+      "I pursue wealth to secure someone's love.",
+      "One day I will return to my guild and prove that I am the greatest artisan of them all.",
+      "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+    ],
+    "flaws": [
+      "I'll do anything to get my hands on something rare or priceless.",
+      "I'm quick to assume that someone is trying to cheat me.",
+      "No one must ever learn that I once stole money from guild coffers.",
+      "I'm never satisfied with what I have – I always want more.",
+      "I would kill to acquire a noble title.",
+      "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency",
+    "has:variant"
+  ]
+}

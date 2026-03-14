@@ -4,7 +4,7 @@
 import type { SpellsPack } from '../types';
 
 export const spellsPack: SpellsPack = {
-  "generatedAt": "2026-03-12T20:52:59.108Z",
+  "generatedAt": "2026-03-13T21:46:03.157Z",
   "count": 524,
   "metas": [
     {

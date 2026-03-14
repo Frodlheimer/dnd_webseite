@@ -1,0 +1,377 @@
+{
+  "id": "initiate",
+  "slug": "initiate",
+  "name": "Initiate",
+  "aliases": [
+    "Initiate"
+  ],
+  "categories": [
+    "Amonkhet"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Intimidation"
+    ],
+    "tools": [
+      "vehicles (land)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Dice set",
+        "Dragonchess set",
+        "Playing card set",
+        "Three-Dragon Ante set"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "simple puzzle box",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "scroll containing the basic teachings of the five gods",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "gaming set",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp. If you have completed any trials before the start of the campaign",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "you also have any cartouches you have earned",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothes, and a pouch containing 15gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned."
+  },
+  "feature": {
+    "name": "Trial of the Five Gods",
+    "summary": "Your life is oriented around your participation in the five trials that will determine your worthiness in the afterlife.",
+    "rulesText": "Trial of the Five Gods\nYour life is oriented around your participation in the five trials that will determine your worthiness in the afterlife. While you prepare for and undergo those trials, you have constant access to training. A comfortable place to live and regular meals are provided to you by servitor mummies (the anointed) under the supervision of viziers. You can enjoy these benefits only as long as you obey the societal norms of Naktamun—training for the trials (with or without your crop), obeying the orders of the gods, and following the instructions of their viziers. If you violate these norms, you risk being treated as a dissenter."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Intimidation"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of gaming set, vehicles (land)"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothes, and a pouch containing 15gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned."
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "trial-of-the-five-gods-5",
+      "title": "Trial of the Five Gods",
+      "kind": "feature",
+      "text": "Your life is oriented around your participation in the five trials that will determine your worthiness in the afterlife. While you prepare for and undergo those trials, you have constant access to training. A comfortable place to live and regular meals are provided to you by servitor mummies (the anointed) under the supervision of viziers. You can enjoy these benefits only as long as you obey the societal norms of Naktamun—training for the trials (with or without your crop), obeying the orders of the gods, and following the instructions of their viziers. If you violate these norms, you risk being treated as a dissenter."
+    },
+    {
+      "id": "suggested-characteristics-7",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "An initiate’s life is focused on the trials, but it doesn’t need to be all about the trials. Though some initiates are highly focused on their training, most undergo that training while also experiencing joy, sorrow, love, loss, anger, jealousy, hope, faith, delight—the whole range of mortal emotions and experience. The afterlife might be a constant presence in every initiate’s mind, but it is the culmination of a life well-lived—not a replacement for it."
+    },
+    {
+      "id": "personality-traits-9",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I always have a joke on hand when the mood gets too serious.\nI use sarcasm and insults to keep a distance between myself and my crop-mates, because I don’t want to get attached to them.\nI’ll settle for nothing less than perfection—in myself, in my cropmates, in everything.\nI’m so focused on the glorious afterlife that nothing in this life can shake my calm resolve.\nI enjoy using my skills to help those who lack those same skills.\nI train hard so that I can play hard at the end of the day. I fully expect to play even harder in the glorious afterlife, but I’m not in a hurry to get there.\nI’m perfectly happy letting others pick up the slack for me while I take it easy.\nI’m constantly sizing up everyone around me, thinking about what kind of opponent they’ll be in the final trial."
+    },
+    {
+      "id": "ideals-11",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Solidarity. The thing that matters most of all is that we’re there for each other. (Lawful)\nKnowledge. The world is a puzzle — a mystery waiting to be solved. (Neutral)\nStrength. All that matters to me is my own perfection. Let everyone else seek that perfection in their own way. (Any)\nAmbition. I’m going to prove that I deserve only the best — of everything. (Evil)\nZeal. Anything worth doing is worth throwing my whole self into. (Any)\nRedemption. I will train all the harder to make up for the doubt I entertained when I was younger. (Any)"
+    },
+    {
+      "id": "bonds-13",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "One of my crop-mates is my dearest friend, and I hope we will face each other in the final trial.\nI am in love with a vizier.\nI am particularly drawn to one of the five gods, and I want nothing more than to win that god’s particular favor.\nI am more devoted to Naktamun and its people than I am to any of the ideals of the gods.\nMy weapon was a gift from a beloved trainer who died in an accident.\nI carry a memento of my time as an acolyte, and I treasure it above all other things."
+    },
+    {
+      "id": "flaws-15",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I’m easily distracted by an attractive person, which could be the death of me in the trials.\nI really wanted to be a vizier, and I’m angry at the god who didn’t choose me.\nTraining for a lifetime to die in the end seems like a big waste of energy.\nI’m not at all sure I’ll be able to grant a glorified death to any of my crop-mates.\nI have a lasting grudge against one of my crop-mates, and each of us wants to see the other fail.\nI think I’ve figured out that this world is not what it seems. Something dark is going on here."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You are an initiate, on the path to completing the trials of the five gods in the hope of earning a glorified death in the final Trial of Zeal. Some combination of your natural aptitude, your crop’s needs, and your teachers’ assessment while you were an acolyte led you to focus your training in one particular area of specialization—hand-to-hand combat, long-range combat, or spellcasting. But only a well-rounded initiate can be called truly worthy of the afterlife."
+    },
+    {
+      "type": "p",
+      "text": "If you are a hand-to-hand specialist, consider the barbarian, fighter, monk, paladin, or rogue classes. As a long-range combat specialist, you might be a fighter, a ranger, or a rogue. If you are a spellcasting specialist, you might be a bard, sorcerer, or wizard. And beyond this initial choice, you might consider multiclassing or using feats to round out your skills in all three areas."
+    },
+    {
+      "type": "p",
+      "text": "Source: Plane Shift - Amonkhet"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Intimidation\nTool Proficiencies: One type of gaming set, vehicles (land)\nEquipment: A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1 containing 15gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Trial of the Five Gods"
+    },
+    {
+      "type": "p",
+      "text": "Your life is oriented around your participation in the five trials that will determine your worthiness in the afterlife. While you prepare for and undergo those trials, you have constant access to training. A comfortable place to live and regular meals are provided to you by servitor mummies (the anointed) under the supervision of viziers. You can enjoy these benefits only as long as you obey the societal norms of Naktamun—training for the trials (with or without your crop), obeying the orders of the gods, and following the instructions of their viziers. If you violate these norms, you risk being treated as a dissenter."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "An initiate’s life is focused on the trials, but it doesn’t need to be all about the trials. Though some initiates are highly focused on their training, most undergo that training while also experiencing joy, sorrow, love, loss, anger, jealousy, hope, faith, delight—the whole range of mortal emotions and experience. The afterlife might be a constant presence in every initiate’s mind, but it is the culmination of a life well-lived—not a replacement for it."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I always have a joke on hand when the mood gets too serious."
+        ],
+        [
+          "2",
+          "I use sarcasm and insults to keep a distance between myself and my crop-mates, because I don’t want to get attached to them."
+        ],
+        [
+          "3",
+          "I’ll settle for nothing less than perfection—in myself, in my cropmates, in everything."
+        ],
+        [
+          "4",
+          "I’m so focused on the glorious afterlife that nothing in this life can shake my calm resolve."
+        ],
+        [
+          "5",
+          "I enjoy using my skills to help those who lack those same skills."
+        ],
+        [
+          "6",
+          "I train hard so that I can play hard at the end of the day. I fully expect to play even harder in the glorious afterlife, but I’m not in a hurry to get there."
+        ],
+        [
+          "7",
+          "I’m perfectly happy letting others pick up the slack for me while I take it easy."
+        ],
+        [
+          "8",
+          "I’m constantly sizing up everyone around me, thinking about what kind of opponent they’ll be in the final trial."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Solidarity. The thing that matters most of all is that we’re there for each other. (Lawful)"
+        ],
+        [
+          "2",
+          "Knowledge. The world is a puzzle — a mystery waiting to be solved. (Neutral)"
+        ],
+        [
+          "3",
+          "Strength. All that matters to me is my own perfection. Let everyone else seek that perfection in their own way. (Any)"
+        ],
+        [
+          "4",
+          "Ambition. I’m going to prove that I deserve only the best — of everything. (Evil)"
+        ],
+        [
+          "5",
+          "Zeal. Anything worth doing is worth throwing my whole self into. (Any)"
+        ],
+        [
+          "6",
+          "Redemption. I will train all the harder to make up for the doubt I entertained when I was younger. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "One of my crop-mates is my dearest friend, and I hope we will face each other in the final trial."
+        ],
+        [
+          "2",
+          "I am in love with a vizier."
+        ],
+        [
+          "3",
+          "I am particularly drawn to one of the five gods, and I want nothing more than to win that god’s particular favor."
+        ],
+        [
+          "4",
+          "I am more devoted to Naktamun and its people than I am to any of the ideals of the gods."
+        ],
+        [
+          "5",
+          "My weapon was a gift from a beloved trainer who died in an accident."
+        ],
+        [
+          "6",
+          "I carry a memento of my time as an acolyte, and I treasure it above all other things."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I’m easily distracted by an attractive person, which could be the death of me in the trials."
+        ],
+        [
+          "2",
+          "I really wanted to be a vizier, and I’m angry at the god who didn’t choose me."
+        ],
+        [
+          "3",
+          "Training for a lifetime to die in the end seems like a big waste of energy."
+        ],
+        [
+          "4",
+          "I’m not at all sure I’ll be able to grant a glorified death to any of my crop-mates."
+        ],
+        [
+          "5",
+          "I have a lasting grudge against one of my crop-mates, and each of us wants to see the other fail."
+        ],
+        [
+          "6",
+          "I think I’ve figured out that this world is not what it seems. Something dark is going on here."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You are an initiate, on the path to completing the trials of the five gods in the hope of earning a glorified death in the final Trial of Zeal.",
+  "personality": {
+    "traits": [
+      "I always have a joke on hand when the mood gets too serious.",
+      "I use sarcasm and insults to keep a distance between myself and my crop-mates, because I don’t want to get attached to them.",
+      "I’ll settle for nothing less than perfection—in myself, in my cropmates, in everything.",
+      "I’m so focused on the glorious afterlife that nothing in this life can shake my calm resolve.",
+      "I enjoy using my skills to help those who lack those same skills.",
+      "I train hard so that I can play hard at the end of the day. I fully expect to play even harder in the glorious afterlife, but I’m not in a hurry to get there.",
+      "I’m perfectly happy letting others pick up the slack for me while I take it easy.",
+      "I’m constantly sizing up everyone around me, thinking about what kind of opponent they’ll be in the final trial."
+    ],
+    "ideals": [
+      "Solidarity. The thing that matters most of all is that we’re there for each other. (Lawful)",
+      "Knowledge. The world is a puzzle — a mystery waiting to be solved. (Neutral)",
+      "Strength. All that matters to me is my own perfection. Let everyone else seek that perfection in their own way. (Any)",
+      "Ambition. I’m going to prove that I deserve only the best — of everything. (Evil)",
+      "Zeal. Anything worth doing is worth throwing my whole self into. (Any)",
+      "Redemption. I will train all the harder to make up for the doubt I entertained when I was younger. (Any)"
+    ],
+    "bonds": [
+      "One of my crop-mates is my dearest friend, and I hope we will face each other in the final trial.",
+      "I am in love with a vizier.",
+      "I am particularly drawn to one of the five gods, and I want nothing more than to win that god’s particular favor.",
+      "I am more devoted to Naktamun and its people than I am to any of the ideals of the gods.",
+      "My weapon was a gift from a beloved trainer who died in an accident.",
+      "I carry a memento of my time as an acolyte, and I treasure it above all other things."
+    ],
+    "flaws": [
+      "I’m easily distracted by an attractive person, which could be the death of me in the trials.",
+      "I really wanted to be a vizier, and I’m angry at the god who didn’t choose me.",
+      "Training for a lifetime to die in the end seems like a big waste of energy.",
+      "I’m not at all sure I’ll be able to grant a glorified death to any of my crop-mates.",
+      "I have a lasting grudge against one of my crop-mates, and each of us wants to see the other fail.",
+      "I think I’ve figured out that this world is not what it seems. Something dark is going on here."
+    ]
+  },
+  "tags": [
+    "category:amonkhet",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

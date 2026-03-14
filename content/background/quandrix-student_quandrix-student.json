@@ -1,0 +1,1083 @@
+{
+  "kind": "BACKGROUND",
+  "slug": "quandrix-student",
+  "url": "https://dnd5e.wikidot.com/background:quandrix-student",
+  "page_title": "quandrix-student",
+  "aliases": [
+    "Quandrix Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Strixhaven: A Curriculum of Chaos"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Skill Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Arcana, Nature"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tool Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " One type of artisan's tools"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Languages:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " One of your choice"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Equipment:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " A "
+          },
+          {
+            "type": "text",
+            "text": "bottle of black ink"
+          },
+          {
+            "type": "text",
+            "text": "Value: 10gp Weight: 0"
+          },
+          {
+            "type": "text",
+            "text": ", an "
+          },
+          {
+            "type": "text",
+            "text": "ink pen"
+          },
+          {
+            "type": "text",
+            "text": "Value: 2cp Weight: 0"
+          },
+          {
+            "type": "text",
+            "text": ", an "
+          },
+          {
+            "type": "text",
+            "text": "abacus"
+          },
+          {
+            "type": "text",
+            "text": "Value: 2gp Weight: 2lb"
+          },
+          {
+            "type": "text",
+            "text": ", a book of arcane theory, a school uniform, and a "
+          },
+          {
+            "type": "text",
+            "text": "pouch"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 1lb"
+          },
+          {
+            "type": "text",
+            "text": " containing 15 gp."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Feature"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Quandrix Initiate"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain the "
+          },
+          {
+            "type": "text",
+            "text": "Strixhaven Initiate"
+          },
+          {
+            "type": "text",
+            "text": " feat and must choose Quandrix within it."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quandrix Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spell Level"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Entangle"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Guiding Bolt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2nd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Enlarge/Reduce"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Vortex Warp"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3rd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Aura of Vitality"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Haste"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Control Water"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Freedom of Movement"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Circle of Power"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Passwall"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Consider customizing how your spells look when you can cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Building a Quandrix Character"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of "
+          },
+          {
+            "type": "text",
+            "text": "Wizards"
+          },
+          {
+            "type": "text",
+            "text": " (especially those who study the Schools of "
+          },
+          {
+            "type": "text",
+            "text": "Abjuration"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "Illusion"
+          },
+          {
+            "type": "text",
+            "text": ", or "
+          },
+          {
+            "type": "text",
+            "text": "Transmutation"
+          },
+          {
+            "type": "text",
+            "text": ") and the metamagic manipulations of "
+          },
+          {
+            "type": "text",
+            "text": "Sorcerers"
+          },
+          {
+            "type": "text",
+            "text": " are welcome in Quandrix, and many "
+          },
+          {
+            "type": "text",
+            "text": "Druids"
+          },
+          {
+            "type": "text",
+            "text": " explore the patterns of nature in Quandrix as well. A few "
+          },
+          {
+            "type": "text",
+            "text": "Clerics"
+          },
+          {
+            "type": "text",
+            "text": ", particularly those with the "
+          },
+          {
+            "type": "text",
+            "text": "Knowledge"
+          },
+          {
+            "type": "text",
+            "text": " or "
+          },
+          {
+            "type": "text",
+            "text": "Nature"
+          },
+          {
+            "type": "text",
+            "text": " domains, study in Quandrix as well."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Aside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some "
+          },
+          {
+            "type": "text",
+            "text": "Fighters"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "Monks"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "text": "Rangers"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "text": "Rogues"
+          },
+          {
+            "type": "text",
+            "text": " study here, using Quandrix principles to train their minds."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Suggested Characteristics."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Quandrix Personality Traits"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality Trait"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I hope this all makes sense to me one day. Until then, I'm going to keep faking it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Equations and patterns come naturally to my mind. I wish friendship came just as easily."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quandrix Trinkets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " When you make your character, you may roll once on the Quandrix Trinkets table, instead of on the "
+          },
+          {
+            "type": "text",
+            "text": "Trinkets"
+          },
+          {
+            "type": "text",
+            "text": " table in the "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Player's Handbook"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", for your starting trinket."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Quandrix Trinkets"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Trinket"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A small succulent in a dodecahedral clay pot"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A blue knit hat that looks a bit like a bottle folding in on itself"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A model hypercube carved from green crystal, showcasing the fourth dimension"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A round bread roll cut so that someone could spread butter on both halves without ever lifting the knife"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<p><strong><em>In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic.</em></strong></p>\n<p>Source: Strixhaven: A Curriculum of Chaos</p>\n<p><strong>Skill Proficiencies:</strong> Arcana, Nature<br/>\n<strong>Tool Proficiencies:</strong> One type of artisan's tools<br/>\n<strong>Languages:</strong> One of your choice<br/>\n<strong>Equipment:</strong> A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, an abacusValue: 2gp Weight: 2lb, a book of arcane theory, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp.</p>\n<h1>Feature</h1>\n<h2>Quandrix Initiate</h2>\n<p>You gain the Strixhaven Initiate feat and must choose Quandrix within it.</p>\n<p>In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>\n<table>\n<tr>\n<th>Quandrix Spells</th>\n</tr>\n<tr>\n<th>Spell Level</th>\n<th>Spells</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Entangle, Guiding Bolt</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>Enlarge/Reduce, Vortex Warp</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Aura of Vitality, Haste</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>Control Water, Freedom of Movement</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Circle of Power, Passwall</td>\n</tr>\n</table>\n<p>Consider customizing how your spells look when you can cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns.</p>\n<h1>Building a Quandrix Character</h1>\n<p>Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of Wizards (especially those who study the Schools of Abjuration, Illusion, or Transmutation) and the metamagic manipulations of Sorcerers are welcome in Quandrix, and many Druids explore the patterns of nature in Quandrix as well. A few Clerics, particularly those with the Knowledge or Nature domains, study in Quandrix as well.</p>\n<p>Aside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some Fighters, Monks, Rangers, and Rogues study here, using Quandrix principles to train their minds.</p>\n<p><strong><em>Suggested Characteristics.</em></strong> With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character.</p>\n<h2>Quandrix Personality Traits</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Personality Trait</th>\n</tr>\n<tr>\n<td>1</td>\n<td>When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>I hope this all makes sense to me one day. Until then, I'm going to keep faking it.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Equations and patterns come naturally to my mind. I wish friendship came just as easily.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!</td>\n</tr>\n</table>\n<p><strong><em>Quandrix Trinkets.</em></strong> When you make your character, you may roll once on the Quandrix Trinkets table, instead of on the Trinkets table in the <em>Player's Handbook</em>, for your starting trinket.</p>\n<h2>Quandrix Trinkets</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Trinket</th>\n</tr>\n<tr>\n<td>1</td>\n<td>A small succulent in a dodecahedral clay pot</td>\n</tr>\n<tr>\n<td>2</td>\n<td>A blue knit hat that looks a bit like a bottle folding in on itself</td>\n</tr>\n<tr>\n<td>3</td>\n<td>A model hypercube carved from green crystal, showcasing the fourth dimension</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor</td>\n</tr>\n<tr>\n<td>5</td>\n<td>A blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture</td>\n</tr>\n<tr>\n<td>6</td>\n<td>A round bread roll cut so that someone could spread butter on both halves without ever lifting the knife</td>\n</tr>\n</table>\n</div>"
+  }
+}

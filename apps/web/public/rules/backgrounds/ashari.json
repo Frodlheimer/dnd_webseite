@@ -1,0 +1,405 @@
+{
+  "id": "ashari",
+  "slug": "ashari",
+  "name": "Ashari",
+  "aliases": [
+    "Ashari"
+  ],
+  "categories": [
+    "Homebrew"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Nature",
+      "plus your choice of Arcana",
+      "Survival"
+    ],
+    "tools": [
+      "Herbalism kit"
+    ],
+    "languages": [
+      "Primordial (Aquan",
+      "Auran",
+      "depending on the elemental affinity of your tribe)"
+    ],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Ignan",
+        "Terran"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "staff carved with symbols of your tribe",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "herbalism kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "belt pouch containing 10 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A set of traveler's clothes, a staff carved with symbols of your tribe, an herbalism kit, and a belt pouch containing 10 gp."
+  },
+  "feature": {
+    "name": "Elemental Harmony",
+    "summary": "Growing up surrounded by wild elemental magics has attuned your senses to those chaotic forces, enabling you to subtly bend them to your will.",
+    "rulesText": "Elemental Harmony\nGrowing up surrounded by wild elemental magics has attuned your senses to those chaotic forces, enabling you to subtly bend them to your will. As an action, you channel minor magic involving the element of your chosen Ashari order, giving you one of the following abilities:\nPyrah. You instantaneously create and control a burst of flame small enough to light a candle, a torch, or a small campfire. Alternatively, you snuff out a flame of the same size.\nTerrah. You instantaneously create a small rock no larger than a gold coin. The rock appears in your hand, then turns to dust after 1 minute.\nVesrah. You instantaneously create enough hot or cold water to fill a small drinking vessel.\nZephrah. You create an instantaneous puff of wind strong enough to blow papers off a desk or mess up someone’s hair."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Nature, plus your choice of Arcana or Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Herbalism kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Primordial (Aquan, Auran, Ignan, or Terran, depending on the elemental affinity of your tribe)"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of traveler's clothes, a staff carved with symbols of your tribe, an herbalism kit, and a belt pouch containing 10 gp."
+    },
+    {
+      "id": "proficiencies-5",
+      "title": "Proficiencies",
+      "kind": "other",
+      "text": "Skill Proficiencies: Nature, plus your choice of Arcana or Survival Tool Proficiencies: Herbalism kit Languages: Primordial (Aquan, Auran, Ignan, or Terran, depending on the elemental affinity of your tribe) Equipment: A set of traveler's clothes, a staff carved with symbols of your tribe, an herbalism kit, and a belt pouch containing 10 gp."
+    },
+    {
+      "id": "features-7",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "elemental-harmony-8",
+      "title": "Elemental Harmony",
+      "kind": "feature",
+      "text": "Growing up surrounded by wild elemental magics has attuned your senses to those chaotic forces, enabling you to subtly bend them to your will. As an action, you channel minor magic involving the element of your chosen Ashari order, giving you one of the following abilities:\nPyrah. You instantaneously create and control a burst of flame small enough to light a candle, a torch, or a small campfire. Alternatively, you snuff out a flame of the same size.\nTerrah. You instantaneously create a small rock no larger than a gold coin. The rock appears in your hand, then turns to dust after 1 minute.\nVesrah. You instantaneously create enough hot or cold water to fill a small drinking vessel.\nZephrah. You create an instantaneous puff of wind strong enough to blow papers off a desk or mess up someone’s hair."
+    },
+    {
+      "id": "suggested-characteristics-11",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "The Ashari hold themselves removed from the rest of Tal’Dorei by their own choice. This makes many Ashari naive to the ways of the world beyond their homes — but it can also make them determined, steadfast, and tightly focused on their goals. Ever since Keyleth, Voice of the Tempest and leader of the Zephrah, became a world-renowned hero, the Air Ashari at least have become more familiar to Tal’Dorei’s other peoples. They are known to welcome outsiders to their mountaintop enclave, and to take on quests that force them to leave their isolated home."
+    },
+    {
+      "id": "personality-traits-13",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I like to keep my hands busy, no matter where I am.\nI love to explore new places and meet new people.\nI meditate at dawn each day — and I can’t stand it when my routine is interrupted.\nI like noticing patterns in the world around me, whether or not they mean anything.\nI don’t let anything — or anyone — stand in the way of my mission.\nI’m a plain talker, even with people who outrank me.\nI’ve always got some of my native element with me in some form. (This might be modeling clay, pure water, special burning incense, or a bottled cloud.\nI talk with everyone like I’ve known them all my life. Because most people I know, I have known all my life!"
+    },
+    {
+      "id": "ideals-15",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Destiny. I believe that everyone has a role to play. Now I just have to find mine. (Neutral)\nCommunity. It’s important to surround yourself with people you can count on, and who will support you. (Good)\nKnowledge. I want to learn everything I can about the Elemental Planes — and maybe even visit them myself. (Neutral)\nFreedom. I don’t care what anyone says. Even if it causes problems, the elements must be free. And so should I. (Chaotic)\nStructure. The elements are in harmony when they are free to act as they will, within the safe boundaries set by the Ashari. People are much the same. (Lawful)\nVirtuous Cycle. If I see someone who needs help, I feel compelled to assist them. Surely they’ll return the favor someday! (Good)"
+    },
+    {
+      "id": "bonds-17",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I have a cousin in another Ashari tribe whom I’ve never met, but someday I want to visit my extended family.\nThe leader of my tribe thinks I could be their successor, but I worry that I don’t have enough experience to lead my people.\nA mysterious person killed a member of my family. I’ve left home to discover who the killer was — and to seek vengeance.\nMy older sibling set out on their Aramante a year ago, and I haven’t seen them since.\nWhen I was a baby, a giant eagle brought me to Zephrah. I love my family, but I often wonder who my birth parents are.\nI trust my animal friends more than any humanoid ally."
+    },
+    {
+      "id": "flaws-19",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "Big cities are overwhelming. I get nervous when surrounded by people I don’t know.\nI know all too well that elemental power is dangerous — but I like playing around with it anyway.\nI get surly if I go too long without being in contact with my native element.\nI think the mission of my people is a fool’s errand. They should abandon isolation, let the elements be, and enjoy the pleasures of the world!\nI can’t stand it when people say one thing and mean another! Just say what you mean!\nUgh, I know it’s not right, but I can’t help but look down on people who can’t manipulate the elements. It’s not like it’s hard!"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Isolated from the political struggles of urban Tal’Dorei, you are a member of the Ashari people — a society bound to an ancient covenant protecting the Material Plane from the chaos of the primordial elements. You’ve been raised to revere and protect the natural world, and to shepherd the tumultuous elemental forces that give it life. When the elements threaten to overwhelm the delicate balance of nature, it is the role of the Ashari to restore harmony."
+    },
+    {
+      "type": "p",
+      "text": "You grew up in a tight-knit society, bound to a leader who successfully returned from the traditional journey to the Elemental Planes known as an Aramante. By contrast, you might well have never traveled more than a few days from your home, and thus have closer bonds with your family and neighbors than many people of Tal’Dorei."
+    },
+    {
+      "type": "p",
+      "text": "In your early life, you likely took up one of the many roles that make up your society, whether homemaker, hunter, explorer, or protector. If you have the ability to use elemental magic, you might have had one of the most important duties of all: protecting and soothing the elemental rift at the heart of your home. And even as an adventurer now traveling far beyond that home, your loyalties still lie with the continued safety of your order. Whatever else you do as you learn about the new world around you, you’re conscious of the need to gather allies to your cause."
+    },
+    {
+      "type": "p",
+      "text": "Each Ashari is tethered to one of the four elemental orders and their settlements. You must select Pyrah (fire), Vesrah (water), Terrah (earth), or Zephrah (wind). The rifts of earth and air are both in Tal’Dorei. If you live or lived among your people, then you are familiar with the remarkable sights of Air Ashari on Skysails above the Summit Peaks, or Earth Ashari erupting from the solid stone of the Cliffkeep Mountains on their Earthboards"
+    },
+    {
+      "type": "p",
+      "text": "Source: Tal'Dorei Campaign Setting Reborn"
+    },
+    {
+      "type": "h1",
+      "text": "Proficiencies"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Nature, plus your choice of Arcana or Survival\nTool Proficiencies: Herbalism kit\nLanguages: Primordial (Aquan, Auran, Ignan, or Terran, depending on the elemental affinity of your tribe)\nEquipment: A set of traveler's clothes, a staff carved with symbols of your tribe, an herbalism kit, and a belt pouch containing 10 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Elemental Harmony"
+    },
+    {
+      "type": "p",
+      "text": "Growing up surrounded by wild elemental magics has attuned your senses to those chaotic forces, enabling you to subtly bend them to your will. As an action, you channel minor magic involving the element of your chosen Ashari order, giving you one of the following abilities:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pyrah. You instantaneously create and control a burst of flame small enough to light a candle, a torch, or a small campfire. Alternatively, you snuff out a flame of the same size.",
+        "Terrah. You instantaneously create a small rock no larger than a gold coin. The rock appears in your hand, then turns to dust after 1 minute.",
+        "Vesrah. You instantaneously create enough hot or cold water to fill a small drinking vessel.",
+        "Zephrah. You create an instantaneous puff of wind strong enough to blow papers off a desk or mess up someone’s hair."
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "The Ashari hold themselves removed from the rest of Tal’Dorei by their own choice. This makes many Ashari naive to the ways of the world beyond their homes — but it can also make them determined, steadfast, and tightly focused on their goals. Ever since Keyleth, Voice of the Tempest and leader of the Zephrah, became a world-renowned hero, the Air Ashari at least have become more familiar to Tal’Dorei’s other peoples. They are known to welcome outsiders to their mountaintop enclave, and to take on quests that force them to leave their isolated home."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I like to keep my hands busy, no matter where I am."
+        ],
+        [
+          "2",
+          "I love to explore new places and meet new people."
+        ],
+        [
+          "3",
+          "I meditate at dawn each day — and I can’t stand it when my routine is interrupted."
+        ],
+        [
+          "4",
+          "I like noticing patterns in the world around me, whether or not they mean anything."
+        ],
+        [
+          "5",
+          "I don’t let anything — or anyone — stand in the way of my mission."
+        ],
+        [
+          "6",
+          "I’m a plain talker, even with people who outrank me."
+        ],
+        [
+          "7",
+          "I’ve always got some of my native element with me in some form. (This might be modeling clay, pure water, special burning incense, or a bottled cloud."
+        ],
+        [
+          "8",
+          "I talk with everyone like I’ve known them all my life. Because most people I know, I have known all my life!"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Destiny. I believe that everyone has a role to play. Now I just have to find mine. (Neutral)"
+        ],
+        [
+          "2",
+          "Community. It’s important to surround yourself with people you can count on, and who will support you. (Good)"
+        ],
+        [
+          "3",
+          "Knowledge. I want to learn everything I can about the Elemental Planes — and maybe even visit them myself. (Neutral)"
+        ],
+        [
+          "4",
+          "Freedom. I don’t care what anyone says. Even if it causes problems, the elements must be free. And so should I. (Chaotic)"
+        ],
+        [
+          "5",
+          "Structure. The elements are in harmony when they are free to act as they will, within the safe boundaries set by the Ashari. People are much the same. (Lawful)"
+        ],
+        [
+          "6",
+          "Virtuous Cycle. If I see someone who needs help, I feel compelled to assist them. Surely they’ll return the favor someday! (Good)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I have a cousin in another Ashari tribe whom I’ve never met, but someday I want to visit my extended family."
+        ],
+        [
+          "2",
+          "The leader of my tribe thinks I could be their successor, but I worry that I don’t have enough experience to lead my people."
+        ],
+        [
+          "3",
+          "A mysterious person killed a member of my family. I’ve left home to discover who the killer was — and to seek vengeance."
+        ],
+        [
+          "4",
+          "My older sibling set out on their Aramante a year ago, and I haven’t seen them since."
+        ],
+        [
+          "5",
+          "When I was a baby, a giant eagle brought me to Zephrah. I love my family, but I often wonder who my birth parents are."
+        ],
+        [
+          "6",
+          "I trust my animal friends more than any humanoid ally."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Big cities are overwhelming. I get nervous when surrounded by people I don’t know."
+        ],
+        [
+          "2",
+          "I know all too well that elemental power is dangerous — but I like playing around with it anyway."
+        ],
+        [
+          "3",
+          "I get surly if I go too long without being in contact with my native element."
+        ],
+        [
+          "4",
+          "I think the mission of my people is a fool’s errand. They should abandon isolation, let the elements be, and enjoy the pleasures of the world!"
+        ],
+        [
+          "5",
+          "I can’t stand it when people say one thing and mean another! Just say what you mean!"
+        ],
+        [
+          "6",
+          "Ugh, I know it’s not right, but I can’t help but look down on people who can’t manipulate the elements. It’s not like it’s hard!"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "Isolated from the political struggles of urban Tal’Dorei, you are a member of the Ashari people — a society bound to an ancient covenant protecting the Material Plane from the chaos of the primordial elements.",
+  "personality": {
+    "traits": [
+      "I like to keep my hands busy, no matter where I am.",
+      "I love to explore new places and meet new people.",
+      "I meditate at dawn each day — and I can’t stand it when my routine is interrupted.",
+      "I like noticing patterns in the world around me, whether or not they mean anything.",
+      "I don’t let anything — or anyone — stand in the way of my mission.",
+      "I’m a plain talker, even with people who outrank me.",
+      "I’ve always got some of my native element with me in some form. (This might be modeling clay, pure water, special burning incense, or a bottled cloud.",
+      "I talk with everyone like I’ve known them all my life. Because most people I know, I have known all my life!"
+    ],
+    "ideals": [
+      "Destiny. I believe that everyone has a role to play. Now I just have to find mine. (Neutral)",
+      "Community. It’s important to surround yourself with people you can count on, and who will support you. (Good)",
+      "Knowledge. I want to learn everything I can about the Elemental Planes — and maybe even visit them myself. (Neutral)",
+      "Freedom. I don’t care what anyone says. Even if it causes problems, the elements must be free. And so should I. (Chaotic)",
+      "Structure. The elements are in harmony when they are free to act as they will, within the safe boundaries set by the Ashari. People are much the same. (Lawful)",
+      "Virtuous Cycle. If I see someone who needs help, I feel compelled to assist them. Surely they’ll return the favor someday! (Good)"
+    ],
+    "bonds": [
+      "I have a cousin in another Ashari tribe whom I’ve never met, but someday I want to visit my extended family.",
+      "The leader of my tribe thinks I could be their successor, but I worry that I don’t have enough experience to lead my people.",
+      "A mysterious person killed a member of my family. I’ve left home to discover who the killer was — and to seek vengeance.",
+      "My older sibling set out on their Aramante a year ago, and I haven’t seen them since.",
+      "When I was a baby, a giant eagle brought me to Zephrah. I love my family, but I often wonder who my birth parents are.",
+      "I trust my animal friends more than any humanoid ally."
+    ],
+    "flaws": [
+      "Big cities are overwhelming. I get nervous when surrounded by people I don’t know.",
+      "I know all too well that elemental power is dangerous — but I like playing around with it anyway.",
+      "I get surly if I go too long without being in contact with my native element.",
+      "I think the mission of my people is a fool’s errand. They should abandon isolation, let the elements be, and enjoy the pleasures of the world!",
+      "I can’t stand it when people say one thing and mean another! Just say what you mean!",
+      "Ugh, I know it’s not right, but I can’t help but look down on people who can’t manipulate the elements. It’s not like it’s hard!"
+    ]
+  },
+  "tags": [
+    "category:homebrew",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

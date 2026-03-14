@@ -43,11 +43,19 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
   },
   {
     id: 'nav-player-characters',
-    label: 'Characters',
-    description: 'Guided character builder, local saves, and export',
+    label: 'Create a New Character',
+    description: 'Character Builder start page with guided workflow overview',
     path: '/player/characters',
     scope: 'player',
-    keywords: ['character', 'sheet']
+    keywords: ['character', 'builder', 'create', 'start']
+  },
+  {
+    id: 'nav-player-characters-list',
+    label: 'Your Characters',
+    description: 'Saved local characters, review, duplicate, and continue editing',
+    path: '/player/characters/list',
+    scope: 'player',
+    keywords: ['character', 'builder', 'saved', 'list', 'sheet']
   },
   {
     id: 'nav-player-character-sheets',
@@ -60,10 +68,10 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
   {
     id: 'nav-player-point-buy',
     label: 'Point Buy Calculator',
-    description: '5e point buy with SRD and legacy bonus modes',
-    path: '/player/characters/point-buy',
+    description: 'Shared 5e point buy calculator with guidance, ASI, and feat planning',
+    path: '/player/tools/point-buy',
     scope: 'player',
-    keywords: ['point buy', 'ability scores', 'asi', 'feat', 'calculator']
+    keywords: ['point buy', 'ability scores', 'asi', 'feat', 'calculator', 'tools']
   },
   {
     id: 'nav-player-notes',
@@ -75,11 +83,11 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
   },
   {
     id: 'nav-player-tools',
-    label: 'Player Tools',
-    description: 'Dice and utility tools',
+    label: 'Tools',
+    description: 'Dice, point buy, and unit conversion tools',
     path: '/player/tools',
     scope: 'player',
-    keywords: ['dice', 'tools', 'utility']
+    keywords: ['dice', 'tools', 'utility', 'converter', 'feet', 'meters', 'inches', 'centimeters']
   },
   {
     id: 'nav-dice',
@@ -195,8 +203,8 @@ export const navigationSearchEntries: NavigationSearchEntry[] = [
   },
   {
     id: 'nav-rules-races',
-    label: 'Races (SRD)',
-    description: 'SRD race references',
+    label: 'Races',
+    description: 'Structured SRD 5.1 race references',
     path: '/rules/races',
     scope: 'all',
     keywords: ['races', 'srd', 'ancestry']

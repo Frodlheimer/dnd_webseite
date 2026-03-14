@@ -7,7 +7,15 @@ import {
 import type { AbilityMap as PointBuyAbilityMap } from '../pointBuy/types';
 import type { SpellMeta } from '../../rules/spells/types';
 import type { CharacterRecord } from '../model/character';
-import { ABILITIES, createEmptyCharacter, type Ability } from '../model/character';
+import {
+  ABILITIES,
+  createEmptyCharacter,
+  getOriginModeForRuleset,
+  getSourceScopeForRuleset,
+  type Ability
+} from '../model/character';
+import { backgroundRulesFacade } from '../rules/backgroundRulesFacade';
+import { raceRulesFacade } from '../rules/raceRulesFacade';
 import { resolveCharacterBuildStatus } from './completion';
 import { buildPendingDecisions } from './pendingDecisions';
 import { buildValidationIssues } from './validation';
@@ -45,6 +53,30 @@ export type DerivedCharacterRuntime = {
     choose: number;
     options: string[];
   };
+  origin: {
+    availableSubraces: Array<{
+      id: string;
+      name: string;
+      summary: string;
+    }>;
+    raceLanguageChoices: number;
+    raceLanguageOptions: string[];
+    raceToolChoices: number;
+    raceToolOptions: string[];
+    raceSkillChoices: number;
+    raceSkillOptions: string[];
+    raceAbilityBonusChoice: {
+      choose: number;
+      amount: number;
+      from: Ability[];
+    } | null;
+    backgroundLanguageChoices: number;
+    backgroundLanguageOptions: string[];
+    backgroundToolChoices: number;
+    backgroundToolOptions: string[];
+    backgroundSkillChoices: number;
+    backgroundSkillOptions: string[];
+  };
   featureChoices: BuilderClassFeatureChoice[];
   equipmentChoices: Awaited<ReturnType<typeof rulesFacade.getEquipmentOptionsForClass>>['packageChoices'];
   spellLimits: Awaited<ReturnType<typeof rulesFacade.getKnownSpellLimitsForClassLevel>>;
@@ -65,6 +97,24 @@ export type DeriveCharacterResult = {
 };
 
 const unique = <T>(values: T[]): T[] => [...new Set(values)];
+
+const normalizeComparisonKey = (value: string): string => {
+  return value
+    .toLowerCase()
+    .replace(/[â€™’]/g, "'")
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+};
+
+const collectOverlapLabels = (values: string[], against: string[]): string[] => {
+  const againstKeys = new Set(against.map((entry) => normalizeComparisonKey(entry)).filter(Boolean));
+  return unique(
+    values.filter((entry) => {
+      const key = normalizeComparisonKey(entry);
+      return key.length > 0 && againstKeys.has(key);
+    })
+  );
+};
 
 const sumAbilityMap = (values: Partial<Record<Ability, number>>): number => {
   return ABILITIES.reduce((acc, ability) => acc + (values[ability] ?? 0), 0);
@@ -252,7 +302,10 @@ const deriveAbilities = async (character: CharacterRecord): Promise<DerivedAbili
 
   const raceBonuses: Partial<Record<Ability, number>> = {};
   if (character.origin.mode === 'LEGACY_RACE' && character.origin.raceId) {
-    const race = await rulesFacade.getRaceById(character.origin.raceId);
+    const race = await raceRulesFacade.getCombinedRaceData(
+      character.origin.raceId,
+      character.origin.subraceId
+    );
     if (race) {
       ABILITIES.forEach((ability) => {
         const value = race.abilityBonuses[ability] ?? 0;
@@ -261,13 +314,19 @@ const deriveAbilities = async (character: CharacterRecord): Promise<DerivedAbili
         }
       });
     }
-    const legacyAssignments = character.origin.legacyRaceBonusAssignments ?? {};
+    character.origin.legacyRaceBonusAssignments = normalizeRaceAbilityChoiceAssignments(
+      character.origin.legacyRaceBonusAssignments,
+      race?.abilityBonusChoice ?? null
+    );
+    const legacyAssignments = character.origin.legacyRaceBonusAssignments;
     ABILITIES.forEach((ability) => {
       const value = legacyAssignments[ability] ?? 0;
       if (value > 0) {
         raceBonuses[ability] = (raceBonuses[ability] ?? 0) + value;
       }
     });
+  } else if (character.origin.mode === 'LEGACY_RACE') {
+    character.origin.legacyRaceBonusAssignments = {};
   }
 
   const bonus: Partial<Record<Ability, number>> = {};
@@ -463,7 +522,8 @@ const parseSpellcastingAbility = (primaryAbility: string | undefined, mods: Reco
 
 const mergeEquipmentItems = (
   selectedPackages: CharacterRecord['equipment']['selectedPackages'],
-  existingItems: CharacterRecord['equipment']['items']
+  existingItems: CharacterRecord['equipment']['items'],
+  autoGrantedItems: CharacterRecord['equipment']['items'] = []
 ): CharacterRecord['equipment']['items'] => {
   const map = new Map<string, CharacterRecord['equipment']['items'][number]>();
 
@@ -483,21 +543,135 @@ const mergeEquipmentItems = (
   };
 
   selectedPackages.forEach((entry) => entry.items.forEach(addItem));
+  autoGrantedItems.forEach(addItem);
   existingItems
-    .filter((item) => item.source !== 'class_starting_equipment')
+    .filter(
+      (item) =>
+        item.source !== 'class_starting_equipment' &&
+        item.source !== 'background_starting_equipment' &&
+        item.source !== 'background_starting_equipment_choice'
+    )
     .forEach(addItem);
 
   return [...map.values()];
+};
+
+const buildBackgroundFixedItems = (
+  backgroundId: string,
+  fixedItems: NonNullable<
+    Awaited<ReturnType<typeof backgroundRulesFacade.getBackgroundGrantedData>>
+  >['equipment']['fixedItems']
+): CharacterRecord['equipment']['items'] => {
+  return fixedItems.map((item, index) => ({
+    id: `${backgroundId}-fixed-item-${index}-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+    name: item.name,
+    quantity: item.quantity ?? 1,
+    source: 'background_starting_equipment'
+  }));
+};
+
+const createBackgroundDuplicateWarnings = (args: {
+  backgroundData: NonNullable<Awaited<ReturnType<typeof backgroundRulesFacade.getBackgroundGrantedData>>>;
+  selectedBackgroundPackageItems: string[];
+  selectedBackgroundSkills: string[];
+  selectedBackgroundTools: string[];
+  selectedBackgroundLanguages: string[];
+  otherEquipmentItems: string[];
+  otherSkills: string[];
+  otherTools: string[];
+  otherLanguages: string[];
+}): Array<{
+  section: 'Background' | 'Equipment';
+  message: string;
+}> => {
+  const warnings: Array<{
+    section: 'Background' | 'Equipment';
+    message: string;
+  }> = [];
+
+  const duplicateSkills = collectOverlapLabels(
+    [...args.backgroundData.skills, ...args.selectedBackgroundSkills],
+    args.otherSkills
+  );
+  if (duplicateSkills.length > 0) {
+    warnings.push({
+      section: 'Background',
+      message: `Background skill options overlap with existing proficiencies: ${duplicateSkills.join(', ')}. Duplicates do not stack.`
+    });
+  }
+
+  const duplicateTools = collectOverlapLabels(
+    [...args.backgroundData.tools, ...args.selectedBackgroundTools],
+    args.otherTools
+  );
+  if (duplicateTools.length > 0) {
+    warnings.push({
+      section: 'Background',
+      message: `Background tool options overlap with existing proficiencies: ${duplicateTools.join(', ')}. Duplicates do not stack.`
+    });
+  }
+
+  const duplicateLanguages = collectOverlapLabels(
+    [...args.backgroundData.languages, ...args.selectedBackgroundLanguages],
+    args.otherLanguages
+  );
+  if (duplicateLanguages.length > 0) {
+    warnings.push({
+      section: 'Background',
+      message: `Background language options overlap with languages already known: ${duplicateLanguages.join(', ')}. Duplicates do not stack.`
+    });
+  }
+
+  const duplicateEquipment = collectOverlapLabels(
+    [
+      ...args.backgroundData.equipment.fixedItems.map((item) => item.name),
+      ...args.selectedBackgroundPackageItems
+    ],
+    args.otherEquipmentItems
+  );
+  if (duplicateEquipment.length > 0) {
+    warnings.push({
+      section: 'Equipment',
+      message: `Background starting equipment overlaps with other inventory items: ${duplicateEquipment.join(', ')}. Review duplicates before exporting.`
+    });
+  }
+
+  return warnings;
 };
 
 const dedupeAbilityList = (values: Ability[]): Ability[] => {
   return values.filter((value, index) => values.indexOf(value) === index);
 };
 
+const normalizeRaceAbilityChoiceAssignments = (
+  assignments: Partial<Record<Ability, number>> | undefined,
+  choice: {
+    choose: number;
+    amount: number;
+    from: Ability[];
+  } | null
+): Partial<Record<Ability, number>> => {
+  if (!choice) {
+    return {};
+  }
+
+  const output: Partial<Record<Ability, number>> = {};
+  choice.from
+    .filter((ability) => (assignments?.[ability] ?? 0) > 0)
+    .slice(0, choice.choose)
+    .forEach((ability) => {
+      output[ability] = choice.amount;
+    });
+
+  return output;
+};
+
 export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCharacterResult> => {
   const character = structuredClone(input);
   const level = Math.max(1, Math.min(20, Math.trunc(character.progression.level)));
   character.progression.level = level;
+  character.origin.mode = getOriginModeForRuleset(character.ruleset);
+  character.meta.sourceScope = getSourceScopeForRuleset(character.ruleset);
   if (character.abilities.method !== 'point_buy') {
     character.abilities.method = 'point_buy';
   }
@@ -526,10 +700,22 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
         tools: []
       };
 
-  const background = character.origin.backgroundId
-    ? rulesFacade.getBackgroundById(character.origin.backgroundId)
+  const backgroundData = character.origin.backgroundId
+    ? await backgroundRulesFacade.getBackgroundGrantedData(character.origin.backgroundId)
     : null;
-  const race = character.origin.raceId ? await rulesFacade.getRaceById(character.origin.raceId) : null;
+  const lineage = character.origin.raceId ? await rulesFacade.getRaceById(character.origin.raceId) : null;
+  const legacyRace =
+    character.origin.mode === 'LEGACY_RACE' && character.origin.raceId
+      ? await raceRulesFacade.getCombinedRaceData(character.origin.raceId, character.origin.subraceId)
+      : null;
+  const availableSubraces =
+    character.origin.mode === 'LEGACY_RACE' && character.origin.raceId
+      ? raceRulesFacade.getSubracesForRace(character.origin.raceId).map((meta) => ({
+          id: meta.id,
+          name: meta.name,
+          summary: meta.summary
+        }))
+      : [];
 
   const selectedClassSkills = character.proficiencies.skills.filter((skill) => {
     return classSkillChoice.options.includes(skill as (typeof classSkillChoice.options)[number]);
@@ -538,15 +724,34 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     selectedClassSkills.splice(classSkillChoice.choose);
   }
 
-  const mergedSkills = unique([...(background?.skillProficiencies ?? []), ...selectedClassSkills, ...character.proficiencies.skills]);
-  const mergedTools = unique([
-    ...(background?.toolProficiencies ?? []),
-    ...character.origin.selectedToolProficiencies,
-    ...classProficiencies.tools
+  const mergedSkills = unique([
+    ...(backgroundData?.skills ?? []),
+    ...character.origin.selectedBackgroundSkills,
+    ...(legacyRace?.proficiencies.skills ?? []),
+    ...character.origin.selectedRaceSkills,
+    ...selectedClassSkills
   ]);
-  const mergedLanguages = unique([...(race?.languages ?? []), ...character.origin.selectedLanguages]);
+  const mergedTools = unique([
+    ...(backgroundData?.tools ?? []),
+    ...(legacyRace?.proficiencies.tools ?? []),
+    ...character.origin.selectedBackgroundToolProficiencies,
+    ...character.origin.selectedRaceToolProficiencies,
+    ...classProficiencies.tools,
+    ...character.proficiencies.tools
+  ]);
+  const mergedLanguages = unique([
+    ...(backgroundData?.languages ?? []),
+    ...(lineage?.languages ?? []),
+    ...(legacyRace?.languagesGranted ?? []),
+    ...character.origin.selectedBackgroundLanguages,
+    ...character.origin.selectedRaceLanguages
+  ]);
   const mergedArmor = unique([...classProficiencies.armor, ...character.proficiencies.armor]);
-  const mergedWeapons = unique([...classProficiencies.weapons, ...character.proficiencies.weapons]);
+  const mergedWeapons = unique([
+    ...classProficiencies.weapons,
+    ...(legacyRace?.proficiencies.weapons ?? []),
+    ...character.proficiencies.weapons
+  ]);
   const savingThrows = dedupeAbilityList([...(classSummary?.savingThrows ?? []), ...character.proficiencies.savingThrows]);
 
   const spellAbility = parseSpellcastingAbility(classSummary?.primaryAbility, abilityState.mods);
@@ -564,14 +769,35 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
         packageChoices: [],
         goldAlternativeGp: null
       };
+  const backgroundEquipmentChoices = backgroundData?.equipmentChoices ?? [];
+  const allEquipmentChoices = [...equipmentOptions.packageChoices, ...backgroundEquipmentChoices];
   const validPackageSelections = character.equipment.selectedPackages.filter((entry) => {
-    const choice = equipmentOptions.packageChoices.find((option) => option.id === entry.decisionId);
+    const choice = allEquipmentChoices.find((option) => option.id === entry.decisionId);
     if (!choice) {
       return false;
     }
     return choice.options.some((option) => option.id === entry.optionId);
   });
-  const inventoryItems = mergeEquipmentItems(validPackageSelections, character.equipment.items);
+  const inventoryItems = mergeEquipmentItems(
+    validPackageSelections,
+    character.equipment.items,
+    backgroundData ? buildBackgroundFixedItems(backgroundData.id, backgroundData.equipment.fixedItems) : []
+  );
+  const selectedBackgroundPackageItems = validPackageSelections
+    .filter((entry) => allEquipmentChoices.find((choice) => choice.id === entry.decisionId)?.source === 'background')
+    .flatMap((entry) => entry.items.map((item) => item.name));
+  const otherEquipmentItems = [
+    ...validPackageSelections
+      .filter((entry) => allEquipmentChoices.find((choice) => choice.id === entry.decisionId)?.source !== 'background')
+      .flatMap((entry) => entry.items.map((item) => item.name)),
+    ...character.equipment.items
+      .filter(
+        (item) =>
+          item.source !== 'background_starting_equipment' &&
+          item.source !== 'background_starting_equipment_choice'
+      )
+      .map((item) => item.name)
+  ];
 
   const combat = deriveCombat({
     character: {
@@ -588,7 +814,7 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     wisMod: abilityState.mods.wis,
     proficiencyBonus,
     proficientSkills: mergedSkills,
-    raceSpeed: race?.speedFeet ?? null
+    raceSpeed: legacyRace?.speed.walk ?? lineage?.speedFeet ?? null
   });
 
   const spellSaveDc = spellAbility ? 8 + proficiencyBonus + spellAbilityMod : null;
@@ -615,9 +841,26 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     },
     classSkillChoice,
     selectedClassSkillsCount: selectedClassSkills.length,
+    availableSubraces,
+    selectedRaceSkillChoicesCount: character.origin.selectedRaceSkills.length,
+    selectedRaceLanguageChoicesCount: character.origin.selectedRaceLanguages.length,
+    selectedRaceToolChoicesCount: character.origin.selectedRaceToolProficiencies.length,
+    selectedRaceAbilityChoicesCount: Object.values(character.origin.legacyRaceBonusAssignments ?? {}).filter(
+      (value) => (value ?? 0) > 0
+    ).length,
+    selectedBackgroundLanguageChoicesCount: character.origin.selectedBackgroundLanguages.length,
+    selectedBackgroundToolChoicesCount: character.origin.selectedBackgroundToolProficiencies.length,
+    raceSkillChoice: legacyRace?.proficiencies.skillChoices ?? null,
+    raceLanguageChoice: legacyRace?.languageChoices ?? null,
+    raceToolChoice: legacyRace?.proficiencies.toolChoices ?? null,
+    raceAbilityBonusChoice: legacyRace?.abilityBonusChoice ?? null,
+    selectedBackgroundSkillChoicesCount: character.origin.selectedBackgroundSkills.length,
+    backgroundSkillChoice: backgroundData?.skillChoices ?? null,
+    backgroundLanguageChoice: backgroundData?.languageChoices ?? null,
+    backgroundToolChoice: backgroundData?.toolChoices ?? null,
     subclassRequired,
     featureChoices,
-    equipmentChoices: equipmentOptions.packageChoices,
+    equipmentChoices: allEquipmentChoices,
     spellLimits,
     availableCantripCount: availableSpells.filter((spell) => spell.level === 0).length,
     availableKnownSpellCount: availableSpells.filter((spell) => spell.level > 0).length,
@@ -638,7 +881,7 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     classSkillChoiceCount: classSkillChoice.choose,
     selectedClassSkillsCount: selectedClassSkills.length,
     featureChoices,
-    equipmentChoices: equipmentOptions.packageChoices,
+    equipmentChoices: allEquipmentChoices,
     spellLimits,
     maxSpellLevel: spellState.maxSpellLevel,
     availableSpellSlugs: spellState.availableSpellSlugs,
@@ -654,11 +897,61 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     });
   }
 
+  if (backgroundData) {
+    createBackgroundDuplicateWarnings({
+      backgroundData,
+      selectedBackgroundPackageItems,
+      selectedBackgroundSkills: character.origin.selectedBackgroundSkills,
+      selectedBackgroundTools: character.origin.selectedBackgroundToolProficiencies,
+      selectedBackgroundLanguages: character.origin.selectedBackgroundLanguages,
+      otherEquipmentItems,
+      otherSkills: [
+        ...(legacyRace?.proficiencies.skills ?? []),
+        ...character.origin.selectedRaceSkills,
+        ...selectedClassSkills,
+        ...character.proficiencies.skills
+      ],
+      otherTools: [
+        ...(legacyRace?.proficiencies.tools ?? []),
+        ...character.origin.selectedRaceToolProficiencies,
+        ...classProficiencies.tools,
+        ...character.proficiencies.tools
+      ],
+      otherLanguages: [
+        ...(lineage?.languages ?? []),
+        ...(legacyRace?.languagesGranted ?? []),
+        ...character.origin.selectedRaceLanguages,
+        ...character.proficiencies.languages
+      ]
+    }).forEach((warning, index) => {
+      validation.warnings.push({
+        id: `background-duplicate-${validation.warnings.length + index + 1}`,
+        severity: 'warning',
+        section: warning.section,
+        message: warning.message
+      });
+    });
+  }
+
   const status = resolveCharacterBuildStatus({
     blockingErrors: validation.errors,
     pendingRequiredDecisions: pendingDecisions.filter((entry) => entry.required).length,
     warnings: validation.warnings
   });
+
+  const raceAutoGranted = (legacyRace?.traits ?? []).map((trait) => ({
+    id: trait.name,
+    source: legacyRace?.subraceId ? 'origin:race-subrace' : 'origin:race'
+  }));
+  const backgroundAutoGranted =
+    backgroundData?.feature.name
+      ? [
+          {
+            id: backgroundData.feature.name,
+            source: 'origin:background'
+          }
+        ]
+      : [];
 
   const nextCharacter: CharacterRecord = {
     ...character,
@@ -688,6 +981,17 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
       preparedSpells: spellState.preparedSpells,
       grantedSpells: spellState.grantedSpells
     },
+    features: {
+      ...character.features,
+      autoGranted: [
+        ...character.features.autoGranted.filter(
+          (entry) =>
+            !entry.source.startsWith('origin:race') && !entry.source.startsWith('origin:background')
+        ),
+        ...raceAutoGranted,
+        ...backgroundAutoGranted
+      ]
+    },
     derived: {
       ...character.derived,
       abilityFinal: abilityState.finalScores,
@@ -696,6 +1000,21 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
       passivePerception: combat.passivePerception,
       initiative: combat.initiative,
       speed: combat.speed,
+      senses: {
+        darkvision: legacyRace?.senses.darkvision ?? null,
+        blindsight: legacyRace?.senses.blindsight ?? null,
+        tremorsense: legacyRace?.senses.tremorsense ?? null,
+        truesight: legacyRace?.senses.truesight ?? null
+      },
+      defenses: {
+        resistances: [...(legacyRace?.defenses.resistances ?? [])],
+        immunities: [...(legacyRace?.defenses.immunities ?? [])],
+        conditionImmunities: [...(legacyRace?.defenses.conditionImmunities ?? [])],
+        savingThrowAdvantages: [...(legacyRace?.defenses.savingThrowAdvantages ?? [])]
+      },
+      raceTraitNames: (legacyRace?.traits ?? []).map((trait) => trait.name),
+      backgroundFeatureName: backgroundData?.feature.name ?? null,
+      backgroundFeatureText: backgroundData?.feature.rulesText ?? null,
       hitPointsMax: combat.hitPointsMax,
       armorClass: combat.armorClass,
       spellSaveDc,
@@ -715,8 +1034,24 @@ export const deriveCharacter = async (input: CharacterRecord): Promise<DeriveCha
     character: nextCharacter,
     runtime: {
       classSkillChoice,
+      origin: {
+        availableSubraces,
+        raceLanguageChoices: legacyRace?.languageChoices?.choose ?? 0,
+        raceLanguageOptions: legacyRace?.languageChoices?.from ?? [],
+        raceToolChoices: legacyRace?.proficiencies.toolChoices?.choose ?? 0,
+        raceToolOptions: legacyRace?.proficiencies.toolChoices?.from ?? [],
+        raceSkillChoices: legacyRace?.proficiencies.skillChoices?.choose ?? 0,
+        raceSkillOptions: legacyRace?.proficiencies.skillChoices?.from ?? [],
+        raceAbilityBonusChoice: legacyRace?.abilityBonusChoice ?? null,
+        backgroundLanguageChoices: backgroundData?.languageChoices?.choose ?? 0,
+        backgroundLanguageOptions: backgroundData?.languageChoices?.from ?? [],
+        backgroundToolChoices: backgroundData?.toolChoices?.choose ?? 0,
+        backgroundToolOptions: backgroundData?.toolChoices?.from ?? [],
+        backgroundSkillChoices: backgroundData?.skillChoices?.choose ?? 0,
+        backgroundSkillOptions: backgroundData?.skillChoices?.from ?? []
+      },
       featureChoices,
-      equipmentChoices: equipmentOptions.packageChoices,
+      equipmentChoices: allEquipmentChoices,
       spellLimits: spellLimits,
       availableSpells: availableSpells.map((spell) => ({
         slug: spell.slug,

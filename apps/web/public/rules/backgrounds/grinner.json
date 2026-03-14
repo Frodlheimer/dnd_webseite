@@ -1,0 +1,445 @@
+{
+  "id": "grinner",
+  "slug": "grinner",
+  "name": "Grinner",
+  "aliases": [
+    "Grinner"
+  ],
+  "categories": [
+    "Wildemount"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Deception",
+      "Performance"
+    ],
+    "tools": [
+      "Thieves' tools"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "disguise kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "musical instrument of your choice",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "gold-plated ring depicting a smiling face",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15gp."
+  },
+  "feature": {
+    "name": "Ballad of the Grinning Fool",
+    "summary": "Like every Grinner, you know how to find a hideout.",
+    "rulesText": "Ballad of the Grinning Fool\nLike every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the \"Ballad of the Grinning Fool\" in a major tavern or inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DM's discretion.\nThis feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Deception, Performance"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of musical instrument, thieves' tools"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15gp."
+    },
+    {
+      "id": "proficiencies-3",
+      "title": "Proficiencies",
+      "kind": "other",
+      "text": "Skill Proficiencies: Deception, Performance Tool Proficiencies: One type of musical instrument, thieves' tools Languages: None Equipment: A set of fine clothesValue:15gp Weight:6lbs, a disguise kitValue:25gp Weight:3lbs, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouchValue:5sp Weight:1lb containing 15gp."
+    },
+    {
+      "id": "features-5",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "code-songs-6",
+      "title": "Code-Songs",
+      "kind": "feature",
+      "text": "All members of the Golden Grin have learned a handful of folk songs in their travels, and use those songs to send secret codes and alert fellow Grinners to danger. Choose a favorite song or roll on the Favorite Code-Songs table.\nZan's Comin' Back. This hopeful Tal'Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.\nBlow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle.\nHush! Onward Come the Dragons. This Tal'Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.\nLet the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters.\nDrink Deep, Li'l Hummingbird. A drinking rondo from the Menagerie Coast, this song tells the tale of a young person who drinks so heavily that they awaken to find they've stowed away on a ship. Use it to encourage alertness in social situations.\nDirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat."
+    },
+    {
+      "id": "ballad-of-the-grinning-fool-9",
+      "title": "Ballad of the Grinning Fool",
+      "kind": "feature",
+      "text": "Like every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the \"Ballad of the Grinning Fool\" in a major tavern or inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DM's discretion.\nThis feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny."
+    },
+    {
+      "id": "suggested-characteristics-12",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Grinners are trained in the art of secrecy and innuendo, and are skilled at hiding in plain sight by being the loudest and brightest person in the room. Their skills in subterfuge and combat lend themselves well to an adventuring lifestyle, and traveling with mercenaries and treasure hunters creates a convenient excuse to journey through lands bent under tyranny."
+    },
+    {
+      "id": "personality-traits-14",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I love the spotlight. Everyone, look at me!\nGive me a drink and I'm your friend.\nTalk to me about yourself. I'm a hell of a listener.\nI hate to start fights, but I love to finish them.\nI can't sit still.\nI'm always humming an old tune from my past.\nWhen I don't have a reason to smile, I'm miserable.\nI'm lucky like you wouldn't believe."
+    },
+    {
+      "id": "ideals-16",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Revolution. Tyrants must fall, no matter the cost. (Chaotic)\nCompassion. The only way to make a better world is to perform small kindnesses. (Good)\nJustice. A nation built upon just foundations will uphold freedom for all. (Law)\nExpression. Music, joy, and laughter are the keys to freedom. (Good)\nSelf-Determination. People should be free to do as they please. (Chaotic)\nVigilance. A free people must be carefully taught, lest they be misled. (Neutral)"
+    },
+    {
+      "id": "bonds-18",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I lost someone important to an agent of the Dwendalian Empire. That regime will fall.\nThe first people to be hurt by this war will be the common folk. I need to protect them.\nMusic helped me through a dark time in my life. Now, I'll use music to change the world.\nI will be known as the greatest spy who ever lived.\nAll life is precious to me. I know I can change the world without taking a humanoid life.\nThe elite in their ivory towers don't understand how we suffer. I intend to show them."
+    },
+    {
+      "id": "flaws-20",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I've never lied once in my life. What? No, I'm not crossing my fingers!\nI do everything big! Subtlety? I don't know the meaning of subtlety! Oh, that's a problem?\nBeing a spy in wartime is painful. I've seen so much suffering, I think I'm losing my mind.\nI can't focus on my mission. I just want to carouse and sing and play!\nYeah, that's my name. Yeah, I'm a Grinner spy. Who cares about staying undercover?\nI can't afford to trust anyone. Not. Anyone."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "The Golden Grin began in the far-off land of Tal'Dorei trading secret messages through a network of bards and minstrels to undermine an iron-fisted king's authoritarian rule. Today, Tal'Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire."
+    },
+    {
+      "type": "p",
+      "text": "You are a Grinner. Your goals are to spread freedom and inspire hope - or, in time, revolution - in the hearts of the oppressed."
+    },
+    {
+      "type": "p",
+      "text": "Source: Explorer's Guide to Wildemount"
+    },
+    {
+      "type": "h1",
+      "text": "Proficiencies"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Deception, Performance\nTool Proficiencies: One type of musical instrument, thieves' tools\nLanguages: None\nEquipment: A set of fine clothesValue:15gp Weight:6lbs, a disguise kitValue:25gp Weight:3lbs, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouchValue:5sp Weight:1lb containing 15gp."
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Code-Songs"
+    },
+    {
+      "type": "p",
+      "text": "All members of the Golden Grin have learned a handful of folk songs in their travels, and use those songs to send secret codes and alert fellow Grinners to danger. Choose a favorite song or roll on the Favorite Code-Songs table."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Zan's Comin' Back. This hopeful Tal'Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies."
+        ],
+        [
+          "2",
+          "Blow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle."
+        ],
+        [
+          "3",
+          "Hush! Onward Come the Dragons. This Tal'Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed."
+        ],
+        [
+          "4",
+          "Let the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters."
+        ],
+        [
+          "5",
+          "Drink Deep, Li'l Hummingbird. A drinking rondo from the Menagerie Coast, this song tells the tale of a young person who drinks so heavily that they awaken to find they've stowed away on a ship. Use it to encourage alertness in social situations."
+        ],
+        [
+          "6",
+          "Dirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Favorite Code-Song"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ballad of the Grinning Fool"
+    },
+    {
+      "type": "p",
+      "text": "Like every Grinner, you know how to find a hideout. In any city of 10,000 people or more on the Menagerie Coast or in the lands of the Dwendalian Empire, you can play the \"Ballad of the Grinning Fool\" in a major tavern or inn. A member of the Golden Grin will find you and give shelter to you and any companions you vouch for. This shelter might be discontinued if it becomes too dangerous to hide you, at the DM's discretion."
+    },
+    {
+      "type": "p",
+      "text": "This feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Grinners are trained in the art of secrecy and innuendo, and are skilled at hiding in plain sight by being the loudest and brightest person in the room. Their skills in subterfuge and combat lend themselves well to an adventuring lifestyle, and traveling with mercenaries and treasure hunters creates a convenient excuse to journey through lands bent under tyranny."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I love the spotlight. Everyone, look at me!"
+        ],
+        [
+          "2",
+          "Give me a drink and I'm your friend."
+        ],
+        [
+          "3",
+          "Talk to me about yourself. I'm a hell of a listener."
+        ],
+        [
+          "4",
+          "I hate to start fights, but I love to finish them."
+        ],
+        [
+          "5",
+          "I can't sit still."
+        ],
+        [
+          "6",
+          "I'm always humming an old tune from my past."
+        ],
+        [
+          "7",
+          "When I don't have a reason to smile, I'm miserable."
+        ],
+        [
+          "8",
+          "I'm lucky like you wouldn't believe."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Revolution. Tyrants must fall, no matter the cost. (Chaotic)"
+        ],
+        [
+          "2",
+          "Compassion. The only way to make a better world is to perform small kindnesses. (Good)"
+        ],
+        [
+          "3",
+          "Justice. A nation built upon just foundations will uphold freedom for all. (Law)"
+        ],
+        [
+          "4",
+          "Expression. Music, joy, and laughter are the keys to freedom. (Good)"
+        ],
+        [
+          "5",
+          "Self-Determination. People should be free to do as they please. (Chaotic)"
+        ],
+        [
+          "6",
+          "Vigilance. A free people must be carefully taught, lest they be misled. (Neutral)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I lost someone important to an agent of the Dwendalian Empire. That regime will fall."
+        ],
+        [
+          "2",
+          "The first people to be hurt by this war will be the common folk. I need to protect them."
+        ],
+        [
+          "3",
+          "Music helped me through a dark time in my life. Now, I'll use music to change the world."
+        ],
+        [
+          "4",
+          "I will be known as the greatest spy who ever lived."
+        ],
+        [
+          "5",
+          "All life is precious to me. I know I can change the world without taking a humanoid life."
+        ],
+        [
+          "6",
+          "The elite in their ivory towers don't understand how we suffer. I intend to show them."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I've never lied once in my life. What? No, I'm not crossing my fingers!"
+        ],
+        [
+          "2",
+          "I do everything big! Subtlety? I don't know the meaning of subtlety! Oh, that's a problem?"
+        ],
+        [
+          "3",
+          "Being a spy in wartime is painful. I've seen so much suffering, I think I'm losing my mind."
+        ],
+        [
+          "4",
+          "I can't focus on my mission. I just want to carouse and sing and play!"
+        ],
+        [
+          "5",
+          "Yeah, that's my name. Yeah, I'm a Grinner spy. Who cares about staying undercover?"
+        ],
+        [
+          "6",
+          "I can't afford to trust anyone. Not. Anyone."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "The Golden Grin began in the far-off land of Tal'Dorei trading secret messages through a network of bards and minstrels to undermine an iron-fisted king's authoritarian rule.",
+  "personality": {
+    "traits": [
+      "I love the spotlight. Everyone, look at me!",
+      "Give me a drink and I'm your friend.",
+      "Talk to me about yourself. I'm a hell of a listener.",
+      "I hate to start fights, but I love to finish them.",
+      "I can't sit still.",
+      "I'm always humming an old tune from my past.",
+      "When I don't have a reason to smile, I'm miserable.",
+      "I'm lucky like you wouldn't believe."
+    ],
+    "ideals": [
+      "Revolution. Tyrants must fall, no matter the cost. (Chaotic)",
+      "Compassion. The only way to make a better world is to perform small kindnesses. (Good)",
+      "Justice. A nation built upon just foundations will uphold freedom for all. (Law)",
+      "Expression. Music, joy, and laughter are the keys to freedom. (Good)",
+      "Self-Determination. People should be free to do as they please. (Chaotic)",
+      "Vigilance. A free people must be carefully taught, lest they be misled. (Neutral)"
+    ],
+    "bonds": [
+      "I lost someone important to an agent of the Dwendalian Empire. That regime will fall.",
+      "The first people to be hurt by this war will be the common folk. I need to protect them.",
+      "Music helped me through a dark time in my life. Now, I'll use music to change the world.",
+      "I will be known as the greatest spy who ever lived.",
+      "All life is precious to me. I know I can change the world without taking a humanoid life.",
+      "The elite in their ivory towers don't understand how we suffer. I intend to show them."
+    ],
+    "flaws": [
+      "I've never lied once in my life. What? No, I'm not crossing my fingers!",
+      "I do everything big! Subtlety? I don't know the meaning of subtlety! Oh, that's a problem?",
+      "Being a spy in wartime is painful. I've seen so much suffering, I think I'm losing my mind.",
+      "I can't focus on my mission. I just want to carouse and sing and play!",
+      "Yeah, that's my name. Yeah, I'm a Grinner spy. Who cares about staying undercover?",
+      "I can't afford to trust anyone. Not. Anyone."
+    ]
+  },
+  "tags": [
+    "category:wildemount",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

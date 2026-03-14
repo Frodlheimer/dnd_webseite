@@ -17,6 +17,35 @@ export const ReviewPanel = (props: {
   downloadBusy?: boolean;
   saveBusy?: boolean;
 }) => {
+  const senseRows = [
+    props.character.derived.senses.darkvision
+      ? `Darkvision ${props.character.derived.senses.darkvision} ft`
+      : null,
+    props.character.derived.senses.blindsight
+      ? `Blindsight ${props.character.derived.senses.blindsight} ft`
+      : null,
+    props.character.derived.senses.tremorsense
+      ? `Tremorsense ${props.character.derived.senses.tremorsense} ft`
+      : null,
+    props.character.derived.senses.truesight
+      ? `Truesight ${props.character.derived.senses.truesight} ft`
+      : null
+  ].filter((row): row is string => !!row);
+  const defenseRows = [
+    props.character.derived.defenses.resistances.length > 0
+      ? `Resistances: ${props.character.derived.defenses.resistances.join(', ')}`
+      : null,
+    props.character.derived.defenses.immunities.length > 0
+      ? `Immunities: ${props.character.derived.defenses.immunities.join(', ')}`
+      : null,
+    props.character.derived.defenses.conditionImmunities.length > 0
+      ? `Condition immunities: ${props.character.derived.defenses.conditionImmunities.join(', ')}`
+      : null,
+    props.character.derived.defenses.savingThrowAdvantages.length > 0
+      ? `Saving throw advantages: ${props.character.derived.defenses.savingThrowAdvantages.join(', ')}`
+      : null
+  ].filter((row): row is string => !!row);
+
   return (
     <section className="space-y-4">
       <header className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
@@ -78,6 +107,65 @@ export const ReviewPanel = (props: {
         </div>
       </section>
 
+      {props.character.derived.raceTraitNames.length > 0 ||
+      senseRows.length > 0 ||
+      defenseRows.length > 0 ||
+      props.character.derived.backgroundFeatureName ? (
+        <section className="rounded-xl border border-slate-800 bg-slate-900/55 p-4">
+          <h3 className="text-lg font-semibold text-slate-100">Origin traits</h3>
+          {props.character.derived.raceTraitNames.length > 0 ? (
+            <div className="mt-3">
+              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Traits</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {props.character.derived.raceTraitNames.map((trait) => (
+                  <span
+                    key={trait}
+                    className="rounded-full border border-slate-700 bg-slate-950/45 px-3 py-1 text-xs text-slate-200"
+                  >
+                    {trait}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : null}
+          {senseRows.length > 0 ? (
+            <div className="mt-3">
+              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Senses</p>
+              <ul className="mt-2 space-y-1 text-sm text-slate-200">
+                {senseRows.map((row) => (
+                  <li key={row}>{row}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {defenseRows.length > 0 ? (
+            <div className="mt-3">
+              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Defenses</p>
+              <ul className="mt-2 space-y-1 text-sm text-slate-200">
+                {defenseRows.map((row) => (
+                  <li key={row}>{row}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {props.character.derived.backgroundFeatureName ? (
+            <div className="mt-3">
+              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Background feature</p>
+              <div className="mt-2 rounded-lg border border-slate-700 bg-slate-950/45 px-3 py-3">
+                <p className="text-sm font-semibold text-slate-100">
+                  {props.character.derived.backgroundFeatureName}
+                </p>
+                {props.character.derived.backgroundFeatureText ? (
+                  <p className="mt-2 whitespace-pre-line text-sm leading-7 text-slate-300">
+                    {props.character.derived.backgroundFeatureText}
+                  </p>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
+        </section>
+      ) : null}
+
       <section className="rounded-xl border border-slate-800 bg-slate-900/55 p-4">
         <div className="flex flex-wrap gap-2">
           <button
@@ -108,4 +196,3 @@ export const ReviewPanel = (props: {
     </section>
   );
 };
-

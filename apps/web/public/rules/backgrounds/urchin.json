@@ -1,0 +1,375 @@
+{
+  "id": "urchin",
+  "slug": "urchin",
+  "name": "Urchin",
+  "aliases": [
+    "Urchin"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Sleight of Hand",
+      "Stealth"
+    ],
+    "tools": [
+      "Disguise kit",
+      "Thieves' tools"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "small knife",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "map of the city you grew up in",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pet mouse",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "token to remember your parents by",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "City Secrets",
+    "summary": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss.",
+    "rulesText": "City Secrets\nYou know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Sleight of Hand, Stealth"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Disguise kit, thieves' tools"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "city-secrets-5",
+      "title": "City Secrets",
+      "kind": "feature",
+      "text": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+    },
+    {
+      "id": "suggested-characteristics-7",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life and maybe get some payback on all the rich people who treated them badly."
+    },
+    {
+      "id": "personality-traits-9",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I hide scraps of food and trinkets away in my pockets.\nI ask a lot of questions.\nI like to squeeze into small places where no one else can get to me.\nI sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.\nI eat like a pig and have bad manners.\nI think anyone who's nice to me is hiding evil intent.\nI don't like to bathe.\nI bluntly say what other people are hinting at or hiding."
+    },
+    {
+      "id": "ideals-11",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Respect. All people, rich or poor, deserve respect. (Good)\nCommunity. We have to take care of each other, because no one else is going to do it. (Lawful)\nChange. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)\nRetribution. The rich need to be shown what life and death are like in the gutters. (Evil)\nPeople. I help the people who help me-that's what keeps us alive. (Neutral)\nAspiration. I'm going to prove that I'm worthy of a better life. (Any)"
+    },
+    {
+      "id": "bonds-13",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "My town or city is my home, and I'll fight to defend it.\nI sponsor an orphanage to keep others from enduring what I was forced to endure.\nI owe my survival to another urchin who taught me to live on the streets.\nI owe a debt I can never repay to the person who took pity on me.\nI escaped my life of poverty by robbing an important person, and I'm wanted for it.\nNo one else should have to endure the hardships I've been through."
+    },
+    {
+      "id": "flaws-15",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "If I'm outnumbered, I will run away from a fight.\nGold seems like a lot of money to me, and I'll do just about anything for more of it.\nI will never fully trust anyone other than myself.\nI'd rather kill someone in their sleep then fight fair.\nIt's not stealing if I need it more than someone else.\nPeople who can't take care of themselves get what they deserve."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You grew up on the streets alone, orphaned, and poor, You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
+    },
+    {
+      "type": "p",
+      "text": "You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?"
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Sleight of Hand, Stealth\nTool Proficiencies: Disguise kit, thieves' tools\nLanguages: None\nEquipment: A small knifeValue:0 Weight:0, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "City Secrets"
+    },
+    {
+      "type": "p",
+      "text": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life and maybe get some payback on all the rich people who treated them badly."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I hide scraps of food and trinkets away in my pockets."
+        ],
+        [
+          "2",
+          "I ask a lot of questions."
+        ],
+        [
+          "3",
+          "I like to squeeze into small places where no one else can get to me."
+        ],
+        [
+          "4",
+          "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms."
+        ],
+        [
+          "5",
+          "I eat like a pig and have bad manners."
+        ],
+        [
+          "6",
+          "I think anyone who's nice to me is hiding evil intent."
+        ],
+        [
+          "7",
+          "I don't like to bathe."
+        ],
+        [
+          "8",
+          "I bluntly say what other people are hinting at or hiding."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Respect. All people, rich or poor, deserve respect. (Good)"
+        ],
+        [
+          "2",
+          "Community. We have to take care of each other, because no one else is going to do it. (Lawful)"
+        ],
+        [
+          "3",
+          "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)"
+        ],
+        [
+          "4",
+          "Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)"
+        ],
+        [
+          "5",
+          "People. I help the people who help me-that's what keeps us alive. (Neutral)"
+        ],
+        [
+          "6",
+          "Aspiration. I'm going to prove that I'm worthy of a better life. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My town or city is my home, and I'll fight to defend it."
+        ],
+        [
+          "2",
+          "I sponsor an orphanage to keep others from enduring what I was forced to endure."
+        ],
+        [
+          "3",
+          "I owe my survival to another urchin who taught me to live on the streets."
+        ],
+        [
+          "4",
+          "I owe a debt I can never repay to the person who took pity on me."
+        ],
+        [
+          "5",
+          "I escaped my life of poverty by robbing an important person, and I'm wanted for it."
+        ],
+        [
+          "6",
+          "No one else should have to endure the hardships I've been through."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "If I'm outnumbered, I will run away from a fight."
+        ],
+        [
+          "2",
+          "Gold seems like a lot of money to me, and I'll do just about anything for more of it."
+        ],
+        [
+          "3",
+          "I will never fully trust anyone other than myself."
+        ],
+        [
+          "4",
+          "I'd rather kill someone in their sleep then fight fair."
+        ],
+        [
+          "5",
+          "It's not stealing if I need it more than someone else."
+        ],
+        [
+          "6",
+          "People who can't take care of themselves get what they deserve."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You grew up on the streets alone, orphaned, and poor, You had no one to watch over you or to provide for you, so you learned to provide for yourself.",
+  "personality": {
+    "traits": [
+      "I hide scraps of food and trinkets away in my pockets.",
+      "I ask a lot of questions.",
+      "I like to squeeze into small places where no one else can get to me.",
+      "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.",
+      "I eat like a pig and have bad manners.",
+      "I think anyone who's nice to me is hiding evil intent.",
+      "I don't like to bathe.",
+      "I bluntly say what other people are hinting at or hiding."
+    ],
+    "ideals": [
+      "Respect. All people, rich or poor, deserve respect. (Good)",
+      "Community. We have to take care of each other, because no one else is going to do it. (Lawful)",
+      "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)",
+      "Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)",
+      "People. I help the people who help me-that's what keeps us alive. (Neutral)",
+      "Aspiration. I'm going to prove that I'm worthy of a better life. (Any)"
+    ],
+    "bonds": [
+      "My town or city is my home, and I'll fight to defend it.",
+      "I sponsor an orphanage to keep others from enduring what I was forced to endure.",
+      "I owe my survival to another urchin who taught me to live on the streets.",
+      "I owe a debt I can never repay to the person who took pity on me.",
+      "I escaped my life of poverty by robbing an important person, and I'm wanted for it.",
+      "No one else should have to endure the hardships I've been through."
+    ],
+    "flaws": [
+      "If I'm outnumbered, I will run away from a fight.",
+      "Gold seems like a lot of money to me, and I'll do just about anything for more of it.",
+      "I will never fully trust anyone other than myself.",
+      "I'd rather kill someone in their sleep then fight fair.",
+      "It's not stealing if I need it more than someone else.",
+      "People who can't take care of themselves get what they deserve."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

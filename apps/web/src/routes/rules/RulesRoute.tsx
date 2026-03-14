@@ -20,8 +20,13 @@ const navItems: RulesNavItem[] = [
   },
   {
     to: '/rules/races',
-    label: 'Races (SRD)',
-    description: 'Browse SRD 5.1 race references'
+    label: 'Races',
+    description: 'Browse structured SRD 5.1 race references'
+  },
+  {
+    to: '/rules/backgrounds',
+    label: 'Backgrounds',
+    description: 'Browse structured DnD 5e background references'
   },
   {
     to: '/rules/equipment',

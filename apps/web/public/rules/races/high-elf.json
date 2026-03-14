@@ -1,0 +1,167 @@
+{
+  "id": "high-elf",
+  "name": "High Elf",
+  "parentRaceId": "elf",
+  "kind": "subrace",
+  "source": "srd51",
+  "tags": [
+    "has:ability-bonus",
+    "has:language-choice",
+    "has:weapon-proficiency",
+    "kind:subrace",
+    "parent:elf",
+    "source:srd51"
+  ],
+  "summary": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superi...",
+  "basics": {
+    "size": null,
+    "speedWalk": null,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": null,
+    "alignmentText": null
+  },
+  "abilities": {
+    "bonuses": {
+      "int": 1
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [],
+    "choices": {
+      "choose": 1,
+      "from": [
+        "Abyssal",
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Infernal",
+        "Orc",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [
+      "longsword",
+      "shortsword",
+      "shortbow",
+      "longbow"
+    ],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "high-elf-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "INT +1",
+      "rulesText": "Your Intelligence score increases by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "int": 1
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "high-elf-elf-weapon-training",
+      "name": "Elf Weapon Training",
+      "summary": "longsword, shortsword, shortbow, longbow",
+      "rulesText": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+      "grants": {
+        "proficiencies": {
+          "armor": [],
+          "weapons": [
+            "longsword",
+            "shortsword",
+            "shortbow",
+            "longbow"
+          ],
+          "tools": [],
+          "skills": []
+        }
+      },
+      "category": "proficiency"
+    },
+    {
+      "id": "high-elf-cantrip",
+      "name": "Cantrip",
+      "summary": "You know one cantrip of your choice from the wizard spell list.",
+      "rulesText": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "high-elf-extra-language",
+      "name": "Extra Language",
+      "summary": "Choose 1 language",
+      "rulesText": "You can speak, read, and write one extra language of your choice.",
+      "grants": {
+        "languages": {
+          "granted": [],
+          "choices": {
+            "choose": 1,
+            "from": [
+              "Abyssal",
+              "Celestial",
+              "Common",
+              "Draconic",
+              "Dwarvish",
+              "Elvish",
+              "Giant",
+              "Gnomish",
+              "Goblin",
+              "Halfling",
+              "Infernal",
+              "Orc",
+              "Primordial",
+              "Sylvan",
+              "Undercommon"
+            ]
+          }
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "High Elf"
+    },
+    {
+      "type": "p",
+      "text": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races. Ability Score Increase. Your Intelligence score increases by 1. Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow. Cantrip. You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it. Extra Language. You can speak, read, and write one extra language of your choice."
+    }
+  ]
+}

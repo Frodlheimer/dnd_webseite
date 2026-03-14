@@ -1,0 +1,455 @@
+{
+  "id": "soldier",
+  "slug": "soldier",
+  "name": "Soldier",
+  "aliases": [
+    "Soldier"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Intimidation"
+    ],
+    "tools": [
+      "vehicles (land)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Dice set",
+        "Dragonchess set",
+        "Playing card set",
+        "Three-Dragon Ante set"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "insignia of rank",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "trophy taken from a fallen enemy (a dagger",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "broken blade",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "or piece of a banner)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "set of bone dice",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "deck of cards",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a set of bone dice or a deck of cards"
+      }
+    ],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or a deck of cards, a set of common clothes, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Military Rank",
+    "summary": "You have a military rank from your career as a soldier.",
+    "rulesText": "Military Rank\nYou have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Intimidation"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of gaming set, vehicles (land)"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or a deck of cards, a set of common clothes, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "specialty-5",
+      "title": "Specialty",
+      "kind": "feature",
+      "text": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:\nOfficer\nScout\nInfantry\nCavalry\nHealer\nQuartermaster\nStandard bearer\nSupport staff (cook, blacksmith, or the like)"
+    },
+    {
+      "id": "military-rank-8",
+      "title": "Military Rank",
+      "kind": "feature",
+      "text": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+    },
+    {
+      "id": "suggested-characteristics-10",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred."
+    },
+    {
+      "id": "personality-traits-12",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I'm always polite and respectful.\nI'm haunted by memories of war. I can't get the images of violence out of my mind.\nI've lost too many friends, and I'm slow to make new ones.\nI'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.\nI can stare down a hell hound without flinching.\nI enjoy being strong and like breaking things.\nI have a crude sense of humor.\nI face problems head-on. A simple, direct solution is the best path to success."
+    },
+    {
+      "id": "ideals-14",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Greater Good. Our lot is to lay down our lives in defense of others. (Good)\nResponsibility. I do what I must and obey just authority. (Lawful)\nIndependence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)\nMight. In life as in war, the stronger force wins. (Evil)\nLive and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)\nNation. My city, nation, or people are all that matter. (Any)"
+    },
+    {
+      "id": "bonds-16",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I would still lay down my life for the people I served with.\nSomeone saved my life on the battlefield. To this day, I will never leave a friend behind.\nMy honor is my life.\nI'll never forget the crushing defeat my company suffered or the enemies who dealt it.\nThose who fight beside me are those worth dying for.\nI fight for those who cannot fight for themselves."
+    },
+    {
+      "id": "flaws-18",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "The monstrous enemy we faced in battle still leaves me quivering with fear.\nI have little respect for anyone who is not a proven warrior.\nI made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret.\nMy hatred of my enemies is blind and unreasoning.\nI obey the law, even if the law causes misery.\nI'd rather eat my armor than admit when I'm wrong."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war."
+    },
+    {
+      "type": "p",
+      "text": "When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, or a village militia? Or it might have been a noble's or merchant's private army, or a mercenary company."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Intimidation\nTool Proficiencies: One type of gaming set, vehicles (land)\nLanguages: None\nEquipment: An insignia of rank, a trophy taken from a fallen enemy (a daggerValue:2gp Weight:1lb, broken blade, or piece of a banner), a set of bone diceValue:1sp Weight:0 or a deck of cardsValue:5sp Weight:0, a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Specialty"
+    },
+    {
+      "type": "p",
+      "text": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Officer"
+        ],
+        [
+          "2",
+          "Scout"
+        ],
+        [
+          "3",
+          "Infantry"
+        ],
+        [
+          "4",
+          "Cavalry"
+        ],
+        [
+          "5",
+          "Healer"
+        ],
+        [
+          "6",
+          "Quartermaster"
+        ],
+        [
+          "7",
+          "Standard bearer"
+        ],
+        [
+          "8",
+          "Support staff (cook, blacksmith, or the like)"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Specialty"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Military Rank"
+    },
+    {
+      "type": "p",
+      "text": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm always polite and respectful."
+        ],
+        [
+          "2",
+          "I'm haunted by memories of war. I can't get the images of violence out of my mind."
+        ],
+        [
+          "3",
+          "I've lost too many friends, and I'm slow to make new ones."
+        ],
+        [
+          "4",
+          "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+        ],
+        [
+          "5",
+          "I can stare down a hell hound without flinching."
+        ],
+        [
+          "6",
+          "I enjoy being strong and like breaking things."
+        ],
+        [
+          "7",
+          "I have a crude sense of humor."
+        ],
+        [
+          "8",
+          "I face problems head-on. A simple, direct solution is the best path to success."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Greater Good. Our lot is to lay down our lives in defense of others. (Good)"
+        ],
+        [
+          "2",
+          "Responsibility. I do what I must and obey just authority. (Lawful)"
+        ],
+        [
+          "3",
+          "Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+        ],
+        [
+          "4",
+          "Might. In life as in war, the stronger force wins. (Evil)"
+        ],
+        [
+          "5",
+          "Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)"
+        ],
+        [
+          "6",
+          "Nation. My city, nation, or people are all that matter. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I would still lay down my life for the people I served with."
+        ],
+        [
+          "2",
+          "Someone saved my life on the battlefield. To this day, I will never leave a friend behind."
+        ],
+        [
+          "3",
+          "My honor is my life."
+        ],
+        [
+          "4",
+          "I'll never forget the crushing defeat my company suffered or the enemies who dealt it."
+        ],
+        [
+          "5",
+          "Those who fight beside me are those worth dying for."
+        ],
+        [
+          "6",
+          "I fight for those who cannot fight for themselves."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "The monstrous enemy we faced in battle still leaves me quivering with fear."
+        ],
+        [
+          "2",
+          "I have little respect for anyone who is not a proven warrior."
+        ],
+        [
+          "3",
+          "I made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret."
+        ],
+        [
+          "4",
+          "My hatred of my enemies is blind and unreasoning."
+        ],
+        [
+          "5",
+          "I obey the law, even if the law causes misery."
+        ],
+        [
+          "6",
+          "I'd rather eat my armor than admit when I'm wrong."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "War has been your life for as long as you care to remember.",
+  "personality": {
+    "traits": [
+      "I'm always polite and respectful.",
+      "I'm haunted by memories of war. I can't get the images of violence out of my mind.",
+      "I've lost too many friends, and I'm slow to make new ones.",
+      "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.",
+      "I can stare down a hell hound without flinching.",
+      "I enjoy being strong and like breaking things.",
+      "I have a crude sense of humor.",
+      "I face problems head-on. A simple, direct solution is the best path to success."
+    ],
+    "ideals": [
+      "Greater Good. Our lot is to lay down our lives in defense of others. (Good)",
+      "Responsibility. I do what I must and obey just authority. (Lawful)",
+      "Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)",
+      "Might. In life as in war, the stronger force wins. (Evil)",
+      "Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)",
+      "Nation. My city, nation, or people are all that matter. (Any)"
+    ],
+    "bonds": [
+      "I would still lay down my life for the people I served with.",
+      "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+      "My honor is my life.",
+      "I'll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+      "Those who fight beside me are those worth dying for.",
+      "I fight for those who cannot fight for themselves."
+    ],
+    "flaws": [
+      "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+      "I have little respect for anyone who is not a proven warrior.",
+      "I made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret.",
+      "My hatred of my enemies is blind and unreasoning.",
+      "I obey the law, even if the law causes misery.",
+      "I'd rather eat my armor than admit when I'm wrong."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

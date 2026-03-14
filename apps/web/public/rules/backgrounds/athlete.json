@@ -1,0 +1,458 @@
+{
+  "id": "athlete",
+  "slug": "athlete",
+  "name": "Athlete",
+  "aliases": [
+    "Athlete"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Acrobatics",
+      "Athletics"
+    ],
+    "tools": [
+      "Vehicles (Land)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "bronze discus",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "leather ball",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "A bronze discus or leather ball"
+      },
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "lucky charm",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "past trophy",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a lucky charm or past trophy"
+      }
+    ],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A bronze discus or leather ball, a lucky charm or past trophy, a set of traveler's clothes, and a pouch containing 10 gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Acrobatics, Athletics"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Vehicles (Land)"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bronze discus or leather ball, a lucky charm or past trophy, a set of traveler's clothes, and a pouch containing 10 gp"
+    },
+    {
+      "id": "favored-event-4",
+      "title": "Favored Event",
+      "kind": "other",
+      "text": "While many athletes practice various games and events, most excel at a single form of competition. Roll or choose from the options in the Favored Events table to determine the athletic event in which you excel.\nMarathon\nLong-distance running\nWrestling\nBoxing\nChariot or horse race\nPankration (mixed unarmed combat)\nHoplite race (racing in full armor with a unit)\nPentathlon (running, long jump, discus, javelin, wrestling)"
+    },
+    {
+      "id": "feature-echoes-of-victory-7",
+      "title": "Feature: Echoes of Victory",
+      "kind": "feature",
+      "text": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information and temporary shelter.\nBetween adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle, as per the \"Practicing a Profession\" downtime activity in chapter 8 of the Players Handbook."
+    },
+    {
+      "id": "suggested-characteristics-10",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Competition can forge strong bonds between teammates and rivals or ignite bitter feuds that burn outside the arena. Athletes often apply lessons from their training to their lives in general."
+    },
+    {
+      "id": "athlete-personality-trait-12",
+      "title": "Athlete Personality Trait",
+      "kind": "personality",
+      "text": "I feel most at peace during physical exertion, whether exercise or battle.\nI don't like to sit idle.\nI have a daily exercise routine I refuse to break.\nObstacles exist to be overcome.\nWhen I see others struggling, I offer to help.\nI love to trade banter and gibes.\nAnything worth doing is worth doing best.\nI get irritated if people praise someone else and not me."
+    },
+    {
+      "id": "athlete-ideals-14",
+      "title": "Athlete Ideals",
+      "kind": "personality",
+      "text": "Competition. I strive to test myself in all things. (Chaotic)\nTriumph. The best part of winning is seeing my rivals brought low. (Evil)\nCamaraderie. The strongest bonds are forged through struggle. (Good)\nPeople. I strive to inspire my spectators. (Neutral)\nTradition. Every game has rules, and the playing field must be level. (Lawful)\nGrowth. Lessons hide in victory and defeat. (Any)"
+    },
+    {
+      "id": "athlete-bonds-16",
+      "title": "Athlete Bonds",
+      "kind": "personality",
+      "text": "My teammates are my family.\nI will overcome a rival and prove myself their better.\nMy mistake got someone hurt. Ill never make that mistake again.\nI will be the best for the honor and glory of my home.\nThe person who trained me is the most important person in my world.\nI strive to live up to a specific hero's example."
+    },
+    {
+      "id": "athlete-flaws-18",
+      "title": "Athlete Flaws",
+      "kind": "personality",
+      "text": "I indulge in a habit that threatens my reputation or health.\nI'll do absolutely anything to win.\nI ignore anyone who doesn't compete and anyone who loses to me.\nI have lingering pain of old injuries.\nAny defeat or failure on my part is because my opponents cheated.\nI must be the captain of any group I join."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Mythic Odysseys of Theros"
+    },
+    {
+      "type": "p",
+      "text": "You strive to perfect yourself physically and in execution of everything you do. The thrill of competition lights fire in your blood, and the roar of the crowd drives you forward. Tales of your exploits precede you and might open doors or loosen tongues."
+    },
+    {
+      "type": "p",
+      "text": "Whether in one of the poleis, between them, or among the nonhuman peoples of Theros, physical contests and those who pursue them command respect bordering on reverence. Athletes arise from all walks of life and all cultures and quite often cross paths with one another."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Acrobatics, Athletics\nLanguages: One of your choice\nTool Proficiencies: Vehicles (Land)\nEquipment: A bronze discus or leather ball, a lucky charm or past trophy, a set of traveler's clothes, and a pouch containing 10 gp"
+    },
+    {
+      "type": "h2",
+      "text": "Favored Event"
+    },
+    {
+      "type": "p",
+      "text": "While many athletes practice various games and events, most excel at a single form of competition. Roll or choose from the options in the Favored Events table to determine the athletic event in which you excel."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Marathon"
+        ],
+        [
+          "2",
+          "Long-distance running"
+        ],
+        [
+          "3",
+          "Wrestling"
+        ],
+        [
+          "4",
+          "Boxing"
+        ],
+        [
+          "5",
+          "Chariot or horse race"
+        ],
+        [
+          "6",
+          "Pankration (mixed unarmed combat)"
+        ],
+        [
+          "7",
+          "Hoplite race (racing in full armor with a unit)"
+        ],
+        [
+          "8",
+          "Pentathlon (running, long jump, discus, javelin, wrestling)"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Favored Event"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Feature: Echoes of Victory"
+    },
+    {
+      "type": "p",
+      "text": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information and temporary shelter."
+    },
+    {
+      "type": "p",
+      "text": "Between adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle, as per the \"Practicing a Profession\" downtime activity in chapter 8 of the Players Handbook."
+    },
+    {
+      "type": "h2",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Competition can forge strong bonds between teammates and rivals or ignite bitter feuds that burn outside the arena. Athletes often apply lessons from their training to their lives in general."
+    },
+    {
+      "type": "h4",
+      "text": "Athlete Personality Trait"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I feel most at peace during physical exertion, whether exercise or battle."
+        ],
+        [
+          "2",
+          "I don't like to sit idle."
+        ],
+        [
+          "3",
+          "I have a daily exercise routine I refuse to break."
+        ],
+        [
+          "4",
+          "Obstacles exist to be overcome."
+        ],
+        [
+          "5",
+          "When I see others struggling, I offer to help."
+        ],
+        [
+          "6",
+          "I love to trade banter and gibes."
+        ],
+        [
+          "7",
+          "Anything worth doing is worth doing best."
+        ],
+        [
+          "8",
+          "I get irritated if people praise someone else and not me."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h4",
+      "text": "Athlete Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Competition. I strive to test myself in all things. (Chaotic)"
+        ],
+        [
+          "2",
+          "Triumph. The best part of winning is seeing my rivals brought low. (Evil)"
+        ],
+        [
+          "3",
+          "Camaraderie. The strongest bonds are forged through struggle. (Good)"
+        ],
+        [
+          "4",
+          "People. I strive to inspire my spectators. (Neutral)"
+        ],
+        [
+          "5",
+          "Tradition. Every game has rules, and the playing field must be level. (Lawful)"
+        ],
+        [
+          "6",
+          "Growth. Lessons hide in victory and defeat. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h4",
+      "text": "Athlete Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My teammates are my family."
+        ],
+        [
+          "2",
+          "I will overcome a rival and prove myself their better."
+        ],
+        [
+          "3",
+          "My mistake got someone hurt. Ill never make that mistake again."
+        ],
+        [
+          "4",
+          "I will be the best for the honor and glory of my home."
+        ],
+        [
+          "5",
+          "The person who trained me is the most important person in my world."
+        ],
+        [
+          "6",
+          "I strive to live up to a specific hero's example."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h4",
+      "text": "Athlete Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I indulge in a habit that threatens my reputation or health."
+        ],
+        [
+          "2",
+          "I'll do absolutely anything to win."
+        ],
+        [
+          "3",
+          "I ignore anyone who doesn't compete and anyone who loses to me."
+        ],
+        [
+          "4",
+          "I have lingering pain of old injuries."
+        ],
+        [
+          "5",
+          "Any defeat or failure on my part is because my opponents cheated."
+        ],
+        [
+          "6",
+          "I must be the captain of any group I join."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You strive to perfect yourself physically and in execution of everything you do.",
+  "personality": {
+    "traits": [
+      "I feel most at peace during physical exertion, whether exercise or battle.",
+      "I don't like to sit idle.",
+      "I have a daily exercise routine I refuse to break.",
+      "Obstacles exist to be overcome.",
+      "When I see others struggling, I offer to help.",
+      "I love to trade banter and gibes.",
+      "Anything worth doing is worth doing best.",
+      "I get irritated if people praise someone else and not me."
+    ],
+    "ideals": [
+      "Competition. I strive to test myself in all things. (Chaotic)",
+      "Triumph. The best part of winning is seeing my rivals brought low. (Evil)",
+      "Camaraderie. The strongest bonds are forged through struggle. (Good)",
+      "People. I strive to inspire my spectators. (Neutral)",
+      "Tradition. Every game has rules, and the playing field must be level. (Lawful)",
+      "Growth. Lessons hide in victory and defeat. (Any)"
+    ],
+    "bonds": [
+      "My teammates are my family.",
+      "I will overcome a rival and prove myself their better.",
+      "My mistake got someone hurt. Ill never make that mistake again.",
+      "I will be the best for the honor and glory of my home.",
+      "The person who trained me is the most important person in my world.",
+      "I strive to live up to a specific hero's example."
+    ],
+    "flaws": [
+      "I indulge in a habit that threatens my reputation or health.",
+      "I'll do absolutely anything to win.",
+      "I ignore anyone who doesn't compete and anyone who loses to me.",
+      "I have lingering pain of old injuries.",
+      "Any defeat or failure on my part is because my opponents cheated.",
+      "I must be the captain of any group I join."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

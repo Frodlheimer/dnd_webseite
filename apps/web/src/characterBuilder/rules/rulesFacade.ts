@@ -14,9 +14,15 @@ import {
   getSubclassesForClass
 } from '../../rules/classes/api/classesData';
 import type { RulesDocumentBlock } from '../../rules/classes/types';
+import { getRaceMeta } from '../../rules/races/api/racesData';
 import type { CharacterOriginMode } from '../model/character';
 import { ABILITIES, type Ability } from '../model/character';
 import type { DecisionOption } from '../model/decisions';
+import {
+  backgroundRulesFacade,
+  type BuilderBackgroundSummary
+} from './backgroundRulesFacade';
+import { raceRulesFacade } from './raceRulesFacade';
 
 export type BuilderSkillName =
   | 'Acrobatics'
@@ -64,6 +70,7 @@ export type BuilderEquipmentChoice = {
   id: string;
   title: string;
   choose: number;
+  source?: 'class' | 'background';
   options: BuilderEquipmentPackageOption[];
 };
 
@@ -97,6 +104,9 @@ export type BuilderRaceSummary = {
   id: string;
   name: string;
   sourceType: 'lineage' | 'srd_race';
+  kind?: 'lineage' | 'race' | 'subrace';
+  parentRaceId?: string | null;
+  hasSubraces?: boolean;
   speedFeet: number | null;
   abilityBonuses: Partial<Record<Ability, number>>;
   choiceBonuses: {
@@ -110,16 +120,7 @@ export type BuilderRaceSummary = {
   grantedSpells: string[];
 };
 
-export type BuilderBackground = {
-  id: string;
-  name: string;
-  summary: string;
-  skillProficiencies: string[];
-  toolProficiencies: string[];
-  languageChoices: number;
-  toolChoices: number;
-  defaultEquipment: string[];
-};
+export type BuilderBackground = BuilderBackgroundSummary;
 
 export type BuilderBackgroundAbilityOptions = {
   mode: CharacterOriginMode;
@@ -214,63 +215,6 @@ const COMMON_LANGUAGE_POOL = [
   'Abyssal',
   'Undercommon',
   'Giant'
-];
-
-const STATIC_BACKGROUNDS: BuilderBackground[] = [
-  {
-    id: 'acolyte',
-    name: 'Acolyte',
-    summary: 'Raised in service to a temple or spiritual tradition.',
-    skillProficiencies: ['Insight', 'Religion'],
-    toolProficiencies: [],
-    languageChoices: 2,
-    toolChoices: 0,
-    defaultEquipment: [
-      'Holy symbol',
-      'Prayer book or wheel',
-      '5 sticks of incense',
-      'Vestments',
-      'Common clothes',
-      '15 gp'
-    ]
-  },
-  {
-    id: 'criminal',
-    name: 'Criminal',
-    summary: 'Experienced with illicit work and underworld contacts.',
-    skillProficiencies: ['Deception', 'Stealth'],
-    toolProficiencies: ['Thieves tools', 'Gaming set'],
-    languageChoices: 0,
-    toolChoices: 0,
-    defaultEquipment: ['Crowbar', 'Dark common clothes with hood', '15 gp']
-  },
-  {
-    id: 'sage',
-    name: 'Sage',
-    summary: 'Academic background focused on lore and research.',
-    skillProficiencies: ['Arcana', 'History'],
-    toolProficiencies: [],
-    languageChoices: 2,
-    toolChoices: 0,
-    defaultEquipment: [
-      'Bottle of ink',
-      'Quill',
-      'Small knife',
-      'Letter from dead colleague',
-      'Common clothes',
-      '10 gp'
-    ]
-  },
-  {
-    id: 'soldier',
-    name: 'Soldier',
-    summary: 'Military training and battlefield experience.',
-    skillProficiencies: ['Athletics', 'Intimidation'],
-    toolProficiencies: ['Gaming set', 'Vehicles (land)'],
-    languageChoices: 0,
-    toolChoices: 0,
-    defaultEquipment: ['Insignia of rank', 'Trophy from fallen enemy', 'Dice set or cards', 'Common clothes', '10 gp']
-  }
 ];
 
 const classAnalysisCache = new Map<string, Promise<ClassAnalysis | null>>();
@@ -833,6 +777,44 @@ const buildLineageSummary = (lineageId: string): BuilderRaceSummary | null => {
   };
 };
 
+const buildStructuredRaceSummary = async (raceId: string): Promise<BuilderRaceSummary | null> => {
+  const meta = getRaceMeta(raceId);
+  if (!meta || meta.kind !== 'race') {
+    return null;
+  }
+
+  const combined = await raceRulesFacade.getCombinedRaceData(raceId, null);
+  if (!combined) {
+    return null;
+  }
+
+  const choiceBonuses = combined.abilityBonusChoice
+    ? [
+        {
+          pick: combined.abilityBonusChoice.choose,
+          amount: combined.abilityBonusChoice.amount,
+          disallow: ABILITIES.filter((ability) => !combined.abilityBonusChoice?.from.includes(ability))
+        }
+      ]
+    : [];
+
+  return {
+    id: meta.id,
+    name: meta.name,
+    sourceType: 'srd_race',
+    kind: 'race',
+    parentRaceId: null,
+    hasSubraces: raceRulesFacade.getSubracesForRace(meta.id).length > 0,
+    speedFeet: combined.speed.walk,
+    abilityBonuses: combined.abilityBonuses,
+    choiceBonuses,
+    languages: combined.languagesGranted,
+    toolChoices: combined.proficiencies.toolChoices?.from ?? [],
+    summary: meta.summary,
+    grantedSpells: []
+  };
+};
+
 const findSpellSlugByName = (name: string): string | null => {
   const folded = normalize(name);
   const match = spellsPack.metas.find((meta) => normalize(meta.name) === folded);
@@ -907,8 +889,9 @@ export const rulesFacade = {
 
   async listRacesOrSpecies(sourceMode: CharacterOriginMode): Promise<BuilderRaceSummary[]> {
     if (sourceMode === 'LEGACY_RACE') {
-      const metas = getSrdCategoryMetas('races');
-      const results = await Promise.all(metas.map((meta) => buildSrdRaceSummary(meta.id)));
+      const results = await Promise.all(
+        raceRulesFacade.listPlayableRaces().map((meta) => buildStructuredRaceSummary(meta.id))
+      );
       return results.filter((entry): entry is BuilderRaceSummary => !!entry).sort((a, b) => a.name.localeCompare(b.name));
     }
 
@@ -922,21 +905,23 @@ export const rulesFacade = {
     if (id.startsWith('lineage:')) {
       return buildLineageSummary(id.slice('lineage:'.length));
     }
-    if (id.startsWith('srd:')) {
-      return await buildSrdRaceSummary(id.slice('srd:'.length));
-    }
     if (getLineageMeta(id)) {
       return buildLineageSummary(id);
     }
-    return await buildSrdRaceSummary(id);
+
+    const normalizedId = id.startsWith('srd:') ? id.slice('srd:'.length) : id;
+    if (getRaceMeta(normalizedId)) {
+      return await buildStructuredRaceSummary(normalizedId);
+    }
+    return await buildSrdRaceSummary(normalizedId);
   },
 
   listBackgrounds(): BuilderBackground[] {
-    return [...STATIC_BACKGROUNDS];
+    return backgroundRulesFacade.listPlayableBackgrounds();
   },
 
   getBackgroundById(id: string): BuilderBackground | null {
-    return STATIC_BACKGROUNDS.find((entry) => entry.id === id) ?? null;
+    return backgroundRulesFacade.getBackgroundById(id);
   },
 
   listFeats() {
@@ -1145,9 +1130,13 @@ export const rulesFacade = {
     return getRulesEntryMeta(subclassId)?.name ?? null;
   },
 
-  async findRaceName(raceId: string | null): Promise<string | null> {
+  async findRaceName(raceId: string | null, subraceId: string | null = null): Promise<string | null> {
     if (!raceId) {
       return null;
+    }
+    if (subraceId && getRaceMeta(raceId)) {
+      const combined = await raceRulesFacade.getCombinedRaceData(raceId, subraceId);
+      return combined?.name ?? null;
     }
     const race = await this.getRaceById(raceId);
     return race?.name ?? null;

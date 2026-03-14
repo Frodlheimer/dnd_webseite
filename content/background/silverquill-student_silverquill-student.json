@@ -1,0 +1,1028 @@
+{
+  "kind": "BACKGROUND",
+  "slug": "silverquill-student",
+  "url": "https://dnd5e.wikidot.com/background:silverquill-student",
+  "page_title": "silverquill-student",
+  "aliases": [
+    "Silverquill Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "content": {
+    "format": "html-structure-tree",
+    "allowed_tags": [
+      "b",
+      "blockquote",
+      "br",
+      "code",
+      "em",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "hr",
+      "i",
+      "li",
+      "ol",
+      "p",
+      "pre",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr",
+      "ul"
+    ],
+    "tree": [
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Source: Strixhaven: A Curriculum of Chaos"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Skill Proficiencies:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Intimidation, Persuasion"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Languages:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Two of your choice"
+          },
+          {
+            "type": "element",
+            "tag": "br",
+            "children": []
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Equipment:"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " A "
+          },
+          {
+            "type": "text",
+            "text": "bottle of black ink"
+          },
+          {
+            "type": "text",
+            "text": "Value: 10gp Weight: 0"
+          },
+          {
+            "type": "text",
+            "text": ", an "
+          },
+          {
+            "type": "text",
+            "text": "ink pen"
+          },
+          {
+            "type": "text",
+            "text": "Value: 2cp Weight: 0"
+          },
+          {
+            "type": "text",
+            "text": ", a book of poetry, a school uniform, and a "
+          },
+          {
+            "type": "text",
+            "text": "pouch"
+          },
+          {
+            "type": "text",
+            "text": "Value: 5sp Weight: 1lb"
+          },
+          {
+            "type": "text",
+            "text": " containing 15 gp."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Feature"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Silverquill Initiate"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "You gain the "
+          },
+          {
+            "type": "text",
+            "text": "Strixhaven Initiate"
+          },
+          {
+            "type": "text",
+            "text": " feat and must choose Silverquill within it."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silverquill Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spell Level"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spells"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1st"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dissonant Whispers"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Silvery Barbs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2nd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Calm Emotions"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Darkness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3rd"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beacon of Hope"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Daylight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Compulsion"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Confusion"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5th"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dominate Person"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Rary's Telepathic Bond"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Consider customizing how your spells look when you can cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "text": "Building a Silverquill Character"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "Many "
+          },
+          {
+            "type": "text",
+            "text": "Bards"
+          },
+          {
+            "type": "text",
+            "text": " find a home in Silverquill, putting the power of their voices to use with Silverquill magic. "
+          },
+          {
+            "type": "text",
+            "text": "Wizards"
+          },
+          {
+            "type": "text",
+            "text": " (especially those who study the Schools of "
+          },
+          {
+            "type": "text",
+            "text": "Illusion"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "text": "Enchantment"
+          },
+          {
+            "type": "text",
+            "text": ") are common in Silverquill, as are "
+          },
+          {
+            "type": "text",
+            "text": "Warlocks"
+          },
+          {
+            "type": "text",
+            "text": ". "
+          },
+          {
+            "type": "text",
+            "text": "Clerics"
+          },
+          {
+            "type": "text",
+            "text": " with the Divine Domains of "
+          },
+          {
+            "type": "text",
+            "text": "Light"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "text": "Trickery"
+          },
+          {
+            "type": "text",
+            "text": " also fit in well among the mages of Silverquill."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "text",
+            "text": "A number of both "
+          },
+          {
+            "type": "text",
+            "text": "Paladins"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "text": "Rogues"
+          },
+          {
+            "type": "text",
+            "text": " attend Silverquill College as well, highlighting the diversity of the student body."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Suggested Characteristics."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Silverquill Personality Traits"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality Trait"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I'll say whatever I need to in order to maintain my high social status."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I believe that uplifting my peers is the best way to succeed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I've mastered the art of using humor as a defense, and I always have a charming joke ready."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "No one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "children": [
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "element",
+                "tag": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silverquill Trinkets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " When you make your character, you may roll once on the Silverquill Trinkets table, instead of on the "
+          },
+          {
+            "type": "text",
+            "text": "Trinkets"
+          },
+          {
+            "type": "text",
+            "text": " table in the "
+          },
+          {
+            "type": "element",
+            "tag": "em",
+            "children": [
+              {
+                "type": "text",
+                "text": "Player's Handbook"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", for your starting trinket."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "h2",
+        "children": [
+          {
+            "type": "text",
+            "text": "Silverquill Trinkets"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "table",
+        "children": [
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "d6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "th",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Trinket"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A black leather notebook filled with half-finished poems"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A set of flashcards detailing different colloquialisms and their meanings"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A canteen that makes any liquid drunk from it taste sweet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A forged permission slip granting access to the special archives of Strixhaven's libraries"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A stylish silver pin that references a famous series of novels about warlocks"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "tr",
+            "children": [
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "td",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A stack of small pieces of parchment, each enchanted to stick to whatever surface it's pressed against and peel off easily"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "html": "<div id=\"page-content\">\n\n<p><strong><em>You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.</em></strong></p>\n<p>Source: Strixhaven: A Curriculum of Chaos</p>\n<p><strong>Skill Proficiencies:</strong> Intimidation, Persuasion<br/>\n<strong>Languages:</strong> Two of your choice<br/>\n<strong>Equipment:</strong> A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, a book of poetry, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp.</p>\n<h1>Feature</h1>\n<h2>Silverquill Initiate</h2>\n<p>You gain the Strixhaven Initiate feat and must choose Silverquill within it.</p>\n<p>In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>\n<table>\n<tr>\n<th>Silverquill Spells</th>\n</tr>\n<tr>\n<th>Spell Level</th>\n<th>Spells</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Dissonant Whispers, Silvery Barbs</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>Calm Emotions, Darkness</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Beacon of Hope, Daylight</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>Compulsion, Confusion</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Dominate Person, Rary's Telepathic Bond</td>\n</tr>\n</table>\n<p>Consider customizing how your spells look when you can cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption.</p>\n<h1>Building a Silverquill Character</h1>\n<p>Many Bards find a home in Silverquill, putting the power of their voices to use with Silverquill magic. Wizards (especially those who study the Schools of Illusion and Enchantment) are common in Silverquill, as are Warlocks. Clerics with the Divine Domains of Light and Trickery also fit in well among the mages of Silverquill.</p>\n<p>A number of both Paladins and Rogues attend Silverquill College as well, highlighting the diversity of the student body.</p>\n<p><strong><em>Suggested Characteristics.</em></strong> With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character.</p>\n<h2>Silverquill Personality Traits</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Personality Trait</th>\n</tr>\n<tr>\n<td>1</td>\n<td>I'll say whatever I need to in order to maintain my high social status.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>I prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>I believe that uplifting my peers is the best way to succeed.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>I've mastered the art of using humor as a defense, and I always have a charming joke ready.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>No one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way.</td>\n</tr>\n</table>\n<p><strong><em>Silverquill Trinkets.</em></strong> When you make your character, you may roll once on the Silverquill Trinkets table, instead of on the Trinkets table in the <em>Player's Handbook</em>, for your starting trinket.</p>\n<h2>Silverquill Trinkets</h2>\n<table>\n<tr>\n<th>d6</th>\n<th>Trinket</th>\n</tr>\n<tr>\n<td>1</td>\n<td>A black leather notebook filled with half-finished poems</td>\n</tr>\n<tr>\n<td>2</td>\n<td>A set of flashcards detailing different colloquialisms and their meanings</td>\n</tr>\n<tr>\n<td>3</td>\n<td>A canteen that makes any liquid drunk from it taste sweet</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A forged permission slip granting access to the special archives of Strixhaven's libraries</td>\n</tr>\n<tr>\n<td>5</td>\n<td>A stylish silver pin that references a famous series of novels about warlocks</td>\n</tr>\n<tr>\n<td>6</td>\n<td>A stack of small pieces of parchment, each enchanted to stick to whatever surface it's pressed against and peel off easily</td>\n</tr>\n</table>\n</div>"
+  }
+}

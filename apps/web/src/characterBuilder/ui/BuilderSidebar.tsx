@@ -32,7 +32,7 @@ export const BuilderSidebar = (props: {
       <p className="text-xs uppercase tracking-[0.22em] text-sky-300">Guided Builder</p>
       <h2 className="mt-2 text-xl font-semibold tracking-tight text-slate-100">Character Progress</h2>
       <div className="mt-4 space-y-2">
-        {props.items.map((item) => (
+        {props.items.map((item, index) => (
           <button
             key={item.id}
             type="button"
@@ -44,7 +44,18 @@ export const BuilderSidebar = (props: {
             }`}
           >
             <div className="flex items-center justify-between gap-2">
-              <p className="text-sm font-medium text-slate-100">{BUILDER_SECTION_LABELS[item.id]}</p>
+              <div className="flex items-center gap-3">
+                <span
+                  className={`inline-flex h-7 w-7 items-center justify-center rounded-full border text-xs font-semibold ${
+                    props.activeSection === item.id
+                      ? 'border-sky-400 bg-sky-950/60 text-sky-100'
+                      : 'border-slate-700 bg-slate-950/60 text-slate-300'
+                  }`}
+                >
+                  {index + 1}
+                </span>
+                <p className="text-sm font-medium text-slate-100">{BUILDER_SECTION_LABELS[item.id]}</p>
+              </div>
               <span className={`rounded-full border px-2 py-0.5 text-[10px] ${statusStyles[item.status]}`}>
                 {statusLabel[item.status]}
               </span>
@@ -58,4 +69,3 @@ export const BuilderSidebar = (props: {
     </aside>
   );
 };
-

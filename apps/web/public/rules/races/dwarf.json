@@ -1,0 +1,245 @@
+{
+  "id": "dwarf",
+  "name": "Dwarf",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "darkvision:60",
+    "has:ability-bonus",
+    "has:resistance",
+    "has:subrace",
+    "has:tool-choice",
+    "has:weapon-proficiency",
+    "kind:race",
+    "language:common",
+    "language:dwarvish",
+    "size:medium",
+    "source:srd51",
+    "speed:25"
+  ],
+  "summary": "Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.",
+  "basics": {
+    "size": "Medium",
+    "speedWalk": 25,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+    "alignmentText": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+  },
+  "abilities": {
+    "bonuses": {
+      "con": 2
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [
+      "Common",
+      "Dwarvish"
+    ],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": 60,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [
+      "battleaxe",
+      "handaxe",
+      "light hammer",
+      "warhammer"
+    ],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "smith's tools",
+        "brewer's supplies",
+        "mason's tools"
+      ]
+    }
+  },
+  "defenses": {
+    "resistances": [
+      "poison"
+    ],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": [
+      "poison"
+    ]
+  },
+  "traits": [
+    {
+      "id": "dwarf-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "CON +2",
+      "rulesText": "Your Constitution score increases by 2.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "con": 2
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "dwarf-age",
+      "name": "Age",
+      "summary": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, t...",
+      "rulesText": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "dwarf-alignment",
+      "name": "Alignment",
+      "summary": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, w...",
+      "rulesText": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "dwarf-size",
+      "name": "Size",
+      "summary": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds.",
+      "rulesText": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+      "grants": {
+        "speed": {
+          "size": "Medium"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "dwarf-speed",
+      "name": "Speed",
+      "summary": "Walking speed 25 ft",
+      "rulesText": "Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
+      "grants": {
+        "speed": {
+          "speedWalk": 25
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "dwarf-darkvision",
+      "name": "Darkvision",
+      "summary": "Darkvision 60 ft",
+      "rulesText": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "grants": {
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "category": "sense"
+    },
+    {
+      "id": "dwarf-dwarven-resilience",
+      "name": "Dwarven Resilience",
+      "summary": "Resistance: poison",
+      "rulesText": "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+      "grants": {
+        "defenses": {
+          "resistances": [
+            "poison"
+          ],
+          "immunities": [],
+          "conditionImmunities": [],
+          "savingThrowAdvantages": [
+            "poison"
+          ]
+        }
+      },
+      "category": "defense"
+    },
+    {
+      "id": "dwarf-dwarven-combat-training",
+      "name": "Dwarven Combat Training",
+      "summary": "battleaxe, handaxe, light hammer, warhammer",
+      "rulesText": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
+      "grants": {
+        "proficiencies": {
+          "armor": [],
+          "weapons": [
+            "battleaxe",
+            "handaxe",
+            "light hammer",
+            "warhammer"
+          ],
+          "tools": [],
+          "skills": []
+        }
+      },
+      "category": "proficiency"
+    },
+    {
+      "id": "dwarf-tool-proficiency",
+      "name": "Tool Proficiency",
+      "summary": "Choose 1 tool",
+      "rulesText": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.",
+      "grants": {
+        "proficiencies": {
+          "armor": [],
+          "weapons": [],
+          "tools": [],
+          "skills": [],
+          "toolChoices": {
+            "choose": 1,
+            "from": [
+              "smith's tools",
+              "brewer's supplies",
+              "mason's tools"
+            ]
+          }
+        }
+      },
+      "category": "proficiency"
+    },
+    {
+      "id": "dwarf-stonecunning",
+      "name": "Stonecunning",
+      "summary": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill...",
+      "rulesText": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "dwarf-languages",
+      "name": "Languages",
+      "summary": "Common, Dwarvish",
+      "rulesText": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common",
+            "Dwarvish"
+          ]
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Dwarf"
+    },
+    {
+      "type": "p",
+      "text": "Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature. Ability Score Increase. Your Constitution score increases by 2. Age. Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years. Alignment. Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order. Size. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium. Speed. Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor. Darkvision. Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Dwarven Resilience. You have advantage on saving throws against poison, and you have resistance against poison damage. Dwarven Combat Training. You have proficiency with the battleaxe, handaxe, light hammer, and warhammer. Tool Proficiency. You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools. Stonecunning. Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. Languages. You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+    }
+  ]
+}

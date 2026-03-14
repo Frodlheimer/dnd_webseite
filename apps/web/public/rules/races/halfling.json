@@ -1,0 +1,190 @@
+{
+  "id": "halfling",
+  "name": "Halfling",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "has:ability-bonus",
+    "has:subrace",
+    "kind:race",
+    "language:common",
+    "language:halfling",
+    "size:small",
+    "source:srd51",
+    "speed:25"
+  ],
+  "summary": "Your halfling character has a number of traits in common with all other halflings.",
+  "basics": {
+    "size": "Small",
+    "speedWalk": 25,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+    "alignmentText": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways."
+  },
+  "abilities": {
+    "bonuses": {
+      "dex": 2
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [
+      "Common",
+      "Halfling"
+    ],
+    "choices": null
+  },
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": [
+      "frightened"
+    ]
+  },
+  "traits": [
+    {
+      "id": "halfling-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "DEX +2",
+      "rulesText": "Your Dexterity score increases by 2.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "dex": 2
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "halfling-age",
+      "name": "Age",
+      "summary": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+      "rulesText": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "halfling-alignment",
+      "name": "Alignment",
+      "summary": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no to...",
+      "rulesText": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "halfling-size",
+      "name": "Size",
+      "summary": "Halflings average about 3 feet tall and weigh about 40 pounds.",
+      "rulesText": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+      "grants": {
+        "speed": {
+          "size": "Small"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "halfling-speed",
+      "name": "Speed",
+      "summary": "Walking speed 25 ft",
+      "rulesText": "Your base walking speed is 25 feet.",
+      "grants": {
+        "speed": {
+          "speedWalk": 25
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "halfling-lucky",
+      "name": "Lucky",
+      "summary": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+      "rulesText": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "halfling-brave",
+      "name": "Brave",
+      "summary": "Saving throw advantage vs frightened",
+      "rulesText": "You have advantage on saving throws against being frightened.",
+      "grants": {
+        "defenses": {
+          "resistances": [],
+          "immunities": [],
+          "conditionImmunities": [],
+          "savingThrowAdvantages": [
+            "frightened"
+          ]
+        }
+      },
+      "category": "defense"
+    },
+    {
+      "id": "halfling-halfling-nimbleness",
+      "name": "Halfling Nimbleness",
+      "summary": "You can move through the space of any creature that is of a size larger than yours.",
+      "rulesText": "You can move through the space of any creature that is of a size larger than yours.",
+      "grants": {},
+      "category": "utility"
+    },
+    {
+      "id": "halfling-languages",
+      "name": "Languages",
+      "summary": "Common, Halfling",
+      "rulesText": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common",
+            "Halfling"
+          ]
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Halfling"
+    },
+    {
+      "type": "p",
+      "text": "Your halfling character has a number of traits in common with all other halflings. Ability Score Increase. Your Dexterity score increases by 2. Age. A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century. Alignment. Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways. Size. Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+    },
+    {
+      "type": "p",
+      "text": "Speed. Your base walking speed is 25 feet. Lucky. When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+    },
+    {
+      "type": "p",
+      "text": "Brave. You have advantage on saving throws against being frightened."
+    },
+    {
+      "type": "p",
+      "text": "Halfling Nimbleness. You can move through the space of any creature that is of a size larger than yours. Languages. You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+    }
+  ]
+}

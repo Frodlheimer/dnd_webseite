@@ -1,0 +1,318 @@
+{
+  "id": "harborfolk",
+  "slug": "harborfolk",
+  "name": "Harborfolk",
+  "aliases": [
+    "Harborfolk"
+  ],
+  "categories": [
+    "AL: Mulmaster"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Athletics",
+      "Sleight of Hand"
+    ],
+    "tools": [
+      "vehicles (water)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Dice set",
+        "Dragonchess set",
+        "Playing card set",
+        "Three-Dragon Ante set"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "Fishing tackle",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "dice set",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "playing card set",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "or Three Dragon Ante set",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "rowboat",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 5gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 5
+    },
+    "rawText": "Fishing tackle, a dice set, playing card set, or Three Dragon Ante set, a set of common clothes, a rowboat, and a pouch containing 5gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Athletics, Sleight of Hand"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of gaming set, vehicles (water)"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "Fishing tackle, a dice set, playing card set, or Three Dragon Ante set, a set of common clothes, a rowboat, and a pouch containing 5gp"
+    },
+    {
+      "id": "feature-harborfolk-3",
+      "title": "Feature: Harborfolk",
+      "kind": "feature",
+      "text": "You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are)."
+    },
+    {
+      "id": "harborfolk-personality-traits-5",
+      "title": "Harborfolk Personality Traits",
+      "kind": "personality",
+      "text": "I am curious. I want to know why things are the way they are and why people do the things that they do.\nI can't sing, but that never stops me from doing it, loudly. Everyone loves a good sea shanty!\nI think the High Blade is doing a terrific job, don't you?\nI'm very excited that the House Built on Gold is being restored. I am a zealous worshipper of Waukeen.\nI am quite superstitious. I see portents in everyday occurrences.\nI resent the rich and enjoy thwarting their plans and spoiling their fun in small ways.\nI have a sea story to fit every occasion.\nI'm a fisher, but I secretly detest eating fish. I will do anything to avoid it."
+    },
+    {
+      "id": "harborfolk-ideals-7",
+      "title": "Harborfolk Ideals",
+      "kind": "personality",
+      "text": "Calm. For all things, there is a tide. I set sail when it is right, and mend my nets when it is not. (Lawful)\nWindblown. I go where the winds blow. No man or woman tells me where or when to sail. (Chaotic)\nAspiring. I will gain the favor of a Zor or Zora patron, maybe even one of the Blades! (Any)\nSalty. I want people to look to me as an expert on plying Mulmaster Harbor. (Any)\nSelfless. We are all children of the sea. I help everyone in peril afloat and ashore. (Good)\nLet them Drown. I refuse to risk my hide to help others. They wouldn't help me if roles were reversed. (Evil)"
+    },
+    {
+      "id": "harborfolk-bonds-9",
+      "title": "Harborfolk Bonds",
+      "kind": "personality",
+      "text": "I once lost everything but my rowboat. I'll do anything to protect it.\nMy brother was in the Soldiery, but he was killed. I really look up to the men and women who serve.\nThe Cloaks killed my friend for spellcasting. I'll get them back somehow, someday.\nThe High House of Hurting helped me when I was hurt and asked nothing in return. I owe them my life.\nI was robbed in the Zhent ghetto once. It will not happen again.\nI would do anything to protect the other harborfolk. They are my family."
+    },
+    {
+      "id": "harborfolk-flaws-11",
+      "title": "Harborfolk Flaws",
+      "kind": "personality",
+      "text": "I drink too much, which causes me to miss the tide.\nI killed a drunk member of the City Watch in a brawl. I am terrified that they might find out.\nI oversell myself and make promises I can't keep when I want to impress someone.\nBook learning is a waste of time. I have no patience for people who don't speak from experience.\nI almost always cheat. I can't help myself.\nI am a secret informant for the Hawks. I send them reports about everything I see and hear, even what my friends and allies are up to."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Mulmaster Bonds and Backgrounds"
+    },
+    {
+      "type": "p",
+      "text": "You are one of the hundreds of small-time fishermen and -women who haul the bounty of Mulmaster's freshwater harbor to the city's markets each morning. You have spent countless days rowing in the waters in and around Mulmaster and know them and the other fisher folk, dockworkers, and port inhabitants better than anyone. Though you have left that life behind, you still visit once in a while."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Athletics, Sleight of Hand\nTool Proficiencies: One type of gaming set, vehicles (water)\nEquipment:Fishing tackleValue:1gp Weight:4lbs, a dice setValue:1sp Weight:0lbs, playing card setValue:5sp Weight:0lbs, or Three Dragon Ante setValue:1gp Weight:0lbs, a set of common clothesValue:5sp Weight:3lbs, a rowboatValue:50gp Weight:100lbs, and a pouchValue:5sp Weight:1lb containing 5gp"
+    },
+    {
+      "type": "h2",
+      "text": "Feature: Harborfolk"
+    },
+    {
+      "type": "p",
+      "text": "You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are)."
+    },
+    {
+      "type": "h3",
+      "text": "Harborfolk Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am curious. I want to know why things are the way they are and why people do the things that they do."
+        ],
+        [
+          "2",
+          "I can't sing, but that never stops me from doing it, loudly. Everyone loves a good sea shanty!"
+        ],
+        [
+          "3",
+          "I think the High Blade is doing a terrific job, don't you?"
+        ],
+        [
+          "4",
+          "I'm very excited that the House Built on Gold is being restored. I am a zealous worshipper of Waukeen."
+        ],
+        [
+          "5",
+          "I am quite superstitious. I see portents in everyday occurrences."
+        ],
+        [
+          "6",
+          "I resent the rich and enjoy thwarting their plans and spoiling their fun in small ways."
+        ],
+        [
+          "7",
+          "I have a sea story to fit every occasion."
+        ],
+        [
+          "8",
+          "I'm a fisher, but I secretly detest eating fish. I will do anything to avoid it."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Harborfolk Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Calm. For all things, there is a tide. I set sail when it is right, and mend my nets when it is not. (Lawful)"
+        ],
+        [
+          "2",
+          "Windblown. I go where the winds blow. No man or woman tells me where or when to sail. (Chaotic)"
+        ],
+        [
+          "3",
+          "Aspiring. I will gain the favor of a Zor or Zora patron, maybe even one of the Blades! (Any)"
+        ],
+        [
+          "4",
+          "Salty. I want people to look to me as an expert on plying Mulmaster Harbor. (Any)"
+        ],
+        [
+          "5",
+          "Selfless. We are all children of the sea. I help everyone in peril afloat and ashore. (Good)"
+        ],
+        [
+          "6",
+          "Let them Drown. I refuse to risk my hide to help others. They wouldn't help me if roles were reversed. (Evil)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Harborfolk Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I once lost everything but my rowboat. I'll do anything to protect it."
+        ],
+        [
+          "2",
+          "My brother was in the Soldiery, but he was killed. I really look up to the men and women who serve."
+        ],
+        [
+          "3",
+          "The Cloaks killed my friend for spellcasting. I'll get them back somehow, someday."
+        ],
+        [
+          "4",
+          "The High House of Hurting helped me when I was hurt and asked nothing in return. I owe them my life."
+        ],
+        [
+          "5",
+          "I was robbed in the Zhent ghetto once. It will not happen again."
+        ],
+        [
+          "6",
+          "I would do anything to protect the other harborfolk. They are my family."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Harborfolk Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I drink too much, which causes me to miss the tide."
+        ],
+        [
+          "2",
+          "I killed a drunk member of the City Watch in a brawl. I am terrified that they might find out."
+        ],
+        [
+          "3",
+          "I oversell myself and make promises I can't keep when I want to impress someone."
+        ],
+        [
+          "4",
+          "Book learning is a waste of time. I have no patience for people who don't speak from experience."
+        ],
+        [
+          "5",
+          "I almost always cheat. I can't help myself."
+        ],
+        [
+          "6",
+          "I am a secret informant for the Hawks. I send them reports about everything I see and hear, even what my friends and allies are up to."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You are one of the hundreds of small-time fishermen and -women who haul the bounty of Mulmaster's freshwater harbor to the city's markets each morning.",
+  "tags": [
+    "category:al-mulmaster",
+    "has:choice",
+    "has:equipment",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

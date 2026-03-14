@@ -7,7 +7,7 @@ type PrimaryCardProps = {
   title: string;
   description: string;
   to: string;
-  quickBadges: string[];
+  quickBadges?: string[];
   scene: 'player' | 'dm';
 };
 
@@ -39,16 +39,18 @@ const PrimaryCard = ({ title, description, to, quickBadges, scene }: PrimaryCard
         <h3 className="text-xl font-semibold tracking-tight">{title}</h3>
         <p className="mt-1 text-sm text-slate-300">{description}</p>
       </div>
-      <ul className="mt-3 flex flex-wrap gap-2">
-        {quickBadges.map((badge) => (
-          <li
-            key={`${title}-${badge}`}
-            className="rounded-full border border-slate-700 bg-slate-800/80 px-3 py-1 text-xs text-slate-200 transition group-hover:border-sky-500/40 group-hover:text-sky-200"
-          >
-            {badge}
-          </li>
-        ))}
-      </ul>
+      {quickBadges && quickBadges.length > 0 ? (
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {quickBadges.map((badge) => (
+            <li
+              key={`${title}-${badge}`}
+              className="rounded-full border border-slate-700 bg-slate-800/80 px-3 py-1 text-xs text-slate-200 transition group-hover:border-sky-500/40 group-hover:text-sky-200"
+            >
+              {badge}
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </Link>
   );
 };
@@ -220,21 +222,19 @@ export const LandingRoute = () => {
           title="Player"
           description="Manage character, notes, and utilities before entering the active battlemap."
           to="/player"
-          quickBadges={['Character', 'Notes', 'Dice']}
           scene="player"
         />
         <PrimaryCard
           title="Dungeon Master"
           description="Control maps, encounters, NPC references, and session prep as the DM."
           to="/dm"
-          quickBadges={['NPCs', 'Encounters', 'Maps']}
           scene="dm"
         />
       </section>
 
       <section className="landing-secondary-grid grid grid-cols-2 gap-2 lg:grid-cols-4">
         <SecondaryCard title="Notes" description="Quick campaign notes." to="/player/notes" />
-        <SecondaryCard title="Dice" description="Rolling and initiative tools." to="/dice" />
+        <SecondaryCard title="Tools" description="Dice, point buy, and conversion tools." to="/player/tools" />
         <SecondaryCard title="Help" description="Guides and controls." to="/help" />
         <SecondaryCard title="Stats & Rules" description="Rule references." to="/rules" />
       </section>

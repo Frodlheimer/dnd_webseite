@@ -1,0 +1,304 @@
+{
+  "id": "half-elf",
+  "name": "Half-Elf",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "darkvision:60",
+    "has:ability-bonus",
+    "has:language-choice",
+    "has:skill-choice",
+    "kind:race",
+    "language:common",
+    "language:elvish",
+    "size:medium",
+    "source:srd51",
+    "speed:30"
+  ],
+  "summary": "Your half-elf character has some qualities in common with elves and some that are unique to half-elves.",
+  "basics": {
+    "size": "Medium",
+    "speedWalk": 30,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+    "alignmentText": "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable."
+  },
+  "abilities": {
+    "bonuses": {
+      "cha": 2
+    },
+    "bonusChoice": {
+      "choose": 2,
+      "amount": 1,
+      "from": [
+        "str",
+        "dex",
+        "con",
+        "int",
+        "wis"
+      ]
+    }
+  },
+  "languages": {
+    "granted": [
+      "Common",
+      "Elvish"
+    ],
+    "choices": {
+      "choose": 1,
+      "from": [
+        "Abyssal",
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Infernal",
+        "Orc",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "senses": {
+    "darkvision": 60,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "Acrobatics",
+        "Animal Handling",
+        "Arcana",
+        "Athletics",
+        "Deception",
+        "History",
+        "Insight",
+        "Intimidation",
+        "Investigation",
+        "Medicine",
+        "Nature",
+        "Perception",
+        "Performance",
+        "Persuasion",
+        "Religion",
+        "Sleight of Hand",
+        "Stealth",
+        "Survival"
+      ]
+    },
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [
+      "magical sleep"
+    ],
+    "savingThrowAdvantages": [
+      "charmed"
+    ]
+  },
+  "traits": [
+    {
+      "id": "half-elf-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "CHA +2",
+      "rulesText": "Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "cha": 2
+          },
+          "bonusChoice": {
+            "choose": 2,
+            "amount": 1,
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis"
+            ]
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "half-elf-age",
+      "name": "Age",
+      "summary": "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than hum...",
+      "rulesText": "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "half-elf-alignment",
+      "name": "Alignment",
+      "summary": "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression,...",
+      "rulesText": "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "half-elf-size",
+      "name": "Size",
+      "summary": "Half-elves are about the same size as humans, ranging from 5 to 6 feet tall.",
+      "rulesText": "Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.",
+      "grants": {
+        "speed": {
+          "size": "Medium"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "half-elf-speed",
+      "name": "Speed",
+      "summary": "Walking speed 30 ft",
+      "rulesText": "Your base walking speed is 30 feet.",
+      "grants": {
+        "speed": {
+          "speedWalk": 30
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "half-elf-darkvision",
+      "name": "Darkvision",
+      "summary": "Darkvision 60 ft",
+      "rulesText": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "grants": {
+        "senses": {
+          "darkvision": 60
+        }
+      },
+      "category": "sense"
+    },
+    {
+      "id": "half-elf-fey-ancestry",
+      "name": "Fey Ancestry",
+      "summary": "Saving throw advantage vs charmed",
+      "rulesText": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+      "grants": {
+        "defenses": {
+          "resistances": [],
+          "immunities": [],
+          "conditionImmunities": [
+            "magical sleep"
+          ],
+          "savingThrowAdvantages": [
+            "charmed"
+          ]
+        }
+      },
+      "category": "defense"
+    },
+    {
+      "id": "half-elf-skill-versatility",
+      "name": "Skill Versatility",
+      "summary": "You gain proficiency in two skills of your choice.",
+      "rulesText": "You gain proficiency in two skills of your choice.",
+      "grants": {
+        "proficiencies": {
+          "armor": [],
+          "weapons": [],
+          "tools": [],
+          "skills": [],
+          "skillChoices": {
+            "choose": 2,
+            "from": [
+              "Acrobatics",
+              "Animal Handling",
+              "Arcana",
+              "Athletics",
+              "Deception",
+              "History",
+              "Insight",
+              "Intimidation",
+              "Investigation",
+              "Medicine",
+              "Nature",
+              "Perception",
+              "Performance",
+              "Persuasion",
+              "Religion",
+              "Sleight of Hand",
+              "Stealth",
+              "Survival"
+            ]
+          }
+        }
+      },
+      "category": "proficiency"
+    },
+    {
+      "id": "half-elf-languages",
+      "name": "Languages",
+      "summary": "Common, Elvish",
+      "rulesText": "You can speak, read, and write Common, Elvish, and one extra language of your choice.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common",
+            "Elvish"
+          ],
+          "choices": {
+            "choose": 1,
+            "from": [
+              "Abyssal",
+              "Celestial",
+              "Common",
+              "Draconic",
+              "Dwarvish",
+              "Elvish",
+              "Giant",
+              "Gnomish",
+              "Goblin",
+              "Halfling",
+              "Infernal",
+              "Orc",
+              "Primordial",
+              "Sylvan",
+              "Undercommon"
+            ]
+          }
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Half-Elf"
+    },
+    {
+      "type": "p",
+      "text": "Your half-elf character has some qualities in common with elves and some that are unique to half-elves. Ability Score Increase. Your Charisma score increases by 2, and two other ability scores of your choice increase by 1. Age. Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years. Alignment. Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and"
+    },
+    {
+      "type": "p",
+      "text": "sometimes prove unreliable, or at least unpredictable. Size. Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium. Speed. Your base walking speed is 30 feet. Darkvision. Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Fey Ancestry. You have advantage on saving throws against being charmed, and magic can't put you to sleep. Skill Versatility. You gain proficiency in two skills of your choice. Languages. You can speak, read, and write Common, Elvish, and one extra language of your choice."
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "prismari-student",
+  "slug": "prismari-student",
+  "name": "Prismari Student",
+  "aliases": [
+    "Prismari Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Acrobatics",
+      "Performance"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol",
+        "artisan's tools"
+      ]
+    },
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of black ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "school uniform",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "set of artisan's tools",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "musical instrumet (one of your choice)",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a set of artisan's tools or a musical instrumet (one of your choice)"
+      }
+    ],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A bottle of black ink, an ink pen, a set of artisan's tools or a musical instrumet (one of your choice), a school uniform, and a pouch containing 10 gp."
+  },
+  "feature": {
+    "name": "Prismari Initiate",
+    "summary": "You gain the Strixhaven Initiate feat and must choose Prismari within it.",
+    "rulesText": "Prismari Initiate\nYou gain the Strixhaven Initiate feat and must choose Prismari within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nChromatic Orb, Thunderwave\nFlaming Sphere, Kinetic Jaunt\nHaste, Water Walk\nFreedom of Movement, Wall of Fire\nCone of Cold, Conjure Elemental\nConsider customizing how your spells look when you can cast them. You might wield your Prismari spells with dynamic, gestural movement-as much dance as somatic component. Even a blast of fire in your hands is a sculpted work of art; elemental forces make grand designs as you hurl spells. These forces might linger on your body or in your clothes as decorative elements after your spells are dissipated, as sparks dance in your hair and your touch leaves tracings of frost on whatever you touch."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Acrobatics, Performance"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of musical instrument or artisan's tools"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of black ink, an ink pen, a set of artisan's tools or a musical instrumet (one of your choice), a school uniform, and a pouch containing 10 gp."
+    },
+    {
+      "id": "feature-3",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "prismari-initiate-4",
+      "title": "Prismari Initiate",
+      "kind": "feature",
+      "text": "You gain the Strixhaven Initiate feat and must choose Prismari within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nChromatic Orb, Thunderwave\nFlaming Sphere, Kinetic Jaunt\nHaste, Water Walk\nFreedom of Movement, Wall of Fire\nCone of Cold, Conjure Elemental\nConsider customizing how your spells look when you can cast them. You might wield your Prismari spells with dynamic, gestural movement-as much dance as somatic component. Even a blast of fire in your hands is a sculpted work of art; elemental forces make grand designs as you hurl spells. These forces might linger on your body or in your clothes as decorative elements after your spells are dissipated, as sparks dance in your hair and your touch leaves tracings of frost on whatever you touch."
+    },
+    {
+      "id": "building-a-prismari-character-9",
+      "title": "Building a Prismari Character",
+      "kind": "other",
+      "text": "Any class or subclass that wields elemental forces of cold, fire, lightning, and wind can be a good fit in Prismari. Druids and Sorcerers are common in Prismari, and Wizards who study the Schools of Evocation or Transmutation are also well represented. Clerics aren't very common in this school, but some with the Tempest Domain end up here.\nBeyond the ranks of traditional spellcasters, Prismari students also include Monks who follow the Way of the Four Elements. Some acrobatic Rogues and Fighters (including those who emulate the archetype of the Eldritch Knight) also delight in the athleticism of Prismari performance.\nSuggested Characteristics. Though the curriculum of Prismari College attracts many outgoing and driven artists, the school has no shortage of shy scholars and lackadaisical blowhards among its ranks. The Prismari Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "id": "prismari-personality-traits-13",
+      "title": "Prismari Personality Traits",
+      "kind": "personality",
+      "text": "I'm the life of the party, and I expect everyone's attention when I walk into a room.\nTwo weeks ago, I was enthralled with my latest project. Now, I think it's garbage and deserves to be destroyed.\nI believe everyone has the ability to express their truest selves through art, and I'm happy to quietly push them in the right direction.\nEveryone is a critic, and I work to win them all over.\nI'm beset with such an overwhelming sense of ennui regarding my art. Nothing quite captures my attention anymore.\nInstead of confronting my negative emotions, I channel them into explosive artistic displays.\nPrismari Trinkets. When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "prismari-trinkets-16",
+      "title": "Prismari Trinkets",
+      "kind": "other",
+      "text": "A pair of rose-tinted glasses with glittery frames\nA stoppered glass bottle that, when opened, plays a brassy orchestral piece\nA quartet of hovering water motes in a vial\nA bandolier of watercolor paints\nA tiara capped with a crystal that crackles with harmless lightning\nAn iridescent quill"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium-sculpture, dance, paint, music, drama, architecture, or any other field-you have grand visions of bringing your art to life in a fusion of magic and creativity."
+    },
+    {
+      "type": "p",
+      "text": "Source: Strixhaven: A Curriculum of Chaos"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Acrobatics, Performance\nTool Proficiencies: One type of musical instrument or artisan's tools\nLanguages: One of your choice\nEquipment: A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, a set of artisan's tools or a musical instrumet (one of your choice), a school uniform, and a pouchValue: 5sp Weight: 1lb containing 10 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Prismari Initiate"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Strixhaven Initiate feat and must choose Prismari within it."
+    },
+    {
+      "type": "p",
+      "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1st",
+          "Chromatic Orb, Thunderwave"
+        ],
+        [
+          "2nd",
+          "Flaming Sphere, Kinetic Jaunt"
+        ],
+        [
+          "3rd",
+          "Haste, Water Walk"
+        ],
+        [
+          "4th",
+          "Freedom of Movement, Wall of Fire"
+        ],
+        [
+          "5th",
+          "Cone of Cold, Conjure Elemental"
+        ]
+      ],
+      "caption": "Prismari Spells",
+      "headers": [
+        "Spell Level",
+        "Spells"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consider customizing how your spells look when you can cast them. You might wield your Prismari spells with dynamic, gestural movement-as much dance as somatic component. Even a blast of fire in your hands is a sculpted work of art; elemental forces make grand designs as you hurl spells. These forces might linger on your body or in your clothes as decorative elements after your spells are dissipated, as sparks dance in your hair and your touch leaves tracings of frost on whatever you touch."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Prismari Character"
+    },
+    {
+      "type": "p",
+      "text": "Any class or subclass that wields elemental forces of cold, fire, lightning, and wind can be a good fit in Prismari. Druids and Sorcerers are common in Prismari, and Wizards who study the Schools of Evocation or Transmutation are also well represented. Clerics aren't very common in this school, but some with the Tempest Domain end up here."
+    },
+    {
+      "type": "p",
+      "text": "Beyond the ranks of traditional spellcasters, Prismari students also include Monks who follow the Way of the Four Elements. Some acrobatic Rogues and Fighters (including those who emulate the archetype of the Eldritch Knight) also delight in the athleticism of Prismari performance."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics. Though the curriculum of Prismari College attracts many outgoing and driven artists, the school has no shortage of shy scholars and lackadaisical blowhards among its ranks. The Prismari Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Prismari Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I'm the life of the party, and I expect everyone's attention when I walk into a room."
+        ],
+        [
+          "2",
+          "Two weeks ago, I was enthralled with my latest project. Now, I think it's garbage and deserves to be destroyed."
+        ],
+        [
+          "3",
+          "I believe everyone has the ability to express their truest selves through art, and I'm happy to quietly push them in the right direction."
+        ],
+        [
+          "4",
+          "Everyone is a critic, and I work to win them all over."
+        ],
+        [
+          "5",
+          "I'm beset with such an overwhelming sense of ennui regarding my art. Nothing quite captures my attention anymore."
+        ],
+        [
+          "6",
+          "Instead of confronting my negative emotions, I channel them into explosive artistic displays."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Prismari Trinkets. When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Prismari Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A pair of rose-tinted glasses with glittery frames"
+        ],
+        [
+          "2",
+          "A stoppered glass bottle that, when opened, plays a brassy orchestral piece"
+        ],
+        [
+          "3",
+          "A quartet of hovering water motes in a vial"
+        ],
+        [
+          "4",
+          "A bandolier of watercolor paints"
+        ],
+        [
+          "5",
+          "A tiara capped with a crystal that crackles with harmless lightning"
+        ],
+        [
+          "6",
+          "An iridescent quill"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College.",
+  "tags": [
+    "category:strixhaven",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

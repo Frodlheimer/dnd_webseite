@@ -1,0 +1,312 @@
+{
+  "id": "quandrix-student",
+  "slug": "quandrix-student",
+  "name": "Quandrix Student",
+  "aliases": [
+    "Quandrix Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Arcana",
+      "Nature"
+    ],
+    "tools": [
+      "One type of artisan's tools"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of black ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "abacus",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "book of arcane theory",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "school uniform",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp."
+  },
+  "feature": {
+    "name": "Quandrix Initiate",
+    "summary": "You gain the Strixhaven Initiate feat and must choose Quandrix within it.",
+    "rulesText": "Quandrix Initiate\nYou gain the Strixhaven Initiate feat and must choose Quandrix within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nEntangle, Guiding Bolt\nEnlarge/Reduce, Vortex Warp\nAura of Vitality, Haste\nControl Water, Freedom of Movement\nCircle of Power, Passwall\nConsider customizing how your spells look when you can cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Arcana, Nature"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of artisan's tools"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp."
+    },
+    {
+      "id": "feature-3",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "quandrix-initiate-4",
+      "title": "Quandrix Initiate",
+      "kind": "feature",
+      "text": "You gain the Strixhaven Initiate feat and must choose Quandrix within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nEntangle, Guiding Bolt\nEnlarge/Reduce, Vortex Warp\nAura of Vitality, Haste\nControl Water, Freedom of Movement\nCircle of Power, Passwall\nConsider customizing how your spells look when you can cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns."
+    },
+    {
+      "id": "building-a-quandrix-character-9",
+      "title": "Building a Quandrix Character",
+      "kind": "other",
+      "text": "Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of Wizards (especially those who study the Schools of Abjuration, Illusion, or Transmutation) and the metamagic manipulations of Sorcerers are welcome in Quandrix, and many Druids explore the patterns of nature in Quandrix as well. A few Clerics, particularly those with the Knowledge or Nature domains, study in Quandrix as well.\nAside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some Fighters, Monks, Rangers, and Rogues study here, using Quandrix principles to train their minds.\nSuggested Characteristics. With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "id": "quandrix-personality-traits-13",
+      "title": "Quandrix Personality Traits",
+      "kind": "personality",
+      "text": "When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night.\nI hope this all makes sense to me one day. Until then, I'm going to keep faking it.\nEquations and patterns come naturally to my mind. I wish friendship came just as easily.\nI believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to.\nIf these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?\nBefore I graduate, I want to achieve something mathematically impossible. I must leave a legacy!\nQuandrix Trinkets. When you make your character, you may roll once on the Quandrix Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "quandrix-trinkets-16",
+      "title": "Quandrix Trinkets",
+      "kind": "other",
+      "text": "A small succulent in a dodecahedral clay pot\nA blue knit hat that looks a bit like a bottle folding in on itself\nA model hypercube carved from green crystal, showcasing the fourth dimension\nA crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor\nA blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture\nA round bread roll cut so that someone could spread butter on both halves without ever lifting the knife"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics, or you delve into more abstract studies of metaphysics, arcana, or logic."
+    },
+    {
+      "type": "p",
+      "text": "Source: Strixhaven: A Curriculum of Chaos"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Arcana, Nature\nTool Proficiencies: One type of artisan's tools\nLanguages: One of your choice\nEquipment: A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, an abacusValue: 2gp Weight: 2lb, a book of arcane theory, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Quandrix Initiate"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Strixhaven Initiate feat and must choose Quandrix within it."
+    },
+    {
+      "type": "p",
+      "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1st",
+          "Entangle, Guiding Bolt"
+        ],
+        [
+          "2nd",
+          "Enlarge/Reduce, Vortex Warp"
+        ],
+        [
+          "3rd",
+          "Aura of Vitality, Haste"
+        ],
+        [
+          "4th",
+          "Control Water, Freedom of Movement"
+        ],
+        [
+          "5th",
+          "Circle of Power, Passwall"
+        ]
+      ],
+      "caption": "Quandrix Spells",
+      "headers": [
+        "Spell Level",
+        "Spells"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consider customizing how your spells look when you can cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Quandrix Character"
+    },
+    {
+      "type": "p",
+      "text": "Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of Wizards (especially those who study the Schools of Abjuration, Illusion, or Transmutation) and the metamagic manipulations of Sorcerers are welcome in Quandrix, and many Druids explore the patterns of nature in Quandrix as well. A few Clerics, particularly those with the Knowledge or Nature domains, study in Quandrix as well."
+    },
+    {
+      "type": "p",
+      "text": "Aside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some Fighters, Monks, Rangers, and Rogues study here, using Quandrix principles to train their minds."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics. With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Quandrix Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night."
+        ],
+        [
+          "2",
+          "I hope this all makes sense to me one day. Until then, I'm going to keep faking it."
+        ],
+        [
+          "3",
+          "Equations and patterns come naturally to my mind. I wish friendship came just as easily."
+        ],
+        [
+          "4",
+          "I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to."
+        ],
+        [
+          "5",
+          "If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?"
+        ],
+        [
+          "6",
+          "Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Quandrix Trinkets. When you make your character, you may roll once on the Quandrix Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Quandrix Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A small succulent in a dodecahedral clay pot"
+        ],
+        [
+          "2",
+          "A blue knit hat that looks a bit like a bottle folding in on itself"
+        ],
+        [
+          "3",
+          "A model hypercube carved from green crystal, showcasing the fourth dimension"
+        ],
+        [
+          "4",
+          "A crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor"
+        ],
+        [
+          "5",
+          "A blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture"
+        ],
+        [
+          "6",
+          "A round bread roll cut so that someone could spread butter on both halves without ever lifting the knife"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students.",
+  "tags": [
+    "category:strixhaven",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

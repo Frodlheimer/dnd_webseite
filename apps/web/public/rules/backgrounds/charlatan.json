@@ -1,0 +1,427 @@
+{
+  "id": "charlatan",
+  "slug": "charlatan",
+  "name": "Charlatan",
+  "aliases": [
+    "Charlatan"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Deception",
+      "Sleight of Hand"
+    ],
+    "tools": [
+      "Disguise kit",
+      "Forgery kit"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "disguise kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "tools of the con of your choice (ten stoppered bottles (individually) filled with colored liquid",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of weighted dice",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "deck of marked cards",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "or a signet ring of an imaginary duke)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles (individually) filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a pouch containing 15gp"
+  },
+  "feature": {
+    "name": "False Identity",
+    "summary": "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona.",
+    "rulesText": "False Identity\nYou have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Deception, Sleight of Hand"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Disguise kit, forgery kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "None"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles (individually) filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a pouch containing 15gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "favorite-schemes-5",
+      "title": "Favorite Schemes",
+      "kind": "feature",
+      "text": "Every charlatan has an angle they use in preference to other schemes. Choose a favorite scam or roll on the table below.\nI cheat at games of chance.\nI shave coins or forge documents.\nI insinuate myself into people's lives to prey on their weakness and secure their fortunes.\nI put on new identities like clothes.\nI run sleight-of-hand cons on street corners.\nI convince people that worthless junk is worth their hard-earned money."
+    },
+    {
+      "id": "false-identity-8",
+      "title": "False Identity",
+      "kind": "feature",
+      "text": "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+    },
+    {
+      "id": "suggested-characteristics-10",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues."
+    },
+    {
+      "id": "personality-traits-12",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I fall in and out of love easily, and am always pursuing someone.\nI have a joke for every occasion, especially occasions where humor is inappropriate.\nFlattery is my preferred trick for getting what I want.\nI'm a born gambler who can't resist taking a risk for a potential payoff.\nI lie about almost everything, even when there's no good reason to.\nSarcasm and insults are my weapons of choice.\nI keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.\nI pocket anything I see that might have some value."
+    },
+    {
+      "id": "ideals-14",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Independence. I am a free spirit – no one tells me what to do. (Chaotic)\nFairness. I never target people who can't afford to lose a few coins. (Lawful)\nCharity. I distribute the money I acquire to the people who really need it. (Good)\nCreativity. I never run the same con twice. (Chaotic)\nFriendship. Material goods come and go. Bonds of friendship last forever. (Good)\nAspiration. I'm determined to make something of myself. (Any)"
+    },
+    {
+      "id": "bonds-16",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.\nI owe everything to my mentor – a horrible person who's probably rotting in jail somewhere.\nSomewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.\nI come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.\nA powerful person killed someone I love. Some day soon, I'll have my revenge.\nI swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+    },
+    {
+      "id": "flaws-18",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I can't resist a pretty face.\nI'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.\nI'm convinced that no one could ever fool me the way I fool others.\nI'm too greedy for my own good. I can't resist taking a risk if there's money involved.\nI can't resist swindling people who are more powerful than me.\nI hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have always had a way with people. You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. It's a useful talent, and one that you're perfectly willing to use for your advantage."
+    },
+    {
+      "type": "p",
+      "text": "You know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you're around. The bottle of pink colored liquid will surely cure that unseemly rash, this ointment – nothing more than a bit of fat with a sprinkle of silver dust can restore youth and vigor, and there's a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Deception, Sleight of Hand\nTool Proficiencies: Disguise kit, forgery kit\nLanguages: None\nEquipment: A set of fine clothesValue:15gp Weight:6lbs, a disguise kitValue:25gp Weight:3lbs, tools of the con of your choice (ten stoppered bottlesValue:2gp Weight:2lbs (individually) filled with colored liquid, a set of weighted diceValue:1sp Weight:0, a deck of marked cardsValue:5sp Weight:0, or a signet ringValue:5gp Weight:0 of an imaginary duke), and a pouchValue:5sp Weight:1lb containing 15gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Favorite Schemes"
+    },
+    {
+      "type": "p",
+      "text": "Every charlatan has an angle they use in preference to other schemes. Choose a favorite scam or roll on the table below."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I cheat at games of chance."
+        ],
+        [
+          "2",
+          "I shave coins or forge documents."
+        ],
+        [
+          "3",
+          "I insinuate myself into people's lives to prey on their weakness and secure their fortunes."
+        ],
+        [
+          "4",
+          "I put on new identities like clothes."
+        ],
+        [
+          "5",
+          "I run sleight-of-hand cons on street corners."
+        ],
+        [
+          "6",
+          "I convince people that worthless junk is worth their hard-earned money."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Scam"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "False Identity"
+    },
+    {
+      "type": "p",
+      "text": "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I fall in and out of love easily, and am always pursuing someone."
+        ],
+        [
+          "2",
+          "I have a joke for every occasion, especially occasions where humor is inappropriate."
+        ],
+        [
+          "3",
+          "Flattery is my preferred trick for getting what I want."
+        ],
+        [
+          "4",
+          "I'm a born gambler who can't resist taking a risk for a potential payoff."
+        ],
+        [
+          "5",
+          "I lie about almost everything, even when there's no good reason to."
+        ],
+        [
+          "6",
+          "Sarcasm and insults are my weapons of choice."
+        ],
+        [
+          "7",
+          "I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment."
+        ],
+        [
+          "8",
+          "I pocket anything I see that might have some value."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Independence. I am a free spirit – no one tells me what to do. (Chaotic)"
+        ],
+        [
+          "2",
+          "Fairness. I never target people who can't afford to lose a few coins. (Lawful)"
+        ],
+        [
+          "3",
+          "Charity. I distribute the money I acquire to the people who really need it. (Good)"
+        ],
+        [
+          "4",
+          "Creativity. I never run the same con twice. (Chaotic)"
+        ],
+        [
+          "5",
+          "Friendship. Material goods come and go. Bonds of friendship last forever. (Good)"
+        ],
+        [
+          "6",
+          "Aspiration. I'm determined to make something of myself. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about."
+        ],
+        [
+          "2",
+          "I owe everything to my mentor – a horrible person who's probably rotting in jail somewhere."
+        ],
+        [
+          "3",
+          "Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her."
+        ],
+        [
+          "4",
+          "I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me."
+        ],
+        [
+          "5",
+          "A powerful person killed someone I love. Some day soon, I'll have my revenge."
+        ],
+        [
+          "6",
+          "I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I can't resist a pretty face."
+        ],
+        [
+          "2",
+          "I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in."
+        ],
+        [
+          "3",
+          "I'm convinced that no one could ever fool me the way I fool others."
+        ],
+        [
+          "4",
+          "I'm too greedy for my own good. I can't resist taking a risk if there's money involved."
+        ],
+        [
+          "5",
+          "I can't resist swindling people who are more powerful than me."
+        ],
+        [
+          "6",
+          "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You have always had a way with people.",
+  "personality": {
+    "traits": [
+      "I fall in and out of love easily, and am always pursuing someone.",
+      "I have a joke for every occasion, especially occasions where humor is inappropriate.",
+      "Flattery is my preferred trick for getting what I want.",
+      "I'm a born gambler who can't resist taking a risk for a potential payoff.",
+      "I lie about almost everything, even when there's no good reason to.",
+      "Sarcasm and insults are my weapons of choice.",
+      "I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.",
+      "I pocket anything I see that might have some value."
+    ],
+    "ideals": [
+      "Independence. I am a free spirit – no one tells me what to do. (Chaotic)",
+      "Fairness. I never target people who can't afford to lose a few coins. (Lawful)",
+      "Charity. I distribute the money I acquire to the people who really need it. (Good)",
+      "Creativity. I never run the same con twice. (Chaotic)",
+      "Friendship. Material goods come and go. Bonds of friendship last forever. (Good)",
+      "Aspiration. I'm determined to make something of myself. (Any)"
+    ],
+    "bonds": [
+      "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.",
+      "I owe everything to my mentor – a horrible person who's probably rotting in jail somewhere.",
+      "Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.",
+      "I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.",
+      "A powerful person killed someone I love. Some day soon, I'll have my revenge.",
+      "I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+    ],
+    "flaws": [
+      "I can't resist a pretty face.",
+      "I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.",
+      "I'm convinced that no one could ever fool me the way I fool others.",
+      "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.",
+      "I can't resist swindling people who are more powerful than me.",
+      "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:equipment",
+    "has:feature",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

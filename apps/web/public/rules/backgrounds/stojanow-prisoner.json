@@ -1,0 +1,311 @@
+{
+  "id": "stojanow-prisoner",
+  "slug": "stojanow-prisoner",
+  "name": "Stojanow Prisoner",
+  "aliases": [
+    "Stojanow Prisoner"
+  ],
+  "categories": [
+    "AL: Curse of Strahd"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Deception",
+      "Perception"
+    ],
+    "tools": [
+      "Thieves' tools"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Dice set",
+        "Dragonchess set",
+        "Playing card set",
+        "Three-Dragon Ante set"
+      ]
+    },
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "small knife",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "trinket from the life you stayed behind to defend",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch with 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A small knife, a set of common clothes, a trinket from the life you stayed behind to defend, and a pouch with 10gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Deception, Perception"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of gaming set, thieves' tools"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A small knife, a set of common clothes, a trinket from the life you stayed behind to defend, and a pouch with 10gp"
+    },
+    {
+      "id": "feature-ex-convict-5",
+      "title": "Feature: Ex-Convict",
+      "kind": "feature",
+      "text": "The knowledge gained during your incarceration lets you gain insight into local guards and jailors. You know which will accept bribes, or look the other way for you. You can also seek shelter for yourself from authorities with other criminals in the area."
+    },
+    {
+      "id": "stojanow-prisoner-personality-traits-7",
+      "title": "Stojanow Prisoner Personality Traits",
+      "kind": "personality",
+      "text": "I am a bully; others will suffer as I have.\nI always say yes even when I mean no; it’s just easier.\nI aim to misbehave.\nI go out of my way to frustrate or anger those in power.\nI strive to obey the law. I will never again make the mistake of going against authority.\nI always plan everything out. The one time I let others plan things it did not end well for me.\nI take blame to protect others from pain.\nI horde information, you never know what may come in handy."
+    },
+    {
+      "id": "stojanow-prisoner-ideal-9",
+      "title": "Stojanow Prisoner Ideal",
+      "kind": "personality",
+      "text": "Loss. I freely give those who offend me what was so brutally denied me, death. (Chaos)\nDedication. I never betray those who trust me. (Law)\nVengeance. I use any means to get information I need; I have been well taught. (Evil)\nRedemption. Everyone deserves a second chance. (Good)\nResilience. I can survive any challenge. (Any)\nLeadership. The best teams are made up of those that society has discarded."
+    },
+    {
+      "id": "stojanow-prisoner-bonds-11",
+      "title": "Stojanow Prisoner Bonds",
+      "kind": "personality",
+      "text": "I take up arms to help establish a free Phlan.\nThe horrors of my time in Stojanow haunt my dreams, only after a day of hard work can I find sleep.\nI am indebted to those who freed me from prison, I will repay this debt.\nMy torturer survived the attack that set me free, I will find them.\nI will not rest while others suffer fates similar to mine.\nI am searching for a way to heal the scars of Stojanow, both physical and emotional."
+    },
+    {
+      "id": "stojanow-prisoner-flaw-13",
+      "title": "Stojanow Prisoner Flaw",
+      "kind": "personality",
+      "text": "During stressful times, I find myself crying for no reason.\nMy nerve endings are shot from the interrogations; I am numb to all but the harshest touch.\nI am incapable of standing up for myself.\nI folded under the torture, and gave information that I promised would be kept secret. My life would be in jeopardy if others found out.\nSurvival is worth more than friendship.\nThe ghosts from my past hinder my actions."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Curse of Strahd: Optional Backgrounds"
+    },
+    {
+      "type": "p",
+      "text": "\"We need to leave, now!”"
+    },
+    {
+      "type": "p",
+      "text": "Those words still haunt your dreams at night. When everyone was fleeing Phlan, you chose to stay. Whether out of an emotional attachment, or pursuit of riches, you made the decision that would affect the rest of your life."
+    },
+    {
+      "type": "p",
+      "text": "Food became scarcer for those without connections. You became a beggar and to stay alive you bartered information to any interested party with food or gold to spare. You were good at what you did, and thought you were invincible. That changed when you were captured by the Tears of Virulence, the soldiers of Vorgansharax, the Maimed Virulence, for selling secrets to those bent on overthrowing the dragon. They locked you in the cells of Stojanow Gate. The first weeks you hoped to stay alive. As the weeks turned into months, and the interrogations continued, you began to pray for death."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Deception, Perception\nTool Proficiencies: One type of gaming set, thieves' tools\nEquipment: A small knife, a set of common clothesValue:5sp Weight:3lbs, a trinket from the life you stayed behind to defend, and a pouchValue:5sp Weight:1lb with 10gp"
+    },
+    {
+      "type": "h2",
+      "text": "Feature: Ex-Convict"
+    },
+    {
+      "type": "p",
+      "text": "The knowledge gained during your incarceration lets you gain insight into local guards and jailors. You know which will accept bribes, or look the other way for you. You can also seek shelter for yourself from authorities with other criminals in the area."
+    },
+    {
+      "type": "h3",
+      "text": "Stojanow Prisoner Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am a bully; others will suffer as I have."
+        ],
+        [
+          "2",
+          "I always say yes even when I mean no; it’s just easier."
+        ],
+        [
+          "3",
+          "I aim to misbehave."
+        ],
+        [
+          "4",
+          "I go out of my way to frustrate or anger those in power."
+        ],
+        [
+          "5",
+          "I strive to obey the law. I will never again make the mistake of going against authority."
+        ],
+        [
+          "6",
+          "I always plan everything out. The one time I let others plan things it did not end well for me."
+        ],
+        [
+          "7",
+          "I take blame to protect others from pain."
+        ],
+        [
+          "8",
+          "I horde information, you never know what may come in handy."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Stojanow Prisoner Ideal"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Loss. I freely give those who offend me what was so brutally denied me, death. (Chaos)"
+        ],
+        [
+          "2",
+          "Dedication. I never betray those who trust me. (Law)"
+        ],
+        [
+          "3",
+          "Vengeance. I use any means to get information I need; I have been well taught. (Evil)"
+        ],
+        [
+          "4",
+          "Redemption. Everyone deserves a second chance. (Good)"
+        ],
+        [
+          "5",
+          "Resilience. I can survive any challenge. (Any)"
+        ],
+        [
+          "6",
+          "Leadership. The best teams are made up of those that society has discarded."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Stojanow Prisoner Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I take up arms to help establish a free Phlan."
+        ],
+        [
+          "2",
+          "The horrors of my time in Stojanow haunt my dreams, only after a day of hard work can I find sleep."
+        ],
+        [
+          "3",
+          "I am indebted to those who freed me from prison, I will repay this debt."
+        ],
+        [
+          "4",
+          "My torturer survived the attack that set me free, I will find them."
+        ],
+        [
+          "5",
+          "I will not rest while others suffer fates similar to mine."
+        ],
+        [
+          "6",
+          "I am searching for a way to heal the scars of Stojanow, both physical and emotional."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Stojanow Prisoner Flaw"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "During stressful times, I find myself crying for no reason."
+        ],
+        [
+          "2",
+          "My nerve endings are shot from the interrogations; I am numb to all but the harshest touch."
+        ],
+        [
+          "3",
+          "I am incapable of standing up for myself."
+        ],
+        [
+          "4",
+          "I folded under the torture, and gave information that I promised would be kept secret. My life would be in jeopardy if others found out."
+        ],
+        [
+          "5",
+          "Survival is worth more than friendship."
+        ],
+        [
+          "6",
+          "The ghosts from my past hinder my actions."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "\"We need to leave, now!”",
+  "tags": [
+    "category:al-curse-of-strahd",
+    "has:choice",
+    "has:equipment",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

@@ -1,4 +1,9 @@
-import type { CharacterRecord } from '../model/character';
+import {
+  getOriginModeForRuleset,
+  getSourceScopeForRuleset,
+  type CharacterRecord,
+  type CharacterRuleset
+} from '../model/character';
 
 const cloneCharacter = (character: CharacterRecord): CharacterRecord => {
   return structuredClone(character);
@@ -98,9 +103,41 @@ export const invalidateForOriginModeChange = (
 
   next.origin.mode = nextMode;
   next.origin.raceId = null;
+  next.origin.subraceId = null;
   next.origin.speciesId = null;
-  next.origin.selectedLanguages = [];
-  next.origin.selectedToolProficiencies = [];
+  next.origin.selectedRaceLanguages = [];
+  next.origin.selectedRaceToolProficiencies = [];
+  next.origin.selectedRaceSkills = [];
+  next.origin.selectedBackgroundSkills = [];
+  next.origin.backgroundBonusAssignments = {};
+  next.origin.legacyRaceBonusAssignments = {};
+
+  next.spells.grantedSpells = [];
+  return next;
+};
+
+export const invalidateForRulesetChange = (
+  character: CharacterRecord,
+  nextRuleset: CharacterRuleset
+): CharacterRecord => {
+  const next = cloneCharacter(character);
+  if (next.ruleset === nextRuleset) {
+    return next;
+  }
+
+  next.ruleset = nextRuleset;
+  next.meta.sourceScope = getSourceScopeForRuleset(nextRuleset);
+  next.origin.mode = getOriginModeForRuleset(nextRuleset);
+  next.origin.raceId = null;
+  next.origin.subraceId = null;
+  next.origin.speciesId = null;
+  next.origin.backgroundId = null;
+  next.origin.selectedRaceLanguages = [];
+  next.origin.selectedBackgroundLanguages = [];
+  next.origin.selectedRaceToolProficiencies = [];
+  next.origin.selectedBackgroundToolProficiencies = [];
+  next.origin.selectedRaceSkills = [];
+  next.origin.selectedBackgroundSkills = [];
   next.origin.backgroundBonusAssignments = {};
   next.origin.legacyRaceBonusAssignments = {};
 
@@ -114,9 +151,28 @@ export const invalidateForRaceChange = (character: CharacterRecord, raceId: stri
     return next;
   }
   next.origin.raceId = raceId;
+  next.origin.subraceId = null;
   next.origin.speciesId = raceId;
-  next.origin.selectedLanguages = [];
-  next.origin.selectedToolProficiencies = [];
+  next.origin.selectedRaceLanguages = [];
+  next.origin.selectedRaceToolProficiencies = [];
+  next.origin.selectedRaceSkills = [];
+  next.origin.legacyRaceBonusAssignments = {};
+  next.spells.grantedSpells = [];
+  return next;
+};
+
+export const invalidateForSubraceChange = (
+  character: CharacterRecord,
+  subraceId: string | null
+): CharacterRecord => {
+  const next = cloneCharacter(character);
+  if (next.origin.subraceId === subraceId) {
+    return next;
+  }
+  next.origin.subraceId = subraceId;
+  next.origin.selectedRaceLanguages = [];
+  next.origin.selectedRaceToolProficiencies = [];
+  next.origin.selectedRaceSkills = [];
   next.origin.legacyRaceBonusAssignments = {};
   next.spells.grantedSpells = [];
   return next;
@@ -131,11 +187,11 @@ export const invalidateForBackgroundChange = (
     return next;
   }
   next.origin.backgroundId = backgroundId;
-  next.origin.selectedLanguages = [];
-  next.origin.selectedToolProficiencies = [];
+  next.origin.selectedBackgroundLanguages = [];
+  next.origin.selectedBackgroundToolProficiencies = [];
+  next.origin.selectedBackgroundSkills = [];
   if (next.origin.mode === 'SRD_5_2_BACKGROUND') {
     next.origin.backgroundBonusAssignments = {};
   }
   return next;
 };
-

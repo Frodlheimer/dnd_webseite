@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { RuleReferenceButton } from '../RuleReferenceButton';
 
 type SpellRow = {
   slug: string;
@@ -11,6 +12,7 @@ export const SpellPickerTable = (props: {
   title: string;
   spells: SpellRow[];
   selectedSlugs: string[];
+  onOpenSpellReference: (slug: string) => void;
   onToggleSpell: (slug: string) => void;
   maxSelected: number | null;
 }) => {
@@ -47,6 +49,7 @@ export const SpellPickerTable = (props: {
               <th className="px-2 py-1">Name</th>
               <th className="px-2 py-1">Lvl</th>
               <th className="px-2 py-1">Source</th>
+              <th className="px-2 py-1 text-center">Info</th>
             </tr>
           </thead>
           <tbody>
@@ -66,6 +69,12 @@ export const SpellPickerTable = (props: {
                   <td className="px-2 py-1.5">{spell.name}</td>
                   <td className="px-2 py-1.5">{spell.level === 0 ? 'C' : spell.level}</td>
                   <td className="px-2 py-1.5 text-slate-400">{spell.source}</td>
+                  <td className="px-2 py-1.5 text-center">
+                    <RuleReferenceButton
+                      label={`Open spell reference for ${spell.name}`}
+                      onClick={() => props.onOpenSpellReference(spell.slug)}
+                    />
+                  </td>
                 </tr>
               );
             })}
@@ -75,4 +84,3 @@ export const SpellPickerTable = (props: {
     </section>
   );
 };
-

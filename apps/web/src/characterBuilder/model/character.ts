@@ -5,8 +5,46 @@ export type Ability = (typeof ABILITIES)[number];
 export type CharacterId = string;
 
 export type CharacterOriginMode = 'SRD_5_2_BACKGROUND' | 'LEGACY_RACE';
+export type CharacterRuleset = 'DND5E_2014' | 'DND55_2024';
 
 export type CharacterBuildStatus = 'draft' | 'in_progress' | 'ready' | 'invalid';
+
+export const DEFAULT_CHARACTER_RULESET: CharacterRuleset = 'DND5E_2014';
+
+export const CHARACTER_RULESET_LABELS: Record<CharacterRuleset, string> = {
+  DND5E_2014: 'DnD5e (SRD 5.1)',
+  DND55_2024: 'DnD5.5 (SRD 5.2)'
+};
+
+export const getCharacterRulesetFromOriginMode = (
+  mode: CharacterOriginMode | null | undefined
+): CharacterRuleset => {
+  return mode === 'SRD_5_2_BACKGROUND' ? 'DND55_2024' : 'DND5E_2014';
+};
+
+export const getOriginModeForRuleset = (ruleset: CharacterRuleset): CharacterOriginMode => {
+  return ruleset === 'DND55_2024' ? 'SRD_5_2_BACKGROUND' : 'LEGACY_RACE';
+};
+
+export const getSourceScopeForRuleset = (
+  ruleset: CharacterRuleset
+): 'srd51' | 'srd52' | 'mixed' => {
+  return ruleset === 'DND55_2024' ? 'srd52' : 'srd51';
+};
+
+export const normalizeCharacterRuleset = (
+  value: unknown,
+  fallbackMode?: CharacterOriginMode | null
+): CharacterRuleset => {
+  if (value === 'DND5E_2014' || value === 'DND55_2024') {
+    return value;
+  }
+  return getCharacterRulesetFromOriginMode(fallbackMode);
+};
+
+export const isImplementedCharacterRuleset = (ruleset: CharacterRuleset): boolean => {
+  return ruleset === 'DND5E_2014';
+};
 
 export type ValidationIssue = {
   id: string;
@@ -32,6 +70,7 @@ export type CharacterRecord = {
   createdAt: number;
   updatedAt: number;
   status: CharacterBuildStatus;
+  ruleset: CharacterRuleset;
   meta: {
     name: string;
     playerName?: string;
@@ -47,10 +86,15 @@ export type CharacterRecord = {
   origin: {
     mode: CharacterOriginMode;
     raceId: string | null;
+    subraceId: string | null;
     speciesId: string | null;
     backgroundId: string | null;
-    selectedLanguages: string[];
-    selectedToolProficiencies: string[];
+    selectedRaceLanguages: string[];
+    selectedBackgroundLanguages: string[];
+    selectedRaceToolProficiencies: string[];
+    selectedBackgroundToolProficiencies: string[];
+    selectedRaceSkills: string[];
+    selectedBackgroundSkills: string[];
     selectedBackgroundAbilityTriplet?: Ability[];
     backgroundBonusPattern?: 'plus2_plus1' | 'plus1_plus1_plus1';
     backgroundBonusAssignments?: Partial<Record<Ability, number>>;
@@ -124,6 +168,21 @@ export type CharacterRecord = {
     passivePerception: number;
     initiative: number;
     speed?: number | null;
+    senses: {
+      darkvision: number | null;
+      blindsight: number | null;
+      tremorsense: number | null;
+      truesight: number | null;
+    };
+    defenses: {
+      resistances: string[];
+      immunities: string[];
+      conditionImmunities: string[];
+      savingThrowAdvantages: string[];
+    };
+    raceTraitNames: string[];
+    backgroundFeatureName?: string | null;
+    backgroundFeatureText?: string | null;
     hitPointsMax?: number | null;
     armorClass?: number | null;
     spellSaveDc?: number | null;
@@ -203,16 +262,19 @@ export const createCharacterId = (): CharacterId => {
   return `character-${Date.now()}-${Math.random().toString(16).slice(2, 10)}`;
 };
 
-export const createEmptyCharacter = (): CharacterRecord => {
+export const createEmptyCharacter = (
+  ruleset: CharacterRuleset = DEFAULT_CHARACTER_RULESET
+): CharacterRecord => {
   const now = Date.now();
   return {
     id: createCharacterId(),
     createdAt: now,
     updatedAt: now,
     status: 'draft',
+    ruleset,
     meta: {
       name: 'New Character',
-      sourceScope: 'mixed'
+      sourceScope: getSourceScopeForRuleset(ruleset)
     },
     progression: {
       level: 1,
@@ -221,18 +283,20 @@ export const createEmptyCharacter = (): CharacterRecord => {
       multiclass: null
     },
     origin: {
-      mode: 'SRD_5_2_BACKGROUND',
+      mode: getOriginModeForRuleset(ruleset),
       raceId: null,
+      subraceId: null,
       speciesId: null,
       backgroundId: null,
-      selectedLanguages: [],
-      selectedToolProficiencies: [],
+      selectedRaceLanguages: [],
+      selectedBackgroundLanguages: [],
+      selectedRaceToolProficiencies: [],
+      selectedBackgroundToolProficiencies: [],
+      selectedRaceSkills: [],
+      selectedBackgroundSkills: [],
       selectedBackgroundAbilityTriplet: ['str', 'dex', 'con'],
       backgroundBonusPattern: 'plus2_plus1',
-      backgroundBonusAssignments: {
-        str: 2,
-        dex: 1
-      },
+      backgroundBonusAssignments: {},
       legacyRaceBonusAssignments: {}
     },
     abilities: {
@@ -292,6 +356,21 @@ export const createEmptyCharacter = (): CharacterRecord => {
       passivePerception: 9,
       initiative: -1,
       speed: null,
+      senses: {
+        darkvision: null,
+        blindsight: null,
+        tremorsense: null,
+        truesight: null
+      },
+      defenses: {
+        resistances: [],
+        immunities: [],
+        conditionImmunities: [],
+        savingThrowAdvantages: []
+      },
+      raceTraitNames: [],
+      backgroundFeatureName: null,
+      backgroundFeatureText: null,
       hitPointsMax: null,
       armorClass: null,
       spellSaveDc: null,
@@ -308,4 +387,3 @@ export const createEmptyCharacter = (): CharacterRecord => {
     exportState: {}
   };
 };
-

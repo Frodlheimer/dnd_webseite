@@ -6,30 +6,63 @@ import {
   invalidateForBackgroundChange,
   invalidateForClassChange,
   invalidateForLevelChange,
-  invalidateForOriginModeChange,
   invalidateForRaceChange,
+  invalidateForRulesetChange,
+  invalidateForSubraceChange,
   invalidateForSubclassChange
 } from '../engine/choiceResolution';
-import type { CharacterRecord, PendingDecision } from '../model/character';
-import { BUILDER_SECTION_LABELS, type BuilderSectionId } from '../model/decisions';
+import {
+  isImplementedCharacterRuleset,
+  type CharacterRecord,
+  type PendingDecision
+} from '../model/character';
+import { BUILDER_SECTION_LABELS, builderSectionOrder, type BuilderSectionId } from '../model/decisions';
+import { getRulesetContentPolicy } from '../rules/rulesetContentPolicy';
 import { type BuilderBackground, type BuilderClassSummary, type BuilderRaceSummary, rulesFacade } from '../rules/rulesFacade';
+import {
+  getDefaultCharacterRuleset,
+  setDefaultCharacterRuleset
+} from '../settings/rulesetPreferences';
 import { characterRepository } from '../storage/characterRepository';
+import { calculatePointBuy } from '../pointBuy/rules';
 import { BuilderSidebar, type BuilderSidebarItem } from './BuilderSidebar';
+import {
+  BuilderRuleReferenceModal,
+  type BuilderRuleReference
+} from './BuilderRuleReferenceModal';
 import { DecisionPanel } from './DecisionPanel';
 import { SectionCard } from './SectionCard';
 import { AbilityScoresStep } from './steps/AbilityScoresStep';
 import { AsiFeatsStep } from './steps/AsiFeatsStep';
+import { BackgroundStep } from './steps/BackgroundStep';
 import { BasicsStep } from './steps/BasicsStep';
 import { EquipmentStep } from './steps/EquipmentStep';
 import { FeaturesStep } from './steps/FeaturesStep';
-import { OriginStep } from './steps/OriginStep';
 import { ProficienciesStep } from './steps/ProficienciesStep';
+import { RaceStep } from './steps/RaceStep';
+import { RulesetStep } from './steps/RulesetStep';
 import { SpellsStep } from './steps/SpellsStep';
 
 const defaultRuntime: DerivedCharacterRuntime = {
   classSkillChoice: {
     choose: 0,
     options: []
+  },
+  origin: {
+    availableSubraces: [],
+    raceLanguageChoices: 0,
+    raceLanguageOptions: [],
+    raceToolChoices: 0,
+    raceToolOptions: [],
+    raceSkillChoices: 0,
+    raceSkillOptions: [],
+    raceAbilityBonusChoice: null,
+    backgroundLanguageChoices: 0,
+    backgroundLanguageOptions: [],
+    backgroundToolChoices: 0,
+    backgroundToolOptions: [],
+    backgroundSkillChoices: 0,
+    backgroundSkillOptions: []
   },
   featureChoices: [],
   equipmentChoices: [],
@@ -49,25 +82,21 @@ const defaultRuntime: DerivedCharacterRuntime = {
   asiLevels: []
 };
 
-const sectionOrder: BuilderSectionId[] = [
-  'basics',
-  'origin',
-  'ability_scores',
-  'proficiencies',
-  'features',
-  'spells',
-  'equipment',
-  'asi_feats',
-  'review'
-];
+const sectionOrder: BuilderSectionId[] = builderSectionOrder;
 
 const sectionFromDecision = (decision: PendingDecision): BuilderSectionId | null => {
   const normalized = decision.section.toLowerCase();
+  if (normalized.includes('rule set') || normalized.includes('ruleset')) {
+    return 'ruleset';
+  }
   if (normalized.includes('basic')) {
     return 'basics';
   }
-  if (normalized.includes('origin')) {
-    return 'origin';
+  if (normalized.includes('race')) {
+    return 'race';
+  }
+  if (normalized.includes('background')) {
+    return 'background';
   }
   if (normalized.includes('ability')) {
     return 'ability_scores';
@@ -85,18 +114,24 @@ const sectionFromDecision = (decision: PendingDecision): BuilderSectionId | null
     return 'equipment';
   }
   if (normalized.includes('asi') || normalized.includes('feat')) {
-    return 'asi_feats';
+    return 'ability_scores';
   }
   return null;
 };
 
 const sectionFromValidation = (section: string): BuilderSectionId | null => {
   const normalized = section.toLowerCase();
+  if (normalized.includes('rule set') || normalized.includes('ruleset')) {
+    return 'ruleset';
+  }
   if (normalized.includes('basic')) {
     return 'basics';
   }
-  if (normalized.includes('origin')) {
-    return 'origin';
+  if (normalized.includes('race')) {
+    return 'race';
+  }
+  if (normalized.includes('background') || normalized.includes('origin')) {
+    return 'background';
   }
   if (normalized.includes('ability')) {
     return 'ability_scores';
@@ -114,12 +149,154 @@ const sectionFromValidation = (section: string): BuilderSectionId | null => {
     return 'equipment';
   }
   if (normalized.includes('feat') || normalized.includes('asi')) {
-    return 'asi_feats';
+    return 'ability_scores';
   }
   return null;
 };
 
 const cloneCharacter = (character: CharacterRecord): CharacterRecord => structuredClone(character);
+
+const toPointBuyBaseScores = (character: CharacterRecord) => ({
+  STR: character.abilities.pointBuyBase.str,
+  DEX: character.abilities.pointBuyBase.dex,
+  CON: character.abilities.pointBuyBase.con,
+  INT: character.abilities.pointBuyBase.int,
+  WIS: character.abilities.pointBuyBase.wis,
+  CHA: character.abilities.pointBuyBase.cha
+});
+
+const countRaceNeedsChoices = (
+  character: CharacterRecord,
+  originRuntime: DerivedCharacterRuntime['origin']
+): number => {
+  let count = 0;
+  if (!character.origin.raceId && !character.origin.speciesId) {
+    count += 1;
+  }
+  if (character.origin.raceId && originRuntime.availableSubraces.length > 0 && !character.origin.subraceId) {
+    count += 1;
+  }
+  if (originRuntime.raceLanguageChoices > character.origin.selectedRaceLanguages.length) {
+    count += 1;
+  }
+  if (originRuntime.raceToolChoices > character.origin.selectedRaceToolProficiencies.length) {
+    count += 1;
+  }
+  if (originRuntime.raceSkillChoices > character.origin.selectedRaceSkills.length) {
+    count += 1;
+  }
+  return count;
+};
+
+const countBackgroundNeedsChoices = (
+  character: CharacterRecord,
+  originRuntime: DerivedCharacterRuntime['origin']
+): number => {
+  let count = 0;
+  if (!character.origin.backgroundId) {
+    count += 1;
+  }
+  if (originRuntime.backgroundLanguageChoices > character.origin.selectedBackgroundLanguages.length) {
+    count += 1;
+  }
+  if (originRuntime.backgroundToolChoices > character.origin.selectedBackgroundToolProficiencies.length) {
+    count += 1;
+  }
+  if (originRuntime.backgroundSkillChoices > character.origin.selectedBackgroundSkills.length) {
+    count += 1;
+  }
+  return count;
+};
+
+const countAbilityScoreNeedsChoices = (
+  character: CharacterRecord,
+  originRuntime: DerivedCharacterRuntime['origin'],
+  asiLevels: number[]
+): number => {
+  let count = 0;
+  const pointBuy = calculatePointBuy(toPointBuyBaseScores(character));
+  if (pointBuy.remaining > 0) {
+    count += 1;
+  }
+
+  const selectedRaceAbilityChoicesCount = originRuntime.raceAbilityBonusChoice
+    ? originRuntime.raceAbilityBonusChoice.from.filter(
+        (ability) => (character.origin.legacyRaceBonusAssignments?.[ability] ?? 0) > 0
+      ).length
+    : 0;
+
+  if (
+    originRuntime.raceAbilityBonusChoice &&
+    selectedRaceAbilityChoicesCount < originRuntime.raceAbilityBonusChoice.choose
+  ) {
+    count += 1;
+  }
+
+  asiLevels
+    .filter((level) => level <= character.progression.level)
+    .forEach((level) => {
+      const entry = character.featsAndAsi.opportunities.find((opportunity) => opportunity.level === level);
+      if (!entry) {
+        count += 1;
+        return;
+      }
+
+      if (entry.choice.kind === 'ASI') {
+        const assignedTotal = Object.values(entry.choice.increases).reduce((sum, value) => sum + (value ?? 0), 0);
+        if (assignedTotal < 2) {
+          count += 1;
+        }
+        return;
+      }
+
+      if (!entry.choice.featId) {
+        count += 1;
+        return;
+      }
+
+      const featMeta = rulesFacade.getFeatById(entry.choice.featId);
+      const requiredBonusCount =
+        featMeta?.quickFacts.abilityIncrease.mode === 'CHOICE'
+          ? featMeta.quickFacts.abilityIncrease.amount
+          : 0;
+      if (requiredBonusCount > 0) {
+        const assignedTotal = Object.values(entry.choice.bonusAssignments ?? {}).reduce(
+          (sum, value) => sum + (value ?? 0),
+          0
+        );
+        if (assignedTotal < requiredBonusCount) {
+          count += 1;
+        }
+      }
+    });
+
+  return count;
+};
+
+const countSpellNeedsChoices = (
+  character: CharacterRecord,
+  spellLimits: DerivedCharacterRuntime['spellLimits']
+): number => {
+  let count = 0;
+  if (spellLimits.cantripsKnown && character.spells.selectedCantrips.length < spellLimits.cantripsKnown) {
+    count += 1;
+  }
+  if (
+    spellLimits.isKnownSpellsCaster &&
+    spellLimits.spellsKnown &&
+    character.spells.selectedKnownSpells.length < spellLimits.spellsKnown
+  ) {
+    count += 1;
+  }
+  if (
+    spellLimits.isPreparedCaster &&
+    spellLimits.preparedMax &&
+    character.spells.preparedSpells.length < spellLimits.preparedMax
+  ) {
+    count += 1;
+  }
+  return count;
+};
 
 export const CharacterBuilderShell = (props: {
   characterId: string;
@@ -131,10 +308,16 @@ export const CharacterBuilderShell = (props: {
   const [editableCharacter, setEditableCharacter] = useState<CharacterRecord | null>(null);
   const [derivedCharacter, setDerivedCharacter] = useState<CharacterRecord | null>(null);
   const [runtime, setRuntime] = useState<DerivedCharacterRuntime>(defaultRuntime);
-  const [activeSection, setActiveSection] = useState<BuilderSectionId>(props.initialSection ?? 'basics');
-  const [classes, setClasses] = useState<BuilderClassSummary[]>(() => rulesFacade.listPlayableClasses());
+  const [activeSection, setActiveSection] = useState<BuilderSectionId>(props.initialSection ?? 'ruleset');
+  const [referenceModal, setReferenceModal] = useState<BuilderRuleReference | null>(null);
+  const [defaultRuleset, setDefaultRulesetState] = useState(() => getDefaultCharacterRuleset());
+  const [classes, setClasses] = useState<BuilderClassSummary[]>([]);
   const [races, setRaces] = useState<BuilderRaceSummary[]>([]);
-  const [backgrounds, setBackgrounds] = useState<BuilderBackground[]>(() => rulesFacade.listBackgrounds());
+  const [backgrounds, setBackgrounds] = useState<BuilderBackground[]>([]);
+  const contentPolicy = useMemo(
+    () => getRulesetContentPolicy(editableCharacter?.ruleset ?? defaultRuleset),
+    [defaultRuleset, editableCharacter?.ruleset]
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -202,6 +385,10 @@ export const CharacterBuilderShell = (props: {
     if (!editableCharacter) {
       return;
     }
+    if (!isImplementedCharacterRuleset(editableCharacter.ruleset)) {
+      setRaces([]);
+      return;
+    }
     let cancelled = false;
     void rulesFacade
       .listRacesOrSpecies(editableCharacter.origin.mode)
@@ -218,12 +405,17 @@ export const CharacterBuilderShell = (props: {
     return () => {
       cancelled = true;
     };
-  }, [editableCharacter?.origin.mode]);
+  }, [editableCharacter?.origin.mode, editableCharacter?.ruleset]);
 
   useEffect(() => {
+    if (!editableCharacter || !isImplementedCharacterRuleset(editableCharacter.ruleset)) {
+      setClasses([]);
+      setBackgrounds([]);
+      return;
+    }
     setClasses(rulesFacade.listPlayableClasses());
-    setBackgrounds(rulesFacade.listBackgrounds());
-  }, []);
+    setBackgrounds(rulesFacade.listBackgrounds().filter(contentPolicy.isBackgroundAllowed));
+  }, [contentPolicy, editableCharacter?.ruleset]);
 
   const updateEditable = (updater: (current: CharacterRecord) => CharacterRecord) => {
     setEditableCharacter((current) => {
@@ -257,6 +449,10 @@ export const CharacterBuilderShell = (props: {
     );
   }, [editableCharacter?.progression.classId, editableCharacter?.progression.level]);
 
+  const rulesetImplemented = editableCharacter
+    ? isImplementedCharacterRuleset(editableCharacter.ruleset)
+    : false;
+
   const sidebarItems = useMemo<BuilderSidebarItem[]>(() => {
     const current = derivedCharacter ?? editableCharacter;
     if (!current) {
@@ -285,8 +481,27 @@ export const CharacterBuilderShell = (props: {
     return sectionOrder.map((section) => {
       const pending = pendingBySection.get(section) ?? 0;
       const warnings = warningsBySection.get(section) ?? 0;
+      const explicitNeedsChoices =
+        section === 'race'
+          ? countRaceNeedsChoices(current, runtime.origin)
+          : section === 'background'
+            ? countBackgroundNeedsChoices(current, runtime.origin)
+            : section === 'ability_scores'
+              ? countAbilityScoreNeedsChoices(current, runtime.origin, runtime.asiLevels)
+              : section === 'spells'
+                ? countSpellNeedsChoices(current, runtime.spellLimits)
+                : 0;
+      const unresolved = Math.max(pending, explicitNeedsChoices);
+      const lockForRulesetDependent = !isImplementedCharacterRuleset(current.ruleset) && section !== 'ruleset';
+      if (lockForRulesetDependent) {
+        return {
+          id: section,
+          status: 'locked',
+          pendingCount: 0
+        };
+      }
       const lockForClassDependent =
-        !hasClass && ['proficiencies', 'features', 'spells', 'equipment', 'asi_feats', 'review'].includes(section);
+        !hasClass && ['proficiencies', 'features', 'spells', 'equipment', 'review'].includes(section);
       if (lockForClassDependent) {
         return {
           id: section,
@@ -298,14 +513,14 @@ export const CharacterBuilderShell = (props: {
         return {
           id: section,
           status: 'warning',
-          pendingCount: pending
+          pendingCount: unresolved
         };
       }
-      if (pending > 0) {
+      if (unresolved > 0) {
         return {
           id: section,
           status: 'needs_choices',
-          pendingCount: pending
+          pendingCount: unresolved
         };
       }
       return {
@@ -314,7 +529,7 @@ export const CharacterBuilderShell = (props: {
         pendingCount: 0
       };
     });
-  }, [derivedCharacter, editableCharacter]);
+  }, [derivedCharacter, editableCharacter, runtime]);
 
   const pendingForSection = useMemo(() => {
     const current = derivedCharacter ?? editableCharacter;
@@ -342,6 +557,9 @@ export const CharacterBuilderShell = (props: {
 
   const unresolvedCount = derivedCharacter.validation.pendingDecisions.length;
   const hasBlockingErrors = derivedCharacter.validation.errors.length > 0;
+  const activeSectionIndex = sectionOrder.indexOf(activeSection);
+  const nextSection = activeSectionIndex >= 0 ? sectionOrder[activeSectionIndex + 1] ?? null : null;
+  const showRulesetPlaceholder = !rulesetImplemented && activeSection !== 'ruleset';
 
   return (
     <div className="space-y-4">
@@ -377,7 +595,56 @@ export const CharacterBuilderShell = (props: {
         <div className="space-y-4">
           <DecisionPanel decisions={pendingForSection} title={`${BUILDER_SECTION_LABELS[activeSection]} pending`} />
 
-          {activeSection === 'basics' ? (
+          {activeSection === 'ruleset' ? (
+            <SectionCard
+              title="Rule Set"
+              description="Choose the ruleset for this character and optionally make it the default for future characters."
+              explainerTitle="Why this step matters"
+              explainerBody="The selected ruleset defines which builder data pack and downstream rule assumptions apply."
+            >
+              <RulesetStep
+                character={editableCharacter}
+                defaultRuleset={defaultRuleset}
+                contentPolicy={contentPolicy}
+                availableCounts={{
+                  classes: classes.length,
+                  races: races.length,
+                  backgrounds: backgrounds.length
+                }}
+                onRulesetChange={(ruleset) =>
+                  updateEditable((current) => invalidateForRulesetChange(current, ruleset))
+                }
+                onDefaultRulesetChange={(ruleset) => {
+                  setDefaultCharacterRuleset(ruleset);
+                  setDefaultRulesetState(ruleset);
+                }}
+              />
+            </SectionCard>
+          ) : null}
+
+          {showRulesetPlaceholder ? (
+            <SectionCard
+              title={BUILDER_SECTION_LABELS[activeSection]}
+              description="DnD5.5 (SRD 5.2) is reserved for a future guided builder update."
+              explainerTitle="Current status"
+              explainerBody="The guided Character Builder currently supports the DnD5e (SRD 5.1) flow. Switch back in Rule Set to continue."
+            >
+              <div className="space-y-3">
+                <p className="text-sm text-slate-300">
+                  This section is intentionally held as a placeholder until the DnD5.5 rules pack is implemented.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setActiveSection('ruleset')}
+                  className="inline-flex rounded-lg bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-sky-400"
+                >
+                  Back to Rule Set
+                </button>
+              </div>
+            </SectionCard>
+          ) : null}
+
+          {!showRulesetPlaceholder && activeSection === 'basics' ? (
             <SectionCard
               title="Basics"
               description="Set your character identity, level, class, and subclass."
@@ -389,6 +656,10 @@ export const CharacterBuilderShell = (props: {
                 classes={classes}
                 subclasses={subclasses}
                 subclassRequired={runtime.subclassRequired}
+                onOpenClassReference={(classId) => setReferenceModal({ kind: 'class', id: classId })}
+                onOpenSubclassReference={(subclassId) =>
+                  setReferenceModal({ kind: 'subclass', id: subclassId })
+                }
                 onNameChange={(value) =>
                   updateEditable((current) => ({
                     ...current,
@@ -416,36 +687,100 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'origin' ? (
+          {!showRulesetPlaceholder && activeSection === 'race' ? (
             <SectionCard
-              title="Origin"
-              description="Choose origin mode, race/species, and background."
-              explainerBody="Background and race/species choices feed proficiencies, speed, languages, and ability bonuses."
+              title="Choose Race"
+              description="Choose race, subrace, and race-granted selections."
+              explainerBody="Race choices drive size, speed, senses, languages, traits, and some ability score bonuses."
             >
-              <OriginStep
+              <RaceStep
                 character={editableCharacter}
                 races={races}
-                backgrounds={backgrounds}
-                onModeChange={(mode) => updateEditable((current) => invalidateForOriginModeChange(current, mode))}
+                originRuntime={runtime.origin}
+                onOpenRaceReference={(race) =>
+                  setReferenceModal({
+                    kind: race.sourceType === 'lineage' ? 'lineage' : 'race',
+                    id: race.id
+                  })
+                }
+                onOpenSubraceReference={(subraceId) =>
+                  setReferenceModal({ kind: 'race', id: subraceId })
+                }
                 onRaceChange={(raceId) => updateEditable((current) => invalidateForRaceChange(current, raceId))}
+                onSubraceChange={(subraceId) =>
+                  updateEditable((current) => invalidateForSubraceChange(current, subraceId))
+                }
+                onRaceLanguagesChange={(values) =>
+                  updateEditable((current) => ({
+                    ...current,
+                    origin: {
+                      ...current.origin,
+                      selectedRaceLanguages: values
+                    }
+                  }))
+                }
+                onRaceToolsChange={(values) =>
+                  updateEditable((current) => ({
+                    ...current,
+                    origin: {
+                      ...current.origin,
+                      selectedRaceToolProficiencies: values
+                    }
+                  }))
+                }
+                onRaceSkillsChange={(values) =>
+                  updateEditable((current) => ({
+                    ...current,
+                    origin: {
+                      ...current.origin,
+                      selectedRaceSkills: values
+                    }
+                  }))
+                }
+              />
+            </SectionCard>
+          ) : null}
+
+          {!showRulesetPlaceholder && activeSection === 'background' ? (
+            <SectionCard
+              title="Choose Background"
+              description="Choose background and resolve its granted choice lists."
+              explainerBody="Backgrounds feed proficiencies, languages, equipment, and feature text into the character."
+            >
+              <BackgroundStep
+                character={editableCharacter}
+                backgrounds={backgrounds}
+                originRuntime={runtime.origin}
+                onOpenBackgroundReference={(backgroundId) =>
+                  setReferenceModal({ kind: 'background', id: backgroundId })
+                }
                 onBackgroundChange={(backgroundId) =>
                   updateEditable((current) => invalidateForBackgroundChange(current, backgroundId))
                 }
-                onLanguagesChange={(values) =>
+                onBackgroundLanguagesChange={(values) =>
                   updateEditable((current) => ({
                     ...current,
                     origin: {
                       ...current.origin,
-                      selectedLanguages: values
+                      selectedBackgroundLanguages: values
                     }
                   }))
                 }
-                onToolsChange={(values) =>
+                onBackgroundToolsChange={(values) =>
                   updateEditable((current) => ({
                     ...current,
                     origin: {
                       ...current.origin,
-                      selectedToolProficiencies: values
+                      selectedBackgroundToolProficiencies: values
+                    }
+                  }))
+                }
+                onBackgroundSkillsChange={(values) =>
+                  updateEditable((current) => ({
+                    ...current,
+                    origin: {
+                      ...current.origin,
+                      selectedBackgroundSkills: values
                     }
                   }))
                 }
@@ -453,51 +788,83 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'ability_scores' ? (
-            <SectionCard title="Ability Scores" description="Point buy + origin bonuses + ASI/feat effects.">
-              <AbilityScoresStep
-                character={derivedCharacter}
-                onBaseScoreChange={(ability, next) =>
-                  updateEditable((current) => ({
-                    ...current,
-                    abilities: {
-                      ...current.abilities,
-                      pointBuyBase: {
-                        ...current.abilities.pointBuyBase,
-                        [ability]: next
+          {!showRulesetPlaceholder && activeSection === 'ability_scores' ? (
+            <SectionCard title="Ability Scores" description="Point buy, origin bonuses, and ASI / feat planning in one step.">
+              <div className="space-y-4">
+                <AbilityScoresStep
+                  character={derivedCharacter}
+                  originRuntime={runtime.origin}
+                  asiLevels={runtime.asiLevels}
+                  onBaseScoreChange={(ability, next) =>
+                    updateEditable((current) => ({
+                      ...current,
+                      abilities: {
+                        ...current.abilities,
+                        pointBuyBase: {
+                          ...current.abilities.pointBuyBase,
+                          [ability]: next
+                        }
                       }
-                    }
-                  }))
-                }
-                onBackgroundAssignmentChange={(ability, value) =>
-                  updateEditable((current) => ({
-                    ...current,
-                    origin: {
-                      ...current.origin,
-                      backgroundBonusAssignments: {
-                        ...(current.origin.backgroundBonusAssignments ?? {}),
-                        [ability]: value
+                    }))
+                  }
+                  onBackgroundAssignmentChange={(ability, value) =>
+                    updateEditable((current) => ({
+                      ...current,
+                      origin: {
+                        ...current.origin,
+                        backgroundBonusAssignments: {
+                          ...(current.origin.backgroundBonusAssignments ?? {}),
+                          [ability]: value
+                        }
                       }
-                    }
-                  }))
-                }
-                onLegacyAssignmentChange={(ability, value) =>
-                  updateEditable((current) => ({
-                    ...current,
-                    origin: {
-                      ...current.origin,
-                      legacyRaceBonusAssignments: {
-                        ...(current.origin.legacyRaceBonusAssignments ?? {}),
-                        [ability]: value
+                    }))
+                  }
+                  onRaceAssignmentChange={(ability, value) =>
+                    updateEditable((current) => ({
+                      ...current,
+                      origin: {
+                        ...current.origin,
+                        legacyRaceBonusAssignments: {
+                          ...(current.origin.legacyRaceBonusAssignments ?? {}),
+                          [ability]: value
+                        }
                       }
+                    }))
+                  }
+                />
+
+                <section className="rounded-xl border border-slate-800 bg-slate-950/40 p-4">
+                  <div className="mb-3">
+                    <h3 className="text-lg font-semibold text-slate-100">ASI / Feats</h3>
+                    <p className="mt-1 text-sm text-slate-400">
+                      When your class grants an Ability Score Improvement, choose ASI to raise abilities directly or
+                      choose a feat instead. These choices unlock only at the class levels that grant them.
+                    </p>
+                  </div>
+                  <AsiFeatsStep
+                    character={editableCharacter}
+                    asiLevels={runtime.asiLevels}
+                    feats={rulesFacade.listFeats()}
+                    onOpenFeatReference={(featId) => setReferenceModal({ kind: 'feat', id: featId })}
+                    onSetAsiChoice={({ level, choice }) =>
+                      updateEditable((current) => {
+                        const others = current.featsAndAsi.opportunities.filter((entry) => entry.level !== level);
+                        return {
+                          ...current,
+                          featsAndAsi: {
+                            ...current.featsAndAsi,
+                            opportunities: [...others, { level, choice }].sort((a, b) => a.level - b.level)
+                          }
+                        };
+                      })
                     }
-                  }))
-                }
-              />
+                  />
+                </section>
+              </div>
             </SectionCard>
           ) : null}
 
-          {activeSection === 'proficiencies' ? (
+          {!showRulesetPlaceholder && activeSection === 'proficiencies' ? (
             <SectionCard title="Proficiencies" description="Resolve class skill picks and verify proficiencies.">
               <ProficienciesStep
                 character={derivedCharacter}
@@ -515,7 +882,7 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'features' ? (
+          {!showRulesetPlaceholder && activeSection === 'features' ? (
             <SectionCard title="Features" description="Resolve dynamic feature choices from class and subclass data.">
               <FeaturesStep
                 character={editableCharacter}
@@ -536,11 +903,12 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'spells' ? (
+          {!showRulesetPlaceholder && activeSection === 'spells' ? (
             <SectionCard title="Spells" description="Select cantrips, known spells, and prepared spells with live counters.">
               <SpellsStep
                 character={editableCharacter}
                 runtime={runtime}
+                onOpenSpellReference={(slug) => setReferenceModal({ kind: 'spell', id: slug })}
                 onCantripsChange={(next) =>
                   updateEditable((current) => ({
                     ...current,
@@ -572,7 +940,7 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'equipment' ? (
+          {!showRulesetPlaceholder && activeSection === 'equipment' ? (
             <SectionCard title="Equipment" description="Resolve class starting packages and inventory.">
               <EquipmentStep
                 character={derivedCharacter}
@@ -615,29 +983,7 @@ export const CharacterBuilderShell = (props: {
             </SectionCard>
           ) : null}
 
-          {activeSection === 'asi_feats' ? (
-            <SectionCard title="ASI / Feats" description="Resolve level-based ASI or feat opportunities.">
-              <AsiFeatsStep
-                character={editableCharacter}
-                asiLevels={runtime.asiLevels}
-                feats={rulesFacade.listFeats()}
-                onSetAsiChoice={({ level, choice }) =>
-                  updateEditable((current) => {
-                    const others = current.featsAndAsi.opportunities.filter((entry) => entry.level !== level);
-                    return {
-                      ...current,
-                      featsAndAsi: {
-                        ...current.featsAndAsi,
-                        opportunities: [...others, { level, choice }].sort((a, b) => a.level - b.level)
-                      }
-                    };
-                  })
-                }
-              />
-            </SectionCard>
-          ) : null}
-
-          {activeSection === 'review' ? (
+          {!showRulesetPlaceholder && activeSection === 'review' ? (
             <SectionCard title="Review" description="Complete all remaining decisions before final export.">
               <div className="space-y-3">
                 <p className="text-sm text-slate-200">
@@ -668,8 +1014,37 @@ export const CharacterBuilderShell = (props: {
               </div>
             </SectionCard>
           ) : null}
+
+          <section className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-800 bg-slate-900/55 p-4">
+            <p className="text-sm text-slate-300">
+              Step {activeSectionIndex + 1} of {sectionOrder.length}: {BUILDER_SECTION_LABELS[activeSection]}
+            </p>
+            <button
+              type="button"
+              disabled={!nextSection}
+              onClick={() => {
+                if (nextSection) {
+                  setActiveSection(nextSection);
+                }
+              }}
+              className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                nextSection
+                  ? 'bg-sky-500 text-slate-950 hover:bg-sky-400'
+                  : 'cursor-not-allowed border border-slate-700 bg-slate-900/60 text-slate-500'
+              }`}
+            >
+              {nextSection ? `Next: ${BUILDER_SECTION_LABELS[nextSection]}` : 'Final step'}
+            </button>
+          </section>
         </div>
       </div>
+
+      {referenceModal ? (
+        <BuilderRuleReferenceModal
+          reference={referenceModal}
+          onClose={() => setReferenceModal(null)}
+        />
+      ) : null}
     </div>
   );
 };

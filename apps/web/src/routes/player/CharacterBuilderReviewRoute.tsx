@@ -171,7 +171,7 @@ export const CharacterBuilderReviewRoute = () => {
         <p>{error ?? 'Review data unavailable.'}</p>
         <button
           type="button"
-          onClick={() => navigate('/player/characters')}
+          onClick={() => navigate('/player/characters/list')}
           className="rounded-lg border border-slate-600 bg-slate-900/60 px-3 py-2 text-xs text-slate-100"
         >
           Back to Your Characters
@@ -186,7 +186,7 @@ export const CharacterBuilderReviewRoute = () => {
         <Link to={`/player/characters/${character.id}`} className="text-sky-300 hover:underline">
           Back to builder
         </Link>
-        <Link to="/player/characters" className="text-slate-300 hover:text-slate-100 hover:underline">
+        <Link to="/player/characters/list" className="text-slate-300 hover:text-slate-100 hover:underline">
           Your Characters
         </Link>
       </div>
@@ -207,4 +207,3 @@ export const CharacterBuilderReviewRoute = () => {
     </section>
   );
 };
-

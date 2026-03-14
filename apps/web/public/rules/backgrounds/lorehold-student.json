@@ -1,0 +1,313 @@
+{
+  "id": "lorehold-student",
+  "slug": "lorehold-student",
+  "name": "Lorehold Student",
+  "aliases": [
+    "Lorehold Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "History",
+      "Religion"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of black ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "hammer",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "hooded lantern",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "tinderbox",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "tome of history",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "school uniform",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp."
+  },
+  "feature": {
+    "name": "Lorehold Initiate",
+    "summary": "You gain the Strixhaven Initiate feat and must choose Lorehold within it.",
+    "rulesText": "Lorehold Initiate\nYou gain the Strixhaven Initiate feat and must choose Lorehold within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nComprehend Languages, Identify\nBorrowed Knowledge, Locate Object\nSpeak with Dead, Spirit Guardians\nArcane Eye, Stone Shape\nFlame Strike, Legend Lore\nConsider customizing how your spells look when you can cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "History, Religion"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp."
+    },
+    {
+      "id": "feature-3",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "lorehold-initiate-4",
+      "title": "Lorehold Initiate",
+      "kind": "feature",
+      "text": "You gain the Strixhaven Initiate feat and must choose Lorehold within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nComprehend Languages, Identify\nBorrowed Knowledge, Locate Object\nSpeak with Dead, Spirit Guardians\nArcane Eye, Stone Shape\nFlame Strike, Legend Lore\nConsider customizing how your spells look when you can cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study."
+    },
+    {
+      "id": "building-a-lorehold-character-9",
+      "title": "Building a Lorehold Character",
+      "kind": "other",
+      "text": "Any class or subclass that deals with knowledge of the past can be a good fit for Lorehold. Bards thrive in Lorehold, and Wizards (particularly those of the School of Divination) are numerous among its students. Clerics (often with the Knowledge or Light domains) are also quite common.\nFor a more unusual take on a Lorehold student, you could consider playing a Barbarian with a primal connection to the past (perhaps adopting the Path of the Ancestral Guardian) or a Paladin whose Oath of the Ancients gives a concrete link to history.\nSuggested Characteristics. Methodical historians and daring adventurers alike can be found among the ranks of Lorehold college. The Lorehold Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "id": "lorehold-personality-traits-13",
+      "title": "Lorehold Personality Traits",
+      "kind": "personality",
+      "text": "I thrive on esoteric lore. The more obscure the historical references I can include in everyday conversation, the better.\nBy searching for these lost artifacts, I hope to find who I really am along the way.\nI can barely go a minute without talking about my research. I have so much knowledge in my head, and it needs to be let out somewhere!\nThe spirits of the dead are so much more interesting to talk with than living classmates.\nI can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess.\nIn the end, it's all just entropy. Everything falls apart someday.\nLorehold Trinkets. When you make your character, you may roll once on the Lorehold Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "lorehold-trinkets-16",
+      "title": "Lorehold Trinkets",
+      "kind": "other",
+      "text": "A map made of concentric circles that can be rotated around the page\nA puzzle box bedecked with amber\nA dented brass compass with a red needle\nThe head of a broken statue that houses the consciousness of a snarky sage\nA sheet of parchment embossed with Tactile lettering, glowing red\nA broken dagger with a wavy blade and a serpentine hilt"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age."
+    },
+    {
+      "type": "p",
+      "text": "Source: Strixhaven: A Curriculum of Chaos"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: History, Religion\nLanguages: Two of your choice\nEquipment: A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, a hammerValue: 1gp Weight: 3lbs, a hooded lanternValue: 5gp Weight: 2lb, a tinderboxValue: 5cp Weight: 1lb, a tome of history, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Lorehold Initiate"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Strixhaven Initiate feat and must choose Lorehold within it."
+    },
+    {
+      "type": "p",
+      "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1st",
+          "Comprehend Languages, Identify"
+        ],
+        [
+          "2nd",
+          "Borrowed Knowledge, Locate Object"
+        ],
+        [
+          "3rd",
+          "Speak with Dead, Spirit Guardians"
+        ],
+        [
+          "4th",
+          "Arcane Eye, Stone Shape"
+        ],
+        [
+          "5th",
+          "Flame Strike, Legend Lore"
+        ]
+      ],
+      "caption": "Lorehold Spells",
+      "headers": [
+        "Spell Level",
+        "Spells"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consider customizing how your spells look when you can cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Lorehold Character"
+    },
+    {
+      "type": "p",
+      "text": "Any class or subclass that deals with knowledge of the past can be a good fit for Lorehold. Bards thrive in Lorehold, and Wizards (particularly those of the School of Divination) are numerous among its students. Clerics (often with the Knowledge or Light domains) are also quite common."
+    },
+    {
+      "type": "p",
+      "text": "For a more unusual take on a Lorehold student, you could consider playing a Barbarian with a primal connection to the past (perhaps adopting the Path of the Ancestral Guardian) or a Paladin whose Oath of the Ancients gives a concrete link to history."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics. Methodical historians and daring adventurers alike can be found among the ranks of Lorehold college. The Lorehold Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Lorehold Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I thrive on esoteric lore. The more obscure the historical references I can include in everyday conversation, the better."
+        ],
+        [
+          "2",
+          "By searching for these lost artifacts, I hope to find who I really am along the way."
+        ],
+        [
+          "3",
+          "I can barely go a minute without talking about my research. I have so much knowledge in my head, and it needs to be let out somewhere!"
+        ],
+        [
+          "4",
+          "The spirits of the dead are so much more interesting to talk with than living classmates."
+        ],
+        [
+          "5",
+          "I can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess."
+        ],
+        [
+          "6",
+          "In the end, it's all just entropy. Everything falls apart someday."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Lorehold Trinkets. When you make your character, you may roll once on the Lorehold Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Lorehold Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A map made of concentric circles that can be rotated around the page"
+        ],
+        [
+          "2",
+          "A puzzle box bedecked with amber"
+        ],
+        [
+          "3",
+          "A dented brass compass with a red needle"
+        ],
+        [
+          "4",
+          "The head of a broken statue that houses the consciousness of a snarky sage"
+        ],
+        [
+          "5",
+          "A sheet of parchment embossed with Tactile lettering, glowing red"
+        ],
+        [
+          "6",
+          "A broken dagger with a wavy blade and a serpentine hilt"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students.",
+  "tags": [
+    "category:strixhaven",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "faction-agent",
+  "slug": "faction-agent",
+  "name": "Faction Agent",
+  "aliases": [
+    "Faction Agent"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Insight",
+      "one Intelligence",
+      "Wisdom",
+      "Charisma skill of your choice",
+      "as appropriate to your faction"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "copy of a seminal faction text (or a code-book for a covert faction)",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "badge",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "emblem of your faction",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "The badge or emblem of your faction"
+      }
+    ],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "The badge or emblem of your faction, a copy of a seminal faction text (or a code-book for a covert faction), a set of common clothes, and a pouch containing 15gp"
+  },
+  "feature": {
+    "name": "Safe Haven",
+    "summary": "As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures.",
+    "rulesText": "Safe Haven\nAs a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Insight and one Intelligence, Wisdom, or Charisma skill of your choice, as appropriate to your faction"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "None"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "The badge or emblem of your faction, a copy of a seminal faction text (or a code-book for a covert faction), a set of common clothes, and a pouch containing 15gp"
+    },
+    {
+      "id": "features-4",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "factions-of-the-sword-coast-5",
+      "title": "Factions of the Sword Coast",
+      "kind": "feature",
+      "text": "The lack of large, centralized governments in the North and along the Sword Coast is likely directly responsible for the proliferation of secret societies and conspiracies in those lands. If your background is as an agent for one of the main factions of the North and Sword Coast, here are some possibilities."
+    },
+    {
+      "id": "the-harpers-7",
+      "title": "The Harpers",
+      "kind": "feature",
+      "text": "Founded more than a millennium ago, disbanded and reorganized several times, the Harpers remain a powerful, behind-the-scenes agency, which acts to thwart evil and promote fairness through knowledge, rather than brute force. Harper agents are often proficient in Investigation, enabling them to be adept at snooping and spying. They often seek aid from other Harpers, sympathetic bards and innkeepers, rangers, and the clergy of gods that are aligned with the Harpers' ideals."
+    },
+    {
+      "id": "the-order-of-the-gauntlet-9",
+      "title": "The Order of the Gauntlet",
+      "kind": "feature",
+      "text": "One of the newest power groups in Faerûn, the Order of the Gauntlet has an agenda similar to that of the Harpers. Its methods are vastly different, however: bearers of the gauntlet are holy warriors on a righteous quest to crush evil and promote justice, and they never hide in the shadows. Order agents tend to be proficient in Religion, and frequently seek aid from law enforcement friendly to the order's ideals, and the clergy of the order's patron gods."
+    },
+    {
+      "id": "the-emerald-enclave-11",
+      "title": "The Emerald Enclave",
+      "kind": "feature",
+      "text": "Maintaining balance in the natural order and combating the forces that threaten that balance is the twofold goal of the Emerald Enclave. Those who serve the faction are masters of survival and living off the land. They are often proficient in Nature, and can seek assistance from woodsmen, hunters, rangers, barbarian tribes, druid circles, and priests who revere the gods of nature."
+    },
+    {
+      "id": "the-lords-alliance-13",
+      "title": "The Lords' Alliance",
+      "kind": "feature",
+      "text": "On one level, the agents of the Lords' Alliance are representatives of the cities and other governments that constitute the alliance. But, as a faction with interests and concerns that transcend local politics and geography, the Alliance has its own cadre of individuals who work on behalf of the organizations, wider agenda. Alliance agents are required to be knowledgeable in History, and can always rely on the aid of the governments that are part of the Alliance, plus other leaders and groups who uphold the Alliance's ideals."
+    },
+    {
+      "id": "the-zhentarim-15",
+      "title": "The Zhentarim",
+      "kind": "feature",
+      "text": "In recent years, the Zhentarim have become more visible in the world at large, as the group works to improve its reputation among the common people. The faction draws employees and associates from many walks of life, setting them to tasks that serve the goals of the Black Network but aren't necessarily criminal in nature. Agents of the Black Network must often work in secret, and are frequently proficient in Deception. They seek aid from the wizards, mercenaries, merchants and priesthoods allied with the Zhentarim."
+    },
+    {
+      "id": "safe-haven-17",
+      "title": "Safe Haven",
+      "kind": "feature",
+      "text": "As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities."
+    },
+    {
+      "id": "suggested-characteristics-19",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Use the tables for the Acolyte background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)\nYour bond might be associated with other members of your faction, or a location or an object that is important to your faction. The ideal you strive for is probably in keeping with the tenets and principles of your faction, but might be more personal in nature."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Many organizations active in the North and across the face of Faerûn aren't bound by strictures of geography. These factions pursue their agendas without regard for political boundaries, and their members operate anywhere the organization deems necessary. These groups employ listeners, rumormongers, smugglers, sellswords, cache-holders (people who guard caches of wealth or magic for use by the faction's operatives), haven keepers, and message drop minders, to name a few. At the core of every faction are those who don't merely fulfill a small function for that organization, but who serve as its hands, head, and heart."
+    },
+    {
+      "type": "p",
+      "text": "As a prelude to your adventuring career (and in preparation for it), you served as an agent of a particular faction in Faerûn. You might have operated openly or secretly, depending on the faction and its goals, as well as how those goals mesh with your own. Becoming an adventurer doesn't necessarily require you to relinquish membership in your faction (though you can choose to do so), and it might enhance your status in the faction."
+    },
+    {
+      "type": "p",
+      "text": "Source: Sword Coast Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Insight and one Intelligence, Wisdom, or Charisma skill of your choice, as appropriate to your faction\nTool Proficiencies: None\nLanguages: Two of your choice\nEquipment: The badge or emblemValue:5gp Weight:0 of your faction, a copy of a seminal faction text (or a code-book for a covert faction), a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 15gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Factions of the Sword Coast"
+    },
+    {
+      "type": "p",
+      "text": "The lack of large, centralized governments in the North and along the Sword Coast is likely directly responsible for the proliferation of secret societies and conspiracies in those lands. If your background is as an agent for one of the main factions of the North and Sword Coast, here are some possibilities."
+    },
+    {
+      "type": "h3",
+      "text": "The Harpers"
+    },
+    {
+      "type": "p",
+      "text": "Founded more than a millennium ago, disbanded and reorganized several times, the Harpers remain a powerful, behind-the-scenes agency, which acts to thwart evil and promote fairness through knowledge, rather than brute force. Harper agents are often proficient in Investigation, enabling them to be adept at snooping and spying. They often seek aid from other Harpers, sympathetic bards and innkeepers, rangers, and the clergy of gods that are aligned with the Harpers' ideals."
+    },
+    {
+      "type": "h3",
+      "text": "The Order of the Gauntlet"
+    },
+    {
+      "type": "p",
+      "text": "One of the newest power groups in Faerûn, the Order of the Gauntlet has an agenda similar to that of the Harpers. Its methods are vastly different, however: bearers of the gauntlet are holy warriors on a righteous quest to crush evil and promote justice, and they never hide in the shadows. Order agents tend to be proficient in Religion, and frequently seek aid from law enforcement friendly to the order's ideals, and the clergy of the order's patron gods."
+    },
+    {
+      "type": "h3",
+      "text": "The Emerald Enclave"
+    },
+    {
+      "type": "p",
+      "text": "Maintaining balance in the natural order and combating the forces that threaten that balance is the twofold goal of the Emerald Enclave. Those who serve the faction are masters of survival and living off the land. They are often proficient in Nature, and can seek assistance from woodsmen, hunters, rangers, barbarian tribes, druid circles, and priests who revere the gods of nature."
+    },
+    {
+      "type": "h3",
+      "text": "The Lords' Alliance"
+    },
+    {
+      "type": "p",
+      "text": "On one level, the agents of the Lords' Alliance are representatives of the cities and other governments that constitute the alliance. But, as a faction with interests and concerns that transcend local politics and geography, the Alliance has its own cadre of individuals who work on behalf of the organizations, wider agenda. Alliance agents are required to be knowledgeable in History, and can always rely on the aid of the governments that are part of the Alliance, plus other leaders and groups who uphold the Alliance's ideals."
+    },
+    {
+      "type": "h3",
+      "text": "The Zhentarim"
+    },
+    {
+      "type": "p",
+      "text": "In recent years, the Zhentarim have become more visible in the world at large, as the group works to improve its reputation among the common people. The faction draws employees and associates from many walks of life, setting them to tasks that serve the goals of the Black Network but aren't necessarily criminal in nature. Agents of the Black Network must often work in secret, and are frequently proficient in Deception. They seek aid from the wizards, mercenaries, merchants and priesthoods allied with the Zhentarim."
+    },
+    {
+      "type": "h2",
+      "text": "Safe Haven"
+    },
+    {
+      "type": "p",
+      "text": "As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Use the tables for the Acolyte background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)"
+    },
+    {
+      "type": "p",
+      "text": "Your bond might be associated with other members of your faction, or a location or an object that is important to your faction. The ideal you strive for is probably in keeping with the tenets and principles of your faction, but might be more personal in nature."
+    }
+  ],
+  "summary": "Many organizations active in the North and across the face of Faerûn aren't bound by strictures of geography.",
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

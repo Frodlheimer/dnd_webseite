@@ -1,0 +1,393 @@
+{
+  "id": "anthropologist",
+  "slug": "anthropologist",
+  "name": "Anthropologist",
+  "aliases": [
+    "Anthropologist"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Insight",
+      "Religion"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "leather-bound diary",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "bottle of ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "one trinket of special significance",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A leather-bound diary, a bottle of ink, an ink pen, a set of traveler's clothes, one trinket of special significance, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Adept Linguist",
+    "summary": "You can communicate with humanoids who don't speak any language you know.",
+    "rulesText": "Adept Linguist\nYou can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures – enough to communicate on a rudimentary level."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Insight, Religion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "None"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A leather-bound diary, a bottle of ink, an ink pen, a set of traveler's clothes, one trinket of special significance, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "cultural-chameleon-4",
+      "title": "Cultural Chameleon",
+      "kind": "feature",
+      "text": "Before becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. You came to understand these foreign cultures and the ways of their people, who eventually treated you as one of their own. One culture had more of an influence on you than any other, shaping your beliefs and customs. Choose a race whose culture you've adopted."
+    },
+    {
+      "id": "adept-linguist-6",
+      "title": "Adept Linguist",
+      "kind": "feature",
+      "text": "You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures – enough to communicate on a rudimentary level."
+    },
+    {
+      "id": "suggested-characteristics-8",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Anthropologists leave behind the societies into which they were born to discover what life ls like in other parts of the world. They seek to see how other races and civilizations survive – or why they did not. Some anthropologists are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire's downfall."
+    },
+    {
+      "id": "personality-traits-10",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I prefer the company of those who aren't like me, including people of other races.\nI'm a stickler when it comes to observing proper etiquette and local customs.\nI would rather observe than meddle.\nBy living among violent people, I have become desensitized to violence.\nI would risk life and limb to discover a new culture or unravel the secrets of a dead one.\nWhen I arrive at a new settlement for the first time, I must learn all its customs."
+    },
+    {
+      "id": "ideals-12",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Discovery. I want to be the first person to discover a lost culture. (Any)\nDistance. One must not interfere with the affairs of another culture – even one in need of aid. (Lawful)\nKnowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)\nPower. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)\nProtection. I must do everything possible to save a society facing extinction. (Good)\nIndifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+    },
+    {
+      "id": "bonds-14",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.\nHaving lived among the people of a primeval tribe or clan, I long to return and see how they are faring.\nYears ago, tragedy struck the members of an isolated society I befriended, and I will honor them.\nI want to learn more about a particular humanoid culture that fascinates me.\nI seek to avenge a clan, tribe, kingdom, or empire that was wiped out.\nI have a trinket that I believe is the key to finding a long-lost society."
+    },
+    {
+      "id": "flaws-16",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "Boats make me seasick.\nI talk to myself, and I don't make friends easily.\nI believe that I'm intellectually superior to people from other cultures and have much to teach them.\nI've picked up some unpleasant habits living among races such as goblins, lizardfolk, or orcs.\nI complain about everything.\nI wear a tribal mask and never take it off."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures' customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through firsthand observation – by visiting far-flung settlements and exploring local histories and customs."
+    },
+    {
+      "type": "p",
+      "text": "Source: Tomb of Annihilation"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Insight, Religion\nTool Proficiencies: None\nLanguages: Two of your choice\nEquipment: A leather-bound diary, a bottle of inkValue:10gp Weight:0.0625lb, an ink penValue:2cp Weight:0, a set of traveler's clothesValue:2gp Weight:4lbs, one trinket of special significance, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Cultural Chameleon"
+    },
+    {
+      "type": "p",
+      "text": "Before becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. You came to understand these foreign cultures and the ways of their people, who eventually treated you as one of their own. One culture had more of an influence on you than any other, shaping your beliefs and customs. Choose a race whose culture you've adopted."
+    },
+    {
+      "type": "h2",
+      "text": "Adept Linguist"
+    },
+    {
+      "type": "p",
+      "text": "You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures – enough to communicate on a rudimentary level."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Anthropologists leave behind the societies into which they were born to discover what life ls like in other parts of the world. They seek to see how other races and civilizations survive – or why they did not. Some anthropologists are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire's downfall."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I prefer the company of those who aren't like me, including people of other races."
+        ],
+        [
+          "2",
+          "I'm a stickler when it comes to observing proper etiquette and local customs."
+        ],
+        [
+          "3",
+          "I would rather observe than meddle."
+        ],
+        [
+          "4",
+          "By living among violent people, I have become desensitized to violence."
+        ],
+        [
+          "5",
+          "I would risk life and limb to discover a new culture or unravel the secrets of a dead one."
+        ],
+        [
+          "6",
+          "When I arrive at a new settlement for the first time, I must learn all its customs."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Discovery. I want to be the first person to discover a lost culture. (Any)"
+        ],
+        [
+          "2",
+          "Distance. One must not interfere with the affairs of another culture – even one in need of aid. (Lawful)"
+        ],
+        [
+          "3",
+          "Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)"
+        ],
+        [
+          "4",
+          "Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)"
+        ],
+        [
+          "5",
+          "Protection. I must do everything possible to save a society facing extinction. (Good)"
+        ],
+        [
+          "6",
+          "Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me."
+        ],
+        [
+          "2",
+          "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring."
+        ],
+        [
+          "3",
+          "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them."
+        ],
+        [
+          "4",
+          "I want to learn more about a particular humanoid culture that fascinates me."
+        ],
+        [
+          "5",
+          "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out."
+        ],
+        [
+          "6",
+          "I have a trinket that I believe is the key to finding a long-lost society."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Boats make me seasick."
+        ],
+        [
+          "2",
+          "I talk to myself, and I don't make friends easily."
+        ],
+        [
+          "3",
+          "I believe that I'm intellectually superior to people from other cultures and have much to teach them."
+        ],
+        [
+          "4",
+          "I've picked up some unpleasant habits living among races such as goblins, lizardfolk, or orcs."
+        ],
+        [
+          "5",
+          "I complain about everything."
+        ],
+        [
+          "6",
+          "I wear a tribal mask and never take it off."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations.",
+  "personality": {
+    "traits": [
+      "I prefer the company of those who aren't like me, including people of other races.",
+      "I'm a stickler when it comes to observing proper etiquette and local customs.",
+      "I would rather observe than meddle.",
+      "By living among violent people, I have become desensitized to violence.",
+      "I would risk life and limb to discover a new culture or unravel the secrets of a dead one.",
+      "When I arrive at a new settlement for the first time, I must learn all its customs."
+    ],
+    "ideals": [
+      "Discovery. I want to be the first person to discover a lost culture. (Any)",
+      "Distance. One must not interfere with the affairs of another culture – even one in need of aid. (Lawful)",
+      "Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)",
+      "Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)",
+      "Protection. I must do everything possible to save a society facing extinction. (Good)",
+      "Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+    ],
+    "bonds": [
+      "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.",
+      "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring.",
+      "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them.",
+      "I want to learn more about a particular humanoid culture that fascinates me.",
+      "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out.",
+      "I have a trinket that I believe is the key to finding a long-lost society."
+    ],
+    "flaws": [
+      "Boats make me seasick.",
+      "I talk to myself, and I don't make friends easily.",
+      "I believe that I'm intellectually superior to people from other cultures and have much to teach them.",
+      "I've picked up some unpleasant habits living among races such as goblins, lizardfolk, or orcs.",
+      "I complain about everything.",
+      "I wear a tribal mask and never take it off."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

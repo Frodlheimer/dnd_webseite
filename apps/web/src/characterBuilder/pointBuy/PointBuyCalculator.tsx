@@ -1161,7 +1161,7 @@ export const PointBuyCalculator = () => {
           {abilityRows.map((row) => (
             <article
               key={`ability-${row.ability}`}
-              className={`rounded-xl border p-3 ${
+              className={`rounded-xl border p-4 ${
                 row.capOverflow > 0
                   ? 'border-amber-500/60 bg-amber-950/20'
                   : 'border-slate-800/80 bg-slate-950/65'
@@ -1169,49 +1169,47 @@ export const PointBuyCalculator = () => {
             >
               <div className="flex items-start justify-between gap-2">
                 <div>
-                  <p className="text-[11px] uppercase tracking-[0.12em] text-slate-500">{row.ability}</p>
-                  <p className="text-sm font-semibold text-slate-100">{row.label}</p>
+                  <p className="text-xs uppercase tracking-[0.14em] text-slate-500">{row.ability}</p>
+                  <p className="text-lg font-semibold text-slate-100">{row.label}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-[11px] uppercase tracking-[0.12em] text-slate-500">Final</p>
-                  <p className="text-xl font-semibold text-slate-100">{row.final}</p>
-                  <p className="text-xs text-slate-400">Mod {formatSignedNumber(row.finalModifier)}</p>
+                  <p className="text-xs uppercase tracking-[0.14em] text-slate-500">Final</p>
+                  <p className="text-3xl font-semibold leading-none text-slate-100">{row.final}</p>
+                  <p className="mt-1 text-sm text-slate-400">Mod {formatSignedNumber(row.finalModifier)}</p>
                 </div>
               </div>
 
-              <div className="mt-2.5 flex items-center gap-2">
+              <div className="mt-3 flex items-center gap-2">
                 <button
                   type="button"
                   aria-label={`Decrease ${row.label} base score`}
                   onClick={() => updateBaseScore(row.ability, row.base - 1)}
-                  className="h-8 w-8 rounded-md border border-slate-700/80 bg-slate-900 text-slate-100 transition hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/35"
+                  className="h-10 w-10 rounded-md border border-slate-700/80 bg-slate-900 text-lg text-slate-100 transition hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/35"
                 >
                   -
                 </button>
-                <input
+                <div
                   aria-label={`${row.label} base score`}
-                  type="number"
-                  min={BASE_MIN}
-                  max={BASE_MAX}
-                  value={row.base}
-                  onChange={(event) => updateBaseScore(row.ability, parseInteger(event.target.value))}
-                  className="h-8 w-20 rounded-md border border-slate-700/80 bg-slate-950 px-2 text-center text-sm text-slate-100 outline-none transition focus:border-sky-500/80 focus:ring-1 focus:ring-sky-500/35"
-                />
+                  aria-live="polite"
+                  className="flex h-10 w-20 items-center justify-center rounded-md border border-slate-700/80 bg-slate-950 px-2 text-center text-xl font-semibold text-slate-100"
+                >
+                  {row.base}
+                </div>
                 <button
                   type="button"
                   aria-label={`Increase ${row.label} base score`}
                   onClick={() => updateBaseScore(row.ability, row.base + 1)}
-                  className="h-8 w-8 rounded-md border border-slate-700/80 bg-slate-900 text-slate-100 transition hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/35"
+                  className="h-10 w-10 rounded-md border border-slate-700/80 bg-slate-900 text-lg text-slate-100 transition hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/35"
                 >
                   +
                 </button>
-                <div className="ml-auto text-right text-xs text-slate-400">
+                <div className="ml-auto text-right text-sm text-slate-400">
                   <p>Cost {row.baseCost ?? '-'}</p>
                   <p>Base mod {formatSignedNumber(row.baseModifier)}</p>
                 </div>
               </div>
 
-              <details className="mt-2 rounded-lg border border-slate-800/80 bg-slate-900/55 px-2.5 py-2 text-xs text-slate-400">
+              <details className="mt-3 rounded-lg border border-slate-800/80 bg-slate-900/55 px-3 py-2.5 text-sm text-slate-400">
                 <summary className="cursor-pointer font-medium text-slate-300">Details</summary>
                 <div className="mt-2 space-y-1">
                   <p>Base: {row.base}</p>
@@ -1237,7 +1235,7 @@ export const PointBuyCalculator = () => {
         </p>
         <p className="mt-1 text-xs text-slate-500">Current class: {selectedClassName}</p>
         <h4 className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">Class and level</h4>
-        <div className="mt-3 grid gap-3 md:grid-cols-3">
+        <div className="mt-3 grid gap-3 md:grid-cols-2">
           <label className="text-sm text-slate-300">
             Class
             <select
@@ -1281,22 +1279,6 @@ export const PointBuyCalculator = () => {
             />
           </label>
 
-          <label className="text-sm text-slate-300">
-            Level slider
-            <input
-              type="range"
-              min={LEVEL_MIN}
-              max={LEVEL_MAX}
-              value={state.level}
-              onChange={(event) =>
-                setState((previous) => ({
-                  ...previous,
-                  level: sanitizeLevel(parseInteger(event.target.value))
-                }))
-              }
-              className="mt-3 w-full accent-sky-400"
-            />
-          </label>
         </div>
 
         <div className="mt-3 rounded-xl border border-slate-800/70 bg-slate-950/60 p-3">

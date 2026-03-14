@@ -1,0 +1,317 @@
+{
+  "id": "witherbloom-student",
+  "slug": "witherbloom-student",
+  "name": "Witherbloom Student",
+  "aliases": [
+    "Witherbloom Student"
+  ],
+  "categories": [
+    "Strixhaven"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Nature",
+      "Survival"
+    ],
+    "tools": [
+      "Herbalism kit"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of black ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "book about plant identification",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "iron pot",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "herbalism kit",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "school uniform",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 15 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 15
+    },
+    "rawText": "A bottle of black ink, an ink pen, a book about plant identification, an iron pot, a herbalism kit, a school uniform, and a pouch containing 15 gp."
+  },
+  "feature": {
+    "name": "Witherbloom Initiate",
+    "summary": "You gain the Strixhaven Initiate feat and must choose Witherbloom within it.",
+    "rulesText": "Witherbloom Initiate\nYou gain the Strixhaven Initiate feat and must choose Witherbloom within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nCure Wounds, Inflict Wounds\nLesser Restoration, Wither and Bloom\nRevivify, Vampiric Touch\nBlight, Death Ward\nAntilife Shell, Greater Restoration\nConsider customizing how your spells look when you can cast them. Your Witherbloom spells might rely on material components or a spellcasting focus drawn from the swamp environment of Witherbloom, and your spells might take on an appearance suggesting those natural elements. Spectral shapes of swamp animals or plants might form amid your spell effects."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Nature, Survival"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Herbalism Kit"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of black ink, an ink pen, a book about plant identification, an iron pot, a herbalism kit, a school uniform, and a pouch containing 15 gp."
+    },
+    {
+      "id": "feature-3",
+      "title": "Feature",
+      "kind": "feature"
+    },
+    {
+      "id": "witherbloom-initiate-4",
+      "title": "Witherbloom Initiate",
+      "kind": "feature",
+      "text": "You gain the Strixhaven Initiate feat and must choose Witherbloom within it.\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\nCure Wounds, Inflict Wounds\nLesser Restoration, Wither and Bloom\nRevivify, Vampiric Touch\nBlight, Death Ward\nAntilife Shell, Greater Restoration\nConsider customizing how your spells look when you can cast them. Your Witherbloom spells might rely on material components or a spellcasting focus drawn from the swamp environment of Witherbloom, and your spells might take on an appearance suggesting those natural elements. Spectral shapes of swamp animals or plants might form amid your spell effects."
+    },
+    {
+      "id": "building-a-witherbloom-character-9",
+      "title": "Building a Witherbloom Character",
+      "kind": "other",
+      "text": "Druids and Warlocks make up most of Witherbloom's student body. A few Wizards (mostly those who study the School of Necromancy) and Cleric (including those with the Divine Domains of Life or Nature) also find their home in Witherbloom.\nA number of Rangers and Barbarians study at Witherbloom as well, and some Rogues learn how to create and use poisons during their studies at this college.\nSuggested Characteristics. Students of Witherbloom College are equally likely to be found picking herbs for a healing tincture or riding zombified swamp beasts through the bayou. The Witherbloom Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "id": "witherbloom-personality-traits-13",
+      "title": "Witherbloom Personality Traits",
+      "kind": "personality",
+      "text": "I love brewing up a new recipe, even if some might be repulsed by my choice of ingredients. Or the final product. Or both.\nMy fashion sense is like my garden: withered, black, and weird.\nI'm going to befriend every single monster in this swamp if it's the last thing I do.\nEverything in this world dies eventually. The question is, what will you do with the time you have left?\nI know we just met, but when you die, may I have your bones? For research.\nDon't interrupt me; I'm brooding.\nWitherbloom Trinkets. When you make your character, you may roll once on the Witherbloom Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "id": "witherbloom-trinkets-16",
+      "title": "Witherbloom Trinkets",
+      "kind": "other",
+      "text": "A black bird-shaped mask, trimmed with glowing green thread\nA set of rabbit bones\nA pair of thick knee-high waders, stained with muck and moss\nA slimy green tentacle, which occasionally wriggles\nA notebook containing waterproof paper\nA necklace of five small vials, each filled with luminescent white liquid"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College."
+    },
+    {
+      "type": "p",
+      "text": "Source: Strixhaven: A Curriculum of Chaos"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Nature, Survival\nTool Proficiencies: Herbalism Kit\nLanguages: One of your choice\nEquipment: A bottle of black inkValue: 10gp Weight: 0, an ink penValue: 2cp Weight: 0, a book about plant identification, an iron potValue: 2gp Weight: 10lbs, a herbalism kitValue: 5gp Weight: 3lbs, a school uniform, and a pouchValue: 5sp Weight: 1lb containing 15 gp."
+    },
+    {
+      "type": "h1",
+      "text": "Feature"
+    },
+    {
+      "type": "h2",
+      "text": "Witherbloom Initiate"
+    },
+    {
+      "type": "p",
+      "text": "You gain the Strixhaven Initiate feat and must choose Witherbloom within it."
+    },
+    {
+      "type": "p",
+      "text": "In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1st",
+          "Cure Wounds, Inflict Wounds"
+        ],
+        [
+          "2nd",
+          "Lesser Restoration, Wither and Bloom"
+        ],
+        [
+          "3rd",
+          "Revivify, Vampiric Touch"
+        ],
+        [
+          "4th",
+          "Blight, Death Ward"
+        ],
+        [
+          "5th",
+          "Antilife Shell, Greater Restoration"
+        ]
+      ],
+      "caption": "Witherbloom Spells",
+      "headers": [
+        "Spell Level",
+        "Spells"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consider customizing how your spells look when you can cast them. Your Witherbloom spells might rely on material components or a spellcasting focus drawn from the swamp environment of Witherbloom, and your spells might take on an appearance suggesting those natural elements. Spectral shapes of swamp animals or plants might form amid your spell effects."
+    },
+    {
+      "type": "h1",
+      "text": "Building a Witherbloom Character"
+    },
+    {
+      "type": "p",
+      "text": "Druids and Warlocks make up most of Witherbloom's student body. A few Wizards (mostly those who study the School of Necromancy) and Cleric (including those with the Divine Domains of Life or Nature) also find their home in Witherbloom."
+    },
+    {
+      "type": "p",
+      "text": "A number of Rangers and Barbarians study at Witherbloom as well, and some Rogues learn how to create and use poisons during their studies at this college."
+    },
+    {
+      "type": "p",
+      "text": "Suggested Characteristics. Students of Witherbloom College are equally likely to be found picking herbs for a healing tincture or riding zombified swamp beasts through the bayou. The Witherbloom Personality Traits table suggests a variety of traits you might adopt for your character."
+    },
+    {
+      "type": "h2",
+      "text": "Witherbloom Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I love brewing up a new recipe, even if some might be repulsed by my choice of ingredients. Or the final product. Or both."
+        ],
+        [
+          "2",
+          "My fashion sense is like my garden: withered, black, and weird."
+        ],
+        [
+          "3",
+          "I'm going to befriend every single monster in this swamp if it's the last thing I do."
+        ],
+        [
+          "4",
+          "Everything in this world dies eventually. The question is, what will you do with the time you have left?"
+        ],
+        [
+          "5",
+          "I know we just met, but when you die, may I have your bones? For research."
+        ],
+        [
+          "6",
+          "Don't interrupt me; I'm brooding."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Witherbloom Trinkets. When you make your character, you may roll once on the Witherbloom Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket."
+    },
+    {
+      "type": "h2",
+      "text": "Witherbloom Trinkets"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "A black bird-shaped mask, trimmed with glowing green thread"
+        ],
+        [
+          "2",
+          "A set of rabbit bones"
+        ],
+        [
+          "3",
+          "A pair of thick knee-high waders, stained with muck and moss"
+        ],
+        [
+          "4",
+          "A slimy green tentacle, which occasionally wriggles"
+        ],
+        [
+          "5",
+          "A notebook containing waterproof paper"
+        ],
+        [
+          "6",
+          "A necklace of five small vials, each filled with luminescent white liquid"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Trinket"
+      ]
+    }
+  ],
+  "summary": "You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College.",
+  "tags": [
+    "category:strixhaven",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

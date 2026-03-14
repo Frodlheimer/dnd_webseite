@@ -1,0 +1,165 @@
+{
+  "id": "courtier",
+  "slug": "courtier",
+  "name": "Courtier",
+  "aliases": [
+    "Courtier"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Insight",
+      "Persuasion"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 5gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 5
+    },
+    "rawText": "A set of fine clothes and a pouch containing 5gp"
+  },
+  "feature": {
+    "name": "Court Functionary",
+    "summary": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter.",
+    "rulesText": "Court Functionary\nYour knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Insight, Persuasion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "None"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of fine clothes and a pouch containing 5gp"
+    },
+    {
+      "id": "features-5",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "court-functionary-6",
+      "title": "Court Functionary",
+      "kind": "feature",
+      "text": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+    },
+    {
+      "id": "suggested-characteristics-8",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Use the tables for the guild artisan background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity.\nThe noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position."
+    },
+    {
+      "type": "p",
+      "text": "You might have been one of the many functionaries, attendants, and other hangers-on in the Court of Silverymoon, or perhaps you traveled in Waterdeep's baroque and sometimes cutthroat conglomeration of guilds, nobles, adventurers, and secret societies. You might have been one of the behind-the-scenes law-keepers or functionaries in Baldur's Gate or Neverwinter, or you might have grown up in and around the castle of Daggerford."
+    },
+    {
+      "type": "p",
+      "text": "Even if you are no longer a full-fledged member of the group that gave you your start in life, your relationships with your former fellows can be an advantage for you and your adventuring comrades. You might undertake missions with your new companions that further the interest of the organization that gave you your start in life. In any event, the abilities that you honed while serving as a courtier will stand you in good stead as an adventurer."
+    },
+    {
+      "type": "p",
+      "text": "Source: Sword Coast Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Insight, Persuasion\nTool Proficiencies: None\nLanguages: Two of your choice\nEquipment: A set of fine clothesValue:15gp Weight:6lbs and a pouchValue:5sp Weight:1lb containing 5gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Court Functionary"
+    },
+    {
+      "type": "p",
+      "text": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Use the tables for the guild artisan background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity."
+    },
+    {
+      "type": "p",
+      "text": "The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
+    }
+  ],
+  "summary": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization.",
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

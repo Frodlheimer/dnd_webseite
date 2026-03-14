@@ -1,0 +1,444 @@
+{
+  "id": "sage",
+  "slug": "sage",
+  "name": "Sage",
+  "aliases": [
+    "Sage"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "Arcana",
+      "History"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": {
+      "choose": 2,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "bottle of ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "quill",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "small knife",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "letter from a dead colleague posing a question you have not yet been able to answer",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of common clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "pouch containing 10gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A bottle of ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a pouch containing 10gp"
+  },
+  "feature": {
+    "name": "Researcher",
+    "summary": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it.",
+    "rulesText": "Researcher\nWhen you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "Arcana, History"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "None"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "Two of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A bottle of ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a pouch containing 10gp"
+    },
+    {
+      "id": "features-3",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "specialty-4",
+      "title": "Specialty",
+      "kind": "feature",
+      "text": "To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.\nAlchemist\nAstronomer\nDiscredited academic\nLibrarian\nProfessor\nResearcher\nWizard's apprentice\nScribe"
+    },
+    {
+      "id": "researcher-7",
+      "title": "Researcher",
+      "kind": "feature",
+      "text": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+    },
+    {
+      "id": "suggested-characteristics-9",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly – sometimes in its own right, sometimes as a means toward other ideals."
+    },
+    {
+      "id": "personality-traits-11",
+      "title": "Personality Traits",
+      "kind": "personality",
+      "text": "I use polysyllabic words that convey the impression of great erudition.\nI've read every book in the world's greatest libraries – or I like to boast that I have.\nI'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.\nThere's nothing I like more than a good mystery.\nI'm willing to listen to every side of an argument before I make my own judgment.\nI… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me.\nI am horribly, horribly awkward in social situations.\nI'm convinced that people are always trying to steal my secrets."
+    },
+    {
+      "id": "ideals-13",
+      "title": "Ideals",
+      "kind": "personality",
+      "text": "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)\nBeauty. What is beautiful points us beyond itself toward what is true. (Good)\nLogic. Emotions must not cloud our logical thinking. (Lawful)\nNo Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)\nPower. Knowledge is the path to power and domination. (Evil)\nSelf-Improvement. The goal of a life of study is the betterment of oneself. (Any)"
+    },
+    {
+      "id": "bonds-15",
+      "title": "Bonds",
+      "kind": "personality",
+      "text": "It is my duty to protect my students.\nI have an ancient text that holds terrible secrets that must not fall into the wrong hands.\nI work to preserve a library, university, scriptorium, or monastery.\nMy life's work is a series of tomes related to a specific field of lore.\nI've been searching my whole life for the answer to a certain question.\nI sold my soul for knowledge. I hope to do great deeds and win it back."
+    },
+    {
+      "id": "flaws-17",
+      "title": "Flaws",
+      "kind": "personality",
+      "text": "I am easily distracted by the promise of information.\nMost people scream and run when they see a demon. I stop and take notes on its anatomy.\nUnlocking an ancient mystery is worth the price of a civilization.\nI overlook obvious solutions in favor of complicated ones.\nI speak without really thinking through my words, invariably insulting others.\nI can't keep a secret to save my life, or anyone else's."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study."
+    },
+    {
+      "type": "p",
+      "text": "Source: Player's Handbook"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: Arcana, History\nTool Proficiencies: None\nLanguages: Two of your choice\nEquipment: A bottle of inkValue:10gp Weight:0.0625lb, a quillValue:2cp Weight:0, a small knifeValue:0 Weight:0, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothesValue:5sp Weight:3lbs, and a pouchValue:5sp Weight:1lb containing 10gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Specialty"
+    },
+    {
+      "type": "p",
+      "text": "To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Alchemist"
+        ],
+        [
+          "2",
+          "Astronomer"
+        ],
+        [
+          "3",
+          "Discredited academic"
+        ],
+        [
+          "4",
+          "Librarian"
+        ],
+        [
+          "5",
+          "Professor"
+        ],
+        [
+          "6",
+          "Researcher"
+        ],
+        [
+          "7",
+          "Wizard's apprentice"
+        ],
+        [
+          "8",
+          "Scribe"
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Specialty"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Researcher"
+    },
+    {
+      "type": "p",
+      "text": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly – sometimes in its own right, sometimes as a means toward other ideals."
+    },
+    {
+      "type": "h2",
+      "text": "Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I use polysyllabic words that convey the impression of great erudition."
+        ],
+        [
+          "2",
+          "I've read every book in the world's greatest libraries – or I like to boast that I have."
+        ],
+        [
+          "3",
+          "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+        ],
+        [
+          "4",
+          "There's nothing I like more than a good mystery."
+        ],
+        [
+          "5",
+          "I'm willing to listen to every side of an argument before I make my own judgment."
+        ],
+        [
+          "6",
+          "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me."
+        ],
+        [
+          "7",
+          "I am horribly, horribly awkward in social situations."
+        ],
+        [
+          "8",
+          "I'm convinced that people are always trying to steal my secrets."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)"
+        ],
+        [
+          "2",
+          "Beauty. What is beautiful points us beyond itself toward what is true. (Good)"
+        ],
+        [
+          "3",
+          "Logic. Emotions must not cloud our logical thinking. (Lawful)"
+        ],
+        [
+          "4",
+          "No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)"
+        ],
+        [
+          "5",
+          "Power. Knowledge is the path to power and domination. (Evil)"
+        ],
+        [
+          "6",
+          "Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "It is my duty to protect my students."
+        ],
+        [
+          "2",
+          "I have an ancient text that holds terrible secrets that must not fall into the wrong hands."
+        ],
+        [
+          "3",
+          "I work to preserve a library, university, scriptorium, or monastery."
+        ],
+        [
+          "4",
+          "My life's work is a series of tomes related to a specific field of lore."
+        ],
+        [
+          "5",
+          "I've been searching my whole life for the answer to a certain question."
+        ],
+        [
+          "6",
+          "I sold my soul for knowledge. I hope to do great deeds and win it back."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I am easily distracted by the promise of information."
+        ],
+        [
+          "2",
+          "Most people scream and run when they see a demon. I stop and take notes on its anatomy."
+        ],
+        [
+          "3",
+          "Unlocking an ancient mystery is worth the price of a civilization."
+        ],
+        [
+          "4",
+          "I overlook obvious solutions in favor of complicated ones."
+        ],
+        [
+          "5",
+          "I speak without really thinking through my words, invariably insulting others."
+        ],
+        [
+          "6",
+          "I can't keep a secret to save my life, or anyone else's."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You spent years learning the lore of the multiverse.",
+  "personality": {
+    "traits": [
+      "I use polysyllabic words that convey the impression of great erudition.",
+      "I've read every book in the world's greatest libraries – or I like to boast that I have.",
+      "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+      "There's nothing I like more than a good mystery.",
+      "I'm willing to listen to every side of an argument before I make my own judgment.",
+      "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me.",
+      "I am horribly, horribly awkward in social situations.",
+      "I'm convinced that people are always trying to steal my secrets."
+    ],
+    "ideals": [
+      "Knowledge. The path to power and self-improvement is through knowledge. (Neutral)",
+      "Beauty. What is beautiful points us beyond itself toward what is true. (Good)",
+      "Logic. Emotions must not cloud our logical thinking. (Lawful)",
+      "No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)",
+      "Power. Knowledge is the path to power and domination. (Evil)",
+      "Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)"
+    ],
+    "bonds": [
+      "It is my duty to protect my students.",
+      "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+      "I work to preserve a library, university, scriptorium, or monastery.",
+      "My life's work is a series of tomes related to a specific field of lore.",
+      "I've been searching my whole life for the answer to a certain question.",
+      "I sold my soul for knowledge. I hope to do great deeds and win it back."
+    ],
+    "flaws": [
+      "I am easily distracted by the promise of information.",
+      "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+      "Unlocking an ancient mystery is worth the price of a civilization.",
+      "I overlook obvious solutions in favor of complicated ones.",
+      "I speak without really thinking through my words, invariably insulting others.",
+      "I can't keep a secret to save my life, or anyone else's."
+    ]
+  },
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency"
+  ]
+}

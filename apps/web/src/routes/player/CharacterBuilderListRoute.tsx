@@ -2,8 +2,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { deriveCharacter } from '../../characterBuilder/engine/deriveCharacter';
-import type { CharacterRecord } from '../../characterBuilder/model/character';
+import { CHARACTER_RULESET_LABELS, type CharacterRecord } from '../../characterBuilder/model/character';
 import { characterRepository } from '../../characterBuilder/storage/characterRepository';
+import { getDefaultCharacterRuleset } from '../../characterBuilder/settings/rulesetPreferences';
 import { characterSheetsRepository } from '../../characterSheets/storage/characterSheetsRepository';
 import type { ImportedSheetRecord } from '../../characterSheets/types';
 import { rulesFacade } from '../../characterBuilder/rules/rulesFacade';
@@ -35,6 +36,9 @@ export const CharacterBuilderListRoute = () => {
   const [error, setError] = useState<string | null>(null);
   const [characters, setCharacters] = useState<CharacterCardView[]>([]);
   const [importedSheets, setImportedSheets] = useState<ImportedSheetRecord[]>([]);
+  const defaultRulesetLabel = useMemo(() => {
+    return CHARACTER_RULESET_LABELS[getDefaultCharacterRuleset()];
+  }, []);
 
   const load = useCallback(async () => {
     const records = await characterRepository.listCharacters();
@@ -108,16 +112,22 @@ export const CharacterBuilderListRoute = () => {
       <header className="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
+            <Link to="/player/characters" className="text-xs uppercase tracking-[0.2em] text-sky-300 hover:text-sky-200">
+              Create a new character
+            </Link>
             <h2 className="text-2xl font-semibold tracking-tight text-slate-100">Your Characters</h2>
             <p className="mt-1 text-sm text-slate-300">
               Build and manage local-first characters. No server storage or server processing.
+            </p>
+            <p className="mt-1 text-xs text-slate-400">
+              Default rule set for new characters: {defaultRulesetLabel}
             </p>
           </div>
           <Link
             to="/player/characters/new"
             className="rounded-lg bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-sky-400"
           >
-            New Character
+            Create another character
           </Link>
         </div>
       </header>
@@ -136,7 +146,11 @@ export const CharacterBuilderListRoute = () => {
 
       {!loading && !hasCharacters ? (
         <section className="rounded-xl border border-slate-800 bg-slate-900/55 p-4 text-sm text-slate-300">
-          No builder characters yet. Start your first character from <Link to="/player/characters/new" className="text-sky-300 hover:underline">New Character</Link>.
+          No builder characters yet. Start your first character from{' '}
+          <Link to="/player/characters/new" className="text-sky-300 hover:underline">
+            Start Character Builder
+          </Link>
+          .
         </section>
       ) : null}
 
@@ -241,4 +255,3 @@ export const CharacterBuilderListRoute = () => {
     </section>
   );
 };
-

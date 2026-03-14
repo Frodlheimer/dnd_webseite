@@ -19,6 +19,7 @@ export const SpellChoicePanel = (props: {
   preparedMax: number | null;
   isPreparedCaster: boolean;
   isKnownCaster: boolean;
+  onOpenSpellReference: (slug: string) => void;
   onToggleCantrip: (slug: string) => void;
   onToggleKnownSpell: (slug: string) => void;
   onTogglePreparedSpell: (slug: string) => void;
@@ -37,6 +38,7 @@ export const SpellChoicePanel = (props: {
           title="Cantrips"
           spells={cantripRows}
           selectedSlugs={props.selectedCantrips}
+          onOpenSpellReference={props.onOpenSpellReference}
           onToggleSpell={props.onToggleCantrip}
           maxSelected={props.cantripsKnown}
         />
@@ -47,6 +49,7 @@ export const SpellChoicePanel = (props: {
           title="Known Spells"
           spells={leveledRows}
           selectedSlugs={props.selectedKnownSpells}
+          onOpenSpellReference={props.onOpenSpellReference}
           onToggleSpell={props.onToggleKnownSpell}
           maxSelected={props.knownSpells}
         />
@@ -57,6 +60,7 @@ export const SpellChoicePanel = (props: {
           title="Prepared Spells"
           spells={leveledRows}
           selectedSlugs={props.preparedSpells}
+          onOpenSpellReference={props.onOpenSpellReference}
           onToggleSpell={props.onTogglePreparedSpell}
           maxSelected={props.preparedMax}
         />
@@ -77,4 +81,3 @@ export const SpellChoicePanel = (props: {
     </div>
   );
 };
-

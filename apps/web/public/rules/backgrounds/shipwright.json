@@ -1,0 +1,366 @@
+{
+  "id": "shipwright",
+  "slug": "shipwright",
+  "name": "Shipwright",
+  "aliases": [
+    "Shipwright"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "History",
+      "Perception"
+    ],
+    "tools": [
+      "Carpenter's tools",
+      "Vehicles (water)"
+    ],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": null,
+    "languageChoices": null
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of well-loved carpenter's tools",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "blank book",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ounce of ink",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "ink pen",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "set of traveler's clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "leather pouch with 10 gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [],
+    "coins": {
+      "gp": 10
+    },
+    "rawText": "A set of well-loved carpenter's tools, a blank book, 1 ounce of ink, an ink pen, a set of traveler's clothes, and a leather pouch with 10 gp"
+  },
+  "feature": {
+    "name": null,
+    "summary": null,
+    "rulesText": null
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "History, Perception"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "Carpenter's tools, Vehicles (water)"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of well-loved carpenter's tools, a blank book, 1 ounce of ink, an ink pen, a set of traveler's clothes, and a leather pouch with 10 gp"
+    },
+    {
+      "id": "feature-ill-patch-it-3",
+      "title": "Feature: I'll patch it!",
+      "kind": "feature",
+      "text": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 × your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired."
+    },
+    {
+      "id": "life-at-sea-5",
+      "title": "Life at Sea",
+      "kind": "other",
+      "text": "Your life at sea and in port has shaped you; you can roll on the following table to determine its impact or choose an element that best fits your character.\nGrand Designs. You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design.\nSolid and Sound. You patched up a war galley and prevented it from sinking. The local navy regards you as a friend.\nFavored. You insisted on thicker planking for a merchant vessel's hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant's distant mansion.\nMaster of Armaments. You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items.\nLow Places. You have contacts in the smuggling outfits along the coast; you occasionally repair the criminals' ships in exchange for coin and favors.\nMysteries of the Deep. You experienced an encounter with a possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you."
+    },
+    {
+      "id": "suggested-characteristics-8",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Shipwrights are resourceful carpenters and designers. They often have a dedicated spot at the local tavern, since shipwrights are invaluable to coastal communities. Some travel with naval fleets and might serve as officers if their temperament suits it. Shipwrights have an affinity for working with their hands and often perform feats of carpentry that others might deem miraculous."
+    },
+    {
+      "id": "shipwright-personality-traits-10",
+      "title": "Shipwright Personality Traits",
+      "kind": "personality",
+      "text": "I love talking and being heard more than I like to listen.\nI'm extremely fond of puzzles.\nI thrive under pressure.\nI love sketching and designing objects, especially boats.\nI'm not afraid of hard work—in fact, I prefer it.\nA pipe, an ale, and the smell of the sea: paradise.\nI have an endless supply of cautionary tales related to the sea.\nI don't mind getting my hands dirty."
+    },
+    {
+      "id": "shipwright-ideals-12",
+      "title": "Shipwright Ideals",
+      "kind": "personality",
+      "text": "Crew. If everyone on deck pitches in, we'll never sink. (Good)\nCareful Lines. A ship must be balanced according to the laws of the universe. (Lawful)\nInvention. Make what you need out of whatever is at hand. (Chaotic)\nPerfection. To measure a being and find it lacking is the greatest disappointment. (Evil)\nReflection. Muddied water always clears in time. (Any)\nHope. The horizon at sea holds the greatest promise. (Any)"
+    },
+    {
+      "id": "shipwright-bonds-14",
+      "title": "Shipwright Bonds",
+      "kind": "personality",
+      "text": "I must visit all the oceans of the world and behold the ships that sail there.\nMuch of the treasure I claim will be used to enrich my community.\nI must find a kind of wood rumored to possess magical qualities.\nI repair broken things to redeem what's broken in myself.\nI will craft a boat capable of sailing through the most dangerous of storms.\nA kraken destroyed my masterpiece; its teeth shall adorn my hearth."
+    },
+    {
+      "id": "shipwright-flaws-16",
+      "title": "Shipwright Flaws",
+      "kind": "personality",
+      "text": "I don't know when to throw something away. You never know when it might be useful again.\nI get frustrated to the point of distraction by shoddy craftsmanship.\nThough I am an excellent crafter, my work tends to look as though it belongs on a ship.\nI am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little thing like eating and sleeping.\nI'm judgmental of those who are not skilled with tools of some kind.\nI sometimes take things that don't belong to me, especially if they are very well made."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "Source: Ghosts of Saltmarsh"
+    },
+    {
+      "type": "p",
+      "text": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it."
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: History, Perception\nTool Proficiencies: Carpenter's tools, Vehicles (water)\nEquipment: A set of well-loved carpenter's tools, a blank book, 1 ounce of ink, an ink pen, a set of traveler's clothes, and a leather pouch with 10 gp"
+    },
+    {
+      "type": "h2",
+      "text": "Feature: I'll patch it!"
+    },
+    {
+      "type": "p",
+      "text": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 × your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired."
+    },
+    {
+      "type": "h2",
+      "text": "Life at Sea"
+    },
+    {
+      "type": "p",
+      "text": "Your life at sea and in port has shaped you; you can roll on the following table to determine its impact or choose an element that best fits your character."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Grand Designs. You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design."
+        ],
+        [
+          "2",
+          "Solid and Sound. You patched up a war galley and prevented it from sinking. The local navy regards you as a friend."
+        ],
+        [
+          "3",
+          "Favored. You insisted on thicker planking for a merchant vessel's hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant's distant mansion."
+        ],
+        [
+          "4",
+          "Master of Armaments. You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items."
+        ],
+        [
+          "5",
+          "Low Places. You have contacts in the smuggling outfits along the coast; you occasionally repair the criminals' ships in exchange for coin and favors."
+        ],
+        [
+          "6",
+          "Mysteries of the Deep. You experienced an encounter with a possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Seas Influence"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Shipwrights are resourceful carpenters and designers. They often have a dedicated spot at the local tavern, since shipwrights are invaluable to coastal communities. Some travel with naval fleets and might serve as officers if their temperament suits it. Shipwrights have an affinity for working with their hands and often perform feats of carpentry that others might deem miraculous."
+    },
+    {
+      "type": "h2",
+      "text": "Shipwright Personality Traits"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I love talking and being heard more than I like to listen."
+        ],
+        [
+          "2",
+          "I'm extremely fond of puzzles."
+        ],
+        [
+          "3",
+          "I thrive under pressure."
+        ],
+        [
+          "4",
+          "I love sketching and designing objects, especially boats."
+        ],
+        [
+          "5",
+          "I'm not afraid of hard work—in fact, I prefer it."
+        ],
+        [
+          "6",
+          "A pipe, an ale, and the smell of the sea: paradise."
+        ],
+        [
+          "7",
+          "I have an endless supply of cautionary tales related to the sea."
+        ],
+        [
+          "8",
+          "I don't mind getting my hands dirty."
+        ]
+      ],
+      "headers": [
+        "d8",
+        "Personality Trait"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Shipwright Ideals"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "Crew. If everyone on deck pitches in, we'll never sink. (Good)"
+        ],
+        [
+          "2",
+          "Careful Lines. A ship must be balanced according to the laws of the universe. (Lawful)"
+        ],
+        [
+          "3",
+          "Invention. Make what you need out of whatever is at hand. (Chaotic)"
+        ],
+        [
+          "4",
+          "Perfection. To measure a being and find it lacking is the greatest disappointment. (Evil)"
+        ],
+        [
+          "5",
+          "Reflection. Muddied water always clears in time. (Any)"
+        ],
+        [
+          "6",
+          "Hope. The horizon at sea holds the greatest promise. (Any)"
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Ideal"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Shipwright Bonds"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I must visit all the oceans of the world and behold the ships that sail there."
+        ],
+        [
+          "2",
+          "Much of the treasure I claim will be used to enrich my community."
+        ],
+        [
+          "3",
+          "I must find a kind of wood rumored to possess magical qualities."
+        ],
+        [
+          "4",
+          "I repair broken things to redeem what's broken in myself."
+        ],
+        [
+          "5",
+          "I will craft a boat capable of sailing through the most dangerous of storms."
+        ],
+        [
+          "6",
+          "A kraken destroyed my masterpiece; its teeth shall adorn my hearth."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Bond"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Shipwright Flaws"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1",
+          "I don't know when to throw something away. You never know when it might be useful again."
+        ],
+        [
+          "2",
+          "I get frustrated to the point of distraction by shoddy craftsmanship."
+        ],
+        [
+          "3",
+          "Though I am an excellent crafter, my work tends to look as though it belongs on a ship."
+        ],
+        [
+          "4",
+          "I am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little thing like eating and sleeping."
+        ],
+        [
+          "5",
+          "I'm judgmental of those who are not skilled with tools of some kind."
+        ],
+        [
+          "6",
+          "I sometimes take things that don't belong to me, especially if they are very well made."
+        ]
+      ],
+      "headers": [
+        "d6",
+        "Flaw"
+      ]
+    }
+  ],
+  "summary": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers.",
+  "tags": [
+    "category:common-backgrounds",
+    "has:equipment",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

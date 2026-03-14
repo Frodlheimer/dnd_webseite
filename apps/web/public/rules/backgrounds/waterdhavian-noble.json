@@ -1,0 +1,226 @@
+{
+  "id": "waterdhavian-noble",
+  "slug": "waterdhavian-noble",
+  "name": "Waterdhavian Noble",
+  "aliases": [
+    "Waterdhavian Noble"
+  ],
+  "categories": [
+    "Common Backgrounds"
+  ],
+  "source": "wikidot-local-export",
+  "grants": {
+    "skills": [
+      "History",
+      "Persuasion"
+    ],
+    "tools": [],
+    "languages": [],
+    "skillChoices": null,
+    "toolChoices": {
+      "choose": 1,
+      "from": [
+        "Dice set",
+        "Dragonchess set",
+        "Playing card set",
+        "Three-Dragon Ante set",
+        "Bagpipes",
+        "Drum",
+        "Dulcimer",
+        "Flute",
+        "Horn",
+        "Lute",
+        "Lyre",
+        "Pan flute",
+        "Shawm",
+        "Viol"
+      ]
+    },
+    "languageChoices": {
+      "choose": 1,
+      "from": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Orc",
+        "Abyssal",
+        "Celestial",
+        "Draconic",
+        "Deep Speech",
+        "Infernal",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "equipment": {
+    "fixedItems": [
+      {
+        "name": "set of fine clothes",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "scroll of pedigree",
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "name": "purse containing 20gp",
+        "quantity": 1,
+        "notes": null
+      }
+    ],
+    "choiceGroups": [
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "signet ring",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "brooch",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a signet ring or brooch"
+      },
+      {
+        "choose": 1,
+        "options": [
+          {
+            "name": "skin (for the empty skin itself) of fine zzar",
+            "quantity": 1,
+            "notes": null
+          },
+          {
+            "name": "wine",
+            "quantity": 1,
+            "notes": null
+          }
+        ],
+        "label": "a skin (for the empty skin itself) of fine zzar or wine"
+      }
+    ],
+    "coins": {
+      "gp": 20
+    },
+    "rawText": "A set of fine clothes, a signet ring or brooch, a scroll of pedigree, a skin (for the empty skin itself) of fine zzar or wine, and a purse containing 20gp"
+  },
+  "feature": {
+    "name": "Kept in Style",
+    "summary": "While you are in Waterdeep or elsewhere in the North your house sees to your everyday needs.",
+    "rulesText": "Kept in Style\nWhile you are in Waterdeep or elsewhere in the North your house sees to your everyday needs. Your name and signet are sufficient to cover most of your expenses; the inns, taverns, and festhalls you frequent are glad to record your debt and send an accounting to your family's estate in Waterdeep to settle what you owe.\nThis advantage enables you to live a comfortable lifestyle without having to pay 2 gp a day for it, or reduces the cost of a wealthy or aristocratic lifestyle by that amount. You may not maintain a less affluent lifestyle and use the difference as income – the benefit is a line of credit, not an actual monetary reward."
+  },
+  "structuredSections": [
+    {
+      "id": "skills",
+      "title": "Skill Proficiencies",
+      "kind": "skills",
+      "text": "History, Persuasion"
+    },
+    {
+      "id": "tools",
+      "title": "Tool Proficiencies",
+      "kind": "tools",
+      "text": "One type of gaming set or one musical instrument"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "kind": "languages",
+      "text": "One of your choice"
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "kind": "equipment",
+      "text": "A set of fine clothes, a signet ring or brooch, a scroll of pedigree, a skin (for the empty skin itself) of fine zzar or wine, and a purse containing 20gp"
+    },
+    {
+      "id": "features-5",
+      "title": "Features",
+      "kind": "feature"
+    },
+    {
+      "id": "kept-in-style-6",
+      "title": "Kept in Style",
+      "kind": "feature",
+      "text": "While you are in Waterdeep or elsewhere in the North your house sees to your everyday needs. Your name and signet are sufficient to cover most of your expenses; the inns, taverns, and festhalls you frequent are glad to record your debt and send an accounting to your family's estate in Waterdeep to settle what you owe.\nThis advantage enables you to live a comfortable lifestyle without having to pay 2 gp a day for it, or reduces the cost of a wealthy or aristocratic lifestyle by that amount. You may not maintain a less affluent lifestyle and use the difference as income – the benefit is a line of credit, not an actual monetary reward."
+    },
+    {
+      "id": "suggested-characteristics-9",
+      "title": "Suggested Characteristics",
+      "kind": "other",
+      "text": "Use the tables for the Noble background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity.\nLike other nobles, you were born and raised in a different world from the one that most folk know – one that grants you privilege but also calls you to fulfill a duty befitting your station. Your bond might be associated with your family a lone, or it could be concerned with another noble house that sides with or opposes your own. Your ideal depends to some extent on how you view your role in the family, and how you intend to conduct yourself in the world at large as a representative of your house."
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "p",
+      "text": "You are a scion of one of the great noble families of Waterdeep. Human families who jealously guard their privilege and place in the City of Splendors, Waterdhavian nobles have a reputation across Faerûn for being eccentric, spoiled, venal, and, above all else, rich."
+    },
+    {
+      "type": "p",
+      "text": "Whether you are a shining example of the reason for this reputation or one who proves the rule by being an exception, people expect things of you when they know your surname and what it means. Your reasons for taking up adventuring likely involve your family in some way: Are you the family rebel, who prefers delving in filthy dungeons to sipping zzar at a ball? Or have you taken up sword or spell on your family's behalf, ensuring that they have someone of renown to see to their legacy?"
+    },
+    {
+      "type": "p",
+      "text": "Work with your DM to come up with the family you are part of – there are around seventy-five lineages in Waterdeep, each with its own financial interests, specialties, and schemes. You might be part of the main line of your family, possibly in line to become its leader one day. Or you might be one of any number of cousins, with less prestige but also less responsibility."
+    },
+    {
+      "type": "p",
+      "text": "Source: Sword Coast Adventurer's Guide"
+    },
+    {
+      "type": "p",
+      "text": "Skill Proficiencies: History, Persuasion\nTool Proficiencies: One type of gaming set or one musical instrument\nLanguages: One of your choice\nEquipment: A set of fine clothesValue:15gp Weight:6lbs, a signet ringValue:5gp Weight:0 or brooch, a scroll of pedigree, a skinValue:2sp Weight:1lb (for the empty skin itself) of fine zzar or wine, and a purse containing 20gp"
+    },
+    {
+      "type": "h1",
+      "text": "Features"
+    },
+    {
+      "type": "h2",
+      "text": "Kept in Style"
+    },
+    {
+      "type": "p",
+      "text": "While you are in Waterdeep or elsewhere in the North your house sees to your everyday needs. Your name and signet are sufficient to cover most of your expenses; the inns, taverns, and festhalls you frequent are glad to record your debt and send an accounting to your family's estate in Waterdeep to settle what you owe."
+    },
+    {
+      "type": "p",
+      "text": "This advantage enables you to live a comfortable lifestyle without having to pay 2 gp a day for it, or reduces the cost of a wealthy or aristocratic lifestyle by that amount. You may not maintain a less affluent lifestyle and use the difference as income – the benefit is a line of credit, not an actual monetary reward."
+    },
+    {
+      "type": "h1",
+      "text": "Suggested Characteristics"
+    },
+    {
+      "type": "p",
+      "text": "Use the tables for the Noble background as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity."
+    },
+    {
+      "type": "p",
+      "text": "Like other nobles, you were born and raised in a different world from the one that most folk know – one that grants you privilege but also calls you to fulfill a duty befitting your station. Your bond might be associated with your family a lone, or it could be concerned with another noble house that sides with or opposes your own. Your ideal depends to some extent on how you view your role in the family, and how you intend to conduct yourself in the world at large as a representative of your house."
+    }
+  ],
+  "summary": "You are a scion of one of the great noble families of Waterdeep.",
+  "tags": [
+    "category:common-backgrounds",
+    "has:choice",
+    "has:equipment",
+    "has:feature",
+    "has:language",
+    "has:skill-proficiency",
+    "has:tool-proficiency"
+  ]
+}

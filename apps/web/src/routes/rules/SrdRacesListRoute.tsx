@@ -1,12 +1,5 @@
-import { SrdCategoryListBaseRoute } from './SrdCategoryListBaseRoute';
+import { RacesListRoute } from './RacesListRoute';
 
 export const SrdRacesListRoute = () => {
-  return (
-    <SrdCategoryListBaseRoute
-      category="races"
-      title="Races (SRD)"
-      description="Core SRD race references."
-      detailBasePath="/rules/races"
-    />
-  );
+  return <RacesListRoute />;
 };

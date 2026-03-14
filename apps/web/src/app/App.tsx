@@ -115,6 +115,20 @@ const SrdRaceDetailRoute = lazy(async () => {
   };
 });
 
+const BackgroundsListRoute = lazy(async () => {
+  const module = await import('../routes/rules/BackgroundsListRoute');
+  return {
+    default: module.BackgroundsListRoute
+  };
+});
+
+const BackgroundDetailRoute = lazy(async () => {
+  const module = await import('../routes/rules/BackgroundDetailRoute');
+  return {
+    default: module.BackgroundDetailRoute
+  };
+});
+
 const SrdEquipmentListRoute = lazy(async () => {
   const module = await import('../routes/rules/SrdEquipmentListRoute');
   return {
@@ -227,6 +241,13 @@ const CharacterBuilderRoute = lazy(async () => {
   };
 });
 
+const CharacterBuilderHomeRoute = lazy(async () => {
+  const module = await import('../routes/player/CharacterBuilderHomeRoute');
+  return {
+    default: module.CharacterBuilderHomeRoute
+  };
+});
+
 const CharacterBuilderListRoute = lazy(async () => {
   const module = await import('../routes/player/CharacterBuilderListRoute');
   return {
@@ -259,6 +280,13 @@ const PointBuyRoute = lazy(async () => {
   const module = await import('../routes/player/PointBuyRoute');
   return {
     default: module.PointBuyRoute
+  };
+});
+
+const PlayerToolsRoute = lazy(async () => {
+  const module = await import('../routes/player/PlayerToolsRoute');
+  return {
+    default: module.PlayerToolsRoute
   };
 });
 
@@ -353,6 +381,12 @@ const LegacyRaceDetailRedirect = () => {
   return <Navigate to={`/rules/races/${id}`} replace />;
 };
 
+const LegacyBackgroundDetailRedirect = () => {
+  const params = useParams<{ id: string }>();
+  const id = params.id ?? '';
+  return <Navigate to={`/rules/backgrounds/${id}`} replace />;
+};
+
 const LegacyFeatDetailRedirect = () => {
   const params = useParams<{ id: string }>();
   const id = params.id ?? '';
@@ -381,6 +415,14 @@ const AppRoutes = () => {
           >
             <Route
               index
+              element={
+                <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                  <CharacterBuilderHomeRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="list"
               element={
                 <Suspense fallback={<LoadingCharacterBuilderFallback />}>
                   <CharacterBuilderListRoute />
@@ -448,13 +490,20 @@ const AppRoutes = () => {
           <Route
             path="player/tools"
             element={
-              <PlaceholderRoute
-                title="Player Tools"
-                description="Dice tools are now available at /dice. Additional utilities are coming soon."
-              />
+              <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                <PlayerToolsRoute />
+              </Suspense>
             }
           />
           <Route path="player/tools/dice" element={<Navigate to="/dice" replace />} />
+          <Route
+            path="player/tools/point-buy"
+            element={
+              <Suspense fallback={<LoadingCharacterBuilderFallback />}>
+                <PointBuyRoute />
+              </Suspense>
+            }
+          />
           <Route path="dm" element={<DmHubRoute />} />
           <Route
             path="dm/session"
@@ -651,6 +700,22 @@ const AppRoutes = () => {
               }
             />
             <Route
+              path="backgrounds"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <BackgroundsListRoute />
+                </Suspense>
+              }
+            />
+            <Route
+              path="backgrounds/:id"
+              element={
+                <Suspense fallback={<LoadingRulesFallback />}>
+                  <BackgroundDetailRoute />
+                </Suspense>
+              }
+            />
+            <Route
               path="equipment"
               element={
                 <Suspense fallback={<LoadingRulesFallback />}>
@@ -797,6 +862,8 @@ const AppRoutes = () => {
         <Route path="/lineages/:id" element={<LegacyLineageDetailRedirect />} />
         <Route path="/races" element={<Navigate to="/rules/races" replace />} />
         <Route path="/races/:id" element={<LegacyRaceDetailRedirect />} />
+        <Route path="/backgrounds" element={<Navigate to="/rules/backgrounds" replace />} />
+        <Route path="/background/:id" element={<LegacyBackgroundDetailRedirect />} />
         <Route path="/equipment" element={<Navigate to="/rules/equipment" replace />} />
         <Route path="/conditions" element={<Navigate to="/rules/conditions" replace />} />
         <Route path="/magic-items" element={<Navigate to="/rules/magic-items" replace />} />

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import { getDefaultCharacterRuleset } from '../../characterBuilder/settings/rulesetPreferences';
 import { characterRepository } from '../../characterBuilder/storage/characterRepository';
 
 export const CharacterBuilderNewRoute = () => {
@@ -9,7 +10,7 @@ export const CharacterBuilderNewRoute = () => {
   useEffect(() => {
     let cancelled = false;
     void characterRepository
-      .createCharacter()
+      .createCharacter(getDefaultCharacterRuleset())
       .then((character) => {
         if (!cancelled) {
           navigate(`/player/characters/${character.id}`, { replace: true });
@@ -32,4 +33,3 @@ export const CharacterBuilderNewRoute = () => {
     </section>
   );
 };
-

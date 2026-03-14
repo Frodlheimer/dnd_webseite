@@ -1,12 +1,13 @@
 export type BuilderSectionId =
+  | 'ruleset'
   | 'basics'
-  | 'origin'
+  | 'race'
+  | 'background'
   | 'ability_scores'
   | 'proficiencies'
   | 'features'
   | 'spells'
   | 'equipment'
-  | 'asi_feats'
   | 'review';
 
 export type DecisionKind =
@@ -56,26 +57,27 @@ export type CharacterDecisionCard = {
 };
 
 export const builderSectionOrder: BuilderSectionId[] = [
+  'ruleset',
   'basics',
-  'origin',
+  'race',
+  'background',
   'ability_scores',
   'proficiencies',
   'features',
   'spells',
   'equipment',
-  'asi_feats',
   'review'
 ];
 
 export const BUILDER_SECTION_LABELS: Record<BuilderSectionId, string> = {
+  ruleset: 'Rule Set',
   basics: 'Basics',
-  origin: 'Origin',
+  race: 'Choose Race',
+  background: 'Choose Background',
   ability_scores: 'Ability Scores',
   proficiencies: 'Proficiencies',
   features: 'Features',
   spells: 'Spells',
   equipment: 'Equipment',
-  asi_feats: 'ASI / Feats',
   review: 'Review'
 };
-

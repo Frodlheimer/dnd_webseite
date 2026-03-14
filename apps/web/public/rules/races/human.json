@@ -1,0 +1,189 @@
+{
+  "id": "human",
+  "name": "Human",
+  "parentRaceId": null,
+  "kind": "race",
+  "source": "srd51",
+  "tags": [
+    "has:ability-bonus",
+    "has:language-choice",
+    "kind:race",
+    "language:common",
+    "size:medium",
+    "source:srd51",
+    "speed:30"
+  ],
+  "summary": "It's hard to make generalizations about humans, but your human character has these traits.",
+  "basics": {
+    "size": "Medium",
+    "speedWalk": 30,
+    "speedBurrow": null,
+    "speedClimb": null,
+    "speedFly": null,
+    "speedSwim": null,
+    "creatureType": null,
+    "ageText": "Humans reach adulthood in their late teens and live less than a century.",
+    "alignmentText": "Humans tend toward no particular alignment. The best and the worst are found among them."
+  },
+  "abilities": {
+    "bonuses": {
+      "str": 1,
+      "dex": 1,
+      "con": 1,
+      "int": 1,
+      "wis": 1,
+      "cha": 1
+    },
+    "bonusChoice": null
+  },
+  "languages": {
+    "granted": [
+      "Common"
+    ],
+    "choices": {
+      "choose": 1,
+      "from": [
+        "Abyssal",
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Halfling",
+        "Infernal",
+        "Orc",
+        "Primordial",
+        "Sylvan",
+        "Undercommon"
+      ]
+    }
+  },
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null
+  },
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": [],
+    "skillChoices": null,
+    "toolChoices": null
+  },
+  "defenses": {
+    "resistances": [],
+    "immunities": [],
+    "conditionImmunities": [],
+    "savingThrowAdvantages": []
+  },
+  "traits": [
+    {
+      "id": "human-ability-score-increase",
+      "name": "Ability Score Increase",
+      "summary": "STR +1, DEX +1, CON +1, INT +1, WIS +1, CHA +1",
+      "rulesText": "Your ability scores each increase by 1.",
+      "grants": {
+        "abilities": {
+          "bonuses": {
+            "str": 1,
+            "dex": 1,
+            "con": 1,
+            "int": 1,
+            "wis": 1,
+            "cha": 1
+          }
+        }
+      },
+      "category": "ability"
+    },
+    {
+      "id": "human-age",
+      "name": "Age",
+      "summary": "Humans reach adulthood in their late teens and live less than a century.",
+      "rulesText": "Humans reach adulthood in their late teens and live less than a century.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "human-alignment",
+      "name": "Alignment",
+      "summary": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "rulesText": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "grants": {},
+      "category": "basics"
+    },
+    {
+      "id": "human-size",
+      "name": "Size",
+      "summary": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall.",
+      "rulesText": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+      "grants": {
+        "speed": {
+          "size": "Medium"
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "human-speed",
+      "name": "Speed",
+      "summary": "Walking speed 30 ft",
+      "rulesText": "Your base walking speed is 30 feet.",
+      "grants": {
+        "speed": {
+          "speedWalk": 30
+        }
+      },
+      "category": "basics"
+    },
+    {
+      "id": "human-languages",
+      "name": "Languages",
+      "summary": "Common",
+      "rulesText": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
+      "grants": {
+        "languages": {
+          "granted": [
+            "Common"
+          ],
+          "choices": {
+            "choose": 1,
+            "from": [
+              "Abyssal",
+              "Celestial",
+              "Common",
+              "Draconic",
+              "Dwarvish",
+              "Elvish",
+              "Giant",
+              "Gnomish",
+              "Goblin",
+              "Halfling",
+              "Infernal",
+              "Orc",
+              "Primordial",
+              "Sylvan",
+              "Undercommon"
+            ]
+          }
+        }
+      },
+      "category": "language"
+    }
+  ],
+  "documentBlocks": [
+    {
+      "type": "h2",
+      "text": "Human"
+    },
+    {
+      "type": "p",
+      "text": "It's hard to make generalizations about humans, but your human character has these traits. Ability Score Increase. Your ability scores each increase by 1. Age. Humans reach adulthood in their late teens and live less than a century. Alignment. Humans tend toward no particular alignment. The best and the worst are found among them. Size. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium. Speed. Your base walking speed is 30 feet. Languages. You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+    }
+  ]
+}

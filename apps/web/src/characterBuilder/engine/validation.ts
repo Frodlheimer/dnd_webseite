@@ -1,4 +1,9 @@
-import type { CharacterRecord, PendingDecision, ValidationIssue } from '../model/character';
+import {
+  isImplementedCharacterRuleset,
+  type CharacterRecord,
+  type PendingDecision,
+  type ValidationIssue
+} from '../model/character';
 import type { BuilderClassFeatureChoice, BuilderEquipmentChoice, BuilderSpellSelectionLimits } from '../rules/rulesFacade';
 
 export type ValidationContext = {
@@ -49,6 +54,17 @@ export const buildValidationIssues = (context: ValidationContext): {
     warnings.push(issue);
   };
 
+  if (!isImplementedCharacterRuleset(context.character.ruleset)) {
+    pushError(
+      'Rule Set',
+      'DnD5.5 (SRD 5.2) is not available in the guided Character Builder yet. Switch to DnD5e (SRD 5.1) to continue.'
+    );
+    return {
+      errors,
+      warnings
+    };
+  }
+
   if (context.pointBuyErrors.length > 0) {
     context.pointBuyErrors.forEach((message) => {
       pushError('Ability Scores', message, 'choosePointBuy');
@@ -60,11 +76,11 @@ export const buildValidationIssues = (context: ValidationContext): {
   }
 
   if (!context.character.origin.raceId && !context.character.origin.speciesId) {
-    pushError('Origin', 'Race or species selection is required.', 'chooseRace');
+    pushError('Race', 'Race or species selection is required.', 'chooseRace');
   }
 
   if (!context.character.origin.backgroundId) {
-    pushError('Origin', 'Background selection is required.', 'chooseBackground');
+    pushError('Background', 'Background selection is required.', 'chooseBackground');
   }
 
   if (context.classSkillChoiceCount > 0 && context.selectedClassSkillsCount < context.classSkillChoiceCount) {

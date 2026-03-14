@@ -19,6 +19,7 @@ describe('CharacterRepository', () => {
 
     const created = await repository.createCharacter();
     expect(created.id).toBeTruthy();
+    expect(created.ruleset).toBe('DND5E_2014');
 
     const updatedName = 'Repository Hero';
     created.meta.name = updatedName;
@@ -59,4 +60,3 @@ describe('CharacterRepository', () => {
     expect(loadedDuplicate?.meta.name).toBe('Duplicate');
   });
 });
-
